@@ -6,6 +6,7 @@ import dk.nenolink.learnportuguese.data.model.Dialogue;
 import dk.nenolink.learnportuguese.data.model.GrammarNote;
 import dk.nenolink.learnportuguese.data.model.Level;
 import dk.nenolink.learnportuguese.data.model.Lesson;
+import dk.nenolink.learnportuguese.data.model.NumberEntry;
 import dk.nenolink.learnportuguese.data.model.Phrase;
 import dk.nenolink.learnportuguese.data.model.QuizAnswer;
 import dk.nenolink.learnportuguese.data.model.QuizQuestion;
@@ -32,6 +33,7 @@ public class LessonRepository {
     private static final String LEVEL_FOLDER_PATTERN = "level%d";
     private static final String LEVEL_METADATA_PATTERN = "levels/level%d/level.json";
     private static final String LEVEL_LESSON_ASSET_PATTERN = "levels/level%d/lesson%02d.json";
+    private static final String NUMBERS_ASSET_PATH = "content/numbers_1_100.json";
 
     private final Context appContext;
 
@@ -140,6 +142,15 @@ public class LessonRepository {
         return readAsset(getLessonAssetPath(lessonId));
     }
 
+    public List<NumberEntry> loadNumbers() throws IOException {
+        try {
+            JSONObject json = new JSONObject(readAsset(NUMBERS_ASSET_PATH));
+            return parseNumbers(json.optJSONArray("numbers"));
+        } catch (JSONException exception) {
+            throw new IOException("Invalid numbers JSON in " + NUMBERS_ASSET_PATH, exception);
+        }
+    }
+
     private String readAsset(String assetPath) throws IOException {
         try (InputStream inputStream = appContext.getAssets().open(assetPath);
              BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream, StandardCharsets.UTF_8))) {
@@ -229,8 +240,29 @@ public class LessonRepository {
                 json.optString("titleDa"),
                 json.optString("descriptionDa"),
                 parseDialogues(json.optJSONArray("dialogues")),
-                parseQuizQuestions(json.optJSONArray("quiz"))
+                parseQuizQuestions(json.optJSONArray("quiz")),
+                json.optString("storyTitleDa"),
+                json.optString("storyObjectiveDa"),
+                parsePhrases(json.optJSONArray("story"))
         );
+    }
+
+    private List<NumberEntry> parseNumbers(JSONArray array) throws JSONException {
+        if (array == null) {
+            return Collections.emptyList();
+        }
+
+        List<NumberEntry> numbers = new ArrayList<>();
+        for (int index = 0; index < array.length(); index++) {
+            JSONObject json = array.getJSONObject(index);
+            numbers.add(new NumberEntry(
+                    json.optInt("number"),
+                    json.optString("textPt"),
+                    json.optString("textDa"),
+                    json.optString("noteDa")
+            ));
+        }
+        return Collections.unmodifiableList(numbers);
     }
 
     private List<Dialogue> parseDialogues(JSONArray array) throws JSONException {

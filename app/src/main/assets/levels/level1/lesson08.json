@@ -3,26 +3,178 @@
   "titleDa": "Hotel",
   "descriptionDa": "Lær nyttige sætninger til hotel og overnatning.",
   "dialogues": [
-    {"id":1,"titleDa":"Check-in","objectiveDa":"Sig at du har reservation.","phrases":[{"speaker":"A","textPt":"Tenho uma reserva em meu nome.","textDa":"Jeg har en reservation i mit navn.","grammarDa":"Em meu nome betyder i mit navn."}],"vocabulary":[],"grammar":[]},
-    {"id":2,"titleDa":"Pas","objectiveDa":"Forstå pas.","phrases":[{"speaker":"A","textPt":"Aqui está o meu passaporte.","textDa":"Her er mit pas.","grammarDa":"Aqui está betyder her er."}],"vocabulary":[],"grammar":[]},
-    {"id":3,"titleDa":"Værelse","objectiveDa":"Spørg om værelset.","phrases":[{"speaker":"A","textPt":"Onde fica o quarto?","textDa":"Hvor ligger værelset?","grammarDa":"Quarto betyder værelse."}],"vocabulary":[],"grammar":[]},
-    {"id":4,"titleDa":"Nøgle","objectiveDa":"Bed om nøglen.","phrases":[{"speaker":"A","textPt":"A chave, por favor.","textDa":"Nøglen, tak.","grammarDa":"Chave betyder nøgle."}],"vocabulary":[],"grammar":[]},
-    {"id":5,"titleDa":"Morgenmad","objectiveDa":"Spørg om morgenmad.","phrases":[{"speaker":"A","textPt":"A que horas é o pequeno-almoço?","textDa":"Hvornår er der morgenmad?","grammarDa":"Pequeno-almoço er morgenmad i Portugal."}],"vocabulary":[],"grammar":[]},
-    {"id":6,"titleDa":"Wi-fi","objectiveDa":"Spørg om wifi.","phrases":[{"speaker":"A","textPt":"Qual é a palavra-passe do wi-fi?","textDa":"Hvad er wifi-koden?","grammarDa":"Palavra-passe betyder adgangskode."}],"vocabulary":[],"grammar":[]},
-    {"id":7,"titleDa":"Problem","objectiveDa":"Fortæl om et problem.","phrases":[{"speaker":"A","textPt":"Há um problema no quarto.","textDa":"Der er et problem på værelset.","grammarDa":"Há betyder der er."}],"vocabulary":[],"grammar":[]},
-    {"id":8,"titleDa":"Håndklæde","objectiveDa":"Bed om håndklæde.","phrases":[{"speaker":"A","textPt":"Preciso de uma toalha.","textDa":"Jeg har brug for et håndklæde.","grammarDa":"Toalha betyder håndklæde."}],"vocabulary":[],"grammar":[]},
-    {"id":9,"titleDa":"Check-out","objectiveDa":"Spørg om check-out.","phrases":[{"speaker":"A","textPt":"A que horas é o check-out?","textDa":"Hvornår er check-out?","grammarDa":"A que horas spørger om tidspunkt."}],"vocabulary":[],"grammar":[]},
-    {"id":10,"titleDa":"Bagage","objectiveDa":"Spørg om bagage.","phrases":[{"speaker":"A","textPt":"Posso deixar a mala aqui?","textDa":"Kan jeg efterlade kufferten her?","grammarDa":"Mala betyder kuffert/taske."}],"vocabulary":[],"grammar":[]}
+    {
+      "id": 1,
+      "titleDa": "Check-in",
+      "objectiveDa": "Sig at du har reservation.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Tenho uma reserva em meu nome.",
+          "textDa": "Jeg har en reservation i mit navn.",
+          "grammarDa": "Em meu nome betyder i mit navn."
+        }
+      ],
+      "vocabulary": [],
+      "grammar": []
+    },
+    {
+      "id": 2,
+      "titleDa": "Pas",
+      "objectiveDa": "Forstå pas.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Aqui está o meu passaporte.",
+          "textDa": "Her er mit pas.",
+          "grammarDa": "Aqui está betyder her er."
+        }
+      ],
+      "vocabulary": [],
+      "grammar": []
+    },
+    {
+      "id": 3,
+      "titleDa": "Værelse",
+      "objectiveDa": "Spørg om værelset.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Onde fica o quarto?",
+          "textDa": "Hvor ligger værelset?",
+          "grammarDa": "Quarto betyder værelse."
+        }
+      ],
+      "vocabulary": [],
+      "grammar": []
+    },
+    {
+      "id": 4,
+      "titleDa": "Nøgle",
+      "objectiveDa": "Bed om nøglen.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "A chave, por favor.",
+          "textDa": "Nøglen, tak.",
+          "grammarDa": "Chave betyder nøgle."
+        }
+      ],
+      "vocabulary": [],
+      "grammar": []
+    },
+    {
+      "id": 5,
+      "titleDa": "Morgenmad",
+      "objectiveDa": "Spørg om morgenmad.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "A que horas é o pequeno-almoço?",
+          "textDa": "Hvornår er der morgenmad?",
+          "grammarDa": "Pequeno-almoço er morgenmad i Portugal."
+        }
+      ],
+      "vocabulary": [],
+      "grammar": []
+    },
+    {
+      "id": 6,
+      "titleDa": "Wi-fi",
+      "objectiveDa": "Spørg om wifi.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Qual é a palavra-passe do wi-fi?",
+          "textDa": "Hvad er wifi-koden?",
+          "grammarDa": "Palavra-passe betyder adgangskode."
+        }
+      ],
+      "vocabulary": [],
+      "grammar": []
+    },
+    {
+      "id": 7,
+      "titleDa": "Problem",
+      "objectiveDa": "Fortæl om et problem.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Há um problema no quarto.",
+          "textDa": "Der er et problem på værelset.",
+          "grammarDa": "Há betyder der er."
+        }
+      ],
+      "vocabulary": [],
+      "grammar": []
+    },
+    {
+      "id": 8,
+      "titleDa": "Håndklæde",
+      "objectiveDa": "Bed om håndklæde.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Preciso de uma toalha.",
+          "textDa": "Jeg har brug for et håndklæde.",
+          "grammarDa": "Toalha betyder håndklæde."
+        }
+      ],
+      "vocabulary": [],
+      "grammar": []
+    },
+    {
+      "id": 9,
+      "titleDa": "Check-out",
+      "objectiveDa": "Spørg om check-out.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "A que horas é o check-out?",
+          "textDa": "Hvornår er check-out?",
+          "grammarDa": "A que horas spørger om tidspunkt."
+        }
+      ],
+      "vocabulary": [],
+      "grammar": []
+    },
+    {
+      "id": 10,
+      "titleDa": "Bagage",
+      "objectiveDa": "Spørg om bagage.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Posso deixar a mala aqui?",
+          "textDa": "Kan jeg efterlade kufferten her?",
+          "grammarDa": "Mala betyder kuffert/taske."
+        }
+      ],
+      "vocabulary": [],
+      "grammar": []
+    }
   ],
   "quiz": [
     {
       "id": 1,
       "questionDa": "Hvordan siger man Jeg har en reservation i mit navn?",
       "answers": [
-        {"text": "Tenho uma reserva em meu nome.", "correct": true},
-        {"text": "Aqui está o meu passaporte.", "correct": false},
-        {"text": "A chave, por favor.", "correct": false},
-        {"text": "Preciso de uma toalha.", "correct": false}
+        {
+          "text": "Tenho uma reserva em meu nome.",
+          "correct": true
+        },
+        {
+          "text": "Aqui está o meu passaporte.",
+          "correct": false
+        },
+        {
+          "text": "A chave, por favor.",
+          "correct": false
+        },
+        {
+          "text": "Preciso de uma toalha.",
+          "correct": false
+        }
       ],
       "explanationDa": "Em meu nome betyder i mit navn."
     },
@@ -30,10 +182,22 @@
       "id": 2,
       "questionDa": "Hvilken frase betyder Her er mit pas?",
       "answers": [
-        {"text": "Aqui está o meu passaporte.", "correct": true},
-        {"text": "Onde fica o quarto?", "correct": false},
-        {"text": "Há um problema no quarto.", "correct": false},
-        {"text": "Posso deixar a mala aqui?", "correct": false}
+        {
+          "text": "Aqui está o meu passaporte.",
+          "correct": true
+        },
+        {
+          "text": "Onde fica o quarto?",
+          "correct": false
+        },
+        {
+          "text": "Há um problema no quarto.",
+          "correct": false
+        },
+        {
+          "text": "Posso deixar a mala aqui?",
+          "correct": false
+        }
       ],
       "explanationDa": "Aqui está betyder her er."
     },
@@ -41,10 +205,22 @@
       "id": 3,
       "questionDa": "Hvordan spørger man Hvor ligger værelset?",
       "answers": [
-        {"text": "Onde fica o quarto?", "correct": true},
-        {"text": "A que horas é o check-out?", "correct": false},
-        {"text": "A chave, por favor.", "correct": false},
-        {"text": "Qual é a palavra-passe do wi-fi?", "correct": false}
+        {
+          "text": "Onde fica o quarto?",
+          "correct": true
+        },
+        {
+          "text": "A que horas é o check-out?",
+          "correct": false
+        },
+        {
+          "text": "A chave, por favor.",
+          "correct": false
+        },
+        {
+          "text": "Qual é a palavra-passe do wi-fi?",
+          "correct": false
+        }
       ],
       "explanationDa": "Quarto betyder værelse."
     },
@@ -52,10 +228,22 @@
       "id": 4,
       "questionDa": "Hvilken frase spørger efter wifi-koden?",
       "answers": [
-        {"text": "Qual é a palavra-passe do wi-fi?", "correct": true},
-        {"text": "A que horas é o pequeno-almoço?", "correct": false},
-        {"text": "Preciso de uma toalha.", "correct": false},
-        {"text": "Tenho uma reserva em meu nome.", "correct": false}
+        {
+          "text": "Qual é a palavra-passe do wi-fi?",
+          "correct": true
+        },
+        {
+          "text": "A que horas é o pequeno-almoço?",
+          "correct": false
+        },
+        {
+          "text": "Preciso de uma toalha.",
+          "correct": false
+        },
+        {
+          "text": "Tenho uma reserva em meu nome.",
+          "correct": false
+        }
       ],
       "explanationDa": "Palavra-passe betyder adgangskode."
     },
@@ -63,12 +251,100 @@
       "id": 5,
       "questionDa": "Hvordan siger man Jeg har brug for et håndklæde?",
       "answers": [
-        {"text": "Preciso de uma toalha.", "correct": true},
-        {"text": "Há um problema no quarto.", "correct": false},
-        {"text": "Aqui está o meu passaporte.", "correct": false},
-        {"text": "A chave, por favor.", "correct": false}
+        {
+          "text": "Preciso de uma toalha.",
+          "correct": true
+        },
+        {
+          "text": "Há um problema no quarto.",
+          "correct": false
+        },
+        {
+          "text": "Aqui está o meu passaporte.",
+          "correct": false
+        },
+        {
+          "text": "A chave, por favor.",
+          "correct": false
+        }
       ],
       "explanationDa": "Toalha betyder håndklæde."
+    }
+  ],
+  "storyTitleDa": "Kort dialog: Hotel",
+  "storyObjectiveDa": "L?s en sammenh?ngende mini-dialog med kendte fraser fra lektionen.",
+  "story": [
+    {
+      "speaker": "A",
+      "textPt": "Ol?.",
+      "textDa": "Hej.",
+      "grammarDa": "Kort hilsen."
+    },
+    {
+      "speaker": "B",
+      "textPt": "Ol?. Como est??",
+      "textDa": "Hej. Hvordan har du det?",
+      "grammarDa": "Est? kommer af estar."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Estou bem, obrigado.",
+      "textDa": "Jeg har det godt, tak.",
+      "grammarDa": "Estou bruges om en midlertidig tilstand."
+    },
+    {
+      "speaker": "B",
+      "textPt": "Hoje praticamos Hotel.",
+      "textDa": "I dag ?ver vi Hotel.",
+      "grammarDa": "Praticamos betyder vi ?ver."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Tenho uma pergunta.",
+      "textDa": "Jeg har et sp?rgsm?l.",
+      "grammarDa": "Tenho kommer af ter."
+    },
+    {
+      "speaker": "B",
+      "textPt": "Claro, diga devagar.",
+      "textDa": "Selvf?lgelig, sig det langsomt.",
+      "grammarDa": "Diga er en h?flig opfordring."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Como se diz isto em portugu?s?",
+      "textDa": "Hvordan siger man dette p? portugisisk?",
+      "grammarDa": "Como se diz bruges til at sp?rge om ord."
+    },
+    {
+      "speaker": "B",
+      "textPt": "Dizemos uma frase curta.",
+      "textDa": "Vi siger en kort s?tning.",
+      "grammarDa": "Uma frase curta betyder en kort s?tning."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Repito a frase.",
+      "textDa": "Jeg gentager s?tningen.",
+      "grammarDa": "Repito betyder jeg gentager."
+    },
+    {
+      "speaker": "B",
+      "textPt": "Muito bem.",
+      "textDa": "Meget fint.",
+      "grammarDa": "Muito bem er positiv feedback."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Obrigado pela ajuda.",
+      "textDa": "Tak for hj?lpen.",
+      "grammarDa": "Obrigado bruges af en mand; obrigada af en kvinde."
+    },
+    {
+      "speaker": "B",
+      "textPt": "At? j?.",
+      "textDa": "Vi ses snart.",
+      "grammarDa": "At? j? er en almindelig afslutning."
     }
   ]
 }

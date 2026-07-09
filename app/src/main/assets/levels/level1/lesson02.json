@@ -3,26 +3,178 @@
   "titleDa": "Præsentation",
   "descriptionDa": "Lær at præsentere dig selv på europæisk portugisisk.",
   "dialogues": [
-    {"id":1,"titleDa":"Navn","objectiveDa":"Sig hvad du hedder.","phrases":[{"speaker":"A","textPt":"Chamo-me Anna.","textDa":"Jeg hedder Anna.","grammarDa":"Chamo-me betyder jeg hedder."}],"vocabulary":[],"grammar":[]},
-    {"id":2,"titleDa":"Spørg om navn","objectiveDa":"Spørg hvad en anden hedder.","phrases":[{"speaker":"A","textPt":"Como te chamas?","textDa":"Hvad hedder du?","grammarDa":"Como bruges til hvordan, og te chamas betyder hedder du."}],"vocabulary":[],"grammar":[]},
-    {"id":3,"titleDa":"Nationalitet","objectiveDa":"Sig hvor du kommer fra.","phrases":[{"speaker":"A","textPt":"Sou da Dinamarca.","textDa":"Jeg er fra Danmark.","grammarDa":"Sou da betyder jeg er fra, når landet er feminint."}],"vocabulary":[],"grammar":[]},
-    {"id":4,"titleDa":"By","objectiveDa":"Sig hvor du bor.","phrases":[{"speaker":"A","textPt":"Moro em Copenhaga.","textDa":"Jeg bor i København.","grammarDa":"Moro em betyder jeg bor i."}],"vocabulary":[],"grammar":[]},
-    {"id":5,"titleDa":"Sprog","objectiveDa":"Sig at du taler dansk.","phrases":[{"speaker":"A","textPt":"Falo dinamarquês.","textDa":"Jeg taler dansk.","grammarDa":"Falo betyder jeg taler."}],"vocabulary":[],"grammar":[]},
-    {"id":6,"titleDa":"Lidt portugisisk","objectiveDa":"Sig at du taler lidt portugisisk.","phrases":[{"speaker":"A","textPt":"Falo um pouco de português.","textDa":"Jeg taler lidt portugisisk.","grammarDa":"Um pouco de betyder lidt af."}],"vocabulary":[],"grammar":[]},
-    {"id":7,"titleDa":"Ny begynder","objectiveDa":"Forklar at du er begynder.","phrases":[{"speaker":"A","textPt":"Sou principiante.","textDa":"Jeg er begynder.","grammarDa":"Sou betyder jeg er."}],"vocabulary":[],"grammar":[]},
-    {"id":8,"titleDa":"Høflig hilsen","objectiveDa":"Sig at det er rart at møde nogen.","phrases":[{"speaker":"A","textPt":"Muito prazer.","textDa":"Rart at møde dig.","grammarDa":"Muito prazer bruges som høflig præsentation."}],"vocabulary":[],"grammar":[]},
-    {"id":9,"titleDa":"Gentagelse","objectiveDa":"Bed nogen gentage.","phrases":[{"speaker":"A","textPt":"Pode repetir, por favor?","textDa":"Kan du gentage, tak?","grammarDa":"Pode betyder kan De/du i høflig form."}],"vocabulary":[],"grammar":[]},
-    {"id":10,"titleDa":"Langsomt","objectiveDa":"Bed nogen tale langsomt.","phrases":[{"speaker":"A","textPt":"Pode falar mais devagar?","textDa":"Kan du tale langsommere?","grammarDa":"Mais devagar betyder langsommere."}],"vocabulary":[],"grammar":[]}
+    {
+      "id": 1,
+      "titleDa": "Navn",
+      "objectiveDa": "Sig hvad du hedder.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Chamo-me Anna.",
+          "textDa": "Jeg hedder Anna.",
+          "grammarDa": "Chamo-me betyder jeg hedder."
+        }
+      ],
+      "vocabulary": [],
+      "grammar": []
+    },
+    {
+      "id": 2,
+      "titleDa": "Spørg om navn",
+      "objectiveDa": "Spørg hvad en anden hedder.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Como te chamas?",
+          "textDa": "Hvad hedder du?",
+          "grammarDa": "Como bruges til hvordan, og te chamas betyder hedder du."
+        }
+      ],
+      "vocabulary": [],
+      "grammar": []
+    },
+    {
+      "id": 3,
+      "titleDa": "Nationalitet",
+      "objectiveDa": "Sig hvor du kommer fra.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Sou da Dinamarca.",
+          "textDa": "Jeg er fra Danmark.",
+          "grammarDa": "Sou da betyder jeg er fra, når landet er feminint."
+        }
+      ],
+      "vocabulary": [],
+      "grammar": []
+    },
+    {
+      "id": 4,
+      "titleDa": "By",
+      "objectiveDa": "Sig hvor du bor.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Moro em Copenhaga.",
+          "textDa": "Jeg bor i København.",
+          "grammarDa": "Moro em betyder jeg bor i."
+        }
+      ],
+      "vocabulary": [],
+      "grammar": []
+    },
+    {
+      "id": 5,
+      "titleDa": "Sprog",
+      "objectiveDa": "Sig at du taler dansk.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Falo dinamarquês.",
+          "textDa": "Jeg taler dansk.",
+          "grammarDa": "Falo betyder jeg taler."
+        }
+      ],
+      "vocabulary": [],
+      "grammar": []
+    },
+    {
+      "id": 6,
+      "titleDa": "Lidt portugisisk",
+      "objectiveDa": "Sig at du taler lidt portugisisk.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Falo um pouco de português.",
+          "textDa": "Jeg taler lidt portugisisk.",
+          "grammarDa": "Um pouco de betyder lidt af."
+        }
+      ],
+      "vocabulary": [],
+      "grammar": []
+    },
+    {
+      "id": 7,
+      "titleDa": "Ny begynder",
+      "objectiveDa": "Forklar at du er begynder.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Sou principiante.",
+          "textDa": "Jeg er begynder.",
+          "grammarDa": "Sou betyder jeg er."
+        }
+      ],
+      "vocabulary": [],
+      "grammar": []
+    },
+    {
+      "id": 8,
+      "titleDa": "Høflig hilsen",
+      "objectiveDa": "Sig at det er rart at møde nogen.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Muito prazer.",
+          "textDa": "Rart at møde dig.",
+          "grammarDa": "Muito prazer bruges som høflig præsentation."
+        }
+      ],
+      "vocabulary": [],
+      "grammar": []
+    },
+    {
+      "id": 9,
+      "titleDa": "Gentagelse",
+      "objectiveDa": "Bed nogen gentage.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Pode repetir, por favor?",
+          "textDa": "Kan du gentage, tak?",
+          "grammarDa": "Pode betyder kan De/du i høflig form."
+        }
+      ],
+      "vocabulary": [],
+      "grammar": []
+    },
+    {
+      "id": 10,
+      "titleDa": "Langsomt",
+      "objectiveDa": "Bed nogen tale langsomt.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Pode falar mais devagar?",
+          "textDa": "Kan du tale langsommere?",
+          "grammarDa": "Mais devagar betyder langsommere."
+        }
+      ],
+      "vocabulary": [],
+      "grammar": []
+    }
   ],
   "quiz": [
     {
       "id": 1,
       "questionDa": "Hvordan siger man Jeg hedder Anna?",
       "answers": [
-        {"text": "Chamo-me Anna.", "correct": true},
-        {"text": "Sou principiante.", "correct": false},
-        {"text": "Muito prazer.", "correct": false},
-        {"text": "Pode repetir?", "correct": false}
+        {
+          "text": "Chamo-me Anna.",
+          "correct": true
+        },
+        {
+          "text": "Sou principiante.",
+          "correct": false
+        },
+        {
+          "text": "Muito prazer.",
+          "correct": false
+        },
+        {
+          "text": "Pode repetir?",
+          "correct": false
+        }
       ],
       "explanationDa": "Chamo-me bruges til at sige hvad man hedder."
     },
@@ -30,10 +182,22 @@
       "id": 2,
       "questionDa": "Hvilken frase spørger efter navn?",
       "answers": [
-        {"text": "Como te chamas?", "correct": true},
-        {"text": "Falo dinamarquês.", "correct": false},
-        {"text": "Moro em Copenhaga.", "correct": false},
-        {"text": "Sou da Dinamarca.", "correct": false}
+        {
+          "text": "Como te chamas?",
+          "correct": true
+        },
+        {
+          "text": "Falo dinamarquês.",
+          "correct": false
+        },
+        {
+          "text": "Moro em Copenhaga.",
+          "correct": false
+        },
+        {
+          "text": "Sou da Dinamarca.",
+          "correct": false
+        }
       ],
       "explanationDa": "Como te chamas? betyder hvad hedder du?"
     },
@@ -41,10 +205,22 @@
       "id": 3,
       "questionDa": "Hvordan siger man Jeg taler lidt portugisisk?",
       "answers": [
-        {"text": "Falo um pouco de português.", "correct": true},
-        {"text": "Falo dinamarquês.", "correct": false},
-        {"text": "Sou principiante.", "correct": false},
-        {"text": "Pode falar mais devagar?", "correct": false}
+        {
+          "text": "Falo um pouco de português.",
+          "correct": true
+        },
+        {
+          "text": "Falo dinamarquês.",
+          "correct": false
+        },
+        {
+          "text": "Sou principiante.",
+          "correct": false
+        },
+        {
+          "text": "Pode falar mais devagar?",
+          "correct": false
+        }
       ],
       "explanationDa": "Um pouco de betyder lidt af."
     },
@@ -52,10 +228,22 @@
       "id": 4,
       "questionDa": "Hvilken frase betyder Rart at møde dig?",
       "answers": [
-        {"text": "Muito prazer.", "correct": true},
-        {"text": "Pode repetir, por favor?", "correct": false},
-        {"text": "Sou da Dinamarca.", "correct": false},
-        {"text": "Como te chamas?", "correct": false}
+        {
+          "text": "Muito prazer.",
+          "correct": true
+        },
+        {
+          "text": "Pode repetir, por favor?",
+          "correct": false
+        },
+        {
+          "text": "Sou da Dinamarca.",
+          "correct": false
+        },
+        {
+          "text": "Como te chamas?",
+          "correct": false
+        }
       ],
       "explanationDa": "Muito prazer bruges høfligt, når man præsenterer sig."
     },
@@ -63,12 +251,100 @@
       "id": 5,
       "questionDa": "Hvordan beder du nogen tale langsommere?",
       "answers": [
-        {"text": "Pode falar mais devagar?", "correct": true},
-        {"text": "Pode repetir, por favor?", "correct": false},
-        {"text": "Falo dinamarquês.", "correct": false},
-        {"text": "Moro em Copenhaga.", "correct": false}
+        {
+          "text": "Pode falar mais devagar?",
+          "correct": true
+        },
+        {
+          "text": "Pode repetir, por favor?",
+          "correct": false
+        },
+        {
+          "text": "Falo dinamarquês.",
+          "correct": false
+        },
+        {
+          "text": "Moro em Copenhaga.",
+          "correct": false
+        }
       ],
       "explanationDa": "Mais devagar betyder langsommere."
+    }
+  ],
+  "storyTitleDa": "Kort dialog: Præsentation",
+  "storyObjectiveDa": "L?s en sammenh?ngende mini-dialog med kendte fraser fra lektionen.",
+  "story": [
+    {
+      "speaker": "A",
+      "textPt": "Ol?.",
+      "textDa": "Hej.",
+      "grammarDa": "Kort hilsen."
+    },
+    {
+      "speaker": "B",
+      "textPt": "Ol?. Como est??",
+      "textDa": "Hej. Hvordan har du det?",
+      "grammarDa": "Est? kommer af estar."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Estou bem, obrigado.",
+      "textDa": "Jeg har det godt, tak.",
+      "grammarDa": "Estou bruges om en midlertidig tilstand."
+    },
+    {
+      "speaker": "B",
+      "textPt": "Hoje praticamos Præsentation.",
+      "textDa": "I dag ?ver vi Præsentation.",
+      "grammarDa": "Praticamos betyder vi ?ver."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Tenho uma pergunta.",
+      "textDa": "Jeg har et sp?rgsm?l.",
+      "grammarDa": "Tenho kommer af ter."
+    },
+    {
+      "speaker": "B",
+      "textPt": "Claro, diga devagar.",
+      "textDa": "Selvf?lgelig, sig det langsomt.",
+      "grammarDa": "Diga er en h?flig opfordring."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Como se diz isto em portugu?s?",
+      "textDa": "Hvordan siger man dette p? portugisisk?",
+      "grammarDa": "Como se diz bruges til at sp?rge om ord."
+    },
+    {
+      "speaker": "B",
+      "textPt": "Dizemos uma frase curta.",
+      "textDa": "Vi siger en kort s?tning.",
+      "grammarDa": "Uma frase curta betyder en kort s?tning."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Repito a frase.",
+      "textDa": "Jeg gentager s?tningen.",
+      "grammarDa": "Repito betyder jeg gentager."
+    },
+    {
+      "speaker": "B",
+      "textPt": "Muito bem.",
+      "textDa": "Meget fint.",
+      "grammarDa": "Muito bem er positiv feedback."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Obrigado pela ajuda.",
+      "textDa": "Tak for hj?lpen.",
+      "grammarDa": "Obrigado bruges af en mand; obrigada af en kvinde."
+    },
+    {
+      "speaker": "B",
+      "textPt": "At? j?.",
+      "textDa": "Vi ses snart.",
+      "grammarDa": "At? j? er en almindelig afslutning."
     }
   ]
 }
