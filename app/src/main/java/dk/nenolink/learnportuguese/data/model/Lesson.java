@@ -10,19 +10,28 @@ public class Lesson {
     private final String descriptionDa;
     private final List<Dialogue> dialogues;
     private final List<QuizQuestion> quiz;
+    private final String storyTitleDa;
+    private final String storyObjectiveDa;
+    private final List<Phrase> story;
 
     public Lesson(
             int id,
             String titleDa,
             String descriptionDa,
             List<Dialogue> dialogues,
-            List<QuizQuestion> quiz
+            List<QuizQuestion> quiz,
+            String storyTitleDa,
+            String storyObjectiveDa,
+            List<Phrase> story
     ) {
         this.id = id;
         this.titleDa = titleDa;
         this.descriptionDa = descriptionDa;
         this.dialogues = immutableCopy(dialogues);
         this.quiz = immutableCopy(quiz);
+        this.storyTitleDa = storyTitleDa;
+        this.storyObjectiveDa = storyObjectiveDa;
+        this.story = immutableCopy(story);
     }
 
     public int getId() {
@@ -43,6 +52,18 @@ public class Lesson {
 
     public List<QuizQuestion> getQuiz() {
         return quiz;
+    }
+
+    public String getStoryTitleDa() {
+        return storyTitleDa;
+    }
+
+    public String getStoryObjectiveDa() {
+        return storyObjectiveDa;
+    }
+
+    public List<Phrase> getStory() {
+        return story;
     }
 
     private static <T> List<T> immutableCopy(List<T> items) {

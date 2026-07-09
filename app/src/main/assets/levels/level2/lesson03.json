@@ -780,5 +780,81 @@
       ],
       "explanationDa": "Estar bruges om tilstand lige nu, placering og midlertidige situationer."
     }
+  ],
+  "storyTitleDa": "Kort dialog: At være: estar",
+  "storyObjectiveDa": "L?s en sammenh?ngende mini-dialog med kendte fraser fra lektionen.",
+  "story": [
+    {
+      "speaker": "A",
+      "textPt": "Ol?.",
+      "textDa": "Hej.",
+      "grammarDa": "Kort hilsen."
+    },
+    {
+      "speaker": "B",
+      "textPt": "Ol?. Como est??",
+      "textDa": "Hej. Hvordan har du det?",
+      "grammarDa": "Est? kommer af estar."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Estou bem, obrigado.",
+      "textDa": "Jeg har det godt, tak.",
+      "grammarDa": "Estou bruges om en midlertidig tilstand."
+    },
+    {
+      "speaker": "B",
+      "textPt": "Hoje praticamos At være: estar.",
+      "textDa": "I dag ?ver vi At være: estar.",
+      "grammarDa": "Praticamos betyder vi ?ver."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Tenho uma pergunta.",
+      "textDa": "Jeg har et sp?rgsm?l.",
+      "grammarDa": "Tenho kommer af ter."
+    },
+    {
+      "speaker": "B",
+      "textPt": "Claro, diga devagar.",
+      "textDa": "Selvf?lgelig, sig det langsomt.",
+      "grammarDa": "Diga er en h?flig opfordring."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Como se diz isto em portugu?s?",
+      "textDa": "Hvordan siger man dette p? portugisisk?",
+      "grammarDa": "Como se diz bruges til at sp?rge om ord."
+    },
+    {
+      "speaker": "B",
+      "textPt": "Dizemos uma frase curta.",
+      "textDa": "Vi siger en kort s?tning.",
+      "grammarDa": "Uma frase curta betyder en kort s?tning."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Repito a frase.",
+      "textDa": "Jeg gentager s?tningen.",
+      "grammarDa": "Repito betyder jeg gentager."
+    },
+    {
+      "speaker": "B",
+      "textPt": "Muito bem.",
+      "textDa": "Meget fint.",
+      "grammarDa": "Muito bem er positiv feedback."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Obrigado pela ajuda.",
+      "textDa": "Tak for hj?lpen.",
+      "grammarDa": "Obrigado bruges af en mand; obrigada af en kvinde."
+    },
+    {
+      "speaker": "B",
+      "textPt": "At? j?.",
+      "textDa": "Vi ses snart.",
+      "grammarDa": "At? j? er en almindelig afslutning."
+    }
   ]
 }

@@ -1,0 +1,605 @@
+{
+  "titleDa": "Tal 1-100",
+  "numbers": [
+    {
+      "number": 1,
+      "textPt": "um",
+      "textDa": "en",
+      "noteDa": "Grundtal 1-19."
+    },
+    {
+      "number": 2,
+      "textPt": "dois",
+      "textDa": "to",
+      "noteDa": "Grundtal 1-19."
+    },
+    {
+      "number": 3,
+      "textPt": "tr?s",
+      "textDa": "tre",
+      "noteDa": "Grundtal 1-19."
+    },
+    {
+      "number": 4,
+      "textPt": "quatro",
+      "textDa": "fire",
+      "noteDa": "Grundtal 1-19."
+    },
+    {
+      "number": 5,
+      "textPt": "cinco",
+      "textDa": "fem",
+      "noteDa": "Grundtal 1-19."
+    },
+    {
+      "number": 6,
+      "textPt": "seis",
+      "textDa": "seks",
+      "noteDa": "Grundtal 1-19."
+    },
+    {
+      "number": 7,
+      "textPt": "sete",
+      "textDa": "syv",
+      "noteDa": "Grundtal 1-19."
+    },
+    {
+      "number": 8,
+      "textPt": "oito",
+      "textDa": "otte",
+      "noteDa": "Grundtal 1-19."
+    },
+    {
+      "number": 9,
+      "textPt": "nove",
+      "textDa": "ni",
+      "noteDa": "Grundtal 1-19."
+    },
+    {
+      "number": 10,
+      "textPt": "dez",
+      "textDa": "ti",
+      "noteDa": "Grundtal 1-19."
+    },
+    {
+      "number": 11,
+      "textPt": "onze",
+      "textDa": "elleve",
+      "noteDa": "Grundtal 1-19."
+    },
+    {
+      "number": 12,
+      "textPt": "doze",
+      "textDa": "tolv",
+      "noteDa": "Grundtal 1-19."
+    },
+    {
+      "number": 13,
+      "textPt": "treze",
+      "textDa": "tretten",
+      "noteDa": "Grundtal 1-19."
+    },
+    {
+      "number": 14,
+      "textPt": "catorze",
+      "textDa": "fjorten",
+      "noteDa": "Grundtal 1-19."
+    },
+    {
+      "number": 15,
+      "textPt": "quinze",
+      "textDa": "femten",
+      "noteDa": "Grundtal 1-19."
+    },
+    {
+      "number": 16,
+      "textPt": "dezasseis",
+      "textDa": "seksten",
+      "noteDa": "Grundtal 1-19."
+    },
+    {
+      "number": 17,
+      "textPt": "dezassete",
+      "textDa": "sytten",
+      "noteDa": "Grundtal 1-19."
+    },
+    {
+      "number": 18,
+      "textPt": "dezoito",
+      "textDa": "atten",
+      "noteDa": "Grundtal 1-19."
+    },
+    {
+      "number": 19,
+      "textPt": "dezanove",
+      "textDa": "nitten",
+      "noteDa": "Grundtal 1-19."
+    },
+    {
+      "number": 20,
+      "textPt": "vinte",
+      "textDa": "tyve",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 21,
+      "textPt": "vinte e um",
+      "textDa": "enogtyve",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 22,
+      "textPt": "vinte e dois",
+      "textDa": "toogtyve",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 23,
+      "textPt": "vinte e tr?s",
+      "textDa": "treogtyve",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 24,
+      "textPt": "vinte e quatro",
+      "textDa": "fireogtyve",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 25,
+      "textPt": "vinte e cinco",
+      "textDa": "femogtyve",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 26,
+      "textPt": "vinte e seis",
+      "textDa": "seksogtyve",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 27,
+      "textPt": "vinte e sete",
+      "textDa": "syvogtyve",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 28,
+      "textPt": "vinte e oito",
+      "textDa": "otteogtyve",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 29,
+      "textPt": "vinte e nove",
+      "textDa": "niogtyve",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 30,
+      "textPt": "trinta",
+      "textDa": "tredive",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 31,
+      "textPt": "trinta e um",
+      "textDa": "enogtredive",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 32,
+      "textPt": "trinta e dois",
+      "textDa": "toogtredive",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 33,
+      "textPt": "trinta e tr?s",
+      "textDa": "treogtredive",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 34,
+      "textPt": "trinta e quatro",
+      "textDa": "fireogtredive",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 35,
+      "textPt": "trinta e cinco",
+      "textDa": "femogtredive",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 36,
+      "textPt": "trinta e seis",
+      "textDa": "seksogtredive",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 37,
+      "textPt": "trinta e sete",
+      "textDa": "syvogtredive",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 38,
+      "textPt": "trinta e oito",
+      "textDa": "otteogtredive",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 39,
+      "textPt": "trinta e nove",
+      "textDa": "niogtredive",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 40,
+      "textPt": "quarenta",
+      "textDa": "fyrre",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 41,
+      "textPt": "quarenta e um",
+      "textDa": "enogfyrre",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 42,
+      "textPt": "quarenta e dois",
+      "textDa": "toogfyrre",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 43,
+      "textPt": "quarenta e tr?s",
+      "textDa": "treogfyrre",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 44,
+      "textPt": "quarenta e quatro",
+      "textDa": "fireogfyrre",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 45,
+      "textPt": "quarenta e cinco",
+      "textDa": "femogfyrre",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 46,
+      "textPt": "quarenta e seis",
+      "textDa": "seksogfyrre",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 47,
+      "textPt": "quarenta e sete",
+      "textDa": "syvogfyrre",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 48,
+      "textPt": "quarenta e oito",
+      "textDa": "otteogfyrre",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 49,
+      "textPt": "quarenta e nove",
+      "textDa": "niogfyrre",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 50,
+      "textPt": "cinquenta",
+      "textDa": "halvtreds",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 51,
+      "textPt": "cinquenta e um",
+      "textDa": "enoghalvtreds",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 52,
+      "textPt": "cinquenta e dois",
+      "textDa": "tooghalvtreds",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 53,
+      "textPt": "cinquenta e tr?s",
+      "textDa": "treoghalvtreds",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 54,
+      "textPt": "cinquenta e quatro",
+      "textDa": "fireoghalvtreds",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 55,
+      "textPt": "cinquenta e cinco",
+      "textDa": "femoghalvtreds",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 56,
+      "textPt": "cinquenta e seis",
+      "textDa": "seksoghalvtreds",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 57,
+      "textPt": "cinquenta e sete",
+      "textDa": "syvoghalvtreds",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 58,
+      "textPt": "cinquenta e oito",
+      "textDa": "otteoghalvtreds",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 59,
+      "textPt": "cinquenta e nove",
+      "textDa": "nioghalvtreds",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 60,
+      "textPt": "sessenta",
+      "textDa": "tres",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 61,
+      "textPt": "sessenta e um",
+      "textDa": "enogtres",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 62,
+      "textPt": "sessenta e dois",
+      "textDa": "toogtres",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 63,
+      "textPt": "sessenta e tr?s",
+      "textDa": "treogtres",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 64,
+      "textPt": "sessenta e quatro",
+      "textDa": "fireogtres",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 65,
+      "textPt": "sessenta e cinco",
+      "textDa": "femogtres",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 66,
+      "textPt": "sessenta e seis",
+      "textDa": "seksogtres",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 67,
+      "textPt": "sessenta e sete",
+      "textDa": "syvogtres",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 68,
+      "textPt": "sessenta e oito",
+      "textDa": "otteogtres",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 69,
+      "textPt": "sessenta e nove",
+      "textDa": "niogtres",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 70,
+      "textPt": "setenta",
+      "textDa": "halvfjerds",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 71,
+      "textPt": "setenta e um",
+      "textDa": "enoghalvfjerds",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 72,
+      "textPt": "setenta e dois",
+      "textDa": "tooghalvfjerds",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 73,
+      "textPt": "setenta e tr?s",
+      "textDa": "treoghalvfjerds",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 74,
+      "textPt": "setenta e quatro",
+      "textDa": "fireoghalvfjerds",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 75,
+      "textPt": "setenta e cinco",
+      "textDa": "femoghalvfjerds",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 76,
+      "textPt": "setenta e seis",
+      "textDa": "seksoghalvfjerds",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 77,
+      "textPt": "setenta e sete",
+      "textDa": "syvoghalvfjerds",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 78,
+      "textPt": "setenta e oito",
+      "textDa": "otteoghalvfjerds",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 79,
+      "textPt": "setenta e nove",
+      "textDa": "nioghalvfjerds",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 80,
+      "textPt": "oitenta",
+      "textDa": "firs",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 81,
+      "textPt": "oitenta e um",
+      "textDa": "enogfirs",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 82,
+      "textPt": "oitenta e dois",
+      "textDa": "toogfirs",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 83,
+      "textPt": "oitenta e tr?s",
+      "textDa": "treogfirs",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 84,
+      "textPt": "oitenta e quatro",
+      "textDa": "fireogfirs",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 85,
+      "textPt": "oitenta e cinco",
+      "textDa": "femogfirs",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 86,
+      "textPt": "oitenta e seis",
+      "textDa": "seksogfirs",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 87,
+      "textPt": "oitenta e sete",
+      "textDa": "syvogfirs",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 88,
+      "textPt": "oitenta e oito",
+      "textDa": "otteogfirs",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 89,
+      "textPt": "oitenta e nove",
+      "textDa": "niogfirs",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 90,
+      "textPt": "noventa",
+      "textDa": "halvfems",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 91,
+      "textPt": "noventa e um",
+      "textDa": "enoghalvfems",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 92,
+      "textPt": "noventa e dois",
+      "textDa": "tooghalvfems",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 93,
+      "textPt": "noventa e tr?s",
+      "textDa": "treoghalvfems",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 94,
+      "textPt": "noventa e quatro",
+      "textDa": "fireoghalvfems",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 95,
+      "textPt": "noventa e cinco",
+      "textDa": "femoghalvfems",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 96,
+      "textPt": "noventa e seis",
+      "textDa": "seksoghalvfems",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 97,
+      "textPt": "noventa e sete",
+      "textDa": "syvoghalvfems",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 98,
+      "textPt": "noventa e oito",
+      "textDa": "otteoghalvfems",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 99,
+      "textPt": "noventa e nove",
+      "textDa": "nioghalvfems",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    },
+    {
+      "number": 100,
+      "textPt": "cem",
+      "textDa": "hundrede",
+      "noteDa": "Tal fra 20-100 dannes med tierne og \"e\" mellem tier og ener."
+    }
+  ]
+}
