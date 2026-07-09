@@ -1,0 +1,374 @@
+{
+  "id": 3,
+  "titleDa": "At være: estar",
+  "descriptionDa": "Træn estar til humør, placering og midlertidige situationer.",
+  "dialogues": [
+    {
+      "id": 1,
+      "titleDa": "Humør",
+      "objectiveDa": "Træn: Jeg er glad.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Estou contente.",
+          "textDa": "Jeg er glad.",
+          "grammarDa": "Estou beskriver hvordan jeg har det nu."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Estou",
+          "textDa": "nøgleord fra: humør"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "estar",
+          "explanationDa": "Estar bruges om tilstand lige nu, placering og midlertidige situationer."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titleDa": "Træt",
+      "objectiveDa": "Træn: Hun er træt.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Ela está cansada.",
+          "textDa": "Hun er træt.",
+          "grammarDa": "Está beskriver en midlertidig tilstand."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Ela",
+          "textDa": "nøgleord fra: træt"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "estar",
+          "explanationDa": "Estar bruges om tilstand lige nu, placering og midlertidige situationer."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "titleDa": "Hjemme",
+      "objectiveDa": "Træn: Han er hjemme.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Ele está em casa.",
+          "textDa": "Han er hjemme.",
+          "grammarDa": "Estar bruges om placering."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Ele",
+          "textDa": "nøgleord fra: hjemme"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "estar",
+          "explanationDa": "Estar bruges om tilstand lige nu, placering og midlertidige situationer."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "titleDa": "Cafe",
+      "objectiveDa": "Træn: Vi er på cafeen.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Estamos no café.",
+          "textDa": "Vi er på cafeen.",
+          "grammarDa": "Estamos er vi-formen af estar."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Estamos",
+          "textDa": "nøgleord fra: cafe"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "estar",
+          "explanationDa": "Estar bruges om tilstand lige nu, placering og midlertidige situationer."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "titleDa": "Byen",
+      "objectiveDa": "Træn: Jeg er i byen.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Estou na cidade.",
+          "textDa": "Jeg er i byen.",
+          "grammarDa": "Na betyder i/på + feminin artikel."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Estou",
+          "textDa": "nøgleord fra: byen"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "estar",
+          "explanationDa": "Estar bruges om tilstand lige nu, placering og midlertidige situationer."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "titleDa": "Optaget",
+      "objectiveDa": "Træn: Jeg er optaget nu.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Estou ocupado agora.",
+          "textDa": "Jeg er optaget nu.",
+          "grammarDa": "Agora betyder nu."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Estou",
+          "textDa": "nøgleord fra: optaget"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "estar",
+          "explanationDa": "Estar bruges om tilstand lige nu, placering og midlertidige situationer."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "titleDa": "Klar",
+      "objectiveDa": "Træn: Vi er klar.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Estamos prontos.",
+          "textDa": "Vi er klar.",
+          "grammarDa": "Prontos bøjes efter flere personer."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Estamos",
+          "textDa": "nøgleord fra: klar"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "estar",
+          "explanationDa": "Estar bruges om tilstand lige nu, placering og midlertidige situationer."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "titleDa": "Vejr",
+      "objectiveDa": "Træn: Det er koldt i dag.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Está frio hoje.",
+          "textDa": "Det er koldt i dag.",
+          "grammarDa": "Está bruges ofte om vejr lige nu."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Está",
+          "textDa": "nøgleord fra: vejr"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "estar",
+          "explanationDa": "Estar bruges om tilstand lige nu, placering og midlertidige situationer."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "titleDa": "Sted",
+      "objectiveDa": "Træn: Butikken er tæt på.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "A loja está perto.",
+          "textDa": "Butikken er tæt på.",
+          "grammarDa": "Estar bruges om placering."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "A",
+          "textDa": "nøgleord fra: sted"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "estar",
+          "explanationDa": "Estar bruges om tilstand lige nu, placering og midlertidige situationer."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "titleDa": "Situation",
+      "objectiveDa": "Træn: Supermarkedet er åbent.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "O supermercado está aberto.",
+          "textDa": "Supermarkedet er åbent.",
+          "grammarDa": "Aberto beskriver aktuel status."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "O",
+          "textDa": "nøgleord fra: situation"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "estar",
+          "explanationDa": "Estar bruges om tilstand lige nu, placering og midlertidige situationer."
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "questionDa": "Hvilken sætning betyder: Jeg er glad.",
+      "answers": [
+        {
+          "text": "Estou contente.",
+          "correct": true
+        },
+        {
+          "text": "Ela está cansada.",
+          "correct": false
+        },
+        {
+          "text": "Ele está em casa.",
+          "correct": false
+        },
+        {
+          "text": "Estamos no café.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Estou beskriver hvordan jeg har det nu."
+    },
+    {
+      "id": 2,
+      "questionDa": "Hvad betyder: Ela está cansada.",
+      "answers": [
+        {
+          "text": "Hun er træt.",
+          "correct": true
+        },
+        {
+          "text": "Jeg er glad.",
+          "correct": false
+        },
+        {
+          "text": "Han er hjemme.",
+          "correct": false
+        },
+        {
+          "text": "Jeg er i byen.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Está beskriver en midlertidig tilstand."
+    },
+    {
+      "id": 3,
+      "questionDa": "Hvilket tema træner denne lektion mest?",
+      "answers": [
+        {
+          "text": "At være: estar",
+          "correct": true
+        },
+        {
+          "text": "Kun farver",
+          "correct": false
+        },
+        {
+          "text": "Kun alfabetet",
+          "correct": false
+        },
+        {
+          "text": "Kun dyr",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Træn estar til humør, placering og midlertidige situationer."
+    },
+    {
+      "id": 4,
+      "questionDa": "Vælg den portugisiske frase fra dialogen \"Hjemme\".",
+      "answers": [
+        {
+          "text": "Ele está em casa.",
+          "correct": true
+        },
+        {
+          "text": "Han er hjemme.",
+          "correct": false
+        },
+        {
+          "text": "Jeg er glad.",
+          "correct": false
+        },
+        {
+          "text": "Hun er træt.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Estar bruges om placering."
+    },
+    {
+      "id": 5,
+      "questionDa": "Hvad skal brugeren især øve her?",
+      "answers": [
+        {
+          "text": "estar",
+          "correct": true
+        },
+        {
+          "text": "Engelsk udtale",
+          "correct": false
+        },
+        {
+          "text": "Danske talord",
+          "correct": false
+        },
+        {
+          "text": "Tyske kasus",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Estar bruges om tilstand lige nu, placering og midlertidige situationer."
+    }
+  ]
+}

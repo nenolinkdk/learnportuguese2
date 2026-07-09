@@ -1,0 +1,374 @@
+{
+  "id": 7,
+  "titleDa": "Supermarked",
+  "descriptionDa": "Køb madvarer, mængder og betal i supermarkedet.",
+  "dialogues": [
+    {
+      "id": 1,
+      "titleDa": "Brød",
+      "objectiveDa": "Træn: Jeg vil gerne have brød.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Queria pão.",
+          "textDa": "Jeg vil gerne have brød.",
+          "grammarDa": "Pão betyder brød."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Queria",
+          "textDa": "nøgleord fra: brød"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "supermarked",
+          "explanationDa": "Brug queria, tem og posso til enkle supermarkedsspørgsmål."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titleDa": "Mælk",
+      "objectiveDa": "Træn: Hvor er mælken?",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Onde está o leite?",
+          "textDa": "Hvor er mælken?",
+          "grammarDa": "Onde está spørger efter placering."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Onde",
+          "textDa": "nøgleord fra: mælk"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "supermarked",
+          "explanationDa": "Brug queria, tem og posso til enkle supermarkedsspørgsmål."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "titleDa": "Frugt",
+      "objectiveDa": "Træn: Har I æbler?",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Tem maçãs?",
+          "textDa": "Har I æbler?",
+          "grammarDa": "Maçãs betyder æbler."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Tem",
+          "textDa": "nøgleord fra: frugt"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "supermarked",
+          "explanationDa": "Brug queria, tem og posso til enkle supermarkedsspørgsmål."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "titleDa": "Mængde",
+      "objectiveDa": "Træn: Jeg vil gerne have et halvt kilo.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Queria meio quilo.",
+          "textDa": "Jeg vil gerne have et halvt kilo.",
+          "grammarDa": "Meio quilo betyder halvt kilo."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Queria",
+          "textDa": "nøgleord fra: mængde"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "supermarked",
+          "explanationDa": "Brug queria, tem og posso til enkle supermarkedsspørgsmål."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "titleDa": "Vand",
+      "objectiveDa": "Træn: Jeg har brug for vand.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Preciso de água.",
+          "textDa": "Jeg har brug for vand.",
+          "grammarDa": "Água betyder vand."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Preciso",
+          "textDa": "nøgleord fra: vand"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "supermarked",
+          "explanationDa": "Brug queria, tem og posso til enkle supermarkedsspørgsmål."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "titleDa": "Kort",
+      "objectiveDa": "Træn: Tager I kort?",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Aceita cartão?",
+          "textDa": "Tager I kort?",
+          "grammarDa": "Aceita betyder accepterer."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Aceita",
+          "textDa": "nøgleord fra: kort"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "supermarked",
+          "explanationDa": "Brug queria, tem og posso til enkle supermarkedsspørgsmål."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "titleDa": "Kontant",
+      "objectiveDa": "Træn: Jeg har kun kontanter.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Só tenho dinheiro.",
+          "textDa": "Jeg har kun kontanter.",
+          "grammarDa": "Só betyder kun."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Só",
+          "textDa": "nøgleord fra: kontant"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "supermarked",
+          "explanationDa": "Brug queria, tem og posso til enkle supermarkedsspørgsmål."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "titleDa": "Pose",
+      "objectiveDa": "Træn: Vil du have en pose?",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Quer saco?",
+          "textDa": "Vil du have en pose?",
+          "grammarDa": "Quer betyder vil du have."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Quer",
+          "textDa": "nøgleord fra: pose"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "supermarked",
+          "explanationDa": "Brug queria, tem og posso til enkle supermarkedsspørgsmål."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "titleDa": "Kvittering",
+      "objectiveDa": "Træn: Vil du have kvittering?",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Quer recibo?",
+          "textDa": "Vil du have kvittering?",
+          "grammarDa": "Recibo betyder kvittering."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Quer",
+          "textDa": "nøgleord fra: kvittering"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "supermarked",
+          "explanationDa": "Brug queria, tem og posso til enkle supermarkedsspørgsmål."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "titleDa": "Udgang",
+      "objectiveDa": "Træn: Hvor er udgangen?",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Onde está a saída?",
+          "textDa": "Hvor er udgangen?",
+          "grammarDa": "Saída betyder udgang."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Onde",
+          "textDa": "nøgleord fra: udgang"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "supermarked",
+          "explanationDa": "Brug queria, tem og posso til enkle supermarkedsspørgsmål."
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "questionDa": "Hvilken sætning betyder: Jeg vil gerne have brød.",
+      "answers": [
+        {
+          "text": "Queria pão.",
+          "correct": true
+        },
+        {
+          "text": "Onde está o leite?",
+          "correct": false
+        },
+        {
+          "text": "Tem maçãs?",
+          "correct": false
+        },
+        {
+          "text": "Queria meio quilo.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Pão betyder brød."
+    },
+    {
+      "id": 2,
+      "questionDa": "Hvad betyder: Onde está o leite?",
+      "answers": [
+        {
+          "text": "Hvor er mælken?",
+          "correct": true
+        },
+        {
+          "text": "Jeg vil gerne have brød.",
+          "correct": false
+        },
+        {
+          "text": "Har I æbler?",
+          "correct": false
+        },
+        {
+          "text": "Jeg har brug for vand.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Onde está spørger efter placering."
+    },
+    {
+      "id": 3,
+      "questionDa": "Hvilket tema træner denne lektion mest?",
+      "answers": [
+        {
+          "text": "Supermarked",
+          "correct": true
+        },
+        {
+          "text": "Kun farver",
+          "correct": false
+        },
+        {
+          "text": "Kun alfabetet",
+          "correct": false
+        },
+        {
+          "text": "Kun dyr",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Køb madvarer, mængder og betal i supermarkedet."
+    },
+    {
+      "id": 4,
+      "questionDa": "Vælg den portugisiske frase fra dialogen \"Frugt\".",
+      "answers": [
+        {
+          "text": "Tem maçãs?",
+          "correct": true
+        },
+        {
+          "text": "Har I æbler?",
+          "correct": false
+        },
+        {
+          "text": "Jeg vil gerne have brød.",
+          "correct": false
+        },
+        {
+          "text": "Hvor er mælken?",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Maçãs betyder æbler."
+    },
+    {
+      "id": 5,
+      "questionDa": "Hvad skal brugeren især øve her?",
+      "answers": [
+        {
+          "text": "supermarked",
+          "correct": true
+        },
+        {
+          "text": "Engelsk udtale",
+          "correct": false
+        },
+        {
+          "text": "Danske talord",
+          "correct": false
+        },
+        {
+          "text": "Tyske kasus",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Brug queria, tem og posso til enkle supermarkedsspørgsmål."
+    }
+  ]
+}

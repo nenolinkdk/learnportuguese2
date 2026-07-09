@@ -1,0 +1,74 @@
+{
+  "id": 9,
+  "titleDa": "Indkøb",
+  "descriptionDa": "Lær at købe ind og spørge om priser.",
+  "dialogues": [
+    {"id":1,"titleDa":"Pris","objectiveDa":"Spørg hvad noget koster.","phrases":[{"speaker":"A","textPt":"Quanto custa?","textDa":"Hvad koster det?","grammarDa":"Quanto betyder hvor meget."}],"vocabulary":[],"grammar":[]},
+    {"id":2,"titleDa":"Dyrt","objectiveDa":"Sig at noget er dyrt.","phrases":[{"speaker":"A","textPt":"É muito caro.","textDa":"Det er meget dyrt.","grammarDa":"Caro betyder dyr."}],"vocabulary":[],"grammar":[]},
+    {"id":3,"titleDa":"Billigt","objectiveDa":"Sig at noget er billigt.","phrases":[{"speaker":"A","textPt":"É barato.","textDa":"Det er billigt.","grammarDa":"Barato betyder billig."}],"vocabulary":[],"grammar":[]},
+    {"id":4,"titleDa":"Størrelse","objectiveDa":"Spørg om størrelse.","phrases":[{"speaker":"A","textPt":"Tem outro tamanho?","textDa":"Har De en anden størrelse?","grammarDa":"Tamanho betyder størrelse."}],"vocabulary":[],"grammar":[]},
+    {"id":5,"titleDa":"Farve","objectiveDa":"Spørg om farve.","phrases":[{"speaker":"A","textPt":"Tem em azul?","textDa":"Har De den i blå?","grammarDa":"Em azul betyder i blå."}],"vocabulary":[],"grammar":[]},
+    {"id":6,"titleDa":"Prøve","objectiveDa":"Spørg om at prøve noget.","phrases":[{"speaker":"A","textPt":"Posso experimentar?","textDa":"Må jeg prøve?","grammarDa":"Experimentar betyder prøve."}],"vocabulary":[],"grammar":[]},
+    {"id":7,"titleDa":"Betale","objectiveDa":"Sig at du vil betale.","phrases":[{"speaker":"A","textPt":"Quero pagar.","textDa":"Jeg vil gerne betale.","grammarDa":"Pagar betyder betale."}],"vocabulary":[],"grammar":[]},
+    {"id":8,"titleDa":"Kvittering","objectiveDa":"Bed om kvittering.","phrases":[{"speaker":"A","textPt":"Queria o recibo, por favor.","textDa":"Jeg vil gerne have kvitteringen, tak.","grammarDa":"Recibo betyder kvittering."}],"vocabulary":[],"grammar":[]},
+    {"id":9,"titleDa":"Pose","objectiveDa":"Bed om en pose.","phrases":[{"speaker":"A","textPt":"Preciso de um saco.","textDa":"Jeg har brug for en pose.","grammarDa":"Saco betyder pose."}],"vocabulary":[],"grammar":[]},
+    {"id":10,"titleDa":"Købe","objectiveDa":"Sig at du køber det.","phrases":[{"speaker":"A","textPt":"Vou levar isto.","textDa":"Jeg tager/køber dette.","grammarDa":"Vou levar bruges ofte i butikker."}],"vocabulary":[],"grammar":[]}
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "questionDa": "Hvordan spørger man Hvad koster det?",
+      "answers": [
+        {"text": "Quanto custa?", "correct": true},
+        {"text": "É barato.", "correct": false},
+        {"text": "Quero pagar.", "correct": false},
+        {"text": "Vou levar isto.", "correct": false}
+      ],
+      "explanationDa": "Quanto betyder hvor meget."
+    },
+    {
+      "id": 2,
+      "questionDa": "Hvilken frase betyder Det er meget dyrt?",
+      "answers": [
+        {"text": "É muito caro.", "correct": true},
+        {"text": "É barato.", "correct": false},
+        {"text": "Tem em azul?", "correct": false},
+        {"text": "Preciso de um saco.", "correct": false}
+      ],
+      "explanationDa": "Caro betyder dyr."
+    },
+    {
+      "id": 3,
+      "questionDa": "Hvordan spørger man Har De en anden størrelse?",
+      "answers": [
+        {"text": "Tem outro tamanho?", "correct": true},
+        {"text": "Tem em azul?", "correct": false},
+        {"text": "Posso experimentar?", "correct": false},
+        {"text": "Queria o recibo, por favor.", "correct": false}
+      ],
+      "explanationDa": "Tamanho betyder størrelse."
+    },
+    {
+      "id": 4,
+      "questionDa": "Hvilken frase betyder Må jeg prøve?",
+      "answers": [
+        {"text": "Posso experimentar?", "correct": true},
+        {"text": "Quero pagar.", "correct": false},
+        {"text": "Quanto custa?", "correct": false},
+        {"text": "Vou levar isto.", "correct": false}
+      ],
+      "explanationDa": "Experimentar betyder prøve."
+    },
+    {
+      "id": 5,
+      "questionDa": "Hvordan siger man Jeg tager/køber dette?",
+      "answers": [
+        {"text": "Vou levar isto.", "correct": true},
+        {"text": "Preciso de um saco.", "correct": false},
+        {"text": "É muito caro.", "correct": false},
+        {"text": "Tem outro tamanho?", "correct": false}
+      ],
+      "explanationDa": "Vou levar bruges ofte i butikker."
+    }
+  ]
+}

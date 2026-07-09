@@ -1,0 +1,74 @@
+{
+  "id": 3,
+  "titleDa": "Tal, datoer og tid",
+  "descriptionDa": "Lær enkle tal, klokkeslæt og tidsudtryk.",
+  "dialogues": [
+    {"id":1,"titleDa":"Et til tre","objectiveDa":"Øv små tal.","phrases":[{"speaker":"A","textPt":"Um, dois, três.","textDa":"En, to, tre.","grammarDa":"Tal bruges ofte uden artikel."}],"vocabulary":[],"grammar":[]},
+    {"id":2,"titleDa":"Hvor mange","objectiveDa":"Spørg om antal.","phrases":[{"speaker":"A","textPt":"Quantos são?","textDa":"Hvor mange er der?","grammarDa":"Quantos spørger om antal."}],"vocabulary":[],"grammar":[]},
+    {"id":3,"titleDa":"Klokken","objectiveDa":"Spørg hvad klokken er.","phrases":[{"speaker":"A","textPt":"Que horas são?","textDa":"Hvad er klokken?","grammarDa":"Horas betyder timer/klokkeslæt."}],"vocabulary":[],"grammar":[]},
+    {"id":4,"titleDa":"Nu","objectiveDa":"Tal om nu.","phrases":[{"speaker":"A","textPt":"Agora são três horas.","textDa":"Nu er klokken tre.","grammarDa":"Agora betyder nu."}],"vocabulary":[],"grammar":[]},
+    {"id":5,"titleDa":"I dag","objectiveDa":"Brug i dag.","phrases":[{"speaker":"A","textPt":"Hoje é segunda-feira.","textDa":"I dag er det mandag.","grammarDa":"Hoje betyder i dag."}],"vocabulary":[],"grammar":[]},
+    {"id":6,"titleDa":"I morgen","objectiveDa":"Brug i morgen.","phrases":[{"speaker":"A","textPt":"Amanhã tenho tempo.","textDa":"I morgen har jeg tid.","grammarDa":"Tenho betyder jeg har."}],"vocabulary":[],"grammar":[]},
+    {"id":7,"titleDa":"I går","objectiveDa":"Brug i går.","phrases":[{"speaker":"A","textPt":"Ontem estava cansado.","textDa":"I går var jeg træt.","grammarDa":"Ontem betyder i går."}],"vocabulary":[],"grammar":[]},
+    {"id":8,"titleDa":"Aftale","objectiveDa":"Lav en simpel aftale.","phrases":[{"speaker":"A","textPt":"Encontramo-nos às dez.","textDa":"Vi mødes klokken ti.","grammarDa":"Às bruges ved klokkeslæt."}],"vocabulary":[],"grammar":[]},
+    {"id":9,"titleDa":"Forsinket","objectiveDa":"Sig at du er forsinket.","phrases":[{"speaker":"A","textPt":"Estou atrasado.","textDa":"Jeg er forsinket.","grammarDa":"Estou beskriver en midlertidig tilstand."}],"vocabulary":[],"grammar":[]},
+    {"id":10,"titleDa":"Snart","objectiveDa":"Sig at du kommer snart.","phrases":[{"speaker":"A","textPt":"Chego daqui a pouco.","textDa":"Jeg kommer om lidt.","grammarDa":"Daqui a pouco betyder om lidt."}],"vocabulary":[],"grammar":[]}
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "questionDa": "Hvilken frase betyder En, to, tre?",
+      "answers": [
+        {"text": "Um, dois, três.", "correct": true},
+        {"text": "Que horas são?", "correct": false},
+        {"text": "Hoje é segunda-feira.", "correct": false},
+        {"text": "Estou atrasado.", "correct": false}
+      ],
+      "explanationDa": "Um, dois, três er tallene en, to, tre."
+    },
+    {
+      "id": 2,
+      "questionDa": "Hvordan spørger man Hvad er klokken?",
+      "answers": [
+        {"text": "Que horas são?", "correct": true},
+        {"text": "Quantos são?", "correct": false},
+        {"text": "Chego daqui a pouco.", "correct": false},
+        {"text": "Amanhã tenho tempo.", "correct": false}
+      ],
+      "explanationDa": "Horas bruges om timer og klokkeslæt."
+    },
+    {
+      "id": 3,
+      "questionDa": "Hvilken frase betyder I dag er det mandag?",
+      "answers": [
+        {"text": "Hoje é segunda-feira.", "correct": true},
+        {"text": "Ontem estava cansado.", "correct": false},
+        {"text": "Encontramo-nos às dez.", "correct": false},
+        {"text": "Agora são três horas.", "correct": false}
+      ],
+      "explanationDa": "Hoje betyder i dag."
+    },
+    {
+      "id": 4,
+      "questionDa": "Hvordan siger man Jeg er forsinket?",
+      "answers": [
+        {"text": "Estou atrasado.", "correct": true},
+        {"text": "Tenho tempo.", "correct": false},
+        {"text": "Quantos são?", "correct": false},
+        {"text": "Que horas são?", "correct": false}
+      ],
+      "explanationDa": "Estou beskriver en midlertidig tilstand."
+    },
+    {
+      "id": 5,
+      "questionDa": "Hvilken frase betyder Jeg kommer om lidt?",
+      "answers": [
+        {"text": "Chego daqui a pouco.", "correct": true},
+        {"text": "Amanhã tenho tempo.", "correct": false},
+        {"text": "Hoje é segunda-feira.", "correct": false},
+        {"text": "Um, dois, três.", "correct": false}
+      ],
+      "explanationDa": "Daqui a pouco betyder om lidt."
+    }
+  ]
+}
