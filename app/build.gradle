@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace "dk.nenolink.learnportuguese"
+    namespace "dk.nenolink.learnportuguese2"
     compileSdk 35
 
     defaultConfig {

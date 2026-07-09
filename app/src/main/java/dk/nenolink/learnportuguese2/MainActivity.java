@@ -1,9 +1,10 @@
-package dk.nenolink.learnportuguese;
+package dk.nenolink.learnportuguese2;
 
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
+import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.Button;
@@ -12,16 +13,16 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import dk.nenolink.learnportuguese.data.datastore.ProgressRepository;
-import dk.nenolink.learnportuguese.data.model.Dialogue;
-import dk.nenolink.learnportuguese.data.model.GrammarNote;
-import dk.nenolink.learnportuguese.data.model.Level;
-import dk.nenolink.learnportuguese.data.model.Lesson;
-import dk.nenolink.learnportuguese.data.model.NumberEntry;
-import dk.nenolink.learnportuguese.data.model.QuizAnswer;
-import dk.nenolink.learnportuguese.data.model.QuizQuestion;
-import dk.nenolink.learnportuguese.data.model.VocabularyItem;
-import dk.nenolink.learnportuguese.data.repository.LessonRepository;
+import dk.nenolink.learnportuguese2.data.datastore.ProgressRepository;
+import dk.nenolink.learnportuguese2.data.model.Dialogue;
+import dk.nenolink.learnportuguese2.data.model.GrammarNote;
+import dk.nenolink.learnportuguese2.data.model.Level;
+import dk.nenolink.learnportuguese2.data.model.Lesson;
+import dk.nenolink.learnportuguese2.data.model.NumberEntry;
+import dk.nenolink.learnportuguese2.data.model.QuizAnswer;
+import dk.nenolink.learnportuguese2.data.model.QuizQuestion;
+import dk.nenolink.learnportuguese2.data.model.VocabularyItem;
+import dk.nenolink.learnportuguese2.data.repository.LessonRepository;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -31,6 +32,7 @@ import java.util.Locale;
 import java.util.Random;
 
 public class MainActivity extends Activity {
+    private static final String TAG = "LearnPortuguese2";
     private static final int COLOR_BACKGROUND = 0xFFFFF7EF;
     private static final int COLOR_HEADER = 0xFF173D35;
     private static final int COLOR_BODY = 0xFF33413C;
@@ -71,6 +73,7 @@ public class MainActivity extends Activity {
     private int numberQuizCorrectAnswers = 0;
     private int selectedLevel = DEFAULT_LEVEL;
     private Level selectedLevelInfo = createFallbackLevel(DEFAULT_LEVEL);
+    private String startupErrorMessage;
     private TextToSpeech textToSpeech;
     private LinearLayout contentRoot;
     private TextView counterView;
@@ -82,12 +85,55 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        progressRepository = new ProgressRepository(this);
-        loadLevels();
-        setContentView(buildLayout());
-        loadLessons(selectedLevel);
-        loadNumbers();
-        showWelcomeScreen();
+        try {
+            progressRepository = new ProgressRepository(this);
+            loadLevels();
+            setContentView(buildLayout());
+            showWelcomeScreen();
+            contentRoot.post(() -> loadLessons(selectedLevel));
+        } catch (RuntimeException exception) {
+            Log.e(TAG, "Startup failed", exception);
+            showStartupError(exception);
+        }
+    }
+
+    private void showStartupError(Throwable exception) {
+        ScrollView scrollView = new ScrollView(this);
+        LinearLayout root = new LinearLayout(this);
+        root.setOrientation(LinearLayout.VERTICAL);
+        root.setGravity(Gravity.CENTER_HORIZONTAL);
+        root.setPadding(dp(22), dp(28), dp(22), dp(28));
+        root.setBackgroundColor(COLOR_BACKGROUND);
+        scrollView.addView(root);
+
+        TextView title = text("LearnPortuguese2", 26, COLOR_HEADER, true);
+        title.setGravity(Gravity.CENTER);
+        root.addView(title, matchWrap());
+
+        TextView message = text(
+                "Appen kunne ikke starte korrekt.\n\n"
+                        + getSafeErrorMessage(exception)
+                        + "\n\nPrøv at installere APK'en igen. Hvis fejlen fortsætter, skal JSON- og launcher-konfigurationen kontrolleres.",
+                16,
+                COLOR_ERROR,
+                true
+        );
+        message.setGravity(Gravity.CENTER);
+        message.setPadding(dp(14), dp(12), dp(14), dp(12));
+        message.setBackgroundColor(COLOR_PANEL);
+        root.addView(message, matchWrap());
+        setContentView(scrollView);
+    }
+
+    private String getSafeErrorMessage(Throwable exception) {
+        if (exception == null) {
+            return "Ukendt fejl.";
+        }
+
+        String message = exception.getMessage();
+        return message == null || message.trim().isEmpty()
+                ? exception.getClass().getSimpleName()
+                : message;
     }
 
     private void setupSpeechAndSpeak() {
@@ -157,9 +203,11 @@ public class MainActivity extends Activity {
         heading.setGravity(Gravity.CENTER);
         contentRoot.addView(heading, matchWrap());
 
-        TextView intro = text("Vælg niveau, quiz eller taltræning.", 16, COLOR_MUTED, false);
+        TextView intro = text("V?lg niveau, quiz eller taltr?ning.", 16, COLOR_MUTED, false);
         intro.setGravity(Gravity.CENTER);
         contentRoot.addView(intro, matchWrap());
+
+        addStartupErrorPanelIfNeeded();
 
         for (Level level : levels) {
             Button levelButton = lessonButton("Level " + level.getId() + ": " + level.getTitleDa());
@@ -195,6 +243,8 @@ public class MainActivity extends Activity {
         TextView intro = text(selectedLevelInfo.getIntroDa(), 15, COLOR_MUTED, false);
         intro.setGravity(Gravity.CENTER);
         contentRoot.addView(intro, matchWrap());
+
+        addStartupErrorPanelIfNeeded();
 
         Button welcomeButton = navButton("Til velkomst");
         welcomeButton.setOnClickListener(v -> showWelcomeScreen());
@@ -1266,7 +1316,10 @@ public class MainActivity extends Activity {
         LessonRepository repository = new LessonRepository(this);
         try {
             levels = repository.loadAvailableLevels();
-        } catch (IOException exception) {
+            startupErrorMessage = null;
+        } catch (Exception exception) {
+            Log.e(TAG, "Could not load levels", exception);
+            startupErrorMessage = "Niveau-JSON kunne ikke indl?ses. Appen viser n?dindhold.";
             levels = Collections.singletonList(createFallbackLevel(DEFAULT_LEVEL));
         }
 
@@ -1292,8 +1345,8 @@ public class MainActivity extends Activity {
         return new Level(
                 levelId,
                 "Learn Portuguese " + levelId,
-                "Dansk til europæisk portugisisk",
-                "Offlinelektioner · dansk til europæisk portugisisk",
+                "Dansk til europ?isk portugisisk",
+                "Offlinelektioner - dansk til europ?isk portugisisk",
                 "AI brugt: begynderfraser og grammatiknoter"
         );
     }
@@ -1301,11 +1354,12 @@ public class MainActivity extends Activity {
     private void loadLessons(int levelId) {
         LessonRepository repository = new LessonRepository(this);
         try {
-            List<Lesson> loadedLessons = repository.loadAllLessons(levelId);
-            lessons = loadedLessons;
-        } catch (IOException exception) {
+            lessons = repository.loadAllLessons(levelId);
+        } catch (Exception exception) {
+            Log.e(TAG, "Could not load lessons for level " + levelId, exception);
+            startupErrorMessage = "Lektions-JSON kunne ikke indl?ses. Appen viser n?dindhold.";
             lessons = createFallbackLessons();
-            Toast.makeText(this, "Kunne ikke indlæse lektions-JSON. Bruger indbygget nødlektion.", Toast.LENGTH_LONG).show();
+            showSafeToast("Kunne ikke indl?se lektions-JSON. Bruger indbygget n?dlektion.");
         }
     }
 
@@ -1313,8 +1367,29 @@ public class MainActivity extends Activity {
         LessonRepository repository = new LessonRepository(this);
         try {
             numbers = repository.loadNumbers();
-        } catch (IOException exception) {
+        } catch (Exception exception) {
+            Log.e(TAG, "Could not load numbers", exception);
             numbers = Collections.emptyList();
+            startupErrorMessage = "Tal-JSON kunne ikke indl?ses.";
+        }
+    }
+
+    private void addStartupErrorPanelIfNeeded() {
+        if (isEmpty(startupErrorMessage)) {
+            return;
+        }
+
+        TextView errorView = panel("Bem?rk\n" + startupErrorMessage);
+        errorView.setTextColor(COLOR_ERROR);
+        errorView.setTypeface(android.graphics.Typeface.DEFAULT_BOLD);
+        contentRoot.addView(errorView, matchWrap());
+    }
+
+    private void showSafeToast(String message) {
+        try {
+            Toast.makeText(this, message, Toast.LENGTH_LONG).show();
+        } catch (RuntimeException exception) {
+            Log.e(TAG, "Could not show toast", exception);
         }
     }
 
@@ -1328,7 +1403,7 @@ public class MainActivity extends Activity {
         String dialogueGrammar = formatGrammar(dialogue.getGrammar());
         String source = "Niveau " + selectedLevel + " · Lektion " + lesson.getId() + " · Dialog " + dialogue.getId() + " · " + dialogue.getTitleDa();
 
-        for (dk.nenolink.learnportuguese.data.model.Phrase phrase : dialogue.getPhrases()) {
+        for (dk.nenolink.learnportuguese2.data.model.Phrase phrase : dialogue.getPhrases()) {
             mappedPhrases.add(new Phrase(
                     phrase.getTextPt(),
                     phrase.getTextDa(),
@@ -1349,7 +1424,7 @@ public class MainActivity extends Activity {
         List<Phrase> mappedPhrases = new ArrayList<>();
         String source = "Niveau " + selectedLevel + " - Lektion " + lesson.getId() + " - Kort dialog";
 
-        for (dk.nenolink.learnportuguese.data.model.Phrase phrase : lesson.getStory()) {
+        for (dk.nenolink.learnportuguese2.data.model.Phrase phrase : lesson.getStory()) {
             mappedPhrases.add(new Phrase(
                     phrase.getTextPt(),
                     phrase.getTextDa(),
@@ -1388,13 +1463,13 @@ public class MainActivity extends Activity {
 
     private List<Dialogue> splitPrototypeDialogue(Dialogue sourceDialogue) {
         List<Dialogue> dialogues = new ArrayList<>();
-        List<dk.nenolink.learnportuguese.data.model.Phrase> sourcePhrases = sourceDialogue.getPhrases();
+        List<dk.nenolink.learnportuguese2.data.model.Phrase> sourcePhrases = sourceDialogue.getPhrases();
         int phrasesPerDialogue = Math.max(1, (int) Math.ceil(sourcePhrases.size() / 10.0));
 
         for (int dialogueId = 1; dialogueId <= 10; dialogueId++) {
             int fromIndex = Math.min(sourcePhrases.size(), (dialogueId - 1) * phrasesPerDialogue);
             int toIndex = Math.min(sourcePhrases.size(), fromIndex + phrasesPerDialogue);
-            List<dk.nenolink.learnportuguese.data.model.Phrase> phrasesForDialogue =
+            List<dk.nenolink.learnportuguese2.data.model.Phrase> phrasesForDialogue =
                     fromIndex < toIndex ? sourcePhrases.subList(fromIndex, toIndex) : Collections.emptyList();
 
             dialogues.add(new Dialogue(
@@ -1412,8 +1487,8 @@ public class MainActivity extends Activity {
     private List<Dialogue> createPlaceholderDialogues(Lesson lesson) {
         List<Dialogue> dialogues = new ArrayList<>();
         for (int dialogueId = 1; dialogueId <= 10; dialogueId++) {
-            List<dk.nenolink.learnportuguese.data.model.Phrase> placeholderPhrases = new ArrayList<>();
-            placeholderPhrases.add(new dk.nenolink.learnportuguese.data.model.Phrase(
+            List<dk.nenolink.learnportuguese2.data.model.Phrase> placeholderPhrases = new ArrayList<>();
+            placeholderPhrases.add(new dk.nenolink.learnportuguese2.data.model.Phrase(
                     "A",
                     "Conteúdo em preparação.",
                     "Indhold er under forberedelse.",
