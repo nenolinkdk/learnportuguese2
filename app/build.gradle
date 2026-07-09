@@ -18,4 +18,12 @@ android {
         sourceCompatibility JavaVersion.VERSION_17
         targetCompatibility JavaVersion.VERSION_17
     }
+
+    applicationVariants.configureEach { variant ->
+        if (variant.name == "debug") {
+            variant.outputs.configureEach { output ->
+                outputFileName = "LearnPortuguese2Test.apk"
+            }
+        }
+    }
 }
