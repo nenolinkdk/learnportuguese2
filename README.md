@@ -17,6 +17,7 @@ The app reuses the existing Learn Portuguese Java/Android structure and keeps Le
 - [Learn Portuguese 2 requirements](docs/requirements/learn-portuguese-2-requirements.md)
 - [Learn Portuguese 2 Codex notes](docs/requirements/learn-portuguese-2-codex-notes.md)
 - [JSON content structure](docs/requirements/json-content-structure.md)
+- [Architecture](docs/architecture.md)
 - [Test log](docs/testing/testlog.md)
 - [Roadmap](docs/roadmap.md)
 - [Privacy](docs/privacy.md)
