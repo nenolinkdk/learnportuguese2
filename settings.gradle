@@ -17,5 +17,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "LearnPortuguese"
+rootProject.name = "LearnPortuguese2"
 include ":app"

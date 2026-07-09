@@ -7,10 +7,10 @@ android {
     compileSdk 35
 
     defaultConfig {
-        applicationId "dk.nenolink.learnportuguese"
+        applicationId "dk.nenolink.learnportuguese2"
         minSdk 23
         targetSdk 35
         versionCode 1
-        versionName "1.0"
+        versionName "2.0"
     }
 }
