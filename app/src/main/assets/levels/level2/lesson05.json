@@ -1,0 +1,374 @@
+{
+  "id": 5,
+  "titleDa": "Tal 20-100",
+  "descriptionDa": "Brug tal til priser, alder, telefonnumre og klokkeslæt.",
+  "dialogues": [
+    {
+      "id": 1,
+      "titleDa": "Tyve",
+      "objectiveDa": "Træn: Det koster tyve euro.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Custa vinte euros.",
+          "textDa": "Det koster tyve euro.",
+          "grammarDa": "Vinte betyder 20."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Custa",
+          "textDa": "nøgleord fra: tyve"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "tal",
+          "explanationDa": "Tal fra 20 til 100 bruges ofte ved priser, alder og praktiske aftaler."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titleDa": "Tredive",
+      "objectiveDa": "Træn: Jeg er tredive år.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Tenho trinta anos.",
+          "textDa": "Jeg er tredive år.",
+          "grammarDa": "Trinta betyder 30."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Tenho",
+          "textDa": "nøgleord fra: tredive"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "tal",
+          "explanationDa": "Tal fra 20 til 100 bruges ofte ved priser, alder og praktiske aftaler."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "titleDa": "Fyrre",
+      "objectiveDa": "Træn: Det er fyrre euro.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "São quarenta euros.",
+          "textDa": "Det er fyrre euro.",
+          "grammarDa": "Quarenta betyder 40."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "São",
+          "textDa": "nøgleord fra: fyrre"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "tal",
+          "explanationDa": "Tal fra 20 til 100 bruges ofte ved priser, alder og praktiske aftaler."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "titleDa": "Halvtreds",
+      "objectiveDa": "Træn: Nummeret er halvtreds.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "O número é cinquenta.",
+          "textDa": "Nummeret er halvtreds.",
+          "grammarDa": "Cinquenta betyder 50."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "O",
+          "textDa": "nøgleord fra: halvtreds"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "tal",
+          "explanationDa": "Tal fra 20 til 100 bruges ofte ved priser, alder og praktiske aftaler."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "titleDa": "Tres",
+      "objectiveDa": "Træn: Det er tres minutter.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "São sessenta minutos.",
+          "textDa": "Det er tres minutter.",
+          "grammarDa": "Sessenta betyder 60."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "São",
+          "textDa": "nøgleord fra: tres"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "tal",
+          "explanationDa": "Tal fra 20 til 100 bruges ofte ved priser, alder og praktiske aftaler."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "titleDa": "Halvfjerds",
+      "objectiveDa": "Træn: Jeg har halvfjerds cent.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Tenho setenta cêntimos.",
+          "textDa": "Jeg har halvfjerds cent.",
+          "grammarDa": "Setenta betyder 70."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Tenho",
+          "textDa": "nøgleord fra: halvfjerds"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "tal",
+          "explanationDa": "Tal fra 20 til 100 bruges ofte ved priser, alder og praktiske aftaler."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "titleDa": "Firs",
+      "objectiveDa": "Træn: Billetten koster firs euro.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "O bilhete custa oitenta euros.",
+          "textDa": "Billetten koster firs euro.",
+          "grammarDa": "Oitenta betyder 80."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "O",
+          "textDa": "nøgleord fra: firs"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "tal",
+          "explanationDa": "Tal fra 20 til 100 bruges ofte ved priser, alder og praktiske aftaler."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "titleDa": "Halvfems",
+      "objectiveDa": "Træn: Det er halvfems kilometer.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "São noventa quilómetros.",
+          "textDa": "Det er halvfems kilometer.",
+          "grammarDa": "Noventa betyder 90."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "São",
+          "textDa": "nøgleord fra: halvfems"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "tal",
+          "explanationDa": "Tal fra 20 til 100 bruges ofte ved priser, alder og praktiske aftaler."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "titleDa": "Hundrede",
+      "objectiveDa": "Træn: Det koster hundrede euro.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Custa cem euros.",
+          "textDa": "Det koster hundrede euro.",
+          "grammarDa": "Cem betyder 100."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Custa",
+          "textDa": "nøgleord fra: hundrede"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "tal",
+          "explanationDa": "Tal fra 20 til 100 bruges ofte ved priser, alder og praktiske aftaler."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "titleDa": "Telefon",
+      "objectiveDa": "Træn: Mit nummer har ni cifre.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "O meu número tem nove dígitos.",
+          "textDa": "Mit nummer har ni cifre.",
+          "grammarDa": "Dígitos betyder cifre."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "O",
+          "textDa": "nøgleord fra: telefon"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "tal",
+          "explanationDa": "Tal fra 20 til 100 bruges ofte ved priser, alder og praktiske aftaler."
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "questionDa": "Hvilken sætning betyder: Det koster tyve euro.",
+      "answers": [
+        {
+          "text": "Custa vinte euros.",
+          "correct": true
+        },
+        {
+          "text": "Tenho trinta anos.",
+          "correct": false
+        },
+        {
+          "text": "São quarenta euros.",
+          "correct": false
+        },
+        {
+          "text": "O número é cinquenta.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Vinte betyder 20."
+    },
+    {
+      "id": 2,
+      "questionDa": "Hvad betyder: Tenho trinta anos.",
+      "answers": [
+        {
+          "text": "Jeg er tredive år.",
+          "correct": true
+        },
+        {
+          "text": "Det koster tyve euro.",
+          "correct": false
+        },
+        {
+          "text": "Det er fyrre euro.",
+          "correct": false
+        },
+        {
+          "text": "Det er tres minutter.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Trinta betyder 30."
+    },
+    {
+      "id": 3,
+      "questionDa": "Hvilket tema træner denne lektion mest?",
+      "answers": [
+        {
+          "text": "Tal 20-100",
+          "correct": true
+        },
+        {
+          "text": "Kun farver",
+          "correct": false
+        },
+        {
+          "text": "Kun alfabetet",
+          "correct": false
+        },
+        {
+          "text": "Kun dyr",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Brug tal til priser, alder, telefonnumre og klokkeslæt."
+    },
+    {
+      "id": 4,
+      "questionDa": "Vælg den portugisiske frase fra dialogen \"Fyrre\".",
+      "answers": [
+        {
+          "text": "São quarenta euros.",
+          "correct": true
+        },
+        {
+          "text": "Det er fyrre euro.",
+          "correct": false
+        },
+        {
+          "text": "Det koster tyve euro.",
+          "correct": false
+        },
+        {
+          "text": "Jeg er tredive år.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Quarenta betyder 40."
+    },
+    {
+      "id": 5,
+      "questionDa": "Hvad skal brugeren især øve her?",
+      "answers": [
+        {
+          "text": "tal",
+          "correct": true
+        },
+        {
+          "text": "Engelsk udtale",
+          "correct": false
+        },
+        {
+          "text": "Danske talord",
+          "correct": false
+        },
+        {
+          "text": "Tyske kasus",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Tal fra 20 til 100 bruges ofte ved priser, alder og praktiske aftaler."
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": 7,
+  "titleDa": "Transport",
+  "descriptionDa": "Lær sætninger til bus, tog, taxa og retninger.",
+  "dialogues": [
+    {"id":1,"titleDa":"Station","objectiveDa":"Spørg efter stationen.","phrases":[{"speaker":"A","textPt":"Onde fica a estação?","textDa":"Hvor ligger stationen?","grammarDa":"Onde fica betyder hvor ligger."}],"vocabulary":[],"grammar":[]},
+    {"id":2,"titleDa":"Billet","objectiveDa":"Køb en billet.","phrases":[{"speaker":"A","textPt":"Queria um bilhete para Lisboa.","textDa":"Jeg vil gerne have en billet til Lissabon.","grammarDa":"Bilhete betyder billet."}],"vocabulary":[],"grammar":[]},
+    {"id":3,"titleDa":"Bus","objectiveDa":"Spørg om bussen.","phrases":[{"speaker":"A","textPt":"Este autocarro vai para o centro?","textDa":"Kører denne bus til centrum?","grammarDa":"Autocarro er bus i Portugal."}],"vocabulary":[],"grammar":[]},
+    {"id":4,"titleDa":"Tog","objectiveDa":"Spørg om toget.","phrases":[{"speaker":"A","textPt":"A que horas parte o comboio?","textDa":"Hvornår afgår toget?","grammarDa":"Comboio er tog i Portugal."}],"vocabulary":[],"grammar":[]},
+    {"id":5,"titleDa":"Taxa","objectiveDa":"Bed om taxa.","phrases":[{"speaker":"A","textPt":"Preciso de um táxi.","textDa":"Jeg har brug for en taxa.","grammarDa":"Preciso de betyder jeg har brug for."}],"vocabulary":[],"grammar":[]},
+    {"id":6,"titleDa":"Adresse","objectiveDa":"Sig en adresse.","phrases":[{"speaker":"A","textPt":"Vou para esta morada.","textDa":"Jeg skal til denne adresse.","grammarDa":"Morada betyder adresse."}],"vocabulary":[],"grammar":[]},
+    {"id":7,"titleDa":"Højre","objectiveDa":"Forstå højre.","phrases":[{"speaker":"A","textPt":"Vire à direita.","textDa":"Drej til højre.","grammarDa":"Direita betyder højre."}],"vocabulary":[],"grammar":[]},
+    {"id":8,"titleDa":"Venstre","objectiveDa":"Forstå venstre.","phrases":[{"speaker":"A","textPt":"Vire à esquerda.","textDa":"Drej til venstre.","grammarDa":"Esquerda betyder venstre."}],"vocabulary":[],"grammar":[]},
+    {"id":9,"titleDa":"Stop","objectiveDa":"Bed om at stoppe.","phrases":[{"speaker":"A","textPt":"Pode parar aqui?","textDa":"Kan De stoppe her?","grammarDa":"Aqui betyder her."}],"vocabulary":[],"grammar":[]},
+    {"id":10,"titleDa":"Ankomst","objectiveDa":"Spørg om ankomst.","phrases":[{"speaker":"A","textPt":"Quando chegamos?","textDa":"Hvornår ankommer vi?","grammarDa":"Chegamos betyder vi ankommer."}],"vocabulary":[],"grammar":[]}
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "questionDa": "Hvordan spørger man Hvor ligger stationen?",
+      "answers": [
+        {"text": "Onde fica a estação?", "correct": true},
+        {"text": "Preciso de um táxi.", "correct": false},
+        {"text": "Quando chegamos?", "correct": false},
+        {"text": "Vire à direita.", "correct": false}
+      ],
+      "explanationDa": "Onde fica betyder hvor ligger."
+    },
+    {
+      "id": 2,
+      "questionDa": "Hvilken frase køber en billet til Lissabon?",
+      "answers": [
+        {"text": "Queria um bilhete para Lisboa.", "correct": true},
+        {"text": "Este autocarro vai para o centro?", "correct": false},
+        {"text": "A que horas parte o comboio?", "correct": false},
+        {"text": "Pode parar aqui?", "correct": false}
+      ],
+      "explanationDa": "Bilhete betyder billet."
+    },
+    {
+      "id": 3,
+      "questionDa": "Hvad hedder bus i europæisk portugisisk?",
+      "answers": [
+        {"text": "Autocarro.", "correct": true},
+        {"text": "Comboio.", "correct": false},
+        {"text": "Morada.", "correct": false},
+        {"text": "Direita.", "correct": false}
+      ],
+      "explanationDa": "Autocarro er bus i Portugal."
+    },
+    {
+      "id": 4,
+      "questionDa": "Hvordan siger man Drej til venstre?",
+      "answers": [
+        {"text": "Vire à esquerda.", "correct": true},
+        {"text": "Vire à direita.", "correct": false},
+        {"text": "Pode parar aqui?", "correct": false},
+        {"text": "Vou para esta morada.", "correct": false}
+      ],
+      "explanationDa": "Esquerda betyder venstre."
+    },
+    {
+      "id": 5,
+      "questionDa": "Hvordan spørger man Hvornår ankommer vi?",
+      "answers": [
+        {"text": "Quando chegamos?", "correct": true},
+        {"text": "A que horas parte o comboio?", "correct": false},
+        {"text": "Preciso de um táxi.", "correct": false},
+        {"text": "Onde fica a estação?", "correct": false}
+      ],
+      "explanationDa": "Chegamos betyder vi ankommer."
+    }
+  ]
+}

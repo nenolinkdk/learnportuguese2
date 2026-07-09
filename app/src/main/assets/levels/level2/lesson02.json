@@ -1,0 +1,374 @@
+{
+  "id": 2,
+  "titleDa": "At være: ser",
+  "descriptionDa": "Træn ser til identitet, nationalitet, arbejde og familie.",
+  "dialogues": [
+    {
+      "id": 1,
+      "titleDa": "Nationalitet",
+      "objectiveDa": "Træn: Jeg er dansker.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Eu sou dinamarquês.",
+          "textDa": "Jeg er dansker.",
+          "grammarDa": "Sou er jeg-formen af ser."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Eu",
+          "textDa": "nøgleord fra: nationalitet"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "ser",
+          "explanationDa": "Ser bruges om identitet, nationalitet, egenskaber og mere faste forhold."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titleDa": "Arbejde",
+      "objectiveDa": "Træn: Hun er lærer.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Ela é professora.",
+          "textDa": "Hun er lærer.",
+          "grammarDa": "É er han/hun-formen af ser."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Ela",
+          "textDa": "nøgleord fra: arbejde"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "ser",
+          "explanationDa": "Ser bruges om identitet, nationalitet, egenskaber og mere faste forhold."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "titleDa": "Venner",
+      "objectiveDa": "Træn: Vi er venner.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Nós somos amigos.",
+          "textDa": "Vi er venner.",
+          "grammarDa": "Somos er vi-formen af ser."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Nós",
+          "textDa": "nøgleord fra: venner"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "ser",
+          "explanationDa": "Ser bruges om identitet, nationalitet, egenskaber og mere faste forhold."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "titleDa": "Familie",
+      "objectiveDa": "Træn: Han er min bror.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Ele é meu irmão.",
+          "textDa": "Han er min bror.",
+          "grammarDa": "Ser bruges om familierolle."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Ele",
+          "textDa": "nøgleord fra: familie"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "ser",
+          "explanationDa": "Ser bruges om identitet, nationalitet, egenskaber og mere faste forhold."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "titleDa": "Identitet",
+      "objectiveDa": "Træn: Jeg er studerende.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Sou estudante.",
+          "textDa": "Jeg er studerende.",
+          "grammarDa": "Ser bruges om rolle eller identitet."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Sou",
+          "textDa": "nøgleord fra: identitet"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "ser",
+          "explanationDa": "Ser bruges om identitet, nationalitet, egenskaber og mere faste forhold."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "titleDa": "Egenskab",
+      "objectiveDa": "Træn: Caféen er lille.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "O café é pequeno.",
+          "textDa": "Caféen er lille.",
+          "grammarDa": "Ser beskriver en mere fast egenskab."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "O",
+          "textDa": "nøgleord fra: egenskab"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "ser",
+          "explanationDa": "Ser bruges om identitet, nationalitet, egenskaber og mere faste forhold."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "titleDa": "Sprog",
+      "objectiveDa": "Træn: Portugisisk er smukt.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "O português é bonito.",
+          "textDa": "Portugisisk er smukt.",
+          "grammarDa": "É beskriver egenskab."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "O",
+          "textDa": "nøgleord fra: sprog"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "ser",
+          "explanationDa": "Ser bruges om identitet, nationalitet, egenskaber og mere faste forhold."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "titleDa": "Land",
+      "objectiveDa": "Træn: Lissabon er i Portugal.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Lisboa é em Portugal.",
+          "textDa": "Lissabon er i Portugal.",
+          "grammarDa": "Ser kan bruges om fakta."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Lisboa",
+          "textDa": "nøgleord fra: land"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "ser",
+          "explanationDa": "Ser bruges om identitet, nationalitet, egenskaber og mere faste forhold."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "titleDa": "Person",
+      "objectiveDa": "Træn: Du er meget venlig.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Você é muito simpático.",
+          "textDa": "Du er meget venlig.",
+          "grammarDa": "É bruges med você."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Você",
+          "textDa": "nøgleord fra: person"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "ser",
+          "explanationDa": "Ser bruges om identitet, nationalitet, egenskaber og mere faste forhold."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "titleDa": "Gruppe",
+      "objectiveDa": "Træn: De er turister.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Eles são turistas.",
+          "textDa": "De er turister.",
+          "grammarDa": "São er de-formen af ser."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Eles",
+          "textDa": "nøgleord fra: gruppe"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "ser",
+          "explanationDa": "Ser bruges om identitet, nationalitet, egenskaber og mere faste forhold."
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "questionDa": "Hvilken sætning betyder: Jeg er dansker.",
+      "answers": [
+        {
+          "text": "Eu sou dinamarquês.",
+          "correct": true
+        },
+        {
+          "text": "Ela é professora.",
+          "correct": false
+        },
+        {
+          "text": "Nós somos amigos.",
+          "correct": false
+        },
+        {
+          "text": "Ele é meu irmão.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Sou er jeg-formen af ser."
+    },
+    {
+      "id": 2,
+      "questionDa": "Hvad betyder: Ela é professora.",
+      "answers": [
+        {
+          "text": "Hun er lærer.",
+          "correct": true
+        },
+        {
+          "text": "Jeg er dansker.",
+          "correct": false
+        },
+        {
+          "text": "Vi er venner.",
+          "correct": false
+        },
+        {
+          "text": "Jeg er studerende.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "É er han/hun-formen af ser."
+    },
+    {
+      "id": 3,
+      "questionDa": "Hvilket tema træner denne lektion mest?",
+      "answers": [
+        {
+          "text": "At være: ser",
+          "correct": true
+        },
+        {
+          "text": "Kun farver",
+          "correct": false
+        },
+        {
+          "text": "Kun alfabetet",
+          "correct": false
+        },
+        {
+          "text": "Kun dyr",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Træn ser til identitet, nationalitet, arbejde og familie."
+    },
+    {
+      "id": 4,
+      "questionDa": "Vælg den portugisiske frase fra dialogen \"Venner\".",
+      "answers": [
+        {
+          "text": "Nós somos amigos.",
+          "correct": true
+        },
+        {
+          "text": "Vi er venner.",
+          "correct": false
+        },
+        {
+          "text": "Jeg er dansker.",
+          "correct": false
+        },
+        {
+          "text": "Hun er lærer.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Somos er vi-formen af ser."
+    },
+    {
+      "id": 5,
+      "questionDa": "Hvad skal brugeren især øve her?",
+      "answers": [
+        {
+          "text": "ser",
+          "correct": true
+        },
+        {
+          "text": "Engelsk udtale",
+          "correct": false
+        },
+        {
+          "text": "Danske talord",
+          "correct": false
+        },
+        {
+          "text": "Tyske kasus",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Ser bruges om identitet, nationalitet, egenskaber og mere faste forhold."
+    }
+  ]
+}

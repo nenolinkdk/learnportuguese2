@@ -1,0 +1,374 @@
+{
+  "id": 1,
+  "titleDa": "Repetition og korte samtaler",
+  "descriptionDa": "Genopfrisk hilsner, navn, land og korte hverdagssvar.",
+  "dialogues": [
+    {
+      "id": 1,
+      "titleDa": "Hilsen",
+      "objectiveDa": "Træn: Hej, hvordan har du det?",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Olá, como está?",
+          "textDa": "Hej, hvordan har du det?",
+          "grammarDa": "Está kommer af estar og bruges om tilstand lige nu."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Olá",
+          "textDa": "nøgleord fra: hilsen"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "ser/estar repetition",
+          "explanationDa": "Brug estar til hvordan man har det og ser til identitet."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titleDa": "Svar",
+      "objectiveDa": "Træn: Jeg har det godt, tak.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Estou bem, obrigado.",
+          "textDa": "Jeg har det godt, tak.",
+          "grammarDa": "Estou er jeg-formen af estar."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Estou",
+          "textDa": "nøgleord fra: svar"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "ser/estar repetition",
+          "explanationDa": "Brug estar til hvordan man har det og ser til identitet."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "titleDa": "Navn",
+      "objectiveDa": "Træn: Jeg hedder Anna.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Chamo-me Anna.",
+          "textDa": "Jeg hedder Anna.",
+          "grammarDa": "Chamo-me bruges til navn."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Chamo-me",
+          "textDa": "nøgleord fra: navn"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "ser/estar repetition",
+          "explanationDa": "Brug estar til hvordan man har det og ser til identitet."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "titleDa": "Land",
+      "objectiveDa": "Træn: Jeg er fra Danmark.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Sou da Dinamarca.",
+          "textDa": "Jeg er fra Danmark.",
+          "grammarDa": "Sou kommer af ser og bruges om oprindelse."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Sou",
+          "textDa": "nøgleord fra: land"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "ser/estar repetition",
+          "explanationDa": "Brug estar til hvordan man har det og ser til identitet."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "titleDa": "Sprog",
+      "objectiveDa": "Træn: Jeg taler dansk.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Falo dinamarquês.",
+          "textDa": "Jeg taler dansk.",
+          "grammarDa": "Falo betyder jeg taler."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Falo",
+          "textDa": "nøgleord fra: sprog"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "ser/estar repetition",
+          "explanationDa": "Brug estar til hvordan man har det og ser til identitet."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "titleDa": "Lidt portugisisk",
+      "objectiveDa": "Træn: Jeg taler lidt portugisisk.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Falo um pouco de português.",
+          "textDa": "Jeg taler lidt portugisisk.",
+          "grammarDa": "Um pouco de betyder lidt af."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Falo",
+          "textDa": "nøgleord fra: lidt portugisisk"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "ser/estar repetition",
+          "explanationDa": "Brug estar til hvordan man har det og ser til identitet."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "titleDa": "Spørg igen",
+      "objectiveDa": "Træn: Kan du gentage, tak?",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Pode repetir, por favor?",
+          "textDa": "Kan du gentage, tak?",
+          "grammarDa": "Pode er en høflig måde at sige kan du."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Pode",
+          "textDa": "nøgleord fra: spørg igen"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "ser/estar repetition",
+          "explanationDa": "Brug estar til hvordan man har det og ser til identitet."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "titleDa": "Langsomt",
+      "objectiveDa": "Træn: Kan du tale langsommere?",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Pode falar mais devagar?",
+          "textDa": "Kan du tale langsommere?",
+          "grammarDa": "Mais devagar betyder langsommere."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Pode",
+          "textDa": "nøgleord fra: langsomt"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "ser/estar repetition",
+          "explanationDa": "Brug estar til hvordan man har det og ser til identitet."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "titleDa": "Forståelse",
+      "objectiveDa": "Træn: Jeg forstår ikke alt.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Não percebo tudo.",
+          "textDa": "Jeg forstår ikke alt.",
+          "grammarDa": "Não står før verbet i en nægtelse."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Não",
+          "textDa": "nøgleord fra: forståelse"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "ser/estar repetition",
+          "explanationDa": "Brug estar til hvordan man har det og ser til identitet."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "titleDa": "Afslutning",
+      "objectiveDa": "Træn: Vi ses senere.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Até logo.",
+          "textDa": "Vi ses senere.",
+          "grammarDa": "Até logo er en almindelig afsked."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Até",
+          "textDa": "nøgleord fra: afslutning"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "ser/estar repetition",
+          "explanationDa": "Brug estar til hvordan man har det og ser til identitet."
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "questionDa": "Hvilken sætning betyder: Hej, hvordan har du det?",
+      "answers": [
+        {
+          "text": "Olá, como está?",
+          "correct": true
+        },
+        {
+          "text": "Estou bem, obrigado.",
+          "correct": false
+        },
+        {
+          "text": "Chamo-me Anna.",
+          "correct": false
+        },
+        {
+          "text": "Sou da Dinamarca.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Está kommer af estar og bruges om tilstand lige nu."
+    },
+    {
+      "id": 2,
+      "questionDa": "Hvad betyder: Estou bem, obrigado.",
+      "answers": [
+        {
+          "text": "Jeg har det godt, tak.",
+          "correct": true
+        },
+        {
+          "text": "Hej, hvordan har du det?",
+          "correct": false
+        },
+        {
+          "text": "Jeg hedder Anna.",
+          "correct": false
+        },
+        {
+          "text": "Jeg taler dansk.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Estou er jeg-formen af estar."
+    },
+    {
+      "id": 3,
+      "questionDa": "Hvilket tema træner denne lektion mest?",
+      "answers": [
+        {
+          "text": "Repetition og korte samtaler",
+          "correct": true
+        },
+        {
+          "text": "Kun farver",
+          "correct": false
+        },
+        {
+          "text": "Kun alfabetet",
+          "correct": false
+        },
+        {
+          "text": "Kun dyr",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Genopfrisk hilsner, navn, land og korte hverdagssvar."
+    },
+    {
+      "id": 4,
+      "questionDa": "Vælg den portugisiske frase fra dialogen \"Navn\".",
+      "answers": [
+        {
+          "text": "Chamo-me Anna.",
+          "correct": true
+        },
+        {
+          "text": "Jeg hedder Anna.",
+          "correct": false
+        },
+        {
+          "text": "Hej, hvordan har du det?",
+          "correct": false
+        },
+        {
+          "text": "Jeg har det godt, tak.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Chamo-me bruges til navn."
+    },
+    {
+      "id": 5,
+      "questionDa": "Hvad skal brugeren især øve her?",
+      "answers": [
+        {
+          "text": "ser/estar repetition",
+          "correct": true
+        },
+        {
+          "text": "Engelsk udtale",
+          "correct": false
+        },
+        {
+          "text": "Danske talord",
+          "correct": false
+        },
+        {
+          "text": "Tyske kasus",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Brug estar til hvordan man har det og ser til identitet."
+    }
+  ]
+}
