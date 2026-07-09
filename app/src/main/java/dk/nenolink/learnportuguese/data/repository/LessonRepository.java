@@ -4,6 +4,7 @@ import android.content.Context;
 
 import dk.nenolink.learnportuguese.data.model.Dialogue;
 import dk.nenolink.learnportuguese.data.model.GrammarNote;
+import dk.nenolink.learnportuguese.data.model.Level;
 import dk.nenolink.learnportuguese.data.model.Lesson;
 import dk.nenolink.learnportuguese.data.model.Phrase;
 import dk.nenolink.learnportuguese.data.model.QuizAnswer;
@@ -27,6 +28,9 @@ public class LessonRepository {
     private static final int FIRST_LESSON_ID = 1;
     private static final int LAST_LESSON_ID = 10;
     private static final String LESSON_ASSET_PATTERN = "lessons/lesson%02d.json";
+    private static final String LEVELS_ASSET_PATH = "levels";
+    private static final String LEVEL_FOLDER_PATTERN = "level%d";
+    private static final String LEVEL_METADATA_PATTERN = "levels/level%d/level.json";
     private static final String LEVEL_LESSON_ASSET_PATTERN = "levels/level%d/lesson%02d.json";
 
     private final Context appContext;
@@ -41,7 +45,7 @@ public class LessonRepository {
 
     public List<String> loadAllLessonJson(int levelId) throws IOException {
         List<String> lessons = new ArrayList<>();
-        for (int lessonId = FIRST_LESSON_ID; lessonId <= LAST_LESSON_ID; lessonId++) {
+        for (int lessonId : listLessonIds(levelId)) {
             lessons.add(loadLessonJson(levelId, lessonId));
         }
         return Collections.unmodifiableList(lessons);
@@ -53,10 +57,38 @@ public class LessonRepository {
 
     public List<Lesson> loadAllLessons(int levelId) throws IOException {
         List<Lesson> lessons = new ArrayList<>();
-        for (int lessonId = FIRST_LESSON_ID; lessonId <= LAST_LESSON_ID; lessonId++) {
+        for (int lessonId : listLessonIds(levelId)) {
             lessons.add(loadLesson(levelId, lessonId));
         }
         return Collections.unmodifiableList(lessons);
+    }
+
+    public List<Level> loadAvailableLevels() throws IOException {
+        String[] levelFolders = appContext.getAssets().list(LEVELS_ASSET_PATH);
+        if (levelFolders == null || levelFolders.length == 0) {
+            return Collections.singletonList(createFallbackLevel(1));
+        }
+
+        List<Level> levels = new ArrayList<>();
+        for (String folder : levelFolders) {
+            int levelId = parseLevelId(folder);
+            if (levelId > 0) {
+                levels.add(loadLevel(levelId));
+            }
+        }
+        Collections.sort(levels, (left, right) -> Integer.compare(left.getId(), right.getId()));
+        return Collections.unmodifiableList(levels);
+    }
+
+    public Level loadLevel(int levelId) throws IOException {
+        String metadataPath = getLevelMetadataPath(levelId);
+        try {
+            return parseLevel(new JSONObject(readAsset(metadataPath)), levelId);
+        } catch (IOException exception) {
+            return createFallbackLevel(levelId);
+        } catch (JSONException exception) {
+            throw new IOException("Invalid level JSON in " + metadataPath, exception);
+        }
     }
 
     public Lesson loadLesson(int lessonId) throws IOException {
@@ -96,6 +128,10 @@ public class LessonRepository {
         return String.format(java.util.Locale.US, LEVEL_LESSON_ASSET_PATTERN, levelId, lessonId);
     }
 
+    public String getLevelMetadataPath(int levelId) {
+        return String.format(java.util.Locale.US, LEVEL_METADATA_PATTERN, levelId);
+    }
+
     public String getLessonAssetPath(int lessonId) {
         return String.format(java.util.Locale.US, LESSON_ASSET_PATTERN, lessonId);
     }
@@ -114,6 +150,77 @@ public class LessonRepository {
             }
             return builder.toString();
         }
+    }
+
+    private List<Integer> listLessonIds(int levelId) throws IOException {
+        String levelPath = getLevelFolderPath(levelId);
+        String[] files = appContext.getAssets().list(levelPath);
+        List<Integer> lessonIds = new ArrayList<>();
+        if (files != null) {
+            for (String file : files) {
+                int lessonId = parseLessonId(file);
+                if (lessonId > 0) {
+                    lessonIds.add(lessonId);
+                }
+            }
+        }
+
+        if (lessonIds.isEmpty() && levelId == 1) {
+            for (int lessonId = FIRST_LESSON_ID; lessonId <= LAST_LESSON_ID; lessonId++) {
+                lessonIds.add(lessonId);
+            }
+        }
+
+        Collections.sort(lessonIds);
+        return lessonIds;
+    }
+
+    private String getLevelFolderPath(int levelId) {
+        return LEVELS_ASSET_PATH + "/" + String.format(java.util.Locale.US, LEVEL_FOLDER_PATTERN, levelId);
+    }
+
+    private int parseLevelId(String folderName) {
+        if (folderName == null || !folderName.startsWith("level")) {
+            return 0;
+        }
+        return parsePositiveInt(folderName.substring("level".length()));
+    }
+
+    private int parseLessonId(String fileName) {
+        if (fileName == null || !fileName.startsWith("lesson") || !fileName.endsWith(".json")) {
+            return 0;
+        }
+        String value = fileName.substring("lesson".length(), fileName.length() - ".json".length());
+        return parsePositiveInt(value);
+    }
+
+    private int parsePositiveInt(String value) {
+        try {
+            int parsed = Integer.parseInt(value);
+            return parsed > 0 ? parsed : 0;
+        } catch (NumberFormatException exception) {
+            return 0;
+        }
+    }
+
+    private Level parseLevel(JSONObject json, int fallbackLevelId) {
+        return new Level(
+                json.optInt("id", fallbackLevelId),
+                json.optString("titleDa", "Learn Portuguese " + fallbackLevelId),
+                json.optString("subtitleDa", "Dansk til europæisk portugisisk"),
+                json.optString("introDa", "Offlinelektioner · dansk til europæisk portugisisk"),
+                json.optString("aiDisclosureDa", "AI brugt: begynderfraser og grammatiknoter")
+        );
+    }
+
+    private Level createFallbackLevel(int levelId) {
+        return new Level(
+                levelId,
+                "Learn Portuguese " + levelId,
+                "Dansk til europæisk portugisisk",
+                "Offlinelektioner · dansk til europæisk portugisisk",
+                "AI brugt: begynderfraser og grammatiknoter"
+        );
     }
 
     private Lesson parseLesson(JSONObject json) throws JSONException {
@@ -190,10 +297,54 @@ public class LessonRepository {
             JSONObject json = array.getJSONObject(index);
             grammar.add(new GrammarNote(
                     json.optString("titleDa"),
-                    json.optString("explanationDa")
+                    formatGrammarExplanation(json)
             ));
         }
         return grammar;
+    }
+
+    private String formatGrammarExplanation(JSONObject json) throws JSONException {
+        StringBuilder builder = new StringBuilder(json.optString("explanationDa"));
+
+        JSONArray conjugation = json.optJSONArray("conjugation");
+        if (conjugation != null && conjugation.length() > 0) {
+            appendSection(builder, "Bøjning");
+            for (int index = 0; index < conjugation.length(); index++) {
+                JSONObject row = conjugation.getJSONObject(index);
+                appendLine(builder, row.optString("subject") + " = " + row.optString("form"));
+            }
+        }
+
+        JSONArray examples = json.optJSONArray("examples");
+        if (examples != null && examples.length() > 0) {
+            appendSection(builder, "Eksempler");
+            for (int index = 0; index < examples.length(); index++) {
+                JSONObject example = examples.getJSONObject(index);
+                appendLine(builder, example.optString("pt") + " = " + example.optString("da"));
+            }
+        }
+
+        String notes = json.optString("notesDa");
+        if (!notes.isEmpty()) {
+            appendSection(builder, "Hjælp");
+            appendLine(builder, notes);
+        }
+
+        return builder.toString();
+    }
+
+    private void appendSection(StringBuilder builder, String title) {
+        if (builder.length() > 0) {
+            builder.append('\n');
+        }
+        builder.append(title).append(':');
+    }
+
+    private void appendLine(StringBuilder builder, String line) {
+        if (line == null || line.trim().isEmpty()) {
+            return;
+        }
+        builder.append('\n').append(line);
     }
 
     private List<QuizQuestion> parseQuizQuestions(JSONArray array) throws JSONException {

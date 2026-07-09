@@ -17,8 +17,36 @@
       ],
       "vocabulary": [
         {
-          "textPt": "Queria",
-          "textDa": "nøgleord fra: jeg vil gerne have"
+          "textPt": "loja",
+          "textDa": "butik"
+        },
+        {
+          "textPt": "quanto custa",
+          "textDa": "hvad koster det"
+        },
+        {
+          "textPt": "cartão",
+          "textDa": "kort"
+        },
+        {
+          "textPt": "dinheiro",
+          "textDa": "kontanter"
+        },
+        {
+          "textPt": "recibo",
+          "textDa": "kvittering"
+        },
+        {
+          "textPt": "saco",
+          "textDa": "pose"
+        },
+        {
+          "textPt": "tamanho",
+          "textDa": "størrelse"
+        },
+        {
+          "textPt": "azul",
+          "textDa": "blå"
         }
       ],
       "grammar": [
@@ -42,8 +70,36 @@
       ],
       "vocabulary": [
         {
-          "textPt": "Quanto",
-          "textDa": "nøgleord fra: pris"
+          "textPt": "loja",
+          "textDa": "butik"
+        },
+        {
+          "textPt": "quanto custa",
+          "textDa": "hvad koster det"
+        },
+        {
+          "textPt": "cartão",
+          "textDa": "kort"
+        },
+        {
+          "textPt": "dinheiro",
+          "textDa": "kontanter"
+        },
+        {
+          "textPt": "recibo",
+          "textDa": "kvittering"
+        },
+        {
+          "textPt": "saco",
+          "textDa": "pose"
+        },
+        {
+          "textPt": "tamanho",
+          "textDa": "størrelse"
+        },
+        {
+          "textPt": "azul",
+          "textDa": "blå"
         }
       ],
       "grammar": [
@@ -67,8 +123,36 @@
       ],
       "vocabulary": [
         {
-          "textPt": "Tem",
-          "textDa": "nøgleord fra: har i"
+          "textPt": "loja",
+          "textDa": "butik"
+        },
+        {
+          "textPt": "quanto custa",
+          "textDa": "hvad koster det"
+        },
+        {
+          "textPt": "cartão",
+          "textDa": "kort"
+        },
+        {
+          "textPt": "dinheiro",
+          "textDa": "kontanter"
+        },
+        {
+          "textPt": "recibo",
+          "textDa": "kvittering"
+        },
+        {
+          "textPt": "saco",
+          "textDa": "pose"
+        },
+        {
+          "textPt": "tamanho",
+          "textDa": "størrelse"
+        },
+        {
+          "textPt": "azul",
+          "textDa": "blå"
         }
       ],
       "grammar": [
@@ -92,8 +176,36 @@
       ],
       "vocabulary": [
         {
-          "textPt": "Tem",
-          "textDa": "nøgleord fra: farve"
+          "textPt": "loja",
+          "textDa": "butik"
+        },
+        {
+          "textPt": "quanto custa",
+          "textDa": "hvad koster det"
+        },
+        {
+          "textPt": "cartão",
+          "textDa": "kort"
+        },
+        {
+          "textPt": "dinheiro",
+          "textDa": "kontanter"
+        },
+        {
+          "textPt": "recibo",
+          "textDa": "kvittering"
+        },
+        {
+          "textPt": "saco",
+          "textDa": "pose"
+        },
+        {
+          "textPt": "tamanho",
+          "textDa": "størrelse"
+        },
+        {
+          "textPt": "azul",
+          "textDa": "blå"
         }
       ],
       "grammar": [
@@ -117,8 +229,36 @@
       ],
       "vocabulary": [
         {
-          "textPt": "Tem",
-          "textDa": "nøgleord fra: størrelse"
+          "textPt": "loja",
+          "textDa": "butik"
+        },
+        {
+          "textPt": "quanto custa",
+          "textDa": "hvad koster det"
+        },
+        {
+          "textPt": "cartão",
+          "textDa": "kort"
+        },
+        {
+          "textPt": "dinheiro",
+          "textDa": "kontanter"
+        },
+        {
+          "textPt": "recibo",
+          "textDa": "kvittering"
+        },
+        {
+          "textPt": "saco",
+          "textDa": "pose"
+        },
+        {
+          "textPt": "tamanho",
+          "textDa": "størrelse"
+        },
+        {
+          "textPt": "azul",
+          "textDa": "blå"
         }
       ],
       "grammar": [
@@ -142,8 +282,36 @@
       ],
       "vocabulary": [
         {
-          "textPt": "Posso",
-          "textDa": "nøgleord fra: betaling"
+          "textPt": "loja",
+          "textDa": "butik"
+        },
+        {
+          "textPt": "quanto custa",
+          "textDa": "hvad koster det"
+        },
+        {
+          "textPt": "cartão",
+          "textDa": "kort"
+        },
+        {
+          "textPt": "dinheiro",
+          "textDa": "kontanter"
+        },
+        {
+          "textPt": "recibo",
+          "textDa": "kvittering"
+        },
+        {
+          "textPt": "saco",
+          "textDa": "pose"
+        },
+        {
+          "textPt": "tamanho",
+          "textDa": "størrelse"
+        },
+        {
+          "textPt": "azul",
+          "textDa": "blå"
         }
       ],
       "grammar": [
@@ -167,8 +335,36 @@
       ],
       "vocabulary": [
         {
-          "textPt": "Pago",
-          "textDa": "nøgleord fra: kontant"
+          "textPt": "loja",
+          "textDa": "butik"
+        },
+        {
+          "textPt": "quanto custa",
+          "textDa": "hvad koster det"
+        },
+        {
+          "textPt": "cartão",
+          "textDa": "kort"
+        },
+        {
+          "textPt": "dinheiro",
+          "textDa": "kontanter"
+        },
+        {
+          "textPt": "recibo",
+          "textDa": "kvittering"
+        },
+        {
+          "textPt": "saco",
+          "textDa": "pose"
+        },
+        {
+          "textPt": "tamanho",
+          "textDa": "størrelse"
+        },
+        {
+          "textPt": "azul",
+          "textDa": "blå"
         }
       ],
       "grammar": [
@@ -192,8 +388,36 @@
       ],
       "vocabulary": [
         {
-          "textPt": "Queria",
-          "textDa": "nøgleord fra: kvittering"
+          "textPt": "loja",
+          "textDa": "butik"
+        },
+        {
+          "textPt": "quanto custa",
+          "textDa": "hvad koster det"
+        },
+        {
+          "textPt": "cartão",
+          "textDa": "kort"
+        },
+        {
+          "textPt": "dinheiro",
+          "textDa": "kontanter"
+        },
+        {
+          "textPt": "recibo",
+          "textDa": "kvittering"
+        },
+        {
+          "textPt": "saco",
+          "textDa": "pose"
+        },
+        {
+          "textPt": "tamanho",
+          "textDa": "størrelse"
+        },
+        {
+          "textPt": "azul",
+          "textDa": "blå"
         }
       ],
       "grammar": [
@@ -217,8 +441,36 @@
       ],
       "vocabulary": [
         {
-          "textPt": "Preciso",
-          "textDa": "nøgleord fra: pose"
+          "textPt": "loja",
+          "textDa": "butik"
+        },
+        {
+          "textPt": "quanto custa",
+          "textDa": "hvad koster det"
+        },
+        {
+          "textPt": "cartão",
+          "textDa": "kort"
+        },
+        {
+          "textPt": "dinheiro",
+          "textDa": "kontanter"
+        },
+        {
+          "textPt": "recibo",
+          "textDa": "kvittering"
+        },
+        {
+          "textPt": "saco",
+          "textDa": "pose"
+        },
+        {
+          "textPt": "tamanho",
+          "textDa": "størrelse"
+        },
+        {
+          "textPt": "azul",
+          "textDa": "blå"
         }
       ],
       "grammar": [
@@ -242,8 +494,36 @@
       ],
       "vocabulary": [
         {
-          "textPt": "Obrigado",
-          "textDa": "nøgleord fra: tak"
+          "textPt": "loja",
+          "textDa": "butik"
+        },
+        {
+          "textPt": "quanto custa",
+          "textDa": "hvad koster det"
+        },
+        {
+          "textPt": "cartão",
+          "textDa": "kort"
+        },
+        {
+          "textPt": "dinheiro",
+          "textDa": "kontanter"
+        },
+        {
+          "textPt": "recibo",
+          "textDa": "kvittering"
+        },
+        {
+          "textPt": "saco",
+          "textDa": "pose"
+        },
+        {
+          "textPt": "tamanho",
+          "textDa": "størrelse"
+        },
+        {
+          "textPt": "azul",
+          "textDa": "blå"
         }
       ],
       "grammar": [

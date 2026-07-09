@@ -23,8 +23,49 @@
       ],
       "grammar": [
         {
-          "titleDa": "ser",
-          "explanationDa": "Ser bruges om identitet, nationalitet, egenskaber og mere faste forhold."
+          "titleDa": "ser - bøjning og brug",
+          "explanationDa": "Ser bruges om identitet, nationalitet, egenskaber, relationer og mere faste fakta.",
+          "conjugation": [
+            {
+              "subject": "eu",
+              "form": "sou"
+            },
+            {
+              "subject": "tu",
+              "form": "és"
+            },
+            {
+              "subject": "ele/ela/você",
+              "form": "é"
+            },
+            {
+              "subject": "nós",
+              "form": "somos"
+            },
+            {
+              "subject": "vocês",
+              "form": "são"
+            },
+            {
+              "subject": "eles/elas",
+              "form": "são"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Eu sou dinamarquês.",
+              "da": "Jeg er dansker."
+            },
+            {
+              "pt": "Ela é professora.",
+              "da": "Hun er lærer."
+            },
+            {
+              "pt": "Nós somos amigos.",
+              "da": "Vi er venner."
+            }
+          ],
+          "notesDa": "Spørg: Er det identitet eller en fast egenskab? Så er ser normalt det rigtige valg."
         }
       ]
     },
@@ -48,8 +89,49 @@
       ],
       "grammar": [
         {
-          "titleDa": "ser",
-          "explanationDa": "Ser bruges om identitet, nationalitet, egenskaber og mere faste forhold."
+          "titleDa": "ser - bøjning og brug",
+          "explanationDa": "Ser bruges om identitet, nationalitet, egenskaber, relationer og mere faste fakta.",
+          "conjugation": [
+            {
+              "subject": "eu",
+              "form": "sou"
+            },
+            {
+              "subject": "tu",
+              "form": "és"
+            },
+            {
+              "subject": "ele/ela/você",
+              "form": "é"
+            },
+            {
+              "subject": "nós",
+              "form": "somos"
+            },
+            {
+              "subject": "vocês",
+              "form": "são"
+            },
+            {
+              "subject": "eles/elas",
+              "form": "são"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Eu sou dinamarquês.",
+              "da": "Jeg er dansker."
+            },
+            {
+              "pt": "Ela é professora.",
+              "da": "Hun er lærer."
+            },
+            {
+              "pt": "Nós somos amigos.",
+              "da": "Vi er venner."
+            }
+          ],
+          "notesDa": "Spørg: Er det identitet eller en fast egenskab? Så er ser normalt det rigtige valg."
         }
       ]
     },
@@ -73,8 +155,49 @@
       ],
       "grammar": [
         {
-          "titleDa": "ser",
-          "explanationDa": "Ser bruges om identitet, nationalitet, egenskaber og mere faste forhold."
+          "titleDa": "ser - bøjning og brug",
+          "explanationDa": "Ser bruges om identitet, nationalitet, egenskaber, relationer og mere faste fakta.",
+          "conjugation": [
+            {
+              "subject": "eu",
+              "form": "sou"
+            },
+            {
+              "subject": "tu",
+              "form": "és"
+            },
+            {
+              "subject": "ele/ela/você",
+              "form": "é"
+            },
+            {
+              "subject": "nós",
+              "form": "somos"
+            },
+            {
+              "subject": "vocês",
+              "form": "são"
+            },
+            {
+              "subject": "eles/elas",
+              "form": "são"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Eu sou dinamarquês.",
+              "da": "Jeg er dansker."
+            },
+            {
+              "pt": "Ela é professora.",
+              "da": "Hun er lærer."
+            },
+            {
+              "pt": "Nós somos amigos.",
+              "da": "Vi er venner."
+            }
+          ],
+          "notesDa": "Spørg: Er det identitet eller en fast egenskab? Så er ser normalt det rigtige valg."
         }
       ]
     },
@@ -98,8 +221,49 @@
       ],
       "grammar": [
         {
-          "titleDa": "ser",
-          "explanationDa": "Ser bruges om identitet, nationalitet, egenskaber og mere faste forhold."
+          "titleDa": "ser - bøjning og brug",
+          "explanationDa": "Ser bruges om identitet, nationalitet, egenskaber, relationer og mere faste fakta.",
+          "conjugation": [
+            {
+              "subject": "eu",
+              "form": "sou"
+            },
+            {
+              "subject": "tu",
+              "form": "és"
+            },
+            {
+              "subject": "ele/ela/você",
+              "form": "é"
+            },
+            {
+              "subject": "nós",
+              "form": "somos"
+            },
+            {
+              "subject": "vocês",
+              "form": "são"
+            },
+            {
+              "subject": "eles/elas",
+              "form": "são"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Eu sou dinamarquês.",
+              "da": "Jeg er dansker."
+            },
+            {
+              "pt": "Ela é professora.",
+              "da": "Hun er lærer."
+            },
+            {
+              "pt": "Nós somos amigos.",
+              "da": "Vi er venner."
+            }
+          ],
+          "notesDa": "Spørg: Er det identitet eller en fast egenskab? Så er ser normalt det rigtige valg."
         }
       ]
     },
@@ -123,8 +287,49 @@
       ],
       "grammar": [
         {
-          "titleDa": "ser",
-          "explanationDa": "Ser bruges om identitet, nationalitet, egenskaber og mere faste forhold."
+          "titleDa": "ser - bøjning og brug",
+          "explanationDa": "Ser bruges om identitet, nationalitet, egenskaber, relationer og mere faste fakta.",
+          "conjugation": [
+            {
+              "subject": "eu",
+              "form": "sou"
+            },
+            {
+              "subject": "tu",
+              "form": "és"
+            },
+            {
+              "subject": "ele/ela/você",
+              "form": "é"
+            },
+            {
+              "subject": "nós",
+              "form": "somos"
+            },
+            {
+              "subject": "vocês",
+              "form": "são"
+            },
+            {
+              "subject": "eles/elas",
+              "form": "são"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Eu sou dinamarquês.",
+              "da": "Jeg er dansker."
+            },
+            {
+              "pt": "Ela é professora.",
+              "da": "Hun er lærer."
+            },
+            {
+              "pt": "Nós somos amigos.",
+              "da": "Vi er venner."
+            }
+          ],
+          "notesDa": "Spørg: Er det identitet eller en fast egenskab? Så er ser normalt det rigtige valg."
         }
       ]
     },
@@ -148,8 +353,49 @@
       ],
       "grammar": [
         {
-          "titleDa": "ser",
-          "explanationDa": "Ser bruges om identitet, nationalitet, egenskaber og mere faste forhold."
+          "titleDa": "ser - bøjning og brug",
+          "explanationDa": "Ser bruges om identitet, nationalitet, egenskaber, relationer og mere faste fakta.",
+          "conjugation": [
+            {
+              "subject": "eu",
+              "form": "sou"
+            },
+            {
+              "subject": "tu",
+              "form": "és"
+            },
+            {
+              "subject": "ele/ela/você",
+              "form": "é"
+            },
+            {
+              "subject": "nós",
+              "form": "somos"
+            },
+            {
+              "subject": "vocês",
+              "form": "são"
+            },
+            {
+              "subject": "eles/elas",
+              "form": "são"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Eu sou dinamarquês.",
+              "da": "Jeg er dansker."
+            },
+            {
+              "pt": "Ela é professora.",
+              "da": "Hun er lærer."
+            },
+            {
+              "pt": "Nós somos amigos.",
+              "da": "Vi er venner."
+            }
+          ],
+          "notesDa": "Spørg: Er det identitet eller en fast egenskab? Så er ser normalt det rigtige valg."
         }
       ]
     },
@@ -173,8 +419,49 @@
       ],
       "grammar": [
         {
-          "titleDa": "ser",
-          "explanationDa": "Ser bruges om identitet, nationalitet, egenskaber og mere faste forhold."
+          "titleDa": "ser - bøjning og brug",
+          "explanationDa": "Ser bruges om identitet, nationalitet, egenskaber, relationer og mere faste fakta.",
+          "conjugation": [
+            {
+              "subject": "eu",
+              "form": "sou"
+            },
+            {
+              "subject": "tu",
+              "form": "és"
+            },
+            {
+              "subject": "ele/ela/você",
+              "form": "é"
+            },
+            {
+              "subject": "nós",
+              "form": "somos"
+            },
+            {
+              "subject": "vocês",
+              "form": "são"
+            },
+            {
+              "subject": "eles/elas",
+              "form": "são"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Eu sou dinamarquês.",
+              "da": "Jeg er dansker."
+            },
+            {
+              "pt": "Ela é professora.",
+              "da": "Hun er lærer."
+            },
+            {
+              "pt": "Nós somos amigos.",
+              "da": "Vi er venner."
+            }
+          ],
+          "notesDa": "Spørg: Er det identitet eller en fast egenskab? Så er ser normalt det rigtige valg."
         }
       ]
     },
@@ -198,8 +485,49 @@
       ],
       "grammar": [
         {
-          "titleDa": "ser",
-          "explanationDa": "Ser bruges om identitet, nationalitet, egenskaber og mere faste forhold."
+          "titleDa": "ser - bøjning og brug",
+          "explanationDa": "Ser bruges om identitet, nationalitet, egenskaber, relationer og mere faste fakta.",
+          "conjugation": [
+            {
+              "subject": "eu",
+              "form": "sou"
+            },
+            {
+              "subject": "tu",
+              "form": "és"
+            },
+            {
+              "subject": "ele/ela/você",
+              "form": "é"
+            },
+            {
+              "subject": "nós",
+              "form": "somos"
+            },
+            {
+              "subject": "vocês",
+              "form": "são"
+            },
+            {
+              "subject": "eles/elas",
+              "form": "são"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Eu sou dinamarquês.",
+              "da": "Jeg er dansker."
+            },
+            {
+              "pt": "Ela é professora.",
+              "da": "Hun er lærer."
+            },
+            {
+              "pt": "Nós somos amigos.",
+              "da": "Vi er venner."
+            }
+          ],
+          "notesDa": "Spørg: Er det identitet eller en fast egenskab? Så er ser normalt det rigtige valg."
         }
       ]
     },
@@ -223,8 +551,49 @@
       ],
       "grammar": [
         {
-          "titleDa": "ser",
-          "explanationDa": "Ser bruges om identitet, nationalitet, egenskaber og mere faste forhold."
+          "titleDa": "ser - bøjning og brug",
+          "explanationDa": "Ser bruges om identitet, nationalitet, egenskaber, relationer og mere faste fakta.",
+          "conjugation": [
+            {
+              "subject": "eu",
+              "form": "sou"
+            },
+            {
+              "subject": "tu",
+              "form": "és"
+            },
+            {
+              "subject": "ele/ela/você",
+              "form": "é"
+            },
+            {
+              "subject": "nós",
+              "form": "somos"
+            },
+            {
+              "subject": "vocês",
+              "form": "são"
+            },
+            {
+              "subject": "eles/elas",
+              "form": "são"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Eu sou dinamarquês.",
+              "da": "Jeg er dansker."
+            },
+            {
+              "pt": "Ela é professora.",
+              "da": "Hun er lærer."
+            },
+            {
+              "pt": "Nós somos amigos.",
+              "da": "Vi er venner."
+            }
+          ],
+          "notesDa": "Spørg: Er det identitet eller en fast egenskab? Så er ser normalt det rigtige valg."
         }
       ]
     },
@@ -248,8 +617,49 @@
       ],
       "grammar": [
         {
-          "titleDa": "ser",
-          "explanationDa": "Ser bruges om identitet, nationalitet, egenskaber og mere faste forhold."
+          "titleDa": "ser - bøjning og brug",
+          "explanationDa": "Ser bruges om identitet, nationalitet, egenskaber, relationer og mere faste fakta.",
+          "conjugation": [
+            {
+              "subject": "eu",
+              "form": "sou"
+            },
+            {
+              "subject": "tu",
+              "form": "és"
+            },
+            {
+              "subject": "ele/ela/você",
+              "form": "é"
+            },
+            {
+              "subject": "nós",
+              "form": "somos"
+            },
+            {
+              "subject": "vocês",
+              "form": "são"
+            },
+            {
+              "subject": "eles/elas",
+              "form": "são"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Eu sou dinamarquês.",
+              "da": "Jeg er dansker."
+            },
+            {
+              "pt": "Ela é professora.",
+              "da": "Hun er lærer."
+            },
+            {
+              "pt": "Nós somos amigos.",
+              "da": "Vi er venner."
+            }
+          ],
+          "notesDa": "Spørg: Er det identitet eller en fast egenskab? Så er ser normalt det rigtige valg."
         }
       ]
     }
