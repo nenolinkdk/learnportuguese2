@@ -1,4 +1,4 @@
-package dk.nenolink.learnportuguese.data.datastore;
+package dk.nenolink.learnportuguese2.data.datastore;
 
 import android.content.Context;
 import android.content.SharedPreferences;

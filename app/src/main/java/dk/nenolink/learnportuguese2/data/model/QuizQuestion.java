@@ -1,4 +1,4 @@
-package dk.nenolink.learnportuguese.data.model;
+package dk.nenolink.learnportuguese2.data.model;
 
 import java.util.ArrayList;
 import java.util.Collections;

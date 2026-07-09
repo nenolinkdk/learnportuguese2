@@ -1,16 +1,16 @@
-package dk.nenolink.learnportuguese.data.repository;
+package dk.nenolink.learnportuguese2.data.repository;
 
 import android.content.Context;
 
-import dk.nenolink.learnportuguese.data.model.Dialogue;
-import dk.nenolink.learnportuguese.data.model.GrammarNote;
-import dk.nenolink.learnportuguese.data.model.Level;
-import dk.nenolink.learnportuguese.data.model.Lesson;
-import dk.nenolink.learnportuguese.data.model.NumberEntry;
-import dk.nenolink.learnportuguese.data.model.Phrase;
-import dk.nenolink.learnportuguese.data.model.QuizAnswer;
-import dk.nenolink.learnportuguese.data.model.QuizQuestion;
-import dk.nenolink.learnportuguese.data.model.VocabularyItem;
+import dk.nenolink.learnportuguese2.data.model.Dialogue;
+import dk.nenolink.learnportuguese2.data.model.GrammarNote;
+import dk.nenolink.learnportuguese2.data.model.Level;
+import dk.nenolink.learnportuguese2.data.model.Lesson;
+import dk.nenolink.learnportuguese2.data.model.NumberEntry;
+import dk.nenolink.learnportuguese2.data.model.Phrase;
+import dk.nenolink.learnportuguese2.data.model.QuizAnswer;
+import dk.nenolink.learnportuguese2.data.model.QuizQuestion;
+import dk.nenolink.learnportuguese2.data.model.VocabularyItem;
 
 import org.json.JSONArray;
 import org.json.JSONException;
