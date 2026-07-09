@@ -17,8 +17,36 @@
       ],
       "vocabulary": [
         {
-          "textPt": "Queria",
-          "textDa": "nøgleord fra: kaffe"
+          "textPt": "café",
+          "textDa": "kaffe/cafe"
+        },
+        {
+          "textPt": "água sem gás",
+          "textDa": "vand uden brus"
+        },
+        {
+          "textPt": "menu",
+          "textDa": "menukort"
+        },
+        {
+          "textPt": "mesa",
+          "textDa": "bord"
+        },
+        {
+          "textPt": "sopa",
+          "textDa": "suppe"
+        },
+        {
+          "textPt": "conta",
+          "textDa": "regning"
+        },
+        {
+          "textPt": "por favor",
+          "textDa": "venligst"
+        },
+        {
+          "textPt": "quente",
+          "textDa": "varm"
         }
       ],
       "grammar": [
@@ -42,8 +70,36 @@
       ],
       "vocabulary": [
         {
-          "textPt": "Queria",
-          "textDa": "nøgleord fra: vand"
+          "textPt": "café",
+          "textDa": "kaffe/cafe"
+        },
+        {
+          "textPt": "água sem gás",
+          "textDa": "vand uden brus"
+        },
+        {
+          "textPt": "menu",
+          "textDa": "menukort"
+        },
+        {
+          "textPt": "mesa",
+          "textDa": "bord"
+        },
+        {
+          "textPt": "sopa",
+          "textDa": "suppe"
+        },
+        {
+          "textPt": "conta",
+          "textDa": "regning"
+        },
+        {
+          "textPt": "por favor",
+          "textDa": "venligst"
+        },
+        {
+          "textPt": "quente",
+          "textDa": "varm"
         }
       ],
       "grammar": [
@@ -67,8 +123,36 @@
       ],
       "vocabulary": [
         {
-          "textPt": "Tem",
-          "textDa": "nøgleord fra: menu"
+          "textPt": "café",
+          "textDa": "kaffe/cafe"
+        },
+        {
+          "textPt": "água sem gás",
+          "textDa": "vand uden brus"
+        },
+        {
+          "textPt": "menu",
+          "textDa": "menukort"
+        },
+        {
+          "textPt": "mesa",
+          "textDa": "bord"
+        },
+        {
+          "textPt": "sopa",
+          "textDa": "suppe"
+        },
+        {
+          "textPt": "conta",
+          "textDa": "regning"
+        },
+        {
+          "textPt": "por favor",
+          "textDa": "venligst"
+        },
+        {
+          "textPt": "quente",
+          "textDa": "varm"
         }
       ],
       "grammar": [
@@ -92,8 +176,36 @@
       ],
       "vocabulary": [
         {
-          "textPt": "Tem",
-          "textDa": "nøgleord fra: bord"
+          "textPt": "café",
+          "textDa": "kaffe/cafe"
+        },
+        {
+          "textPt": "água sem gás",
+          "textDa": "vand uden brus"
+        },
+        {
+          "textPt": "menu",
+          "textDa": "menukort"
+        },
+        {
+          "textPt": "mesa",
+          "textDa": "bord"
+        },
+        {
+          "textPt": "sopa",
+          "textDa": "suppe"
+        },
+        {
+          "textPt": "conta",
+          "textDa": "regning"
+        },
+        {
+          "textPt": "por favor",
+          "textDa": "venligst"
+        },
+        {
+          "textPt": "quente",
+          "textDa": "varm"
         }
       ],
       "grammar": [
@@ -117,8 +229,36 @@
       ],
       "vocabulary": [
         {
-          "textPt": "Queria",
-          "textDa": "nøgleord fra: bestilling"
+          "textPt": "café",
+          "textDa": "kaffe/cafe"
+        },
+        {
+          "textPt": "água sem gás",
+          "textDa": "vand uden brus"
+        },
+        {
+          "textPt": "menu",
+          "textDa": "menukort"
+        },
+        {
+          "textPt": "mesa",
+          "textDa": "bord"
+        },
+        {
+          "textPt": "sopa",
+          "textDa": "suppe"
+        },
+        {
+          "textPt": "conta",
+          "textDa": "regning"
+        },
+        {
+          "textPt": "por favor",
+          "textDa": "venligst"
+        },
+        {
+          "textPt": "quente",
+          "textDa": "varm"
         }
       ],
       "grammar": [
@@ -142,8 +282,36 @@
       ],
       "vocabulary": [
         {
-          "textPt": "A",
-          "textDa": "nøgleord fra: regning"
+          "textPt": "café",
+          "textDa": "kaffe/cafe"
+        },
+        {
+          "textPt": "água sem gás",
+          "textDa": "vand uden brus"
+        },
+        {
+          "textPt": "menu",
+          "textDa": "menukort"
+        },
+        {
+          "textPt": "mesa",
+          "textDa": "bord"
+        },
+        {
+          "textPt": "sopa",
+          "textDa": "suppe"
+        },
+        {
+          "textPt": "conta",
+          "textDa": "regning"
+        },
+        {
+          "textPt": "por favor",
+          "textDa": "venligst"
+        },
+        {
+          "textPt": "quente",
+          "textDa": "varm"
         }
       ],
       "grammar": [
@@ -167,8 +335,36 @@
       ],
       "vocabulary": [
         {
-          "textPt": "Estamos",
-          "textDa": "nøgleord fra: klar"
+          "textPt": "café",
+          "textDa": "kaffe/cafe"
+        },
+        {
+          "textPt": "água sem gás",
+          "textDa": "vand uden brus"
+        },
+        {
+          "textPt": "menu",
+          "textDa": "menukort"
+        },
+        {
+          "textPt": "mesa",
+          "textDa": "bord"
+        },
+        {
+          "textPt": "sopa",
+          "textDa": "suppe"
+        },
+        {
+          "textPt": "conta",
+          "textDa": "regning"
+        },
+        {
+          "textPt": "por favor",
+          "textDa": "venligst"
+        },
+        {
+          "textPt": "quente",
+          "textDa": "varm"
         }
       ],
       "grammar": [
@@ -192,8 +388,36 @@
       ],
       "vocabulary": [
         {
-          "textPt": "A",
-          "textDa": "nøgleord fra: god mad"
+          "textPt": "café",
+          "textDa": "kaffe/cafe"
+        },
+        {
+          "textPt": "água sem gás",
+          "textDa": "vand uden brus"
+        },
+        {
+          "textPt": "menu",
+          "textDa": "menukort"
+        },
+        {
+          "textPt": "mesa",
+          "textDa": "bord"
+        },
+        {
+          "textPt": "sopa",
+          "textDa": "suppe"
+        },
+        {
+          "textPt": "conta",
+          "textDa": "regning"
+        },
+        {
+          "textPt": "por favor",
+          "textDa": "venligst"
+        },
+        {
+          "textPt": "quente",
+          "textDa": "varm"
         }
       ],
       "grammar": [
@@ -217,8 +441,36 @@
       ],
       "vocabulary": [
         {
-          "textPt": "O",
-          "textDa": "nøgleord fra: varm"
+          "textPt": "café",
+          "textDa": "kaffe/cafe"
+        },
+        {
+          "textPt": "água sem gás",
+          "textDa": "vand uden brus"
+        },
+        {
+          "textPt": "menu",
+          "textDa": "menukort"
+        },
+        {
+          "textPt": "mesa",
+          "textDa": "bord"
+        },
+        {
+          "textPt": "sopa",
+          "textDa": "suppe"
+        },
+        {
+          "textPt": "conta",
+          "textDa": "regning"
+        },
+        {
+          "textPt": "por favor",
+          "textDa": "venligst"
+        },
+        {
+          "textPt": "quente",
+          "textDa": "varm"
         }
       ],
       "grammar": [
@@ -242,8 +494,36 @@
       ],
       "vocabulary": [
         {
-          "textPt": "Posso",
-          "textDa": "nøgleord fra: betale"
+          "textPt": "café",
+          "textDa": "kaffe/cafe"
+        },
+        {
+          "textPt": "água sem gás",
+          "textDa": "vand uden brus"
+        },
+        {
+          "textPt": "menu",
+          "textDa": "menukort"
+        },
+        {
+          "textPt": "mesa",
+          "textDa": "bord"
+        },
+        {
+          "textPt": "sopa",
+          "textDa": "suppe"
+        },
+        {
+          "textPt": "conta",
+          "textDa": "regning"
+        },
+        {
+          "textPt": "por favor",
+          "textDa": "venligst"
+        },
+        {
+          "textPt": "quente",
+          "textDa": "varm"
         }
       ],
       "grammar": [

@@ -17,8 +17,36 @@
       ],
       "vocabulary": [
         {
-          "textPt": "Queria",
-          "textDa": "nøgleord fra: brød"
+          "textPt": "supermercado",
+          "textDa": "supermarked"
+        },
+        {
+          "textPt": "pão",
+          "textDa": "brød"
+        },
+        {
+          "textPt": "leite",
+          "textDa": "mælk"
+        },
+        {
+          "textPt": "maçãs",
+          "textDa": "æbler"
+        },
+        {
+          "textPt": "meio quilo",
+          "textDa": "halvt kilo"
+        },
+        {
+          "textPt": "recibo",
+          "textDa": "kvittering"
+        },
+        {
+          "textPt": "cartão",
+          "textDa": "kort"
+        },
+        {
+          "textPt": "saída",
+          "textDa": "udgang"
         }
       ],
       "grammar": [
@@ -42,8 +70,36 @@
       ],
       "vocabulary": [
         {
-          "textPt": "Onde",
-          "textDa": "nøgleord fra: mælk"
+          "textPt": "supermercado",
+          "textDa": "supermarked"
+        },
+        {
+          "textPt": "pão",
+          "textDa": "brød"
+        },
+        {
+          "textPt": "leite",
+          "textDa": "mælk"
+        },
+        {
+          "textPt": "maçãs",
+          "textDa": "æbler"
+        },
+        {
+          "textPt": "meio quilo",
+          "textDa": "halvt kilo"
+        },
+        {
+          "textPt": "recibo",
+          "textDa": "kvittering"
+        },
+        {
+          "textPt": "cartão",
+          "textDa": "kort"
+        },
+        {
+          "textPt": "saída",
+          "textDa": "udgang"
         }
       ],
       "grammar": [
@@ -67,8 +123,36 @@
       ],
       "vocabulary": [
         {
-          "textPt": "Tem",
-          "textDa": "nøgleord fra: frugt"
+          "textPt": "supermercado",
+          "textDa": "supermarked"
+        },
+        {
+          "textPt": "pão",
+          "textDa": "brød"
+        },
+        {
+          "textPt": "leite",
+          "textDa": "mælk"
+        },
+        {
+          "textPt": "maçãs",
+          "textDa": "æbler"
+        },
+        {
+          "textPt": "meio quilo",
+          "textDa": "halvt kilo"
+        },
+        {
+          "textPt": "recibo",
+          "textDa": "kvittering"
+        },
+        {
+          "textPt": "cartão",
+          "textDa": "kort"
+        },
+        {
+          "textPt": "saída",
+          "textDa": "udgang"
         }
       ],
       "grammar": [
@@ -92,8 +176,36 @@
       ],
       "vocabulary": [
         {
-          "textPt": "Queria",
-          "textDa": "nøgleord fra: mængde"
+          "textPt": "supermercado",
+          "textDa": "supermarked"
+        },
+        {
+          "textPt": "pão",
+          "textDa": "brød"
+        },
+        {
+          "textPt": "leite",
+          "textDa": "mælk"
+        },
+        {
+          "textPt": "maçãs",
+          "textDa": "æbler"
+        },
+        {
+          "textPt": "meio quilo",
+          "textDa": "halvt kilo"
+        },
+        {
+          "textPt": "recibo",
+          "textDa": "kvittering"
+        },
+        {
+          "textPt": "cartão",
+          "textDa": "kort"
+        },
+        {
+          "textPt": "saída",
+          "textDa": "udgang"
         }
       ],
       "grammar": [
@@ -117,8 +229,36 @@
       ],
       "vocabulary": [
         {
-          "textPt": "Preciso",
-          "textDa": "nøgleord fra: vand"
+          "textPt": "supermercado",
+          "textDa": "supermarked"
+        },
+        {
+          "textPt": "pão",
+          "textDa": "brød"
+        },
+        {
+          "textPt": "leite",
+          "textDa": "mælk"
+        },
+        {
+          "textPt": "maçãs",
+          "textDa": "æbler"
+        },
+        {
+          "textPt": "meio quilo",
+          "textDa": "halvt kilo"
+        },
+        {
+          "textPt": "recibo",
+          "textDa": "kvittering"
+        },
+        {
+          "textPt": "cartão",
+          "textDa": "kort"
+        },
+        {
+          "textPt": "saída",
+          "textDa": "udgang"
         }
       ],
       "grammar": [
@@ -142,8 +282,36 @@
       ],
       "vocabulary": [
         {
-          "textPt": "Aceita",
-          "textDa": "nøgleord fra: kort"
+          "textPt": "supermercado",
+          "textDa": "supermarked"
+        },
+        {
+          "textPt": "pão",
+          "textDa": "brød"
+        },
+        {
+          "textPt": "leite",
+          "textDa": "mælk"
+        },
+        {
+          "textPt": "maçãs",
+          "textDa": "æbler"
+        },
+        {
+          "textPt": "meio quilo",
+          "textDa": "halvt kilo"
+        },
+        {
+          "textPt": "recibo",
+          "textDa": "kvittering"
+        },
+        {
+          "textPt": "cartão",
+          "textDa": "kort"
+        },
+        {
+          "textPt": "saída",
+          "textDa": "udgang"
         }
       ],
       "grammar": [
@@ -167,8 +335,36 @@
       ],
       "vocabulary": [
         {
-          "textPt": "Só",
-          "textDa": "nøgleord fra: kontant"
+          "textPt": "supermercado",
+          "textDa": "supermarked"
+        },
+        {
+          "textPt": "pão",
+          "textDa": "brød"
+        },
+        {
+          "textPt": "leite",
+          "textDa": "mælk"
+        },
+        {
+          "textPt": "maçãs",
+          "textDa": "æbler"
+        },
+        {
+          "textPt": "meio quilo",
+          "textDa": "halvt kilo"
+        },
+        {
+          "textPt": "recibo",
+          "textDa": "kvittering"
+        },
+        {
+          "textPt": "cartão",
+          "textDa": "kort"
+        },
+        {
+          "textPt": "saída",
+          "textDa": "udgang"
         }
       ],
       "grammar": [
@@ -192,8 +388,36 @@
       ],
       "vocabulary": [
         {
-          "textPt": "Quer",
-          "textDa": "nøgleord fra: pose"
+          "textPt": "supermercado",
+          "textDa": "supermarked"
+        },
+        {
+          "textPt": "pão",
+          "textDa": "brød"
+        },
+        {
+          "textPt": "leite",
+          "textDa": "mælk"
+        },
+        {
+          "textPt": "maçãs",
+          "textDa": "æbler"
+        },
+        {
+          "textPt": "meio quilo",
+          "textDa": "halvt kilo"
+        },
+        {
+          "textPt": "recibo",
+          "textDa": "kvittering"
+        },
+        {
+          "textPt": "cartão",
+          "textDa": "kort"
+        },
+        {
+          "textPt": "saída",
+          "textDa": "udgang"
         }
       ],
       "grammar": [
@@ -217,8 +441,36 @@
       ],
       "vocabulary": [
         {
-          "textPt": "Quer",
-          "textDa": "nøgleord fra: kvittering"
+          "textPt": "supermercado",
+          "textDa": "supermarked"
+        },
+        {
+          "textPt": "pão",
+          "textDa": "brød"
+        },
+        {
+          "textPt": "leite",
+          "textDa": "mælk"
+        },
+        {
+          "textPt": "maçãs",
+          "textDa": "æbler"
+        },
+        {
+          "textPt": "meio quilo",
+          "textDa": "halvt kilo"
+        },
+        {
+          "textPt": "recibo",
+          "textDa": "kvittering"
+        },
+        {
+          "textPt": "cartão",
+          "textDa": "kort"
+        },
+        {
+          "textPt": "saída",
+          "textDa": "udgang"
         }
       ],
       "grammar": [
@@ -242,8 +494,36 @@
       ],
       "vocabulary": [
         {
-          "textPt": "Onde",
-          "textDa": "nøgleord fra: udgang"
+          "textPt": "supermercado",
+          "textDa": "supermarked"
+        },
+        {
+          "textPt": "pão",
+          "textDa": "brød"
+        },
+        {
+          "textPt": "leite",
+          "textDa": "mælk"
+        },
+        {
+          "textPt": "maçãs",
+          "textDa": "æbler"
+        },
+        {
+          "textPt": "meio quilo",
+          "textDa": "halvt kilo"
+        },
+        {
+          "textPt": "recibo",
+          "textDa": "kvittering"
+        },
+        {
+          "textPt": "cartão",
+          "textDa": "kort"
+        },
+        {
+          "textPt": "saída",
+          "textDa": "udgang"
         }
       ],
       "grammar": [

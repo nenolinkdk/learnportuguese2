@@ -15,6 +15,7 @@ import android.widget.Toast;
 import dk.nenolink.learnportuguese.data.datastore.ProgressRepository;
 import dk.nenolink.learnportuguese.data.model.Dialogue;
 import dk.nenolink.learnportuguese.data.model.GrammarNote;
+import dk.nenolink.learnportuguese.data.model.Level;
 import dk.nenolink.learnportuguese.data.model.Lesson;
 import dk.nenolink.learnportuguese.data.model.QuizAnswer;
 import dk.nenolink.learnportuguese.data.model.QuizQuestion;
@@ -40,12 +41,11 @@ public class MainActivity extends Activity {
     private static final int COLOR_PANEL_ALT = 0xFFFFF1F5;
     private static final int COLOR_SUCCESS = 0xFF1B7F3A;
     private static final int COLOR_ERROR = 0xFFB3261E;
-    private static final int MIN_LEVEL = 1;
-    private static final int MAX_LEVEL = 2;
     private static final int DEFAULT_LEVEL = 2;
     private static final String EMPTY_VOCABULARY = "Ingen ordlistenoter endnu.";
     private static final String EMPTY_GRAMMAR = "Ingen grammatiknote endnu.";
 
+    private List<Level> levels = Collections.emptyList();
     private List<Lesson> lessons = Collections.emptyList();
     private List<Phrase> phrases = Collections.emptyList();
     private List<QuizQuestion> quizQuestions = Collections.emptyList();
@@ -57,6 +57,7 @@ public class MainActivity extends Activity {
     private int quizIndex = 0;
     private int quizCorrectAnswers = 0;
     private int selectedLevel = DEFAULT_LEVEL;
+    private Level selectedLevelInfo = createFallbackLevel(DEFAULT_LEVEL);
     private TextToSpeech textToSpeech;
     private LinearLayout contentRoot;
     private TextView counterView;
@@ -69,6 +70,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         progressRepository = new ProgressRepository(this);
+        loadLevels();
         setContentView(buildLayout());
         loadLessons(selectedLevel);
         showLessonList();
@@ -101,17 +103,17 @@ public class MainActivity extends Activity {
                 ScrollView.LayoutParams.WRAP_CONTENT
         ));
 
-        TextView title = text("Learn Portuguese 2", 28, COLOR_HEADER, true);
+        TextView title = text(selectedLevelInfo.getTitleDa(), 28, COLOR_HEADER, true);
         title.setGravity(Gravity.CENTER);
         root.addView(title);
 
-        TextView languageBadge = text("Dansk → europæisk portugisisk", 14, COLOR_BODY, false);
+        TextView languageBadge = text(selectedLevelInfo.getSubtitleDa(), 14, COLOR_BODY, false);
         languageBadge.setGravity(Gravity.CENTER);
         languageBadge.setPadding(dp(10), dp(6), dp(10), dp(6));
         languageBadge.setBackgroundColor(COLOR_PANEL_ALT);
         root.addView(languageBadge, matchWrap());
 
-        TextView aiBadge = text("AI brugt: begynderfraser og grammatiknoter", 13, COLOR_MUTED, false);
+        TextView aiBadge = text(selectedLevelInfo.getAiDisclosureDa(), 13, COLOR_MUTED, false);
         aiBadge.setGravity(Gravity.CENTER);
         aiBadge.setPadding(dp(10), dp(8), dp(10), dp(8));
         aiBadge.setBackgroundColor(COLOR_BADGE);
@@ -136,7 +138,7 @@ public class MainActivity extends Activity {
         heading.setGravity(Gravity.CENTER);
         contentRoot.addView(heading, matchWrap());
 
-        TextView intro = text("10 offlinelektioner · dansk til europæisk portugisisk", 15, COLOR_MUTED, false);
+        TextView intro = text(selectedLevelInfo.getIntroDa(), 15, COLOR_MUTED, false);
         intro.setGravity(Gravity.CENTER);
         contentRoot.addView(intro, matchWrap());
 
@@ -194,15 +196,16 @@ public class MainActivity extends Activity {
         levelRow.setGravity(Gravity.CENTER);
         contentRoot.addView(levelRow, matchWrap());
 
-        for (int levelId = MIN_LEVEL; levelId <= MAX_LEVEL; levelId++) {
+        for (Level level : levels) {
+            int levelId = level.getId();
             Button levelButton = selectedLevel == levelId
-                    ? lessonButton("Niveau " + levelId)
-                    : button("Niveau " + levelId);
+                    ? lessonButton(level.getTitleDa())
+                    : button(level.getTitleDa());
             int targetLevel = levelId;
             levelButton.setOnClickListener(v -> switchLevel(targetLevel));
 
             LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(0, LinearLayout.LayoutParams.WRAP_CONTENT, 1);
-            if (levelId > MIN_LEVEL) {
+            if (levelId != levels.get(0).getId()) {
                 params.setMargins(dp(12), 0, 0, 0);
             }
             levelRow.addView(levelButton, params);
@@ -215,7 +218,9 @@ public class MainActivity extends Activity {
         }
 
         selectedLevel = levelId;
+        selectedLevelInfo = findLevelInfo(levelId);
         loadLessons(selectedLevel);
+        setContentView(buildLayout());
         showLessonList();
     }
 
@@ -692,6 +697,7 @@ public class MainActivity extends Activity {
     private void openLatestPosition() {
         if (progressRepository.getLatestLevelId() != selectedLevel) {
             selectedLevel = progressRepository.getLatestLevelId();
+            selectedLevelInfo = findLevelInfo(selectedLevel);
             loadLessons(selectedLevel);
         }
 
@@ -802,13 +808,47 @@ public class MainActivity extends Activity {
         return completed;
     }
 
+    private void loadLevels() {
+        LessonRepository repository = new LessonRepository(this);
+        try {
+            levels = repository.loadAvailableLevels();
+        } catch (IOException exception) {
+            levels = Collections.singletonList(createFallbackLevel(DEFAULT_LEVEL));
+        }
+
+        selectedLevelInfo = findLevelInfo(selectedLevel);
+        selectedLevel = selectedLevelInfo.getId();
+    }
+
+    private Level findLevelInfo(int levelId) {
+        for (Level level : levels) {
+            if (level.getId() == levelId) {
+                return level;
+            }
+        }
+
+        if (!levels.isEmpty()) {
+            return levels.get(levels.size() - 1);
+        }
+
+        return createFallbackLevel(levelId);
+    }
+
+    private static Level createFallbackLevel(int levelId) {
+        return new Level(
+                levelId,
+                "Learn Portuguese " + levelId,
+                "Dansk til europæisk portugisisk",
+                "Offlinelektioner · dansk til europæisk portugisisk",
+                "AI brugt: begynderfraser og grammatiknoter"
+        );
+    }
+
     private void loadLessons(int levelId) {
         LessonRepository repository = new LessonRepository(this);
         try {
             List<Lesson> loadedLessons = repository.loadAllLessons(levelId);
-            if (!loadedLessons.isEmpty()) {
-                lessons = loadedLessons;
-            }
+            lessons = loadedLessons;
         } catch (IOException exception) {
             lessons = createFallbackLessons();
             Toast.makeText(this, "Kunne ikke indlæse lektions-JSON. Bruger indbygget nødlektion.", Toast.LENGTH_LONG).show();
@@ -826,16 +866,27 @@ public class MainActivity extends Activity {
         String source = "Niveau " + selectedLevel + " · Lektion " + lesson.getId() + " · Dialog " + dialogue.getId() + " · " + dialogue.getTitleDa();
 
         for (dk.nenolink.learnportuguese.data.model.Phrase phrase : dialogue.getPhrases()) {
-            String grammar = isEmpty(phrase.getGrammarDa()) ? dialogueGrammar : phrase.getGrammarDa();
             mappedPhrases.add(new Phrase(
                     phrase.getTextPt(),
                     phrase.getTextDa(),
-                    grammar,
+                    mergeGrammar(phrase.getGrammarDa(), dialogueGrammar),
                     glossary,
                     source
             ));
         }
         return mappedPhrases;
+    }
+
+    private String mergeGrammar(String phraseGrammar, String dialogueGrammar) {
+        if (isEmpty(phraseGrammar)) {
+            return dialogueGrammar;
+        }
+
+        if (isEmpty(dialogueGrammar) || EMPTY_GRAMMAR.equals(dialogueGrammar)) {
+            return phraseGrammar;
+        }
+
+        return phraseGrammar + "\n" + dialogueGrammar;
     }
 
     private List<Dialogue> getDialoguesForDisplay(Lesson lesson) {
@@ -963,26 +1014,13 @@ public class MainActivity extends Activity {
 
     private static List<Phrase> createFallbackPhrases() {
         List<Phrase> fallback = new ArrayList<>();
-        fallback.add(new Phrase("Olá, bom dia.", "Hej, godmorgen.", "Use bom dia before lunch.", "olá = hej, bom = god, dia = dag", "basic beginner words"));
-        fallback.add(new Phrase("Eu sou da Dinamarca.", "Jeg er fra Danmark.", "Eu sou means I am.", "eu = jeg, sou = er, Dinamarca = Danmark", "basic beginner words"));
-        fallback.add(new Phrase("Como te chamas?", "Hvad hedder du?", "Questions often keep the same word order as statements.", "como = hvordan, te chamas = hedder du", "basic beginner words"));
-        fallback.add(new Phrase("Chamo-me Anna.", "Jeg hedder Anna.", "Chamo-me is a simple way to say my name is.", "chamo-me = jeg hedder", "basic beginner words"));
-        fallback.add(new Phrase("Por favor, fala devagar.", "Vær sød at tale langsomt.", "Fala is the informal command for speak.", "por favor = vær sød, devagar = langsomt", "basic beginner words"));
-        fallback.add(new Phrase("Não percebo.", "Jeg forstår ikke.", "Não goes before the verb to make a negative sentence.", "não = ikke, percebo = forstår", "basic beginner words"));
-        fallback.add(new Phrase("Onde fica a estação?", "Hvor ligger stationen?", "Onde asks where.", "onde = hvor, fica = ligger, estação = station", "basic beginner words"));
-        fallback.add(new Phrase("Quero um café.", "Jeg vil gerne have en kaffe.", "Quero means I want and is useful in cafés and shops.", "quero = jeg vil have, um = en, café = kaffe", "basic beginner words"));
-        fallback.add(new Phrase("A água é boa.", "Vandet er godt.", "A and o often mean the.", "água = vand, é = er, boa = god", "basic beginner words"));
-        fallback.add(new Phrase("Tenho fome.", "Jeg er sulten.", "Portuguese uses have hunger instead of am hungry.", "tenho = jeg har, fome = sult", "basic beginner words"));
-        fallback.add(new Phrase("Tenho sede.", "Jeg er tørstig.", "This also uses tenho, meaning I have.", "sede = tørst", "basic beginner words"));
-        fallback.add(new Phrase("A conta, por favor.", "Regningen, tak.", "Short polite phrases work well in restaurants.", "conta = regning, por favor = tak", "basic beginner words"));
-        fallback.add(new Phrase("Quanto custa?", "Hvad koster det?", "Quanto asks how much.", "quanto = hvor meget, custa = koster", "basic beginner words"));
-        fallback.add(new Phrase("Gosto de música.", "Jeg kan lide musik.", "Gosto de means I like.", "gosto de = jeg kan lide, música = musik", "basic beginner words"));
-        fallback.add(new Phrase("Moro em Copenhaga.", "Jeg bor i København.", "Em means in or at.", "moro = jeg bor, em = i, Copenhaga = København", "basic beginner words"));
-        fallback.add(new Phrase("Hoje está sol.", "I dag er der sol.", "Está describes temporary states like weather.", "hoje = i dag, sol = sol", "basic beginner words"));
-        fallback.add(new Phrase("Amanhã vou estudar.", "I morgen vil jeg studere.", "Vou plus verb makes a simple future.", "amanhã = i morgen, vou = jeg går/vil, estudar = studere", "basic beginner words"));
-        fallback.add(new Phrase("Preciso de ajuda.", "Jeg har brug for hjælp.", "Preciso de means I need.", "preciso de = jeg har brug for, ajuda = hjælp", "basic beginner words"));
-        fallback.add(new Phrase("Até logo.", "Vi ses senere.", "Até means until and is used in goodbyes.", "até logo = vi ses senere", "basic beginner words"));
-        fallback.add(new Phrase("Obrigado pela ajuda.", "Tak for hjælpen.", "Obrigado is said by a male speaker; obrigada by a female speaker.", "obrigado = tak, ajuda = hjælp", "basic beginner words"));
+        fallback.add(new Phrase(
+                "Conteúdo indisponível.",
+                "Indholdet kunne ikke indlæses.",
+                "Det rigtige læringsindhold skal ligge i JSON.",
+                EMPTY_VOCABULARY,
+                "fallback"
+        ));
         return fallback;
     }
 
