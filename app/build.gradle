@@ -19,11 +19,16 @@ android {
         targetCompatibility JavaVersion.VERSION_17
     }
 
-    applicationVariants.configureEach { variant ->
-        if (variant.name == "debug") {
-            variant.outputs.configureEach { output ->
-                outputFileName = "LearnPortuguese2Test.apk"
-            }
-        }
+}
+
+tasks.register("copyDebugApkForManualTesting", Copy) {
+    from(layout.buildDirectory.file("outputs/apk/debug/app-debug.apk"))
+    into(layout.buildDirectory.dir("outputs/manual-debug"))
+    rename { "LearnPortuguese2Test.apk" }
+}
+
+tasks.configureEach { task ->
+    if (task.name == "assembleDebug") {
+        task.finalizedBy("copyDebugApkForManualTesting")
     }
 }
