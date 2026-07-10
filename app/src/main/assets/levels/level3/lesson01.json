@@ -127,6 +127,131 @@
                                               "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
                                           }
                                       ]
+                      },
+                      {
+                          "id":  6,
+                          "titleDa":  "Vær sød",
+                          "objectiveDa":  "Sig en kort og praktisk sætning.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Por favor.",
+                                              "textDa":  "Vær sød.",
+                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Por favor",
+                                                 "textDa":  "Vær sød"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "Kort sætning",
+                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  7,
+                          "titleDa":  "Ja",
+                          "objectiveDa":  "Sig en kort og praktisk sætning.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Sim.",
+                                              "textDa":  "Ja.",
+                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Sim",
+                                                 "textDa":  "Ja"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "Kort sætning",
+                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  8,
+                          "titleDa":  "Nej",
+                          "objectiveDa":  "Sig en kort og praktisk sætning.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Não.",
+                                              "textDa":  "Nej.",
+                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Não",
+                                                 "textDa":  "Nej"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "Kort sætning",
+                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  9,
+                          "titleDa":  "Undskyld",
+                          "objectiveDa":  "Sig en kort og praktisk sætning.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Desculpe.",
+                                              "textDa":  "Undskyld.",
+                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Desculpe",
+                                                 "textDa":  "Undskyld"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "Kort sætning",
+                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  10,
+                          "titleDa":  "God aften",
+                          "objectiveDa":  "Sig en kort og praktisk sætning.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Boa noite.",
+                                              "textDa":  "God aften.",
+                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Boa noite",
+                                                 "textDa":  "God aften"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "Kort sætning",
+                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
+                                          }
+                                      ]
                       }
                   ],
     "quiz":  [
@@ -193,7 +318,7 @@
                                          "correct":  false
                                      },
                                      {
-                                         "text":  "Hej.",
+                                         "text":  "Vær sød.",
                                          "correct":  false
                                      }
                                  ],
@@ -212,15 +337,61 @@
                                          "correct":  false
                                      },
                                      {
-                                         "text":  "Hej.",
+                                         "text":  "Vær sød.",
                                          "correct":  false
                                      },
                                      {
-                                         "text":  "Goddag.",
+                                         "text":  "Ja.",
                                          "correct":  false
                                      }
                                  ],
                      "explanationDa":  "Até logo. = Vi ses senere."
+                 },
+                 {
+                     "id":  5,
+                     "questionDa":  "Hvad betyder: Obrigado.",
+                     "answers":  [
+                                     {
+                                         "text":  "Tak.",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Vær sød.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Ja.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Nej.",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Obrigado. = Tak."
+                 },
+                 {
+                     "id":  6,
+                     "questionDa":  "Hvad betyder: Por favor.",
+                     "answers":  [
+                                     {
+                                         "text":  "Vær sød.",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Ja.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Nej.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Undskyld.",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Por favor. = Vær sød."
                  }
              ],
     "storyTitleDa":  "Kort børnedialog: Hilsner",
@@ -257,33 +428,33 @@
                       "grammarDa":  "Praktisk og kort frase."
                   },
                   {
+                      "speaker":  "Voksen",
+                      "textPt":  "Por favor.",
+                      "textDa":  "Vær sød.",
+                      "grammarDa":  "Praktisk og kort frase."
+                  },
+                  {
                       "speaker":  "Barn",
-                      "textPt":  "Olá.",
-                      "textDa":  "Hej.",
+                      "textPt":  "Sim.",
+                      "textDa":  "Ja.",
                       "grammarDa":  "Praktisk og kort frase."
                   },
                   {
                       "speaker":  "Voksen",
-                      "textPt":  "Bom dia.",
-                      "textDa":  "Goddag.",
+                      "textPt":  "Não.",
+                      "textDa":  "Nej.",
                       "grammarDa":  "Praktisk og kort frase."
                   },
                   {
                       "speaker":  "Barn",
-                      "textPt":  "Adeus.",
-                      "textDa":  "Farvel.",
+                      "textPt":  "Desculpe.",
+                      "textDa":  "Undskyld.",
                       "grammarDa":  "Praktisk og kort frase."
                   },
                   {
                       "speaker":  "Voksen",
-                      "textPt":  "Até logo.",
-                      "textDa":  "Vi ses senere.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Barn",
-                      "textPt":  "Obrigado.",
-                      "textDa":  "Tak.",
+                      "textPt":  "Boa noite.",
+                      "textDa":  "God aften.",
                       "grammarDa":  "Praktisk og kort frase."
                   }
               ]

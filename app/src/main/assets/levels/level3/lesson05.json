@@ -127,6 +127,131 @@
                                               "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
                                           }
                                       ]
+                      },
+                      {
+                          "id":  6,
+                          "titleDa":  "Jeg kan ikke lide dette",
+                          "objectiveDa":  "Sig en kort og praktisk sætning.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Não gosto disto.",
+                                              "textDa":  "Jeg kan ikke lide dette.",
+                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Não gosto disto",
+                                                 "textDa":  "Jeg kan ikke lide dette"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "Kort sætning",
+                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  7,
+                          "titleDa":  "Jeg vil gerne have brød",
+                          "objectiveDa":  "Sig en kort og praktisk sætning.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Quero pão.",
+                                              "textDa":  "Jeg vil gerne have brød.",
+                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Quero pão",
+                                                 "textDa":  "Jeg vil gerne have brød"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "Kort sætning",
+                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  8,
+                          "titleDa":  "Jeg vil gerne have mælk",
+                          "objectiveDa":  "Sig en kort og praktisk sætning.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Quero leite.",
+                                              "textDa":  "Jeg vil gerne have mælk.",
+                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Quero leite",
+                                                 "textDa":  "Jeg vil gerne have mælk"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "Kort sætning",
+                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  9,
+                          "titleDa":  "Uden kød, tak",
+                          "objectiveDa":  "Sig en kort og praktisk sætning.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Sem carne, por favor.",
+                                              "textDa":  "Uden kød, tak.",
+                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Sem carne, por favor",
+                                                 "textDa":  "Uden kød, tak"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "Kort sætning",
+                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  10,
+                          "titleDa":  "Regningen, tak",
+                          "objectiveDa":  "Sig en kort og praktisk sætning.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "A conta, por favor.",
+                                              "textDa":  "Regningen, tak.",
+                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "A conta, por favor",
+                                                 "textDa":  "Regningen, tak"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "Kort sætning",
+                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
+                                          }
+                                      ]
                       }
                   ],
     "quiz":  [
@@ -193,7 +318,7 @@
                                          "correct":  false
                                      },
                                      {
-                                         "text":  "Tak for mad.",
+                                         "text":  "Jeg kan ikke lide dette.",
                                          "correct":  false
                                      }
                                  ],
@@ -212,15 +337,61 @@
                                          "correct":  false
                                      },
                                      {
-                                         "text":  "Tak for mad.",
+                                         "text":  "Jeg kan ikke lide dette.",
                                          "correct":  false
                                      },
                                      {
-                                         "text":  "Jeg er sulten.",
+                                         "text":  "Jeg vil gerne have brød.",
                                          "correct":  false
                                      }
                                  ],
                      "explanationDa":  "Quero água, por favor. = Jeg vil gerne have vand, tak."
+                 },
+                 {
+                     "id":  5,
+                     "questionDa":  "Hvad betyder: Está bom.",
+                     "answers":  [
+                                     {
+                                         "text":  "Det er godt.",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Jeg kan ikke lide dette.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Jeg vil gerne have brød.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Jeg vil gerne have mælk.",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Está bom. = Det er godt."
+                 },
+                 {
+                     "id":  6,
+                     "questionDa":  "Hvad betyder: Não gosto disto.",
+                     "answers":  [
+                                     {
+                                         "text":  "Jeg kan ikke lide dette.",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Jeg vil gerne have brød.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Jeg vil gerne have mælk.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Uden kød, tak.",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Não gosto disto. = Jeg kan ikke lide dette."
                  }
              ],
     "storyTitleDa":  "Kort børnedialog: Mad og tak",
@@ -257,33 +428,33 @@
                       "grammarDa":  "Praktisk og kort frase."
                   },
                   {
+                      "speaker":  "Voksen",
+                      "textPt":  "Não gosto disto.",
+                      "textDa":  "Jeg kan ikke lide dette.",
+                      "grammarDa":  "Praktisk og kort frase."
+                  },
+                  {
                       "speaker":  "Barn",
-                      "textPt":  "Obrigado pela comida.",
-                      "textDa":  "Tak for mad.",
+                      "textPt":  "Quero pão.",
+                      "textDa":  "Jeg vil gerne have brød.",
                       "grammarDa":  "Praktisk og kort frase."
                   },
                   {
                       "speaker":  "Voksen",
-                      "textPt":  "Tenho fome.",
-                      "textDa":  "Jeg er sulten.",
+                      "textPt":  "Quero leite.",
+                      "textDa":  "Jeg vil gerne have mælk.",
                       "grammarDa":  "Praktisk og kort frase."
                   },
                   {
                       "speaker":  "Barn",
-                      "textPt":  "Tenho sede.",
-                      "textDa":  "Jeg er tørstig.",
+                      "textPt":  "Sem carne, por favor.",
+                      "textDa":  "Uden kød, tak.",
                       "grammarDa":  "Praktisk og kort frase."
                   },
                   {
                       "speaker":  "Voksen",
-                      "textPt":  "Quero água, por favor.",
-                      "textDa":  "Jeg vil gerne have vand, tak.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Barn",
-                      "textPt":  "Está bom.",
-                      "textDa":  "Det er godt.",
+                      "textPt":  "A conta, por favor.",
+                      "textDa":  "Regningen, tak.",
                       "grammarDa":  "Praktisk og kort frase."
                   }
               ]

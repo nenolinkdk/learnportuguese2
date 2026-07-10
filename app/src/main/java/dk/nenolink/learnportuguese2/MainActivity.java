@@ -1566,6 +1566,10 @@ public class MainActivity extends Activity {
             return splitPrototypeDialogue(sourceDialogues.get(0));
         }
 
+        if (!sourceDialogues.isEmpty()) {
+            return sourceDialogues;
+        }
+
         return createPlaceholderDialogues(lesson);
     }
 

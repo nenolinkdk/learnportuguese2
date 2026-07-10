@@ -127,6 +127,131 @@
                                               "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
                                           }
                                       ]
+                      },
+                      {
+                          "id":  6,
+                          "titleDa":  "Jeg har nøglen",
+                          "objectiveDa":  "Sig en kort og praktisk sætning.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Tenho a chave.",
+                                              "textDa":  "Jeg har nøglen.",
+                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Tenho a chave",
+                                                 "textDa":  "Jeg har nøglen"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "Kort sætning",
+                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  7,
+                          "titleDa":  "Jeg har ikke nøglen",
+                          "objectiveDa":  "Sig en kort og praktisk sætning.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Não tenho a chave.",
+                                              "textDa":  "Jeg har ikke nøglen.",
+                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Não tenho a chave",
+                                                 "textDa":  "Jeg har ikke nøglen"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "Kort sætning",
+                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  8,
+                          "titleDa":  "Hvor er elevatoren",
+                          "objectiveDa":  "Sig en kort og praktisk sætning.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Onde é o elevador?",
+                                              "textDa":  "Hvor er elevatoren?",
+                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Onde é o elevador",
+                                                 "textDa":  "Hvor er elevatoren"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "Kort sætning",
+                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  9,
+                          "titleDa":  "Dette er mit værelse",
+                          "objectiveDa":  "Sig en kort og praktisk sætning.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Este é o meu quarto.",
+                                              "textDa":  "Dette er mit værelse.",
+                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Este é o meu quarto",
+                                                 "textDa":  "Dette er mit værelse"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "Kort sætning",
+                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  10,
+                          "titleDa":  "Jeg er på hotellet",
+                          "objectiveDa":  "Sig en kort og praktisk sætning.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Estou no hotel.",
+                                              "textDa":  "Jeg er på hotellet.",
+                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Estou no hotel",
+                                                 "textDa":  "Jeg er på hotellet"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "Kort sætning",
+                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
+                                          }
+                                      ]
                       }
                   ],
     "quiz":  [
@@ -193,7 +318,7 @@
                                          "correct":  false
                                      },
                                      {
-                                         "text":  "Mit hotel hedder ...",
+                                         "text":  "Jeg har nøglen.",
                                          "correct":  false
                                      }
                                  ],
@@ -212,15 +337,61 @@
                                          "correct":  false
                                      },
                                      {
-                                         "text":  "Mit hotel hedder ...",
+                                         "text":  "Jeg har nøglen.",
                                          "correct":  false
                                      },
                                      {
-                                         "text":  "Mit værelse er nummer ...",
+                                         "text":  "Jeg har ikke nøglen.",
                                          "correct":  false
                                      }
                                  ],
                      "explanationDa":  "Onde é a receção? = Hvor er receptionen?"
+                 },
+                 {
+                     "id":  5,
+                     "questionDa":  "Hvad betyder: Quero ir para o hotel.",
+                     "answers":  [
+                                     {
+                                         "text":  "Jeg vil gerne tilbage til hotellet.",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Jeg har nøglen.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Jeg har ikke nøglen.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Hvor er elevatoren?",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Quero ir para o hotel. = Jeg vil gerne tilbage til hotellet."
+                 },
+                 {
+                     "id":  6,
+                     "questionDa":  "Hvad betyder: Tenho a chave.",
+                     "answers":  [
+                                     {
+                                         "text":  "Jeg har nøglen.",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Jeg har ikke nøglen.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Hvor er elevatoren?",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Dette er mit værelse.",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Tenho a chave. = Jeg har nøglen."
                  }
              ],
     "storyTitleDa":  "Kort børnedialog: Hotel",
@@ -257,33 +428,33 @@
                       "grammarDa":  "Praktisk og kort frase."
                   },
                   {
+                      "speaker":  "Voksen",
+                      "textPt":  "Tenho a chave.",
+                      "textDa":  "Jeg har nøglen.",
+                      "grammarDa":  "Praktisk og kort frase."
+                  },
+                  {
                       "speaker":  "Barn",
-                      "textPt":  "O meu hotel chama-se ...",
-                      "textDa":  "Mit hotel hedder ...",
+                      "textPt":  "Não tenho a chave.",
+                      "textDa":  "Jeg har ikke nøglen.",
                       "grammarDa":  "Praktisk og kort frase."
                   },
                   {
                       "speaker":  "Voksen",
-                      "textPt":  "O meu quarto é o número ...",
-                      "textDa":  "Mit værelse er nummer ...",
+                      "textPt":  "Onde é o elevador?",
+                      "textDa":  "Hvor er elevatoren?",
                       "grammarDa":  "Praktisk og kort frase."
                   },
                   {
                       "speaker":  "Barn",
-                      "textPt":  "Preciso de ajuda.",
-                      "textDa":  "Jeg har brug for hjælp.",
+                      "textPt":  "Este é o meu quarto.",
+                      "textDa":  "Dette er mit værelse.",
                       "grammarDa":  "Praktisk og kort frase."
                   },
                   {
                       "speaker":  "Voksen",
-                      "textPt":  "Onde é a receção?",
-                      "textDa":  "Hvor er receptionen?",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Barn",
-                      "textPt":  "Quero ir para o hotel.",
-                      "textDa":  "Jeg vil gerne tilbage til hotellet.",
+                      "textPt":  "Estou no hotel.",
+                      "textDa":  "Jeg er på hotellet.",
                       "grammarDa":  "Praktisk og kort frase."
                   }
               ]

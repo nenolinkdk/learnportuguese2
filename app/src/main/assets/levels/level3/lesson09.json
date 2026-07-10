@@ -127,6 +127,131 @@
                                               "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
                                           }
                                       ]
+                      },
+                      {
+                          "id":  6,
+                          "titleDa":  "Hvor er stationen",
+                          "objectiveDa":  "Sig en kort og praktisk sætning.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Onde é a estação?",
+                                              "textDa":  "Hvor er stationen?",
+                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Onde é a estação",
+                                                 "textDa":  "Hvor er stationen"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "Kort sætning",
+                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  7,
+                          "titleDa":  "Jeg vil gerne have en taxa",
+                          "objectiveDa":  "Sig en kort og praktisk sætning.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Quero um táxi.",
+                                              "textDa":  "Jeg vil gerne have en taxa.",
+                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Quero um táxi",
+                                                 "textDa":  "Jeg vil gerne have en taxa"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "Kort sætning",
+                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  8,
+                          "titleDa":  "Jeg går med min familie",
+                          "objectiveDa":  "Sig en kort og praktisk sætning.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Vou com a minha família.",
+                                              "textDa":  "Jeg går med min familie.",
+                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Vou com a minha família",
+                                                 "textDa":  "Jeg går med min familie"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "Kort sætning",
+                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  9,
+                          "titleDa":  "Jeg ved ikke, hvor jeg skal af",
+                          "objectiveDa":  "Sig en kort og praktisk sætning.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Não sei onde sair.",
+                                              "textDa":  "Jeg ved ikke, hvor jeg skal af.",
+                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Não sei onde sair",
+                                                 "textDa":  "Jeg ved ikke, hvor jeg skal af"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "Kort sætning",
+                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  10,
+                          "titleDa":  "Er dette vejen",
+                          "objectiveDa":  "Sig en kort og praktisk sætning.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Este é o caminho?",
+                                              "textDa":  "Er dette vejen?",
+                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Este é o caminho",
+                                                 "textDa":  "Er dette vejen"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "Kort sætning",
+                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
+                                          }
+                                      ]
                       }
                   ],
     "quiz":  [
@@ -193,7 +318,7 @@
                                          "correct":  false
                                      },
                                      {
-                                         "text":  "Hvor er bussen?",
+                                         "text":  "Hvor er stationen?",
                                          "correct":  false
                                      }
                                  ],
@@ -212,15 +337,61 @@
                                          "correct":  false
                                      },
                                      {
-                                         "text":  "Hvor er bussen?",
+                                         "text":  "Hvor er stationen?",
                                          "correct":  false
                                      },
                                      {
-                                         "text":  "Jeg vil gerne hjem.",
+                                         "text":  "Jeg vil gerne have en taxa.",
                                          "correct":  false
                                      }
                                  ],
                      "explanationDa":  "Pode repetir? = Kan du gentage?"
+                 },
+                 {
+                     "id":  5,
+                     "questionDa":  "Hvad betyder: Devagar, por favor.",
+                     "answers":  [
+                                     {
+                                         "text":  "Langsomt, tak.",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Hvor er stationen?",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Jeg vil gerne have en taxa.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Jeg går med min familie.",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Devagar, por favor. = Langsomt, tak."
+                 },
+                 {
+                     "id":  6,
+                     "questionDa":  "Hvad betyder: Onde é a estação?",
+                     "answers":  [
+                                     {
+                                         "text":  "Hvor er stationen?",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Jeg vil gerne have en taxa.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Jeg går med min familie.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Jeg ved ikke, hvor jeg skal af.",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Onde é a estação? = Hvor er stationen?"
                  }
              ],
     "storyTitleDa":  "Kort børnedialog: Transport",
@@ -257,33 +428,33 @@
                       "grammarDa":  "Praktisk og kort frase."
                   },
                   {
+                      "speaker":  "Voksen",
+                      "textPt":  "Onde é a estação?",
+                      "textDa":  "Hvor er stationen?",
+                      "grammarDa":  "Praktisk og kort frase."
+                  },
+                  {
                       "speaker":  "Barn",
-                      "textPt":  "Onde está o autocarro?",
-                      "textDa":  "Hvor er bussen?",
+                      "textPt":  "Quero um táxi.",
+                      "textDa":  "Jeg vil gerne have en taxa.",
                       "grammarDa":  "Praktisk og kort frase."
                   },
                   {
                       "speaker":  "Voksen",
-                      "textPt":  "Quero ir para casa.",
-                      "textDa":  "Jeg vil gerne hjem.",
+                      "textPt":  "Vou com a minha família.",
+                      "textDa":  "Jeg går med min familie.",
                       "grammarDa":  "Praktisk og kort frase."
                   },
                   {
                       "speaker":  "Barn",
-                      "textPt":  "Este é o meu bilhete.",
-                      "textDa":  "Dette er min billet.",
+                      "textPt":  "Não sei onde sair.",
+                      "textDa":  "Jeg ved ikke, hvor jeg skal af.",
                       "grammarDa":  "Praktisk og kort frase."
                   },
                   {
                       "speaker":  "Voksen",
-                      "textPt":  "Pode repetir?",
-                      "textDa":  "Kan du gentage?",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Barn",
-                      "textPt":  "Devagar, por favor.",
-                      "textDa":  "Langsomt, tak.",
+                      "textPt":  "Este é o caminho?",
+                      "textDa":  "Er dette vejen?",
                       "grammarDa":  "Praktisk og kort frase."
                   }
               ]
