@@ -1,350 +1,390 @@
 {
-  "id": 10,
-  "titleDa": "Hverdagssamtaler",
-  "descriptionDa": "Lær korte sætninger til almindelige hverdagssituationer.",
-  "dialogues": [
-    {
-      "id": 1,
-      "titleDa": "Vejret",
-      "objectiveDa": "Tal om vejret.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Hoje está bom tempo.",
-          "textDa": "I dag er vejret godt.",
-          "grammarDa": "Está bruges om vejr og tilstande."
-        }
-      ],
-      "vocabulary": [],
-      "grammar": []
-    },
-    {
-      "id": 2,
-      "titleDa": "Hjælp",
-      "objectiveDa": "Bed om hjælp.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Pode ajudar-me?",
-          "textDa": "Kan De hjælpe mig?",
-          "grammarDa": "Ajudar-me betyder hjælpe mig."
-        }
-      ],
-      "vocabulary": [],
-      "grammar": []
-    },
-    {
-      "id": 3,
-      "titleDa": "Forstå",
-      "objectiveDa": "Sig at du forstår.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Compreendo.",
-          "textDa": "Jeg forstår.",
-          "grammarDa": "Compreendo er lidt mere formelt end percebo."
-        }
-      ],
-      "vocabulary": [],
-      "grammar": []
-    },
-    {
-      "id": 4,
-      "titleDa": "Ikke forstå",
-      "objectiveDa": "Sig at du ikke forstår.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Não compreendo.",
-          "textDa": "Jeg forstår ikke.",
-          "grammarDa": "Não placeres før verbet."
-        }
-      ],
-      "vocabulary": [],
-      "grammar": []
-    },
-    {
-      "id": 5,
-      "titleDa": "Undskyld",
-      "objectiveDa": "Sig undskyld.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Desculpe.",
-          "textDa": "Undskyld.",
-          "grammarDa": "Desculpe er høfligt."
-        }
-      ],
-      "vocabulary": [],
-      "grammar": []
-    },
-    {
-      "id": 6,
-      "titleDa": "Det går fint",
-      "objectiveDa": "Svar på hvordan det går.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Está tudo bem.",
-          "textDa": "Alt er fint.",
-          "grammarDa": "Tudo betyder alt."
-        }
-      ],
-      "vocabulary": [],
-      "grammar": []
-    },
-    {
-      "id": 7,
-      "titleDa": "Telefon",
-      "objectiveDa": "Spørg om telefon.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Posso usar o telefone?",
-          "textDa": "Må jeg bruge telefonen?",
-          "grammarDa": "Usar betyder bruge."
-        }
-      ],
-      "vocabulary": [],
-      "grammar": []
-    },
-    {
-      "id": 8,
-      "titleDa": "Internet",
-      "objectiveDa": "Spørg om internet.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Há internet aqui?",
-          "textDa": "Er der internet her?",
-          "grammarDa": "Há betyder der er."
-        }
-      ],
-      "vocabulary": [],
-      "grammar": []
-    },
-    {
-      "id": 9,
-      "titleDa": "Apotek",
-      "objectiveDa": "Find apoteket.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Onde fica a farmácia?",
-          "textDa": "Hvor ligger apoteket?",
-          "grammarDa": "Farmácia betyder apotek."
-        }
-      ],
-      "vocabulary": [],
-      "grammar": []
-    },
-    {
-      "id": 10,
-      "titleDa": "Farvel",
-      "objectiveDa": "Sig farvel høfligt.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Até amanhã.",
-          "textDa": "Vi ses i morgen.",
-          "grammarDa": "Até betyder indtil/vi ses."
-        }
-      ],
-      "vocabulary": [],
-      "grammar": []
-    }
-  ],
-  "quiz": [
-    {
-      "id": 1,
-      "questionDa": "Hvordan siger man I dag er vejret godt?",
-      "answers": [
-        {
-          "text": "Hoje está bom tempo.",
-          "correct": true
-        },
-        {
-          "text": "Está tudo bem.",
-          "correct": false
-        },
-        {
-          "text": "Compreendo.",
-          "correct": false
-        },
-        {
-          "text": "Desculpe.",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Está bruges om vejr og tilstande."
-    },
-    {
-      "id": 2,
-      "questionDa": "Hvordan beder man om hjælp?",
-      "answers": [
-        {
-          "text": "Pode ajudar-me?",
-          "correct": true
-        },
-        {
-          "text": "Posso usar o telefone?",
-          "correct": false
-        },
-        {
-          "text": "Há internet aqui?",
-          "correct": false
-        },
-        {
-          "text": "Até amanhã.",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Ajudar-me betyder hjælpe mig."
-    },
-    {
-      "id": 3,
-      "questionDa": "Hvilken frase betyder Jeg forstår ikke?",
-      "answers": [
-        {
-          "text": "Não compreendo.",
-          "correct": true
-        },
-        {
-          "text": "Compreendo.",
-          "correct": false
-        },
-        {
-          "text": "Está tudo bem.",
-          "correct": false
-        },
-        {
-          "text": "Desculpe.",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Não placeres før verbet."
-    },
-    {
-      "id": 4,
-      "questionDa": "Hvordan spørger man Er der internet her?",
-      "answers": [
-        {
-          "text": "Há internet aqui?",
-          "correct": true
-        },
-        {
-          "text": "Posso usar o telefone?",
-          "correct": false
-        },
-        {
-          "text": "Onde fica a farmácia?",
-          "correct": false
-        },
-        {
-          "text": "Pode ajudar-me?",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Há betyder der er."
-    },
-    {
-      "id": 5,
-      "questionDa": "Hvordan siger man Vi ses i morgen?",
-      "answers": [
-        {
-          "text": "Até amanhã.",
-          "correct": true
-        },
-        {
-          "text": "Desculpe.",
-          "correct": false
-        },
-        {
-          "text": "Hoje está bom tempo.",
-          "correct": false
-        },
-        {
-          "text": "Não compreendo.",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Até betyder indtil eller vi ses."
-    }
-  ],
-  "storyTitleDa": "Kort dialog: Hverdagssamtaler",
-  "storyObjectiveDa": "L?s en sammenh?ngende mini-dialog med kendte fraser fra lektionen.",
-  "story": [
-    {
-      "speaker": "A",
-      "textPt": "Ol?.",
-      "textDa": "Hej.",
-      "grammarDa": "Kort hilsen."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Ol?. Como est??",
-      "textDa": "Hej. Hvordan har du det?",
-      "grammarDa": "Est? kommer af estar."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Estou bem, obrigado.",
-      "textDa": "Jeg har det godt, tak.",
-      "grammarDa": "Estou bruges om en midlertidig tilstand."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Hoje praticamos Hverdagssamtaler.",
-      "textDa": "I dag ?ver vi Hverdagssamtaler.",
-      "grammarDa": "Praticamos betyder vi ?ver."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Tenho uma pergunta.",
-      "textDa": "Jeg har et sp?rgsm?l.",
-      "grammarDa": "Tenho kommer af ter."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Claro, diga devagar.",
-      "textDa": "Selvf?lgelig, sig det langsomt.",
-      "grammarDa": "Diga er en h?flig opfordring."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Como se diz isto em portugu?s?",
-      "textDa": "Hvordan siger man dette p? portugisisk?",
-      "grammarDa": "Como se diz bruges til at sp?rge om ord."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Dizemos uma frase curta.",
-      "textDa": "Vi siger en kort s?tning.",
-      "grammarDa": "Uma frase curta betyder en kort s?tning."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Repito a frase.",
-      "textDa": "Jeg gentager s?tningen.",
-      "grammarDa": "Repito betyder jeg gentager."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Muito bem.",
-      "textDa": "Meget fint.",
-      "grammarDa": "Muito bem er positiv feedback."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Obrigado pela ajuda.",
-      "textDa": "Tak for hj?lpen.",
-      "grammarDa": "Obrigado bruges af en mand; obrigada af en kvinde."
-    },
-    {
-      "speaker": "B",
-      "textPt": "At? j?.",
-      "textDa": "Vi ses snart.",
-      "grammarDa": "At? j? er en almindelig afslutning."
-    }
-  ]
+    "id":  10,
+    "titleDa":  "Hverdagssamtaler",
+    "descriptionDa":  "Lær korte sætninger til almindelige hverdagssituationer.",
+    "dialogues":  [
+                      {
+                          "id":  1,
+                          "titleDa":  "Vejret",
+                          "objectiveDa":  "Tal om vejret.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Hoje está bom tempo.",
+                                              "textDa":  "I dag er vejret godt.",
+                                              "grammarDa":  "Está bruges om vejr og tilstande."
+                                          }
+                                      ],
+                          "vocabulary":  [
+
+                                         ],
+                          "grammar":  [
+
+                                      ]
+                      },
+                      {
+                          "id":  2,
+                          "titleDa":  "Hjælp",
+                          "objectiveDa":  "Bed om hjælp.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Pode ajudar-me?",
+                                              "textDa":  "Kan De hjælpe mig?",
+                                              "grammarDa":  "Ajudar-me betyder hjælpe mig."
+                                          }
+                                      ],
+                          "vocabulary":  [
+
+                                         ],
+                          "grammar":  [
+
+                                      ]
+                      },
+                      {
+                          "id":  3,
+                          "titleDa":  "Forstå",
+                          "objectiveDa":  "Sig at du forstår.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Compreendo.",
+                                              "textDa":  "Jeg forstår.",
+                                              "grammarDa":  "Compreendo er lidt mere formelt end percebo."
+                                          }
+                                      ],
+                          "vocabulary":  [
+
+                                         ],
+                          "grammar":  [
+
+                                      ]
+                      },
+                      {
+                          "id":  4,
+                          "titleDa":  "Ikke forstå",
+                          "objectiveDa":  "Sig at du ikke forstår.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Não compreendo.",
+                                              "textDa":  "Jeg forstår ikke.",
+                                              "grammarDa":  "Não placeres før verbet."
+                                          }
+                                      ],
+                          "vocabulary":  [
+
+                                         ],
+                          "grammar":  [
+
+                                      ]
+                      },
+                      {
+                          "id":  5,
+                          "titleDa":  "Undskyld",
+                          "objectiveDa":  "Sig undskyld.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Desculpe.",
+                                              "textDa":  "Undskyld.",
+                                              "grammarDa":  "Desculpe er høfligt."
+                                          }
+                                      ],
+                          "vocabulary":  [
+
+                                         ],
+                          "grammar":  [
+
+                                      ]
+                      },
+                      {
+                          "id":  6,
+                          "titleDa":  "Det går fint",
+                          "objectiveDa":  "Svar på hvordan det går.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Está tudo bem.",
+                                              "textDa":  "Alt er fint.",
+                                              "grammarDa":  "Tudo betyder alt."
+                                          }
+                                      ],
+                          "vocabulary":  [
+
+                                         ],
+                          "grammar":  [
+
+                                      ]
+                      },
+                      {
+                          "id":  7,
+                          "titleDa":  "Telefon",
+                          "objectiveDa":  "Spørg om telefon.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Posso usar o telefone?",
+                                              "textDa":  "Må jeg bruge telefonen?",
+                                              "grammarDa":  "Usar betyder bruge."
+                                          }
+                                      ],
+                          "vocabulary":  [
+
+                                         ],
+                          "grammar":  [
+
+                                      ]
+                      },
+                      {
+                          "id":  8,
+                          "titleDa":  "Internet",
+                          "objectiveDa":  "Spørg om internet.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Há internet aqui?",
+                                              "textDa":  "Er der internet her?",
+                                              "grammarDa":  "Há betyder der er."
+                                          }
+                                      ],
+                          "vocabulary":  [
+
+                                         ],
+                          "grammar":  [
+
+                                      ]
+                      },
+                      {
+                          "id":  9,
+                          "titleDa":  "Apotek",
+                          "objectiveDa":  "Find apoteket.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Onde fica a farmácia?",
+                                              "textDa":  "Hvor ligger apoteket?",
+                                              "grammarDa":  "Farmácia betyder apotek."
+                                          }
+                                      ],
+                          "vocabulary":  [
+
+                                         ],
+                          "grammar":  [
+
+                                      ]
+                      },
+                      {
+                          "id":  10,
+                          "titleDa":  "Farvel",
+                          "objectiveDa":  "Sig farvel høfligt.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Até amanhã.",
+                                              "textDa":  "Vi ses i morgen.",
+                                              "grammarDa":  "Até betyder indtil/vi ses."
+                                          }
+                                      ],
+                          "vocabulary":  [
+
+                                         ],
+                          "grammar":  [
+
+                                      ]
+                      }
+                  ],
+    "quiz":  [
+                 {
+                     "id":  1,
+                     "questionDa":  "Hvordan siger man I dag er vejret godt?",
+                     "answers":  [
+                                     {
+                                         "text":  "Hoje está bom tempo.",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Está tudo bem.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Compreendo.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Desculpe.",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Está bruges om vejr og tilstande."
+                 },
+                 {
+                     "id":  2,
+                     "questionDa":  "Hvordan beder man om hjælp?",
+                     "answers":  [
+                                     {
+                                         "text":  "Pode ajudar-me?",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Posso usar o telefone?",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Há internet aqui?",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Até amanhã.",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Ajudar-me betyder hjælpe mig."
+                 },
+                 {
+                     "id":  3,
+                     "questionDa":  "Hvilken frase betyder Jeg forstår ikke?",
+                     "answers":  [
+                                     {
+                                         "text":  "Não compreendo.",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Compreendo.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Está tudo bem.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Desculpe.",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Não placeres før verbet."
+                 },
+                 {
+                     "id":  4,
+                     "questionDa":  "Hvordan spørger man Er der internet her?",
+                     "answers":  [
+                                     {
+                                         "text":  "Há internet aqui?",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Posso usar o telefone?",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Onde fica a farmácia?",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Pode ajudar-me?",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Há betyder der er."
+                 },
+                 {
+                     "id":  5,
+                     "questionDa":  "Hvordan siger man Vi ses i morgen?",
+                     "answers":  [
+                                     {
+                                         "text":  "Até amanhã.",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Desculpe.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Hoje está bom tempo.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Não compreendo.",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Até betyder indtil eller vi ses."
+                 }
+             ],
+    "storyTitleDa":  "Kort dialog: Hverdagssamtaler",
+    "storyObjectiveDa":  "Læs en sammenhængende mini-dialog med kendte fraser fra lektionen.",
+    "story":  [
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Olá.",
+                      "textDa":  "Hej.",
+                      "grammarDa":  "Kort hilsen."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Olá. Como está?",
+                      "textDa":  "Hej. Hvordan har du det?",
+                      "grammarDa":  "Está kommer af estar."
+                  },
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Estou bem, obrigado.",
+                      "textDa":  "Jeg har det godt, tak.",
+                      "grammarDa":  "Estou bruges om en midlertidig tilstand."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Hoje praticamos uma conversa curta.",
+                      "textDa":  "I dag øver vi en kort samtale.",
+                      "grammarDa":  "Praticamos betyder vi øver."
+                  },
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Tenho uma pergunta.",
+                      "textDa":  "Jeg har et spørgsmål.",
+                      "grammarDa":  "Tenho kommer af ter."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Claro, diga devagar.",
+                      "textDa":  "Selvfølgelig, sig det langsomt.",
+                      "grammarDa":  "Diga er en høflig opfordring."
+                  },
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Como se diz isto em português?",
+                      "textDa":  "Hvordan siger man dette på portugisisk?",
+                      "grammarDa":  "Como se diz bruges til at spørge om ord."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Dizemos uma frase curta.",
+                      "textDa":  "Vi siger en kort sætning.",
+                      "grammarDa":  "Uma frase curta betyder en kort sætning."
+                  },
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Repito a frase.",
+                      "textDa":  "Jeg gentager sætningen.",
+                      "grammarDa":  "Repito betyder jeg gentager."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Muito bem.",
+                      "textDa":  "Meget fint.",
+                      "grammarDa":  "Muito bem er positiv feedback."
+                  },
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Obrigado pela ajuda.",
+                      "textDa":  "Tak for hjælpen.",
+                      "grammarDa":  "Obrigado bruges af en mand; obrigada af en kvinde."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Até já.",
+                      "textDa":  "Vi ses snart.",
+                      "grammarDa":  "Até já er en almindelig afslutning."
+                  }
+              ]
 }

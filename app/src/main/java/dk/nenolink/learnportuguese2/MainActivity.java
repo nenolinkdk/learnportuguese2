@@ -2,6 +2,11 @@ package dk.nenolink.learnportuguese2;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.content.Context;
+import android.graphics.Canvas;
+import android.graphics.Paint;
+import android.graphics.Path;
+import android.graphics.RectF;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
 import android.util.Log;
@@ -53,7 +58,7 @@ public class MainActivity extends Activity {
     private static final int NUMBER_QUIZ_SIZE = 10;
     private static final String EMPTY_VOCABULARY = "Ingen ordlistenoter endnu.";
     private static final String EMPTY_GRAMMAR = "Ingen grammatiknote endnu.";
-    private static final String FOOTER_TEXT = "© Nenolink - Henrik Nielsen";
+    private static final String FOOTER_TEXT = "\u00a9 Nenolink - Henrik Nielsen";
 
     private List<Level> levels = Collections.emptyList();
     private List<Lesson> lessons = Collections.emptyList();
@@ -65,6 +70,7 @@ public class MainActivity extends Activity {
     private Dialogue selectedDialogue;
     private ProgressRepository progressRepository;
     private Screen currentScreen = Screen.WELCOME;
+    private QuizMode quizMode = QuizMode.LESSON;
     private final Random random = new Random();
     private int index = 0;
     private int quizIndex = 0;
@@ -99,7 +105,7 @@ public class MainActivity extends Activity {
 
     private void showStartupError(Throwable exception) {
         ScrollView scrollView = new ScrollView(this);
-        LinearLayout root = new LinearLayout(this);
+        LinearLayout root = new WelcomeBackgroundLayout(this);
         root.setOrientation(LinearLayout.VERTICAL);
         root.setGravity(Gravity.CENTER_HORIZONTAL);
         root.setPadding(dp(22), dp(28), dp(22), dp(28));
@@ -153,7 +159,7 @@ public class MainActivity extends Activity {
         ScrollView scrollView = new ScrollView(this);
         scrollView.setFillViewport(true);
 
-        LinearLayout root = new LinearLayout(this);
+        LinearLayout root = new WelcomeBackgroundLayout(this);
         root.setOrientation(LinearLayout.VERTICAL);
         root.setGravity(Gravity.CENTER_HORIZONTAL);
         root.setPadding(dp(22), dp(28), dp(22), dp(28));
@@ -203,18 +209,22 @@ public class MainActivity extends Activity {
         heading.setGravity(Gravity.CENTER);
         contentRoot.addView(heading, matchWrap());
 
-        TextView intro = text("V?lg niveau, quiz eller taltr?ning.", 16, COLOR_MUTED, false);
+        TextView intro = text("V\u00e6lg niveau, quiz, ordforr\u00e5d eller taltr\u00e6ning.", 16, COLOR_MUTED, false);
         intro.setGravity(Gravity.CENTER);
         contentRoot.addView(intro, matchWrap());
 
         addStartupErrorPanelIfNeeded();
 
         for (Level level : levels) {
-            Button levelButton = lessonButton("Level " + level.getId() + ": " + level.getTitleDa());
+            Button levelButton = lessonButton(getWelcomeLevelLabel(level));
             int levelId = level.getId();
             levelButton.setOnClickListener(v -> switchLevel(levelId));
             contentRoot.addView(levelButton, matchWrap());
         }
+
+        Button vocabularyQuizButton = quizButton("Quiz: ordforr\u00e5d generelt");
+        vocabularyQuizButton.setOnClickListener(v -> showVocabularyQuiz());
+        contentRoot.addView(vocabularyQuizButton, matchWrap());
 
         Button quizButton = quizButton("Quiz");
         quizButton.setOnClickListener(v -> showQuizMenu());
@@ -236,7 +246,7 @@ public class MainActivity extends Activity {
         phrases = Collections.emptyList();
         clearContent();
 
-        TextView heading = text("Vælg lektion", 22, COLOR_HEADER, true);
+        TextView heading = text("V\u00e6lg lektion", 22, COLOR_HEADER, true);
         heading.setGravity(Gravity.CENTER);
         contentRoot.addView(heading, matchWrap());
 
@@ -250,17 +260,15 @@ public class MainActivity extends Activity {
         welcomeButton.setOnClickListener(v -> showWelcomeScreen());
         contentRoot.addView(welcomeButton, matchWrap());
 
-        addLevelControls();
-
         if (lessons.isEmpty()) {
-            TextView empty = text("Ingen lektioner kunne indlæses.", 16, COLOR_MUTED, false);
+            TextView empty = text("Ingen lektioner kunne indl\u00e6ses.", 16, COLOR_MUTED, false);
             empty.setGravity(Gravity.CENTER);
             contentRoot.addView(empty, matchWrap());
             return;
         }
 
         if (progressRepository.hasLatestPosition() && progressRepository.getLatestLevelId() == selectedLevel) {
-            Button continueButton = button("Fortsæt: Niveau "
+            Button continueButton = button("Forts\u00e6t: Niveau "
                     + progressRepository.getLatestLevelId()
                     + " - Lektion "
                     + progressRepository.getLatestLessonId()
@@ -285,7 +293,7 @@ public class MainActivity extends Activity {
         settingsParams.setMargins(dp(12), 0, 0, 0);
         secondaryActions.addView(settingsButton, settingsParams);
 
-        TextView progress = text("Gennemførte lektioner: " + getCompletedLessonCount() + " af " + lessons.size(), 14, COLOR_MUTED, false);
+        TextView progress = text("Gennemf\u00f8rte lektioner: " + getCompletedLessonCount() + " af " + lessons.size(), 14, COLOR_MUTED, false);
         progress.setGravity(Gravity.CENTER);
         contentRoot.addView(progress, matchWrap());
 
@@ -321,15 +329,23 @@ public class MainActivity extends Activity {
     }
 
     private void switchLevel(int levelId) {
-        if (levelId == selectedLevel) {
-            return;
-        }
-
         selectedLevel = levelId;
         selectedLevelInfo = findLevelInfo(levelId);
         loadLessons(selectedLevel);
         setContentView(buildLayout());
         showLessonList();
+    }
+
+    private String getWelcomeLevelLabel(Level level) {
+        if (level == null) {
+            return "Niveau";
+        }
+
+        if ("B\u00f8rn".equalsIgnoreCase(level.getTitleDa())) {
+            return "B\u00f8rn";
+        }
+
+        return level.getTitleDa();
     }
 
     private void showDialogList(Lesson lesson) {
@@ -740,6 +756,7 @@ public class MainActivity extends Activity {
         }
 
         currentScreen = Screen.QUIZ;
+        quizMode = QuizMode.LEVEL;
         selectedLesson = null;
         selectedDialogue = null;
         phrases = Collections.emptyList();
@@ -750,6 +767,72 @@ public class MainActivity extends Activity {
         showQuizQuestion();
     }
 
+    private void showVocabularyQuiz() {
+        List<VocabularyItem> vocabulary = loadGeneralVocabulary();
+        if (vocabulary.size() < 4) {
+            Toast.makeText(this, "Der er ikke nok ordforr\u00e5d i JSON til en generel quiz endnu.", Toast.LENGTH_LONG).show();
+            return;
+        }
+
+        Collections.shuffle(vocabulary, random);
+        List<QuizQuestion> generatedQuestions = new ArrayList<>();
+        int maxQuestions = Math.min(12, vocabulary.size());
+        for (int questionIndex = 0; questionIndex < maxQuestions; questionIndex++) {
+            VocabularyItem item = vocabulary.get(questionIndex);
+            List<QuizAnswer> answers = new ArrayList<>();
+            answers.add(new QuizAnswer(item.getTextDa(), true));
+
+            for (VocabularyItem candidate : vocabulary) {
+                if (answers.size() >= 4) {
+                    break;
+                }
+
+                if (!candidate.getTextDa().equals(item.getTextDa())) {
+                    answers.add(new QuizAnswer(candidate.getTextDa(), false));
+                }
+            }
+
+            generatedQuestions.add(new QuizQuestion(
+                    questionIndex + 1,
+                    "Hvad betyder: " + item.getTextPt() + "?",
+                    answers,
+                    item.getTextPt() + " = " + item.getTextDa()
+            ));
+        }
+
+        currentScreen = Screen.QUIZ;
+        quizMode = QuizMode.VOCABULARY;
+        selectedLesson = null;
+        selectedDialogue = null;
+        phrases = Collections.emptyList();
+        quizQuestions = generatedQuestions;
+        Collections.shuffle(quizQuestions, random);
+        quizIndex = 0;
+        quizCorrectAnswers = 0;
+        showQuizQuestion();
+    }
+
+    private List<VocabularyItem> loadGeneralVocabulary() {
+        LessonRepository repository = new LessonRepository(this);
+        List<VocabularyItem> vocabulary = new ArrayList<>();
+        for (Level level : levels) {
+            try {
+                for (Lesson lesson : repository.loadAllLessons(level.getId())) {
+                    for (Dialogue dialogue : lesson.getDialogues()) {
+                        for (VocabularyItem item : dialogue.getVocabulary()) {
+                            if (!isEmpty(item.getTextPt()) && !isEmpty(item.getTextDa())) {
+                                vocabulary.add(item);
+                            }
+                        }
+                    }
+                }
+            } catch (Exception exception) {
+                Log.e(TAG, "Could not load vocabulary for level " + level.getId(), exception);
+            }
+        }
+        return vocabulary;
+    }
+
     private void showQuiz(Lesson lesson) {
         if (lesson.getQuiz().isEmpty()) {
             Toast.makeText(this, "Quizdata er ikke klar til denne lektion endnu.", Toast.LENGTH_LONG).show();
@@ -757,6 +840,7 @@ public class MainActivity extends Activity {
         }
 
         currentScreen = Screen.QUIZ;
+        quizMode = QuizMode.LESSON;
         selectedLesson = lesson;
         selectedDialogue = null;
         phrases = Collections.emptyList();
@@ -765,6 +849,30 @@ public class MainActivity extends Activity {
         quizIndex = 0;
         quizCorrectAnswers = 0;
         showQuizQuestion();
+    }
+
+    private String getQuizHeadingText() {
+        if (quizMode == QuizMode.VOCABULARY) {
+            return "Quiz - ordforråd";
+        }
+
+        if (selectedLesson == null) {
+            return "Quiz - Niveau " + selectedLevel;
+        }
+
+        return "Quiz - Lektion " + selectedLesson.getId();
+    }
+
+    private String getQuizScopeText() {
+        if (quizMode == QuizMode.VOCABULARY) {
+            return "Ordforråd generelt";
+        }
+
+        if (selectedLesson == null) {
+            return "Niveau " + selectedLevel;
+        }
+
+        return "Lektion " + selectedLesson.getId();
     }
 
     private void showQuizQuestion() {
@@ -795,9 +903,7 @@ public class MainActivity extends Activity {
         contentRoot.addView(lessonsButton, matchWrap());
 
         QuizQuestion question = quizQuestions.get(quizIndex);
-        String headingText = selectedLesson == null
-                ? "Quiz - Niveau " + selectedLevel
-                : "Quiz - Lektion " + selectedLesson.getId();
+        String headingText = getQuizHeadingText();
         TextView heading = text(headingText, 22, COLOR_HEADER, true);
         heading.setGravity(Gravity.CENTER);
         contentRoot.addView(heading, matchWrap());
@@ -892,7 +998,7 @@ public class MainActivity extends Activity {
         heading.setGravity(Gravity.CENTER);
         contentRoot.addView(heading, matchWrap());
 
-        String quizScope = selectedLesson == null ? "Niveau " + selectedLevel : "Lektion " + selectedLesson.getId();
+        String quizScope = getQuizScopeText();
         TextView score = panel(quizScope
                 + "\nScore: " + quizCorrectAnswers + " af " + quizQuestions.size());
         score.setTypeface(android.graphics.Typeface.DEFAULT_BOLD);
@@ -908,7 +1014,9 @@ public class MainActivity extends Activity {
 
         Button repeatButton = quizButton("Prøv quiz igen");
         repeatButton.setOnClickListener(v -> {
-            if (selectedLesson == null) {
+            if (quizMode == QuizMode.VOCABULARY) {
+                showVocabularyQuiz();
+            } else if (selectedLesson == null) {
                 showLevelQuiz(selectedLevel);
             } else {
                 showQuiz(selectedLesson);
@@ -1319,7 +1427,7 @@ public class MainActivity extends Activity {
             startupErrorMessage = null;
         } catch (Exception exception) {
             Log.e(TAG, "Could not load levels", exception);
-            startupErrorMessage = "Niveau-JSON kunne ikke indl?ses. Appen viser n?dindhold.";
+            startupErrorMessage = "Niveau-JSON kunne ikke indlæses. Appen viser nødindhold.";
             levels = Collections.singletonList(createFallbackLevel(DEFAULT_LEVEL));
         }
 
@@ -1345,8 +1453,8 @@ public class MainActivity extends Activity {
         return new Level(
                 levelId,
                 "Learn Portuguese " + levelId,
-                "Dansk til europ?isk portugisisk",
-                "Offlinelektioner - dansk til europ?isk portugisisk",
+                "Dansk til europæisk portugisisk",
+                "Offlinelektioner - dansk til europæisk portugisisk",
                 "AI brugt: begynderfraser og grammatiknoter"
         );
     }
@@ -1357,9 +1465,9 @@ public class MainActivity extends Activity {
             lessons = repository.loadAllLessons(levelId);
         } catch (Exception exception) {
             Log.e(TAG, "Could not load lessons for level " + levelId, exception);
-            startupErrorMessage = "Lektions-JSON kunne ikke indl?ses. Appen viser n?dindhold.";
+            startupErrorMessage = "Lektions-JSON kunne ikke indlæses. Appen viser nødindhold.";
             lessons = createFallbackLessons();
-            showSafeToast("Kunne ikke indl?se lektions-JSON. Bruger indbygget n?dlektion.");
+            showSafeToast("Kunne ikke indlæse lektions-JSON. Bruger indbygget nødlektion.");
         }
     }
 
@@ -1370,7 +1478,7 @@ public class MainActivity extends Activity {
         } catch (Exception exception) {
             Log.e(TAG, "Could not load numbers", exception);
             numbers = Collections.emptyList();
-            startupErrorMessage = "Tal-JSON kunne ikke indl?ses.";
+            startupErrorMessage = "Tal-JSON kunne ikke indlæses.";
         }
     }
 
@@ -1379,7 +1487,7 @@ public class MainActivity extends Activity {
             return;
         }
 
-        TextView errorView = panel("Bem?rk\n" + startupErrorMessage);
+        TextView errorView = panel("Bemærk\n" + startupErrorMessage);
         errorView.setTextColor(COLOR_ERROR);
         errorView.setTypeface(android.graphics.Typeface.DEFAULT_BOLD);
         contentRoot.addView(errorView, matchWrap());
@@ -1564,11 +1672,11 @@ public class MainActivity extends Activity {
         fallbackLessons.add(new Lesson(
                 1,
                 "Indbygget prototype",
-                "N?dlektion hvis offline JSON ikke kan indl?ses.",
+                "Nødlektion hvis offline JSON ikke kan indlæses.",
                 dialogues,
                 Collections.emptyList(),
                 "Kort dialog",
-                "N?dindhold hvis JSON ikke kan indl?ses.",
+                "Nødindhold hvis JSON ikke kan indlæses.",
                 Collections.emptyList()
         ));
         return fallbackLessons;
@@ -1666,6 +1774,87 @@ public class MainActivity extends Activity {
         super.onDestroy();
     }
 
+    private static class WelcomeBackgroundLayout extends LinearLayout {
+        private final Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG);
+        private final Path path = new Path();
+
+        WelcomeBackgroundLayout(Context context) {
+            super(context);
+            setWillNotDraw(false);
+        }
+
+        @Override
+        protected void onDraw(Canvas canvas) {
+            super.onDraw(canvas);
+            int width = getWidth();
+            int height = getHeight();
+            if (width <= 0 || height <= 0) {
+                return;
+            }
+
+            drawSea(canvas, width, height);
+            drawBoat(canvas, width, height);
+            drawPalm(canvas, width, height);
+        }
+
+        private void drawSea(Canvas canvas, int width, int height) {
+            paint.setStyle(Paint.Style.FILL);
+            paint.setColor(0x3327B7C8);
+            canvas.drawRect(0, height * 0.62f, width, height, paint);
+
+            paint.setColor(0x22FFFFFF);
+            for (int row = 0; row < 4; row++) {
+                float y = height * (0.68f + row * 0.07f);
+                canvas.drawOval(new RectF(-width * 0.1f, y, width * 0.65f, y + 28f), paint);
+                canvas.drawOval(new RectF(width * 0.35f, y + 10f, width * 1.15f, y + 38f), paint);
+            }
+        }
+
+        private void drawBoat(Canvas canvas, int width, int height) {
+            float boatY = height * 0.58f;
+            paint.setStyle(Paint.Style.FILL);
+            paint.setColor(0x336A4A2F);
+            path.reset();
+            path.moveTo(width * 0.58f, boatY);
+            path.lineTo(width * 0.82f, boatY);
+            path.lineTo(width * 0.76f, boatY + 34f);
+            path.lineTo(width * 0.63f, boatY + 34f);
+            path.close();
+            canvas.drawPath(path, paint);
+
+            paint.setColor(0x33FFFFFF);
+            path.reset();
+            path.moveTo(width * 0.68f, boatY - 90f);
+            path.lineTo(width * 0.68f, boatY);
+            path.lineTo(width * 0.78f, boatY);
+            path.close();
+            canvas.drawPath(path, paint);
+        }
+
+        private void drawPalm(Canvas canvas, int width, int height) {
+            float baseX = width * 0.12f;
+            float baseY = height * 0.66f;
+            paint.setStyle(Paint.Style.STROKE);
+            paint.setStrokeWidth(12f);
+            paint.setColor(0x33815A34);
+            path.reset();
+            path.moveTo(baseX, baseY);
+            path.quadTo(baseX + 28f, baseY - 120f, baseX + 80f, baseY - 210f);
+            canvas.drawPath(path, paint);
+
+            paint.setStyle(Paint.Style.FILL);
+            paint.setColor(0x3346A56A);
+            float crownX = baseX + 82f;
+            float crownY = baseY - 218f;
+            for (int i = 0; i < 6; i++) {
+                canvas.save();
+                canvas.rotate(-70 + i * 28, crownX, crownY);
+                canvas.drawOval(new RectF(crownX - 12f, crownY - 12f, crownX + 120f, crownY + 24f), paint);
+                canvas.restore();
+            }
+        }
+    }
+
     private static class Phrase {
         final String portuguese;
         final String danish;
@@ -1696,5 +1885,11 @@ public class MainActivity extends Activity {
         NUMBER_RESULTS,
         PROGRESS,
         SETTINGS
+    }
+
+    private enum QuizMode {
+        LESSON,
+        LEVEL,
+        VOCABULARY
     }
 }

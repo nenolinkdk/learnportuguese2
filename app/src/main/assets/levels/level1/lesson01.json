@@ -1,363 +1,363 @@
 {
-  "id": 1,
-  "titleDa": "Hilsner og høflighed",
-  "descriptionDa": "Første JSON-baserede prototypelektion med de samme begynderfraser som den oprindelige app.",
-  "dialogues": [
-    {
-      "id": 1,
-      "titleDa": "Begynderfraser",
-      "objectiveDa": "Lær enkle portugisiske fraser med dansk betydning.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Olá, bom dia.",
-          "textDa": "Hej, godmorgen.",
-          "grammarDa": "Use bom dia before lunch."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Eu sou da Dinamarca.",
-          "textDa": "Jeg er fra Danmark.",
-          "grammarDa": "Eu sou means I am."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Como te chamas?",
-          "textDa": "Hvad hedder du?",
-          "grammarDa": "Questions often keep the same word order as statements."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Chamo-me Anna.",
-          "textDa": "Jeg hedder Anna.",
-          "grammarDa": "Chamo-me is a simple way to say my name is."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Por favor, fala devagar.",
-          "textDa": "Vær sød at tale langsomt.",
-          "grammarDa": "Fala is the informal command for speak."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Não percebo.",
-          "textDa": "Jeg forstår ikke.",
-          "grammarDa": "Não goes before the verb to make a negative sentence."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Onde fica a estação?",
-          "textDa": "Hvor ligger stationen?",
-          "grammarDa": "Onde asks where."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Quero um café.",
-          "textDa": "Jeg vil gerne have en kaffe.",
-          "grammarDa": "Quero means I want and is useful in cafés and shops."
-        },
-        {
-          "speaker": "A",
-          "textPt": "A água é boa.",
-          "textDa": "Vandet er godt.",
-          "grammarDa": "A and o often mean the."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Tenho fome.",
-          "textDa": "Jeg er sulten.",
-          "grammarDa": "Portuguese uses have hunger instead of am hungry."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Tenho sede.",
-          "textDa": "Jeg er tørstig.",
-          "grammarDa": "This also uses tenho, meaning I have."
-        },
-        {
-          "speaker": "A",
-          "textPt": "A conta, por favor.",
-          "textDa": "Regningen, tak.",
-          "grammarDa": "Short polite phrases work well in restaurants."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Quanto custa?",
-          "textDa": "Hvad koster det?",
-          "grammarDa": "Quanto asks how much."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Gosto de música.",
-          "textDa": "Jeg kan lide musik.",
-          "grammarDa": "Gosto de means I like."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Moro em Copenhaga.",
-          "textDa": "Jeg bor i København.",
-          "grammarDa": "Em means in or at."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Hoje está sol.",
-          "textDa": "I dag er der sol.",
-          "grammarDa": "Está describes temporary states like weather."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Amanhã vou estudar.",
-          "textDa": "I morgen vil jeg studere.",
-          "grammarDa": "Vou plus verb makes a simple future."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Preciso de ajuda.",
-          "textDa": "Jeg har brug for hjælp.",
-          "grammarDa": "Preciso de means I need."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Até logo.",
-          "textDa": "Vi ses senere.",
-          "grammarDa": "Até means until and is used in goodbyes."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Obrigado pela ajuda.",
-          "textDa": "Tak for hjælpen.",
-          "grammarDa": "Obrigado is said by a male speaker; obrigada by a female speaker."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "olá",
-          "textDa": "hej"
-        },
-        {
-          "textPt": "bom dia",
-          "textDa": "godmorgen"
-        },
-        {
-          "textPt": "Dinamarca",
-          "textDa": "Danmark"
-        },
-        {
-          "textPt": "por favor",
-          "textDa": "vær sød / tak"
-        },
-        {
-          "textPt": "estação",
-          "textDa": "station"
-        },
-        {
-          "textPt": "café",
-          "textDa": "kaffe"
-        },
-        {
-          "textPt": "ajuda",
-          "textDa": "hjælp"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "Basisfraser",
-          "explanationDa": "Denne prototypelektion samler korte, nyttige begyndersætninger."
-        }
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": 1,
-      "questionDa": "Hvilket svar betyder godmorgen?",
-      "answers": [
-        {
-          "text": "Bom dia.",
-          "correct": true
-        },
-        {
-          "text": "Até logo.",
-          "correct": false
-        },
-        {
-          "text": "A conta.",
-          "correct": false
-        },
-        {
-          "text": "Tenho fome.",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Bom dia betyder godmorgen."
-    },
-    {
-      "id": 2,
-      "questionDa": "Hvordan siger man Jeg er fra Danmark?",
-      "answers": [
-        {
-          "text": "Eu sou da Dinamarca.",
-          "correct": true
-        },
-        {
-          "text": "Quero um café.",
-          "correct": false
-        },
-        {
-          "text": "Não percebo.",
-          "correct": false
-        },
-        {
-          "text": "Gosto de música.",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Eu sou da Dinamarca betyder jeg er fra Danmark."
-    },
-    {
-      "id": 3,
-      "questionDa": "Hvilken frase bruger du for Hvad hedder du?",
-      "answers": [
-        {
-          "text": "Como te chamas?",
-          "correct": true
-        },
-        {
-          "text": "Chamo-me Anna.",
-          "correct": false
-        },
-        {
-          "text": "Tenho sede.",
-          "correct": false
-        },
-        {
-          "text": "Preciso de ajuda.",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Como te chamas? betyder hvad hedder du?"
-    },
-    {
-      "id": 4,
-      "questionDa": "Hvilken frase betyder Jeg forstår ikke?",
-      "answers": [
-        {
-          "text": "Não percebo.",
-          "correct": true
-        },
-        {
-          "text": "Onde fica a estação?",
-          "correct": false
-        },
-        {
-          "text": "A água é boa.",
-          "correct": false
-        },
-        {
-          "text": "Hoje está sol.",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Não placeres før verbet og gør sætningen negativ."
-    },
-    {
-      "id": 5,
-      "questionDa": "Hvordan beder du om regningen?",
-      "answers": [
-        {
-          "text": "A conta, por favor.",
-          "correct": true
-        },
-        {
-          "text": "Quanto custa?",
-          "correct": false
-        },
-        {
-          "text": "Tenho fome.",
-          "correct": false
-        },
-        {
-          "text": "Moro em Copenhaga.",
-          "correct": false
-        }
-      ],
-      "explanationDa": "A conta, por favor betyder regningen, tak."
-    }
-  ],
-  "storyTitleDa": "Kort dialog: Hilsner og høflighed",
-  "storyObjectiveDa": "L?s en sammenh?ngende mini-dialog med kendte fraser fra lektionen.",
-  "story": [
-    {
-      "speaker": "A",
-      "textPt": "Ol?.",
-      "textDa": "Hej.",
-      "grammarDa": "Kort hilsen."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Ol?. Como est??",
-      "textDa": "Hej. Hvordan har du det?",
-      "grammarDa": "Est? kommer af estar."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Estou bem, obrigado.",
-      "textDa": "Jeg har det godt, tak.",
-      "grammarDa": "Estou bruges om en midlertidig tilstand."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Hoje praticamos Hilsner og høflighed.",
-      "textDa": "I dag ?ver vi Hilsner og høflighed.",
-      "grammarDa": "Praticamos betyder vi ?ver."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Tenho uma pergunta.",
-      "textDa": "Jeg har et sp?rgsm?l.",
-      "grammarDa": "Tenho kommer af ter."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Claro, diga devagar.",
-      "textDa": "Selvf?lgelig, sig det langsomt.",
-      "grammarDa": "Diga er en h?flig opfordring."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Como se diz isto em portugu?s?",
-      "textDa": "Hvordan siger man dette p? portugisisk?",
-      "grammarDa": "Como se diz bruges til at sp?rge om ord."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Dizemos uma frase curta.",
-      "textDa": "Vi siger en kort s?tning.",
-      "grammarDa": "Uma frase curta betyder en kort s?tning."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Repito a frase.",
-      "textDa": "Jeg gentager s?tningen.",
-      "grammarDa": "Repito betyder jeg gentager."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Muito bem.",
-      "textDa": "Meget fint.",
-      "grammarDa": "Muito bem er positiv feedback."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Obrigado pela ajuda.",
-      "textDa": "Tak for hj?lpen.",
-      "grammarDa": "Obrigado bruges af en mand; obrigada af en kvinde."
-    },
-    {
-      "speaker": "B",
-      "textPt": "At? j?.",
-      "textDa": "Vi ses snart.",
-      "grammarDa": "At? j? er en almindelig afslutning."
-    }
-  ]
+    "id":  1,
+    "titleDa":  "Hilsner og høflighed",
+    "descriptionDa":  "Første JSON-baserede prototypelektion med de samme begynderfraser som den oprindelige app.",
+    "dialogues":  [
+                      {
+                          "id":  1,
+                          "titleDa":  "Begynderfraser",
+                          "objectiveDa":  "Lær enkle portugisiske fraser med dansk betydning.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Olá, bom dia.",
+                                              "textDa":  "Hej, godmorgen.",
+                                              "grammarDa":  "Use bom dia before lunch."
+                                          },
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Eu sou da Dinamarca.",
+                                              "textDa":  "Jeg er fra Danmark.",
+                                              "grammarDa":  "Eu sou means I am."
+                                          },
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Como te chamas?",
+                                              "textDa":  "Hvad hedder du?",
+                                              "grammarDa":  "Questions often keep the same word order as statements."
+                                          },
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Chamo-me Anna.",
+                                              "textDa":  "Jeg hedder Anna.",
+                                              "grammarDa":  "Chamo-me is a simple way to say my name is."
+                                          },
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Por favor, fala devagar.",
+                                              "textDa":  "Vær sød at tale langsomt.",
+                                              "grammarDa":  "Fala is the informal command for speak."
+                                          },
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Não percebo.",
+                                              "textDa":  "Jeg forstår ikke.",
+                                              "grammarDa":  "Não goes before the verb to make a negative sentence."
+                                          },
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Onde fica a estação?",
+                                              "textDa":  "Hvor ligger stationen?",
+                                              "grammarDa":  "Onde asks where."
+                                          },
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Quero um café.",
+                                              "textDa":  "Jeg vil gerne have en kaffe.",
+                                              "grammarDa":  "Quero means I want and is useful in cafés and shops."
+                                          },
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "A água é boa.",
+                                              "textDa":  "Vandet er godt.",
+                                              "grammarDa":  "A and o often mean the."
+                                          },
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Tenho fome.",
+                                              "textDa":  "Jeg er sulten.",
+                                              "grammarDa":  "Portuguese uses have hunger instead of am hungry."
+                                          },
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Tenho sede.",
+                                              "textDa":  "Jeg er tørstig.",
+                                              "grammarDa":  "This also uses tenho, meaning I have."
+                                          },
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "A conta, por favor.",
+                                              "textDa":  "Regningen, tak.",
+                                              "grammarDa":  "Short polite phrases work well in restaurants."
+                                          },
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Quanto custa?",
+                                              "textDa":  "Hvad koster det?",
+                                              "grammarDa":  "Quanto asks how much."
+                                          },
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Gosto de música.",
+                                              "textDa":  "Jeg kan lide musik.",
+                                              "grammarDa":  "Gosto de means I like."
+                                          },
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Moro em Copenhaga.",
+                                              "textDa":  "Jeg bor i København.",
+                                              "grammarDa":  "Em means in or at."
+                                          },
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Hoje está sol.",
+                                              "textDa":  "I dag er der sol.",
+                                              "grammarDa":  "Está describes temporary states like weather."
+                                          },
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Amanhã vou estudar.",
+                                              "textDa":  "I morgen vil jeg studere.",
+                                              "grammarDa":  "Vou plus verb makes a simple future."
+                                          },
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Preciso de ajuda.",
+                                              "textDa":  "Jeg har brug for hjælp.",
+                                              "grammarDa":  "Preciso de means I need."
+                                          },
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Até logo.",
+                                              "textDa":  "Vi ses senere.",
+                                              "grammarDa":  "Até means until and is used in goodbyes."
+                                          },
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Obrigado pela ajuda.",
+                                              "textDa":  "Tak for hjælpen.",
+                                              "grammarDa":  "Obrigado is said by a male speaker; obrigada by a female speaker."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "olá",
+                                                 "textDa":  "hej"
+                                             },
+                                             {
+                                                 "textPt":  "bom dia",
+                                                 "textDa":  "godmorgen"
+                                             },
+                                             {
+                                                 "textPt":  "Dinamarca",
+                                                 "textDa":  "Danmark"
+                                             },
+                                             {
+                                                 "textPt":  "por favor",
+                                                 "textDa":  "vær sød / tak"
+                                             },
+                                             {
+                                                 "textPt":  "estação",
+                                                 "textDa":  "station"
+                                             },
+                                             {
+                                                 "textPt":  "café",
+                                                 "textDa":  "kaffe"
+                                             },
+                                             {
+                                                 "textPt":  "ajuda",
+                                                 "textDa":  "hjælp"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "Basisfraser",
+                                              "explanationDa":  "Denne prototypelektion samler korte, nyttige begyndersætninger."
+                                          }
+                                      ]
+                      }
+                  ],
+    "quiz":  [
+                 {
+                     "id":  1,
+                     "questionDa":  "Hvilket svar betyder godmorgen?",
+                     "answers":  [
+                                     {
+                                         "text":  "Bom dia.",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Até logo.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "A conta.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Tenho fome.",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Bom dia betyder godmorgen."
+                 },
+                 {
+                     "id":  2,
+                     "questionDa":  "Hvordan siger man Jeg er fra Danmark?",
+                     "answers":  [
+                                     {
+                                         "text":  "Eu sou da Dinamarca.",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Quero um café.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Não percebo.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Gosto de música.",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Eu sou da Dinamarca betyder jeg er fra Danmark."
+                 },
+                 {
+                     "id":  3,
+                     "questionDa":  "Hvilken frase bruger du for Hvad hedder du?",
+                     "answers":  [
+                                     {
+                                         "text":  "Como te chamas?",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Chamo-me Anna.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Tenho sede.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Preciso de ajuda.",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Como te chamas? betyder hvad hedder du?"
+                 },
+                 {
+                     "id":  4,
+                     "questionDa":  "Hvilken frase betyder Jeg forstår ikke?",
+                     "answers":  [
+                                     {
+                                         "text":  "Não percebo.",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Onde fica a estação?",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "A água é boa.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Hoje está sol.",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Não placeres før verbet og gør sætningen negativ."
+                 },
+                 {
+                     "id":  5,
+                     "questionDa":  "Hvordan beder du om regningen?",
+                     "answers":  [
+                                     {
+                                         "text":  "A conta, por favor.",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Quanto custa?",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Tenho fome.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Moro em Copenhaga.",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "A conta, por favor betyder regningen, tak."
+                 }
+             ],
+    "storyTitleDa":  "Kort dialog: Hilsner og høflighed",
+    "storyObjectiveDa":  "Læs en sammenhængende mini-dialog med kendte fraser fra lektionen.",
+    "story":  [
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Olá.",
+                      "textDa":  "Hej.",
+                      "grammarDa":  "Kort hilsen."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Olá. Como está?",
+                      "textDa":  "Hej. Hvordan har du det?",
+                      "grammarDa":  "Está kommer af estar."
+                  },
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Estou bem, obrigado.",
+                      "textDa":  "Jeg har det godt, tak.",
+                      "grammarDa":  "Estou bruges om en midlertidig tilstand."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Hoje praticamos uma conversa curta.",
+                      "textDa":  "I dag øver vi en kort samtale.",
+                      "grammarDa":  "Praticamos betyder vi øver."
+                  },
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Tenho uma pergunta.",
+                      "textDa":  "Jeg har et spørgsmål.",
+                      "grammarDa":  "Tenho kommer af ter."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Claro, diga devagar.",
+                      "textDa":  "Selvfølgelig, sig det langsomt.",
+                      "grammarDa":  "Diga er en høflig opfordring."
+                  },
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Como se diz isto em português?",
+                      "textDa":  "Hvordan siger man dette på portugisisk?",
+                      "grammarDa":  "Como se diz bruges til at spørge om ord."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Dizemos uma frase curta.",
+                      "textDa":  "Vi siger en kort sætning.",
+                      "grammarDa":  "Uma frase curta betyder en kort sætning."
+                  },
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Repito a frase.",
+                      "textDa":  "Jeg gentager sætningen.",
+                      "grammarDa":  "Repito betyder jeg gentager."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Muito bem.",
+                      "textDa":  "Meget fint.",
+                      "grammarDa":  "Muito bem er positiv feedback."
+                  },
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Obrigado pela ajuda.",
+                      "textDa":  "Tak for hjælpen.",
+                      "grammarDa":  "Obrigado bruges af en mand; obrigada af en kvinde."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Até já.",
+                      "textDa":  "Vi ses snart.",
+                      "grammarDa":  "Até já er en almindelig afslutning."
+                  }
+              ]
 }
