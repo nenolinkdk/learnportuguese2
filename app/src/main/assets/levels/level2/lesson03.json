@@ -1,860 +1,860 @@
 {
-  "id": 3,
-  "titleDa": "At være: estar",
-  "descriptionDa": "Træn estar til humør, placering og midlertidige situationer.",
-  "dialogues": [
-    {
-      "id": 1,
-      "titleDa": "Humør",
-      "objectiveDa": "Træn: Jeg er glad.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Estou contente.",
-          "textDa": "Jeg er glad.",
-          "grammarDa": "Estou beskriver hvordan jeg har det nu."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "Estou",
-          "textDa": "nøgleord fra: humør"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "estar - bøjning og brug",
-          "explanationDa": "Estar bruges om midlertidig tilstand, placering, humør og aktuelle situationer.",
-          "conjugation": [
-            {
-              "subject": "eu",
-              "form": "estou"
-            },
-            {
-              "subject": "tu",
-              "form": "estás"
-            },
-            {
-              "subject": "ele/ela/você",
-              "form": "está"
-            },
-            {
-              "subject": "nós",
-              "form": "estamos"
-            },
-            {
-              "subject": "vocês",
-              "form": "estão"
-            },
-            {
-              "subject": "eles/elas",
-              "form": "estão"
-            }
-          ],
-          "examples": [
-            {
-              "pt": "Eu estou bem.",
-              "da": "Jeg har det godt."
-            },
-            {
-              "pt": "Ele está em casa.",
-              "da": "Han er hjemme."
-            },
-            {
-              "pt": "Estamos no café.",
-              "da": "Vi er på cafeen."
-            }
-          ],
-          "notesDa": "Spørg: Er det lige nu, en placering eller en midlertidig situation? Så er estar ofte det rigtige valg."
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "titleDa": "Træt",
-      "objectiveDa": "Træn: Hun er træt.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Ela está cansada.",
-          "textDa": "Hun er træt.",
-          "grammarDa": "Está beskriver en midlertidig tilstand."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "Ela",
-          "textDa": "nøgleord fra: træt"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "estar - bøjning og brug",
-          "explanationDa": "Estar bruges om midlertidig tilstand, placering, humør og aktuelle situationer.",
-          "conjugation": [
-            {
-              "subject": "eu",
-              "form": "estou"
-            },
-            {
-              "subject": "tu",
-              "form": "estás"
-            },
-            {
-              "subject": "ele/ela/você",
-              "form": "está"
-            },
-            {
-              "subject": "nós",
-              "form": "estamos"
-            },
-            {
-              "subject": "vocês",
-              "form": "estão"
-            },
-            {
-              "subject": "eles/elas",
-              "form": "estão"
-            }
-          ],
-          "examples": [
-            {
-              "pt": "Eu estou bem.",
-              "da": "Jeg har det godt."
-            },
-            {
-              "pt": "Ele está em casa.",
-              "da": "Han er hjemme."
-            },
-            {
-              "pt": "Estamos no café.",
-              "da": "Vi er på cafeen."
-            }
-          ],
-          "notesDa": "Spørg: Er det lige nu, en placering eller en midlertidig situation? Så er estar ofte det rigtige valg."
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "titleDa": "Hjemme",
-      "objectiveDa": "Træn: Han er hjemme.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Ele está em casa.",
-          "textDa": "Han er hjemme.",
-          "grammarDa": "Estar bruges om placering."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "Ele",
-          "textDa": "nøgleord fra: hjemme"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "estar - bøjning og brug",
-          "explanationDa": "Estar bruges om midlertidig tilstand, placering, humør og aktuelle situationer.",
-          "conjugation": [
-            {
-              "subject": "eu",
-              "form": "estou"
-            },
-            {
-              "subject": "tu",
-              "form": "estás"
-            },
-            {
-              "subject": "ele/ela/você",
-              "form": "está"
-            },
-            {
-              "subject": "nós",
-              "form": "estamos"
-            },
-            {
-              "subject": "vocês",
-              "form": "estão"
-            },
-            {
-              "subject": "eles/elas",
-              "form": "estão"
-            }
-          ],
-          "examples": [
-            {
-              "pt": "Eu estou bem.",
-              "da": "Jeg har det godt."
-            },
-            {
-              "pt": "Ele está em casa.",
-              "da": "Han er hjemme."
-            },
-            {
-              "pt": "Estamos no café.",
-              "da": "Vi er på cafeen."
-            }
-          ],
-          "notesDa": "Spørg: Er det lige nu, en placering eller en midlertidig situation? Så er estar ofte det rigtige valg."
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "titleDa": "Cafe",
-      "objectiveDa": "Træn: Vi er på cafeen.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Estamos no café.",
-          "textDa": "Vi er på cafeen.",
-          "grammarDa": "Estamos er vi-formen af estar."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "Estamos",
-          "textDa": "nøgleord fra: cafe"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "estar - bøjning og brug",
-          "explanationDa": "Estar bruges om midlertidig tilstand, placering, humør og aktuelle situationer.",
-          "conjugation": [
-            {
-              "subject": "eu",
-              "form": "estou"
-            },
-            {
-              "subject": "tu",
-              "form": "estás"
-            },
-            {
-              "subject": "ele/ela/você",
-              "form": "está"
-            },
-            {
-              "subject": "nós",
-              "form": "estamos"
-            },
-            {
-              "subject": "vocês",
-              "form": "estão"
-            },
-            {
-              "subject": "eles/elas",
-              "form": "estão"
-            }
-          ],
-          "examples": [
-            {
-              "pt": "Eu estou bem.",
-              "da": "Jeg har det godt."
-            },
-            {
-              "pt": "Ele está em casa.",
-              "da": "Han er hjemme."
-            },
-            {
-              "pt": "Estamos no café.",
-              "da": "Vi er på cafeen."
-            }
-          ],
-          "notesDa": "Spørg: Er det lige nu, en placering eller en midlertidig situation? Så er estar ofte det rigtige valg."
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "titleDa": "Byen",
-      "objectiveDa": "Træn: Jeg er i byen.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Estou na cidade.",
-          "textDa": "Jeg er i byen.",
-          "grammarDa": "Na betyder i/på + feminin artikel."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "Estou",
-          "textDa": "nøgleord fra: byen"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "estar - bøjning og brug",
-          "explanationDa": "Estar bruges om midlertidig tilstand, placering, humør og aktuelle situationer.",
-          "conjugation": [
-            {
-              "subject": "eu",
-              "form": "estou"
-            },
-            {
-              "subject": "tu",
-              "form": "estás"
-            },
-            {
-              "subject": "ele/ela/você",
-              "form": "está"
-            },
-            {
-              "subject": "nós",
-              "form": "estamos"
-            },
-            {
-              "subject": "vocês",
-              "form": "estão"
-            },
-            {
-              "subject": "eles/elas",
-              "form": "estão"
-            }
-          ],
-          "examples": [
-            {
-              "pt": "Eu estou bem.",
-              "da": "Jeg har det godt."
-            },
-            {
-              "pt": "Ele está em casa.",
-              "da": "Han er hjemme."
-            },
-            {
-              "pt": "Estamos no café.",
-              "da": "Vi er på cafeen."
-            }
-          ],
-          "notesDa": "Spørg: Er det lige nu, en placering eller en midlertidig situation? Så er estar ofte det rigtige valg."
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "titleDa": "Optaget",
-      "objectiveDa": "Træn: Jeg er optaget nu.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Estou ocupado agora.",
-          "textDa": "Jeg er optaget nu.",
-          "grammarDa": "Agora betyder nu."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "Estou",
-          "textDa": "nøgleord fra: optaget"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "estar - bøjning og brug",
-          "explanationDa": "Estar bruges om midlertidig tilstand, placering, humør og aktuelle situationer.",
-          "conjugation": [
-            {
-              "subject": "eu",
-              "form": "estou"
-            },
-            {
-              "subject": "tu",
-              "form": "estás"
-            },
-            {
-              "subject": "ele/ela/você",
-              "form": "está"
-            },
-            {
-              "subject": "nós",
-              "form": "estamos"
-            },
-            {
-              "subject": "vocês",
-              "form": "estão"
-            },
-            {
-              "subject": "eles/elas",
-              "form": "estão"
-            }
-          ],
-          "examples": [
-            {
-              "pt": "Eu estou bem.",
-              "da": "Jeg har det godt."
-            },
-            {
-              "pt": "Ele está em casa.",
-              "da": "Han er hjemme."
-            },
-            {
-              "pt": "Estamos no café.",
-              "da": "Vi er på cafeen."
-            }
-          ],
-          "notesDa": "Spørg: Er det lige nu, en placering eller en midlertidig situation? Så er estar ofte det rigtige valg."
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "titleDa": "Klar",
-      "objectiveDa": "Træn: Vi er klar.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Estamos prontos.",
-          "textDa": "Vi er klar.",
-          "grammarDa": "Prontos bøjes efter flere personer."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "Estamos",
-          "textDa": "nøgleord fra: klar"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "estar - bøjning og brug",
-          "explanationDa": "Estar bruges om midlertidig tilstand, placering, humør og aktuelle situationer.",
-          "conjugation": [
-            {
-              "subject": "eu",
-              "form": "estou"
-            },
-            {
-              "subject": "tu",
-              "form": "estás"
-            },
-            {
-              "subject": "ele/ela/você",
-              "form": "está"
-            },
-            {
-              "subject": "nós",
-              "form": "estamos"
-            },
-            {
-              "subject": "vocês",
-              "form": "estão"
-            },
-            {
-              "subject": "eles/elas",
-              "form": "estão"
-            }
-          ],
-          "examples": [
-            {
-              "pt": "Eu estou bem.",
-              "da": "Jeg har det godt."
-            },
-            {
-              "pt": "Ele está em casa.",
-              "da": "Han er hjemme."
-            },
-            {
-              "pt": "Estamos no café.",
-              "da": "Vi er på cafeen."
-            }
-          ],
-          "notesDa": "Spørg: Er det lige nu, en placering eller en midlertidig situation? Så er estar ofte det rigtige valg."
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "titleDa": "Vejr",
-      "objectiveDa": "Træn: Det er koldt i dag.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Está frio hoje.",
-          "textDa": "Det er koldt i dag.",
-          "grammarDa": "Está bruges ofte om vejr lige nu."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "Está",
-          "textDa": "nøgleord fra: vejr"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "estar - bøjning og brug",
-          "explanationDa": "Estar bruges om midlertidig tilstand, placering, humør og aktuelle situationer.",
-          "conjugation": [
-            {
-              "subject": "eu",
-              "form": "estou"
-            },
-            {
-              "subject": "tu",
-              "form": "estás"
-            },
-            {
-              "subject": "ele/ela/você",
-              "form": "está"
-            },
-            {
-              "subject": "nós",
-              "form": "estamos"
-            },
-            {
-              "subject": "vocês",
-              "form": "estão"
-            },
-            {
-              "subject": "eles/elas",
-              "form": "estão"
-            }
-          ],
-          "examples": [
-            {
-              "pt": "Eu estou bem.",
-              "da": "Jeg har det godt."
-            },
-            {
-              "pt": "Ele está em casa.",
-              "da": "Han er hjemme."
-            },
-            {
-              "pt": "Estamos no café.",
-              "da": "Vi er på cafeen."
-            }
-          ],
-          "notesDa": "Spørg: Er det lige nu, en placering eller en midlertidig situation? Så er estar ofte det rigtige valg."
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "titleDa": "Sted",
-      "objectiveDa": "Træn: Butikken er tæt på.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "A loja está perto.",
-          "textDa": "Butikken er tæt på.",
-          "grammarDa": "Estar bruges om placering."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "A",
-          "textDa": "nøgleord fra: sted"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "estar - bøjning og brug",
-          "explanationDa": "Estar bruges om midlertidig tilstand, placering, humør og aktuelle situationer.",
-          "conjugation": [
-            {
-              "subject": "eu",
-              "form": "estou"
-            },
-            {
-              "subject": "tu",
-              "form": "estás"
-            },
-            {
-              "subject": "ele/ela/você",
-              "form": "está"
-            },
-            {
-              "subject": "nós",
-              "form": "estamos"
-            },
-            {
-              "subject": "vocês",
-              "form": "estão"
-            },
-            {
-              "subject": "eles/elas",
-              "form": "estão"
-            }
-          ],
-          "examples": [
-            {
-              "pt": "Eu estou bem.",
-              "da": "Jeg har det godt."
-            },
-            {
-              "pt": "Ele está em casa.",
-              "da": "Han er hjemme."
-            },
-            {
-              "pt": "Estamos no café.",
-              "da": "Vi er på cafeen."
-            }
-          ],
-          "notesDa": "Spørg: Er det lige nu, en placering eller en midlertidig situation? Så er estar ofte det rigtige valg."
-        }
-      ]
-    },
-    {
-      "id": 10,
-      "titleDa": "Situation",
-      "objectiveDa": "Træn: Supermarkedet er åbent.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "O supermercado está aberto.",
-          "textDa": "Supermarkedet er åbent.",
-          "grammarDa": "Aberto beskriver aktuel status."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "O",
-          "textDa": "nøgleord fra: situation"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "estar - bøjning og brug",
-          "explanationDa": "Estar bruges om midlertidig tilstand, placering, humør og aktuelle situationer.",
-          "conjugation": [
-            {
-              "subject": "eu",
-              "form": "estou"
-            },
-            {
-              "subject": "tu",
-              "form": "estás"
-            },
-            {
-              "subject": "ele/ela/você",
-              "form": "está"
-            },
-            {
-              "subject": "nós",
-              "form": "estamos"
-            },
-            {
-              "subject": "vocês",
-              "form": "estão"
-            },
-            {
-              "subject": "eles/elas",
-              "form": "estão"
-            }
-          ],
-          "examples": [
-            {
-              "pt": "Eu estou bem.",
-              "da": "Jeg har det godt."
-            },
-            {
-              "pt": "Ele está em casa.",
-              "da": "Han er hjemme."
-            },
-            {
-              "pt": "Estamos no café.",
-              "da": "Vi er på cafeen."
-            }
-          ],
-          "notesDa": "Spørg: Er det lige nu, en placering eller en midlertidig situation? Så er estar ofte det rigtige valg."
-        }
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": 1,
-      "questionDa": "Hvilken sætning betyder: Jeg er glad.",
-      "answers": [
-        {
-          "text": "Estou contente.",
-          "correct": true
-        },
-        {
-          "text": "Ela está cansada.",
-          "correct": false
-        },
-        {
-          "text": "Ele está em casa.",
-          "correct": false
-        },
-        {
-          "text": "Estamos no café.",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Estou beskriver hvordan jeg har det nu."
-    },
-    {
-      "id": 2,
-      "questionDa": "Hvad betyder: Ela está cansada.",
-      "answers": [
-        {
-          "text": "Hun er træt.",
-          "correct": true
-        },
-        {
-          "text": "Jeg er glad.",
-          "correct": false
-        },
-        {
-          "text": "Han er hjemme.",
-          "correct": false
-        },
-        {
-          "text": "Jeg er i byen.",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Está beskriver en midlertidig tilstand."
-    },
-    {
-      "id": 3,
-      "questionDa": "Hvilket tema træner denne lektion mest?",
-      "answers": [
-        {
-          "text": "At være: estar",
-          "correct": true
-        },
-        {
-          "text": "Kun farver",
-          "correct": false
-        },
-        {
-          "text": "Kun alfabetet",
-          "correct": false
-        },
-        {
-          "text": "Kun dyr",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Træn estar til humør, placering og midlertidige situationer."
-    },
-    {
-      "id": 4,
-      "questionDa": "Vælg den portugisiske frase fra dialogen \"Hjemme\".",
-      "answers": [
-        {
-          "text": "Ele está em casa.",
-          "correct": true
-        },
-        {
-          "text": "Han er hjemme.",
-          "correct": false
-        },
-        {
-          "text": "Jeg er glad.",
-          "correct": false
-        },
-        {
-          "text": "Hun er træt.",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Estar bruges om placering."
-    },
-    {
-      "id": 5,
-      "questionDa": "Hvad skal brugeren især øve her?",
-      "answers": [
-        {
-          "text": "estar",
-          "correct": true
-        },
-        {
-          "text": "Engelsk udtale",
-          "correct": false
-        },
-        {
-          "text": "Danske talord",
-          "correct": false
-        },
-        {
-          "text": "Tyske kasus",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Estar bruges om tilstand lige nu, placering og midlertidige situationer."
-    }
-  ],
-  "storyTitleDa": "Kort dialog: At være: estar",
-  "storyObjectiveDa": "L?s en sammenh?ngende mini-dialog med kendte fraser fra lektionen.",
-  "story": [
-    {
-      "speaker": "A",
-      "textPt": "Ol?.",
-      "textDa": "Hej.",
-      "grammarDa": "Kort hilsen."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Ol?. Como est??",
-      "textDa": "Hej. Hvordan har du det?",
-      "grammarDa": "Est? kommer af estar."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Estou bem, obrigado.",
-      "textDa": "Jeg har det godt, tak.",
-      "grammarDa": "Estou bruges om en midlertidig tilstand."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Hoje praticamos At være: estar.",
-      "textDa": "I dag ?ver vi At være: estar.",
-      "grammarDa": "Praticamos betyder vi ?ver."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Tenho uma pergunta.",
-      "textDa": "Jeg har et sp?rgsm?l.",
-      "grammarDa": "Tenho kommer af ter."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Claro, diga devagar.",
-      "textDa": "Selvf?lgelig, sig det langsomt.",
-      "grammarDa": "Diga er en h?flig opfordring."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Como se diz isto em portugu?s?",
-      "textDa": "Hvordan siger man dette p? portugisisk?",
-      "grammarDa": "Como se diz bruges til at sp?rge om ord."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Dizemos uma frase curta.",
-      "textDa": "Vi siger en kort s?tning.",
-      "grammarDa": "Uma frase curta betyder en kort s?tning."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Repito a frase.",
-      "textDa": "Jeg gentager s?tningen.",
-      "grammarDa": "Repito betyder jeg gentager."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Muito bem.",
-      "textDa": "Meget fint.",
-      "grammarDa": "Muito bem er positiv feedback."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Obrigado pela ajuda.",
-      "textDa": "Tak for hj?lpen.",
-      "grammarDa": "Obrigado bruges af en mand; obrigada af en kvinde."
-    },
-    {
-      "speaker": "B",
-      "textPt": "At? j?.",
-      "textDa": "Vi ses snart.",
-      "grammarDa": "At? j? er en almindelig afslutning."
-    }
-  ]
+    "id":  3,
+    "titleDa":  "At være: estar",
+    "descriptionDa":  "Træn estar til humør, placering og midlertidige situationer.",
+    "dialogues":  [
+                      {
+                          "id":  1,
+                          "titleDa":  "Humør",
+                          "objectiveDa":  "Træn: Jeg er glad.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Estou contente.",
+                                              "textDa":  "Jeg er glad.",
+                                              "grammarDa":  "Estou beskriver hvordan jeg har det nu."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Estou",
+                                                 "textDa":  "nøgleord fra: humør"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "estar - bøjning og brug",
+                                              "explanationDa":  "Estar bruges om midlertidig tilstand, placering, humør og aktuelle situationer.",
+                                              "conjugation":  [
+                                                                  {
+                                                                      "subject":  "eu",
+                                                                      "form":  "estou"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "tu",
+                                                                      "form":  "estás"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "ele/ela/você",
+                                                                      "form":  "está"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "nós",
+                                                                      "form":  "estamos"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "vocês",
+                                                                      "form":  "estão"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "eles/elas",
+                                                                      "form":  "estão"
+                                                                  }
+                                                              ],
+                                              "examples":  [
+                                                               {
+                                                                   "pt":  "Eu estou bem.",
+                                                                   "da":  "Jeg har det godt."
+                                                               },
+                                                               {
+                                                                   "pt":  "Ele está em casa.",
+                                                                   "da":  "Han er hjemme."
+                                                               },
+                                                               {
+                                                                   "pt":  "Estamos no café.",
+                                                                   "da":  "Vi er på cafeen."
+                                                               }
+                                                           ],
+                                              "notesDa":  "Spørg: Er det lige nu, en placering eller en midlertidig situation? Så er estar ofte det rigtige valg."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  2,
+                          "titleDa":  "Træt",
+                          "objectiveDa":  "Træn: Hun er træt.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Ela está cansada.",
+                                              "textDa":  "Hun er træt.",
+                                              "grammarDa":  "Está beskriver en midlertidig tilstand."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Ela",
+                                                 "textDa":  "nøgleord fra: træt"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "estar - bøjning og brug",
+                                              "explanationDa":  "Estar bruges om midlertidig tilstand, placering, humør og aktuelle situationer.",
+                                              "conjugation":  [
+                                                                  {
+                                                                      "subject":  "eu",
+                                                                      "form":  "estou"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "tu",
+                                                                      "form":  "estás"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "ele/ela/você",
+                                                                      "form":  "está"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "nós",
+                                                                      "form":  "estamos"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "vocês",
+                                                                      "form":  "estão"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "eles/elas",
+                                                                      "form":  "estão"
+                                                                  }
+                                                              ],
+                                              "examples":  [
+                                                               {
+                                                                   "pt":  "Eu estou bem.",
+                                                                   "da":  "Jeg har det godt."
+                                                               },
+                                                               {
+                                                                   "pt":  "Ele está em casa.",
+                                                                   "da":  "Han er hjemme."
+                                                               },
+                                                               {
+                                                                   "pt":  "Estamos no café.",
+                                                                   "da":  "Vi er på cafeen."
+                                                               }
+                                                           ],
+                                              "notesDa":  "Spørg: Er det lige nu, en placering eller en midlertidig situation? Så er estar ofte det rigtige valg."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  3,
+                          "titleDa":  "Hjemme",
+                          "objectiveDa":  "Træn: Han er hjemme.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Ele está em casa.",
+                                              "textDa":  "Han er hjemme.",
+                                              "grammarDa":  "Estar bruges om placering."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Ele",
+                                                 "textDa":  "nøgleord fra: hjemme"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "estar - bøjning og brug",
+                                              "explanationDa":  "Estar bruges om midlertidig tilstand, placering, humør og aktuelle situationer.",
+                                              "conjugation":  [
+                                                                  {
+                                                                      "subject":  "eu",
+                                                                      "form":  "estou"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "tu",
+                                                                      "form":  "estás"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "ele/ela/você",
+                                                                      "form":  "está"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "nós",
+                                                                      "form":  "estamos"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "vocês",
+                                                                      "form":  "estão"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "eles/elas",
+                                                                      "form":  "estão"
+                                                                  }
+                                                              ],
+                                              "examples":  [
+                                                               {
+                                                                   "pt":  "Eu estou bem.",
+                                                                   "da":  "Jeg har det godt."
+                                                               },
+                                                               {
+                                                                   "pt":  "Ele está em casa.",
+                                                                   "da":  "Han er hjemme."
+                                                               },
+                                                               {
+                                                                   "pt":  "Estamos no café.",
+                                                                   "da":  "Vi er på cafeen."
+                                                               }
+                                                           ],
+                                              "notesDa":  "Spørg: Er det lige nu, en placering eller en midlertidig situation? Så er estar ofte det rigtige valg."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  4,
+                          "titleDa":  "Cafe",
+                          "objectiveDa":  "Træn: Vi er på cafeen.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Estamos no café.",
+                                              "textDa":  "Vi er på cafeen.",
+                                              "grammarDa":  "Estamos er vi-formen af estar."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Estamos",
+                                                 "textDa":  "nøgleord fra: cafe"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "estar - bøjning og brug",
+                                              "explanationDa":  "Estar bruges om midlertidig tilstand, placering, humør og aktuelle situationer.",
+                                              "conjugation":  [
+                                                                  {
+                                                                      "subject":  "eu",
+                                                                      "form":  "estou"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "tu",
+                                                                      "form":  "estás"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "ele/ela/você",
+                                                                      "form":  "está"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "nós",
+                                                                      "form":  "estamos"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "vocês",
+                                                                      "form":  "estão"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "eles/elas",
+                                                                      "form":  "estão"
+                                                                  }
+                                                              ],
+                                              "examples":  [
+                                                               {
+                                                                   "pt":  "Eu estou bem.",
+                                                                   "da":  "Jeg har det godt."
+                                                               },
+                                                               {
+                                                                   "pt":  "Ele está em casa.",
+                                                                   "da":  "Han er hjemme."
+                                                               },
+                                                               {
+                                                                   "pt":  "Estamos no café.",
+                                                                   "da":  "Vi er på cafeen."
+                                                               }
+                                                           ],
+                                              "notesDa":  "Spørg: Er det lige nu, en placering eller en midlertidig situation? Så er estar ofte det rigtige valg."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  5,
+                          "titleDa":  "Byen",
+                          "objectiveDa":  "Træn: Jeg er i byen.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Estou na cidade.",
+                                              "textDa":  "Jeg er i byen.",
+                                              "grammarDa":  "Na betyder i/på + feminin artikel."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Estou",
+                                                 "textDa":  "nøgleord fra: byen"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "estar - bøjning og brug",
+                                              "explanationDa":  "Estar bruges om midlertidig tilstand, placering, humør og aktuelle situationer.",
+                                              "conjugation":  [
+                                                                  {
+                                                                      "subject":  "eu",
+                                                                      "form":  "estou"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "tu",
+                                                                      "form":  "estás"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "ele/ela/você",
+                                                                      "form":  "está"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "nós",
+                                                                      "form":  "estamos"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "vocês",
+                                                                      "form":  "estão"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "eles/elas",
+                                                                      "form":  "estão"
+                                                                  }
+                                                              ],
+                                              "examples":  [
+                                                               {
+                                                                   "pt":  "Eu estou bem.",
+                                                                   "da":  "Jeg har det godt."
+                                                               },
+                                                               {
+                                                                   "pt":  "Ele está em casa.",
+                                                                   "da":  "Han er hjemme."
+                                                               },
+                                                               {
+                                                                   "pt":  "Estamos no café.",
+                                                                   "da":  "Vi er på cafeen."
+                                                               }
+                                                           ],
+                                              "notesDa":  "Spørg: Er det lige nu, en placering eller en midlertidig situation? Så er estar ofte det rigtige valg."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  6,
+                          "titleDa":  "Optaget",
+                          "objectiveDa":  "Træn: Jeg er optaget nu.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Estou ocupado agora.",
+                                              "textDa":  "Jeg er optaget nu.",
+                                              "grammarDa":  "Agora betyder nu."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Estou",
+                                                 "textDa":  "nøgleord fra: optaget"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "estar - bøjning og brug",
+                                              "explanationDa":  "Estar bruges om midlertidig tilstand, placering, humør og aktuelle situationer.",
+                                              "conjugation":  [
+                                                                  {
+                                                                      "subject":  "eu",
+                                                                      "form":  "estou"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "tu",
+                                                                      "form":  "estás"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "ele/ela/você",
+                                                                      "form":  "está"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "nós",
+                                                                      "form":  "estamos"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "vocês",
+                                                                      "form":  "estão"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "eles/elas",
+                                                                      "form":  "estão"
+                                                                  }
+                                                              ],
+                                              "examples":  [
+                                                               {
+                                                                   "pt":  "Eu estou bem.",
+                                                                   "da":  "Jeg har det godt."
+                                                               },
+                                                               {
+                                                                   "pt":  "Ele está em casa.",
+                                                                   "da":  "Han er hjemme."
+                                                               },
+                                                               {
+                                                                   "pt":  "Estamos no café.",
+                                                                   "da":  "Vi er på cafeen."
+                                                               }
+                                                           ],
+                                              "notesDa":  "Spørg: Er det lige nu, en placering eller en midlertidig situation? Så er estar ofte det rigtige valg."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  7,
+                          "titleDa":  "Klar",
+                          "objectiveDa":  "Træn: Vi er klar.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Estamos prontos.",
+                                              "textDa":  "Vi er klar.",
+                                              "grammarDa":  "Prontos bøjes efter flere personer."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Estamos",
+                                                 "textDa":  "nøgleord fra: klar"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "estar - bøjning og brug",
+                                              "explanationDa":  "Estar bruges om midlertidig tilstand, placering, humør og aktuelle situationer.",
+                                              "conjugation":  [
+                                                                  {
+                                                                      "subject":  "eu",
+                                                                      "form":  "estou"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "tu",
+                                                                      "form":  "estás"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "ele/ela/você",
+                                                                      "form":  "está"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "nós",
+                                                                      "form":  "estamos"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "vocês",
+                                                                      "form":  "estão"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "eles/elas",
+                                                                      "form":  "estão"
+                                                                  }
+                                                              ],
+                                              "examples":  [
+                                                               {
+                                                                   "pt":  "Eu estou bem.",
+                                                                   "da":  "Jeg har det godt."
+                                                               },
+                                                               {
+                                                                   "pt":  "Ele está em casa.",
+                                                                   "da":  "Han er hjemme."
+                                                               },
+                                                               {
+                                                                   "pt":  "Estamos no café.",
+                                                                   "da":  "Vi er på cafeen."
+                                                               }
+                                                           ],
+                                              "notesDa":  "Spørg: Er det lige nu, en placering eller en midlertidig situation? Så er estar ofte det rigtige valg."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  8,
+                          "titleDa":  "Vejr",
+                          "objectiveDa":  "Træn: Det er koldt i dag.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Está frio hoje.",
+                                              "textDa":  "Det er koldt i dag.",
+                                              "grammarDa":  "Está bruges ofte om vejr lige nu."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Está",
+                                                 "textDa":  "nøgleord fra: vejr"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "estar - bøjning og brug",
+                                              "explanationDa":  "Estar bruges om midlertidig tilstand, placering, humør og aktuelle situationer.",
+                                              "conjugation":  [
+                                                                  {
+                                                                      "subject":  "eu",
+                                                                      "form":  "estou"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "tu",
+                                                                      "form":  "estás"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "ele/ela/você",
+                                                                      "form":  "está"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "nós",
+                                                                      "form":  "estamos"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "vocês",
+                                                                      "form":  "estão"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "eles/elas",
+                                                                      "form":  "estão"
+                                                                  }
+                                                              ],
+                                              "examples":  [
+                                                               {
+                                                                   "pt":  "Eu estou bem.",
+                                                                   "da":  "Jeg har det godt."
+                                                               },
+                                                               {
+                                                                   "pt":  "Ele está em casa.",
+                                                                   "da":  "Han er hjemme."
+                                                               },
+                                                               {
+                                                                   "pt":  "Estamos no café.",
+                                                                   "da":  "Vi er på cafeen."
+                                                               }
+                                                           ],
+                                              "notesDa":  "Spørg: Er det lige nu, en placering eller en midlertidig situation? Så er estar ofte det rigtige valg."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  9,
+                          "titleDa":  "Sted",
+                          "objectiveDa":  "Træn: Butikken er tæt på.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "A loja está perto.",
+                                              "textDa":  "Butikken er tæt på.",
+                                              "grammarDa":  "Estar bruges om placering."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "A",
+                                                 "textDa":  "nøgleord fra: sted"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "estar - bøjning og brug",
+                                              "explanationDa":  "Estar bruges om midlertidig tilstand, placering, humør og aktuelle situationer.",
+                                              "conjugation":  [
+                                                                  {
+                                                                      "subject":  "eu",
+                                                                      "form":  "estou"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "tu",
+                                                                      "form":  "estás"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "ele/ela/você",
+                                                                      "form":  "está"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "nós",
+                                                                      "form":  "estamos"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "vocês",
+                                                                      "form":  "estão"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "eles/elas",
+                                                                      "form":  "estão"
+                                                                  }
+                                                              ],
+                                              "examples":  [
+                                                               {
+                                                                   "pt":  "Eu estou bem.",
+                                                                   "da":  "Jeg har det godt."
+                                                               },
+                                                               {
+                                                                   "pt":  "Ele está em casa.",
+                                                                   "da":  "Han er hjemme."
+                                                               },
+                                                               {
+                                                                   "pt":  "Estamos no café.",
+                                                                   "da":  "Vi er på cafeen."
+                                                               }
+                                                           ],
+                                              "notesDa":  "Spørg: Er det lige nu, en placering eller en midlertidig situation? Så er estar ofte det rigtige valg."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  10,
+                          "titleDa":  "Situation",
+                          "objectiveDa":  "Træn: Supermarkedet er åbent.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "O supermercado está aberto.",
+                                              "textDa":  "Supermarkedet er åbent.",
+                                              "grammarDa":  "Aberto beskriver aktuel status."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "O",
+                                                 "textDa":  "nøgleord fra: situation"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "estar - bøjning og brug",
+                                              "explanationDa":  "Estar bruges om midlertidig tilstand, placering, humør og aktuelle situationer.",
+                                              "conjugation":  [
+                                                                  {
+                                                                      "subject":  "eu",
+                                                                      "form":  "estou"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "tu",
+                                                                      "form":  "estás"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "ele/ela/você",
+                                                                      "form":  "está"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "nós",
+                                                                      "form":  "estamos"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "vocês",
+                                                                      "form":  "estão"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "eles/elas",
+                                                                      "form":  "estão"
+                                                                  }
+                                                              ],
+                                              "examples":  [
+                                                               {
+                                                                   "pt":  "Eu estou bem.",
+                                                                   "da":  "Jeg har det godt."
+                                                               },
+                                                               {
+                                                                   "pt":  "Ele está em casa.",
+                                                                   "da":  "Han er hjemme."
+                                                               },
+                                                               {
+                                                                   "pt":  "Estamos no café.",
+                                                                   "da":  "Vi er på cafeen."
+                                                               }
+                                                           ],
+                                              "notesDa":  "Spørg: Er det lige nu, en placering eller en midlertidig situation? Så er estar ofte det rigtige valg."
+                                          }
+                                      ]
+                      }
+                  ],
+    "quiz":  [
+                 {
+                     "id":  1,
+                     "questionDa":  "Hvilken sætning betyder: Jeg er glad.",
+                     "answers":  [
+                                     {
+                                         "text":  "Estou contente.",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Ela está cansada.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Ele está em casa.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Estamos no café.",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Estou beskriver hvordan jeg har det nu."
+                 },
+                 {
+                     "id":  2,
+                     "questionDa":  "Hvad betyder: Ela está cansada.",
+                     "answers":  [
+                                     {
+                                         "text":  "Hun er træt.",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Jeg er glad.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Han er hjemme.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Jeg er i byen.",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Está beskriver en midlertidig tilstand."
+                 },
+                 {
+                     "id":  3,
+                     "questionDa":  "Hvilket tema træner denne lektion mest?",
+                     "answers":  [
+                                     {
+                                         "text":  "At være: estar",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Kun farver",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Kun alfabetet",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Kun dyr",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Træn estar til humør, placering og midlertidige situationer."
+                 },
+                 {
+                     "id":  4,
+                     "questionDa":  "Vælg den portugisiske frase fra dialogen \"Hjemme\".",
+                     "answers":  [
+                                     {
+                                         "text":  "Ele está em casa.",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Han er hjemme.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Jeg er glad.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Hun er træt.",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Estar bruges om placering."
+                 },
+                 {
+                     "id":  5,
+                     "questionDa":  "Hvad skal brugeren især øve her?",
+                     "answers":  [
+                                     {
+                                         "text":  "estar",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Engelsk udtale",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Danske talord",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Tyske kasus",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Estar bruges om tilstand lige nu, placering og midlertidige situationer."
+                 }
+             ],
+    "storyTitleDa":  "Kort dialog: At være: estar",
+    "storyObjectiveDa":  "Læs en sammenhængende mini-dialog med kendte fraser fra lektionen.",
+    "story":  [
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Olá.",
+                      "textDa":  "Hej.",
+                      "grammarDa":  "Kort hilsen."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Olá. Como está?",
+                      "textDa":  "Hej. Hvordan har du det?",
+                      "grammarDa":  "Está kommer af estar."
+                  },
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Estou bem, obrigado.",
+                      "textDa":  "Jeg har det godt, tak.",
+                      "grammarDa":  "Estou bruges om en midlertidig tilstand."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Hoje praticamos uma conversa curta.",
+                      "textDa":  "I dag øver vi en kort samtale.",
+                      "grammarDa":  "Praticamos betyder vi øver."
+                  },
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Tenho uma pergunta.",
+                      "textDa":  "Jeg har et spørgsmål.",
+                      "grammarDa":  "Tenho kommer af ter."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Claro, diga devagar.",
+                      "textDa":  "Selvfølgelig, sig det langsomt.",
+                      "grammarDa":  "Diga er en høflig opfordring."
+                  },
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Como se diz isto em português?",
+                      "textDa":  "Hvordan siger man dette på portugisisk?",
+                      "grammarDa":  "Como se diz bruges til at spørge om ord."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Dizemos uma frase curta.",
+                      "textDa":  "Vi siger en kort sætning.",
+                      "grammarDa":  "Uma frase curta betyder en kort sætning."
+                  },
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Repito a frase.",
+                      "textDa":  "Jeg gentager sætningen.",
+                      "grammarDa":  "Repito betyder jeg gentager."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Muito bem.",
+                      "textDa":  "Meget fint.",
+                      "grammarDa":  "Muito bem er positiv feedback."
+                  },
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Obrigado pela ajuda.",
+                      "textDa":  "Tak for hjælpen.",
+                      "grammarDa":  "Obrigado bruges af en mand; obrigada af en kvinde."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Até já.",
+                      "textDa":  "Vi ses snart.",
+                      "grammarDa":  "Até já er en almindelig afslutning."
+                  }
+              ]
 }

@@ -1,350 +1,390 @@
 {
-  "id": 6,
-  "titleDa": "Restaurant",
-  "descriptionDa": "Lær korte sætninger til restaurantbesøg.",
-  "dialogues": [
-    {
-      "id": 1,
-      "titleDa": "Bord",
-      "objectiveDa": "Bed om et bord.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Uma mesa para dois, por favor.",
-          "textDa": "Et bord til to, tak.",
-          "grammarDa": "Para dois betyder til to."
-        }
-      ],
-      "vocabulary": [],
-      "grammar": []
-    },
-    {
-      "id": 2,
-      "titleDa": "Reservation",
-      "objectiveDa": "Sig at du har reservation.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Tenho uma reserva.",
-          "textDa": "Jeg har en reservation.",
-          "grammarDa": "Tenho betyder jeg har."
-        }
-      ],
-      "vocabulary": [],
-      "grammar": []
-    },
-    {
-      "id": 3,
-      "titleDa": "Menu",
-      "objectiveDa": "Bed om menuen.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Pode trazer o menu?",
-          "textDa": "Kan De komme med menuen?",
-          "grammarDa": "Pode trazer betyder kan De bringe."
-        }
-      ],
-      "vocabulary": [],
-      "grammar": []
-    },
-    {
-      "id": 4,
-      "titleDa": "Bestilling",
-      "objectiveDa": "Bestil en ret.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Queria o peixe.",
-          "textDa": "Jeg vil gerne have fisken.",
-          "grammarDa": "Queria er en høflig måde at bestille på."
-        }
-      ],
-      "vocabulary": [],
-      "grammar": []
-    },
-    {
-      "id": 5,
-      "titleDa": "Drikke",
-      "objectiveDa": "Bestil vin.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Um copo de vinho branco.",
-          "textDa": "Et glas hvidvin.",
-          "grammarDa": "Copo betyder glas."
-        }
-      ],
-      "vocabulary": [],
-      "grammar": []
-    },
-    {
-      "id": 6,
-      "titleDa": "Allergi",
-      "objectiveDa": "Fortæl om allergi.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Sou alérgico a nozes.",
-          "textDa": "Jeg er allergisk over for nødder.",
-          "grammarDa": "Alérgico ændrer form efter køn."
-        }
-      ],
-      "vocabulary": [],
-      "grammar": []
-    },
-    {
-      "id": 7,
-      "titleDa": "Uden",
-      "objectiveDa": "Bed om noget uden sukker.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Sem açúcar, por favor.",
-          "textDa": "Uden sukker, tak.",
-          "grammarDa": "Sem betyder uden."
-        }
-      ],
-      "vocabulary": [],
-      "grammar": []
-    },
-    {
-      "id": 8,
-      "titleDa": "Regning",
-      "objectiveDa": "Bed om regningen.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "A conta, por favor.",
-          "textDa": "Regningen, tak.",
-          "grammarDa": "A conta er regningen."
-        }
-      ],
-      "vocabulary": [],
-      "grammar": []
-    },
-    {
-      "id": 9,
-      "titleDa": "Kort",
-      "objectiveDa": "Spørg om kortbetaling.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Posso pagar com cartão?",
-          "textDa": "Kan jeg betale med kort?",
-          "grammarDa": "Com cartão betyder med kort."
-        }
-      ],
-      "vocabulary": [],
-      "grammar": []
-    },
-    {
-      "id": 10,
-      "titleDa": "Tak",
-      "objectiveDa": "Tak for maden.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Estava muito bom, obrigado.",
-          "textDa": "Det var meget godt, tak.",
-          "grammarDa": "Estava bruges om noget, der var."
-        }
-      ],
-      "vocabulary": [],
-      "grammar": []
-    }
-  ],
-  "quiz": [
-    {
-      "id": 1,
-      "questionDa": "Hvordan beder man om et bord til to?",
-      "answers": [
-        {
-          "text": "Uma mesa para dois, por favor.",
-          "correct": true
-        },
-        {
-          "text": "Tenho uma reserva.",
-          "correct": false
-        },
-        {
-          "text": "A conta, por favor.",
-          "correct": false
-        },
-        {
-          "text": "Sem açúcar, por favor.",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Para dois betyder til to."
-    },
-    {
-      "id": 2,
-      "questionDa": "Hvilken frase betyder Jeg har en reservation?",
-      "answers": [
-        {
-          "text": "Tenho uma reserva.",
-          "correct": true
-        },
-        {
-          "text": "Pode trazer o menu?",
-          "correct": false
-        },
-        {
-          "text": "Queria o peixe.",
-          "correct": false
-        },
-        {
-          "text": "Posso pagar com cartão?",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Tenho betyder jeg har."
-    },
-    {
-      "id": 3,
-      "questionDa": "Hvordan bestiller man fisken høfligt?",
-      "answers": [
-        {
-          "text": "Queria o peixe.",
-          "correct": true
-        },
-        {
-          "text": "A conta, por favor.",
-          "correct": false
-        },
-        {
-          "text": "Um copo de vinho branco.",
-          "correct": false
-        },
-        {
-          "text": "Sem açúcar, por favor.",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Queria er en høflig måde at bestille på."
-    },
-    {
-      "id": 4,
-      "questionDa": "Hvilken frase betyder Regningen, tak?",
-      "answers": [
-        {
-          "text": "A conta, por favor.",
-          "correct": true
-        },
-        {
-          "text": "Pode trazer o menu?",
-          "correct": false
-        },
-        {
-          "text": "Tenho uma reserva.",
-          "correct": false
-        },
-        {
-          "text": "Estava muito bom, obrigado.",
-          "correct": false
-        }
-      ],
-      "explanationDa": "A conta betyder regningen."
-    },
-    {
-      "id": 5,
-      "questionDa": "Hvordan spørger man Kan jeg betale med kort?",
-      "answers": [
-        {
-          "text": "Posso pagar com cartão?",
-          "correct": true
-        },
-        {
-          "text": "Sou alérgico a nozes.",
-          "correct": false
-        },
-        {
-          "text": "Uma mesa para dois.",
-          "correct": false
-        },
-        {
-          "text": "Sem açúcar.",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Com cartão betyder med kort."
-    }
-  ],
-  "storyTitleDa": "Kort dialog: Restaurant",
-  "storyObjectiveDa": "L?s en sammenh?ngende mini-dialog med kendte fraser fra lektionen.",
-  "story": [
-    {
-      "speaker": "A",
-      "textPt": "Ol?.",
-      "textDa": "Hej.",
-      "grammarDa": "Kort hilsen."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Ol?. Como est??",
-      "textDa": "Hej. Hvordan har du det?",
-      "grammarDa": "Est? kommer af estar."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Estou bem, obrigado.",
-      "textDa": "Jeg har det godt, tak.",
-      "grammarDa": "Estou bruges om en midlertidig tilstand."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Hoje praticamos Restaurant.",
-      "textDa": "I dag ?ver vi Restaurant.",
-      "grammarDa": "Praticamos betyder vi ?ver."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Tenho uma pergunta.",
-      "textDa": "Jeg har et sp?rgsm?l.",
-      "grammarDa": "Tenho kommer af ter."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Claro, diga devagar.",
-      "textDa": "Selvf?lgelig, sig det langsomt.",
-      "grammarDa": "Diga er en h?flig opfordring."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Como se diz isto em portugu?s?",
-      "textDa": "Hvordan siger man dette p? portugisisk?",
-      "grammarDa": "Como se diz bruges til at sp?rge om ord."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Dizemos uma frase curta.",
-      "textDa": "Vi siger en kort s?tning.",
-      "grammarDa": "Uma frase curta betyder en kort s?tning."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Repito a frase.",
-      "textDa": "Jeg gentager s?tningen.",
-      "grammarDa": "Repito betyder jeg gentager."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Muito bem.",
-      "textDa": "Meget fint.",
-      "grammarDa": "Muito bem er positiv feedback."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Obrigado pela ajuda.",
-      "textDa": "Tak for hj?lpen.",
-      "grammarDa": "Obrigado bruges af en mand; obrigada af en kvinde."
-    },
-    {
-      "speaker": "B",
-      "textPt": "At? j?.",
-      "textDa": "Vi ses snart.",
-      "grammarDa": "At? j? er en almindelig afslutning."
-    }
-  ]
+    "id":  6,
+    "titleDa":  "Restaurant",
+    "descriptionDa":  "Lær korte sætninger til restaurantbesøg.",
+    "dialogues":  [
+                      {
+                          "id":  1,
+                          "titleDa":  "Bord",
+                          "objectiveDa":  "Bed om et bord.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Uma mesa para dois, por favor.",
+                                              "textDa":  "Et bord til to, tak.",
+                                              "grammarDa":  "Para dois betyder til to."
+                                          }
+                                      ],
+                          "vocabulary":  [
+
+                                         ],
+                          "grammar":  [
+
+                                      ]
+                      },
+                      {
+                          "id":  2,
+                          "titleDa":  "Reservation",
+                          "objectiveDa":  "Sig at du har reservation.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Tenho uma reserva.",
+                                              "textDa":  "Jeg har en reservation.",
+                                              "grammarDa":  "Tenho betyder jeg har."
+                                          }
+                                      ],
+                          "vocabulary":  [
+
+                                         ],
+                          "grammar":  [
+
+                                      ]
+                      },
+                      {
+                          "id":  3,
+                          "titleDa":  "Menu",
+                          "objectiveDa":  "Bed om menuen.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Pode trazer o menu?",
+                                              "textDa":  "Kan De komme med menuen?",
+                                              "grammarDa":  "Pode trazer betyder kan De bringe."
+                                          }
+                                      ],
+                          "vocabulary":  [
+
+                                         ],
+                          "grammar":  [
+
+                                      ]
+                      },
+                      {
+                          "id":  4,
+                          "titleDa":  "Bestilling",
+                          "objectiveDa":  "Bestil en ret.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Queria o peixe.",
+                                              "textDa":  "Jeg vil gerne have fisken.",
+                                              "grammarDa":  "Queria er en høflig måde at bestille på."
+                                          }
+                                      ],
+                          "vocabulary":  [
+
+                                         ],
+                          "grammar":  [
+
+                                      ]
+                      },
+                      {
+                          "id":  5,
+                          "titleDa":  "Drikke",
+                          "objectiveDa":  "Bestil vin.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Um copo de vinho branco.",
+                                              "textDa":  "Et glas hvidvin.",
+                                              "grammarDa":  "Copo betyder glas."
+                                          }
+                                      ],
+                          "vocabulary":  [
+
+                                         ],
+                          "grammar":  [
+
+                                      ]
+                      },
+                      {
+                          "id":  6,
+                          "titleDa":  "Allergi",
+                          "objectiveDa":  "Fortæl om allergi.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Sou alérgico a nozes.",
+                                              "textDa":  "Jeg er allergisk over for nødder.",
+                                              "grammarDa":  "Alérgico ændrer form efter køn."
+                                          }
+                                      ],
+                          "vocabulary":  [
+
+                                         ],
+                          "grammar":  [
+
+                                      ]
+                      },
+                      {
+                          "id":  7,
+                          "titleDa":  "Uden",
+                          "objectiveDa":  "Bed om noget uden sukker.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Sem açúcar, por favor.",
+                                              "textDa":  "Uden sukker, tak.",
+                                              "grammarDa":  "Sem betyder uden."
+                                          }
+                                      ],
+                          "vocabulary":  [
+
+                                         ],
+                          "grammar":  [
+
+                                      ]
+                      },
+                      {
+                          "id":  8,
+                          "titleDa":  "Regning",
+                          "objectiveDa":  "Bed om regningen.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "A conta, por favor.",
+                                              "textDa":  "Regningen, tak.",
+                                              "grammarDa":  "A conta er regningen."
+                                          }
+                                      ],
+                          "vocabulary":  [
+
+                                         ],
+                          "grammar":  [
+
+                                      ]
+                      },
+                      {
+                          "id":  9,
+                          "titleDa":  "Kort",
+                          "objectiveDa":  "Spørg om kortbetaling.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Posso pagar com cartão?",
+                                              "textDa":  "Kan jeg betale med kort?",
+                                              "grammarDa":  "Com cartão betyder med kort."
+                                          }
+                                      ],
+                          "vocabulary":  [
+
+                                         ],
+                          "grammar":  [
+
+                                      ]
+                      },
+                      {
+                          "id":  10,
+                          "titleDa":  "Tak",
+                          "objectiveDa":  "Tak for maden.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Estava muito bom, obrigado.",
+                                              "textDa":  "Det var meget godt, tak.",
+                                              "grammarDa":  "Estava bruges om noget, der var."
+                                          }
+                                      ],
+                          "vocabulary":  [
+
+                                         ],
+                          "grammar":  [
+
+                                      ]
+                      }
+                  ],
+    "quiz":  [
+                 {
+                     "id":  1,
+                     "questionDa":  "Hvordan beder man om et bord til to?",
+                     "answers":  [
+                                     {
+                                         "text":  "Uma mesa para dois, por favor.",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Tenho uma reserva.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "A conta, por favor.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Sem açúcar, por favor.",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Para dois betyder til to."
+                 },
+                 {
+                     "id":  2,
+                     "questionDa":  "Hvilken frase betyder Jeg har en reservation?",
+                     "answers":  [
+                                     {
+                                         "text":  "Tenho uma reserva.",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Pode trazer o menu?",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Queria o peixe.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Posso pagar com cartão?",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Tenho betyder jeg har."
+                 },
+                 {
+                     "id":  3,
+                     "questionDa":  "Hvordan bestiller man fisken høfligt?",
+                     "answers":  [
+                                     {
+                                         "text":  "Queria o peixe.",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "A conta, por favor.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Um copo de vinho branco.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Sem açúcar, por favor.",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Queria er en høflig måde at bestille på."
+                 },
+                 {
+                     "id":  4,
+                     "questionDa":  "Hvilken frase betyder Regningen, tak?",
+                     "answers":  [
+                                     {
+                                         "text":  "A conta, por favor.",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Pode trazer o menu?",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Tenho uma reserva.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Estava muito bom, obrigado.",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "A conta betyder regningen."
+                 },
+                 {
+                     "id":  5,
+                     "questionDa":  "Hvordan spørger man Kan jeg betale med kort?",
+                     "answers":  [
+                                     {
+                                         "text":  "Posso pagar com cartão?",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Sou alérgico a nozes.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Uma mesa para dois.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Sem açúcar.",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Com cartão betyder med kort."
+                 }
+             ],
+    "storyTitleDa":  "Kort dialog: Restaurant",
+    "storyObjectiveDa":  "Læs en sammenhængende mini-dialog med kendte fraser fra lektionen.",
+    "story":  [
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Olá.",
+                      "textDa":  "Hej.",
+                      "grammarDa":  "Kort hilsen."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Olá. Como está?",
+                      "textDa":  "Hej. Hvordan har du det?",
+                      "grammarDa":  "Está kommer af estar."
+                  },
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Estou bem, obrigado.",
+                      "textDa":  "Jeg har det godt, tak.",
+                      "grammarDa":  "Estou bruges om en midlertidig tilstand."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Hoje praticamos uma conversa curta.",
+                      "textDa":  "I dag øver vi en kort samtale.",
+                      "grammarDa":  "Praticamos betyder vi øver."
+                  },
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Tenho uma pergunta.",
+                      "textDa":  "Jeg har et spørgsmål.",
+                      "grammarDa":  "Tenho kommer af ter."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Claro, diga devagar.",
+                      "textDa":  "Selvfølgelig, sig det langsomt.",
+                      "grammarDa":  "Diga er en høflig opfordring."
+                  },
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Como se diz isto em português?",
+                      "textDa":  "Hvordan siger man dette på portugisisk?",
+                      "grammarDa":  "Como se diz bruges til at spørge om ord."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Dizemos uma frase curta.",
+                      "textDa":  "Vi siger en kort sætning.",
+                      "grammarDa":  "Uma frase curta betyder en kort sætning."
+                  },
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Repito a frase.",
+                      "textDa":  "Jeg gentager sætningen.",
+                      "grammarDa":  "Repito betyder jeg gentager."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Muito bem.",
+                      "textDa":  "Meget fint.",
+                      "grammarDa":  "Muito bem er positiv feedback."
+                  },
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Obrigado pela ajuda.",
+                      "textDa":  "Tak for hjælpen.",
+                      "grammarDa":  "Obrigado bruges af en mand; obrigada af en kvinde."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Até já.",
+                      "textDa":  "Vi ses snart.",
+                      "grammarDa":  "Até já er en almindelig afslutning."
+                  }
+              ]
 }

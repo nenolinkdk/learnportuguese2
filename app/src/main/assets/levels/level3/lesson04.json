@@ -1,0 +1,290 @@
+{
+    "id":  4,
+    "titleDa":  "Hotel",
+    "descriptionDa":  "Meget let niveau med korte sætninger til børn.",
+    "dialogues":  [
+                      {
+                          "id":  1,
+                          "titleDa":  "Mit hotel hedder ",
+                          "objectiveDa":  "Sig en kort og praktisk sætning.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "O meu hotel chama-se ...",
+                                              "textDa":  "Mit hotel hedder ...",
+                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "O meu hotel chama-se ",
+                                                 "textDa":  "Mit hotel hedder "
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "Kort sætning",
+                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  2,
+                          "titleDa":  "Mit værelse er nummer ",
+                          "objectiveDa":  "Sig en kort og praktisk sætning.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "O meu quarto é o número ...",
+                                              "textDa":  "Mit værelse er nummer ...",
+                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "O meu quarto é o número ",
+                                                 "textDa":  "Mit værelse er nummer "
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "Kort sætning",
+                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  3,
+                          "titleDa":  "Jeg har brug for hjælp",
+                          "objectiveDa":  "Sig en kort og praktisk sætning.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Preciso de ajuda.",
+                                              "textDa":  "Jeg har brug for hjælp.",
+                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Preciso de ajuda",
+                                                 "textDa":  "Jeg har brug for hjælp"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "Kort sætning",
+                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  4,
+                          "titleDa":  "Hvor er receptionen",
+                          "objectiveDa":  "Sig en kort og praktisk sætning.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Onde é a receção?",
+                                              "textDa":  "Hvor er receptionen?",
+                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Onde é a receção",
+                                                 "textDa":  "Hvor er receptionen"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "Kort sætning",
+                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  5,
+                          "titleDa":  "Jeg vil gerne tilbage til hotellet",
+                          "objectiveDa":  "Sig en kort og praktisk sætning.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Quero ir para o hotel.",
+                                              "textDa":  "Jeg vil gerne tilbage til hotellet.",
+                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Quero ir para o hotel",
+                                                 "textDa":  "Jeg vil gerne tilbage til hotellet"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "Kort sætning",
+                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
+                                          }
+                                      ]
+                      }
+                  ],
+    "quiz":  [
+                 {
+                     "id":  1,
+                     "questionDa":  "Hvad betyder: O meu hotel chama-se ...",
+                     "answers":  [
+                                     {
+                                         "text":  "Mit hotel hedder ...",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Mit værelse er nummer ...",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Jeg har brug for hjælp.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Hvor er receptionen?",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "O meu hotel chama-se ... = Mit hotel hedder ..."
+                 },
+                 {
+                     "id":  2,
+                     "questionDa":  "Hvad betyder: O meu quarto é o número ...",
+                     "answers":  [
+                                     {
+                                         "text":  "Mit værelse er nummer ...",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Jeg har brug for hjælp.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Hvor er receptionen?",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Jeg vil gerne tilbage til hotellet.",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "O meu quarto é o número ... = Mit værelse er nummer ..."
+                 },
+                 {
+                     "id":  3,
+                     "questionDa":  "Hvad betyder: Preciso de ajuda.",
+                     "answers":  [
+                                     {
+                                         "text":  "Jeg har brug for hjælp.",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Hvor er receptionen?",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Jeg vil gerne tilbage til hotellet.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Mit hotel hedder ...",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Preciso de ajuda. = Jeg har brug for hjælp."
+                 },
+                 {
+                     "id":  4,
+                     "questionDa":  "Hvad betyder: Onde é a receção?",
+                     "answers":  [
+                                     {
+                                         "text":  "Hvor er receptionen?",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Jeg vil gerne tilbage til hotellet.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Mit hotel hedder ...",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Mit værelse er nummer ...",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Onde é a receção? = Hvor er receptionen?"
+                 }
+             ],
+    "storyTitleDa":  "Kort børnedialog: Hotel",
+    "storyObjectiveDa":  "Læs 10 korte linjer, som et barn kan bruge på rejse.",
+    "story":  [
+                  {
+                      "speaker":  "Barn",
+                      "textPt":  "O meu hotel chama-se ...",
+                      "textDa":  "Mit hotel hedder ...",
+                      "grammarDa":  "Praktisk og kort frase."
+                  },
+                  {
+                      "speaker":  "Voksen",
+                      "textPt":  "O meu quarto é o número ...",
+                      "textDa":  "Mit værelse er nummer ...",
+                      "grammarDa":  "Praktisk og kort frase."
+                  },
+                  {
+                      "speaker":  "Barn",
+                      "textPt":  "Preciso de ajuda.",
+                      "textDa":  "Jeg har brug for hjælp.",
+                      "grammarDa":  "Praktisk og kort frase."
+                  },
+                  {
+                      "speaker":  "Voksen",
+                      "textPt":  "Onde é a receção?",
+                      "textDa":  "Hvor er receptionen?",
+                      "grammarDa":  "Praktisk og kort frase."
+                  },
+                  {
+                      "speaker":  "Barn",
+                      "textPt":  "Quero ir para o hotel.",
+                      "textDa":  "Jeg vil gerne tilbage til hotellet.",
+                      "grammarDa":  "Praktisk og kort frase."
+                  },
+                  {
+                      "speaker":  "Barn",
+                      "textPt":  "O meu hotel chama-se ...",
+                      "textDa":  "Mit hotel hedder ...",
+                      "grammarDa":  "Praktisk og kort frase."
+                  },
+                  {
+                      "speaker":  "Voksen",
+                      "textPt":  "O meu quarto é o número ...",
+                      "textDa":  "Mit værelse er nummer ...",
+                      "grammarDa":  "Praktisk og kort frase."
+                  },
+                  {
+                      "speaker":  "Barn",
+                      "textPt":  "Preciso de ajuda.",
+                      "textDa":  "Jeg har brug for hjælp.",
+                      "grammarDa":  "Praktisk og kort frase."
+                  },
+                  {
+                      "speaker":  "Voksen",
+                      "textPt":  "Onde é a receção?",
+                      "textDa":  "Hvor er receptionen?",
+                      "grammarDa":  "Praktisk og kort frase."
+                  },
+                  {
+                      "speaker":  "Barn",
+                      "textPt":  "Quero ir para o hotel.",
+                      "textDa":  "Jeg vil gerne tilbage til hotellet.",
+                      "grammarDa":  "Praktisk og kort frase."
+                  }
+              ]
+}

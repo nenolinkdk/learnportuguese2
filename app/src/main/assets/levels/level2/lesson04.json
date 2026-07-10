@@ -1,860 +1,860 @@
 {
-  "id": 4,
-  "titleDa": "At have: ter",
-  "descriptionDa": "Træn ter til ting, tid, penge og korte spørgsmål.",
-  "dialogues": [
-    {
-      "id": 1,
-      "titleDa": "Kaffe",
-      "objectiveDa": "Træn: Jeg har en kaffe.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Eu tenho um café.",
-          "textDa": "Jeg har en kaffe.",
-          "grammarDa": "Tenho er jeg-formen af ter."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "Eu",
-          "textDa": "nøgleord fra: kaffe"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "ter - bøjning og brug",
-          "explanationDa": "Ter betyder at have og bruges også i faste udtryk om alder, sult og tørst.",
-          "conjugation": [
-            {
-              "subject": "eu",
-              "form": "tenho"
-            },
-            {
-              "subject": "tu",
-              "form": "tens"
-            },
-            {
-              "subject": "ele/ela/você",
-              "form": "tem"
-            },
-            {
-              "subject": "nós",
-              "form": "temos"
-            },
-            {
-              "subject": "vocês",
-              "form": "têm"
-            },
-            {
-              "subject": "eles/elas",
-              "form": "têm"
-            }
-          ],
-          "examples": [
-            {
-              "pt": "Eu tenho um café.",
-              "da": "Jeg har en kaffe."
-            },
-            {
-              "pt": "Ela tem uma pergunta.",
-              "da": "Hun har et spørgsmål."
-            },
-            {
-              "pt": "Nós temos tempo.",
-              "da": "Vi har tid."
-            }
-          ],
-          "notesDa": "På portugisisk bruger man ter i flere udtryk, hvor dansk bruger at være, for eksempel tenho fome."
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "titleDa": "Spørgsmål",
-      "objectiveDa": "Træn: Hun har et spørgsmål.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Ela tem uma pergunta.",
-          "textDa": "Hun har et spørgsmål.",
-          "grammarDa": "Tem bruges med ele/ela/você."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "Ela",
-          "textDa": "nøgleord fra: spørgsmål"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "ter - bøjning og brug",
-          "explanationDa": "Ter betyder at have og bruges også i faste udtryk om alder, sult og tørst.",
-          "conjugation": [
-            {
-              "subject": "eu",
-              "form": "tenho"
-            },
-            {
-              "subject": "tu",
-              "form": "tens"
-            },
-            {
-              "subject": "ele/ela/você",
-              "form": "tem"
-            },
-            {
-              "subject": "nós",
-              "form": "temos"
-            },
-            {
-              "subject": "vocês",
-              "form": "têm"
-            },
-            {
-              "subject": "eles/elas",
-              "form": "têm"
-            }
-          ],
-          "examples": [
-            {
-              "pt": "Eu tenho um café.",
-              "da": "Jeg har en kaffe."
-            },
-            {
-              "pt": "Ela tem uma pergunta.",
-              "da": "Hun har et spørgsmål."
-            },
-            {
-              "pt": "Nós temos tempo.",
-              "da": "Vi har tid."
-            }
-          ],
-          "notesDa": "På portugisisk bruger man ter i flere udtryk, hvor dansk bruger at være, for eksempel tenho fome."
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "titleDa": "Tid",
-      "objectiveDa": "Træn: Vi har tid.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Nós temos tempo.",
-          "textDa": "Vi har tid.",
-          "grammarDa": "Temos er vi-formen af ter."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "Nós",
-          "textDa": "nøgleord fra: tid"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "ter - bøjning og brug",
-          "explanationDa": "Ter betyder at have og bruges også i faste udtryk om alder, sult og tørst.",
-          "conjugation": [
-            {
-              "subject": "eu",
-              "form": "tenho"
-            },
-            {
-              "subject": "tu",
-              "form": "tens"
-            },
-            {
-              "subject": "ele/ela/você",
-              "form": "tem"
-            },
-            {
-              "subject": "nós",
-              "form": "temos"
-            },
-            {
-              "subject": "vocês",
-              "form": "têm"
-            },
-            {
-              "subject": "eles/elas",
-              "form": "têm"
-            }
-          ],
-          "examples": [
-            {
-              "pt": "Eu tenho um café.",
-              "da": "Jeg har en kaffe."
-            },
-            {
-              "pt": "Ela tem uma pergunta.",
-              "da": "Hun har et spørgsmål."
-            },
-            {
-              "pt": "Nós temos tempo.",
-              "da": "Vi har tid."
-            }
-          ],
-          "notesDa": "På portugisisk bruger man ter i flere udtryk, hvor dansk bruger at være, for eksempel tenho fome."
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "titleDa": "Penge",
-      "objectiveDa": "Træn: Har du penge?",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Você tem dinheiro?",
-          "textDa": "Har du penge?",
-          "grammarDa": "Tem bruges i høflig du-form."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "Você",
-          "textDa": "nøgleord fra: penge"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "ter - bøjning og brug",
-          "explanationDa": "Ter betyder at have og bruges også i faste udtryk om alder, sult og tørst.",
-          "conjugation": [
-            {
-              "subject": "eu",
-              "form": "tenho"
-            },
-            {
-              "subject": "tu",
-              "form": "tens"
-            },
-            {
-              "subject": "ele/ela/você",
-              "form": "tem"
-            },
-            {
-              "subject": "nós",
-              "form": "temos"
-            },
-            {
-              "subject": "vocês",
-              "form": "têm"
-            },
-            {
-              "subject": "eles/elas",
-              "form": "têm"
-            }
-          ],
-          "examples": [
-            {
-              "pt": "Eu tenho um café.",
-              "da": "Jeg har en kaffe."
-            },
-            {
-              "pt": "Ela tem uma pergunta.",
-              "da": "Hun har et spørgsmål."
-            },
-            {
-              "pt": "Nós temos tempo.",
-              "da": "Vi har tid."
-            }
-          ],
-          "notesDa": "På portugisisk bruger man ter i flere udtryk, hvor dansk bruger at være, for eksempel tenho fome."
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "titleDa": "Billet",
-      "objectiveDa": "Træn: Jeg har en billet.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Tenho um bilhete.",
-          "textDa": "Jeg har en billet.",
-          "grammarDa": "Um bilhete betyder en billet."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "Tenho",
-          "textDa": "nøgleord fra: billet"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "ter - bøjning og brug",
-          "explanationDa": "Ter betyder at have og bruges også i faste udtryk om alder, sult og tørst.",
-          "conjugation": [
-            {
-              "subject": "eu",
-              "form": "tenho"
-            },
-            {
-              "subject": "tu",
-              "form": "tens"
-            },
-            {
-              "subject": "ele/ela/você",
-              "form": "tem"
-            },
-            {
-              "subject": "nós",
-              "form": "temos"
-            },
-            {
-              "subject": "vocês",
-              "form": "têm"
-            },
-            {
-              "subject": "eles/elas",
-              "form": "têm"
-            }
-          ],
-          "examples": [
-            {
-              "pt": "Eu tenho um café.",
-              "da": "Jeg har en kaffe."
-            },
-            {
-              "pt": "Ela tem uma pergunta.",
-              "da": "Hun har et spørgsmål."
-            },
-            {
-              "pt": "Nós temos tempo.",
-              "da": "Vi har tid."
-            }
-          ],
-          "notesDa": "På portugisisk bruger man ter i flere udtryk, hvor dansk bruger at være, for eksempel tenho fome."
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "titleDa": "Sult",
-      "objectiveDa": "Træn: Jeg er sulten.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Tenho fome.",
-          "textDa": "Jeg er sulten.",
-          "grammarDa": "Portugisisk siger bogstaveligt: jeg har sult."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "Tenho",
-          "textDa": "nøgleord fra: sult"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "ter - bøjning og brug",
-          "explanationDa": "Ter betyder at have og bruges også i faste udtryk om alder, sult og tørst.",
-          "conjugation": [
-            {
-              "subject": "eu",
-              "form": "tenho"
-            },
-            {
-              "subject": "tu",
-              "form": "tens"
-            },
-            {
-              "subject": "ele/ela/você",
-              "form": "tem"
-            },
-            {
-              "subject": "nós",
-              "form": "temos"
-            },
-            {
-              "subject": "vocês",
-              "form": "têm"
-            },
-            {
-              "subject": "eles/elas",
-              "form": "têm"
-            }
-          ],
-          "examples": [
-            {
-              "pt": "Eu tenho um café.",
-              "da": "Jeg har en kaffe."
-            },
-            {
-              "pt": "Ela tem uma pergunta.",
-              "da": "Hun har et spørgsmål."
-            },
-            {
-              "pt": "Nós temos tempo.",
-              "da": "Vi har tid."
-            }
-          ],
-          "notesDa": "På portugisisk bruger man ter i flere udtryk, hvor dansk bruger at være, for eksempel tenho fome."
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "titleDa": "Tørst",
-      "objectiveDa": "Træn: Jeg er tørstig.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Tenho sede.",
-          "textDa": "Jeg er tørstig.",
-          "grammarDa": "Tenho sede betyder jeg har tørst."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "Tenho",
-          "textDa": "nøgleord fra: tørst"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "ter - bøjning og brug",
-          "explanationDa": "Ter betyder at have og bruges også i faste udtryk om alder, sult og tørst.",
-          "conjugation": [
-            {
-              "subject": "eu",
-              "form": "tenho"
-            },
-            {
-              "subject": "tu",
-              "form": "tens"
-            },
-            {
-              "subject": "ele/ela/você",
-              "form": "tem"
-            },
-            {
-              "subject": "nós",
-              "form": "temos"
-            },
-            {
-              "subject": "vocês",
-              "form": "têm"
-            },
-            {
-              "subject": "eles/elas",
-              "form": "têm"
-            }
-          ],
-          "examples": [
-            {
-              "pt": "Eu tenho um café.",
-              "da": "Jeg har en kaffe."
-            },
-            {
-              "pt": "Ela tem uma pergunta.",
-              "da": "Hun har et spørgsmål."
-            },
-            {
-              "pt": "Nós temos tempo.",
-              "da": "Vi har tid."
-            }
-          ],
-          "notesDa": "På portugisisk bruger man ter i flere udtryk, hvor dansk bruger at være, for eksempel tenho fome."
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "titleDa": "Alder",
-      "objectiveDa": "Træn: Jeg er tredive år.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Tenho trinta anos.",
-          "textDa": "Jeg er tredive år.",
-          "grammarDa": "Alder udtrykkes med ter."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "Tenho",
-          "textDa": "nøgleord fra: alder"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "ter - bøjning og brug",
-          "explanationDa": "Ter betyder at have og bruges også i faste udtryk om alder, sult og tørst.",
-          "conjugation": [
-            {
-              "subject": "eu",
-              "form": "tenho"
-            },
-            {
-              "subject": "tu",
-              "form": "tens"
-            },
-            {
-              "subject": "ele/ela/você",
-              "form": "tem"
-            },
-            {
-              "subject": "nós",
-              "form": "temos"
-            },
-            {
-              "subject": "vocês",
-              "form": "têm"
-            },
-            {
-              "subject": "eles/elas",
-              "form": "têm"
-            }
-          ],
-          "examples": [
-            {
-              "pt": "Eu tenho um café.",
-              "da": "Jeg har en kaffe."
-            },
-            {
-              "pt": "Ela tem uma pergunta.",
-              "da": "Hun har et spørgsmål."
-            },
-            {
-              "pt": "Nós temos tempo.",
-              "da": "Vi har tid."
-            }
-          ],
-          "notesDa": "På portugisisk bruger man ter i flere udtryk, hvor dansk bruger at være, for eksempel tenho fome."
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "titleDa": "Flere",
-      "objectiveDa": "Træn: De har en reservation.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Eles têm uma reserva.",
-          "textDa": "De har en reservation.",
-          "grammarDa": "Têm er de-formen af ter."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "Eles",
-          "textDa": "nøgleord fra: flere"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "ter - bøjning og brug",
-          "explanationDa": "Ter betyder at have og bruges også i faste udtryk om alder, sult og tørst.",
-          "conjugation": [
-            {
-              "subject": "eu",
-              "form": "tenho"
-            },
-            {
-              "subject": "tu",
-              "form": "tens"
-            },
-            {
-              "subject": "ele/ela/você",
-              "form": "tem"
-            },
-            {
-              "subject": "nós",
-              "form": "temos"
-            },
-            {
-              "subject": "vocês",
-              "form": "têm"
-            },
-            {
-              "subject": "eles/elas",
-              "form": "têm"
-            }
-          ],
-          "examples": [
-            {
-              "pt": "Eu tenho um café.",
-              "da": "Jeg har en kaffe."
-            },
-            {
-              "pt": "Ela tem uma pergunta.",
-              "da": "Hun har et spørgsmål."
-            },
-            {
-              "pt": "Nós temos tempo.",
-              "da": "Vi har tid."
-            }
-          ],
-          "notesDa": "På portugisisk bruger man ter i flere udtryk, hvor dansk bruger at være, for eksempel tenho fome."
-        }
-      ]
-    },
-    {
-      "id": 10,
-      "titleDa": "I har",
-      "objectiveDa": "Træn: Har I kort?",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Vocês têm cartões?",
-          "textDa": "Har I kort?",
-          "grammarDa": "Vocês têm betyder I har."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "Vocês",
-          "textDa": "nøgleord fra: i har"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "ter - bøjning og brug",
-          "explanationDa": "Ter betyder at have og bruges også i faste udtryk om alder, sult og tørst.",
-          "conjugation": [
-            {
-              "subject": "eu",
-              "form": "tenho"
-            },
-            {
-              "subject": "tu",
-              "form": "tens"
-            },
-            {
-              "subject": "ele/ela/você",
-              "form": "tem"
-            },
-            {
-              "subject": "nós",
-              "form": "temos"
-            },
-            {
-              "subject": "vocês",
-              "form": "têm"
-            },
-            {
-              "subject": "eles/elas",
-              "form": "têm"
-            }
-          ],
-          "examples": [
-            {
-              "pt": "Eu tenho um café.",
-              "da": "Jeg har en kaffe."
-            },
-            {
-              "pt": "Ela tem uma pergunta.",
-              "da": "Hun har et spørgsmål."
-            },
-            {
-              "pt": "Nós temos tempo.",
-              "da": "Vi har tid."
-            }
-          ],
-          "notesDa": "På portugisisk bruger man ter i flere udtryk, hvor dansk bruger at være, for eksempel tenho fome."
-        }
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": 1,
-      "questionDa": "Hvilken sætning betyder: Jeg har en kaffe.",
-      "answers": [
-        {
-          "text": "Eu tenho um café.",
-          "correct": true
-        },
-        {
-          "text": "Ela tem uma pergunta.",
-          "correct": false
-        },
-        {
-          "text": "Nós temos tempo.",
-          "correct": false
-        },
-        {
-          "text": "Você tem dinheiro?",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Tenho er jeg-formen af ter."
-    },
-    {
-      "id": 2,
-      "questionDa": "Hvad betyder: Ela tem uma pergunta.",
-      "answers": [
-        {
-          "text": "Hun har et spørgsmål.",
-          "correct": true
-        },
-        {
-          "text": "Jeg har en kaffe.",
-          "correct": false
-        },
-        {
-          "text": "Vi har tid.",
-          "correct": false
-        },
-        {
-          "text": "Jeg har en billet.",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Tem bruges med ele/ela/você."
-    },
-    {
-      "id": 3,
-      "questionDa": "Hvilket tema træner denne lektion mest?",
-      "answers": [
-        {
-          "text": "At have: ter",
-          "correct": true
-        },
-        {
-          "text": "Kun farver",
-          "correct": false
-        },
-        {
-          "text": "Kun alfabetet",
-          "correct": false
-        },
-        {
-          "text": "Kun dyr",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Træn ter til ting, tid, penge og korte spørgsmål."
-    },
-    {
-      "id": 4,
-      "questionDa": "Vælg den portugisiske frase fra dialogen \"Tid\".",
-      "answers": [
-        {
-          "text": "Nós temos tempo.",
-          "correct": true
-        },
-        {
-          "text": "Vi har tid.",
-          "correct": false
-        },
-        {
-          "text": "Jeg har en kaffe.",
-          "correct": false
-        },
-        {
-          "text": "Hun har et spørgsmål.",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Temos er vi-formen af ter."
-    },
-    {
-      "id": 5,
-      "questionDa": "Hvad skal brugeren især øve her?",
-      "answers": [
-        {
-          "text": "ter",
-          "correct": true
-        },
-        {
-          "text": "Engelsk udtale",
-          "correct": false
-        },
-        {
-          "text": "Danske talord",
-          "correct": false
-        },
-        {
-          "text": "Tyske kasus",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Ter betyder at have og bruges også i faste udtryk som alder og sult."
-    }
-  ],
-  "storyTitleDa": "Kort dialog: At have: ter",
-  "storyObjectiveDa": "L?s en sammenh?ngende mini-dialog med kendte fraser fra lektionen.",
-  "story": [
-    {
-      "speaker": "A",
-      "textPt": "Ol?.",
-      "textDa": "Hej.",
-      "grammarDa": "Kort hilsen."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Ol?. Como est??",
-      "textDa": "Hej. Hvordan har du det?",
-      "grammarDa": "Est? kommer af estar."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Estou bem, obrigado.",
-      "textDa": "Jeg har det godt, tak.",
-      "grammarDa": "Estou bruges om en midlertidig tilstand."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Hoje praticamos At have: ter.",
-      "textDa": "I dag ?ver vi At have: ter.",
-      "grammarDa": "Praticamos betyder vi ?ver."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Tenho uma pergunta.",
-      "textDa": "Jeg har et sp?rgsm?l.",
-      "grammarDa": "Tenho kommer af ter."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Claro, diga devagar.",
-      "textDa": "Selvf?lgelig, sig det langsomt.",
-      "grammarDa": "Diga er en h?flig opfordring."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Como se diz isto em portugu?s?",
-      "textDa": "Hvordan siger man dette p? portugisisk?",
-      "grammarDa": "Como se diz bruges til at sp?rge om ord."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Dizemos uma frase curta.",
-      "textDa": "Vi siger en kort s?tning.",
-      "grammarDa": "Uma frase curta betyder en kort s?tning."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Repito a frase.",
-      "textDa": "Jeg gentager s?tningen.",
-      "grammarDa": "Repito betyder jeg gentager."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Muito bem.",
-      "textDa": "Meget fint.",
-      "grammarDa": "Muito bem er positiv feedback."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Obrigado pela ajuda.",
-      "textDa": "Tak for hj?lpen.",
-      "grammarDa": "Obrigado bruges af en mand; obrigada af en kvinde."
-    },
-    {
-      "speaker": "B",
-      "textPt": "At? j?.",
-      "textDa": "Vi ses snart.",
-      "grammarDa": "At? j? er en almindelig afslutning."
-    }
-  ]
+    "id":  4,
+    "titleDa":  "At have: ter",
+    "descriptionDa":  "Træn ter til ting, tid, penge og korte spørgsmål.",
+    "dialogues":  [
+                      {
+                          "id":  1,
+                          "titleDa":  "Kaffe",
+                          "objectiveDa":  "Træn: Jeg har en kaffe.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Eu tenho um café.",
+                                              "textDa":  "Jeg har en kaffe.",
+                                              "grammarDa":  "Tenho er jeg-formen af ter."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Eu",
+                                                 "textDa":  "nøgleord fra: kaffe"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "ter - bøjning og brug",
+                                              "explanationDa":  "Ter betyder at have og bruges også i faste udtryk om alder, sult og tørst.",
+                                              "conjugation":  [
+                                                                  {
+                                                                      "subject":  "eu",
+                                                                      "form":  "tenho"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "tu",
+                                                                      "form":  "tens"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "ele/ela/você",
+                                                                      "form":  "tem"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "nós",
+                                                                      "form":  "temos"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "vocês",
+                                                                      "form":  "têm"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "eles/elas",
+                                                                      "form":  "têm"
+                                                                  }
+                                                              ],
+                                              "examples":  [
+                                                               {
+                                                                   "pt":  "Eu tenho um café.",
+                                                                   "da":  "Jeg har en kaffe."
+                                                               },
+                                                               {
+                                                                   "pt":  "Ela tem uma pergunta.",
+                                                                   "da":  "Hun har et spørgsmål."
+                                                               },
+                                                               {
+                                                                   "pt":  "Nós temos tempo.",
+                                                                   "da":  "Vi har tid."
+                                                               }
+                                                           ],
+                                              "notesDa":  "På portugisisk bruger man ter i flere udtryk, hvor dansk bruger at være, for eksempel tenho fome."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  2,
+                          "titleDa":  "Spørgsmål",
+                          "objectiveDa":  "Træn: Hun har et spørgsmål.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Ela tem uma pergunta.",
+                                              "textDa":  "Hun har et spørgsmål.",
+                                              "grammarDa":  "Tem bruges med ele/ela/você."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Ela",
+                                                 "textDa":  "nøgleord fra: spørgsmål"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "ter - bøjning og brug",
+                                              "explanationDa":  "Ter betyder at have og bruges også i faste udtryk om alder, sult og tørst.",
+                                              "conjugation":  [
+                                                                  {
+                                                                      "subject":  "eu",
+                                                                      "form":  "tenho"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "tu",
+                                                                      "form":  "tens"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "ele/ela/você",
+                                                                      "form":  "tem"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "nós",
+                                                                      "form":  "temos"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "vocês",
+                                                                      "form":  "têm"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "eles/elas",
+                                                                      "form":  "têm"
+                                                                  }
+                                                              ],
+                                              "examples":  [
+                                                               {
+                                                                   "pt":  "Eu tenho um café.",
+                                                                   "da":  "Jeg har en kaffe."
+                                                               },
+                                                               {
+                                                                   "pt":  "Ela tem uma pergunta.",
+                                                                   "da":  "Hun har et spørgsmål."
+                                                               },
+                                                               {
+                                                                   "pt":  "Nós temos tempo.",
+                                                                   "da":  "Vi har tid."
+                                                               }
+                                                           ],
+                                              "notesDa":  "På portugisisk bruger man ter i flere udtryk, hvor dansk bruger at være, for eksempel tenho fome."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  3,
+                          "titleDa":  "Tid",
+                          "objectiveDa":  "Træn: Vi har tid.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Nós temos tempo.",
+                                              "textDa":  "Vi har tid.",
+                                              "grammarDa":  "Temos er vi-formen af ter."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Nós",
+                                                 "textDa":  "nøgleord fra: tid"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "ter - bøjning og brug",
+                                              "explanationDa":  "Ter betyder at have og bruges også i faste udtryk om alder, sult og tørst.",
+                                              "conjugation":  [
+                                                                  {
+                                                                      "subject":  "eu",
+                                                                      "form":  "tenho"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "tu",
+                                                                      "form":  "tens"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "ele/ela/você",
+                                                                      "form":  "tem"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "nós",
+                                                                      "form":  "temos"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "vocês",
+                                                                      "form":  "têm"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "eles/elas",
+                                                                      "form":  "têm"
+                                                                  }
+                                                              ],
+                                              "examples":  [
+                                                               {
+                                                                   "pt":  "Eu tenho um café.",
+                                                                   "da":  "Jeg har en kaffe."
+                                                               },
+                                                               {
+                                                                   "pt":  "Ela tem uma pergunta.",
+                                                                   "da":  "Hun har et spørgsmål."
+                                                               },
+                                                               {
+                                                                   "pt":  "Nós temos tempo.",
+                                                                   "da":  "Vi har tid."
+                                                               }
+                                                           ],
+                                              "notesDa":  "På portugisisk bruger man ter i flere udtryk, hvor dansk bruger at være, for eksempel tenho fome."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  4,
+                          "titleDa":  "Penge",
+                          "objectiveDa":  "Træn: Har du penge?",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Você tem dinheiro?",
+                                              "textDa":  "Har du penge?",
+                                              "grammarDa":  "Tem bruges i høflig du-form."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Você",
+                                                 "textDa":  "nøgleord fra: penge"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "ter - bøjning og brug",
+                                              "explanationDa":  "Ter betyder at have og bruges også i faste udtryk om alder, sult og tørst.",
+                                              "conjugation":  [
+                                                                  {
+                                                                      "subject":  "eu",
+                                                                      "form":  "tenho"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "tu",
+                                                                      "form":  "tens"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "ele/ela/você",
+                                                                      "form":  "tem"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "nós",
+                                                                      "form":  "temos"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "vocês",
+                                                                      "form":  "têm"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "eles/elas",
+                                                                      "form":  "têm"
+                                                                  }
+                                                              ],
+                                              "examples":  [
+                                                               {
+                                                                   "pt":  "Eu tenho um café.",
+                                                                   "da":  "Jeg har en kaffe."
+                                                               },
+                                                               {
+                                                                   "pt":  "Ela tem uma pergunta.",
+                                                                   "da":  "Hun har et spørgsmål."
+                                                               },
+                                                               {
+                                                                   "pt":  "Nós temos tempo.",
+                                                                   "da":  "Vi har tid."
+                                                               }
+                                                           ],
+                                              "notesDa":  "På portugisisk bruger man ter i flere udtryk, hvor dansk bruger at være, for eksempel tenho fome."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  5,
+                          "titleDa":  "Billet",
+                          "objectiveDa":  "Træn: Jeg har en billet.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Tenho um bilhete.",
+                                              "textDa":  "Jeg har en billet.",
+                                              "grammarDa":  "Um bilhete betyder en billet."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Tenho",
+                                                 "textDa":  "nøgleord fra: billet"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "ter - bøjning og brug",
+                                              "explanationDa":  "Ter betyder at have og bruges også i faste udtryk om alder, sult og tørst.",
+                                              "conjugation":  [
+                                                                  {
+                                                                      "subject":  "eu",
+                                                                      "form":  "tenho"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "tu",
+                                                                      "form":  "tens"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "ele/ela/você",
+                                                                      "form":  "tem"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "nós",
+                                                                      "form":  "temos"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "vocês",
+                                                                      "form":  "têm"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "eles/elas",
+                                                                      "form":  "têm"
+                                                                  }
+                                                              ],
+                                              "examples":  [
+                                                               {
+                                                                   "pt":  "Eu tenho um café.",
+                                                                   "da":  "Jeg har en kaffe."
+                                                               },
+                                                               {
+                                                                   "pt":  "Ela tem uma pergunta.",
+                                                                   "da":  "Hun har et spørgsmål."
+                                                               },
+                                                               {
+                                                                   "pt":  "Nós temos tempo.",
+                                                                   "da":  "Vi har tid."
+                                                               }
+                                                           ],
+                                              "notesDa":  "På portugisisk bruger man ter i flere udtryk, hvor dansk bruger at være, for eksempel tenho fome."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  6,
+                          "titleDa":  "Sult",
+                          "objectiveDa":  "Træn: Jeg er sulten.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Tenho fome.",
+                                              "textDa":  "Jeg er sulten.",
+                                              "grammarDa":  "Portugisisk siger bogstaveligt: jeg har sult."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Tenho",
+                                                 "textDa":  "nøgleord fra: sult"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "ter - bøjning og brug",
+                                              "explanationDa":  "Ter betyder at have og bruges også i faste udtryk om alder, sult og tørst.",
+                                              "conjugation":  [
+                                                                  {
+                                                                      "subject":  "eu",
+                                                                      "form":  "tenho"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "tu",
+                                                                      "form":  "tens"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "ele/ela/você",
+                                                                      "form":  "tem"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "nós",
+                                                                      "form":  "temos"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "vocês",
+                                                                      "form":  "têm"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "eles/elas",
+                                                                      "form":  "têm"
+                                                                  }
+                                                              ],
+                                              "examples":  [
+                                                               {
+                                                                   "pt":  "Eu tenho um café.",
+                                                                   "da":  "Jeg har en kaffe."
+                                                               },
+                                                               {
+                                                                   "pt":  "Ela tem uma pergunta.",
+                                                                   "da":  "Hun har et spørgsmål."
+                                                               },
+                                                               {
+                                                                   "pt":  "Nós temos tempo.",
+                                                                   "da":  "Vi har tid."
+                                                               }
+                                                           ],
+                                              "notesDa":  "På portugisisk bruger man ter i flere udtryk, hvor dansk bruger at være, for eksempel tenho fome."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  7,
+                          "titleDa":  "Tørst",
+                          "objectiveDa":  "Træn: Jeg er tørstig.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Tenho sede.",
+                                              "textDa":  "Jeg er tørstig.",
+                                              "grammarDa":  "Tenho sede betyder jeg har tørst."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Tenho",
+                                                 "textDa":  "nøgleord fra: tørst"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "ter - bøjning og brug",
+                                              "explanationDa":  "Ter betyder at have og bruges også i faste udtryk om alder, sult og tørst.",
+                                              "conjugation":  [
+                                                                  {
+                                                                      "subject":  "eu",
+                                                                      "form":  "tenho"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "tu",
+                                                                      "form":  "tens"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "ele/ela/você",
+                                                                      "form":  "tem"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "nós",
+                                                                      "form":  "temos"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "vocês",
+                                                                      "form":  "têm"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "eles/elas",
+                                                                      "form":  "têm"
+                                                                  }
+                                                              ],
+                                              "examples":  [
+                                                               {
+                                                                   "pt":  "Eu tenho um café.",
+                                                                   "da":  "Jeg har en kaffe."
+                                                               },
+                                                               {
+                                                                   "pt":  "Ela tem uma pergunta.",
+                                                                   "da":  "Hun har et spørgsmål."
+                                                               },
+                                                               {
+                                                                   "pt":  "Nós temos tempo.",
+                                                                   "da":  "Vi har tid."
+                                                               }
+                                                           ],
+                                              "notesDa":  "På portugisisk bruger man ter i flere udtryk, hvor dansk bruger at være, for eksempel tenho fome."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  8,
+                          "titleDa":  "Alder",
+                          "objectiveDa":  "Træn: Jeg er tredive år.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Tenho trinta anos.",
+                                              "textDa":  "Jeg er tredive år.",
+                                              "grammarDa":  "Alder udtrykkes med ter."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Tenho",
+                                                 "textDa":  "nøgleord fra: alder"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "ter - bøjning og brug",
+                                              "explanationDa":  "Ter betyder at have og bruges også i faste udtryk om alder, sult og tørst.",
+                                              "conjugation":  [
+                                                                  {
+                                                                      "subject":  "eu",
+                                                                      "form":  "tenho"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "tu",
+                                                                      "form":  "tens"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "ele/ela/você",
+                                                                      "form":  "tem"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "nós",
+                                                                      "form":  "temos"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "vocês",
+                                                                      "form":  "têm"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "eles/elas",
+                                                                      "form":  "têm"
+                                                                  }
+                                                              ],
+                                              "examples":  [
+                                                               {
+                                                                   "pt":  "Eu tenho um café.",
+                                                                   "da":  "Jeg har en kaffe."
+                                                               },
+                                                               {
+                                                                   "pt":  "Ela tem uma pergunta.",
+                                                                   "da":  "Hun har et spørgsmål."
+                                                               },
+                                                               {
+                                                                   "pt":  "Nós temos tempo.",
+                                                                   "da":  "Vi har tid."
+                                                               }
+                                                           ],
+                                              "notesDa":  "På portugisisk bruger man ter i flere udtryk, hvor dansk bruger at være, for eksempel tenho fome."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  9,
+                          "titleDa":  "Flere",
+                          "objectiveDa":  "Træn: De har en reservation.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Eles têm uma reserva.",
+                                              "textDa":  "De har en reservation.",
+                                              "grammarDa":  "Têm er de-formen af ter."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Eles",
+                                                 "textDa":  "nøgleord fra: flere"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "ter - bøjning og brug",
+                                              "explanationDa":  "Ter betyder at have og bruges også i faste udtryk om alder, sult og tørst.",
+                                              "conjugation":  [
+                                                                  {
+                                                                      "subject":  "eu",
+                                                                      "form":  "tenho"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "tu",
+                                                                      "form":  "tens"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "ele/ela/você",
+                                                                      "form":  "tem"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "nós",
+                                                                      "form":  "temos"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "vocês",
+                                                                      "form":  "têm"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "eles/elas",
+                                                                      "form":  "têm"
+                                                                  }
+                                                              ],
+                                              "examples":  [
+                                                               {
+                                                                   "pt":  "Eu tenho um café.",
+                                                                   "da":  "Jeg har en kaffe."
+                                                               },
+                                                               {
+                                                                   "pt":  "Ela tem uma pergunta.",
+                                                                   "da":  "Hun har et spørgsmål."
+                                                               },
+                                                               {
+                                                                   "pt":  "Nós temos tempo.",
+                                                                   "da":  "Vi har tid."
+                                                               }
+                                                           ],
+                                              "notesDa":  "På portugisisk bruger man ter i flere udtryk, hvor dansk bruger at være, for eksempel tenho fome."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  10,
+                          "titleDa":  "I har",
+                          "objectiveDa":  "Træn: Har I kort?",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Vocês têm cartões?",
+                                              "textDa":  "Har I kort?",
+                                              "grammarDa":  "Vocês têm betyder I har."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Vocês",
+                                                 "textDa":  "nøgleord fra: i har"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "ter - bøjning og brug",
+                                              "explanationDa":  "Ter betyder at have og bruges også i faste udtryk om alder, sult og tørst.",
+                                              "conjugation":  [
+                                                                  {
+                                                                      "subject":  "eu",
+                                                                      "form":  "tenho"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "tu",
+                                                                      "form":  "tens"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "ele/ela/você",
+                                                                      "form":  "tem"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "nós",
+                                                                      "form":  "temos"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "vocês",
+                                                                      "form":  "têm"
+                                                                  },
+                                                                  {
+                                                                      "subject":  "eles/elas",
+                                                                      "form":  "têm"
+                                                                  }
+                                                              ],
+                                              "examples":  [
+                                                               {
+                                                                   "pt":  "Eu tenho um café.",
+                                                                   "da":  "Jeg har en kaffe."
+                                                               },
+                                                               {
+                                                                   "pt":  "Ela tem uma pergunta.",
+                                                                   "da":  "Hun har et spørgsmål."
+                                                               },
+                                                               {
+                                                                   "pt":  "Nós temos tempo.",
+                                                                   "da":  "Vi har tid."
+                                                               }
+                                                           ],
+                                              "notesDa":  "På portugisisk bruger man ter i flere udtryk, hvor dansk bruger at være, for eksempel tenho fome."
+                                          }
+                                      ]
+                      }
+                  ],
+    "quiz":  [
+                 {
+                     "id":  1,
+                     "questionDa":  "Hvilken sætning betyder: Jeg har en kaffe.",
+                     "answers":  [
+                                     {
+                                         "text":  "Eu tenho um café.",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Ela tem uma pergunta.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Nós temos tempo.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Você tem dinheiro?",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Tenho er jeg-formen af ter."
+                 },
+                 {
+                     "id":  2,
+                     "questionDa":  "Hvad betyder: Ela tem uma pergunta.",
+                     "answers":  [
+                                     {
+                                         "text":  "Hun har et spørgsmål.",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Jeg har en kaffe.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Vi har tid.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Jeg har en billet.",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Tem bruges med ele/ela/você."
+                 },
+                 {
+                     "id":  3,
+                     "questionDa":  "Hvilket tema træner denne lektion mest?",
+                     "answers":  [
+                                     {
+                                         "text":  "At have: ter",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Kun farver",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Kun alfabetet",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Kun dyr",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Træn ter til ting, tid, penge og korte spørgsmål."
+                 },
+                 {
+                     "id":  4,
+                     "questionDa":  "Vælg den portugisiske frase fra dialogen \"Tid\".",
+                     "answers":  [
+                                     {
+                                         "text":  "Nós temos tempo.",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Vi har tid.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Jeg har en kaffe.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Hun har et spørgsmål.",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Temos er vi-formen af ter."
+                 },
+                 {
+                     "id":  5,
+                     "questionDa":  "Hvad skal brugeren især øve her?",
+                     "answers":  [
+                                     {
+                                         "text":  "ter",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Engelsk udtale",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Danske talord",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Tyske kasus",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Ter betyder at have og bruges også i faste udtryk som alder og sult."
+                 }
+             ],
+    "storyTitleDa":  "Kort dialog: At have: ter",
+    "storyObjectiveDa":  "Læs en sammenhængende mini-dialog med kendte fraser fra lektionen.",
+    "story":  [
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Olá.",
+                      "textDa":  "Hej.",
+                      "grammarDa":  "Kort hilsen."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Olá. Como está?",
+                      "textDa":  "Hej. Hvordan har du det?",
+                      "grammarDa":  "Está kommer af estar."
+                  },
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Estou bem, obrigado.",
+                      "textDa":  "Jeg har det godt, tak.",
+                      "grammarDa":  "Estou bruges om en midlertidig tilstand."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Hoje praticamos uma conversa curta.",
+                      "textDa":  "I dag øver vi en kort samtale.",
+                      "grammarDa":  "Praticamos betyder vi øver."
+                  },
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Tenho uma pergunta.",
+                      "textDa":  "Jeg har et spørgsmål.",
+                      "grammarDa":  "Tenho kommer af ter."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Claro, diga devagar.",
+                      "textDa":  "Selvfølgelig, sig det langsomt.",
+                      "grammarDa":  "Diga er en høflig opfordring."
+                  },
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Como se diz isto em português?",
+                      "textDa":  "Hvordan siger man dette på portugisisk?",
+                      "grammarDa":  "Como se diz bruges til at spørge om ord."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Dizemos uma frase curta.",
+                      "textDa":  "Vi siger en kort sætning.",
+                      "grammarDa":  "Uma frase curta betyder en kort sætning."
+                  },
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Repito a frase.",
+                      "textDa":  "Jeg gentager sætningen.",
+                      "grammarDa":  "Repito betyder jeg gentager."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Muito bem.",
+                      "textDa":  "Meget fint.",
+                      "grammarDa":  "Muito bem er positiv feedback."
+                  },
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Obrigado pela ajuda.",
+                      "textDa":  "Tak for hjælpen.",
+                      "grammarDa":  "Obrigado bruges af en mand; obrigada af en kvinde."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Até já.",
+                      "textDa":  "Vi ses snart.",
+                      "grammarDa":  "Até já er en almindelig afslutning."
+                  }
+              ]
 }

@@ -1,0 +1,290 @@
+{
+    "id":  1,
+    "titleDa":  "Hilsner",
+    "descriptionDa":  "Meget let niveau med korte sætninger til børn.",
+    "dialogues":  [
+                      {
+                          "id":  1,
+                          "titleDa":  "Hej",
+                          "objectiveDa":  "Sig en kort og praktisk sætning.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Olá.",
+                                              "textDa":  "Hej.",
+                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Olá",
+                                                 "textDa":  "Hej"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "Kort sætning",
+                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  2,
+                          "titleDa":  "Goddag",
+                          "objectiveDa":  "Sig en kort og praktisk sætning.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Bom dia.",
+                                              "textDa":  "Goddag.",
+                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Bom dia",
+                                                 "textDa":  "Goddag"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "Kort sætning",
+                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  3,
+                          "titleDa":  "Farvel",
+                          "objectiveDa":  "Sig en kort og praktisk sætning.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Adeus.",
+                                              "textDa":  "Farvel.",
+                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Adeus",
+                                                 "textDa":  "Farvel"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "Kort sætning",
+                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  4,
+                          "titleDa":  "Vi ses senere",
+                          "objectiveDa":  "Sig en kort og praktisk sætning.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Até logo.",
+                                              "textDa":  "Vi ses senere.",
+                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Até logo",
+                                                 "textDa":  "Vi ses senere"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "Kort sætning",
+                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  5,
+                          "titleDa":  "Tak",
+                          "objectiveDa":  "Sig en kort og praktisk sætning.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Obrigado.",
+                                              "textDa":  "Tak.",
+                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Obrigado",
+                                                 "textDa":  "Tak"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "Kort sætning",
+                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
+                                          }
+                                      ]
+                      }
+                  ],
+    "quiz":  [
+                 {
+                     "id":  1,
+                     "questionDa":  "Hvad betyder: Olá.",
+                     "answers":  [
+                                     {
+                                         "text":  "Hej.",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Goddag.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Farvel.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Vi ses senere.",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Olá. = Hej."
+                 },
+                 {
+                     "id":  2,
+                     "questionDa":  "Hvad betyder: Bom dia.",
+                     "answers":  [
+                                     {
+                                         "text":  "Goddag.",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Farvel.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Vi ses senere.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Tak.",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Bom dia. = Goddag."
+                 },
+                 {
+                     "id":  3,
+                     "questionDa":  "Hvad betyder: Adeus.",
+                     "answers":  [
+                                     {
+                                         "text":  "Farvel.",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Vi ses senere.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Tak.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Hej.",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Adeus. = Farvel."
+                 },
+                 {
+                     "id":  4,
+                     "questionDa":  "Hvad betyder: Até logo.",
+                     "answers":  [
+                                     {
+                                         "text":  "Vi ses senere.",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Tak.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Hej.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Goddag.",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Até logo. = Vi ses senere."
+                 }
+             ],
+    "storyTitleDa":  "Kort børnedialog: Hilsner",
+    "storyObjectiveDa":  "Læs 10 korte linjer, som et barn kan bruge på rejse.",
+    "story":  [
+                  {
+                      "speaker":  "Barn",
+                      "textPt":  "Olá.",
+                      "textDa":  "Hej.",
+                      "grammarDa":  "Praktisk og kort frase."
+                  },
+                  {
+                      "speaker":  "Voksen",
+                      "textPt":  "Bom dia.",
+                      "textDa":  "Goddag.",
+                      "grammarDa":  "Praktisk og kort frase."
+                  },
+                  {
+                      "speaker":  "Barn",
+                      "textPt":  "Adeus.",
+                      "textDa":  "Farvel.",
+                      "grammarDa":  "Praktisk og kort frase."
+                  },
+                  {
+                      "speaker":  "Voksen",
+                      "textPt":  "Até logo.",
+                      "textDa":  "Vi ses senere.",
+                      "grammarDa":  "Praktisk og kort frase."
+                  },
+                  {
+                      "speaker":  "Barn",
+                      "textPt":  "Obrigado.",
+                      "textDa":  "Tak.",
+                      "grammarDa":  "Praktisk og kort frase."
+                  },
+                  {
+                      "speaker":  "Barn",
+                      "textPt":  "Olá.",
+                      "textDa":  "Hej.",
+                      "grammarDa":  "Praktisk og kort frase."
+                  },
+                  {
+                      "speaker":  "Voksen",
+                      "textPt":  "Bom dia.",
+                      "textDa":  "Goddag.",
+                      "grammarDa":  "Praktisk og kort frase."
+                  },
+                  {
+                      "speaker":  "Barn",
+                      "textPt":  "Adeus.",
+                      "textDa":  "Farvel.",
+                      "grammarDa":  "Praktisk og kort frase."
+                  },
+                  {
+                      "speaker":  "Voksen",
+                      "textPt":  "Até logo.",
+                      "textDa":  "Vi ses senere.",
+                      "grammarDa":  "Praktisk og kort frase."
+                  },
+                  {
+                      "speaker":  "Barn",
+                      "textPt":  "Obrigado.",
+                      "textDa":  "Tak.",
+                      "grammarDa":  "Praktisk og kort frase."
+                  }
+              ]
+}

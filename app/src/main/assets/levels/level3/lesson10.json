@@ -1,0 +1,290 @@
+{
+    "id":  10,
+    "titleDa":  "Nødhjælp",
+    "descriptionDa":  "Meget let niveau med korte sætninger til børn.",
+    "dialogues":  [
+                      {
+                          "id":  1,
+                          "titleDa":  "Hjælp",
+                          "objectiveDa":  "Sig en kort og praktisk sætning.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Ajuda!",
+                                              "textDa":  "Hjælp!",
+                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Ajuda",
+                                                 "textDa":  "Hjælp"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "Kort sætning",
+                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  2,
+                          "titleDa":  "Jeg er her",
+                          "objectiveDa":  "Sig en kort og praktisk sætning.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Estou aqui.",
+                                              "textDa":  "Jeg er her.",
+                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Estou aqui",
+                                                 "textDa":  "Jeg er her"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "Kort sætning",
+                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  3,
+                          "titleDa":  "Jeg har brug for en voksen",
+                          "objectiveDa":  "Sig en kort og praktisk sætning.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Preciso de um adulto.",
+                                              "textDa":  "Jeg har brug for en voksen.",
+                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Preciso de um adulto",
+                                                 "textDa":  "Jeg har brug for en voksen"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "Kort sætning",
+                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  4,
+                          "titleDa":  "Ring til min mor",
+                          "objectiveDa":  "Sig en kort og praktisk sætning.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Chame a minha mãe.",
+                                              "textDa":  "Ring til min mor.",
+                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Chame a minha mãe",
+                                                 "textDa":  "Ring til min mor"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "Kort sætning",
+                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  5,
+                          "titleDa":  "Ring til min far",
+                          "objectiveDa":  "Sig en kort og praktisk sætning.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Chame o meu pai.",
+                                              "textDa":  "Ring til min far.",
+                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Chame o meu pai",
+                                                 "textDa":  "Ring til min far"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "Kort sætning",
+                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
+                                          }
+                                      ]
+                      }
+                  ],
+    "quiz":  [
+                 {
+                     "id":  1,
+                     "questionDa":  "Hvad betyder: Ajuda!",
+                     "answers":  [
+                                     {
+                                         "text":  "Hjælp!",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Jeg er her.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Jeg har brug for en voksen.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Ring til min mor.",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Ajuda! = Hjælp!"
+                 },
+                 {
+                     "id":  2,
+                     "questionDa":  "Hvad betyder: Estou aqui.",
+                     "answers":  [
+                                     {
+                                         "text":  "Jeg er her.",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Jeg har brug for en voksen.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Ring til min mor.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Ring til min far.",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Estou aqui. = Jeg er her."
+                 },
+                 {
+                     "id":  3,
+                     "questionDa":  "Hvad betyder: Preciso de um adulto.",
+                     "answers":  [
+                                     {
+                                         "text":  "Jeg har brug for en voksen.",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Ring til min mor.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Ring til min far.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Hjælp!",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Preciso de um adulto. = Jeg har brug for en voksen."
+                 },
+                 {
+                     "id":  4,
+                     "questionDa":  "Hvad betyder: Chame a minha mãe.",
+                     "answers":  [
+                                     {
+                                         "text":  "Ring til min mor.",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Ring til min far.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Hjælp!",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Jeg er her.",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Chame a minha mãe. = Ring til min mor."
+                 }
+             ],
+    "storyTitleDa":  "Kort børnedialog: Nødhjælp",
+    "storyObjectiveDa":  "Læs 10 korte linjer, som et barn kan bruge på rejse.",
+    "story":  [
+                  {
+                      "speaker":  "Barn",
+                      "textPt":  "Ajuda!",
+                      "textDa":  "Hjælp!",
+                      "grammarDa":  "Praktisk og kort frase."
+                  },
+                  {
+                      "speaker":  "Voksen",
+                      "textPt":  "Estou aqui.",
+                      "textDa":  "Jeg er her.",
+                      "grammarDa":  "Praktisk og kort frase."
+                  },
+                  {
+                      "speaker":  "Barn",
+                      "textPt":  "Preciso de um adulto.",
+                      "textDa":  "Jeg har brug for en voksen.",
+                      "grammarDa":  "Praktisk og kort frase."
+                  },
+                  {
+                      "speaker":  "Voksen",
+                      "textPt":  "Chame a minha mãe.",
+                      "textDa":  "Ring til min mor.",
+                      "grammarDa":  "Praktisk og kort frase."
+                  },
+                  {
+                      "speaker":  "Barn",
+                      "textPt":  "Chame o meu pai.",
+                      "textDa":  "Ring til min far.",
+                      "grammarDa":  "Praktisk og kort frase."
+                  },
+                  {
+                      "speaker":  "Barn",
+                      "textPt":  "Ajuda!",
+                      "textDa":  "Hjælp!",
+                      "grammarDa":  "Praktisk og kort frase."
+                  },
+                  {
+                      "speaker":  "Voksen",
+                      "textPt":  "Estou aqui.",
+                      "textDa":  "Jeg er her.",
+                      "grammarDa":  "Praktisk og kort frase."
+                  },
+                  {
+                      "speaker":  "Barn",
+                      "textPt":  "Preciso de um adulto.",
+                      "textDa":  "Jeg har brug for en voksen.",
+                      "grammarDa":  "Praktisk og kort frase."
+                  },
+                  {
+                      "speaker":  "Voksen",
+                      "textPt":  "Chame a minha mãe.",
+                      "textDa":  "Ring til min mor.",
+                      "grammarDa":  "Praktisk og kort frase."
+                  },
+                  {
+                      "speaker":  "Barn",
+                      "textPt":  "Chame o meu pai.",
+                      "textDa":  "Ring til min far.",
+                      "grammarDa":  "Praktisk og kort frase."
+                  }
+              ]
+}

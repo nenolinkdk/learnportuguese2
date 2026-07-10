@@ -1,730 +1,730 @@
 {
-  "id": 6,
-  "titleDa": "I butik",
-  "descriptionDa": "Træn korte sætninger til butik, pris og betaling.",
-  "dialogues": [
-    {
-      "id": 1,
-      "titleDa": "Jeg vil gerne have",
-      "objectiveDa": "Træn: Jeg vil gerne have en flaske vand.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Queria uma garrafa de água.",
-          "textDa": "Jeg vil gerne have en flaske vand.",
-          "grammarDa": "Queria er høfligt i butik."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "loja",
-          "textDa": "butik"
-        },
-        {
-          "textPt": "quanto custa",
-          "textDa": "hvad koster det"
-        },
-        {
-          "textPt": "cartão",
-          "textDa": "kort"
-        },
-        {
-          "textPt": "dinheiro",
-          "textDa": "kontanter"
-        },
-        {
-          "textPt": "recibo",
-          "textDa": "kvittering"
-        },
-        {
-          "textPt": "saco",
-          "textDa": "pose"
-        },
-        {
-          "textPt": "tamanho",
-          "textDa": "størrelse"
-        },
-        {
-          "textPt": "azul",
-          "textDa": "blå"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "butik",
-          "explanationDa": "Queria er en høflig måde at sige jeg vil gerne have."
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "titleDa": "Pris",
-      "objectiveDa": "Træn: Hvad koster dette?",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Quanto custa isto?",
-          "textDa": "Hvad koster dette?",
-          "grammarDa": "Quanto custa betyder hvad koster."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "loja",
-          "textDa": "butik"
-        },
-        {
-          "textPt": "quanto custa",
-          "textDa": "hvad koster det"
-        },
-        {
-          "textPt": "cartão",
-          "textDa": "kort"
-        },
-        {
-          "textPt": "dinheiro",
-          "textDa": "kontanter"
-        },
-        {
-          "textPt": "recibo",
-          "textDa": "kvittering"
-        },
-        {
-          "textPt": "saco",
-          "textDa": "pose"
-        },
-        {
-          "textPt": "tamanho",
-          "textDa": "størrelse"
-        },
-        {
-          "textPt": "azul",
-          "textDa": "blå"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "butik",
-          "explanationDa": "Queria er en høflig måde at sige jeg vil gerne have."
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "titleDa": "Har I",
-      "objectiveDa": "Træn: Har I batterier?",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Tem pilhas?",
-          "textDa": "Har I batterier?",
-          "grammarDa": "Tem kan betyde har De/har I i butik."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "loja",
-          "textDa": "butik"
-        },
-        {
-          "textPt": "quanto custa",
-          "textDa": "hvad koster det"
-        },
-        {
-          "textPt": "cartão",
-          "textDa": "kort"
-        },
-        {
-          "textPt": "dinheiro",
-          "textDa": "kontanter"
-        },
-        {
-          "textPt": "recibo",
-          "textDa": "kvittering"
-        },
-        {
-          "textPt": "saco",
-          "textDa": "pose"
-        },
-        {
-          "textPt": "tamanho",
-          "textDa": "størrelse"
-        },
-        {
-          "textPt": "azul",
-          "textDa": "blå"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "butik",
-          "explanationDa": "Queria er en høflig måde at sige jeg vil gerne have."
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "titleDa": "Farve",
-      "objectiveDa": "Træn: Har I den i blå?",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Tem em azul?",
-          "textDa": "Har I den i blå?",
-          "grammarDa": "Em azul betyder i blå."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "loja",
-          "textDa": "butik"
-        },
-        {
-          "textPt": "quanto custa",
-          "textDa": "hvad koster det"
-        },
-        {
-          "textPt": "cartão",
-          "textDa": "kort"
-        },
-        {
-          "textPt": "dinheiro",
-          "textDa": "kontanter"
-        },
-        {
-          "textPt": "recibo",
-          "textDa": "kvittering"
-        },
-        {
-          "textPt": "saco",
-          "textDa": "pose"
-        },
-        {
-          "textPt": "tamanho",
-          "textDa": "størrelse"
-        },
-        {
-          "textPt": "azul",
-          "textDa": "blå"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "butik",
-          "explanationDa": "Queria er en høflig måde at sige jeg vil gerne have."
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "titleDa": "Størrelse",
-      "objectiveDa": "Træn: Har I en større størrelse?",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Tem tamanho maior?",
-          "textDa": "Har I en større størrelse?",
-          "grammarDa": "Tamanho betyder størrelse."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "loja",
-          "textDa": "butik"
-        },
-        {
-          "textPt": "quanto custa",
-          "textDa": "hvad koster det"
-        },
-        {
-          "textPt": "cartão",
-          "textDa": "kort"
-        },
-        {
-          "textPt": "dinheiro",
-          "textDa": "kontanter"
-        },
-        {
-          "textPt": "recibo",
-          "textDa": "kvittering"
-        },
-        {
-          "textPt": "saco",
-          "textDa": "pose"
-        },
-        {
-          "textPt": "tamanho",
-          "textDa": "størrelse"
-        },
-        {
-          "textPt": "azul",
-          "textDa": "blå"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "butik",
-          "explanationDa": "Queria er en høflig måde at sige jeg vil gerne have."
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "titleDa": "Betaling",
-      "objectiveDa": "Træn: Kan jeg betale med kort?",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Posso pagar com cartão?",
-          "textDa": "Kan jeg betale med kort?",
-          "grammarDa": "Com cartão betyder med kort."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "loja",
-          "textDa": "butik"
-        },
-        {
-          "textPt": "quanto custa",
-          "textDa": "hvad koster det"
-        },
-        {
-          "textPt": "cartão",
-          "textDa": "kort"
-        },
-        {
-          "textPt": "dinheiro",
-          "textDa": "kontanter"
-        },
-        {
-          "textPt": "recibo",
-          "textDa": "kvittering"
-        },
-        {
-          "textPt": "saco",
-          "textDa": "pose"
-        },
-        {
-          "textPt": "tamanho",
-          "textDa": "størrelse"
-        },
-        {
-          "textPt": "azul",
-          "textDa": "blå"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "butik",
-          "explanationDa": "Queria er en høflig måde at sige jeg vil gerne have."
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "titleDa": "Kontant",
-      "objectiveDa": "Træn: Jeg betaler kontant.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Pago em dinheiro.",
-          "textDa": "Jeg betaler kontant.",
-          "grammarDa": "Em dinheiro betyder kontant."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "loja",
-          "textDa": "butik"
-        },
-        {
-          "textPt": "quanto custa",
-          "textDa": "hvad koster det"
-        },
-        {
-          "textPt": "cartão",
-          "textDa": "kort"
-        },
-        {
-          "textPt": "dinheiro",
-          "textDa": "kontanter"
-        },
-        {
-          "textPt": "recibo",
-          "textDa": "kvittering"
-        },
-        {
-          "textPt": "saco",
-          "textDa": "pose"
-        },
-        {
-          "textPt": "tamanho",
-          "textDa": "størrelse"
-        },
-        {
-          "textPt": "azul",
-          "textDa": "blå"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "butik",
-          "explanationDa": "Queria er en høflig måde at sige jeg vil gerne have."
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "titleDa": "Kvittering",
-      "objectiveDa": "Træn: Jeg vil gerne have kvitteringen, tak.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Queria o recibo, por favor.",
-          "textDa": "Jeg vil gerne have kvitteringen, tak.",
-          "grammarDa": "Recibo betyder kvittering."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "loja",
-          "textDa": "butik"
-        },
-        {
-          "textPt": "quanto custa",
-          "textDa": "hvad koster det"
-        },
-        {
-          "textPt": "cartão",
-          "textDa": "kort"
-        },
-        {
-          "textPt": "dinheiro",
-          "textDa": "kontanter"
-        },
-        {
-          "textPt": "recibo",
-          "textDa": "kvittering"
-        },
-        {
-          "textPt": "saco",
-          "textDa": "pose"
-        },
-        {
-          "textPt": "tamanho",
-          "textDa": "størrelse"
-        },
-        {
-          "textPt": "azul",
-          "textDa": "blå"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "butik",
-          "explanationDa": "Queria er en høflig måde at sige jeg vil gerne have."
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "titleDa": "Pose",
-      "objectiveDa": "Træn: Jeg har brug for en pose.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Preciso de um saco.",
-          "textDa": "Jeg har brug for en pose.",
-          "grammarDa": "Preciso de betyder jeg har brug for."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "loja",
-          "textDa": "butik"
-        },
-        {
-          "textPt": "quanto custa",
-          "textDa": "hvad koster det"
-        },
-        {
-          "textPt": "cartão",
-          "textDa": "kort"
-        },
-        {
-          "textPt": "dinheiro",
-          "textDa": "kontanter"
-        },
-        {
-          "textPt": "recibo",
-          "textDa": "kvittering"
-        },
-        {
-          "textPt": "saco",
-          "textDa": "pose"
-        },
-        {
-          "textPt": "tamanho",
-          "textDa": "størrelse"
-        },
-        {
-          "textPt": "azul",
-          "textDa": "blå"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "butik",
-          "explanationDa": "Queria er en høflig måde at sige jeg vil gerne have."
-        }
-      ]
-    },
-    {
-      "id": 10,
-      "titleDa": "Tak",
-      "objectiveDa": "Træn: Tak for hjælpen.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Obrigado pela ajuda.",
-          "textDa": "Tak for hjælpen.",
-          "grammarDa": "Pela ajuda betyder for hjælpen."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "loja",
-          "textDa": "butik"
-        },
-        {
-          "textPt": "quanto custa",
-          "textDa": "hvad koster det"
-        },
-        {
-          "textPt": "cartão",
-          "textDa": "kort"
-        },
-        {
-          "textPt": "dinheiro",
-          "textDa": "kontanter"
-        },
-        {
-          "textPt": "recibo",
-          "textDa": "kvittering"
-        },
-        {
-          "textPt": "saco",
-          "textDa": "pose"
-        },
-        {
-          "textPt": "tamanho",
-          "textDa": "størrelse"
-        },
-        {
-          "textPt": "azul",
-          "textDa": "blå"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "butik",
-          "explanationDa": "Queria er en høflig måde at sige jeg vil gerne have."
-        }
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": 1,
-      "questionDa": "Hvilken sætning betyder: Jeg vil gerne have en flaske vand.",
-      "answers": [
-        {
-          "text": "Queria uma garrafa de água.",
-          "correct": true
-        },
-        {
-          "text": "Quanto custa isto?",
-          "correct": false
-        },
-        {
-          "text": "Tem pilhas?",
-          "correct": false
-        },
-        {
-          "text": "Tem em azul?",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Queria er høfligt i butik."
-    },
-    {
-      "id": 2,
-      "questionDa": "Hvad betyder: Quanto custa isto?",
-      "answers": [
-        {
-          "text": "Hvad koster dette?",
-          "correct": true
-        },
-        {
-          "text": "Jeg vil gerne have en flaske vand.",
-          "correct": false
-        },
-        {
-          "text": "Har I batterier?",
-          "correct": false
-        },
-        {
-          "text": "Har I en større størrelse?",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Quanto custa betyder hvad koster."
-    },
-    {
-      "id": 3,
-      "questionDa": "Hvilket tema træner denne lektion mest?",
-      "answers": [
-        {
-          "text": "I butik",
-          "correct": true
-        },
-        {
-          "text": "Kun farver",
-          "correct": false
-        },
-        {
-          "text": "Kun alfabetet",
-          "correct": false
-        },
-        {
-          "text": "Kun dyr",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Træn korte sætninger til butik, pris og betaling."
-    },
-    {
-      "id": 4,
-      "questionDa": "Vælg den portugisiske frase fra dialogen \"Har I\".",
-      "answers": [
-        {
-          "text": "Tem pilhas?",
-          "correct": true
-        },
-        {
-          "text": "Har I batterier?",
-          "correct": false
-        },
-        {
-          "text": "Jeg vil gerne have en flaske vand.",
-          "correct": false
-        },
-        {
-          "text": "Hvad koster dette?",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Tem kan betyde har De/har I i butik."
-    },
-    {
-      "id": 5,
-      "questionDa": "Hvad skal brugeren især øve her?",
-      "answers": [
-        {
-          "text": "butik",
-          "correct": true
-        },
-        {
-          "text": "Engelsk udtale",
-          "correct": false
-        },
-        {
-          "text": "Danske talord",
-          "correct": false
-        },
-        {
-          "text": "Tyske kasus",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Queria er en høflig måde at sige jeg vil gerne have."
-    }
-  ],
-  "storyTitleDa": "Kort dialog: I butik",
-  "storyObjectiveDa": "L?s en sammenh?ngende mini-dialog med kendte fraser fra lektionen.",
-  "story": [
-    {
-      "speaker": "A",
-      "textPt": "Ol?.",
-      "textDa": "Hej.",
-      "grammarDa": "Kort hilsen."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Ol?. Como est??",
-      "textDa": "Hej. Hvordan har du det?",
-      "grammarDa": "Est? kommer af estar."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Estou bem, obrigado.",
-      "textDa": "Jeg har det godt, tak.",
-      "grammarDa": "Estou bruges om en midlertidig tilstand."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Hoje praticamos I butik.",
-      "textDa": "I dag ?ver vi I butik.",
-      "grammarDa": "Praticamos betyder vi ?ver."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Tenho uma pergunta.",
-      "textDa": "Jeg har et sp?rgsm?l.",
-      "grammarDa": "Tenho kommer af ter."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Claro, diga devagar.",
-      "textDa": "Selvf?lgelig, sig det langsomt.",
-      "grammarDa": "Diga er en h?flig opfordring."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Como se diz isto em portugu?s?",
-      "textDa": "Hvordan siger man dette p? portugisisk?",
-      "grammarDa": "Como se diz bruges til at sp?rge om ord."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Dizemos uma frase curta.",
-      "textDa": "Vi siger en kort s?tning.",
-      "grammarDa": "Uma frase curta betyder en kort s?tning."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Repito a frase.",
-      "textDa": "Jeg gentager s?tningen.",
-      "grammarDa": "Repito betyder jeg gentager."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Muito bem.",
-      "textDa": "Meget fint.",
-      "grammarDa": "Muito bem er positiv feedback."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Obrigado pela ajuda.",
-      "textDa": "Tak for hj?lpen.",
-      "grammarDa": "Obrigado bruges af en mand; obrigada af en kvinde."
-    },
-    {
-      "speaker": "B",
-      "textPt": "At? j?.",
-      "textDa": "Vi ses snart.",
-      "grammarDa": "At? j? er en almindelig afslutning."
-    }
-  ]
+    "id":  6,
+    "titleDa":  "I butik",
+    "descriptionDa":  "Træn korte sætninger til butik, pris og betaling.",
+    "dialogues":  [
+                      {
+                          "id":  1,
+                          "titleDa":  "Jeg vil gerne have",
+                          "objectiveDa":  "Træn: Jeg vil gerne have en flaske vand.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Queria uma garrafa de água.",
+                                              "textDa":  "Jeg vil gerne have en flaske vand.",
+                                              "grammarDa":  "Queria er høfligt i butik."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "loja",
+                                                 "textDa":  "butik"
+                                             },
+                                             {
+                                                 "textPt":  "quanto custa",
+                                                 "textDa":  "hvad koster det"
+                                             },
+                                             {
+                                                 "textPt":  "cartão",
+                                                 "textDa":  "kort"
+                                             },
+                                             {
+                                                 "textPt":  "dinheiro",
+                                                 "textDa":  "kontanter"
+                                             },
+                                             {
+                                                 "textPt":  "recibo",
+                                                 "textDa":  "kvittering"
+                                             },
+                                             {
+                                                 "textPt":  "saco",
+                                                 "textDa":  "pose"
+                                             },
+                                             {
+                                                 "textPt":  "tamanho",
+                                                 "textDa":  "størrelse"
+                                             },
+                                             {
+                                                 "textPt":  "azul",
+                                                 "textDa":  "blå"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "butik",
+                                              "explanationDa":  "Queria er en høflig måde at sige jeg vil gerne have."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  2,
+                          "titleDa":  "Pris",
+                          "objectiveDa":  "Træn: Hvad koster dette?",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Quanto custa isto?",
+                                              "textDa":  "Hvad koster dette?",
+                                              "grammarDa":  "Quanto custa betyder hvad koster."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "loja",
+                                                 "textDa":  "butik"
+                                             },
+                                             {
+                                                 "textPt":  "quanto custa",
+                                                 "textDa":  "hvad koster det"
+                                             },
+                                             {
+                                                 "textPt":  "cartão",
+                                                 "textDa":  "kort"
+                                             },
+                                             {
+                                                 "textPt":  "dinheiro",
+                                                 "textDa":  "kontanter"
+                                             },
+                                             {
+                                                 "textPt":  "recibo",
+                                                 "textDa":  "kvittering"
+                                             },
+                                             {
+                                                 "textPt":  "saco",
+                                                 "textDa":  "pose"
+                                             },
+                                             {
+                                                 "textPt":  "tamanho",
+                                                 "textDa":  "størrelse"
+                                             },
+                                             {
+                                                 "textPt":  "azul",
+                                                 "textDa":  "blå"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "butik",
+                                              "explanationDa":  "Queria er en høflig måde at sige jeg vil gerne have."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  3,
+                          "titleDa":  "Har I",
+                          "objectiveDa":  "Træn: Har I batterier?",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Tem pilhas?",
+                                              "textDa":  "Har I batterier?",
+                                              "grammarDa":  "Tem kan betyde har De/har I i butik."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "loja",
+                                                 "textDa":  "butik"
+                                             },
+                                             {
+                                                 "textPt":  "quanto custa",
+                                                 "textDa":  "hvad koster det"
+                                             },
+                                             {
+                                                 "textPt":  "cartão",
+                                                 "textDa":  "kort"
+                                             },
+                                             {
+                                                 "textPt":  "dinheiro",
+                                                 "textDa":  "kontanter"
+                                             },
+                                             {
+                                                 "textPt":  "recibo",
+                                                 "textDa":  "kvittering"
+                                             },
+                                             {
+                                                 "textPt":  "saco",
+                                                 "textDa":  "pose"
+                                             },
+                                             {
+                                                 "textPt":  "tamanho",
+                                                 "textDa":  "størrelse"
+                                             },
+                                             {
+                                                 "textPt":  "azul",
+                                                 "textDa":  "blå"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "butik",
+                                              "explanationDa":  "Queria er en høflig måde at sige jeg vil gerne have."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  4,
+                          "titleDa":  "Farve",
+                          "objectiveDa":  "Træn: Har I den i blå?",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Tem em azul?",
+                                              "textDa":  "Har I den i blå?",
+                                              "grammarDa":  "Em azul betyder i blå."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "loja",
+                                                 "textDa":  "butik"
+                                             },
+                                             {
+                                                 "textPt":  "quanto custa",
+                                                 "textDa":  "hvad koster det"
+                                             },
+                                             {
+                                                 "textPt":  "cartão",
+                                                 "textDa":  "kort"
+                                             },
+                                             {
+                                                 "textPt":  "dinheiro",
+                                                 "textDa":  "kontanter"
+                                             },
+                                             {
+                                                 "textPt":  "recibo",
+                                                 "textDa":  "kvittering"
+                                             },
+                                             {
+                                                 "textPt":  "saco",
+                                                 "textDa":  "pose"
+                                             },
+                                             {
+                                                 "textPt":  "tamanho",
+                                                 "textDa":  "størrelse"
+                                             },
+                                             {
+                                                 "textPt":  "azul",
+                                                 "textDa":  "blå"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "butik",
+                                              "explanationDa":  "Queria er en høflig måde at sige jeg vil gerne have."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  5,
+                          "titleDa":  "Størrelse",
+                          "objectiveDa":  "Træn: Har I en større størrelse?",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Tem tamanho maior?",
+                                              "textDa":  "Har I en større størrelse?",
+                                              "grammarDa":  "Tamanho betyder størrelse."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "loja",
+                                                 "textDa":  "butik"
+                                             },
+                                             {
+                                                 "textPt":  "quanto custa",
+                                                 "textDa":  "hvad koster det"
+                                             },
+                                             {
+                                                 "textPt":  "cartão",
+                                                 "textDa":  "kort"
+                                             },
+                                             {
+                                                 "textPt":  "dinheiro",
+                                                 "textDa":  "kontanter"
+                                             },
+                                             {
+                                                 "textPt":  "recibo",
+                                                 "textDa":  "kvittering"
+                                             },
+                                             {
+                                                 "textPt":  "saco",
+                                                 "textDa":  "pose"
+                                             },
+                                             {
+                                                 "textPt":  "tamanho",
+                                                 "textDa":  "størrelse"
+                                             },
+                                             {
+                                                 "textPt":  "azul",
+                                                 "textDa":  "blå"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "butik",
+                                              "explanationDa":  "Queria er en høflig måde at sige jeg vil gerne have."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  6,
+                          "titleDa":  "Betaling",
+                          "objectiveDa":  "Træn: Kan jeg betale med kort?",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Posso pagar com cartão?",
+                                              "textDa":  "Kan jeg betale med kort?",
+                                              "grammarDa":  "Com cartão betyder med kort."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "loja",
+                                                 "textDa":  "butik"
+                                             },
+                                             {
+                                                 "textPt":  "quanto custa",
+                                                 "textDa":  "hvad koster det"
+                                             },
+                                             {
+                                                 "textPt":  "cartão",
+                                                 "textDa":  "kort"
+                                             },
+                                             {
+                                                 "textPt":  "dinheiro",
+                                                 "textDa":  "kontanter"
+                                             },
+                                             {
+                                                 "textPt":  "recibo",
+                                                 "textDa":  "kvittering"
+                                             },
+                                             {
+                                                 "textPt":  "saco",
+                                                 "textDa":  "pose"
+                                             },
+                                             {
+                                                 "textPt":  "tamanho",
+                                                 "textDa":  "størrelse"
+                                             },
+                                             {
+                                                 "textPt":  "azul",
+                                                 "textDa":  "blå"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "butik",
+                                              "explanationDa":  "Queria er en høflig måde at sige jeg vil gerne have."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  7,
+                          "titleDa":  "Kontant",
+                          "objectiveDa":  "Træn: Jeg betaler kontant.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Pago em dinheiro.",
+                                              "textDa":  "Jeg betaler kontant.",
+                                              "grammarDa":  "Em dinheiro betyder kontant."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "loja",
+                                                 "textDa":  "butik"
+                                             },
+                                             {
+                                                 "textPt":  "quanto custa",
+                                                 "textDa":  "hvad koster det"
+                                             },
+                                             {
+                                                 "textPt":  "cartão",
+                                                 "textDa":  "kort"
+                                             },
+                                             {
+                                                 "textPt":  "dinheiro",
+                                                 "textDa":  "kontanter"
+                                             },
+                                             {
+                                                 "textPt":  "recibo",
+                                                 "textDa":  "kvittering"
+                                             },
+                                             {
+                                                 "textPt":  "saco",
+                                                 "textDa":  "pose"
+                                             },
+                                             {
+                                                 "textPt":  "tamanho",
+                                                 "textDa":  "størrelse"
+                                             },
+                                             {
+                                                 "textPt":  "azul",
+                                                 "textDa":  "blå"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "butik",
+                                              "explanationDa":  "Queria er en høflig måde at sige jeg vil gerne have."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  8,
+                          "titleDa":  "Kvittering",
+                          "objectiveDa":  "Træn: Jeg vil gerne have kvitteringen, tak.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Queria o recibo, por favor.",
+                                              "textDa":  "Jeg vil gerne have kvitteringen, tak.",
+                                              "grammarDa":  "Recibo betyder kvittering."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "loja",
+                                                 "textDa":  "butik"
+                                             },
+                                             {
+                                                 "textPt":  "quanto custa",
+                                                 "textDa":  "hvad koster det"
+                                             },
+                                             {
+                                                 "textPt":  "cartão",
+                                                 "textDa":  "kort"
+                                             },
+                                             {
+                                                 "textPt":  "dinheiro",
+                                                 "textDa":  "kontanter"
+                                             },
+                                             {
+                                                 "textPt":  "recibo",
+                                                 "textDa":  "kvittering"
+                                             },
+                                             {
+                                                 "textPt":  "saco",
+                                                 "textDa":  "pose"
+                                             },
+                                             {
+                                                 "textPt":  "tamanho",
+                                                 "textDa":  "størrelse"
+                                             },
+                                             {
+                                                 "textPt":  "azul",
+                                                 "textDa":  "blå"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "butik",
+                                              "explanationDa":  "Queria er en høflig måde at sige jeg vil gerne have."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  9,
+                          "titleDa":  "Pose",
+                          "objectiveDa":  "Træn: Jeg har brug for en pose.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Preciso de um saco.",
+                                              "textDa":  "Jeg har brug for en pose.",
+                                              "grammarDa":  "Preciso de betyder jeg har brug for."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "loja",
+                                                 "textDa":  "butik"
+                                             },
+                                             {
+                                                 "textPt":  "quanto custa",
+                                                 "textDa":  "hvad koster det"
+                                             },
+                                             {
+                                                 "textPt":  "cartão",
+                                                 "textDa":  "kort"
+                                             },
+                                             {
+                                                 "textPt":  "dinheiro",
+                                                 "textDa":  "kontanter"
+                                             },
+                                             {
+                                                 "textPt":  "recibo",
+                                                 "textDa":  "kvittering"
+                                             },
+                                             {
+                                                 "textPt":  "saco",
+                                                 "textDa":  "pose"
+                                             },
+                                             {
+                                                 "textPt":  "tamanho",
+                                                 "textDa":  "størrelse"
+                                             },
+                                             {
+                                                 "textPt":  "azul",
+                                                 "textDa":  "blå"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "butik",
+                                              "explanationDa":  "Queria er en høflig måde at sige jeg vil gerne have."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  10,
+                          "titleDa":  "Tak",
+                          "objectiveDa":  "Træn: Tak for hjælpen.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Obrigado pela ajuda.",
+                                              "textDa":  "Tak for hjælpen.",
+                                              "grammarDa":  "Pela ajuda betyder for hjælpen."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "loja",
+                                                 "textDa":  "butik"
+                                             },
+                                             {
+                                                 "textPt":  "quanto custa",
+                                                 "textDa":  "hvad koster det"
+                                             },
+                                             {
+                                                 "textPt":  "cartão",
+                                                 "textDa":  "kort"
+                                             },
+                                             {
+                                                 "textPt":  "dinheiro",
+                                                 "textDa":  "kontanter"
+                                             },
+                                             {
+                                                 "textPt":  "recibo",
+                                                 "textDa":  "kvittering"
+                                             },
+                                             {
+                                                 "textPt":  "saco",
+                                                 "textDa":  "pose"
+                                             },
+                                             {
+                                                 "textPt":  "tamanho",
+                                                 "textDa":  "størrelse"
+                                             },
+                                             {
+                                                 "textPt":  "azul",
+                                                 "textDa":  "blå"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "butik",
+                                              "explanationDa":  "Queria er en høflig måde at sige jeg vil gerne have."
+                                          }
+                                      ]
+                      }
+                  ],
+    "quiz":  [
+                 {
+                     "id":  1,
+                     "questionDa":  "Hvilken sætning betyder: Jeg vil gerne have en flaske vand.",
+                     "answers":  [
+                                     {
+                                         "text":  "Queria uma garrafa de água.",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Quanto custa isto?",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Tem pilhas?",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Tem em azul?",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Queria er høfligt i butik."
+                 },
+                 {
+                     "id":  2,
+                     "questionDa":  "Hvad betyder: Quanto custa isto?",
+                     "answers":  [
+                                     {
+                                         "text":  "Hvad koster dette?",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Jeg vil gerne have en flaske vand.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Har I batterier?",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Har I en større størrelse?",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Quanto custa betyder hvad koster."
+                 },
+                 {
+                     "id":  3,
+                     "questionDa":  "Hvilket tema træner denne lektion mest?",
+                     "answers":  [
+                                     {
+                                         "text":  "I butik",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Kun farver",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Kun alfabetet",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Kun dyr",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Træn korte sætninger til butik, pris og betaling."
+                 },
+                 {
+                     "id":  4,
+                     "questionDa":  "Vælg den portugisiske frase fra dialogen \"Har I\".",
+                     "answers":  [
+                                     {
+                                         "text":  "Tem pilhas?",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Har I batterier?",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Jeg vil gerne have en flaske vand.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Hvad koster dette?",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Tem kan betyde har De/har I i butik."
+                 },
+                 {
+                     "id":  5,
+                     "questionDa":  "Hvad skal brugeren især øve her?",
+                     "answers":  [
+                                     {
+                                         "text":  "butik",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Engelsk udtale",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Danske talord",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Tyske kasus",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Queria er en høflig måde at sige jeg vil gerne have."
+                 }
+             ],
+    "storyTitleDa":  "Kort dialog: I butik",
+    "storyObjectiveDa":  "Læs en sammenhængende mini-dialog med kendte fraser fra lektionen.",
+    "story":  [
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Olá.",
+                      "textDa":  "Hej.",
+                      "grammarDa":  "Kort hilsen."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Olá. Como está?",
+                      "textDa":  "Hej. Hvordan har du det?",
+                      "grammarDa":  "Está kommer af estar."
+                  },
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Estou bem, obrigado.",
+                      "textDa":  "Jeg har det godt, tak.",
+                      "grammarDa":  "Estou bruges om en midlertidig tilstand."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Hoje praticamos uma conversa curta.",
+                      "textDa":  "I dag øver vi en kort samtale.",
+                      "grammarDa":  "Praticamos betyder vi øver."
+                  },
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Tenho uma pergunta.",
+                      "textDa":  "Jeg har et spørgsmål.",
+                      "grammarDa":  "Tenho kommer af ter."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Claro, diga devagar.",
+                      "textDa":  "Selvfølgelig, sig det langsomt.",
+                      "grammarDa":  "Diga er en høflig opfordring."
+                  },
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Como se diz isto em português?",
+                      "textDa":  "Hvordan siger man dette på portugisisk?",
+                      "grammarDa":  "Como se diz bruges til at spørge om ord."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Dizemos uma frase curta.",
+                      "textDa":  "Vi siger en kort sætning.",
+                      "grammarDa":  "Uma frase curta betyder en kort sætning."
+                  },
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Repito a frase.",
+                      "textDa":  "Jeg gentager sætningen.",
+                      "grammarDa":  "Repito betyder jeg gentager."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Muito bem.",
+                      "textDa":  "Meget fint.",
+                      "grammarDa":  "Muito bem er positiv feedback."
+                  },
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Obrigado pela ajuda.",
+                      "textDa":  "Tak for hjælpen.",
+                      "grammarDa":  "Obrigado bruges af en mand; obrigada af en kvinde."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Até já.",
+                      "textDa":  "Vi ses snart.",
+                      "grammarDa":  "Até já er en almindelig afslutning."
+                  }
+              ]
 }

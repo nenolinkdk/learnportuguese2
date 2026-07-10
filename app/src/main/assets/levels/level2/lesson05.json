@@ -1,810 +1,810 @@
 {
-  "id": 5,
-  "titleDa": "Tal 20-100",
-  "descriptionDa": "Brug tal til priser, alder, telefonnumre og klokkeslæt.",
-  "dialogues": [
-    {
-      "id": 1,
-      "titleDa": "Tyve",
-      "objectiveDa": "Træn: Det koster tyve euro.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Custa vinte euros.",
-          "textDa": "Det koster tyve euro.",
-          "grammarDa": "Vinte betyder 20."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "vinte",
-          "textDa": "tyve"
-        },
-        {
-          "textPt": "trinta",
-          "textDa": "tredive"
-        },
-        {
-          "textPt": "quarenta",
-          "textDa": "fyrre"
-        },
-        {
-          "textPt": "cinquenta",
-          "textDa": "halvtreds"
-        },
-        {
-          "textPt": "sessenta",
-          "textDa": "tres"
-        },
-        {
-          "textPt": "setenta",
-          "textDa": "halvfjerds"
-        },
-        {
-          "textPt": "oitenta",
-          "textDa": "firs"
-        },
-        {
-          "textPt": "noventa",
-          "textDa": "halvfems"
-        },
-        {
-          "textPt": "cem",
-          "textDa": "hundrede"
-        },
-        {
-          "textPt": "euros",
-          "textDa": "euro"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "tal",
-          "explanationDa": "Tal fra 20 til 100 bruges ofte ved priser, alder og praktiske aftaler."
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "titleDa": "Tredive",
-      "objectiveDa": "Træn: Jeg er tredive år.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Tenho trinta anos.",
-          "textDa": "Jeg er tredive år.",
-          "grammarDa": "Trinta betyder 30."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "vinte",
-          "textDa": "tyve"
-        },
-        {
-          "textPt": "trinta",
-          "textDa": "tredive"
-        },
-        {
-          "textPt": "quarenta",
-          "textDa": "fyrre"
-        },
-        {
-          "textPt": "cinquenta",
-          "textDa": "halvtreds"
-        },
-        {
-          "textPt": "sessenta",
-          "textDa": "tres"
-        },
-        {
-          "textPt": "setenta",
-          "textDa": "halvfjerds"
-        },
-        {
-          "textPt": "oitenta",
-          "textDa": "firs"
-        },
-        {
-          "textPt": "noventa",
-          "textDa": "halvfems"
-        },
-        {
-          "textPt": "cem",
-          "textDa": "hundrede"
-        },
-        {
-          "textPt": "euros",
-          "textDa": "euro"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "tal",
-          "explanationDa": "Tal fra 20 til 100 bruges ofte ved priser, alder og praktiske aftaler."
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "titleDa": "Fyrre",
-      "objectiveDa": "Træn: Det er fyrre euro.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "São quarenta euros.",
-          "textDa": "Det er fyrre euro.",
-          "grammarDa": "Quarenta betyder 40."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "vinte",
-          "textDa": "tyve"
-        },
-        {
-          "textPt": "trinta",
-          "textDa": "tredive"
-        },
-        {
-          "textPt": "quarenta",
-          "textDa": "fyrre"
-        },
-        {
-          "textPt": "cinquenta",
-          "textDa": "halvtreds"
-        },
-        {
-          "textPt": "sessenta",
-          "textDa": "tres"
-        },
-        {
-          "textPt": "setenta",
-          "textDa": "halvfjerds"
-        },
-        {
-          "textPt": "oitenta",
-          "textDa": "firs"
-        },
-        {
-          "textPt": "noventa",
-          "textDa": "halvfems"
-        },
-        {
-          "textPt": "cem",
-          "textDa": "hundrede"
-        },
-        {
-          "textPt": "euros",
-          "textDa": "euro"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "tal",
-          "explanationDa": "Tal fra 20 til 100 bruges ofte ved priser, alder og praktiske aftaler."
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "titleDa": "Halvtreds",
-      "objectiveDa": "Træn: Nummeret er halvtreds.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "O número é cinquenta.",
-          "textDa": "Nummeret er halvtreds.",
-          "grammarDa": "Cinquenta betyder 50."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "vinte",
-          "textDa": "tyve"
-        },
-        {
-          "textPt": "trinta",
-          "textDa": "tredive"
-        },
-        {
-          "textPt": "quarenta",
-          "textDa": "fyrre"
-        },
-        {
-          "textPt": "cinquenta",
-          "textDa": "halvtreds"
-        },
-        {
-          "textPt": "sessenta",
-          "textDa": "tres"
-        },
-        {
-          "textPt": "setenta",
-          "textDa": "halvfjerds"
-        },
-        {
-          "textPt": "oitenta",
-          "textDa": "firs"
-        },
-        {
-          "textPt": "noventa",
-          "textDa": "halvfems"
-        },
-        {
-          "textPt": "cem",
-          "textDa": "hundrede"
-        },
-        {
-          "textPt": "euros",
-          "textDa": "euro"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "tal",
-          "explanationDa": "Tal fra 20 til 100 bruges ofte ved priser, alder og praktiske aftaler."
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "titleDa": "Tres",
-      "objectiveDa": "Træn: Det er tres minutter.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "São sessenta minutos.",
-          "textDa": "Det er tres minutter.",
-          "grammarDa": "Sessenta betyder 60."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "vinte",
-          "textDa": "tyve"
-        },
-        {
-          "textPt": "trinta",
-          "textDa": "tredive"
-        },
-        {
-          "textPt": "quarenta",
-          "textDa": "fyrre"
-        },
-        {
-          "textPt": "cinquenta",
-          "textDa": "halvtreds"
-        },
-        {
-          "textPt": "sessenta",
-          "textDa": "tres"
-        },
-        {
-          "textPt": "setenta",
-          "textDa": "halvfjerds"
-        },
-        {
-          "textPt": "oitenta",
-          "textDa": "firs"
-        },
-        {
-          "textPt": "noventa",
-          "textDa": "halvfems"
-        },
-        {
-          "textPt": "cem",
-          "textDa": "hundrede"
-        },
-        {
-          "textPt": "euros",
-          "textDa": "euro"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "tal",
-          "explanationDa": "Tal fra 20 til 100 bruges ofte ved priser, alder og praktiske aftaler."
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "titleDa": "Halvfjerds",
-      "objectiveDa": "Træn: Jeg har halvfjerds cent.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Tenho setenta cêntimos.",
-          "textDa": "Jeg har halvfjerds cent.",
-          "grammarDa": "Setenta betyder 70."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "vinte",
-          "textDa": "tyve"
-        },
-        {
-          "textPt": "trinta",
-          "textDa": "tredive"
-        },
-        {
-          "textPt": "quarenta",
-          "textDa": "fyrre"
-        },
-        {
-          "textPt": "cinquenta",
-          "textDa": "halvtreds"
-        },
-        {
-          "textPt": "sessenta",
-          "textDa": "tres"
-        },
-        {
-          "textPt": "setenta",
-          "textDa": "halvfjerds"
-        },
-        {
-          "textPt": "oitenta",
-          "textDa": "firs"
-        },
-        {
-          "textPt": "noventa",
-          "textDa": "halvfems"
-        },
-        {
-          "textPt": "cem",
-          "textDa": "hundrede"
-        },
-        {
-          "textPt": "euros",
-          "textDa": "euro"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "tal",
-          "explanationDa": "Tal fra 20 til 100 bruges ofte ved priser, alder og praktiske aftaler."
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "titleDa": "Firs",
-      "objectiveDa": "Træn: Billetten koster firs euro.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "O bilhete custa oitenta euros.",
-          "textDa": "Billetten koster firs euro.",
-          "grammarDa": "Oitenta betyder 80."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "vinte",
-          "textDa": "tyve"
-        },
-        {
-          "textPt": "trinta",
-          "textDa": "tredive"
-        },
-        {
-          "textPt": "quarenta",
-          "textDa": "fyrre"
-        },
-        {
-          "textPt": "cinquenta",
-          "textDa": "halvtreds"
-        },
-        {
-          "textPt": "sessenta",
-          "textDa": "tres"
-        },
-        {
-          "textPt": "setenta",
-          "textDa": "halvfjerds"
-        },
-        {
-          "textPt": "oitenta",
-          "textDa": "firs"
-        },
-        {
-          "textPt": "noventa",
-          "textDa": "halvfems"
-        },
-        {
-          "textPt": "cem",
-          "textDa": "hundrede"
-        },
-        {
-          "textPt": "euros",
-          "textDa": "euro"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "tal",
-          "explanationDa": "Tal fra 20 til 100 bruges ofte ved priser, alder og praktiske aftaler."
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "titleDa": "Halvfems",
-      "objectiveDa": "Træn: Det er halvfems kilometer.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "São noventa quilómetros.",
-          "textDa": "Det er halvfems kilometer.",
-          "grammarDa": "Noventa betyder 90."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "vinte",
-          "textDa": "tyve"
-        },
-        {
-          "textPt": "trinta",
-          "textDa": "tredive"
-        },
-        {
-          "textPt": "quarenta",
-          "textDa": "fyrre"
-        },
-        {
-          "textPt": "cinquenta",
-          "textDa": "halvtreds"
-        },
-        {
-          "textPt": "sessenta",
-          "textDa": "tres"
-        },
-        {
-          "textPt": "setenta",
-          "textDa": "halvfjerds"
-        },
-        {
-          "textPt": "oitenta",
-          "textDa": "firs"
-        },
-        {
-          "textPt": "noventa",
-          "textDa": "halvfems"
-        },
-        {
-          "textPt": "cem",
-          "textDa": "hundrede"
-        },
-        {
-          "textPt": "euros",
-          "textDa": "euro"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "tal",
-          "explanationDa": "Tal fra 20 til 100 bruges ofte ved priser, alder og praktiske aftaler."
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "titleDa": "Hundrede",
-      "objectiveDa": "Træn: Det koster hundrede euro.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Custa cem euros.",
-          "textDa": "Det koster hundrede euro.",
-          "grammarDa": "Cem betyder 100."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "vinte",
-          "textDa": "tyve"
-        },
-        {
-          "textPt": "trinta",
-          "textDa": "tredive"
-        },
-        {
-          "textPt": "quarenta",
-          "textDa": "fyrre"
-        },
-        {
-          "textPt": "cinquenta",
-          "textDa": "halvtreds"
-        },
-        {
-          "textPt": "sessenta",
-          "textDa": "tres"
-        },
-        {
-          "textPt": "setenta",
-          "textDa": "halvfjerds"
-        },
-        {
-          "textPt": "oitenta",
-          "textDa": "firs"
-        },
-        {
-          "textPt": "noventa",
-          "textDa": "halvfems"
-        },
-        {
-          "textPt": "cem",
-          "textDa": "hundrede"
-        },
-        {
-          "textPt": "euros",
-          "textDa": "euro"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "tal",
-          "explanationDa": "Tal fra 20 til 100 bruges ofte ved priser, alder og praktiske aftaler."
-        }
-      ]
-    },
-    {
-      "id": 10,
-      "titleDa": "Telefon",
-      "objectiveDa": "Træn: Mit nummer har ni cifre.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "O meu número tem nove dígitos.",
-          "textDa": "Mit nummer har ni cifre.",
-          "grammarDa": "Dígitos betyder cifre."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "vinte",
-          "textDa": "tyve"
-        },
-        {
-          "textPt": "trinta",
-          "textDa": "tredive"
-        },
-        {
-          "textPt": "quarenta",
-          "textDa": "fyrre"
-        },
-        {
-          "textPt": "cinquenta",
-          "textDa": "halvtreds"
-        },
-        {
-          "textPt": "sessenta",
-          "textDa": "tres"
-        },
-        {
-          "textPt": "setenta",
-          "textDa": "halvfjerds"
-        },
-        {
-          "textPt": "oitenta",
-          "textDa": "firs"
-        },
-        {
-          "textPt": "noventa",
-          "textDa": "halvfems"
-        },
-        {
-          "textPt": "cem",
-          "textDa": "hundrede"
-        },
-        {
-          "textPt": "euros",
-          "textDa": "euro"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "tal",
-          "explanationDa": "Tal fra 20 til 100 bruges ofte ved priser, alder og praktiske aftaler."
-        }
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": 1,
-      "questionDa": "Hvilken sætning betyder: Det koster tyve euro.",
-      "answers": [
-        {
-          "text": "Custa vinte euros.",
-          "correct": true
-        },
-        {
-          "text": "Tenho trinta anos.",
-          "correct": false
-        },
-        {
-          "text": "São quarenta euros.",
-          "correct": false
-        },
-        {
-          "text": "O número é cinquenta.",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Vinte betyder 20."
-    },
-    {
-      "id": 2,
-      "questionDa": "Hvad betyder: Tenho trinta anos.",
-      "answers": [
-        {
-          "text": "Jeg er tredive år.",
-          "correct": true
-        },
-        {
-          "text": "Det koster tyve euro.",
-          "correct": false
-        },
-        {
-          "text": "Det er fyrre euro.",
-          "correct": false
-        },
-        {
-          "text": "Det er tres minutter.",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Trinta betyder 30."
-    },
-    {
-      "id": 3,
-      "questionDa": "Hvilket tema træner denne lektion mest?",
-      "answers": [
-        {
-          "text": "Tal 20-100",
-          "correct": true
-        },
-        {
-          "text": "Kun farver",
-          "correct": false
-        },
-        {
-          "text": "Kun alfabetet",
-          "correct": false
-        },
-        {
-          "text": "Kun dyr",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Brug tal til priser, alder, telefonnumre og klokkeslæt."
-    },
-    {
-      "id": 4,
-      "questionDa": "Vælg den portugisiske frase fra dialogen \"Fyrre\".",
-      "answers": [
-        {
-          "text": "São quarenta euros.",
-          "correct": true
-        },
-        {
-          "text": "Det er fyrre euro.",
-          "correct": false
-        },
-        {
-          "text": "Det koster tyve euro.",
-          "correct": false
-        },
-        {
-          "text": "Jeg er tredive år.",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Quarenta betyder 40."
-    },
-    {
-      "id": 5,
-      "questionDa": "Hvad skal brugeren især øve her?",
-      "answers": [
-        {
-          "text": "tal",
-          "correct": true
-        },
-        {
-          "text": "Engelsk udtale",
-          "correct": false
-        },
-        {
-          "text": "Danske talord",
-          "correct": false
-        },
-        {
-          "text": "Tyske kasus",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Tal fra 20 til 100 bruges ofte ved priser, alder og praktiske aftaler."
-    }
-  ],
-  "storyTitleDa": "Kort dialog: Tal 20-100",
-  "storyObjectiveDa": "L?s en sammenh?ngende mini-dialog med kendte fraser fra lektionen.",
-  "story": [
-    {
-      "speaker": "A",
-      "textPt": "Ol?.",
-      "textDa": "Hej.",
-      "grammarDa": "Kort hilsen."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Ol?. Como est??",
-      "textDa": "Hej. Hvordan har du det?",
-      "grammarDa": "Est? kommer af estar."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Estou bem, obrigado.",
-      "textDa": "Jeg har det godt, tak.",
-      "grammarDa": "Estou bruges om en midlertidig tilstand."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Hoje praticamos Tal 20-100.",
-      "textDa": "I dag ?ver vi Tal 20-100.",
-      "grammarDa": "Praticamos betyder vi ?ver."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Tenho uma pergunta.",
-      "textDa": "Jeg har et sp?rgsm?l.",
-      "grammarDa": "Tenho kommer af ter."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Claro, diga devagar.",
-      "textDa": "Selvf?lgelig, sig det langsomt.",
-      "grammarDa": "Diga er en h?flig opfordring."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Como se diz isto em portugu?s?",
-      "textDa": "Hvordan siger man dette p? portugisisk?",
-      "grammarDa": "Como se diz bruges til at sp?rge om ord."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Dizemos uma frase curta.",
-      "textDa": "Vi siger en kort s?tning.",
-      "grammarDa": "Uma frase curta betyder en kort s?tning."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Repito a frase.",
-      "textDa": "Jeg gentager s?tningen.",
-      "grammarDa": "Repito betyder jeg gentager."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Muito bem.",
-      "textDa": "Meget fint.",
-      "grammarDa": "Muito bem er positiv feedback."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Obrigado pela ajuda.",
-      "textDa": "Tak for hj?lpen.",
-      "grammarDa": "Obrigado bruges af en mand; obrigada af en kvinde."
-    },
-    {
-      "speaker": "B",
-      "textPt": "At? j?.",
-      "textDa": "Vi ses snart.",
-      "grammarDa": "At? j? er en almindelig afslutning."
-    }
-  ]
+    "id":  5,
+    "titleDa":  "Tal 20-100",
+    "descriptionDa":  "Brug tal til priser, alder, telefonnumre og klokkeslæt.",
+    "dialogues":  [
+                      {
+                          "id":  1,
+                          "titleDa":  "Tyve",
+                          "objectiveDa":  "Træn: Det koster tyve euro.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Custa vinte euros.",
+                                              "textDa":  "Det koster tyve euro.",
+                                              "grammarDa":  "Vinte betyder 20."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "vinte",
+                                                 "textDa":  "tyve"
+                                             },
+                                             {
+                                                 "textPt":  "trinta",
+                                                 "textDa":  "tredive"
+                                             },
+                                             {
+                                                 "textPt":  "quarenta",
+                                                 "textDa":  "fyrre"
+                                             },
+                                             {
+                                                 "textPt":  "cinquenta",
+                                                 "textDa":  "halvtreds"
+                                             },
+                                             {
+                                                 "textPt":  "sessenta",
+                                                 "textDa":  "tres"
+                                             },
+                                             {
+                                                 "textPt":  "setenta",
+                                                 "textDa":  "halvfjerds"
+                                             },
+                                             {
+                                                 "textPt":  "oitenta",
+                                                 "textDa":  "firs"
+                                             },
+                                             {
+                                                 "textPt":  "noventa",
+                                                 "textDa":  "halvfems"
+                                             },
+                                             {
+                                                 "textPt":  "cem",
+                                                 "textDa":  "hundrede"
+                                             },
+                                             {
+                                                 "textPt":  "euros",
+                                                 "textDa":  "euro"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "tal",
+                                              "explanationDa":  "Tal fra 20 til 100 bruges ofte ved priser, alder og praktiske aftaler."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  2,
+                          "titleDa":  "Tredive",
+                          "objectiveDa":  "Træn: Jeg er tredive år.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Tenho trinta anos.",
+                                              "textDa":  "Jeg er tredive år.",
+                                              "grammarDa":  "Trinta betyder 30."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "vinte",
+                                                 "textDa":  "tyve"
+                                             },
+                                             {
+                                                 "textPt":  "trinta",
+                                                 "textDa":  "tredive"
+                                             },
+                                             {
+                                                 "textPt":  "quarenta",
+                                                 "textDa":  "fyrre"
+                                             },
+                                             {
+                                                 "textPt":  "cinquenta",
+                                                 "textDa":  "halvtreds"
+                                             },
+                                             {
+                                                 "textPt":  "sessenta",
+                                                 "textDa":  "tres"
+                                             },
+                                             {
+                                                 "textPt":  "setenta",
+                                                 "textDa":  "halvfjerds"
+                                             },
+                                             {
+                                                 "textPt":  "oitenta",
+                                                 "textDa":  "firs"
+                                             },
+                                             {
+                                                 "textPt":  "noventa",
+                                                 "textDa":  "halvfems"
+                                             },
+                                             {
+                                                 "textPt":  "cem",
+                                                 "textDa":  "hundrede"
+                                             },
+                                             {
+                                                 "textPt":  "euros",
+                                                 "textDa":  "euro"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "tal",
+                                              "explanationDa":  "Tal fra 20 til 100 bruges ofte ved priser, alder og praktiske aftaler."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  3,
+                          "titleDa":  "Fyrre",
+                          "objectiveDa":  "Træn: Det er fyrre euro.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "São quarenta euros.",
+                                              "textDa":  "Det er fyrre euro.",
+                                              "grammarDa":  "Quarenta betyder 40."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "vinte",
+                                                 "textDa":  "tyve"
+                                             },
+                                             {
+                                                 "textPt":  "trinta",
+                                                 "textDa":  "tredive"
+                                             },
+                                             {
+                                                 "textPt":  "quarenta",
+                                                 "textDa":  "fyrre"
+                                             },
+                                             {
+                                                 "textPt":  "cinquenta",
+                                                 "textDa":  "halvtreds"
+                                             },
+                                             {
+                                                 "textPt":  "sessenta",
+                                                 "textDa":  "tres"
+                                             },
+                                             {
+                                                 "textPt":  "setenta",
+                                                 "textDa":  "halvfjerds"
+                                             },
+                                             {
+                                                 "textPt":  "oitenta",
+                                                 "textDa":  "firs"
+                                             },
+                                             {
+                                                 "textPt":  "noventa",
+                                                 "textDa":  "halvfems"
+                                             },
+                                             {
+                                                 "textPt":  "cem",
+                                                 "textDa":  "hundrede"
+                                             },
+                                             {
+                                                 "textPt":  "euros",
+                                                 "textDa":  "euro"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "tal",
+                                              "explanationDa":  "Tal fra 20 til 100 bruges ofte ved priser, alder og praktiske aftaler."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  4,
+                          "titleDa":  "Halvtreds",
+                          "objectiveDa":  "Træn: Nummeret er halvtreds.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "O número é cinquenta.",
+                                              "textDa":  "Nummeret er halvtreds.",
+                                              "grammarDa":  "Cinquenta betyder 50."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "vinte",
+                                                 "textDa":  "tyve"
+                                             },
+                                             {
+                                                 "textPt":  "trinta",
+                                                 "textDa":  "tredive"
+                                             },
+                                             {
+                                                 "textPt":  "quarenta",
+                                                 "textDa":  "fyrre"
+                                             },
+                                             {
+                                                 "textPt":  "cinquenta",
+                                                 "textDa":  "halvtreds"
+                                             },
+                                             {
+                                                 "textPt":  "sessenta",
+                                                 "textDa":  "tres"
+                                             },
+                                             {
+                                                 "textPt":  "setenta",
+                                                 "textDa":  "halvfjerds"
+                                             },
+                                             {
+                                                 "textPt":  "oitenta",
+                                                 "textDa":  "firs"
+                                             },
+                                             {
+                                                 "textPt":  "noventa",
+                                                 "textDa":  "halvfems"
+                                             },
+                                             {
+                                                 "textPt":  "cem",
+                                                 "textDa":  "hundrede"
+                                             },
+                                             {
+                                                 "textPt":  "euros",
+                                                 "textDa":  "euro"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "tal",
+                                              "explanationDa":  "Tal fra 20 til 100 bruges ofte ved priser, alder og praktiske aftaler."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  5,
+                          "titleDa":  "Tres",
+                          "objectiveDa":  "Træn: Det er tres minutter.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "São sessenta minutos.",
+                                              "textDa":  "Det er tres minutter.",
+                                              "grammarDa":  "Sessenta betyder 60."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "vinte",
+                                                 "textDa":  "tyve"
+                                             },
+                                             {
+                                                 "textPt":  "trinta",
+                                                 "textDa":  "tredive"
+                                             },
+                                             {
+                                                 "textPt":  "quarenta",
+                                                 "textDa":  "fyrre"
+                                             },
+                                             {
+                                                 "textPt":  "cinquenta",
+                                                 "textDa":  "halvtreds"
+                                             },
+                                             {
+                                                 "textPt":  "sessenta",
+                                                 "textDa":  "tres"
+                                             },
+                                             {
+                                                 "textPt":  "setenta",
+                                                 "textDa":  "halvfjerds"
+                                             },
+                                             {
+                                                 "textPt":  "oitenta",
+                                                 "textDa":  "firs"
+                                             },
+                                             {
+                                                 "textPt":  "noventa",
+                                                 "textDa":  "halvfems"
+                                             },
+                                             {
+                                                 "textPt":  "cem",
+                                                 "textDa":  "hundrede"
+                                             },
+                                             {
+                                                 "textPt":  "euros",
+                                                 "textDa":  "euro"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "tal",
+                                              "explanationDa":  "Tal fra 20 til 100 bruges ofte ved priser, alder og praktiske aftaler."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  6,
+                          "titleDa":  "Halvfjerds",
+                          "objectiveDa":  "Træn: Jeg har halvfjerds cent.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Tenho setenta cêntimos.",
+                                              "textDa":  "Jeg har halvfjerds cent.",
+                                              "grammarDa":  "Setenta betyder 70."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "vinte",
+                                                 "textDa":  "tyve"
+                                             },
+                                             {
+                                                 "textPt":  "trinta",
+                                                 "textDa":  "tredive"
+                                             },
+                                             {
+                                                 "textPt":  "quarenta",
+                                                 "textDa":  "fyrre"
+                                             },
+                                             {
+                                                 "textPt":  "cinquenta",
+                                                 "textDa":  "halvtreds"
+                                             },
+                                             {
+                                                 "textPt":  "sessenta",
+                                                 "textDa":  "tres"
+                                             },
+                                             {
+                                                 "textPt":  "setenta",
+                                                 "textDa":  "halvfjerds"
+                                             },
+                                             {
+                                                 "textPt":  "oitenta",
+                                                 "textDa":  "firs"
+                                             },
+                                             {
+                                                 "textPt":  "noventa",
+                                                 "textDa":  "halvfems"
+                                             },
+                                             {
+                                                 "textPt":  "cem",
+                                                 "textDa":  "hundrede"
+                                             },
+                                             {
+                                                 "textPt":  "euros",
+                                                 "textDa":  "euro"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "tal",
+                                              "explanationDa":  "Tal fra 20 til 100 bruges ofte ved priser, alder og praktiske aftaler."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  7,
+                          "titleDa":  "Firs",
+                          "objectiveDa":  "Træn: Billetten koster firs euro.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "O bilhete custa oitenta euros.",
+                                              "textDa":  "Billetten koster firs euro.",
+                                              "grammarDa":  "Oitenta betyder 80."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "vinte",
+                                                 "textDa":  "tyve"
+                                             },
+                                             {
+                                                 "textPt":  "trinta",
+                                                 "textDa":  "tredive"
+                                             },
+                                             {
+                                                 "textPt":  "quarenta",
+                                                 "textDa":  "fyrre"
+                                             },
+                                             {
+                                                 "textPt":  "cinquenta",
+                                                 "textDa":  "halvtreds"
+                                             },
+                                             {
+                                                 "textPt":  "sessenta",
+                                                 "textDa":  "tres"
+                                             },
+                                             {
+                                                 "textPt":  "setenta",
+                                                 "textDa":  "halvfjerds"
+                                             },
+                                             {
+                                                 "textPt":  "oitenta",
+                                                 "textDa":  "firs"
+                                             },
+                                             {
+                                                 "textPt":  "noventa",
+                                                 "textDa":  "halvfems"
+                                             },
+                                             {
+                                                 "textPt":  "cem",
+                                                 "textDa":  "hundrede"
+                                             },
+                                             {
+                                                 "textPt":  "euros",
+                                                 "textDa":  "euro"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "tal",
+                                              "explanationDa":  "Tal fra 20 til 100 bruges ofte ved priser, alder og praktiske aftaler."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  8,
+                          "titleDa":  "Halvfems",
+                          "objectiveDa":  "Træn: Det er halvfems kilometer.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "São noventa quilómetros.",
+                                              "textDa":  "Det er halvfems kilometer.",
+                                              "grammarDa":  "Noventa betyder 90."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "vinte",
+                                                 "textDa":  "tyve"
+                                             },
+                                             {
+                                                 "textPt":  "trinta",
+                                                 "textDa":  "tredive"
+                                             },
+                                             {
+                                                 "textPt":  "quarenta",
+                                                 "textDa":  "fyrre"
+                                             },
+                                             {
+                                                 "textPt":  "cinquenta",
+                                                 "textDa":  "halvtreds"
+                                             },
+                                             {
+                                                 "textPt":  "sessenta",
+                                                 "textDa":  "tres"
+                                             },
+                                             {
+                                                 "textPt":  "setenta",
+                                                 "textDa":  "halvfjerds"
+                                             },
+                                             {
+                                                 "textPt":  "oitenta",
+                                                 "textDa":  "firs"
+                                             },
+                                             {
+                                                 "textPt":  "noventa",
+                                                 "textDa":  "halvfems"
+                                             },
+                                             {
+                                                 "textPt":  "cem",
+                                                 "textDa":  "hundrede"
+                                             },
+                                             {
+                                                 "textPt":  "euros",
+                                                 "textDa":  "euro"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "tal",
+                                              "explanationDa":  "Tal fra 20 til 100 bruges ofte ved priser, alder og praktiske aftaler."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  9,
+                          "titleDa":  "Hundrede",
+                          "objectiveDa":  "Træn: Det koster hundrede euro.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Custa cem euros.",
+                                              "textDa":  "Det koster hundrede euro.",
+                                              "grammarDa":  "Cem betyder 100."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "vinte",
+                                                 "textDa":  "tyve"
+                                             },
+                                             {
+                                                 "textPt":  "trinta",
+                                                 "textDa":  "tredive"
+                                             },
+                                             {
+                                                 "textPt":  "quarenta",
+                                                 "textDa":  "fyrre"
+                                             },
+                                             {
+                                                 "textPt":  "cinquenta",
+                                                 "textDa":  "halvtreds"
+                                             },
+                                             {
+                                                 "textPt":  "sessenta",
+                                                 "textDa":  "tres"
+                                             },
+                                             {
+                                                 "textPt":  "setenta",
+                                                 "textDa":  "halvfjerds"
+                                             },
+                                             {
+                                                 "textPt":  "oitenta",
+                                                 "textDa":  "firs"
+                                             },
+                                             {
+                                                 "textPt":  "noventa",
+                                                 "textDa":  "halvfems"
+                                             },
+                                             {
+                                                 "textPt":  "cem",
+                                                 "textDa":  "hundrede"
+                                             },
+                                             {
+                                                 "textPt":  "euros",
+                                                 "textDa":  "euro"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "tal",
+                                              "explanationDa":  "Tal fra 20 til 100 bruges ofte ved priser, alder og praktiske aftaler."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  10,
+                          "titleDa":  "Telefon",
+                          "objectiveDa":  "Træn: Mit nummer har ni cifre.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "O meu número tem nove dígitos.",
+                                              "textDa":  "Mit nummer har ni cifre.",
+                                              "grammarDa":  "Dígitos betyder cifre."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "vinte",
+                                                 "textDa":  "tyve"
+                                             },
+                                             {
+                                                 "textPt":  "trinta",
+                                                 "textDa":  "tredive"
+                                             },
+                                             {
+                                                 "textPt":  "quarenta",
+                                                 "textDa":  "fyrre"
+                                             },
+                                             {
+                                                 "textPt":  "cinquenta",
+                                                 "textDa":  "halvtreds"
+                                             },
+                                             {
+                                                 "textPt":  "sessenta",
+                                                 "textDa":  "tres"
+                                             },
+                                             {
+                                                 "textPt":  "setenta",
+                                                 "textDa":  "halvfjerds"
+                                             },
+                                             {
+                                                 "textPt":  "oitenta",
+                                                 "textDa":  "firs"
+                                             },
+                                             {
+                                                 "textPt":  "noventa",
+                                                 "textDa":  "halvfems"
+                                             },
+                                             {
+                                                 "textPt":  "cem",
+                                                 "textDa":  "hundrede"
+                                             },
+                                             {
+                                                 "textPt":  "euros",
+                                                 "textDa":  "euro"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "tal",
+                                              "explanationDa":  "Tal fra 20 til 100 bruges ofte ved priser, alder og praktiske aftaler."
+                                          }
+                                      ]
+                      }
+                  ],
+    "quiz":  [
+                 {
+                     "id":  1,
+                     "questionDa":  "Hvilken sætning betyder: Det koster tyve euro.",
+                     "answers":  [
+                                     {
+                                         "text":  "Custa vinte euros.",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Tenho trinta anos.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "São quarenta euros.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "O número é cinquenta.",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Vinte betyder 20."
+                 },
+                 {
+                     "id":  2,
+                     "questionDa":  "Hvad betyder: Tenho trinta anos.",
+                     "answers":  [
+                                     {
+                                         "text":  "Jeg er tredive år.",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Det koster tyve euro.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Det er fyrre euro.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Det er tres minutter.",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Trinta betyder 30."
+                 },
+                 {
+                     "id":  3,
+                     "questionDa":  "Hvilket tema træner denne lektion mest?",
+                     "answers":  [
+                                     {
+                                         "text":  "Tal 20-100",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Kun farver",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Kun alfabetet",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Kun dyr",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Brug tal til priser, alder, telefonnumre og klokkeslæt."
+                 },
+                 {
+                     "id":  4,
+                     "questionDa":  "Vælg den portugisiske frase fra dialogen \"Fyrre\".",
+                     "answers":  [
+                                     {
+                                         "text":  "São quarenta euros.",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Det er fyrre euro.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Det koster tyve euro.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Jeg er tredive år.",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Quarenta betyder 40."
+                 },
+                 {
+                     "id":  5,
+                     "questionDa":  "Hvad skal brugeren især øve her?",
+                     "answers":  [
+                                     {
+                                         "text":  "tal",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Engelsk udtale",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Danske talord",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Tyske kasus",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Tal fra 20 til 100 bruges ofte ved priser, alder og praktiske aftaler."
+                 }
+             ],
+    "storyTitleDa":  "Kort dialog: Tal 20-100",
+    "storyObjectiveDa":  "Læs en sammenhængende mini-dialog med kendte fraser fra lektionen.",
+    "story":  [
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Olá.",
+                      "textDa":  "Hej.",
+                      "grammarDa":  "Kort hilsen."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Olá. Como está?",
+                      "textDa":  "Hej. Hvordan har du det?",
+                      "grammarDa":  "Está kommer af estar."
+                  },
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Estou bem, obrigado.",
+                      "textDa":  "Jeg har det godt, tak.",
+                      "grammarDa":  "Estou bruges om en midlertidig tilstand."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Hoje praticamos uma conversa curta.",
+                      "textDa":  "I dag øver vi en kort samtale.",
+                      "grammarDa":  "Praticamos betyder vi øver."
+                  },
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Tenho uma pergunta.",
+                      "textDa":  "Jeg har et spørgsmål.",
+                      "grammarDa":  "Tenho kommer af ter."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Claro, diga devagar.",
+                      "textDa":  "Selvfølgelig, sig det langsomt.",
+                      "grammarDa":  "Diga er en høflig opfordring."
+                  },
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Como se diz isto em português?",
+                      "textDa":  "Hvordan siger man dette på portugisisk?",
+                      "grammarDa":  "Como se diz bruges til at spørge om ord."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Dizemos uma frase curta.",
+                      "textDa":  "Vi siger en kort sætning.",
+                      "grammarDa":  "Uma frase curta betyder en kort sætning."
+                  },
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Repito a frase.",
+                      "textDa":  "Jeg gentager sætningen.",
+                      "grammarDa":  "Repito betyder jeg gentager."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Muito bem.",
+                      "textDa":  "Meget fint.",
+                      "grammarDa":  "Muito bem er positiv feedback."
+                  },
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Obrigado pela ajuda.",
+                      "textDa":  "Tak for hjælpen.",
+                      "grammarDa":  "Obrigado bruges af en mand; obrigada af en kvinde."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Até já.",
+                      "textDa":  "Vi ses snart.",
+                      "grammarDa":  "Até já er en almindelig afslutning."
+                  }
+              ]
 }

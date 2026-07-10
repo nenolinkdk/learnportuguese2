@@ -1,350 +1,390 @@
 {
-  "id": 5,
-  "titleDa": "Mad",
-  "descriptionDa": "Lær at tale om mad, drikke og simple ønsker.",
-  "dialogues": [
-    {
-      "id": 1,
-      "titleDa": "Sulten",
-      "objectiveDa": "Sig at du er sulten.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Tenho fome.",
-          "textDa": "Jeg er sulten.",
-          "grammarDa": "Portugisisk bruger jeg har sult."
-        }
-      ],
-      "vocabulary": [],
-      "grammar": []
-    },
-    {
-      "id": 2,
-      "titleDa": "Tørstig",
-      "objectiveDa": "Sig at du er tørstig.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Tenho sede.",
-          "textDa": "Jeg er tørstig.",
-          "grammarDa": "Tenho sede betyder bogstaveligt jeg har tørst."
-        }
-      ],
-      "vocabulary": [],
-      "grammar": []
-    },
-    {
-      "id": 3,
-      "titleDa": "Vand",
-      "objectiveDa": "Bed om vand.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Quero água, por favor.",
-          "textDa": "Jeg vil gerne have vand, tak.",
-          "grammarDa": "Quero betyder jeg vil gerne have."
-        }
-      ],
-      "vocabulary": [],
-      "grammar": []
-    },
-    {
-      "id": 4,
-      "titleDa": "Brød",
-      "objectiveDa": "Bed om brød.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Tem pão?",
-          "textDa": "Har De brød?",
-          "grammarDa": "Tem kan betyde har De/du."
-        }
-      ],
-      "vocabulary": [],
-      "grammar": []
-    },
-    {
-      "id": 5,
-      "titleDa": "Kaffe",
-      "objectiveDa": "Bestil kaffe.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Um café, por favor.",
-          "textDa": "En kaffe, tak.",
-          "grammarDa": "Kort bestilling med por favor er høflig."
-        }
-      ],
-      "vocabulary": [],
-      "grammar": []
-    },
-    {
-      "id": 6,
-      "titleDa": "Menu",
-      "objectiveDa": "Spørg efter menuen.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Posso ver o menu?",
-          "textDa": "Må jeg se menuen?",
-          "grammarDa": "Posso betyder må/kan jeg."
-        }
-      ],
-      "vocabulary": [],
-      "grammar": []
-    },
-    {
-      "id": 7,
-      "titleDa": "Vegetarisk",
-      "objectiveDa": "Spørg efter vegetarisk mad.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Tem comida vegetariana?",
-          "textDa": "Har De vegetarisk mad?",
-          "grammarDa": "Comida betyder mad."
-        }
-      ],
-      "vocabulary": [],
-      "grammar": []
-    },
-    {
-      "id": 8,
-      "titleDa": "Godt",
-      "objectiveDa": "Sig at maden er god.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "A comida está muito boa.",
-          "textDa": "Maden er meget god.",
-          "grammarDa": "Está bruges om oplevelse/tilstand."
-        }
-      ],
-      "vocabulary": [],
-      "grammar": []
-    },
-    {
-      "id": 9,
-      "titleDa": "Mere",
-      "objectiveDa": "Bed om lidt mere.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Mais um pouco, por favor.",
-          "textDa": "Lidt mere, tak.",
-          "grammarDa": "Mais betyder mere."
-        }
-      ],
-      "vocabulary": [],
-      "grammar": []
-    },
-    {
-      "id": 10,
-      "titleDa": "Færdig",
-      "objectiveDa": "Sig at du er færdig.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Já terminei.",
-          "textDa": "Jeg er færdig.",
-          "grammarDa": "Já kan betyde allerede/nu."
-        }
-      ],
-      "vocabulary": [],
-      "grammar": []
-    }
-  ],
-  "quiz": [
-    {
-      "id": 1,
-      "questionDa": "Hvordan siger man Jeg er sulten?",
-      "answers": [
-        {
-          "text": "Tenho fome.",
-          "correct": true
-        },
-        {
-          "text": "Tenho sede.",
-          "correct": false
-        },
-        {
-          "text": "Já terminei.",
-          "correct": false
-        },
-        {
-          "text": "Mais um pouco.",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Portugisisk bruger udtrykket jeg har sult."
-    },
-    {
-      "id": 2,
-      "questionDa": "Hvilken frase betyder Jeg vil gerne have vand, tak?",
-      "answers": [
-        {
-          "text": "Quero água, por favor.",
-          "correct": true
-        },
-        {
-          "text": "Um café, por favor.",
-          "correct": false
-        },
-        {
-          "text": "Tem pão?",
-          "correct": false
-        },
-        {
-          "text": "Posso ver o menu?",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Quero betyder jeg vil gerne have."
-    },
-    {
-      "id": 3,
-      "questionDa": "Hvordan spørger man Har De brød?",
-      "answers": [
-        {
-          "text": "Tem pão?",
-          "correct": true
-        },
-        {
-          "text": "Tem comida vegetariana?",
-          "correct": false
-        },
-        {
-          "text": "Tenho sede.",
-          "correct": false
-        },
-        {
-          "text": "Já terminei.",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Tem kan betyde har De eller har du."
-    },
-    {
-      "id": 4,
-      "questionDa": "Hvilken frase betyder Maden er meget god?",
-      "answers": [
-        {
-          "text": "A comida está muito boa.",
-          "correct": true
-        },
-        {
-          "text": "Mais um pouco, por favor.",
-          "correct": false
-        },
-        {
-          "text": "Quero água, por favor.",
-          "correct": false
-        },
-        {
-          "text": "Tenho fome.",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Está bruges om oplevelse eller tilstand."
-    },
-    {
-      "id": 5,
-      "questionDa": "Hvordan siger man Jeg er færdig?",
-      "answers": [
-        {
-          "text": "Já terminei.",
-          "correct": true
-        },
-        {
-          "text": "Tenho sede.",
-          "correct": false
-        },
-        {
-          "text": "Tem pão?",
-          "correct": false
-        },
-        {
-          "text": "Posso ver o menu?",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Já terminei betyder jeg er færdig."
-    }
-  ],
-  "storyTitleDa": "Kort dialog: Mad",
-  "storyObjectiveDa": "L?s en sammenh?ngende mini-dialog med kendte fraser fra lektionen.",
-  "story": [
-    {
-      "speaker": "A",
-      "textPt": "Ol?.",
-      "textDa": "Hej.",
-      "grammarDa": "Kort hilsen."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Ol?. Como est??",
-      "textDa": "Hej. Hvordan har du det?",
-      "grammarDa": "Est? kommer af estar."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Estou bem, obrigado.",
-      "textDa": "Jeg har det godt, tak.",
-      "grammarDa": "Estou bruges om en midlertidig tilstand."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Hoje praticamos Mad.",
-      "textDa": "I dag ?ver vi Mad.",
-      "grammarDa": "Praticamos betyder vi ?ver."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Tenho uma pergunta.",
-      "textDa": "Jeg har et sp?rgsm?l.",
-      "grammarDa": "Tenho kommer af ter."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Claro, diga devagar.",
-      "textDa": "Selvf?lgelig, sig det langsomt.",
-      "grammarDa": "Diga er en h?flig opfordring."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Como se diz isto em portugu?s?",
-      "textDa": "Hvordan siger man dette p? portugisisk?",
-      "grammarDa": "Como se diz bruges til at sp?rge om ord."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Dizemos uma frase curta.",
-      "textDa": "Vi siger en kort s?tning.",
-      "grammarDa": "Uma frase curta betyder en kort s?tning."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Repito a frase.",
-      "textDa": "Jeg gentager s?tningen.",
-      "grammarDa": "Repito betyder jeg gentager."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Muito bem.",
-      "textDa": "Meget fint.",
-      "grammarDa": "Muito bem er positiv feedback."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Obrigado pela ajuda.",
-      "textDa": "Tak for hj?lpen.",
-      "grammarDa": "Obrigado bruges af en mand; obrigada af en kvinde."
-    },
-    {
-      "speaker": "B",
-      "textPt": "At? j?.",
-      "textDa": "Vi ses snart.",
-      "grammarDa": "At? j? er en almindelig afslutning."
-    }
-  ]
+    "id":  5,
+    "titleDa":  "Mad",
+    "descriptionDa":  "Lær at tale om mad, drikke og simple ønsker.",
+    "dialogues":  [
+                      {
+                          "id":  1,
+                          "titleDa":  "Sulten",
+                          "objectiveDa":  "Sig at du er sulten.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Tenho fome.",
+                                              "textDa":  "Jeg er sulten.",
+                                              "grammarDa":  "Portugisisk bruger jeg har sult."
+                                          }
+                                      ],
+                          "vocabulary":  [
+
+                                         ],
+                          "grammar":  [
+
+                                      ]
+                      },
+                      {
+                          "id":  2,
+                          "titleDa":  "Tørstig",
+                          "objectiveDa":  "Sig at du er tørstig.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Tenho sede.",
+                                              "textDa":  "Jeg er tørstig.",
+                                              "grammarDa":  "Tenho sede betyder bogstaveligt jeg har tørst."
+                                          }
+                                      ],
+                          "vocabulary":  [
+
+                                         ],
+                          "grammar":  [
+
+                                      ]
+                      },
+                      {
+                          "id":  3,
+                          "titleDa":  "Vand",
+                          "objectiveDa":  "Bed om vand.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Quero água, por favor.",
+                                              "textDa":  "Jeg vil gerne have vand, tak.",
+                                              "grammarDa":  "Quero betyder jeg vil gerne have."
+                                          }
+                                      ],
+                          "vocabulary":  [
+
+                                         ],
+                          "grammar":  [
+
+                                      ]
+                      },
+                      {
+                          "id":  4,
+                          "titleDa":  "Brød",
+                          "objectiveDa":  "Bed om brød.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Tem pão?",
+                                              "textDa":  "Har De brød?",
+                                              "grammarDa":  "Tem kan betyde har De/du."
+                                          }
+                                      ],
+                          "vocabulary":  [
+
+                                         ],
+                          "grammar":  [
+
+                                      ]
+                      },
+                      {
+                          "id":  5,
+                          "titleDa":  "Kaffe",
+                          "objectiveDa":  "Bestil kaffe.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Um café, por favor.",
+                                              "textDa":  "En kaffe, tak.",
+                                              "grammarDa":  "Kort bestilling med por favor er høflig."
+                                          }
+                                      ],
+                          "vocabulary":  [
+
+                                         ],
+                          "grammar":  [
+
+                                      ]
+                      },
+                      {
+                          "id":  6,
+                          "titleDa":  "Menu",
+                          "objectiveDa":  "Spørg efter menuen.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Posso ver o menu?",
+                                              "textDa":  "Må jeg se menuen?",
+                                              "grammarDa":  "Posso betyder må/kan jeg."
+                                          }
+                                      ],
+                          "vocabulary":  [
+
+                                         ],
+                          "grammar":  [
+
+                                      ]
+                      },
+                      {
+                          "id":  7,
+                          "titleDa":  "Vegetarisk",
+                          "objectiveDa":  "Spørg efter vegetarisk mad.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Tem comida vegetariana?",
+                                              "textDa":  "Har De vegetarisk mad?",
+                                              "grammarDa":  "Comida betyder mad."
+                                          }
+                                      ],
+                          "vocabulary":  [
+
+                                         ],
+                          "grammar":  [
+
+                                      ]
+                      },
+                      {
+                          "id":  8,
+                          "titleDa":  "Godt",
+                          "objectiveDa":  "Sig at maden er god.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "A comida está muito boa.",
+                                              "textDa":  "Maden er meget god.",
+                                              "grammarDa":  "Está bruges om oplevelse/tilstand."
+                                          }
+                                      ],
+                          "vocabulary":  [
+
+                                         ],
+                          "grammar":  [
+
+                                      ]
+                      },
+                      {
+                          "id":  9,
+                          "titleDa":  "Mere",
+                          "objectiveDa":  "Bed om lidt mere.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Mais um pouco, por favor.",
+                                              "textDa":  "Lidt mere, tak.",
+                                              "grammarDa":  "Mais betyder mere."
+                                          }
+                                      ],
+                          "vocabulary":  [
+
+                                         ],
+                          "grammar":  [
+
+                                      ]
+                      },
+                      {
+                          "id":  10,
+                          "titleDa":  "Færdig",
+                          "objectiveDa":  "Sig at du er færdig.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "A",
+                                              "textPt":  "Já terminei.",
+                                              "textDa":  "Jeg er færdig.",
+                                              "grammarDa":  "Já kan betyde allerede/nu."
+                                          }
+                                      ],
+                          "vocabulary":  [
+
+                                         ],
+                          "grammar":  [
+
+                                      ]
+                      }
+                  ],
+    "quiz":  [
+                 {
+                     "id":  1,
+                     "questionDa":  "Hvordan siger man Jeg er sulten?",
+                     "answers":  [
+                                     {
+                                         "text":  "Tenho fome.",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Tenho sede.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Já terminei.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Mais um pouco.",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Portugisisk bruger udtrykket jeg har sult."
+                 },
+                 {
+                     "id":  2,
+                     "questionDa":  "Hvilken frase betyder Jeg vil gerne have vand, tak?",
+                     "answers":  [
+                                     {
+                                         "text":  "Quero água, por favor.",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Um café, por favor.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Tem pão?",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Posso ver o menu?",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Quero betyder jeg vil gerne have."
+                 },
+                 {
+                     "id":  3,
+                     "questionDa":  "Hvordan spørger man Har De brød?",
+                     "answers":  [
+                                     {
+                                         "text":  "Tem pão?",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Tem comida vegetariana?",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Tenho sede.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Já terminei.",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Tem kan betyde har De eller har du."
+                 },
+                 {
+                     "id":  4,
+                     "questionDa":  "Hvilken frase betyder Maden er meget god?",
+                     "answers":  [
+                                     {
+                                         "text":  "A comida está muito boa.",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Mais um pouco, por favor.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Quero água, por favor.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Tenho fome.",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Está bruges om oplevelse eller tilstand."
+                 },
+                 {
+                     "id":  5,
+                     "questionDa":  "Hvordan siger man Jeg er færdig?",
+                     "answers":  [
+                                     {
+                                         "text":  "Já terminei.",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Tenho sede.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Tem pão?",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Posso ver o menu?",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Já terminei betyder jeg er færdig."
+                 }
+             ],
+    "storyTitleDa":  "Kort dialog: Mad",
+    "storyObjectiveDa":  "Læs en sammenhængende mini-dialog med kendte fraser fra lektionen.",
+    "story":  [
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Olá.",
+                      "textDa":  "Hej.",
+                      "grammarDa":  "Kort hilsen."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Olá. Como está?",
+                      "textDa":  "Hej. Hvordan har du det?",
+                      "grammarDa":  "Está kommer af estar."
+                  },
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Estou bem, obrigado.",
+                      "textDa":  "Jeg har det godt, tak.",
+                      "grammarDa":  "Estou bruges om en midlertidig tilstand."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Hoje praticamos uma conversa curta.",
+                      "textDa":  "I dag øver vi en kort samtale.",
+                      "grammarDa":  "Praticamos betyder vi øver."
+                  },
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Tenho uma pergunta.",
+                      "textDa":  "Jeg har et spørgsmål.",
+                      "grammarDa":  "Tenho kommer af ter."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Claro, diga devagar.",
+                      "textDa":  "Selvfølgelig, sig det langsomt.",
+                      "grammarDa":  "Diga er en høflig opfordring."
+                  },
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Como se diz isto em português?",
+                      "textDa":  "Hvordan siger man dette på portugisisk?",
+                      "grammarDa":  "Como se diz bruges til at spørge om ord."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Dizemos uma frase curta.",
+                      "textDa":  "Vi siger en kort sætning.",
+                      "grammarDa":  "Uma frase curta betyder en kort sætning."
+                  },
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Repito a frase.",
+                      "textDa":  "Jeg gentager sætningen.",
+                      "grammarDa":  "Repito betyder jeg gentager."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Muito bem.",
+                      "textDa":  "Meget fint.",
+                      "grammarDa":  "Muito bem er positiv feedback."
+                  },
+                  {
+                      "speaker":  "A",
+                      "textPt":  "Obrigado pela ajuda.",
+                      "textDa":  "Tak for hjælpen.",
+                      "grammarDa":  "Obrigado bruges af en mand; obrigada af en kvinde."
+                  },
+                  {
+                      "speaker":  "B",
+                      "textPt":  "Até já.",
+                      "textDa":  "Vi ses snart.",
+                      "grammarDa":  "Até já er en almindelig afslutning."
+                  }
+              ]
 }
