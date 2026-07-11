@@ -1,5 +1,19 @@
 # Changelog
 
+## Unreleased
+
+### Fixed
+
+- Corrected dialog Previous/Next behavior so crossing dialog boundaries stays deterministic: Next opens the first phrase of the next dialog and Previous opens the last phrase of the previous dialog.
+- Removed repeated feedback/helper phrases from children dialog navigation content.
+
+### Added
+
+- Added bundled offline Nenoling user guide for users and parents.
+- Added a main-menu book icon that opens the user guide without internet access.
+- Added validation script for dialog navigation/content checks.
+- Expanded children dialogs with age-appropriate mini-dialog content stored in JSON.
+
 ## 1.0 Local Release Candidate
 
 This version is a local APK release candidate for testing and private distribution.

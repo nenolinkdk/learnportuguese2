@@ -1,0 +1,39 @@
+{
+  "titleDa": "Nenoling guide",
+  "introDa": "Kort hjælp til LearnPortuguese2 for brugere og forældre.",
+  "sections": [
+    {
+      "titleDa": "Hvad er Nenoling?",
+      "bodyDa": "Nenoling er Nenolinks sprogprojekt med enkle offline-apps til sproglæring. LearnPortuguese2 hjælper danske brugere med at øve europæisk portugisisk i små, praktiske trin."
+    },
+    {
+      "titleDa": "Hvad indeholder LearnPortuguese2?",
+      "bodyDa": "Appen indeholder Level 1, Level 2 og et meget let børneniveau. Du kan øve dialoger, korte historier, ordforråd, tal 1-100, grammatik, quizzer og portugisisk udtale."
+    },
+    {
+      "titleDa": "Sådan vælger du niveau",
+      "bodyDa": "Åbn hovedmenuen og vælg Learn Portuguese 1, Learn Portuguese 2 eller Børn. Hvert niveau har lektionsknapper, dialoger og quizzer, som læses fra lokale JSON-filer."
+    },
+    {
+      "titleDa": "Dialoger og udtale",
+      "bodyDa": "Vælg en lektion og derefter en dialog. Brug Næste og Forrige til at gå gennem dialogens fraser i rækkefølge. Tryk på Udtal portugisisk for at bruge Android Text-to-Speech, hvis en portugisisk stemme er installeret."
+    },
+    {
+      "titleDa": "Quizzer",
+      "bodyDa": "Quiz-menuen har niveauquizzer, generel ordforrådsquiz og talquiz. Quizzerne hjælper med repetition og giver en enkel score efter gennemførsel."
+    },
+    {
+      "titleDa": "For børn og forældre",
+      "bodyDa": "Børneniveauet bruger korte, praktiske sætninger om navn, alder, leg, skole, mad, hjælp og at være faret vild. Børn bør bruge appen med passende voksenvejledning, især ved rejser eller situationer hvor sikkerhed er vigtig."
+    },
+    {
+      "titleDa": "Vigtigt om sikkerhed",
+      "bodyDa": "LearnPortuguese2 er sprogstøtte og ikke nødhjælp. Ved fare, sygdom eller akut behov for hjælp skal man kontakte en voksen, lokale myndigheder eller alarmnummeret."
+    },
+    {
+      "titleDa": "Mere information",
+      "bodyDa": "Se Nenoling- og Nenolink-information i appens dokumentation og fremtidige Nenoling-materialer."
+    }
+  ],
+  "footerDa": "© Nenolink - Henrik Nielsen"
+}

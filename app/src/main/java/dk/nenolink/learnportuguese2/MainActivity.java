@@ -18,6 +18,9 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import org.json.JSONArray;
+import org.json.JSONObject;
+
 import dk.nenolink.learnportuguese2.data.datastore.ProgressRepository;
 import dk.nenolink.learnportuguese2.data.model.Dialogue;
 import dk.nenolink.learnportuguese2.data.model.GrammarNote;
@@ -29,7 +32,11 @@ import dk.nenolink.learnportuguese2.data.model.QuizQuestion;
 import dk.nenolink.learnportuguese2.data.model.VocabularyItem;
 import dk.nenolink.learnportuguese2.data.repository.LessonRepository;
 
+import java.io.BufferedReader;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -59,6 +66,7 @@ public class MainActivity extends Activity {
     private static final String EMPTY_VOCABULARY = "Ingen ordlistenoter endnu.";
     private static final String EMPTY_GRAMMAR = "Ingen grammatiknote endnu.";
     private static final String FOOTER_TEXT = "\u00a9 Nenolink - Henrik Nielsen";
+    private static final String USER_GUIDE_ASSET = "docs/user_guide.json";
 
     private List<Level> levels = Collections.emptyList();
     private List<Lesson> lessons = Collections.emptyList();
@@ -77,6 +85,7 @@ public class MainActivity extends Activity {
     private int quizCorrectAnswers = 0;
     private int numberQuizIndex = 0;
     private int numberQuizCorrectAnswers = 0;
+    private int pendingDialoguePhraseIndex = 0;
     private int selectedLevel = DEFAULT_LEVEL;
     private Level selectedLevelInfo = createFallbackLevel(DEFAULT_LEVEL);
     private String startupErrorMessage;
@@ -246,9 +255,15 @@ public class MainActivity extends Activity {
         numbersButton.setOnClickListener(v -> showNumbers());
         contentRoot.addView(numbersButton, compactWrap());
 
+        LinearLayout utilityRow = horizontalRow();
+        Button guideIcon = settingsButton("\uD83D\uDCD6");
+        guideIcon.setOnClickListener(v -> showUserGuide());
+        utilityRow.addView(guideIcon, rowButtonParams(false));
+
         Button settingsIcon = settingsButton("\u2699");
         settingsIcon.setOnClickListener(v -> showSettings());
-        contentRoot.addView(settingsIcon, iconWrap());
+        utilityRow.addView(settingsIcon, rowButtonParams(true));
+        contentRoot.addView(utilityRow, iconRowWrap());
     }
 
     private void showLessonList() {
@@ -489,7 +504,8 @@ public class MainActivity extends Activity {
         glossaryView = panel("Ordliste");
         contentRoot.addView(glossaryView, matchWrap());
 
-        showPhrase(0);
+        showPhrase(pendingDialoguePhraseIndex);
+        pendingDialoguePhraseIndex = 0;
     }
 
     private void showStory(Lesson lesson) {
@@ -589,7 +605,7 @@ public class MainActivity extends Activity {
             return;
         }
 
-        if (currentScreen == Screen.SETTINGS) {
+        if (currentScreen == Screen.SETTINGS || currentScreen == Screen.GUIDE) {
             showWelcomeScreen();
             return;
         }
@@ -708,10 +724,6 @@ public class MainActivity extends Activity {
         }
 
         int nextPosition = currentPosition + offset;
-        if (offset > 0 && currentPosition == dialogues.size() - 1) {
-            showQuiz(selectedLesson);
-            return;
-        }
 
         if (nextPosition < 0) {
             nextPosition = dialogues.size() - 1;
@@ -719,6 +731,7 @@ public class MainActivity extends Activity {
             nextPosition = 0;
         }
 
+        pendingDialoguePhraseIndex = offset < 0 ? -1 : 0;
         showDialogue(selectedLesson, dialogues.get(nextPosition));
     }
 
@@ -1280,6 +1293,44 @@ public class MainActivity extends Activity {
         }
     }
 
+    private void showUserGuide() {
+        currentScreen = Screen.GUIDE;
+        selectedLesson = null;
+        selectedDialogue = null;
+        phrases = Collections.emptyList();
+        clearContent();
+
+        Button backButton = navButton("Til hovedmenu");
+        backButton.setOnClickListener(v -> showWelcomeScreen());
+        contentRoot.addView(backButton, compactWrap());
+
+        try {
+            JSONObject guide = new JSONObject(readAsset(USER_GUIDE_ASSET));
+            TextView heading = text(guide.optString("titleDa", "Nenoling guide"), 24, COLOR_HEADER, true);
+            heading.setGravity(Gravity.CENTER);
+            contentRoot.addView(heading, matchWrap());
+
+            TextView intro = text(guide.optString("introDa", ""), 15, COLOR_MUTED, false);
+            intro.setGravity(Gravity.CENTER);
+            contentRoot.addView(intro, matchWrap());
+
+            JSONArray sections = guide.optJSONArray("sections");
+            if (sections != null) {
+                for (int sectionIndex = 0; sectionIndex < sections.length(); sectionIndex++) {
+                    JSONObject section = sections.getJSONObject(sectionIndex);
+                    contentRoot.addView(panel(section.optString("titleDa") + "\n" + section.optString("bodyDa")), matchWrap());
+                }
+            }
+
+            TextView footer = text(guide.optString("footerDa", FOOTER_TEXT), 12, COLOR_MUTED, false);
+            footer.setGravity(Gravity.CENTER);
+            contentRoot.addView(footer, matchWrap());
+        } catch (Exception exception) {
+            Log.e(TAG, "Could not load user guide", exception);
+            contentRoot.addView(panel("Nenoling guide\nGuiden kunne ikke indlæses. Lektioner og quizzer virker stadig offline."), matchWrap());
+        }
+    }
+
     private void showSettings() {
         currentScreen = Screen.SETTINGS;
         selectedLesson = null;
@@ -1520,6 +1571,18 @@ public class MainActivity extends Activity {
             Toast.makeText(this, message, Toast.LENGTH_LONG).show();
         } catch (RuntimeException exception) {
             Log.e(TAG, "Could not show toast", exception);
+        }
+    }
+
+    private String readAsset(String assetPath) throws IOException {
+        try (InputStream inputStream = getAssets().open(assetPath);
+             BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream, StandardCharsets.UTF_8))) {
+            StringBuilder builder = new StringBuilder();
+            String line;
+            while ((line = reader.readLine()) != null) {
+                builder.append(line).append('\n');
+            }
+            return builder.toString();
         }
     }
 
@@ -1824,6 +1887,15 @@ public class MainActivity extends Activity {
         return params;
     }
 
+    private LinearLayout.LayoutParams iconRowWrap() {
+        LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.WRAP_CONTENT,
+                LinearLayout.LayoutParams.WRAP_CONTENT
+        );
+        params.setMargins(0, dp(6), 0, dp(6));
+        return params;
+    }
+
     private int dp(int value) {
         return Math.round(value * getResources().getDisplayMetrics().density);
     }
@@ -1948,6 +2020,7 @@ public class MainActivity extends Activity {
         NUMBER_QUIZ,
         NUMBER_RESULTS,
         PROGRESS,
+        GUIDE,
         SETTINGS
     }
 
