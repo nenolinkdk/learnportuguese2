@@ -10,7 +10,13 @@ The app reuses the existing Learn Portuguese Java/Android structure and keeps Le
 - Portuguese TextToSpeech behavior is preserved.
 - Level 1 content lives in `app/src/main/assets/levels/level1`.
 - Level 2 content lives in `app/src/main/assets/levels/level2`.
-- The app defaults to Level 2 and lets the user switch back to Level 1.
+- The children level lives in `app/src/main/assets/levels/level3`.
+- The bundled Nenoling user guide lives in `app/src/main/assets/docs/user_guide.json`.
+- The app defaults to Level 2 and lets the user choose Level 1, Level 2, children content, quizzes, numbers and the offline guide.
+
+## Validation
+
+- `tools/validate_navigation_content.ps1` validates deterministic dialog navigation assumptions and checks that helper/feedback phrases are not stored as children dialog content.
 
 ## Documentation
 
