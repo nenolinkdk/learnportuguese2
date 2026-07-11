@@ -13,6 +13,18 @@
                                               "textPt":  "Queres brincar?",
                                               "textDa":  "Skal vi lege?",
                                               "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          },
+                                          {
+                                              "speaker":  "Voksen",
+                                              "textPt":  "Sim, claro. Eu ajudo.",
+                                              "textDa":  "Ja, selvfølgelig. Jeg hjælper.",
+                                              "grammarDa":  "Svar roligt og kort."
+                                          },
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Obrigado.",
+                                              "textDa":  "Tak.",
+                                              "grammarDa":  "Obrigado betyder tak."
                                           }
                                       ],
                           "vocabulary":  [
@@ -38,6 +50,18 @@
                                               "textPt":  "Vamos jogar.",
                                               "textDa":  "Lad os spille.",
                                               "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          },
+                                          {
+                                              "speaker":  "Voksen",
+                                              "textPt":  "Muito bem. Repete devagar.",
+                                              "textDa":  "Meget fint. Gentag langsomt.",
+                                              "grammarDa":  "Svar roligt og kort."
+                                          },
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Obrigado.",
+                                              "textDa":  "Tak.",
+                                              "grammarDa":  "Obrigado betyder tak."
                                           }
                                       ],
                           "vocabulary":  [
@@ -63,6 +87,18 @@
                                               "textPt":  "Vem comigo.",
                                               "textDa":  "Kom med.",
                                               "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          },
+                                          {
+                                              "speaker":  "Voksen",
+                                              "textPt":  "Muito bem. Repete devagar.",
+                                              "textDa":  "Meget fint. Gentag langsomt.",
+                                              "grammarDa":  "Svar roligt og kort."
+                                          },
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Obrigado.",
+                                              "textDa":  "Tak.",
+                                              "grammarDa":  "Obrigado betyder tak."
                                           }
                                       ],
                           "vocabulary":  [
@@ -88,6 +124,18 @@
                                               "textPt":  "Espera por mim.",
                                               "textDa":  "Vent på mig.",
                                               "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          },
+                                          {
+                                              "speaker":  "Voksen",
+                                              "textPt":  "Muito bem. Repete devagar.",
+                                              "textDa":  "Meget fint. Gentag langsomt.",
+                                              "grammarDa":  "Svar roligt og kort."
+                                          },
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Obrigado.",
+                                              "textDa":  "Tak.",
+                                              "grammarDa":  "Obrigado betyder tak."
                                           }
                                       ],
                           "vocabulary":  [
@@ -113,12 +161,209 @@
                                               "textPt":  "Eu posso ajudar.",
                                               "textDa":  "Jeg kan hjælpe.",
                                               "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          },
+                                          {
+                                              "speaker":  "Voksen",
+                                              "textPt":  "Muito bem. Repete devagar.",
+                                              "textDa":  "Meget fint. Gentag langsomt.",
+                                              "grammarDa":  "Svar roligt og kort."
+                                          },
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Obrigado.",
+                                              "textDa":  "Tak.",
+                                              "grammarDa":  "Obrigado betyder tak."
                                           }
                                       ],
                           "vocabulary":  [
                                              {
                                                  "textPt":  "Eu posso ajudar",
                                                  "textDa":  "Jeg kan hjælpe"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "Kort sætning",
+                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  6,
+                          "titleDa":  "Jeg kan ikke nu",
+                          "objectiveDa":  "Sig en kort og praktisk sætning.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Não posso agora.",
+                                              "textDa":  "Jeg kan ikke nu.",
+                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          },
+                                          {
+                                              "speaker":  "Voksen",
+                                              "textPt":  "Muito bem. Repete devagar.",
+                                              "textDa":  "Meget fint. Gentag langsomt.",
+                                              "grammarDa":  "Svar roligt og kort."
+                                          },
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Obrigado.",
+                                              "textDa":  "Tak.",
+                                              "grammarDa":  "Obrigado betyder tak."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Não posso agora",
+                                                 "textDa":  "Jeg kan ikke nu"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "Kort sætning",
+                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  7,
+                          "titleDa":  "Lad os gå udenfor",
+                          "objectiveDa":  "Sig en kort og praktisk sætning.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Vamos lá fora.",
+                                              "textDa":  "Lad os gå udenfor.",
+                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          },
+                                          {
+                                              "speaker":  "Voksen",
+                                              "textPt":  "Muito bem. Repete devagar.",
+                                              "textDa":  "Meget fint. Gentag langsomt.",
+                                              "grammarDa":  "Svar roligt og kort."
+                                          },
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Obrigado.",
+                                              "textDa":  "Tak.",
+                                              "grammarDa":  "Obrigado betyder tak."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Vamos lá fora",
+                                                 "textDa":  "Lad os gå udenfor"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "Kort sætning",
+                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  8,
+                          "titleDa":  "Det er min tur",
+                          "objectiveDa":  "Sig en kort og praktisk sætning.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "A minha vez.",
+                                              "textDa":  "Det er min tur.",
+                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          },
+                                          {
+                                              "speaker":  "Voksen",
+                                              "textPt":  "Muito bem. Repete devagar.",
+                                              "textDa":  "Meget fint. Gentag langsomt.",
+                                              "grammarDa":  "Svar roligt og kort."
+                                          },
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Obrigado.",
+                                              "textDa":  "Tak.",
+                                              "grammarDa":  "Obrigado betyder tak."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "A minha vez",
+                                                 "textDa":  "Det er min tur"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "Kort sætning",
+                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  9,
+                          "titleDa":  "Det er din tur",
+                          "objectiveDa":  "Sig en kort og praktisk sætning.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "A tua vez.",
+                                              "textDa":  "Det er din tur.",
+                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          },
+                                          {
+                                              "speaker":  "Voksen",
+                                              "textPt":  "Muito bem. Repete devagar.",
+                                              "textDa":  "Meget fint. Gentag langsomt.",
+                                              "grammarDa":  "Svar roligt og kort."
+                                          },
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Obrigado.",
+                                              "textDa":  "Tak.",
+                                              "grammarDa":  "Obrigado betyder tak."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "A tua vez",
+                                                 "textDa":  "Det er din tur"
+                                             }
+                                         ],
+                          "grammar":  [
+                                          {
+                                              "titleDa":  "Kort sætning",
+                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  10,
+                          "titleDa":  "Det var sjovt",
+                          "objectiveDa":  "Sig en kort og praktisk sætning.",
+                          "phrases":  [
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Foi divertido.",
+                                              "textDa":  "Det var sjovt.",
+                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
+                                          },
+                                          {
+                                              "speaker":  "Voksen",
+                                              "textPt":  "Muito bem. Repete devagar.",
+                                              "textDa":  "Meget fint. Gentag langsomt.",
+                                              "grammarDa":  "Svar roligt og kort."
+                                          },
+                                          {
+                                              "speaker":  "Barn",
+                                              "textPt":  "Obrigado.",
+                                              "textDa":  "Tak.",
+                                              "grammarDa":  "Obrigado betyder tak."
+                                          }
+                                      ],
+                          "vocabulary":  [
+                                             {
+                                                 "textPt":  "Foi divertido",
+                                                 "textDa":  "Det var sjovt"
                                              }
                                          ],
                           "grammar":  [
@@ -193,7 +438,7 @@
                                          "correct":  false
                                      },
                                      {
-                                         "text":  "Skal vi lege?",
+                                         "text":  "Jeg kan ikke nu.",
                                          "correct":  false
                                      }
                                  ],
@@ -212,15 +457,61 @@
                                          "correct":  false
                                      },
                                      {
-                                         "text":  "Skal vi lege?",
+                                         "text":  "Jeg kan ikke nu.",
                                          "correct":  false
                                      },
                                      {
-                                         "text":  "Lad os spille.",
+                                         "text":  "Lad os gå udenfor.",
                                          "correct":  false
                                      }
                                  ],
                      "explanationDa":  "Espera por mim. = Vent på mig."
+                 },
+                 {
+                     "id":  5,
+                     "questionDa":  "Hvad betyder: Eu posso ajudar.",
+                     "answers":  [
+                                     {
+                                         "text":  "Jeg kan hjælpe.",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Jeg kan ikke nu.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Lad os gå udenfor.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Det er min tur.",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Eu posso ajudar. = Jeg kan hjælpe."
+                 },
+                 {
+                     "id":  6,
+                     "questionDa":  "Hvad betyder: Não posso agora.",
+                     "answers":  [
+                                     {
+                                         "text":  "Jeg kan ikke nu.",
+                                         "correct":  true
+                                     },
+                                     {
+                                         "text":  "Lad os gå udenfor.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Det er min tur.",
+                                         "correct":  false
+                                     },
+                                     {
+                                         "text":  "Det er din tur.",
+                                         "correct":  false
+                                     }
+                                 ],
+                     "explanationDa":  "Não posso agora. = Jeg kan ikke nu."
                  }
              ],
     "storyTitleDa":  "Kort børnedialog: Leg",
@@ -257,33 +548,33 @@
                       "grammarDa":  "Praktisk og kort frase."
                   },
                   {
+                      "speaker":  "Voksen",
+                      "textPt":  "Não posso agora.",
+                      "textDa":  "Jeg kan ikke nu.",
+                      "grammarDa":  "Praktisk og kort frase."
+                  },
+                  {
                       "speaker":  "Barn",
-                      "textPt":  "Queres brincar?",
-                      "textDa":  "Skal vi lege?",
+                      "textPt":  "Vamos lá fora.",
+                      "textDa":  "Lad os gå udenfor.",
                       "grammarDa":  "Praktisk og kort frase."
                   },
                   {
                       "speaker":  "Voksen",
-                      "textPt":  "Vamos jogar.",
-                      "textDa":  "Lad os spille.",
+                      "textPt":  "A minha vez.",
+                      "textDa":  "Det er min tur.",
                       "grammarDa":  "Praktisk og kort frase."
                   },
                   {
                       "speaker":  "Barn",
-                      "textPt":  "Vem comigo.",
-                      "textDa":  "Kom med.",
+                      "textPt":  "A tua vez.",
+                      "textDa":  "Det er din tur.",
                       "grammarDa":  "Praktisk og kort frase."
                   },
                   {
                       "speaker":  "Voksen",
-                      "textPt":  "Espera por mim.",
-                      "textDa":  "Vent på mig.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Barn",
-                      "textPt":  "Eu posso ajudar.",
-                      "textDa":  "Jeg kan hjælpe.",
+                      "textPt":  "Foi divertido.",
+                      "textDa":  "Det var sjovt.",
                       "grammarDa":  "Praktisk og kort frase."
                   }
               ]

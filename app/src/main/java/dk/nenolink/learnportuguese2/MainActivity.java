@@ -95,7 +95,7 @@ public class MainActivity extends Activity {
             progressRepository = new ProgressRepository(this);
             loadLevels();
             setContentView(buildLayout());
-            showWelcomeScreen();
+            showStartScreen();
             contentRoot.post(() -> loadLessons(selectedLevel));
         } catch (RuntimeException exception) {
             Log.e(TAG, "Startup failed", exception);
@@ -169,33 +169,49 @@ public class MainActivity extends Activity {
                 ScrollView.LayoutParams.WRAP_CONTENT
         ));
 
-        TextView title = text("LearnPortuguese2", 28, COLOR_HEADER, true);
-        title.setGravity(Gravity.CENTER);
-        root.addView(title);
-
-        TextView languageBadge = text(selectedLevelInfo.getSubtitleDa(), 14, COLOR_BODY, false);
-        languageBadge.setGravity(Gravity.CENTER);
-        languageBadge.setPadding(dp(10), dp(6), dp(10), dp(6));
-        languageBadge.setBackgroundColor(COLOR_PANEL_ALT);
-        root.addView(languageBadge, matchWrap());
-
-        TextView aiBadge = text(selectedLevelInfo.getAiDisclosureDa(), 13, COLOR_MUTED, false);
-        aiBadge.setGravity(Gravity.CENTER);
-        aiBadge.setPadding(dp(10), dp(8), dp(10), dp(8));
-        aiBadge.setBackgroundColor(COLOR_BADGE);
-        root.addView(aiBadge, matchWrap());
-
         contentRoot = new LinearLayout(this);
         contentRoot.setOrientation(LinearLayout.VERTICAL);
         contentRoot.setGravity(Gravity.CENTER_HORIZONTAL);
         root.addView(contentRoot, matchWrap());
 
-        TextView footer = text(FOOTER_TEXT, 12, COLOR_MUTED, false);
+        TextView footer = text("Dansk til europæisk portugisisk\n" + FOOTER_TEXT, 12, COLOR_MUTED, false);
         footer.setGravity(Gravity.CENTER);
         footer.setPadding(0, dp(18), 0, 0);
         root.addView(footer, matchWrap());
 
         return scrollView;
+    }
+
+    private void showStartScreen() {
+        currentScreen = Screen.START;
+        selectedLesson = null;
+        selectedDialogue = null;
+        phrases = Collections.emptyList();
+        clearContent();
+
+        TextView title = text("LearnPortuguese2", 30, COLOR_HEADER, true);
+        title.setGravity(Gravity.CENTER);
+        title.setPadding(0, dp(42), 0, dp(4));
+        contentRoot.addView(title, matchWrap());
+
+        TextView subtitle = text("Lær portugisisk - til voksne og børn", 18, COLOR_BODY, true);
+        subtitle.setGravity(Gravity.CENTER);
+        contentRoot.addView(subtitle, matchWrap());
+
+        TextView intro = text("Dansk til portugisisk med korte dialoger, tal, quiz og udtale.", 15, COLOR_MUTED, false);
+        intro.setGravity(Gravity.CENTER);
+        intro.setPadding(dp(8), dp(10), dp(8), dp(24));
+        contentRoot.addView(intro, matchWrap());
+
+        Button menuButton = lessonButton("Åbn hovedmenu");
+        menuButton.setOnClickListener(v -> showWelcomeScreen());
+        contentRoot.addView(menuButton, compactWrap());
+
+        Button settingsIcon = settingsButton("\u2699");
+        settingsIcon.setOnClickListener(v -> showSettings());
+        contentRoot.addView(settingsIcon, iconWrap());
+
+        addStartupErrorPanelIfNeeded();
     }
 
     private void showWelcomeScreen() {
@@ -205,11 +221,11 @@ public class MainActivity extends Activity {
         phrases = Collections.emptyList();
         clearContent();
 
-        TextView heading = text("Velkommen", 24, COLOR_HEADER, true);
+        TextView heading = text("Hovedmenu", 24, COLOR_HEADER, true);
         heading.setGravity(Gravity.CENTER);
         contentRoot.addView(heading, matchWrap());
 
-        TextView intro = text("V\u00e6lg niveau, quiz, ordforr\u00e5d eller taltr\u00e6ning.", 16, COLOR_MUTED, false);
+        TextView intro = text("Vælg niveau, quiz eller taltræning.", 16, COLOR_MUTED, false);
         intro.setGravity(Gravity.CENTER);
         contentRoot.addView(intro, matchWrap());
 
@@ -222,21 +238,17 @@ public class MainActivity extends Activity {
             contentRoot.addView(levelButton, matchWrap());
         }
 
-        Button vocabularyQuizButton = quizButton("Quiz: ordforr\u00e5d generelt");
-        vocabularyQuizButton.setOnClickListener(v -> showVocabularyQuiz());
-        contentRoot.addView(vocabularyQuizButton, matchWrap());
-
         Button quizButton = quizButton("Quiz");
         quizButton.setOnClickListener(v -> showQuizMenu());
-        contentRoot.addView(quizButton, matchWrap());
+        contentRoot.addView(quizButton, compactWrap());
 
         Button numbersButton = numbersButton("Numbers / Tal 1-100");
         numbersButton.setOnClickListener(v -> showNumbers());
-        contentRoot.addView(numbersButton, matchWrap());
+        contentRoot.addView(numbersButton, compactWrap());
 
-        Button settingsButton = settingsButton("Settings / Info");
-        settingsButton.setOnClickListener(v -> showSettings());
-        contentRoot.addView(settingsButton, matchWrap());
+        Button settingsIcon = settingsButton("\u2699");
+        settingsIcon.setOnClickListener(v -> showSettings());
+        contentRoot.addView(settingsIcon, iconWrap());
     }
 
     private void showLessonList() {
@@ -256,9 +268,9 @@ public class MainActivity extends Activity {
 
         addStartupErrorPanelIfNeeded();
 
-        Button welcomeButton = navButton("Til velkomst");
+        Button welcomeButton = navButton("Til hovedmenu");
         welcomeButton.setOnClickListener(v -> showWelcomeScreen());
-        contentRoot.addView(welcomeButton, matchWrap());
+        contentRoot.addView(welcomeButton, compactWrap());
 
         if (lessons.isEmpty()) {
             TextView empty = text("Ingen lektioner kunne indl\u00e6ses.", 16, COLOR_MUTED, false);
@@ -278,31 +290,26 @@ public class MainActivity extends Activity {
             contentRoot.addView(continueButton, matchWrap());
         }
 
-        LinearLayout secondaryActions = new LinearLayout(this);
-        secondaryActions.setOrientation(LinearLayout.HORIZONTAL);
-        secondaryActions.setGravity(Gravity.CENTER);
-        contentRoot.addView(secondaryActions, matchWrap());
-
-        Button progressButton = navButton("Se fremskridt");
-        progressButton.setOnClickListener(v -> showProgress());
-        secondaryActions.addView(progressButton, new LinearLayout.LayoutParams(0, LinearLayout.LayoutParams.WRAP_CONTENT, 1));
-
-        Button settingsButton = settingsButton("Indstillinger");
-        settingsButton.setOnClickListener(v -> showSettings());
-        LinearLayout.LayoutParams settingsParams = new LinearLayout.LayoutParams(0, LinearLayout.LayoutParams.WRAP_CONTENT, 1);
-        settingsParams.setMargins(dp(12), 0, 0, 0);
-        secondaryActions.addView(settingsButton, settingsParams);
-
-        TextView progress = text("Gennemf\u00f8rte lektioner: " + getCompletedLessonCount() + " af " + lessons.size(), 14, COLOR_MUTED, false);
+        TextView progress = smallPanel("Gennemførte lektioner: " + getCompletedLessonCount() + " af " + lessons.size());
         progress.setGravity(Gravity.CENTER);
-        contentRoot.addView(progress, matchWrap());
+        contentRoot.addView(progress, compactWrap());
+
+        LinearLayout secondaryActions = horizontalRow();
+        Button progressButton = navButton("Fremskridt");
+        progressButton.setOnClickListener(v -> showProgress());
+        secondaryActions.addView(progressButton, rowButtonParams(false));
+
+        Button settingsButton = settingsButton("\u2699");
+        settingsButton.setOnClickListener(v -> showSettings());
+        secondaryActions.addView(settingsButton, rowButtonParams(true));
+        contentRoot.addView(secondaryActions, compactWrap());
 
         for (Lesson lesson : lessons) {
             int dialogueCount = getDialoguesForDisplay(lesson).size();
             String status = progressRepository.isLessonCompleted(selectedLevel, lesson.getId(), dialogueCount) ? "[OK] " : "";
             Button lessonButton = lessonButton(status + "Lektion " + lesson.getId() + ": " + lesson.getTitleDa());
             lessonButton.setOnClickListener(v -> showDialogList(lesson));
-            contentRoot.addView(lessonButton, matchWrap());
+            contentRoot.addView(lessonButton, compactWrap());
         }
     }
 
@@ -366,37 +373,38 @@ public class MainActivity extends Activity {
         description.setGravity(Gravity.CENTER);
         contentRoot.addView(description, matchWrap());
 
-        TextView overview = panel("Oversigt\n"
+        TextView overview = smallPanel("Oversigt\n"
                 + dialogues.size() + " dialoger\n"
                 + completedDialogues + " gennemført\n"
                 + lesson.getQuiz().size() + " quizspørgsmål klar\n"
                 + getQuizResultText(lesson));
-        contentRoot.addView(overview, matchWrap());
+        contentRoot.addView(overview, compactWrap());
 
-        Button backButton = navButton("Tilbage til lektioner");
+        LinearLayout actionRow = horizontalRow();
+        Button backButton = navButton("Lektioner");
         backButton.setOnClickListener(v -> showLessonList());
-        contentRoot.addView(backButton, matchWrap());
+        actionRow.addView(backButton, rowButtonParams(false));
 
         Button quizButton = quizButton("Quiz");
         quizButton.setOnClickListener(v -> showQuiz(lesson));
-        contentRoot.addView(quizButton, matchWrap());
+        actionRow.addView(quizButton, rowButtonParams(true));
 
-        Button welcomeButton = navButton("Til velkomst");
+        Button welcomeButton = navButton("Hovedmenu");
         welcomeButton.setOnClickListener(v -> showWelcomeScreen());
-        contentRoot.addView(welcomeButton, matchWrap());
-
+        actionRow.addView(welcomeButton, rowButtonParams(true));
+        contentRoot.addView(actionRow, compactWrap());
         for (Dialogue dialogue : dialogues) {
             String status = progressRepository.isDialogueCompleted(selectedLevel, lesson.getId(), dialogue.getId()) ? "[OK] " : "";
             Button dialogueButton = button(status + "Dialog " + dialogue.getId() + ": " + dialogue.getTitleDa());
             dialogueButton.setOnClickListener(v -> showDialogue(lesson, dialogue));
-            contentRoot.addView(dialogueButton, matchWrap());
+            contentRoot.addView(dialogueButton, compactWrap());
         }
 
         if (!lesson.getStory().isEmpty()) {
             String storyTitle = isEmpty(lesson.getStoryTitleDa()) ? "Kort dialog" : lesson.getStoryTitleDa();
             Button storyButton = navButton(storyTitle);
             storyButton.setOnClickListener(v -> showStory(lesson));
-            contentRoot.addView(storyButton, matchWrap());
+            contentRoot.addView(storyButton, compactWrap());
         }
     }
 
@@ -413,13 +421,15 @@ public class MainActivity extends Activity {
 
         clearContent();
 
-        Button backButton = navButton("Tilbage til dialoger");
+        LinearLayout topRow = horizontalRow();
+        Button backButton = navButton("Dialoger");
         backButton.setOnClickListener(v -> showDialogList(selectedLesson));
-        contentRoot.addView(backButton, matchWrap());
+        topRow.addView(backButton, rowButtonParams(false));
 
         Button lessonsButton = navButton("Til lektioner");
         lessonsButton.setOnClickListener(v -> showLessonList());
-        contentRoot.addView(lessonsButton, matchWrap());
+        topRow.addView(lessonsButton, rowButtonParams(true));
+        contentRoot.addView(topRow, compactWrap());
 
         TextView dialogueHeading = text(
                 "Lektion " + lesson.getId() + " · Dialog " + dialogue.getId() + " af " + getDialoguesForDisplay(lesson).size(),
@@ -455,13 +465,13 @@ public class MainActivity extends Activity {
 
         Button speakButton = navButton("Udtal portugisisk");
         speakButton.setOnClickListener(v -> speakCurrentPhrase());
-        contentRoot.addView(speakButton, matchWrap());
+        contentRoot.addView(speakButton, compactWrap());
 
         LinearLayout row = new LinearLayout(this);
         row.setOrientation(LinearLayout.HORIZONTAL);
         row.setGravity(Gravity.CENTER);
         row.setPadding(0, dp(16), 0, dp(16));
-        contentRoot.addView(row, matchWrap());
+        contentRoot.addView(row, compactWrap());
 
         Button previousButton = navButton("Forrige");
         previousButton.setOnClickListener(v -> movePrevious());
@@ -495,13 +505,15 @@ public class MainActivity extends Activity {
         index = 0;
         clearContent();
 
-        Button backButton = navButton("Tilbage til dialoger");
+        LinearLayout topRow = horizontalRow();
+        Button backButton = navButton("Dialoger");
         backButton.setOnClickListener(v -> showDialogList(selectedLesson));
-        contentRoot.addView(backButton, matchWrap());
+        topRow.addView(backButton, rowButtonParams(false));
 
         Button lessonsButton = navButton("Til lektioner");
         lessonsButton.setOnClickListener(v -> showLessonList());
-        contentRoot.addView(lessonsButton, matchWrap());
+        topRow.addView(lessonsButton, rowButtonParams(true));
+        contentRoot.addView(topRow, compactWrap());
 
         TextView heading = text(isEmpty(lesson.getStoryTitleDa()) ? "Kort dialog" : lesson.getStoryTitleDa(), 22, COLOR_HEADER, true);
         heading.setGravity(Gravity.CENTER);
@@ -528,13 +540,13 @@ public class MainActivity extends Activity {
 
         Button speakButton = navButton("Udtal portugisisk");
         speakButton.setOnClickListener(v -> speakCurrentPhrase());
-        contentRoot.addView(speakButton, matchWrap());
+        contentRoot.addView(speakButton, compactWrap());
 
         LinearLayout row = new LinearLayout(this);
         row.setOrientation(LinearLayout.HORIZONTAL);
         row.setGravity(Gravity.CENTER);
         row.setPadding(0, dp(16), 0, dp(16));
-        contentRoot.addView(row, matchWrap());
+        contentRoot.addView(row, compactWrap());
 
         Button previousButton = navButton("Forrige");
         previousButton.setOnClickListener(v -> movePrevious());
@@ -557,8 +569,13 @@ public class MainActivity extends Activity {
 
     @Override
     public void onBackPressed() {
-        if (currentScreen == Screen.WELCOME) {
+        if (currentScreen == Screen.START) {
             super.onBackPressed();
+            return;
+        }
+
+        if (currentScreen == Screen.WELCOME) {
+            showStartScreen();
             return;
         }
 
@@ -720,24 +737,30 @@ public class MainActivity extends Activity {
         intro.setGravity(Gravity.CENTER);
         contentRoot.addView(intro, matchWrap());
 
+        Button vocabularyQuizButton = quizButton("Ordforråd generelt");
+        vocabularyQuizButton.setOnClickListener(v -> showVocabularyQuiz());
+        contentRoot.addView(vocabularyQuizButton, compactWrap());
+
         for (Level level : levels) {
             Button levelQuizButton = quizButton("Quiz - Level " + level.getId());
             int levelId = level.getId();
             levelQuizButton.setOnClickListener(v -> showLevelQuiz(levelId));
-            contentRoot.addView(levelQuizButton, matchWrap());
+            contentRoot.addView(levelQuizButton, compactWrap());
         }
 
         Button numberQuizButton = numbersButton("Talquiz 1-100");
         numberQuizButton.setOnClickListener(v -> showNumberQuiz());
-        contentRoot.addView(numberQuizButton, matchWrap());
+        contentRoot.addView(numberQuizButton, compactWrap());
 
-        Button lessonsButton = navButton("Til lektioner");
+        LinearLayout navRow = horizontalRow();
+        Button lessonsButton = navButton("Lektioner");
         lessonsButton.setOnClickListener(v -> showLessonList());
-        contentRoot.addView(lessonsButton, matchWrap());
+        navRow.addView(lessonsButton, rowButtonParams(false));
 
-        Button welcomeButton = navButton("Til velkomst");
+        Button welcomeButton = navButton("Hovedmenu");
         welcomeButton.setOnClickListener(v -> showWelcomeScreen());
-        contentRoot.addView(welcomeButton, matchWrap());
+        navRow.addView(welcomeButton, rowButtonParams(true));
+        contentRoot.addView(navRow, compactWrap());
     }
 
     private void showLevelQuiz(int levelId) {
@@ -1027,14 +1050,14 @@ public class MainActivity extends Activity {
         if (selectedLesson != null) {
             Button lessonButton = navButton("Tilbage til lektionen");
             lessonButton.setOnClickListener(v -> showDialogList(selectedLesson));
-            contentRoot.addView(lessonButton, matchWrap());
+            contentRoot.addView(lessonButton, compactWrap());
         }
 
         Button homeButton = navButton("Til lektionslisten");
         homeButton.setOnClickListener(v -> showLessonList());
         contentRoot.addView(homeButton, matchWrap());
 
-        Button welcomeButton = navButton("Til velkomst");
+        Button welcomeButton = navButton("Hovedmenu");
         welcomeButton.setOnClickListener(v -> showWelcomeScreen());
         contentRoot.addView(welcomeButton, matchWrap());
     }
@@ -1063,7 +1086,7 @@ public class MainActivity extends Activity {
         lessonsButton.setOnClickListener(v -> showLessonList());
         contentRoot.addView(lessonsButton, matchWrap());
 
-        Button welcomeButton = navButton("Til velkomst");
+        Button welcomeButton = navButton("Hovedmenu");
         welcomeButton.setOnClickListener(v -> showWelcomeScreen());
         contentRoot.addView(welcomeButton, matchWrap());
 
@@ -1217,7 +1240,7 @@ public class MainActivity extends Activity {
         lessonsButton.setOnClickListener(v -> showLessonList());
         contentRoot.addView(lessonsButton, matchWrap());
 
-        Button welcomeButton = navButton("Til velkomst");
+        Button welcomeButton = navButton("Hovedmenu");
         welcomeButton.setOnClickListener(v -> showWelcomeScreen());
         contentRoot.addView(welcomeButton, matchWrap());
     }
@@ -1242,7 +1265,7 @@ public class MainActivity extends Activity {
         backButton.setOnClickListener(v -> showLessonList());
         contentRoot.addView(backButton, matchWrap());
 
-        Button welcomeButton = navButton("Til velkomst");
+        Button welcomeButton = navButton("Hovedmenu");
         welcomeButton.setOnClickListener(v -> showWelcomeScreen());
         contentRoot.addView(welcomeButton, matchWrap());
 
@@ -1269,7 +1292,6 @@ public class MainActivity extends Activity {
         contentRoot.addView(heading, matchWrap());
 
         TextView appInfo = panel("Learn Portuguese\n"
-                + "Dansk til europæisk portugisisk\n"
                 + "Offline Android-app\n"
                 + "Data gemmes lokalt på enheden");
         contentRoot.addView(appInfo, matchWrap());
@@ -1288,7 +1310,7 @@ public class MainActivity extends Activity {
         backButton.setOnClickListener(v -> showLessonList());
         contentRoot.addView(backButton, matchWrap());
 
-        Button welcomeButton = navButton("Til velkomst");
+        Button welcomeButton = navButton("Hovedmenu");
         welcomeButton.setOnClickListener(v -> showWelcomeScreen());
         contentRoot.addView(welcomeButton, matchWrap());
     }
@@ -1566,6 +1588,10 @@ public class MainActivity extends Activity {
             return splitPrototypeDialogue(sourceDialogues.get(0));
         }
 
+        if (!sourceDialogues.isEmpty()) {
+            return sourceDialogues;
+        }
+
         return createPlaceholderDialogues(lesson);
     }
 
@@ -1712,6 +1738,13 @@ public class MainActivity extends Activity {
         return view;
     }
 
+    private TextView smallPanel(String title) {
+        TextView view = text(title, 13, COLOR_HEADER, false);
+        view.setPadding(dp(10), dp(8), dp(10), dp(8));
+        view.setBackgroundColor(COLOR_PANEL);
+        return view;
+    }
+
     private Button button(String label) {
         return styledButton(label, COLOR_BUTTON, false);
     }
@@ -1740,16 +1773,31 @@ public class MainActivity extends Activity {
         Button button = new Button(this);
         button.setText(label);
         button.setAllCaps(false);
-        button.setTextSize(14);
+        button.setTextSize(13);
         button.setTextColor(COLOR_BUTTON_TEXT);
         button.setBackgroundColor(backgroundColor);
-        button.setMinHeight(dp(42));
+        button.setMinHeight(dp(34));
         button.setMinWidth(0);
-        button.setPadding(dp(10), dp(6), dp(10), dp(6));
+        button.setPadding(dp(8), dp(4), dp(8), dp(4));
         if (bold) {
             button.setTypeface(android.graphics.Typeface.DEFAULT_BOLD);
         }
         return button;
+    }
+
+    private LinearLayout horizontalRow() {
+        LinearLayout row = new LinearLayout(this);
+        row.setOrientation(LinearLayout.HORIZONTAL);
+        row.setGravity(Gravity.CENTER);
+        return row;
+    }
+
+    private LinearLayout.LayoutParams rowButtonParams(boolean withLeftMargin) {
+        LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(0, LinearLayout.LayoutParams.WRAP_CONTENT, 1);
+        if (withLeftMargin) {
+            params.setMargins(dp(6), 0, 0, 0);
+        }
+        return params;
     }
 
     private LinearLayout.LayoutParams matchWrap() {
@@ -1758,6 +1806,21 @@ public class MainActivity extends Activity {
                 LinearLayout.LayoutParams.WRAP_CONTENT
         );
         params.setMargins(0, dp(8), 0, dp(8));
+        return params;
+    }
+
+    private LinearLayout.LayoutParams compactWrap() {
+        LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(
+                LinearLayout.LayoutParams.MATCH_PARENT,
+                LinearLayout.LayoutParams.WRAP_CONTENT
+        );
+        params.setMargins(0, dp(4), 0, dp(4));
+        return params;
+    }
+
+    private LinearLayout.LayoutParams iconWrap() {
+        LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(dp(48), LinearLayout.LayoutParams.WRAP_CONTENT);
+        params.setMargins(0, dp(6), 0, dp(6));
         return params;
     }
 
@@ -1872,6 +1935,7 @@ public class MainActivity extends Activity {
     }
 
     private enum Screen {
+        START,
         WELCOME,
         LESSONS,
         DIALOGUES,
