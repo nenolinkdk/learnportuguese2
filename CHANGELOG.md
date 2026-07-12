@@ -6,13 +6,16 @@
 
 - Corrected dialog Previous/Next behavior so crossing dialog boundaries stays deterministic: Next opens the first phrase of the next dialog and Previous opens the last phrase of the previous dialog.
 - Removed repeated feedback/helper phrases from children dialog navigation content.
+- Normalized children dialogs to the same JSON lesson/dialog/phrase architecture as adult levels.
+- Removed silent placeholder/fallback phrase paths for invalid dialog content.
 
 ### Added
 
 - Added bundled offline Nenoling user guide for users and parents.
 - Added a main-menu book icon that opens the user guide without internet access.
 - Added validation script for dialog navigation/content checks.
-- Expanded children dialogs with age-appropriate mini-dialog content stored in JSON.
+- Extended validation to cover required lesson/dialog/phrase fields, unique dialog IDs, shared schema assumptions, and 20-step Next/Previous children navigation.
+- Expanded children dialogs with age-appropriate dialog content stored in JSON.
 
 ## 1.0 Local Release Candidate
 

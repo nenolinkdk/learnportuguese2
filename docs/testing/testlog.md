@@ -1,5 +1,26 @@
 # Test Log
 
+## 2026-07-12
+
+Children level schema and navigation validation.
+
+### Scope
+
+- Normalized children dialogs so they use the same lesson/dialog/phrase/vocabulary JSON schema as adult levels.
+- Removed generated children filler phrases that made unrelated text appear after opening a new dialog.
+- Removed silent dialog placeholder/fallback phrase paths from the app UI.
+- Strengthened `tools/validate_navigation_content.ps1`.
+
+### Validation
+
+- `tools/validate_navigation_content.ps1` checks lesson IDs/titles, dialog IDs/titles, unique dialog IDs, phrase `textPt`/`textDa`, children vocabulary, and shared JSON schema assumptions.
+- The script simulates at least 20 consecutive Next presses and 20 consecutive Previous presses across children dialogs.
+- All bundled JSON files parse as valid JSON.
+
+### Result
+
+Passed local content/navigation validation. Ready for Android Studio build and device testing.
+
 ## 2026-07-11
 
 Dialog navigation and children-content correction.

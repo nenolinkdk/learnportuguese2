@@ -1,581 +1,461 @@
 {
-    "id":  6,
-    "titleDa":  "Leg",
-    "descriptionDa":  "Meget let niveau med korte sætninger til børn.",
-    "dialogues":  [
-                      {
-                          "id":  1,
-                          "titleDa":  "Skal vi lege",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Queres brincar?",
-                                              "textDa":  "Skal vi lege?",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Vamos brincar juntos.",
-                                              "textDa":  "Lad os lege sammen.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Eu quero jogar também.",
-                                              "textDa":  "Jeg vil også spille.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Queres brincar",
-                                                 "textDa":  "Skal vi lege"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  2,
-                          "titleDa":  "Lad os spille",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Vamos jogar.",
-                                              "textDa":  "Lad os spille.",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Vamos brincar juntos.",
-                                              "textDa":  "Lad os lege sammen.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Eu quero jogar também.",
-                                              "textDa":  "Jeg vil også spille.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Vamos jogar",
-                                                 "textDa":  "Lad os spille"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  3,
-                          "titleDa":  "Kom med",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Vem comigo.",
-                                              "textDa":  "Kom med.",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Vamos brincar juntos.",
-                                              "textDa":  "Lad os lege sammen.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Eu quero jogar também.",
-                                              "textDa":  "Jeg vil også spille.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Vem comigo",
-                                                 "textDa":  "Kom med"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  4,
-                          "titleDa":  "Vent på mig",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Espera por mim.",
-                                              "textDa":  "Vent på mig.",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Vamos brincar juntos.",
-                                              "textDa":  "Lad os lege sammen.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Eu quero jogar também.",
-                                              "textDa":  "Jeg vil også spille.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Espera por mim",
-                                                 "textDa":  "Vent på mig"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  5,
-                          "titleDa":  "Jeg kan hjælpe",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Eu posso ajudar.",
-                                              "textDa":  "Jeg kan hjælpe.",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Vamos brincar juntos.",
-                                              "textDa":  "Lad os lege sammen.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Eu quero jogar também.",
-                                              "textDa":  "Jeg vil også spille.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Eu posso ajudar",
-                                                 "textDa":  "Jeg kan hjælpe"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  6,
-                          "titleDa":  "Jeg kan ikke nu",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Não posso agora.",
-                                              "textDa":  "Jeg kan ikke nu.",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Vamos brincar juntos.",
-                                              "textDa":  "Lad os lege sammen.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Eu quero jogar também.",
-                                              "textDa":  "Jeg vil også spille.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Não posso agora",
-                                                 "textDa":  "Jeg kan ikke nu"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  7,
-                          "titleDa":  "Lad os gå udenfor",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Vamos lá fora.",
-                                              "textDa":  "Lad os gå udenfor.",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Vamos brincar juntos.",
-                                              "textDa":  "Lad os lege sammen.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Eu quero jogar também.",
-                                              "textDa":  "Jeg vil også spille.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Vamos lá fora",
-                                                 "textDa":  "Lad os gå udenfor"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  8,
-                          "titleDa":  "Det er min tur",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "A minha vez.",
-                                              "textDa":  "Det er min tur.",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Vamos brincar juntos.",
-                                              "textDa":  "Lad os lege sammen.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Eu quero jogar também.",
-                                              "textDa":  "Jeg vil også spille.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "A minha vez",
-                                                 "textDa":  "Det er min tur"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  9,
-                          "titleDa":  "Det er din tur",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "A tua vez.",
-                                              "textDa":  "Det er din tur.",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Vamos brincar juntos.",
-                                              "textDa":  "Lad os lege sammen.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Eu quero jogar também.",
-                                              "textDa":  "Jeg vil også spille.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "A tua vez",
-                                                 "textDa":  "Det er din tur"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  10,
-                          "titleDa":  "Det var sjovt",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Foi divertido.",
-                                              "textDa":  "Det var sjovt.",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Vamos brincar juntos.",
-                                              "textDa":  "Lad os lege sammen.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Eu quero jogar também.",
-                                              "textDa":  "Jeg vil også spille.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Foi divertido",
-                                                 "textDa":  "Det var sjovt"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      }
-                  ],
-    "quiz":  [
-                 {
-                     "id":  1,
-                     "questionDa":  "Hvad betyder: Queres brincar?",
-                     "answers":  [
-                                     {
-                                         "text":  "Skal vi lege?",
-                                         "correct":  true
-                                     },
-                                     {
-                                         "text":  "Lad os spille.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Kom med.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Vent på mig.",
-                                         "correct":  false
-                                     }
-                                 ],
-                     "explanationDa":  "Queres brincar? = Skal vi lege?"
-                 },
-                 {
-                     "id":  2,
-                     "questionDa":  "Hvad betyder: Vamos jogar.",
-                     "answers":  [
-                                     {
-                                         "text":  "Lad os spille.",
-                                         "correct":  true
-                                     },
-                                     {
-                                         "text":  "Kom med.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Vent på mig.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Jeg kan hjælpe.",
-                                         "correct":  false
-                                     }
-                                 ],
-                     "explanationDa":  "Vamos jogar. = Lad os spille."
-                 },
-                 {
-                     "id":  3,
-                     "questionDa":  "Hvad betyder: Vem comigo.",
-                     "answers":  [
-                                     {
-                                         "text":  "Kom med.",
-                                         "correct":  true
-                                     },
-                                     {
-                                         "text":  "Vent på mig.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Jeg kan hjælpe.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Jeg kan ikke nu.",
-                                         "correct":  false
-                                     }
-                                 ],
-                     "explanationDa":  "Vem comigo. = Kom med."
-                 },
-                 {
-                     "id":  4,
-                     "questionDa":  "Hvad betyder: Espera por mim.",
-                     "answers":  [
-                                     {
-                                         "text":  "Vent på mig.",
-                                         "correct":  true
-                                     },
-                                     {
-                                         "text":  "Jeg kan hjælpe.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Jeg kan ikke nu.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Lad os gå udenfor.",
-                                         "correct":  false
-                                     }
-                                 ],
-                     "explanationDa":  "Espera por mim. = Vent på mig."
-                 },
-                 {
-                     "id":  5,
-                     "questionDa":  "Hvad betyder: Eu posso ajudar.",
-                     "answers":  [
-                                     {
-                                         "text":  "Jeg kan hjælpe.",
-                                         "correct":  true
-                                     },
-                                     {
-                                         "text":  "Jeg kan ikke nu.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Lad os gå udenfor.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Det er min tur.",
-                                         "correct":  false
-                                     }
-                                 ],
-                     "explanationDa":  "Eu posso ajudar. = Jeg kan hjælpe."
-                 },
-                 {
-                     "id":  6,
-                     "questionDa":  "Hvad betyder: Não posso agora.",
-                     "answers":  [
-                                     {
-                                         "text":  "Jeg kan ikke nu.",
-                                         "correct":  true
-                                     },
-                                     {
-                                         "text":  "Lad os gå udenfor.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Det er min tur.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Det er din tur.",
-                                         "correct":  false
-                                     }
-                                 ],
-                     "explanationDa":  "Não posso agora. = Jeg kan ikke nu."
-                 }
-             ],
-    "storyTitleDa":  "Kort børnedialog: Leg",
-    "storyObjectiveDa":  "Læs 10 korte linjer, som et barn kan bruge på rejse.",
-    "story":  [
-                  {
-                      "speaker":  "Barn",
-                      "textPt":  "Queres brincar?",
-                      "textDa":  "Skal vi lege?",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Voksen",
-                      "textPt":  "Vamos jogar.",
-                      "textDa":  "Lad os spille.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Barn",
-                      "textPt":  "Vem comigo.",
-                      "textDa":  "Kom med.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Voksen",
-                      "textPt":  "Espera por mim.",
-                      "textDa":  "Vent på mig.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Barn",
-                      "textPt":  "Eu posso ajudar.",
-                      "textDa":  "Jeg kan hjælpe.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Voksen",
-                      "textPt":  "Não posso agora.",
-                      "textDa":  "Jeg kan ikke nu.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Barn",
-                      "textPt":  "Vamos lá fora.",
-                      "textDa":  "Lad os gå udenfor.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Voksen",
-                      "textPt":  "A minha vez.",
-                      "textDa":  "Det er min tur.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Barn",
-                      "textPt":  "A tua vez.",
-                      "textDa":  "Det er din tur.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Voksen",
-                      "textPt":  "Foi divertido.",
-                      "textDa":  "Det var sjovt.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  }
-              ]
+  "id": 6,
+  "titleDa": "Leg",
+  "descriptionDa": "Meget let niveau med korte sætninger til børn.",
+  "dialogues": [
+    {
+      "id": 1,
+      "titleDa": "Skal vi lege",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Queres brincar?",
+          "textDa": "Skal vi lege?",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Queres brincar",
+          "textDa": "Skal vi lege"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titleDa": "Lad os spille",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Vamos jogar.",
+          "textDa": "Lad os spille.",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Vamos jogar",
+          "textDa": "Lad os spille"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "titleDa": "Kom med",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Vem comigo.",
+          "textDa": "Kom med.",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Vem comigo",
+          "textDa": "Kom med"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "titleDa": "Vent på mig",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Espera por mim.",
+          "textDa": "Vent på mig.",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Espera por mim",
+          "textDa": "Vent på mig"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "titleDa": "Jeg kan hjælpe",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Eu posso ajudar.",
+          "textDa": "Jeg kan hjælpe.",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Eu posso ajudar",
+          "textDa": "Jeg kan hjælpe"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "titleDa": "Jeg kan ikke nu",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Não posso agora.",
+          "textDa": "Jeg kan ikke nu.",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Não posso agora",
+          "textDa": "Jeg kan ikke nu"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "titleDa": "Lad os gå udenfor",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Vamos lá fora.",
+          "textDa": "Lad os gå udenfor.",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Vamos lá fora",
+          "textDa": "Lad os gå udenfor"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "titleDa": "Det er min tur",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "A minha vez.",
+          "textDa": "Det er min tur.",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "A minha vez",
+          "textDa": "Det er min tur"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "titleDa": "Det er din tur",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "A tua vez.",
+          "textDa": "Det er din tur.",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "A tua vez",
+          "textDa": "Det er din tur"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "titleDa": "Det var sjovt",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Foi divertido.",
+          "textDa": "Det var sjovt.",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Foi divertido",
+          "textDa": "Det var sjovt"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "questionDa": "Hvad betyder: Queres brincar?",
+      "answers": [
+        {
+          "text": "Skal vi lege?",
+          "correct": true
+        },
+        {
+          "text": "Lad os spille.",
+          "correct": false
+        },
+        {
+          "text": "Kom med.",
+          "correct": false
+        },
+        {
+          "text": "Vent på mig.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Queres brincar? = Skal vi lege?"
+    },
+    {
+      "id": 2,
+      "questionDa": "Hvad betyder: Vamos jogar.",
+      "answers": [
+        {
+          "text": "Lad os spille.",
+          "correct": true
+        },
+        {
+          "text": "Kom med.",
+          "correct": false
+        },
+        {
+          "text": "Vent på mig.",
+          "correct": false
+        },
+        {
+          "text": "Jeg kan hjælpe.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Vamos jogar. = Lad os spille."
+    },
+    {
+      "id": 3,
+      "questionDa": "Hvad betyder: Vem comigo.",
+      "answers": [
+        {
+          "text": "Kom med.",
+          "correct": true
+        },
+        {
+          "text": "Vent på mig.",
+          "correct": false
+        },
+        {
+          "text": "Jeg kan hjælpe.",
+          "correct": false
+        },
+        {
+          "text": "Jeg kan ikke nu.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Vem comigo. = Kom med."
+    },
+    {
+      "id": 4,
+      "questionDa": "Hvad betyder: Espera por mim.",
+      "answers": [
+        {
+          "text": "Vent på mig.",
+          "correct": true
+        },
+        {
+          "text": "Jeg kan hjælpe.",
+          "correct": false
+        },
+        {
+          "text": "Jeg kan ikke nu.",
+          "correct": false
+        },
+        {
+          "text": "Lad os gå udenfor.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Espera por mim. = Vent på mig."
+    },
+    {
+      "id": 5,
+      "questionDa": "Hvad betyder: Eu posso ajudar.",
+      "answers": [
+        {
+          "text": "Jeg kan hjælpe.",
+          "correct": true
+        },
+        {
+          "text": "Jeg kan ikke nu.",
+          "correct": false
+        },
+        {
+          "text": "Lad os gå udenfor.",
+          "correct": false
+        },
+        {
+          "text": "Det er min tur.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Eu posso ajudar. = Jeg kan hjælpe."
+    },
+    {
+      "id": 6,
+      "questionDa": "Hvad betyder: Não posso agora.",
+      "answers": [
+        {
+          "text": "Jeg kan ikke nu.",
+          "correct": true
+        },
+        {
+          "text": "Lad os gå udenfor.",
+          "correct": false
+        },
+        {
+          "text": "Det er min tur.",
+          "correct": false
+        },
+        {
+          "text": "Det er din tur.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Não posso agora. = Jeg kan ikke nu."
+    }
+  ],
+  "storyTitleDa": "Kort børnedialog: Leg",
+  "storyObjectiveDa": "Læs 10 korte linjer, som et barn kan bruge på rejse.",
+  "story": [
+    {
+      "speaker": "Barn",
+      "textPt": "Queres brincar?",
+      "textDa": "Skal vi lege?",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Voksen",
+      "textPt": "Vamos jogar.",
+      "textDa": "Lad os spille.",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Barn",
+      "textPt": "Vem comigo.",
+      "textDa": "Kom med.",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Voksen",
+      "textPt": "Espera por mim.",
+      "textDa": "Vent på mig.",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Barn",
+      "textPt": "Eu posso ajudar.",
+      "textDa": "Jeg kan hjælpe.",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Voksen",
+      "textPt": "Não posso agora.",
+      "textDa": "Jeg kan ikke nu.",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Barn",
+      "textPt": "Vamos lá fora.",
+      "textDa": "Lad os gå udenfor.",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Voksen",
+      "textPt": "A minha vez.",
+      "textDa": "Det er min tur.",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Barn",
+      "textPt": "A tua vez.",
+      "textDa": "Det er din tur.",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Voksen",
+      "textPt": "Foi divertido.",
+      "textDa": "Det var sjovt.",
+      "grammarDa": "Praktisk og kort frase."
+    }
+  ]
 }

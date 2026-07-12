@@ -1,581 +1,461 @@
 {
-    "id":  7,
-    "titleDa":  "Navn og land",
-    "descriptionDa":  "Meget let niveau med korte sætninger til børn.",
-    "dialogues":  [
-                      {
-                          "id":  1,
-                          "titleDa":  "Jeg hedder ",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Eu chamo-me ...",
-                                              "textDa":  "Jeg hedder ...",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Eu chamo-me Ana.",
-                                              "textDa":  "Jeg hedder Ana.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Tenho dez anos.",
-                                              "textDa":  "Jeg er ti år.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Eu chamo-me ",
-                                                 "textDa":  "Jeg hedder "
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  2,
-                          "titleDa":  "Jeg er fra Danmark",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Sou da Dinamarca.",
-                                              "textDa":  "Jeg er fra Danmark.",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Eu chamo-me Ana.",
-                                              "textDa":  "Jeg hedder Ana.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Tenho dez anos.",
-                                              "textDa":  "Jeg er ti år.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Sou da Dinamarca",
-                                                 "textDa":  "Jeg er fra Danmark"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  3,
-                          "titleDa":  "Jeg taler dansk",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Falo dinamarquês.",
-                                              "textDa":  "Jeg taler dansk.",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Eu chamo-me Ana.",
-                                              "textDa":  "Jeg hedder Ana.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Tenho dez anos.",
-                                              "textDa":  "Jeg er ti år.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Falo dinamarquês",
-                                                 "textDa":  "Jeg taler dansk"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  4,
-                          "titleDa":  "Jeg taler ikke meget portugisisk",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Não falo muito português.",
-                                              "textDa":  "Jeg taler ikke meget portugisisk.",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Eu chamo-me Ana.",
-                                              "textDa":  "Jeg hedder Ana.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Tenho dez anos.",
-                                              "textDa":  "Jeg er ti år.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Não falo muito português",
-                                                 "textDa":  "Jeg taler ikke meget portugisisk"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  5,
-                          "titleDa":  "Hvad hedder du",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Como te chamas?",
-                                              "textDa":  "Hvad hedder du?",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Eu chamo-me Ana.",
-                                              "textDa":  "Jeg hedder Ana.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Tenho dez anos.",
-                                              "textDa":  "Jeg er ti år.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Como te chamas",
-                                                 "textDa":  "Hvad hedder du"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  6,
-                          "titleDa":  "Jeg er ni år",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Tenho nove anos.",
-                                              "textDa":  "Jeg er ni år.",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Eu chamo-me Ana.",
-                                              "textDa":  "Jeg hedder Ana.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Tenho dez anos.",
-                                              "textDa":  "Jeg er ti år.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Tenho nove anos",
-                                                 "textDa":  "Jeg er ni år"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  7,
-                          "titleDa":  "Jeg er ti år",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Tenho dez anos.",
-                                              "textDa":  "Jeg er ti år.",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Eu chamo-me Ana.",
-                                              "textDa":  "Jeg hedder Ana.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Tenho dez anos.",
-                                              "textDa":  "Jeg er ti år.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Tenho dez anos",
-                                                 "textDa":  "Jeg er ti år"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  8,
-                          "titleDa":  "Jeg er elev",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Sou aluno.",
-                                              "textDa":  "Jeg er elev.",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Eu chamo-me Ana.",
-                                              "textDa":  "Jeg hedder Ana.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Tenho dez anos.",
-                                              "textDa":  "Jeg er ti år.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Sou aluno",
-                                                 "textDa":  "Jeg er elev"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  9,
-                          "titleDa":  "Jeg er på ferie",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Estou de férias.",
-                                              "textDa":  "Jeg er på ferie.",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Eu chamo-me Ana.",
-                                              "textDa":  "Jeg hedder Ana.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Tenho dez anos.",
-                                              "textDa":  "Jeg er ti år.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Estou de férias",
-                                                 "textDa":  "Jeg er på ferie"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  10,
-                          "titleDa":  "Jeg bor i Danmark",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Moro na Dinamarca.",
-                                              "textDa":  "Jeg bor i Danmark.",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Eu chamo-me Ana.",
-                                              "textDa":  "Jeg hedder Ana.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Tenho dez anos.",
-                                              "textDa":  "Jeg er ti år.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Moro na Dinamarca",
-                                                 "textDa":  "Jeg bor i Danmark"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      }
-                  ],
-    "quiz":  [
-                 {
-                     "id":  1,
-                     "questionDa":  "Hvad betyder: Eu chamo-me ...",
-                     "answers":  [
-                                     {
-                                         "text":  "Jeg hedder ...",
-                                         "correct":  true
-                                     },
-                                     {
-                                         "text":  "Jeg er fra Danmark.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Jeg taler dansk.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Jeg taler ikke meget portugisisk.",
-                                         "correct":  false
-                                     }
-                                 ],
-                     "explanationDa":  "Eu chamo-me ... = Jeg hedder ..."
-                 },
-                 {
-                     "id":  2,
-                     "questionDa":  "Hvad betyder: Sou da Dinamarca.",
-                     "answers":  [
-                                     {
-                                         "text":  "Jeg er fra Danmark.",
-                                         "correct":  true
-                                     },
-                                     {
-                                         "text":  "Jeg taler dansk.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Jeg taler ikke meget portugisisk.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Hvad hedder du?",
-                                         "correct":  false
-                                     }
-                                 ],
-                     "explanationDa":  "Sou da Dinamarca. = Jeg er fra Danmark."
-                 },
-                 {
-                     "id":  3,
-                     "questionDa":  "Hvad betyder: Falo dinamarquês.",
-                     "answers":  [
-                                     {
-                                         "text":  "Jeg taler dansk.",
-                                         "correct":  true
-                                     },
-                                     {
-                                         "text":  "Jeg taler ikke meget portugisisk.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Hvad hedder du?",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Jeg er ni år.",
-                                         "correct":  false
-                                     }
-                                 ],
-                     "explanationDa":  "Falo dinamarquês. = Jeg taler dansk."
-                 },
-                 {
-                     "id":  4,
-                     "questionDa":  "Hvad betyder: Não falo muito português.",
-                     "answers":  [
-                                     {
-                                         "text":  "Jeg taler ikke meget portugisisk.",
-                                         "correct":  true
-                                     },
-                                     {
-                                         "text":  "Hvad hedder du?",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Jeg er ni år.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Jeg er ti år.",
-                                         "correct":  false
-                                     }
-                                 ],
-                     "explanationDa":  "Não falo muito português. = Jeg taler ikke meget portugisisk."
-                 },
-                 {
-                     "id":  5,
-                     "questionDa":  "Hvad betyder: Como te chamas?",
-                     "answers":  [
-                                     {
-                                         "text":  "Hvad hedder du?",
-                                         "correct":  true
-                                     },
-                                     {
-                                         "text":  "Jeg er ni år.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Jeg er ti år.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Jeg er elev.",
-                                         "correct":  false
-                                     }
-                                 ],
-                     "explanationDa":  "Como te chamas? = Hvad hedder du?"
-                 },
-                 {
-                     "id":  6,
-                     "questionDa":  "Hvad betyder: Tenho nove anos.",
-                     "answers":  [
-                                     {
-                                         "text":  "Jeg er ni år.",
-                                         "correct":  true
-                                     },
-                                     {
-                                         "text":  "Jeg er ti år.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Jeg er elev.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Jeg er på ferie.",
-                                         "correct":  false
-                                     }
-                                 ],
-                     "explanationDa":  "Tenho nove anos. = Jeg er ni år."
-                 }
-             ],
-    "storyTitleDa":  "Kort børnedialog: Navn og land",
-    "storyObjectiveDa":  "Læs 10 korte linjer, som et barn kan bruge på rejse.",
-    "story":  [
-                  {
-                      "speaker":  "Barn",
-                      "textPt":  "Eu chamo-me ...",
-                      "textDa":  "Jeg hedder ...",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Voksen",
-                      "textPt":  "Sou da Dinamarca.",
-                      "textDa":  "Jeg er fra Danmark.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Barn",
-                      "textPt":  "Falo dinamarquês.",
-                      "textDa":  "Jeg taler dansk.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Voksen",
-                      "textPt":  "Não falo muito português.",
-                      "textDa":  "Jeg taler ikke meget portugisisk.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Barn",
-                      "textPt":  "Como te chamas?",
-                      "textDa":  "Hvad hedder du?",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Voksen",
-                      "textPt":  "Tenho nove anos.",
-                      "textDa":  "Jeg er ni år.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Barn",
-                      "textPt":  "Tenho dez anos.",
-                      "textDa":  "Jeg er ti år.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Voksen",
-                      "textPt":  "Sou aluno.",
-                      "textDa":  "Jeg er elev.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Barn",
-                      "textPt":  "Estou de férias.",
-                      "textDa":  "Jeg er på ferie.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Voksen",
-                      "textPt":  "Moro na Dinamarca.",
-                      "textDa":  "Jeg bor i Danmark.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  }
-              ]
+  "id": 7,
+  "titleDa": "Navn og land",
+  "descriptionDa": "Meget let niveau med korte sætninger til børn.",
+  "dialogues": [
+    {
+      "id": 1,
+      "titleDa": "Jeg hedder ",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Eu chamo-me ...",
+          "textDa": "Jeg hedder ...",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Eu chamo-me ",
+          "textDa": "Jeg hedder "
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titleDa": "Jeg er fra Danmark",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Sou da Dinamarca.",
+          "textDa": "Jeg er fra Danmark.",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Sou da Dinamarca",
+          "textDa": "Jeg er fra Danmark"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "titleDa": "Jeg taler dansk",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Falo dinamarquês.",
+          "textDa": "Jeg taler dansk.",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Falo dinamarquês",
+          "textDa": "Jeg taler dansk"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "titleDa": "Jeg taler ikke meget portugisisk",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Não falo muito português.",
+          "textDa": "Jeg taler ikke meget portugisisk.",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Não falo muito português",
+          "textDa": "Jeg taler ikke meget portugisisk"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "titleDa": "Hvad hedder du",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Como te chamas?",
+          "textDa": "Hvad hedder du?",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Como te chamas",
+          "textDa": "Hvad hedder du"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "titleDa": "Jeg er ni år",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Tenho nove anos.",
+          "textDa": "Jeg er ni år.",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Tenho nove anos",
+          "textDa": "Jeg er ni år"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "titleDa": "Jeg er ti år",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Tenho dez anos.",
+          "textDa": "Jeg er ti år.",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Tenho dez anos",
+          "textDa": "Jeg er ti år"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "titleDa": "Jeg er elev",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Sou aluno.",
+          "textDa": "Jeg er elev.",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Sou aluno",
+          "textDa": "Jeg er elev"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "titleDa": "Jeg er på ferie",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Estou de férias.",
+          "textDa": "Jeg er på ferie.",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Estou de férias",
+          "textDa": "Jeg er på ferie"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "titleDa": "Jeg bor i Danmark",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Moro na Dinamarca.",
+          "textDa": "Jeg bor i Danmark.",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Moro na Dinamarca",
+          "textDa": "Jeg bor i Danmark"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "questionDa": "Hvad betyder: Eu chamo-me ...",
+      "answers": [
+        {
+          "text": "Jeg hedder ...",
+          "correct": true
+        },
+        {
+          "text": "Jeg er fra Danmark.",
+          "correct": false
+        },
+        {
+          "text": "Jeg taler dansk.",
+          "correct": false
+        },
+        {
+          "text": "Jeg taler ikke meget portugisisk.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Eu chamo-me ... = Jeg hedder ..."
+    },
+    {
+      "id": 2,
+      "questionDa": "Hvad betyder: Sou da Dinamarca.",
+      "answers": [
+        {
+          "text": "Jeg er fra Danmark.",
+          "correct": true
+        },
+        {
+          "text": "Jeg taler dansk.",
+          "correct": false
+        },
+        {
+          "text": "Jeg taler ikke meget portugisisk.",
+          "correct": false
+        },
+        {
+          "text": "Hvad hedder du?",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Sou da Dinamarca. = Jeg er fra Danmark."
+    },
+    {
+      "id": 3,
+      "questionDa": "Hvad betyder: Falo dinamarquês.",
+      "answers": [
+        {
+          "text": "Jeg taler dansk.",
+          "correct": true
+        },
+        {
+          "text": "Jeg taler ikke meget portugisisk.",
+          "correct": false
+        },
+        {
+          "text": "Hvad hedder du?",
+          "correct": false
+        },
+        {
+          "text": "Jeg er ni år.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Falo dinamarquês. = Jeg taler dansk."
+    },
+    {
+      "id": 4,
+      "questionDa": "Hvad betyder: Não falo muito português.",
+      "answers": [
+        {
+          "text": "Jeg taler ikke meget portugisisk.",
+          "correct": true
+        },
+        {
+          "text": "Hvad hedder du?",
+          "correct": false
+        },
+        {
+          "text": "Jeg er ni år.",
+          "correct": false
+        },
+        {
+          "text": "Jeg er ti år.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Não falo muito português. = Jeg taler ikke meget portugisisk."
+    },
+    {
+      "id": 5,
+      "questionDa": "Hvad betyder: Como te chamas?",
+      "answers": [
+        {
+          "text": "Hvad hedder du?",
+          "correct": true
+        },
+        {
+          "text": "Jeg er ni år.",
+          "correct": false
+        },
+        {
+          "text": "Jeg er ti år.",
+          "correct": false
+        },
+        {
+          "text": "Jeg er elev.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Como te chamas? = Hvad hedder du?"
+    },
+    {
+      "id": 6,
+      "questionDa": "Hvad betyder: Tenho nove anos.",
+      "answers": [
+        {
+          "text": "Jeg er ni år.",
+          "correct": true
+        },
+        {
+          "text": "Jeg er ti år.",
+          "correct": false
+        },
+        {
+          "text": "Jeg er elev.",
+          "correct": false
+        },
+        {
+          "text": "Jeg er på ferie.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Tenho nove anos. = Jeg er ni år."
+    }
+  ],
+  "storyTitleDa": "Kort børnedialog: Navn og land",
+  "storyObjectiveDa": "Læs 10 korte linjer, som et barn kan bruge på rejse.",
+  "story": [
+    {
+      "speaker": "Barn",
+      "textPt": "Eu chamo-me ...",
+      "textDa": "Jeg hedder ...",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Voksen",
+      "textPt": "Sou da Dinamarca.",
+      "textDa": "Jeg er fra Danmark.",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Barn",
+      "textPt": "Falo dinamarquês.",
+      "textDa": "Jeg taler dansk.",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Voksen",
+      "textPt": "Não falo muito português.",
+      "textDa": "Jeg taler ikke meget portugisisk.",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Barn",
+      "textPt": "Como te chamas?",
+      "textDa": "Hvad hedder du?",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Voksen",
+      "textPt": "Tenho nove anos.",
+      "textDa": "Jeg er ni år.",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Barn",
+      "textPt": "Tenho dez anos.",
+      "textDa": "Jeg er ti år.",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Voksen",
+      "textPt": "Sou aluno.",
+      "textDa": "Jeg er elev.",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Barn",
+      "textPt": "Estou de férias.",
+      "textDa": "Jeg er på ferie.",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Voksen",
+      "textPt": "Moro na Dinamarca.",
+      "textDa": "Jeg bor i Danmark.",
+      "grammarDa": "Praktisk og kort frase."
+    }
+  ]
 }
