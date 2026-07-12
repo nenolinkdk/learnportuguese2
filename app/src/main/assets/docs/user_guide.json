@@ -4,11 +4,11 @@
   "sections": [
     {
       "titleDa": "Hvad er Nenoling?",
-      "bodyDa": "Nenoling er Nenolinks sprogprojekt med enkle offline-apps til sproglæring. LearnPortuguese2 hjælper danske brugere med at øve europæisk portugisisk i små, praktiske trin."
+      "bodyDa": "Nenoling er Nenolinks brand for sproglæring. LearnPortuguese2 hjælper danske brugere med at øve europæisk portugisisk i små, praktiske trin."
     },
     {
       "titleDa": "Hvad indeholder LearnPortuguese2?",
-      "bodyDa": "Appen indeholder Level 1, Level 2 og et meget let børneniveau. Du kan øve dialoger, korte historier, ordforråd, tal 1-100, grammatik, quizzer og portugisisk udtale."
+      "bodyDa": "Appen indeholder Niveau 1, Niveau 2 og et meget let børneniveau. Du kan øve dialoger, korte historier, ordforråd, tal 1-100, grammatik, quizzer og portugisisk udtale."
     },
     {
       "titleDa": "Sådan vælger du niveau",
@@ -32,7 +32,7 @@
     },
     {
       "titleDa": "Mere information",
-      "bodyDa": "Se Nenoling- og Nenolink-information i appens dokumentation og fremtidige Nenoling-materialer."
+      "bodyDa": "Tryk på Åbn Nenolink i denne guide for at åbne Nenolinks website i browseren. Resten af guiden virker offline."
     }
   ],
   "footerDa": "© Nenolink - Henrik Nielsen"

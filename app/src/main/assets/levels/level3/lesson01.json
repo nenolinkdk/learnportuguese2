@@ -6,7 +6,7 @@
     {
       "id": 1,
       "titleDa": "Hej",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Hej",
       "phrases": [
         {
           "speaker": "Barn",
@@ -31,7 +31,7 @@
     {
       "id": 2,
       "titleDa": "Goddag",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Goddag",
       "phrases": [
         {
           "speaker": "Barn",
@@ -56,7 +56,7 @@
     {
       "id": 3,
       "titleDa": "Farvel",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Farvel",
       "phrases": [
         {
           "speaker": "Barn",
@@ -81,7 +81,7 @@
     {
       "id": 4,
       "titleDa": "Vi ses senere",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Vi ses senere",
       "phrases": [
         {
           "speaker": "Barn",
@@ -106,7 +106,7 @@
     {
       "id": 5,
       "titleDa": "Tak for hjælpen",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Tak for hjælpen",
       "phrases": [
         {
           "speaker": "Barn",
@@ -131,7 +131,7 @@
     {
       "id": 6,
       "titleDa": "Vær sød",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Vær sød",
       "phrases": [
         {
           "speaker": "Barn",
@@ -156,7 +156,7 @@
     {
       "id": 7,
       "titleDa": "Ja",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Ja",
       "phrases": [
         {
           "speaker": "Barn",
@@ -181,7 +181,7 @@
     {
       "id": 8,
       "titleDa": "Nej",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Nej",
       "phrases": [
         {
           "speaker": "Barn",
@@ -206,7 +206,7 @@
     {
       "id": 9,
       "titleDa": "Undskyld",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Undskyld",
       "phrases": [
         {
           "speaker": "Barn",
@@ -231,7 +231,7 @@
     {
       "id": 10,
       "titleDa": "God aften",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: God aften",
       "phrases": [
         {
           "speaker": "Barn",

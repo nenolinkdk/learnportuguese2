@@ -1,4 +1,4 @@
-param(
+﻿param(
     [string]$Root = "."
 )
 
@@ -54,6 +54,9 @@ function Move-Previous($State, $Dialogs) {
 
 $levelRoot = Join-Path $Root "app/src/main/assets/levels"
 $childrenRoot = Join-Path $levelRoot "level3"
+$childrenSafetyPath = Join-Path $childrenRoot "lesson10.json"
+$buildGradlePath = Join-Path $Root "app/build.gradle"
+$guidePath = Join-Path $Root "app/src/main/assets/docs/user_guide.json"
 $bannedChildrenFiller = @(
     "Olá. Como estás?",
     "Estou bem.",
@@ -151,6 +154,46 @@ $mainActivityPath = Join-Path $Root "app/src/main/java/dk/nenolink/learnportugue
 $mainActivity = Get-Content -LiteralPath $mainActivityPath -Raw -Encoding UTF8
 if ($mainActivity -match "createFallbackPhrases|createPlaceholderDialogues|Conteúdo em preparação") {
     Add-Error "MainActivity contains a dialog phrase fallback or placeholder content path"
+}
+if ($mainActivity -notmatch "formatLessonStatusLine") {
+    Add-Error "MainActivity is missing shared lesson status formatter"
+}
+if ($mainActivity -notmatch "buildPhraseBreadcrumb") {
+    Add-Error "MainActivity is missing shared dialog breadcrumb builder"
+}
+if ($mainActivity -notmatch "getPackageInfo\(\)" -or $mainActivity -notmatch "getPackageVersionCode" -or $mainActivity -notmatch "R\.string\.release_date") {
+    Add-Error "MainActivity does not display version/build/date from build metadata"
+}
+if ($mainActivity -notmatch "Intent\.ACTION_VIEW" -or $mainActivity -notmatch "R\.string\.nenolink_url") {
+    Add-Error "MainActivity does not open the configured Nenolink URL through a browser intent"
+}
+
+$buildGradle = Get-Content -LiteralPath $buildGradlePath -Raw -Encoding UTF8
+if ($buildGradle -notmatch 'versionName\s+"[^"]+"' -or $buildGradle -notmatch 'versionCode\s+\d+') {
+    Add-Error "app/build.gradle is missing versionName or versionCode"
+}
+if ($buildGradle -notmatch 'releaseDate\s*=\s*"[^"]+"' -or $buildGradle -notmatch 'resValue\s+"string",\s+"release_date"' -or $buildGradle -notmatch 'resValue\s+"string",\s+"nenolink_url"') {
+    Add-Error "app/build.gradle is missing release date or Nenolink URL resource values"
+}
+
+$guide = Read-Json $guidePath
+$guideText = $guide | ConvertTo-Json -Depth 20 -Compress
+if ($guideText -match "Level") {
+    Add-Error "User guide still uses visible English Level terminology"
+}
+
+$childrenSafety = Read-Json $childrenSafetyPath
+$safetyPhrases = @()
+foreach ($dialog in (As-Array $childrenSafety.dialogues)) {
+    foreach ($phrase in (As-Array $dialog.phrases)) {
+        Test-Phrase "level3" "lesson10.json" $dialog $phrase "safety"
+        $safetyPhrases += [string]$phrase.textPt
+    }
+}
+foreach ($requiredPhrase in @("Quero falar com a polícia.", "Onde é a esquadra?", "Não é uma emergência.", "É uma emergência.", "Ligue para o 112 em Portugal.", "Ligue só em caso de perigo.")) {
+    if ($safetyPhrases -notcontains $requiredPhrase) {
+        Add-Error "Children safety content is missing required Portuguese phrase: $requiredPhrase"
+    }
 }
 
 if ($errors.Count -gt 0) {

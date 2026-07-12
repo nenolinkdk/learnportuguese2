@@ -8,6 +8,10 @@
 - Removed repeated feedback/helper phrases from children dialog navigation content.
 - Normalized children dialogs to the same JSON lesson/dialog/phrase architecture as adult levels.
 - Removed silent placeholder/fallback phrase paths for invalid dialog content.
+- Standardized visible terminology from "Level" to "Niveau" in app-facing text and user documentation.
+- Standardized lesson status lines as `gennemført · klar`, where `klar` means available quiz questions for the lesson.
+- Moved dialog breadcrumb/status text to the bottom of dialog and story screens.
+- Removed repeated children objective text from dialog screens.
 
 ### Added
 
@@ -16,6 +20,10 @@
 - Added validation script for dialog navigation/content checks.
 - Extended validation to cover required lesson/dialog/phrase fields, unique dialog IDs, shared schema assumptions, and 20-step Next/Previous children navigation.
 - Expanded children dialogs with age-appropriate dialog content stored in JSON.
+- Added discreet main-menu release metadata from Gradle: `Version 0.2.0 · Build 12 · 2026-07-12`.
+- Added configurable Nenolink browser link via generated Android resource.
+- Added children safety phrases for ordinary police help and emergency 112 use in Portugal.
+- Added release-process documentation.
 
 ## 1.0 Local Release Candidate
 
