@@ -6,7 +6,7 @@
     {
       "id": 1,
       "titleDa": "Jeg kan ikke finde mine forældre",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Jeg kan ikke finde mine forældre",
       "phrases": [
         {
           "speaker": "Barn",
@@ -31,7 +31,7 @@
     {
       "id": 2,
       "titleDa": "Kan du hjælpe mig",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Kan du hjælpe mig",
       "phrases": [
         {
           "speaker": "Barn",
@@ -56,7 +56,7 @@
     {
       "id": 3,
       "titleDa": "Ring til politiet, tak",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Ring til politiet, tak",
       "phrases": [
         {
           "speaker": "Barn",
@@ -81,7 +81,7 @@
     {
       "id": 4,
       "titleDa": "Jeg er faret vild",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Jeg er faret vild",
       "phrases": [
         {
           "speaker": "Barn",
@@ -106,7 +106,7 @@
     {
       "id": 5,
       "titleDa": "Jeg er bange",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Jeg er bange",
       "phrases": [
         {
           "speaker": "Barn",
@@ -131,7 +131,7 @@
     {
       "id": 6,
       "titleDa": "Jeg har brug for hjælp",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Jeg har brug for hjælp",
       "phrases": [
         {
           "speaker": "Barn",
@@ -156,7 +156,7 @@
     {
       "id": 7,
       "titleDa": "Bliv hos mig, tak",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Bliv hos mig, tak",
       "phrases": [
         {
           "speaker": "Barn",
@@ -181,7 +181,7 @@
     {
       "id": 8,
       "titleDa": "Hvor er informationen",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Hvor er informationen",
       "phrases": [
         {
           "speaker": "Barn",
@@ -206,7 +206,7 @@
     {
       "id": 9,
       "titleDa": "Jeg kender ikke vejen",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Jeg kender ikke vejen",
       "phrases": [
         {
           "speaker": "Barn",
@@ -231,7 +231,7 @@
     {
       "id": 10,
       "titleDa": "Jeg er et barn",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Jeg er et barn",
       "phrases": [
         {
           "speaker": "Barn",

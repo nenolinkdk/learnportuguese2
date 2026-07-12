@@ -6,7 +6,7 @@
     {
       "id": 1,
       "titleDa": "Min mors telefon er ",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Min mors telefon er ",
       "phrases": [
         {
           "speaker": "Barn",
@@ -31,7 +31,7 @@
     {
       "id": 2,
       "titleDa": "Min fars telefon er ",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Min fars telefon er ",
       "phrases": [
         {
           "speaker": "Barn",
@@ -56,7 +56,7 @@
     {
       "id": 3,
       "titleDa": "Min mor hedder ",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Min mor hedder ",
       "phrases": [
         {
           "speaker": "Barn",
@@ -81,7 +81,7 @@
     {
       "id": 4,
       "titleDa": "Min far hedder ",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Min far hedder ",
       "phrases": [
         {
           "speaker": "Barn",
@@ -106,7 +106,7 @@
     {
       "id": 5,
       "titleDa": "Jeg er fra Danmark",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Jeg er fra Danmark",
       "phrases": [
         {
           "speaker": "Barn",
@@ -131,7 +131,7 @@
     {
       "id": 6,
       "titleDa": "Kan du ringe til min mor",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Kan du ringe til min mor",
       "phrases": [
         {
           "speaker": "Barn",
@@ -156,7 +156,7 @@
     {
       "id": 7,
       "titleDa": "Kan du ringe til min far",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Kan du ringe til min far",
       "phrases": [
         {
           "speaker": "Barn",
@@ -181,7 +181,7 @@
     {
       "id": 8,
       "titleDa": "Dette er min telefon",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Dette er min telefon",
       "phrases": [
         {
           "speaker": "Barn",
@@ -206,7 +206,7 @@
     {
       "id": 9,
       "titleDa": "Jeg har ikke batteri",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Jeg har ikke batteri",
       "phrases": [
         {
           "speaker": "Barn",
@@ -231,7 +231,7 @@
     {
       "id": 10,
       "titleDa": "Mit navn er ",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Mit navn er ",
       "phrases": [
         {
           "speaker": "Barn",

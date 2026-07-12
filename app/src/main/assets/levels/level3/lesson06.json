@@ -6,7 +6,7 @@
     {
       "id": 1,
       "titleDa": "Skal vi lege",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Skal vi lege",
       "phrases": [
         {
           "speaker": "Barn",
@@ -31,7 +31,7 @@
     {
       "id": 2,
       "titleDa": "Lad os spille",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Lad os spille",
       "phrases": [
         {
           "speaker": "Barn",
@@ -56,7 +56,7 @@
     {
       "id": 3,
       "titleDa": "Kom med",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Kom med",
       "phrases": [
         {
           "speaker": "Barn",
@@ -81,7 +81,7 @@
     {
       "id": 4,
       "titleDa": "Vent på mig",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Vent på mig",
       "phrases": [
         {
           "speaker": "Barn",
@@ -106,7 +106,7 @@
     {
       "id": 5,
       "titleDa": "Jeg kan hjælpe",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Jeg kan hjælpe",
       "phrases": [
         {
           "speaker": "Barn",
@@ -131,7 +131,7 @@
     {
       "id": 6,
       "titleDa": "Jeg kan ikke nu",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Jeg kan ikke nu",
       "phrases": [
         {
           "speaker": "Barn",
@@ -156,7 +156,7 @@
     {
       "id": 7,
       "titleDa": "Lad os gå udenfor",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Lad os gå udenfor",
       "phrases": [
         {
           "speaker": "Barn",
@@ -181,7 +181,7 @@
     {
       "id": 8,
       "titleDa": "Det er min tur",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Det er min tur",
       "phrases": [
         {
           "speaker": "Barn",
@@ -206,7 +206,7 @@
     {
       "id": 9,
       "titleDa": "Det er din tur",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Det er din tur",
       "phrases": [
         {
           "speaker": "Barn",
@@ -231,7 +231,7 @@
     {
       "id": 10,
       "titleDa": "Det var sjovt",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Det var sjovt",
       "phrases": [
         {
           "speaker": "Barn",

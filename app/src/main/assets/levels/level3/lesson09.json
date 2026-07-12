@@ -6,7 +6,7 @@
     {
       "id": 1,
       "titleDa": "Hvor er bussen",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Hvor er bussen",
       "phrases": [
         {
           "speaker": "Barn",
@@ -31,7 +31,7 @@
     {
       "id": 2,
       "titleDa": "Jeg vil gerne hjem",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Jeg vil gerne hjem",
       "phrases": [
         {
           "speaker": "Barn",
@@ -56,7 +56,7 @@
     {
       "id": 3,
       "titleDa": "Dette er min billet",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Dette er min billet",
       "phrases": [
         {
           "speaker": "Barn",
@@ -81,7 +81,7 @@
     {
       "id": 4,
       "titleDa": "Kan du gentage",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Kan du gentage",
       "phrases": [
         {
           "speaker": "Barn",
@@ -106,7 +106,7 @@
     {
       "id": 5,
       "titleDa": "Langsomt, tak",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Langsomt, tak",
       "phrases": [
         {
           "speaker": "Barn",
@@ -131,7 +131,7 @@
     {
       "id": 6,
       "titleDa": "Hvor er stationen",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Hvor er stationen",
       "phrases": [
         {
           "speaker": "Barn",
@@ -156,7 +156,7 @@
     {
       "id": 7,
       "titleDa": "Jeg vil gerne have en taxa",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Jeg vil gerne have en taxa",
       "phrases": [
         {
           "speaker": "Barn",
@@ -181,7 +181,7 @@
     {
       "id": 8,
       "titleDa": "Jeg går med min familie",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Jeg går med min familie",
       "phrases": [
         {
           "speaker": "Barn",
@@ -206,7 +206,7 @@
     {
       "id": 9,
       "titleDa": "Jeg ved ikke, hvor jeg skal af",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Jeg ved ikke, hvor jeg skal af",
       "phrases": [
         {
           "speaker": "Barn",
@@ -231,7 +231,7 @@
     {
       "id": 10,
       "titleDa": "Er dette vejen",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Er dette vejen",
       "phrases": [
         {
           "speaker": "Barn",

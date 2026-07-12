@@ -3,10 +3,14 @@ package dk.nenolink.learnportuguese2;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
+import android.content.Intent;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Path;
 import android.graphics.RectF;
+import android.net.Uri;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
 import android.util.Log;
@@ -67,6 +71,7 @@ public class MainActivity extends Activity {
     private static final String EMPTY_GRAMMAR = "Ingen grammatiknote endnu.";
     private static final String FOOTER_TEXT = "\u00a9 Nenolink - Henrik Nielsen";
     private static final String USER_GUIDE_ASSET = "docs/user_guide.json";
+    private static final String CHILDREN_SHORT_OBJECTIVE = "Sig en kort og praktisk " + "s\u00e6tning.";
 
     private List<Level> levels = Collections.emptyList();
     private List<Lesson> lessons = Collections.emptyList();
@@ -264,6 +269,10 @@ public class MainActivity extends Activity {
         settingsIcon.setOnClickListener(v -> showSettings());
         utilityRow.addView(settingsIcon, rowButtonParams(true));
         contentRoot.addView(utilityRow, iconRowWrap());
+
+        TextView releaseInfo = text(getReleaseInfoText(), 12, COLOR_MUTED, false);
+        releaseInfo.setGravity(Gravity.CENTER);
+        contentRoot.addView(releaseInfo, compactWrap());
     }
 
     private void showLessonList() {
@@ -305,7 +314,7 @@ public class MainActivity extends Activity {
             contentRoot.addView(continueButton, matchWrap());
         }
 
-        TextView progress = smallPanel("Gennemførte lektioner: " + getCompletedLessonCount() + " af " + lessons.size());
+        TextView progress = smallPanel("Fremdrift for niveau: " + getCompletedLessonCount() + "/" + lessons.size() + " lektioner gennemført");
         progress.setGravity(Gravity.CENTER);
         contentRoot.addView(progress, compactWrap());
 
@@ -322,7 +331,8 @@ public class MainActivity extends Activity {
         for (Lesson lesson : lessons) {
             int dialogueCount = getDialoguesForDisplay(lesson).size();
             String status = progressRepository.isLessonCompleted(selectedLevel, lesson.getId(), dialogueCount) ? "[OK] " : "";
-            Button lessonButton = lessonButton(status + "Lektion " + lesson.getId() + ": " + lesson.getTitleDa());
+            Button lessonButton = lessonButton(status + "Lektion " + lesson.getId() + ": " + lesson.getTitleDa()
+                    + "\n" + formatLessonStatusLine(lesson));
             lessonButton.setOnClickListener(v -> showDialogList(lesson));
             contentRoot.addView(lessonButton, compactWrap());
         }
@@ -389,9 +399,7 @@ public class MainActivity extends Activity {
         contentRoot.addView(description, matchWrap());
 
         TextView overview = smallPanel("Oversigt\n"
-                + dialogues.size() + " dialoger\n"
-                + completedDialogues + " gennemført\n"
-                + lesson.getQuiz().size() + " quizspørgsmål klar\n"
+                + formatLessonStatusLine(lesson, dialogues, completedDialogues) + "\n"
                 + getQuizResultText(lesson));
         contentRoot.addView(overview, compactWrap());
 
@@ -467,15 +475,11 @@ public class MainActivity extends Activity {
         dialogueTitle.setGravity(Gravity.CENTER);
         contentRoot.addView(dialogueTitle, matchWrap());
 
-        if (!isEmpty(dialogue.getObjectiveDa())) {
+        if (!isEmpty(dialogue.getObjectiveDa()) && !CHILDREN_SHORT_OBJECTIVE.equals(dialogue.getObjectiveDa())) {
             TextView objective = text(dialogue.getObjectiveDa(), 14, COLOR_MUTED, false);
             objective.setGravity(Gravity.CENTER);
             contentRoot.addView(objective, matchWrap());
         }
-
-        counterView = text("", 14, COLOR_MUTED, false);
-        counterView.setPadding(0, dp(18), 0, dp(8));
-        contentRoot.addView(counterView);
 
         portugueseView = text("", 30, 0xFF101A17, true);
         portugueseView.setGravity(Gravity.CENTER);
@@ -511,6 +515,11 @@ public class MainActivity extends Activity {
 
         glossaryView = panel("Ordliste");
         contentRoot.addView(glossaryView, matchWrap());
+
+        counterView = text("", 13, COLOR_MUTED, false);
+        counterView.setGravity(Gravity.CENTER);
+        counterView.setPadding(0, dp(8), 0, dp(4));
+        contentRoot.addView(counterView, matchWrap());
 
         showPhrase(pendingDialoguePhraseIndex);
         pendingDialoguePhraseIndex = 0;
@@ -549,10 +558,6 @@ public class MainActivity extends Activity {
             contentRoot.addView(objective, matchWrap());
         }
 
-        counterView = text("", 14, COLOR_MUTED, false);
-        counterView.setPadding(0, dp(18), 0, dp(8));
-        contentRoot.addView(counterView);
-
         portugueseView = text("", 28, 0xFF101A17, true);
         portugueseView.setGravity(Gravity.CENTER);
         contentRoot.addView(portugueseView, matchWrap());
@@ -587,6 +592,11 @@ public class MainActivity extends Activity {
 
         glossaryView = panel("Ordliste");
         contentRoot.addView(glossaryView, matchWrap());
+
+        counterView = text("", 13, COLOR_MUTED, false);
+        counterView.setGravity(Gravity.CENTER);
+        counterView.setPadding(0, dp(8), 0, dp(4));
+        contentRoot.addView(counterView, matchWrap());
 
         showPhrase(0);
     }
@@ -679,7 +689,7 @@ public class MainActivity extends Activity {
         }
 
         Phrase phrase = phrases.get(index);
-        counterView.setText("Frase " + (index + 1) + " af " + phrases.size() + " · " + phrase.source);
+        counterView.setText(buildPhraseBreadcrumb(phrase));
         portugueseView.setText(phrase.portuguese);
         danishView.setText(phrase.danish);
         grammarView.setText("Grammatik\n" + phrase.grammar);
@@ -789,7 +799,7 @@ public class MainActivity extends Activity {
         contentRoot.addView(vocabularyQuizButton, compactWrap());
 
         for (Level level : levels) {
-            Button levelQuizButton = quizButton("Quiz - Level " + level.getId());
+            Button levelQuizButton = quizButton("Quiz - Niveau " + level.getId());
             int levelId = level.getId();
             levelQuizButton.setOnClickListener(v -> showLevelQuiz(levelId));
             contentRoot.addView(levelQuizButton, compactWrap());
@@ -1303,7 +1313,7 @@ public class MainActivity extends Activity {
         heading.setGravity(Gravity.CENTER);
         contentRoot.addView(heading, matchWrap());
 
-        TextView summary = panel("Gennemførte lektioner: " + getCompletedLessonCount() + " af " + lessons.size()
+        TextView summary = panel("Fremdrift for niveau: " + getCompletedLessonCount() + "/" + lessons.size() + " lektioner gennemført"
                 + "\nSeneste position: " + getLatestPositionText());
         summary.setTypeface(android.graphics.Typeface.DEFAULT_BOLD);
         contentRoot.addView(summary, matchWrap());
@@ -1321,7 +1331,7 @@ public class MainActivity extends Activity {
             int completedDialogues = getCompletedDialogueCount(lesson, dialogues);
             String status = progressRepository.isLessonCompleted(selectedLevel, lesson.getId(), dialogues.size()) ? "[OK] " : "";
             TextView lessonProgress = panel(status + "Lektion " + lesson.getId() + ": " + lesson.getTitleDa()
-                    + "\nDialoger: " + completedDialogues + " af " + dialogues.size()
+                    + "\n" + formatLessonStatusLine(lesson, dialogues, completedDialogues)
                     + "\n" + getQuizResultText(lesson));
             contentRoot.addView(lessonProgress, matchWrap());
         }
@@ -1355,6 +1365,10 @@ public class MainActivity extends Activity {
                     contentRoot.addView(panel(section.optString("titleDa") + "\n" + section.optString("bodyDa")), matchWrap());
                 }
             }
+
+            Button nenolinkButton = navButton("Åbn Nenolink");
+            nenolinkButton.setOnClickListener(v -> openNenolinkWebsite());
+            contentRoot.addView(nenolinkButton, compactWrap());
 
             TextView footer = text(guide.optString("footerDa", FOOTER_TEXT), 12, COLOR_MUTED, false);
             footer.setGravity(Gravity.CENTER);
@@ -1498,12 +1512,60 @@ public class MainActivity extends Activity {
             return "ikke startet";
         }
 
-        return "niveau "
+        return "Niveau "
                 + progressRepository.getLatestLevelId()
                 + ", lektion "
                 + progressRepository.getLatestLessonId()
                 + ", dialog "
                 + progressRepository.getLatestDialogueId();
+    }
+
+    private String formatLessonStatusLine(Lesson lesson) {
+        List<Dialogue> dialogues = getDialoguesForDisplay(lesson);
+        return formatLessonStatusLine(lesson, dialogues, getCompletedDialogueCount(lesson, dialogues));
+    }
+
+    private String formatLessonStatusLine(Lesson lesson, List<Dialogue> dialogues, int completedDialogues) {
+        int totalDialogues = dialogues.size();
+        int readyCount = getReadyCount(lesson);
+        return completedDialogues + "/" + totalDialogues + " gennemf\u00f8rt \u00b7 " + readyCount + " klar";
+    }
+
+    private int getReadyCount(Lesson lesson) {
+        return lesson.getQuiz().size();
+    }
+
+    private String getReleaseInfoText() {
+        PackageInfo packageInfo = getPackageInfo();
+        String versionName = packageInfo != null && packageInfo.versionName != null ? packageInfo.versionName : "";
+        long versionCode = getPackageVersionCode(packageInfo);
+        return "Version " + versionName
+                + " \u00b7 Build " + versionCode
+                + " \u00b7 " + getString(R.string.release_date);
+    }
+
+    private PackageInfo getPackageInfo() {
+        try {
+            return getPackageManager().getPackageInfo(getPackageName(), 0);
+        } catch (PackageManager.NameNotFoundException exception) {
+            Log.e(TAG, "Could not read package version metadata", exception);
+            return null;
+        }
+    }
+
+    @SuppressWarnings("deprecation")
+    private long getPackageVersionCode(PackageInfo packageInfo) {
+        if (packageInfo == null) {
+            return 0;
+        }
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.P) {
+            return packageInfo.getLongVersionCode();
+        }
+        return packageInfo.versionCode;
+    }
+
+    private String buildPhraseBreadcrumb(Phrase phrase) {
+        return "Frase " + (index + 1) + " af " + phrases.size() + " \u00b7 " + phrase.source;
     }
 
     private int getCompletedDialogueCount(Lesson lesson, List<Dialogue> dialogues) {
@@ -1617,6 +1679,16 @@ public class MainActivity extends Activity {
                 builder.append(line).append('\n');
             }
             return builder.toString();
+        }
+    }
+
+    private void openNenolinkWebsite() {
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.nenolink_url)));
+        try {
+            startActivity(intent);
+        } catch (RuntimeException exception) {
+            Log.e(TAG, "Could not open Nenolink website", exception);
+            showSafeToast("Nenolink-linket kunne ikke åbnes på denne enhed.");
         }
     }
 

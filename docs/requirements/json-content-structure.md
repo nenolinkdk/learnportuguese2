@@ -1,6 +1,6 @@
 # JSON Content Structure
 
-Learn Portuguese / Nenoling content should be data-driven. Future levels should be added mainly by adding a new folder under:
+Learn Portuguese / Nenoling content should be data-driven. Future niveauer should be added mainly by adding a new folder under:
 
 ```text
 app/src/main/assets/levels/
@@ -27,18 +27,18 @@ The app discovers available `level*` folders from assets and reads lesson files 
 
 ## Shared Adult And Children Schema
 
-Adult levels and the children level use one shared JSON schema and one shared navigation engine.
+Adult niveauer and the children niveau use one shared JSON schema and one shared navigation engine.
 
-- Level 1, Level 2, children content, and future levels all live under `app/src/main/assets/levels/levelN/`.
+- Niveau 1, Niveau 2, børneindhold, and future niveauer all live under `app/src/main/assets/levels/levelN/`.
 - Children lessons must use the same `lessonNN.json` structure as adult lessons.
 - Children dialogs must use the same `dialogues`, `phrases`, `vocabulary`, `grammar`, `quiz`, and `story` fields.
 - The app must not use a special children parser, special children navigation code, or hardcoded children phrases.
 - If a lesson or dialog is missing required JSON content, the app should show a clear missing-content message instead of displaying fallback/sample phrases.
 - The only intended difference between adult and children levels is the language-learning content itself.
 
-## Level Metadata
+## Niveau Metadata
 
-Each level should include `level.json`.
+Each niveau should include `level.json`.
 
 ```json
 {
@@ -46,7 +46,7 @@ Each level should include `level.json`.
   "titleDa": "Learn Portuguese 2",
   "subtitleDa": "Dansk → europæisk portugisisk",
   "introDa": "10 offlinelektioner · ser, estar, ter, tal og hverdagssituationer",
-  "aiDisclosureDa": "AI brugt: Level 2-dialoger, ordforråd og grammatiknoter",
+  "aiDisclosureDa": "AI brugt: Niveau 2-dialoger, ordforråd og grammatiknoter",
   "contentVersion": 1
 }
 ```
@@ -175,6 +175,22 @@ Grammar notes can include explanation text, conjugation rows, examples, and help
   ],
   "explanationDa": "Sou er jeg-formen af ser."
 }
+```
+
+## Status And Safety Content
+
+The lesson overview status line is shared across Niveau 1, Niveau 2, Children, and future niveauer:
+
+```text
+10/10 gennemført · 5 klar
+```
+
+`gennemført` is the number of completed dialogs in the lesson. `klar` is the number of quiz questions available in `quiz` for that same lesson. It must not mean different things in different levels.
+
+Children safety content is stored in JSON, currently in `app/src/main/assets/levels/level3/lesson10.json`. It includes ordinary police-help phrases and emergency-only 112 phrases. The emergency wording was checked against the European Commission page "112 - the EU's emergency phone number":
+
+```text
+https://digital-strategy.ec.europa.eu/en/policies/112
 ```
 
 ## Content Rules

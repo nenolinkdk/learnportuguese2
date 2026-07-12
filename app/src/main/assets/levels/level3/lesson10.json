@@ -1,255 +1,255 @@
 {
   "id": 10,
-  "titleDa": "Nødhjælp",
-  "descriptionDa": "Meget let niveau med korte sætninger til børn.",
+  "titleDa": "Hjælp og sikkerhed",
+  "descriptionDa": "Meget let niveau med korte sikkerhedsfraser til børn. 112 er kun til akutte nødsituationer i Portugal.",
   "dialogues": [
     {
       "id": 1,
       "titleDa": "Hjælp",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Hjælp",
       "phrases": [
         {
           "speaker": "Barn",
           "textPt": "Ajuda!",
           "textDa": "Hjælp!",
-          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+          "grammarDa": "Bruges når barnet har brug for hjælp med det samme."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "Ajuda",
-          "textDa": "Hjælp"
+          "textPt": "ajuda",
+          "textDa": "hjælp"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Kort sætning",
-          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+          "titleDa": "Sikkerhed",
+          "explanationDa": "Bruges når barnet har brug for hjælp med det samme."
         }
       ]
     },
     {
       "id": 2,
       "titleDa": "Jeg er her",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Jeg er her",
       "phrases": [
         {
           "speaker": "Barn",
           "textPt": "Estou aqui.",
           "textDa": "Jeg er her.",
-          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+          "grammarDa": "Barnet kan fortælle, hvor det er."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "Estou aqui",
-          "textDa": "Jeg er her"
+          "textPt": "aqui",
+          "textDa": "her"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Kort sætning",
-          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+          "titleDa": "Sikkerhed",
+          "explanationDa": "Barnet kan fortælle, hvor det er."
         }
       ]
     },
     {
       "id": 3,
       "titleDa": "Jeg har brug for en voksen",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "objectiveDa": "Øv: Jeg har brug for en voksen",
       "phrases": [
         {
           "speaker": "Barn",
           "textPt": "Preciso de um adulto.",
           "textDa": "Jeg har brug for en voksen.",
-          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+          "grammarDa": "En rolig frase til at finde voksenhjælp."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "Preciso de um adulto",
-          "textDa": "Jeg har brug for en voksen"
+          "textPt": "adulto",
+          "textDa": "voksen"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Kort sætning",
-          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+          "titleDa": "Sikkerhed",
+          "explanationDa": "En rolig frase til at finde voksenhjælp."
         }
       ]
     },
     {
       "id": 4,
-      "titleDa": "Ring til min mor",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "titleDa": "Jeg kan ikke finde mine forældre",
+      "objectiveDa": "Øv: Jeg kan ikke finde mine forældre",
       "phrases": [
         {
           "speaker": "Barn",
-          "textPt": "Chame a minha mãe.",
-          "textDa": "Ring til min mor.",
-          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+          "textPt": "Não encontro os meus pais.",
+          "textDa": "Jeg kan ikke finde mine forældre.",
+          "grammarDa": "Bruges når barnet er blevet væk fra sine forældre."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "Chame a minha mãe",
-          "textDa": "Ring til min mor"
+          "textPt": "pais",
+          "textDa": "forældre"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Kort sætning",
-          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+          "titleDa": "Sikkerhed",
+          "explanationDa": "Bruges når barnet er blevet væk fra sine forældre."
         }
       ]
     },
     {
       "id": 5,
-      "titleDa": "Ring til min far",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "titleDa": "Jeg vil tale med politiet",
+      "objectiveDa": "Øv: Jeg vil tale med politiet",
       "phrases": [
         {
           "speaker": "Barn",
-          "textPt": "Chame o meu pai.",
-          "textDa": "Ring til min far.",
-          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+          "textPt": "Quero falar com a polícia.",
+          "textDa": "Jeg vil tale med politiet.",
+          "grammarDa": "Almindelig politihjælp kan søges hos en voksen eller politistation."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "Chame o meu pai",
-          "textDa": "Ring til min far"
+          "textPt": "polícia",
+          "textDa": "politi"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Kort sætning",
-          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+          "titleDa": "Sikkerhed",
+          "explanationDa": "Almindelig politihjælp kan søges hos en voksen eller politistation."
         }
       ]
     },
     {
       "id": 6,
-      "titleDa": "Jeg har det ikke godt",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "titleDa": "Hvor er politistationen?",
+      "objectiveDa": "Øv: Hvor er politistationen?",
       "phrases": [
         {
           "speaker": "Barn",
-          "textPt": "Não estou bem.",
-          "textDa": "Jeg har det ikke godt.",
-          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+          "textPt": "Onde é a esquadra?",
+          "textDa": "Hvor er politistationen?",
+          "grammarDa": "Til ikke-akut hjælp kan man spørge efter politistationen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "Não estou bem",
-          "textDa": "Jeg har det ikke godt"
+          "textPt": "esquadra",
+          "textDa": "politistation"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Kort sætning",
-          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+          "titleDa": "Sikkerhed",
+          "explanationDa": "Til ikke-akut hjælp kan man spørge efter politistationen."
         }
       ]
     },
     {
       "id": 7,
-      "titleDa": "Jeg er syg",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "titleDa": "Det er ikke en nødsituation",
+      "objectiveDa": "Øv: Det er ikke en nødsituation",
       "phrases": [
         {
           "speaker": "Barn",
-          "textPt": "Estou doente.",
-          "textDa": "Jeg er syg.",
-          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+          "textPt": "Não é uma emergência.",
+          "textDa": "Det er ikke en nødsituation.",
+          "grammarDa": "Bruges til at skelne almindelig hjælp fra akut fare."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "Estou doente",
-          "textDa": "Jeg er syg"
+          "textPt": "emergência",
+          "textDa": "nødsituation"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Kort sætning",
-          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+          "titleDa": "Sikkerhed",
+          "explanationDa": "Bruges til at skelne almindelig hjælp fra akut fare."
         }
       ]
     },
     {
       "id": 8,
-      "titleDa": "Det gør ondt her",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "titleDa": "Det er en nødsituation",
+      "objectiveDa": "Øv: Det er en nødsituation",
       "phrases": [
         {
           "speaker": "Barn",
-          "textPt": "Dói aqui.",
-          "textDa": "Det gør ondt her.",
-          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+          "textPt": "É uma emergência.",
+          "textDa": "Det er en nødsituation.",
+          "grammarDa": "Bruges kun ved akut fare, sygdom eller alvorlig hjælp."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "Dói aqui",
-          "textDa": "Det gør ondt her"
+          "textPt": "emergência",
+          "textDa": "nødsituation"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Kort sætning",
-          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+          "titleDa": "Sikkerhed",
+          "explanationDa": "Bruges kun ved akut fare, sygdom eller alvorlig hjælp."
         }
       ]
     },
     {
       "id": 9,
-      "titleDa": "Jeg har brug for en læge",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "titleDa": "Ring til 112 i Portugal",
+      "objectiveDa": "Øv: Ring til 112 i Portugal",
       "phrases": [
         {
           "speaker": "Barn",
-          "textPt": "Preciso de um médico.",
-          "textDa": "Jeg har brug for en læge.",
-          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+          "textPt": "Ligue para o 112 em Portugal.",
+          "textDa": "Ring til 112 i Portugal.",
+          "grammarDa": "112 er Portugals nationale alarmnummer til akutte nødsituationer."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "Preciso de um médico",
-          "textDa": "Jeg har brug for en læge"
+          "textPt": "112",
+          "textDa": "alarmnummer"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Kort sætning",
-          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+          "titleDa": "Sikkerhed",
+          "explanationDa": "112 er Portugals nationale alarmnummer til akutte nødsituationer."
         }
       ]
     },
     {
       "id": 10,
-      "titleDa": "Ring til 112",
-      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "titleDa": "Ring kun ved akut fare",
+      "objectiveDa": "Øv: Ring kun ved akut fare",
       "phrases": [
         {
           "speaker": "Barn",
-          "textPt": "Ligue para o 112.",
-          "textDa": "Ring til 112.",
-          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+          "textPt": "Ligue só em caso de perigo.",
+          "textDa": "Ring kun ved akut fare.",
+          "grammarDa": "112 skal ikke bruges til øvelse eller almindelige spørgsmål."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "Ligue para o 112",
-          "textDa": "Ring til 112"
+          "textPt": "perigo",
+          "textDa": "fare"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Kort sætning",
-          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+          "titleDa": "Sikkerhed",
+          "explanationDa": "112 skal ikke bruges til øvelse eller almindelige spørgsmål."
         }
       ]
     }
@@ -272,7 +272,7 @@
           "correct": false
         },
         {
-          "text": "Ring til min mor.",
+          "text": "Jeg kan ikke finde mine forældre.",
           "correct": false
         }
       ],
@@ -291,11 +291,11 @@
           "correct": false
         },
         {
-          "text": "Ring til min mor.",
+          "text": "Jeg kan ikke finde mine forældre.",
           "correct": false
         },
         {
-          "text": "Ring til min far.",
+          "text": "Jeg vil tale med politiet.",
           "correct": false
         }
       ],
@@ -310,15 +310,15 @@
           "correct": true
         },
         {
-          "text": "Ring til min mor.",
+          "text": "Jeg kan ikke finde mine forældre.",
           "correct": false
         },
         {
-          "text": "Ring til min far.",
+          "text": "Jeg vil tale med politiet.",
           "correct": false
         },
         {
-          "text": "Jeg har det ikke godt.",
+          "text": "Hvor er politistationen?",
           "correct": false
         }
       ],
@@ -326,136 +326,136 @@
     },
     {
       "id": 4,
-      "questionDa": "Hvad betyder: Chame a minha mãe.",
+      "questionDa": "Hvad betyder: Não encontro os meus pais.",
       "answers": [
         {
-          "text": "Ring til min mor.",
+          "text": "Jeg kan ikke finde mine forældre.",
           "correct": true
         },
         {
-          "text": "Ring til min far.",
+          "text": "Jeg vil tale med politiet.",
           "correct": false
         },
         {
-          "text": "Jeg har det ikke godt.",
+          "text": "Hvor er politistationen?",
           "correct": false
         },
         {
-          "text": "Jeg er syg.",
+          "text": "Det er ikke en nødsituation.",
           "correct": false
         }
       ],
-      "explanationDa": "Chame a minha mãe. = Ring til min mor."
+      "explanationDa": "Não encontro os meus pais. = Jeg kan ikke finde mine forældre."
     },
     {
       "id": 5,
-      "questionDa": "Hvad betyder: Chame o meu pai.",
+      "questionDa": "Hvad betyder: Quero falar com a polícia.",
       "answers": [
         {
-          "text": "Ring til min far.",
+          "text": "Jeg vil tale med politiet.",
           "correct": true
         },
         {
-          "text": "Jeg har det ikke godt.",
+          "text": "Hvor er politistationen?",
           "correct": false
         },
         {
-          "text": "Jeg er syg.",
+          "text": "Det er ikke en nødsituation.",
           "correct": false
         },
         {
-          "text": "Det gør ondt her.",
+          "text": "Det er en nødsituation.",
           "correct": false
         }
       ],
-      "explanationDa": "Chame o meu pai. = Ring til min far."
+      "explanationDa": "Quero falar com a polícia. = Jeg vil tale med politiet."
     },
     {
       "id": 6,
-      "questionDa": "Hvad betyder: Não estou bem.",
+      "questionDa": "Hvad betyder: Onde é a esquadra?",
       "answers": [
         {
-          "text": "Jeg har det ikke godt.",
+          "text": "Hvor er politistationen?",
           "correct": true
         },
         {
-          "text": "Jeg er syg.",
+          "text": "Det er ikke en nødsituation.",
           "correct": false
         },
         {
-          "text": "Det gør ondt her.",
+          "text": "Det er en nødsituation.",
           "correct": false
         },
         {
-          "text": "Jeg har brug for en læge.",
+          "text": "Ring til 112 i Portugal.",
           "correct": false
         }
       ],
-      "explanationDa": "Não estou bem. = Jeg har det ikke godt."
+      "explanationDa": "Onde é a esquadra? = Hvor er politistationen?"
     }
   ],
-  "storyTitleDa": "Kort børnedialog: Nødhjælp",
-  "storyObjectiveDa": "Læs 10 korte linjer, som et barn kan bruge på rejse.",
+  "storyTitleDa": "Kort børnedialog: hjælp og sikkerhed",
+  "storyObjectiveDa": "Læs korte linjer om hjælp, politi og 112 i Portugal.",
   "story": [
     {
       "speaker": "Barn",
       "textPt": "Ajuda!",
       "textDa": "Hjælp!",
-      "grammarDa": "Praktisk og kort frase."
+      "grammarDa": "Bruges når barnet har brug for hjælp med det samme."
     },
     {
       "speaker": "Voksen",
       "textPt": "Estou aqui.",
       "textDa": "Jeg er her.",
-      "grammarDa": "Praktisk og kort frase."
+      "grammarDa": "Barnet kan fortælle, hvor det er."
     },
     {
       "speaker": "Barn",
       "textPt": "Preciso de um adulto.",
       "textDa": "Jeg har brug for en voksen.",
-      "grammarDa": "Praktisk og kort frase."
+      "grammarDa": "En rolig frase til at finde voksenhjælp."
     },
     {
       "speaker": "Voksen",
-      "textPt": "Chame a minha mãe.",
-      "textDa": "Ring til min mor.",
-      "grammarDa": "Praktisk og kort frase."
+      "textPt": "Não encontro os meus pais.",
+      "textDa": "Jeg kan ikke finde mine forældre.",
+      "grammarDa": "Bruges når barnet er blevet væk fra sine forældre."
     },
     {
       "speaker": "Barn",
-      "textPt": "Chame o meu pai.",
-      "textDa": "Ring til min far.",
-      "grammarDa": "Praktisk og kort frase."
+      "textPt": "Quero falar com a polícia.",
+      "textDa": "Jeg vil tale med politiet.",
+      "grammarDa": "Almindelig politihjælp kan søges hos en voksen eller politistation."
     },
     {
       "speaker": "Voksen",
-      "textPt": "Não estou bem.",
-      "textDa": "Jeg har det ikke godt.",
-      "grammarDa": "Praktisk og kort frase."
+      "textPt": "Onde é a esquadra?",
+      "textDa": "Hvor er politistationen?",
+      "grammarDa": "Til ikke-akut hjælp kan man spørge efter politistationen."
     },
     {
       "speaker": "Barn",
-      "textPt": "Estou doente.",
-      "textDa": "Jeg er syg.",
-      "grammarDa": "Praktisk og kort frase."
+      "textPt": "Não é uma emergência.",
+      "textDa": "Det er ikke en nødsituation.",
+      "grammarDa": "Bruges til at skelne almindelig hjælp fra akut fare."
     },
     {
       "speaker": "Voksen",
-      "textPt": "Dói aqui.",
-      "textDa": "Det gør ondt her.",
-      "grammarDa": "Praktisk og kort frase."
+      "textPt": "É uma emergência.",
+      "textDa": "Det er en nødsituation.",
+      "grammarDa": "Bruges kun ved akut fare, sygdom eller alvorlig hjælp."
     },
     {
       "speaker": "Barn",
-      "textPt": "Preciso de um médico.",
-      "textDa": "Jeg har brug for en læge.",
-      "grammarDa": "Praktisk og kort frase."
+      "textPt": "Ligue para o 112 em Portugal.",
+      "textDa": "Ring til 112 i Portugal.",
+      "grammarDa": "112 er Portugals nationale alarmnummer til akutte nødsituationer."
     },
     {
       "speaker": "Voksen",
-      "textPt": "Ligue para o 112.",
-      "textDa": "Ring til 112.",
-      "grammarDa": "Praktisk og kort frase."
+      "textPt": "Ligue só em caso de perigo.",
+      "textDa": "Ring kun ved akut fare.",
+      "grammarDa": "112 skal ikke bruges til øvelse eller almindelige spørgsmål."
     }
   ]
 }

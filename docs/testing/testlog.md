@@ -1,5 +1,28 @@
 # Test Log
 
+## 2026-07-12 - Terminology, Status, Release Metadata
+
+Consistency and documentation correction.
+
+### Scope
+
+- Replaced visible app/user-guide terminology from "Level" to "Niveau" where applicable.
+- Added main-menu release metadata from Gradle values: version name, version code, and release date.
+- Added shared lesson status formatter: `gennemført · klar`.
+- Added shared dialog/story breadcrumb builder.
+- Added configurable Nenolink URL resource and browser intent from the user guide.
+- Added children safety phrases for ordinary police contact and emergency 112 use in Portugal.
+- Added release-process documentation.
+
+### Validation
+
+- `tools/validate_navigation_content.ps1` now checks schema, children safety phrases, breadcrumb/status helpers, version/build/date metadata, and Nenolink link wiring.
+- Emergency-number wording was checked against the European Commission page "112 - the EU's emergency phone number": `https://digital-strategy.ec.europa.eu/en/policies/112`.
+
+### Result
+
+Pending final Android Studio build/device smoke test.
+
 ## 2026-07-12
 
 Children level schema and navigation validation.

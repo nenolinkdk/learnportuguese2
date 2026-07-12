@@ -2,23 +2,24 @@
 
 ## Overview
 
-Learn Portuguese 2 is a native Android Java app with a data-driven lesson system. The app keeps the same screen structure, navigation, progress tracking, quiz flow, and TextToSpeech behavior across levels. Language-learning content should live in JSON assets, not in Java or XML.
+Learn Portuguese 2 is a native Android Java app with a data-driven lesson system. The app keeps the same screen structure, navigation, progress tracking, quiz flow, and TextToSpeech behavior across niveauer. Language-learning content should live in JSON assets, not in Java or XML.
 
 The app currently supports:
 
-- Level 1
-- Level 2
-- Future levels added as new JSON folders
+- Niveau 1
+- Niveau 2
+- Children
+- Future niveauer added as new JSON folders
 
-## JSON Level System
+## JSON Niveau System
 
-Levels are stored under:
+Niveauer are stored under:
 
 ```text
 app/src/main/assets/levels/
 ```
 
-The app discovers available levels by scanning folders named:
+The app discovers available niveau folders by scanning folders named:
 
 ```text
 level1/
@@ -26,7 +27,7 @@ level2/
 level3/
 ```
 
-Each level folder should contain:
+Each niveau folder should contain:
 
 ```text
 level.json
@@ -36,7 +37,7 @@ lesson03.json
 ...
 ```
 
-`level.json` contains level metadata:
+`level.json` contains niveau metadata:
 
 ```json
 {
@@ -44,39 +45,45 @@ lesson03.json
   "titleDa": "Learn Portuguese 2",
   "subtitleDa": "Dansk → europæisk portugisisk",
   "introDa": "10 offlinelektioner · ser, estar, ter, tal og hverdagssituationer",
-  "aiDisclosureDa": "AI brugt: Level 2-dialoger, ordforråd og grammatiknoter",
+  "aiDisclosureDa": "AI brugt: Niveau 2-dialoger, ordforråd og grammatiknoter",
   "contentVersion": 1
 }
 ```
 
 ## Content Locations
 
-Level 1 content:
+Niveau 1 content:
 
 ```text
 app/src/main/assets/levels/level1/
 ```
 
-Level 2 content:
+Niveau 2 content:
 
 ```text
 app/src/main/assets/levels/level2/
 ```
 
-Legacy Level 1 content is also available under:
+Children content:
+
+```text
+app/src/main/assets/levels/level3/
+```
+
+Legacy Niveau 1 content is also available under:
 
 ```text
 app/src/main/assets/lessons/
 ```
 
-That legacy folder is kept as a fallback for Level 1 compatibility. New work should use `app/src/main/assets/levels/`.
+That legacy folder is kept as a fallback for Niveau 1 compatibility. New work should use `app/src/main/assets/levels/`.
 
-## Adding Future Levels
+## Adding Future Niveauer
 
-To add Level 3, Level 4, or later levels, add a new folder:
+To add Niveau 4 or later niveauer, add a new folder:
 
 ```text
-app/src/main/assets/levels/level3/
+app/src/main/assets/levels/levelN/
 ```
 
 Then add:
@@ -88,14 +95,14 @@ lesson02.json
 ...
 ```
 
-No new Java class should be needed when the new level uses the existing JSON structure. The app discovers the new level folder and renders it with the same screens, navigation, TTS, progress, vocabulary, grammar, and quiz logic.
+No new Java class should be needed when the new niveau uses the existing JSON structure. The app discovers the new folder and renders it with the same screens, navigation, TTS, progress, vocabulary, grammar, and quiz logic.
 
 ## Loader And Model Classes
 
 Main loader:
 
 ```text
-app/src/main/java/dk/nenolink/learnportuguese/data/repository/LessonRepository.java
+app/src/main/java/dk/nenolink/learnportuguese2/data/repository/LessonRepository.java
 ```
 
 Responsibilities:
@@ -104,19 +111,19 @@ Responsibilities:
 - Loads `level.json`.
 - Loads `lessonNN.json`.
 - Parses lessons, dialogs, phrases, vocabulary, grammar, and quiz data.
-- Keeps a legacy fallback for Level 1 lesson files under `assets/lessons`.
+- Keeps a legacy fallback for Niveau 1 lesson files under `assets/lessons`.
 
 Data models:
 
 ```text
-app/src/main/java/dk/nenolink/learnportuguese/data/model/Level.java
-app/src/main/java/dk/nenolink/learnportuguese/data/model/Lesson.java
-app/src/main/java/dk/nenolink/learnportuguese/data/model/Dialogue.java
-app/src/main/java/dk/nenolink/learnportuguese/data/model/Phrase.java
-app/src/main/java/dk/nenolink/learnportuguese/data/model/VocabularyItem.java
-app/src/main/java/dk/nenolink/learnportuguese/data/model/GrammarNote.java
-app/src/main/java/dk/nenolink/learnportuguese/data/model/QuizQuestion.java
-app/src/main/java/dk/nenolink/learnportuguese/data/model/QuizAnswer.java
+app/src/main/java/dk/nenolink/learnportuguese2/data/model/Level.java
+app/src/main/java/dk/nenolink/learnportuguese2/data/model/Lesson.java
+app/src/main/java/dk/nenolink/learnportuguese2/data/model/Dialogue.java
+app/src/main/java/dk/nenolink/learnportuguese2/data/model/Phrase.java
+app/src/main/java/dk/nenolink/learnportuguese2/data/model/VocabularyItem.java
+app/src/main/java/dk/nenolink/learnportuguese2/data/model/GrammarNote.java
+app/src/main/java/dk/nenolink/learnportuguese2/data/model/QuizQuestion.java
+app/src/main/java/dk/nenolink/learnportuguese2/data/model/QuizAnswer.java
 ```
 
 Progress:
@@ -130,7 +137,7 @@ Responsibilities:
 - Stores latest level, lesson, and dialog.
 - Stores completed dialogs.
 - Stores quiz results.
-- Keeps progress keys level-aware, so Level 1 and Level 2 do not overwrite each other.
+- Keeps progress keys level-aware, so Niveau 1 and Niveau 2 do not overwrite each other.
 
 UI and navigation:
 
@@ -217,7 +224,7 @@ Example:
 
 Keep these content types in JSON:
 
-- Level titles and intro/help text
+- Niveau titles and intro/help text
 - Lesson titles and descriptions
 - Dialog titles and objectives
 - Portuguese phrases
@@ -253,7 +260,7 @@ Navigation is handled in `MainActivity`.
 The app reuses the same flow for every level:
 
 ```text
-Level selector
+Niveau selector
 Lesson list
 Dialog list
 Phrase screen
@@ -268,9 +275,47 @@ Previous/Next behavior is shared across levels:
 - At phrase boundaries, navigation moves to adjacent dialogs.
 - At the end of a lesson's dialogs, Next moves into the quiz.
 
-New levels do not need navigation code when they follow the existing JSON structure.
+New niveauer do not need navigation code when they follow the existing JSON structure.
 
-## Checklist: Add A New Level
+## Shared UI Status
+
+Lesson overview rows and lesson detail summaries use one shared status format:
+
+```text
+10/10 gennemført · 5 klar
+```
+
+`gennemført` counts completed dialogs for the current lesson. `klar` means the number of quiz questions available in that lesson JSON (`lesson.quiz.size()` in the Android code). This definition is the same for Niveau 1, Niveau 2, Children, and future niveauer.
+
+Dialog and story screens use one shared breadcrumb format at the bottom of the phrase view:
+
+```text
+Frase 1 af 1 · Niveau 3 · Lektion 6 · Dialog 1 · Skal vi lege?
+```
+
+All values are derived from the currently loaded JSON objects and current phrase/dialog indexes. Children content must not have a separate screen, parser, status formatter, or navigation path.
+
+## Children Safety Content
+
+Children safety phrases live in JSON under `app/src/main/assets/levels/level3/lesson10.json`. They distinguish ordinary police help from emergency use of 112 in Portugal.
+
+Emergency-number wording was checked against the European Commission page "112 - the EU's emergency phone number", which states that 112 is available everywhere in the EU, free of charge, can contact ambulance/fire/police, Portugal has opted for 112 as its only national emergency number, and 112 operators respond only to real emergencies:
+
+```text
+https://digital-strategy.ec.europa.eu/en/policies/112
+```
+
+## Release Metadata And External Link
+
+Release metadata is defined in `app/build.gradle`:
+
+- `versionName`
+- `versionCode`
+- `releaseDate`
+
+The main menu displays these values from Gradle-generated Android metadata/resources. The Nenolink website URL is also defined once in `app/build.gradle` as the generated `nenolink_url` string resource. The user guide opens this URL through a browser intent; the guide itself remains bundled and offline.
+
+## Checklist: Add A New Niveau
 
 1. Create `app/src/main/assets/levels/levelN/`.
 2. Add `level.json` with title, subtitle, intro, and disclosure text.
@@ -285,7 +330,7 @@ New levels do not need navigation code when they follow the existing JSON struct
 11. Validate every JSON file parses.
 12. Build and test in Android Studio.
 
-## Checklist: Test A New Level
+## Checklist: Test A New Niveau
 
 1. Start the app and confirm the new level appears in the level selector.
 2. Open the first and last lesson in the new level.
@@ -297,6 +342,6 @@ New levels do not need navigation code when they follow the existing JSON struct
 8. Confirm grammar, conjugation, examples, and notes appear in the Grammatik panel.
 9. Tap Udtal portugisisk and confirm TTS speaks the current phrase.
 10. Complete a quiz and confirm the result is saved.
-11. Switch back to Level 1 and confirm it still opens.
-12. Switch to Level 2 and confirm it still opens.
+11. Switch back to Niveau 1 and confirm it still opens.
+12. Switch to Niveau 2 and confirm it still opens.
 13. Close and reopen the app to confirm latest position/progress is still valid.
