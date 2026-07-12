@@ -1,581 +1,461 @@
 {
-    "id":  3,
-    "titleDa":  "Familie og telefon",
-    "descriptionDa":  "Meget let niveau med korte sætninger til børn.",
-    "dialogues":  [
-                      {
-                          "id":  1,
-                          "titleDa":  "Min mors telefon er ",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "O telefone da minha mãe é ...",
-                                              "textDa":  "Min mors telefon er ...",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Vamos ligar agora.",
-                                              "textDa":  "Vi ringer nu.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Este é o número.",
-                                              "textDa":  "Dette er nummeret.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "O telefone da minha mãe é ",
-                                                 "textDa":  "Min mors telefon er "
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  2,
-                          "titleDa":  "Min fars telefon er ",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "O telefone do meu pai é ...",
-                                              "textDa":  "Min fars telefon er ...",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Vamos ligar agora.",
-                                              "textDa":  "Vi ringer nu.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Este é o número.",
-                                              "textDa":  "Dette er nummeret.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "O telefone do meu pai é ",
-                                                 "textDa":  "Min fars telefon er "
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  3,
-                          "titleDa":  "Min mor hedder ",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "A minha mãe chama-se ...",
-                                              "textDa":  "Min mor hedder ...",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Vamos ligar agora.",
-                                              "textDa":  "Vi ringer nu.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Este é o número.",
-                                              "textDa":  "Dette er nummeret.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "A minha mãe chama-se ",
-                                                 "textDa":  "Min mor hedder "
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  4,
-                          "titleDa":  "Min far hedder ",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "O meu pai chama-se ...",
-                                              "textDa":  "Min far hedder ...",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Vamos ligar agora.",
-                                              "textDa":  "Vi ringer nu.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Este é o número.",
-                                              "textDa":  "Dette er nummeret.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "O meu pai chama-se ",
-                                                 "textDa":  "Min far hedder "
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  5,
-                          "titleDa":  "Jeg er fra Danmark",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Sou da Dinamarca.",
-                                              "textDa":  "Jeg er fra Danmark.",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Vamos ligar agora.",
-                                              "textDa":  "Vi ringer nu.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Este é o número.",
-                                              "textDa":  "Dette er nummeret.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Sou da Dinamarca",
-                                                 "textDa":  "Jeg er fra Danmark"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  6,
-                          "titleDa":  "Kan du ringe til min mor",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Pode ligar á minha mãe?",
-                                              "textDa":  "Kan du ringe til min mor?",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Vamos ligar agora.",
-                                              "textDa":  "Vi ringer nu.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Este é o número.",
-                                              "textDa":  "Dette er nummeret.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Pode ligar á minha mãe",
-                                                 "textDa":  "Kan du ringe til min mor"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  7,
-                          "titleDa":  "Kan du ringe til min far",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Pode ligar ao meu pai?",
-                                              "textDa":  "Kan du ringe til min far?",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Vamos ligar agora.",
-                                              "textDa":  "Vi ringer nu.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Este é o número.",
-                                              "textDa":  "Dette er nummeret.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Pode ligar ao meu pai",
-                                                 "textDa":  "Kan du ringe til min far"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  8,
-                          "titleDa":  "Dette er min telefon",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Este é o meu telefone.",
-                                              "textDa":  "Dette er min telefon.",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Vamos ligar agora.",
-                                              "textDa":  "Vi ringer nu.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Este é o número.",
-                                              "textDa":  "Dette er nummeret.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Este é o meu telefone",
-                                                 "textDa":  "Dette er min telefon"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  9,
-                          "titleDa":  "Jeg har ikke batteri",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Não tenho bateria.",
-                                              "textDa":  "Jeg har ikke batteri.",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Vamos ligar agora.",
-                                              "textDa":  "Vi ringer nu.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Este é o número.",
-                                              "textDa":  "Dette er nummeret.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Não tenho bateria",
-                                                 "textDa":  "Jeg har ikke batteri"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  10,
-                          "titleDa":  "Mit navn er ",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "O meu nome é ...",
-                                              "textDa":  "Mit navn er ...",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Vamos ligar agora.",
-                                              "textDa":  "Vi ringer nu.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Este é o número.",
-                                              "textDa":  "Dette er nummeret.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "O meu nome é ",
-                                                 "textDa":  "Mit navn er "
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      }
-                  ],
-    "quiz":  [
-                 {
-                     "id":  1,
-                     "questionDa":  "Hvad betyder: O telefone da minha mãe é ...",
-                     "answers":  [
-                                     {
-                                         "text":  "Min mors telefon er ...",
-                                         "correct":  true
-                                     },
-                                     {
-                                         "text":  "Min fars telefon er ...",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Min mor hedder ...",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Min far hedder ...",
-                                         "correct":  false
-                                     }
-                                 ],
-                     "explanationDa":  "O telefone da minha mãe é ... = Min mors telefon er ..."
-                 },
-                 {
-                     "id":  2,
-                     "questionDa":  "Hvad betyder: O telefone do meu pai é ...",
-                     "answers":  [
-                                     {
-                                         "text":  "Min fars telefon er ...",
-                                         "correct":  true
-                                     },
-                                     {
-                                         "text":  "Min mor hedder ...",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Min far hedder ...",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Jeg er fra Danmark.",
-                                         "correct":  false
-                                     }
-                                 ],
-                     "explanationDa":  "O telefone do meu pai é ... = Min fars telefon er ..."
-                 },
-                 {
-                     "id":  3,
-                     "questionDa":  "Hvad betyder: A minha mãe chama-se ...",
-                     "answers":  [
-                                     {
-                                         "text":  "Min mor hedder ...",
-                                         "correct":  true
-                                     },
-                                     {
-                                         "text":  "Min far hedder ...",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Jeg er fra Danmark.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Kan du ringe til min mor?",
-                                         "correct":  false
-                                     }
-                                 ],
-                     "explanationDa":  "A minha mãe chama-se ... = Min mor hedder ..."
-                 },
-                 {
-                     "id":  4,
-                     "questionDa":  "Hvad betyder: O meu pai chama-se ...",
-                     "answers":  [
-                                     {
-                                         "text":  "Min far hedder ...",
-                                         "correct":  true
-                                     },
-                                     {
-                                         "text":  "Jeg er fra Danmark.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Kan du ringe til min mor?",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Kan du ringe til min far?",
-                                         "correct":  false
-                                     }
-                                 ],
-                     "explanationDa":  "O meu pai chama-se ... = Min far hedder ..."
-                 },
-                 {
-                     "id":  5,
-                     "questionDa":  "Hvad betyder: Sou da Dinamarca.",
-                     "answers":  [
-                                     {
-                                         "text":  "Jeg er fra Danmark.",
-                                         "correct":  true
-                                     },
-                                     {
-                                         "text":  "Kan du ringe til min mor?",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Kan du ringe til min far?",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Dette er min telefon.",
-                                         "correct":  false
-                                     }
-                                 ],
-                     "explanationDa":  "Sou da Dinamarca. = Jeg er fra Danmark."
-                 },
-                 {
-                     "id":  6,
-                     "questionDa":  "Hvad betyder: Pode ligar á minha mãe?",
-                     "answers":  [
-                                     {
-                                         "text":  "Kan du ringe til min mor?",
-                                         "correct":  true
-                                     },
-                                     {
-                                         "text":  "Kan du ringe til min far?",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Dette er min telefon.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Jeg har ikke batteri.",
-                                         "correct":  false
-                                     }
-                                 ],
-                     "explanationDa":  "Pode ligar á minha mãe? = Kan du ringe til min mor?"
-                 }
-             ],
-    "storyTitleDa":  "Kort børnedialog: Familie og telefon",
-    "storyObjectiveDa":  "Læs 10 korte linjer, som et barn kan bruge på rejse.",
-    "story":  [
-                  {
-                      "speaker":  "Barn",
-                      "textPt":  "O telefone da minha mãe é ...",
-                      "textDa":  "Min mors telefon er ...",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Voksen",
-                      "textPt":  "O telefone do meu pai é ...",
-                      "textDa":  "Min fars telefon er ...",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Barn",
-                      "textPt":  "A minha mãe chama-se ...",
-                      "textDa":  "Min mor hedder ...",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Voksen",
-                      "textPt":  "O meu pai chama-se ...",
-                      "textDa":  "Min far hedder ...",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Barn",
-                      "textPt":  "Sou da Dinamarca.",
-                      "textDa":  "Jeg er fra Danmark.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Voksen",
-                      "textPt":  "Pode ligar á minha mãe?",
-                      "textDa":  "Kan du ringe til min mor?",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Barn",
-                      "textPt":  "Pode ligar ao meu pai?",
-                      "textDa":  "Kan du ringe til min far?",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Voksen",
-                      "textPt":  "Este é o meu telefone.",
-                      "textDa":  "Dette er min telefon.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Barn",
-                      "textPt":  "Não tenho bateria.",
-                      "textDa":  "Jeg har ikke batteri.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Voksen",
-                      "textPt":  "O meu nome é ...",
-                      "textDa":  "Mit navn er ...",
-                      "grammarDa":  "Praktisk og kort frase."
-                  }
-              ]
+  "id": 3,
+  "titleDa": "Familie og telefon",
+  "descriptionDa": "Meget let niveau med korte sætninger til børn.",
+  "dialogues": [
+    {
+      "id": 1,
+      "titleDa": "Min mors telefon er ",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "O telefone da minha mãe é ...",
+          "textDa": "Min mors telefon er ...",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "O telefone da minha mãe é ",
+          "textDa": "Min mors telefon er "
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titleDa": "Min fars telefon er ",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "O telefone do meu pai é ...",
+          "textDa": "Min fars telefon er ...",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "O telefone do meu pai é ",
+          "textDa": "Min fars telefon er "
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "titleDa": "Min mor hedder ",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "A minha mãe chama-se ...",
+          "textDa": "Min mor hedder ...",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "A minha mãe chama-se ",
+          "textDa": "Min mor hedder "
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "titleDa": "Min far hedder ",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "O meu pai chama-se ...",
+          "textDa": "Min far hedder ...",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "O meu pai chama-se ",
+          "textDa": "Min far hedder "
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "titleDa": "Jeg er fra Danmark",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Sou da Dinamarca.",
+          "textDa": "Jeg er fra Danmark.",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Sou da Dinamarca",
+          "textDa": "Jeg er fra Danmark"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "titleDa": "Kan du ringe til min mor",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Pode ligar á minha mãe?",
+          "textDa": "Kan du ringe til min mor?",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Pode ligar á minha mãe",
+          "textDa": "Kan du ringe til min mor"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "titleDa": "Kan du ringe til min far",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Pode ligar ao meu pai?",
+          "textDa": "Kan du ringe til min far?",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Pode ligar ao meu pai",
+          "textDa": "Kan du ringe til min far"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "titleDa": "Dette er min telefon",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Este é o meu telefone.",
+          "textDa": "Dette er min telefon.",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Este é o meu telefone",
+          "textDa": "Dette er min telefon"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "titleDa": "Jeg har ikke batteri",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Não tenho bateria.",
+          "textDa": "Jeg har ikke batteri.",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Não tenho bateria",
+          "textDa": "Jeg har ikke batteri"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "titleDa": "Mit navn er ",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "O meu nome é ...",
+          "textDa": "Mit navn er ...",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "O meu nome é ",
+          "textDa": "Mit navn er "
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "questionDa": "Hvad betyder: O telefone da minha mãe é ...",
+      "answers": [
+        {
+          "text": "Min mors telefon er ...",
+          "correct": true
+        },
+        {
+          "text": "Min fars telefon er ...",
+          "correct": false
+        },
+        {
+          "text": "Min mor hedder ...",
+          "correct": false
+        },
+        {
+          "text": "Min far hedder ...",
+          "correct": false
+        }
+      ],
+      "explanationDa": "O telefone da minha mãe é ... = Min mors telefon er ..."
+    },
+    {
+      "id": 2,
+      "questionDa": "Hvad betyder: O telefone do meu pai é ...",
+      "answers": [
+        {
+          "text": "Min fars telefon er ...",
+          "correct": true
+        },
+        {
+          "text": "Min mor hedder ...",
+          "correct": false
+        },
+        {
+          "text": "Min far hedder ...",
+          "correct": false
+        },
+        {
+          "text": "Jeg er fra Danmark.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "O telefone do meu pai é ... = Min fars telefon er ..."
+    },
+    {
+      "id": 3,
+      "questionDa": "Hvad betyder: A minha mãe chama-se ...",
+      "answers": [
+        {
+          "text": "Min mor hedder ...",
+          "correct": true
+        },
+        {
+          "text": "Min far hedder ...",
+          "correct": false
+        },
+        {
+          "text": "Jeg er fra Danmark.",
+          "correct": false
+        },
+        {
+          "text": "Kan du ringe til min mor?",
+          "correct": false
+        }
+      ],
+      "explanationDa": "A minha mãe chama-se ... = Min mor hedder ..."
+    },
+    {
+      "id": 4,
+      "questionDa": "Hvad betyder: O meu pai chama-se ...",
+      "answers": [
+        {
+          "text": "Min far hedder ...",
+          "correct": true
+        },
+        {
+          "text": "Jeg er fra Danmark.",
+          "correct": false
+        },
+        {
+          "text": "Kan du ringe til min mor?",
+          "correct": false
+        },
+        {
+          "text": "Kan du ringe til min far?",
+          "correct": false
+        }
+      ],
+      "explanationDa": "O meu pai chama-se ... = Min far hedder ..."
+    },
+    {
+      "id": 5,
+      "questionDa": "Hvad betyder: Sou da Dinamarca.",
+      "answers": [
+        {
+          "text": "Jeg er fra Danmark.",
+          "correct": true
+        },
+        {
+          "text": "Kan du ringe til min mor?",
+          "correct": false
+        },
+        {
+          "text": "Kan du ringe til min far?",
+          "correct": false
+        },
+        {
+          "text": "Dette er min telefon.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Sou da Dinamarca. = Jeg er fra Danmark."
+    },
+    {
+      "id": 6,
+      "questionDa": "Hvad betyder: Pode ligar á minha mãe?",
+      "answers": [
+        {
+          "text": "Kan du ringe til min mor?",
+          "correct": true
+        },
+        {
+          "text": "Kan du ringe til min far?",
+          "correct": false
+        },
+        {
+          "text": "Dette er min telefon.",
+          "correct": false
+        },
+        {
+          "text": "Jeg har ikke batteri.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Pode ligar á minha mãe? = Kan du ringe til min mor?"
+    }
+  ],
+  "storyTitleDa": "Kort børnedialog: Familie og telefon",
+  "storyObjectiveDa": "Læs 10 korte linjer, som et barn kan bruge på rejse.",
+  "story": [
+    {
+      "speaker": "Barn",
+      "textPt": "O telefone da minha mãe é ...",
+      "textDa": "Min mors telefon er ...",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Voksen",
+      "textPt": "O telefone do meu pai é ...",
+      "textDa": "Min fars telefon er ...",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Barn",
+      "textPt": "A minha mãe chama-se ...",
+      "textDa": "Min mor hedder ...",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Voksen",
+      "textPt": "O meu pai chama-se ...",
+      "textDa": "Min far hedder ...",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Barn",
+      "textPt": "Sou da Dinamarca.",
+      "textDa": "Jeg er fra Danmark.",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Voksen",
+      "textPt": "Pode ligar á minha mãe?",
+      "textDa": "Kan du ringe til min mor?",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Barn",
+      "textPt": "Pode ligar ao meu pai?",
+      "textDa": "Kan du ringe til min far?",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Voksen",
+      "textPt": "Este é o meu telefone.",
+      "textDa": "Dette er min telefon.",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Barn",
+      "textPt": "Não tenho bateria.",
+      "textDa": "Jeg har ikke batteri.",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Voksen",
+      "textPt": "O meu nome é ...",
+      "textDa": "Mit navn er ...",
+      "grammarDa": "Praktisk og kort frase."
+    }
+  ]
 }

@@ -25,6 +25,17 @@ levels/
 
 The app discovers available `level*` folders from assets and reads lesson files named `lessonNN.json`.
 
+## Shared Adult And Children Schema
+
+Adult levels and the children level use one shared JSON schema and one shared navigation engine.
+
+- Level 1, Level 2, children content, and future levels all live under `app/src/main/assets/levels/levelN/`.
+- Children lessons must use the same `lessonNN.json` structure as adult lessons.
+- Children dialogs must use the same `dialogues`, `phrases`, `vocabulary`, `grammar`, `quiz`, and `story` fields.
+- The app must not use a special children parser, special children navigation code, or hardcoded children phrases.
+- If a lesson or dialog is missing required JSON content, the app should show a clear missing-content message instead of displaying fallback/sample phrases.
+- The only intended difference between adult and children levels is the language-learning content itself.
+
 ## Level Metadata
 
 Each level should include `level.json`.

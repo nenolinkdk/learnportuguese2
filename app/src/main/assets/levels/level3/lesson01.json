@@ -1,581 +1,461 @@
 {
-    "id":  1,
-    "titleDa":  "Hilsner",
-    "descriptionDa":  "Meget let niveau med korte sætninger til børn.",
-    "dialogues":  [
-                      {
-                          "id":  1,
-                          "titleDa":  "Hej",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Olá.",
-                                              "textDa":  "Hej.",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Olá. Como estás?",
-                                              "textDa":  "Hej. Hvordan har du det?",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Estou bem.",
-                                              "textDa":  "Jeg har det godt.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Olá",
-                                                 "textDa":  "Hej"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  2,
-                          "titleDa":  "Goddag",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Bom dia.",
-                                              "textDa":  "Goddag.",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Olá. Como estás?",
-                                              "textDa":  "Hej. Hvordan har du det?",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Estou bem.",
-                                              "textDa":  "Jeg har det godt.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Bom dia",
-                                                 "textDa":  "Goddag"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  3,
-                          "titleDa":  "Farvel",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Adeus.",
-                                              "textDa":  "Farvel.",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Olá. Como estás?",
-                                              "textDa":  "Hej. Hvordan har du det?",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Estou bem.",
-                                              "textDa":  "Jeg har det godt.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Adeus",
-                                                 "textDa":  "Farvel"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  4,
-                          "titleDa":  "Vi ses senere",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Até logo.",
-                                              "textDa":  "Vi ses senere.",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Olá. Como estás?",
-                                              "textDa":  "Hej. Hvordan har du det?",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Estou bem.",
-                                              "textDa":  "Jeg har det godt.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Até logo",
-                                                 "textDa":  "Vi ses senere"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  5,
-                          "titleDa":  "Tak for hjælpen",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Agradeço a ajuda.",
-                                              "textDa":  "Tak for hjælpen.",
-                                              "grammarDa":  "Agradeço betyder jeg takker eller jeg er taknemmelig."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Olá. Como estás?",
-                                              "textDa":  "Hej. Hvordan har du det?",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Estou bem.",
-                                              "textDa":  "Jeg har det godt.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "agradeço a ajuda",
-                                                 "textDa":  "tak for hjælpen"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  6,
-                          "titleDa":  "Vær sød",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Por favor.",
-                                              "textDa":  "Vær sød.",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Olá. Como estás?",
-                                              "textDa":  "Hej. Hvordan har du det?",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Estou bem.",
-                                              "textDa":  "Jeg har det godt.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Por favor",
-                                                 "textDa":  "Vær sød"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  7,
-                          "titleDa":  "Ja",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Sim.",
-                                              "textDa":  "Ja.",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Olá. Como estás?",
-                                              "textDa":  "Hej. Hvordan har du det?",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Estou bem.",
-                                              "textDa":  "Jeg har det godt.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Sim",
-                                                 "textDa":  "Ja"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  8,
-                          "titleDa":  "Nej",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Não.",
-                                              "textDa":  "Nej.",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Olá. Como estás?",
-                                              "textDa":  "Hej. Hvordan har du det?",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Estou bem.",
-                                              "textDa":  "Jeg har det godt.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Não",
-                                                 "textDa":  "Nej"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  9,
-                          "titleDa":  "Undskyld",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Desculpe.",
-                                              "textDa":  "Undskyld.",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Olá. Como estás?",
-                                              "textDa":  "Hej. Hvordan har du det?",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Estou bem.",
-                                              "textDa":  "Jeg har det godt.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Desculpe",
-                                                 "textDa":  "Undskyld"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  10,
-                          "titleDa":  "God aften",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Boa noite.",
-                                              "textDa":  "God aften.",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Olá. Como estás?",
-                                              "textDa":  "Hej. Hvordan har du det?",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Estou bem.",
-                                              "textDa":  "Jeg har det godt.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Boa noite",
-                                                 "textDa":  "God aften"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      }
-                  ],
-    "quiz":  [
-                 {
-                     "id":  1,
-                     "questionDa":  "Hvad betyder: Olá.",
-                     "answers":  [
-                                     {
-                                         "text":  "Hej.",
-                                         "correct":  true
-                                     },
-                                     {
-                                         "text":  "Goddag.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Farvel.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Vi ses senere.",
-                                         "correct":  false
-                                     }
-                                 ],
-                     "explanationDa":  "Olá. = Hej."
-                 },
-                 {
-                     "id":  2,
-                     "questionDa":  "Hvad betyder: Bom dia.",
-                     "answers":  [
-                                     {
-                                         "text":  "Goddag.",
-                                         "correct":  true
-                                     },
-                                     {
-                                         "text":  "Farvel.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Vi ses senere.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Tak.",
-                                         "correct":  false
-                                     }
-                                 ],
-                     "explanationDa":  "Bom dia. = Goddag."
-                 },
-                 {
-                     "id":  3,
-                     "questionDa":  "Hvad betyder: Adeus.",
-                     "answers":  [
-                                     {
-                                         "text":  "Farvel.",
-                                         "correct":  true
-                                     },
-                                     {
-                                         "text":  "Vi ses senere.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Tak.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Vær sød.",
-                                         "correct":  false
-                                     }
-                                 ],
-                     "explanationDa":  "Adeus. = Farvel."
-                 },
-                 {
-                     "id":  4,
-                     "questionDa":  "Hvad betyder: Até logo.",
-                     "answers":  [
-                                     {
-                                         "text":  "Vi ses senere.",
-                                         "correct":  true
-                                     },
-                                     {
-                                         "text":  "Tak.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Vær sød.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Ja.",
-                                         "correct":  false
-                                     }
-                                 ],
-                     "explanationDa":  "Até logo. = Vi ses senere."
-                 },
-                 {
-                     "id":  5,
-                     "questionDa":  "Hvad betyder: Agradeço a ajuda.",
-                     "answers":  [
-                                     {
-                                         "text":  "Tak for hjælpen.",
-                                         "correct":  true
-                                     },
-                                     {
-                                         "text":  "Vær sød.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Ja.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Nej.",
-                                         "correct":  false
-                                     }
-                                 ],
-                     "explanationDa":  "Agradeço a ajuda. = Tak for hjælpen."
-                 },
-                 {
-                     "id":  6,
-                     "questionDa":  "Hvad betyder: Por favor.",
-                     "answers":  [
-                                     {
-                                         "text":  "Vær sød.",
-                                         "correct":  true
-                                     },
-                                     {
-                                         "text":  "Ja.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Nej.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Undskyld.",
-                                         "correct":  false
-                                     }
-                                 ],
-                     "explanationDa":  "Por favor. = Vær sød."
-                 }
-             ],
-    "storyTitleDa":  "Kort børnedialog: Hilsner",
-    "storyObjectiveDa":  "Læs 10 korte linjer, som et barn kan bruge på rejse.",
-    "story":  [
-                  {
-                      "speaker":  "Barn",
-                      "textPt":  "Olá.",
-                      "textDa":  "Hej.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Voksen",
-                      "textPt":  "Bom dia.",
-                      "textDa":  "Goddag.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Barn",
-                      "textPt":  "Adeus.",
-                      "textDa":  "Farvel.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Voksen",
-                      "textPt":  "Até logo.",
-                      "textDa":  "Vi ses senere.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Barn",
-                      "textPt":  "Agradeço a ajuda.",
-                      "textDa":  "Tak for hjælpen.",
-                      "grammarDa":  "Praktisk takkesætning."
-                  },
-                  {
-                      "speaker":  "Voksen",
-                      "textPt":  "Por favor.",
-                      "textDa":  "Vær sød.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Barn",
-                      "textPt":  "Sim.",
-                      "textDa":  "Ja.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Voksen",
-                      "textPt":  "Não.",
-                      "textDa":  "Nej.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Barn",
-                      "textPt":  "Desculpe.",
-                      "textDa":  "Undskyld.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Voksen",
-                      "textPt":  "Boa noite.",
-                      "textDa":  "God aften.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  }
-              ]
+  "id": 1,
+  "titleDa": "Hilsner",
+  "descriptionDa": "Meget let niveau med korte sætninger til børn.",
+  "dialogues": [
+    {
+      "id": 1,
+      "titleDa": "Hej",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Olá.",
+          "textDa": "Hej.",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Olá",
+          "textDa": "Hej"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titleDa": "Goddag",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Bom dia.",
+          "textDa": "Goddag.",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Bom dia",
+          "textDa": "Goddag"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "titleDa": "Farvel",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Adeus.",
+          "textDa": "Farvel.",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Adeus",
+          "textDa": "Farvel"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "titleDa": "Vi ses senere",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Até logo.",
+          "textDa": "Vi ses senere.",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Até logo",
+          "textDa": "Vi ses senere"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "titleDa": "Tak for hjælpen",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Agradeço a ajuda.",
+          "textDa": "Tak for hjælpen.",
+          "grammarDa": "Agradeço betyder jeg takker eller jeg er taknemmelig."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "agradeço a ajuda",
+          "textDa": "tak for hjælpen"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "titleDa": "Vær sød",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Por favor.",
+          "textDa": "Vær sød.",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Por favor",
+          "textDa": "Vær sød"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "titleDa": "Ja",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Sim.",
+          "textDa": "Ja.",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Sim",
+          "textDa": "Ja"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "titleDa": "Nej",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Não.",
+          "textDa": "Nej.",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Não",
+          "textDa": "Nej"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "titleDa": "Undskyld",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Desculpe.",
+          "textDa": "Undskyld.",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Desculpe",
+          "textDa": "Undskyld"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "titleDa": "God aften",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Boa noite.",
+          "textDa": "God aften.",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Boa noite",
+          "textDa": "God aften"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "questionDa": "Hvad betyder: Olá.",
+      "answers": [
+        {
+          "text": "Hej.",
+          "correct": true
+        },
+        {
+          "text": "Goddag.",
+          "correct": false
+        },
+        {
+          "text": "Farvel.",
+          "correct": false
+        },
+        {
+          "text": "Vi ses senere.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Olá. = Hej."
+    },
+    {
+      "id": 2,
+      "questionDa": "Hvad betyder: Bom dia.",
+      "answers": [
+        {
+          "text": "Goddag.",
+          "correct": true
+        },
+        {
+          "text": "Farvel.",
+          "correct": false
+        },
+        {
+          "text": "Vi ses senere.",
+          "correct": false
+        },
+        {
+          "text": "Tak.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Bom dia. = Goddag."
+    },
+    {
+      "id": 3,
+      "questionDa": "Hvad betyder: Adeus.",
+      "answers": [
+        {
+          "text": "Farvel.",
+          "correct": true
+        },
+        {
+          "text": "Vi ses senere.",
+          "correct": false
+        },
+        {
+          "text": "Tak.",
+          "correct": false
+        },
+        {
+          "text": "Vær sød.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Adeus. = Farvel."
+    },
+    {
+      "id": 4,
+      "questionDa": "Hvad betyder: Até logo.",
+      "answers": [
+        {
+          "text": "Vi ses senere.",
+          "correct": true
+        },
+        {
+          "text": "Tak.",
+          "correct": false
+        },
+        {
+          "text": "Vær sød.",
+          "correct": false
+        },
+        {
+          "text": "Ja.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Até logo. = Vi ses senere."
+    },
+    {
+      "id": 5,
+      "questionDa": "Hvad betyder: Agradeço a ajuda.",
+      "answers": [
+        {
+          "text": "Tak for hjælpen.",
+          "correct": true
+        },
+        {
+          "text": "Vær sød.",
+          "correct": false
+        },
+        {
+          "text": "Ja.",
+          "correct": false
+        },
+        {
+          "text": "Nej.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Agradeço a ajuda. = Tak for hjælpen."
+    },
+    {
+      "id": 6,
+      "questionDa": "Hvad betyder: Por favor.",
+      "answers": [
+        {
+          "text": "Vær sød.",
+          "correct": true
+        },
+        {
+          "text": "Ja.",
+          "correct": false
+        },
+        {
+          "text": "Nej.",
+          "correct": false
+        },
+        {
+          "text": "Undskyld.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Por favor. = Vær sød."
+    }
+  ],
+  "storyTitleDa": "Kort børnedialog: Hilsner",
+  "storyObjectiveDa": "Læs 10 korte linjer, som et barn kan bruge på rejse.",
+  "story": [
+    {
+      "speaker": "Barn",
+      "textPt": "Olá.",
+      "textDa": "Hej.",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Voksen",
+      "textPt": "Bom dia.",
+      "textDa": "Goddag.",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Barn",
+      "textPt": "Adeus.",
+      "textDa": "Farvel.",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Voksen",
+      "textPt": "Até logo.",
+      "textDa": "Vi ses senere.",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Barn",
+      "textPt": "Agradeço a ajuda.",
+      "textDa": "Tak for hjælpen.",
+      "grammarDa": "Praktisk takkesætning."
+    },
+    {
+      "speaker": "Voksen",
+      "textPt": "Por favor.",
+      "textDa": "Vær sød.",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Barn",
+      "textPt": "Sim.",
+      "textDa": "Ja.",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Voksen",
+      "textPt": "Não.",
+      "textDa": "Nej.",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Barn",
+      "textPt": "Desculpe.",
+      "textDa": "Undskyld.",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Voksen",
+      "textPt": "Boa noite.",
+      "textDa": "God aften.",
+      "grammarDa": "Praktisk og kort frase."
+    }
+  ]
 }

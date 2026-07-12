@@ -1,581 +1,461 @@
 {
-    "id":  2,
-    "titleDa":  "Tryghed",
-    "descriptionDa":  "Meget let niveau med korte sætninger til børn.",
-    "dialogues":  [
-                      {
-                          "id":  1,
-                          "titleDa":  "Jeg kan ikke finde mine forældre",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Não encontro os meus pais.",
-                                              "textDa":  "Jeg kan ikke finde mine forældre.",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Fica aqui. Eu ajudo.",
-                                              "textDa":  "Bliv her. Jeg hjælper.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Preciso de encontrar a minha família.",
-                                              "textDa":  "Jeg skal finde min familie.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Não encontro os meus pais",
-                                                 "textDa":  "Jeg kan ikke finde mine forældre"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  2,
-                          "titleDa":  "Kan du hjælpe mig",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Pode ajudar-me?",
-                                              "textDa":  "Kan du hjælpe mig?",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Fica aqui. Eu ajudo.",
-                                              "textDa":  "Bliv her. Jeg hjælper.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Preciso de encontrar a minha família.",
-                                              "textDa":  "Jeg skal finde min familie.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Pode ajudar-me",
-                                                 "textDa":  "Kan du hjælpe mig"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  3,
-                          "titleDa":  "Ring til politiet, tak",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Chame a polícia, por favor.",
-                                              "textDa":  "Ring til politiet, tak.",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Fica aqui. Eu ajudo.",
-                                              "textDa":  "Bliv her. Jeg hjælper.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Preciso de encontrar a minha família.",
-                                              "textDa":  "Jeg skal finde min familie.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Chame a polícia, por favor",
-                                                 "textDa":  "Ring til politiet, tak"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  4,
-                          "titleDa":  "Jeg er faret vild",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Estou perdido.",
-                                              "textDa":  "Jeg er faret vild.",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Fica aqui. Eu ajudo.",
-                                              "textDa":  "Bliv her. Jeg hjælper.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Preciso de encontrar a minha família.",
-                                              "textDa":  "Jeg skal finde min familie.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Estou perdido",
-                                                 "textDa":  "Jeg er faret vild"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  5,
-                          "titleDa":  "Jeg er bange",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Tenho medo.",
-                                              "textDa":  "Jeg er bange.",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Fica aqui. Eu ajudo.",
-                                              "textDa":  "Bliv her. Jeg hjælper.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Preciso de encontrar a minha família.",
-                                              "textDa":  "Jeg skal finde min familie.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Tenho medo",
-                                                 "textDa":  "Jeg er bange"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  6,
-                          "titleDa":  "Jeg har brug for hjælp",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Preciso de ajuda.",
-                                              "textDa":  "Jeg har brug for hjælp.",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Fica aqui. Eu ajudo.",
-                                              "textDa":  "Bliv her. Jeg hjælper.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Preciso de encontrar a minha família.",
-                                              "textDa":  "Jeg skal finde min familie.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Preciso de ajuda",
-                                                 "textDa":  "Jeg har brug for hjælp"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  7,
-                          "titleDa":  "Bliv hos mig, tak",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Fique comigo, por favor.",
-                                              "textDa":  "Bliv hos mig, tak.",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Fica aqui. Eu ajudo.",
-                                              "textDa":  "Bliv her. Jeg hjælper.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Preciso de encontrar a minha família.",
-                                              "textDa":  "Jeg skal finde min familie.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Fique comigo, por favor",
-                                                 "textDa":  "Bliv hos mig, tak"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  8,
-                          "titleDa":  "Hvor er informationen",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Onde é a informação?",
-                                              "textDa":  "Hvor er informationen?",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Fica aqui. Eu ajudo.",
-                                              "textDa":  "Bliv her. Jeg hjælper.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Preciso de encontrar a minha família.",
-                                              "textDa":  "Jeg skal finde min familie.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Onde é a informação",
-                                                 "textDa":  "Hvor er informationen"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  9,
-                          "titleDa":  "Jeg kender ikke vejen",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Não sei o caminho.",
-                                              "textDa":  "Jeg kender ikke vejen.",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Fica aqui. Eu ajudo.",
-                                              "textDa":  "Bliv her. Jeg hjælper.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Preciso de encontrar a minha família.",
-                                              "textDa":  "Jeg skal finde min familie.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Não sei o caminho",
-                                                 "textDa":  "Jeg kender ikke vejen"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  10,
-                          "titleDa":  "Jeg er et barn",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Sou uma criança.",
-                                              "textDa":  "Jeg er et barn.",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "Fica aqui. Eu ajudo.",
-                                              "textDa":  "Bliv her. Jeg hjælper.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Preciso de encontrar a minha família.",
-                                              "textDa":  "Jeg skal finde min familie.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Sou uma criança",
-                                                 "textDa":  "Jeg er et barn"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      }
-                  ],
-    "quiz":  [
-                 {
-                     "id":  1,
-                     "questionDa":  "Hvad betyder: Não encontro os meus pais.",
-                     "answers":  [
-                                     {
-                                         "text":  "Jeg kan ikke finde mine forældre.",
-                                         "correct":  true
-                                     },
-                                     {
-                                         "text":  "Kan du hjælpe mig?",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Ring til politiet, tak.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Jeg er faret vild.",
-                                         "correct":  false
-                                     }
-                                 ],
-                     "explanationDa":  "Não encontro os meus pais. = Jeg kan ikke finde mine forældre."
-                 },
-                 {
-                     "id":  2,
-                     "questionDa":  "Hvad betyder: Pode ajudar-me?",
-                     "answers":  [
-                                     {
-                                         "text":  "Kan du hjælpe mig?",
-                                         "correct":  true
-                                     },
-                                     {
-                                         "text":  "Ring til politiet, tak.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Jeg er faret vild.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Jeg er bange.",
-                                         "correct":  false
-                                     }
-                                 ],
-                     "explanationDa":  "Pode ajudar-me? = Kan du hjælpe mig?"
-                 },
-                 {
-                     "id":  3,
-                     "questionDa":  "Hvad betyder: Chame a polícia, por favor.",
-                     "answers":  [
-                                     {
-                                         "text":  "Ring til politiet, tak.",
-                                         "correct":  true
-                                     },
-                                     {
-                                         "text":  "Jeg er faret vild.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Jeg er bange.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Jeg har brug for hjælp.",
-                                         "correct":  false
-                                     }
-                                 ],
-                     "explanationDa":  "Chame a polícia, por favor. = Ring til politiet, tak."
-                 },
-                 {
-                     "id":  4,
-                     "questionDa":  "Hvad betyder: Estou perdido.",
-                     "answers":  [
-                                     {
-                                         "text":  "Jeg er faret vild.",
-                                         "correct":  true
-                                     },
-                                     {
-                                         "text":  "Jeg er bange.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Jeg har brug for hjælp.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Bliv hos mig, tak.",
-                                         "correct":  false
-                                     }
-                                 ],
-                     "explanationDa":  "Estou perdido. = Jeg er faret vild."
-                 },
-                 {
-                     "id":  5,
-                     "questionDa":  "Hvad betyder: Tenho medo.",
-                     "answers":  [
-                                     {
-                                         "text":  "Jeg er bange.",
-                                         "correct":  true
-                                     },
-                                     {
-                                         "text":  "Jeg har brug for hjælp.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Bliv hos mig, tak.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Hvor er informationen?",
-                                         "correct":  false
-                                     }
-                                 ],
-                     "explanationDa":  "Tenho medo. = Jeg er bange."
-                 },
-                 {
-                     "id":  6,
-                     "questionDa":  "Hvad betyder: Preciso de ajuda.",
-                     "answers":  [
-                                     {
-                                         "text":  "Jeg har brug for hjælp.",
-                                         "correct":  true
-                                     },
-                                     {
-                                         "text":  "Bliv hos mig, tak.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Hvor er informationen?",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Jeg kender ikke vejen.",
-                                         "correct":  false
-                                     }
-                                 ],
-                     "explanationDa":  "Preciso de ajuda. = Jeg har brug for hjælp."
-                 }
-             ],
-    "storyTitleDa":  "Kort børnedialog: Tryghed",
-    "storyObjectiveDa":  "Læs 10 korte linjer, som et barn kan bruge på rejse.",
-    "story":  [
-                  {
-                      "speaker":  "Barn",
-                      "textPt":  "Não encontro os meus pais.",
-                      "textDa":  "Jeg kan ikke finde mine forældre.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Voksen",
-                      "textPt":  "Pode ajudar-me?",
-                      "textDa":  "Kan du hjælpe mig?",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Barn",
-                      "textPt":  "Chame a polícia, por favor.",
-                      "textDa":  "Ring til politiet, tak.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Voksen",
-                      "textPt":  "Estou perdido.",
-                      "textDa":  "Jeg er faret vild.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Barn",
-                      "textPt":  "Tenho medo.",
-                      "textDa":  "Jeg er bange.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Voksen",
-                      "textPt":  "Preciso de ajuda.",
-                      "textDa":  "Jeg har brug for hjælp.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Barn",
-                      "textPt":  "Fique comigo, por favor.",
-                      "textDa":  "Bliv hos mig, tak.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Voksen",
-                      "textPt":  "Onde é a informação?",
-                      "textDa":  "Hvor er informationen?",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Barn",
-                      "textPt":  "Não sei o caminho.",
-                      "textDa":  "Jeg kender ikke vejen.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Voksen",
-                      "textPt":  "Sou uma criança.",
-                      "textDa":  "Jeg er et barn.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  }
-              ]
+  "id": 2,
+  "titleDa": "Tryghed",
+  "descriptionDa": "Meget let niveau med korte sætninger til børn.",
+  "dialogues": [
+    {
+      "id": 1,
+      "titleDa": "Jeg kan ikke finde mine forældre",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Não encontro os meus pais.",
+          "textDa": "Jeg kan ikke finde mine forældre.",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Não encontro os meus pais",
+          "textDa": "Jeg kan ikke finde mine forældre"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titleDa": "Kan du hjælpe mig",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Pode ajudar-me?",
+          "textDa": "Kan du hjælpe mig?",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Pode ajudar-me",
+          "textDa": "Kan du hjælpe mig"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "titleDa": "Ring til politiet, tak",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Chame a polícia, por favor.",
+          "textDa": "Ring til politiet, tak.",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Chame a polícia, por favor",
+          "textDa": "Ring til politiet, tak"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "titleDa": "Jeg er faret vild",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Estou perdido.",
+          "textDa": "Jeg er faret vild.",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Estou perdido",
+          "textDa": "Jeg er faret vild"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "titleDa": "Jeg er bange",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Tenho medo.",
+          "textDa": "Jeg er bange.",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Tenho medo",
+          "textDa": "Jeg er bange"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "titleDa": "Jeg har brug for hjælp",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Preciso de ajuda.",
+          "textDa": "Jeg har brug for hjælp.",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Preciso de ajuda",
+          "textDa": "Jeg har brug for hjælp"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "titleDa": "Bliv hos mig, tak",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Fique comigo, por favor.",
+          "textDa": "Bliv hos mig, tak.",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Fique comigo, por favor",
+          "textDa": "Bliv hos mig, tak"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "titleDa": "Hvor er informationen",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Onde é a informação?",
+          "textDa": "Hvor er informationen?",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Onde é a informação",
+          "textDa": "Hvor er informationen"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "titleDa": "Jeg kender ikke vejen",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Não sei o caminho.",
+          "textDa": "Jeg kender ikke vejen.",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Não sei o caminho",
+          "textDa": "Jeg kender ikke vejen"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "titleDa": "Jeg er et barn",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Sou uma criança.",
+          "textDa": "Jeg er et barn.",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Sou uma criança",
+          "textDa": "Jeg er et barn"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "questionDa": "Hvad betyder: Não encontro os meus pais.",
+      "answers": [
+        {
+          "text": "Jeg kan ikke finde mine forældre.",
+          "correct": true
+        },
+        {
+          "text": "Kan du hjælpe mig?",
+          "correct": false
+        },
+        {
+          "text": "Ring til politiet, tak.",
+          "correct": false
+        },
+        {
+          "text": "Jeg er faret vild.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Não encontro os meus pais. = Jeg kan ikke finde mine forældre."
+    },
+    {
+      "id": 2,
+      "questionDa": "Hvad betyder: Pode ajudar-me?",
+      "answers": [
+        {
+          "text": "Kan du hjælpe mig?",
+          "correct": true
+        },
+        {
+          "text": "Ring til politiet, tak.",
+          "correct": false
+        },
+        {
+          "text": "Jeg er faret vild.",
+          "correct": false
+        },
+        {
+          "text": "Jeg er bange.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Pode ajudar-me? = Kan du hjælpe mig?"
+    },
+    {
+      "id": 3,
+      "questionDa": "Hvad betyder: Chame a polícia, por favor.",
+      "answers": [
+        {
+          "text": "Ring til politiet, tak.",
+          "correct": true
+        },
+        {
+          "text": "Jeg er faret vild.",
+          "correct": false
+        },
+        {
+          "text": "Jeg er bange.",
+          "correct": false
+        },
+        {
+          "text": "Jeg har brug for hjælp.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Chame a polícia, por favor. = Ring til politiet, tak."
+    },
+    {
+      "id": 4,
+      "questionDa": "Hvad betyder: Estou perdido.",
+      "answers": [
+        {
+          "text": "Jeg er faret vild.",
+          "correct": true
+        },
+        {
+          "text": "Jeg er bange.",
+          "correct": false
+        },
+        {
+          "text": "Jeg har brug for hjælp.",
+          "correct": false
+        },
+        {
+          "text": "Bliv hos mig, tak.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Estou perdido. = Jeg er faret vild."
+    },
+    {
+      "id": 5,
+      "questionDa": "Hvad betyder: Tenho medo.",
+      "answers": [
+        {
+          "text": "Jeg er bange.",
+          "correct": true
+        },
+        {
+          "text": "Jeg har brug for hjælp.",
+          "correct": false
+        },
+        {
+          "text": "Bliv hos mig, tak.",
+          "correct": false
+        },
+        {
+          "text": "Hvor er informationen?",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Tenho medo. = Jeg er bange."
+    },
+    {
+      "id": 6,
+      "questionDa": "Hvad betyder: Preciso de ajuda.",
+      "answers": [
+        {
+          "text": "Jeg har brug for hjælp.",
+          "correct": true
+        },
+        {
+          "text": "Bliv hos mig, tak.",
+          "correct": false
+        },
+        {
+          "text": "Hvor er informationen?",
+          "correct": false
+        },
+        {
+          "text": "Jeg kender ikke vejen.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Preciso de ajuda. = Jeg har brug for hjælp."
+    }
+  ],
+  "storyTitleDa": "Kort børnedialog: Tryghed",
+  "storyObjectiveDa": "Læs 10 korte linjer, som et barn kan bruge på rejse.",
+  "story": [
+    {
+      "speaker": "Barn",
+      "textPt": "Não encontro os meus pais.",
+      "textDa": "Jeg kan ikke finde mine forældre.",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Voksen",
+      "textPt": "Pode ajudar-me?",
+      "textDa": "Kan du hjælpe mig?",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Barn",
+      "textPt": "Chame a polícia, por favor.",
+      "textDa": "Ring til politiet, tak.",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Voksen",
+      "textPt": "Estou perdido.",
+      "textDa": "Jeg er faret vild.",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Barn",
+      "textPt": "Tenho medo.",
+      "textDa": "Jeg er bange.",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Voksen",
+      "textPt": "Preciso de ajuda.",
+      "textDa": "Jeg har brug for hjælp.",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Barn",
+      "textPt": "Fique comigo, por favor.",
+      "textDa": "Bliv hos mig, tak.",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Voksen",
+      "textPt": "Onde é a informação?",
+      "textDa": "Hvor er informationen?",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Barn",
+      "textPt": "Não sei o caminho.",
+      "textDa": "Jeg kender ikke vejen.",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Voksen",
+      "textPt": "Sou uma criança.",
+      "textDa": "Jeg er et barn.",
+      "grammarDa": "Praktisk og kort frase."
+    }
+  ]
 }

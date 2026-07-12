@@ -1,581 +1,461 @@
 {
-    "id":  8,
-    "titleDa":  "Butik for børn",
-    "descriptionDa":  "Meget let niveau med korte sætninger til børn.",
-    "dialogues":  [
-                      {
-                          "id":  1,
-                          "titleDa":  "Jeg vil gerne have dette, tak",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Quero isto, por favor.",
-                                              "textDa":  "Jeg vil gerne have dette, tak.",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "A caixa é ali.",
-                                              "textDa":  "Kassen er derovre.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Vou pagar com cartão.",
-                                              "textDa":  "Jeg betaler med kort.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Quero isto, por favor",
-                                                 "textDa":  "Jeg vil gerne have dette, tak"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  2,
-                          "titleDa":  "Hvad koster det",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Quanto custa?",
-                                              "textDa":  "Hvad koster det?",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "A caixa é ali.",
-                                              "textDa":  "Kassen er derovre.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Vou pagar com cartão.",
-                                              "textDa":  "Jeg betaler med kort.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Quanto custa",
-                                                 "textDa":  "Hvad koster det"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  3,
-                          "titleDa":  "Jeg har penge",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Tenho dinheiro.",
-                                              "textDa":  "Jeg har penge.",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "A caixa é ali.",
-                                              "textDa":  "Kassen er derovre.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Vou pagar com cartão.",
-                                              "textDa":  "Jeg betaler med kort.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Tenho dinheiro",
-                                                 "textDa":  "Jeg har penge"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  4,
-                          "titleDa":  "Jeg har ikke penge",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Não tenho dinheiro.",
-                                              "textDa":  "Jeg har ikke penge.",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "A caixa é ali.",
-                                              "textDa":  "Kassen er derovre.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Vou pagar com cartão.",
-                                              "textDa":  "Jeg betaler med kort.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Não tenho dinheiro",
-                                                 "textDa":  "Jeg har ikke penge"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  5,
-                          "titleDa":  "Hvor er udgangen",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Onde está a saída?",
-                                              "textDa":  "Hvor er udgangen?",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "A caixa é ali.",
-                                              "textDa":  "Kassen er derovre.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Vou pagar com cartão.",
-                                              "textDa":  "Jeg betaler med kort.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Onde está a saída",
-                                                 "textDa":  "Hvor er udgangen"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  6,
-                          "titleDa":  "Har I dette",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Tem isto?",
-                                              "textDa":  "Har I dette?",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "A caixa é ali.",
-                                              "textDa":  "Kassen er derovre.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Vou pagar com cartão.",
-                                              "textDa":  "Jeg betaler med kort.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Tem isto",
-                                                 "textDa":  "Har I dette"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  7,
-                          "titleDa":  "Jeg vil gerne betale",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Quero pagar.",
-                                              "textDa":  "Jeg vil gerne betale.",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "A caixa é ali.",
-                                              "textDa":  "Kassen er derovre.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Vou pagar com cartão.",
-                                              "textDa":  "Jeg betaler med kort.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Quero pagar",
-                                                 "textDa":  "Jeg vil gerne betale"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  8,
-                          "titleDa":  "Med kort, tak",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Com cartão, por favor.",
-                                              "textDa":  "Med kort, tak.",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "A caixa é ali.",
-                                              "textDa":  "Kassen er derovre.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Vou pagar com cartão.",
-                                              "textDa":  "Jeg betaler med kort.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Com cartão, por favor",
-                                                 "textDa":  "Med kort, tak"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  9,
-                          "titleDa":  "Jeg forstår ikke",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Não entendo.",
-                                              "textDa":  "Jeg forstår ikke.",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "A caixa é ali.",
-                                              "textDa":  "Kassen er derovre.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Vou pagar com cartão.",
-                                              "textDa":  "Jeg betaler med kort.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Não entendo",
-                                                 "textDa":  "Jeg forstår ikke"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      },
-                      {
-                          "id":  10,
-                          "titleDa":  "Kan du gentage",
-                          "objectiveDa":  "Sig en kort og praktisk sætning.",
-                          "phrases":  [
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Pode repetir?",
-                                              "textDa":  "Kan du gentage?",
-                                              "grammarDa":  "Kort børnesætning. Brug den roligt og tydeligt."
-                                          },
-                                          {
-                                              "speaker":  "Voksen",
-                                              "textPt":  "A caixa é ali.",
-                                              "textDa":  "Kassen er derovre.",
-                                              "grammarDa":  "Kort svar i samme situation."
-                                          },
-                                          {
-                                              "speaker":  "Barn",
-                                              "textPt":  "Vou pagar com cartão.",
-                                              "textDa":  "Jeg betaler med kort.",
-                                              "grammarDa":  "Barnet svarer med en enkel sætning."
-                                          }
-                                      ],
-                          "vocabulary":  [
-                                             {
-                                                 "textPt":  "Pode repetir",
-                                                 "textDa":  "Kan du gentage"
-                                             }
-                                         ],
-                          "grammar":  [
-                                          {
-                                              "titleDa":  "Kort sætning",
-                                              "explanationDa":  "Sætningen kan bruges direkte i en hverdagssituation."
-                                          }
-                                      ]
-                      }
-                  ],
-    "quiz":  [
-                 {
-                     "id":  1,
-                     "questionDa":  "Hvad betyder: Quero isto, por favor.",
-                     "answers":  [
-                                     {
-                                         "text":  "Jeg vil gerne have dette, tak.",
-                                         "correct":  true
-                                     },
-                                     {
-                                         "text":  "Hvad koster det?",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Jeg har penge.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Jeg har ikke penge.",
-                                         "correct":  false
-                                     }
-                                 ],
-                     "explanationDa":  "Quero isto, por favor. = Jeg vil gerne have dette, tak."
-                 },
-                 {
-                     "id":  2,
-                     "questionDa":  "Hvad betyder: Quanto custa?",
-                     "answers":  [
-                                     {
-                                         "text":  "Hvad koster det?",
-                                         "correct":  true
-                                     },
-                                     {
-                                         "text":  "Jeg har penge.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Jeg har ikke penge.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Hvor er udgangen?",
-                                         "correct":  false
-                                     }
-                                 ],
-                     "explanationDa":  "Quanto custa? = Hvad koster det?"
-                 },
-                 {
-                     "id":  3,
-                     "questionDa":  "Hvad betyder: Tenho dinheiro.",
-                     "answers":  [
-                                     {
-                                         "text":  "Jeg har penge.",
-                                         "correct":  true
-                                     },
-                                     {
-                                         "text":  "Jeg har ikke penge.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Hvor er udgangen?",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Har I dette?",
-                                         "correct":  false
-                                     }
-                                 ],
-                     "explanationDa":  "Tenho dinheiro. = Jeg har penge."
-                 },
-                 {
-                     "id":  4,
-                     "questionDa":  "Hvad betyder: Não tenho dinheiro.",
-                     "answers":  [
-                                     {
-                                         "text":  "Jeg har ikke penge.",
-                                         "correct":  true
-                                     },
-                                     {
-                                         "text":  "Hvor er udgangen?",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Har I dette?",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Jeg vil gerne betale.",
-                                         "correct":  false
-                                     }
-                                 ],
-                     "explanationDa":  "Não tenho dinheiro. = Jeg har ikke penge."
-                 },
-                 {
-                     "id":  5,
-                     "questionDa":  "Hvad betyder: Onde está a saída?",
-                     "answers":  [
-                                     {
-                                         "text":  "Hvor er udgangen?",
-                                         "correct":  true
-                                     },
-                                     {
-                                         "text":  "Har I dette?",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Jeg vil gerne betale.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Med kort, tak.",
-                                         "correct":  false
-                                     }
-                                 ],
-                     "explanationDa":  "Onde está a saída? = Hvor er udgangen?"
-                 },
-                 {
-                     "id":  6,
-                     "questionDa":  "Hvad betyder: Tem isto?",
-                     "answers":  [
-                                     {
-                                         "text":  "Har I dette?",
-                                         "correct":  true
-                                     },
-                                     {
-                                         "text":  "Jeg vil gerne betale.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Med kort, tak.",
-                                         "correct":  false
-                                     },
-                                     {
-                                         "text":  "Jeg forstår ikke.",
-                                         "correct":  false
-                                     }
-                                 ],
-                     "explanationDa":  "Tem isto? = Har I dette?"
-                 }
-             ],
-    "storyTitleDa":  "Kort børnedialog: Butik for børn",
-    "storyObjectiveDa":  "Læs 10 korte linjer, som et barn kan bruge på rejse.",
-    "story":  [
-                  {
-                      "speaker":  "Barn",
-                      "textPt":  "Quero isto, por favor.",
-                      "textDa":  "Jeg vil gerne have dette, tak.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Voksen",
-                      "textPt":  "Quanto custa?",
-                      "textDa":  "Hvad koster det?",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Barn",
-                      "textPt":  "Tenho dinheiro.",
-                      "textDa":  "Jeg har penge.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Voksen",
-                      "textPt":  "Não tenho dinheiro.",
-                      "textDa":  "Jeg har ikke penge.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Barn",
-                      "textPt":  "Onde está a saída?",
-                      "textDa":  "Hvor er udgangen?",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Voksen",
-                      "textPt":  "Tem isto?",
-                      "textDa":  "Har I dette?",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Barn",
-                      "textPt":  "Quero pagar.",
-                      "textDa":  "Jeg vil gerne betale.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Voksen",
-                      "textPt":  "Com cartão, por favor.",
-                      "textDa":  "Med kort, tak.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Barn",
-                      "textPt":  "Não entendo.",
-                      "textDa":  "Jeg forstår ikke.",
-                      "grammarDa":  "Praktisk og kort frase."
-                  },
-                  {
-                      "speaker":  "Voksen",
-                      "textPt":  "Pode repetir?",
-                      "textDa":  "Kan du gentage?",
-                      "grammarDa":  "Praktisk og kort frase."
-                  }
-              ]
+  "id": 8,
+  "titleDa": "Butik for børn",
+  "descriptionDa": "Meget let niveau med korte sætninger til børn.",
+  "dialogues": [
+    {
+      "id": 1,
+      "titleDa": "Jeg vil gerne have dette, tak",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Quero isto, por favor.",
+          "textDa": "Jeg vil gerne have dette, tak.",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Quero isto, por favor",
+          "textDa": "Jeg vil gerne have dette, tak"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titleDa": "Hvad koster det",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Quanto custa?",
+          "textDa": "Hvad koster det?",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Quanto custa",
+          "textDa": "Hvad koster det"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "titleDa": "Jeg har penge",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Tenho dinheiro.",
+          "textDa": "Jeg har penge.",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Tenho dinheiro",
+          "textDa": "Jeg har penge"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "titleDa": "Jeg har ikke penge",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Não tenho dinheiro.",
+          "textDa": "Jeg har ikke penge.",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Não tenho dinheiro",
+          "textDa": "Jeg har ikke penge"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "titleDa": "Hvor er udgangen",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Onde está a saída?",
+          "textDa": "Hvor er udgangen?",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Onde está a saída",
+          "textDa": "Hvor er udgangen"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "titleDa": "Har I dette",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Tem isto?",
+          "textDa": "Har I dette?",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Tem isto",
+          "textDa": "Har I dette"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "titleDa": "Jeg vil gerne betale",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Quero pagar.",
+          "textDa": "Jeg vil gerne betale.",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Quero pagar",
+          "textDa": "Jeg vil gerne betale"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "titleDa": "Med kort, tak",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Com cartão, por favor.",
+          "textDa": "Med kort, tak.",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Com cartão, por favor",
+          "textDa": "Med kort, tak"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "titleDa": "Jeg forstår ikke",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Não entendo.",
+          "textDa": "Jeg forstår ikke.",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Não entendo",
+          "textDa": "Jeg forstår ikke"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "titleDa": "Kan du gentage",
+      "objectiveDa": "Sig en kort og praktisk sætning.",
+      "phrases": [
+        {
+          "speaker": "Barn",
+          "textPt": "Pode repetir?",
+          "textDa": "Kan du gentage?",
+          "grammarDa": "Kort børnesætning. Brug den roligt og tydeligt."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "Pode repetir",
+          "textDa": "Kan du gentage"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Kort sætning",
+          "explanationDa": "Sætningen kan bruges direkte i en hverdagssituation."
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "questionDa": "Hvad betyder: Quero isto, por favor.",
+      "answers": [
+        {
+          "text": "Jeg vil gerne have dette, tak.",
+          "correct": true
+        },
+        {
+          "text": "Hvad koster det?",
+          "correct": false
+        },
+        {
+          "text": "Jeg har penge.",
+          "correct": false
+        },
+        {
+          "text": "Jeg har ikke penge.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Quero isto, por favor. = Jeg vil gerne have dette, tak."
+    },
+    {
+      "id": 2,
+      "questionDa": "Hvad betyder: Quanto custa?",
+      "answers": [
+        {
+          "text": "Hvad koster det?",
+          "correct": true
+        },
+        {
+          "text": "Jeg har penge.",
+          "correct": false
+        },
+        {
+          "text": "Jeg har ikke penge.",
+          "correct": false
+        },
+        {
+          "text": "Hvor er udgangen?",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Quanto custa? = Hvad koster det?"
+    },
+    {
+      "id": 3,
+      "questionDa": "Hvad betyder: Tenho dinheiro.",
+      "answers": [
+        {
+          "text": "Jeg har penge.",
+          "correct": true
+        },
+        {
+          "text": "Jeg har ikke penge.",
+          "correct": false
+        },
+        {
+          "text": "Hvor er udgangen?",
+          "correct": false
+        },
+        {
+          "text": "Har I dette?",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Tenho dinheiro. = Jeg har penge."
+    },
+    {
+      "id": 4,
+      "questionDa": "Hvad betyder: Não tenho dinheiro.",
+      "answers": [
+        {
+          "text": "Jeg har ikke penge.",
+          "correct": true
+        },
+        {
+          "text": "Hvor er udgangen?",
+          "correct": false
+        },
+        {
+          "text": "Har I dette?",
+          "correct": false
+        },
+        {
+          "text": "Jeg vil gerne betale.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Não tenho dinheiro. = Jeg har ikke penge."
+    },
+    {
+      "id": 5,
+      "questionDa": "Hvad betyder: Onde está a saída?",
+      "answers": [
+        {
+          "text": "Hvor er udgangen?",
+          "correct": true
+        },
+        {
+          "text": "Har I dette?",
+          "correct": false
+        },
+        {
+          "text": "Jeg vil gerne betale.",
+          "correct": false
+        },
+        {
+          "text": "Med kort, tak.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Onde está a saída? = Hvor er udgangen?"
+    },
+    {
+      "id": 6,
+      "questionDa": "Hvad betyder: Tem isto?",
+      "answers": [
+        {
+          "text": "Har I dette?",
+          "correct": true
+        },
+        {
+          "text": "Jeg vil gerne betale.",
+          "correct": false
+        },
+        {
+          "text": "Med kort, tak.",
+          "correct": false
+        },
+        {
+          "text": "Jeg forstår ikke.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Tem isto? = Har I dette?"
+    }
+  ],
+  "storyTitleDa": "Kort børnedialog: Butik for børn",
+  "storyObjectiveDa": "Læs 10 korte linjer, som et barn kan bruge på rejse.",
+  "story": [
+    {
+      "speaker": "Barn",
+      "textPt": "Quero isto, por favor.",
+      "textDa": "Jeg vil gerne have dette, tak.",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Voksen",
+      "textPt": "Quanto custa?",
+      "textDa": "Hvad koster det?",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Barn",
+      "textPt": "Tenho dinheiro.",
+      "textDa": "Jeg har penge.",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Voksen",
+      "textPt": "Não tenho dinheiro.",
+      "textDa": "Jeg har ikke penge.",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Barn",
+      "textPt": "Onde está a saída?",
+      "textDa": "Hvor er udgangen?",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Voksen",
+      "textPt": "Tem isto?",
+      "textDa": "Har I dette?",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Barn",
+      "textPt": "Quero pagar.",
+      "textDa": "Jeg vil gerne betale.",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Voksen",
+      "textPt": "Com cartão, por favor.",
+      "textDa": "Med kort, tak.",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Barn",
+      "textPt": "Não entendo.",
+      "textDa": "Jeg forstår ikke.",
+      "grammarDa": "Praktisk og kort frase."
+    },
+    {
+      "speaker": "Voksen",
+      "textPt": "Pode repetir?",
+      "textDa": "Kan du gentage?",
+      "grammarDa": "Praktisk og kort frase."
+    }
+  ]
 }

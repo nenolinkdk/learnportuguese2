@@ -408,6 +408,12 @@ public class MainActivity extends Activity {
         welcomeButton.setOnClickListener(v -> showWelcomeScreen());
         actionRow.addView(welcomeButton, rowButtonParams(true));
         contentRoot.addView(actionRow, compactWrap());
+
+        if (dialogues.isEmpty()) {
+            contentRoot.addView(panel("Indhold mangler\nDenne lektion har ingen gyldige dialoger i JSON."), matchWrap());
+            return;
+        }
+
         for (Dialogue dialogue : dialogues) {
             String status = progressRepository.isDialogueCompleted(selectedLevel, lesson.getId(), dialogue.getId()) ? "[OK] " : "";
             Button dialogueButton = button(status + "Dialog " + dialogue.getId() + ": " + dialogue.getTitleDa());
@@ -427,13 +433,15 @@ public class MainActivity extends Activity {
         currentScreen = Screen.PHRASES;
         selectedLesson = lesson;
         selectedDialogue = dialogue;
-        progressRepository.saveLatestPosition(selectedLevel, lesson.getId(), dialogue.getId());
-        progressRepository.markDialogueCompleted(selectedLevel, lesson.getId(), dialogue.getId());
         phrases = mapDialogueToPhrases(lesson, dialogue);
         if (phrases.isEmpty()) {
-            phrases = createFallbackPhrases();
+            pendingDialoguePhraseIndex = 0;
+            showDialogueContentError(lesson, dialogue);
+            return;
         }
 
+        progressRepository.saveLatestPosition(selectedLevel, lesson.getId(), dialogue.getId());
+        progressRepository.markDialogueCompleted(selectedLevel, lesson.getId(), dialogue.getId());
         clearContent();
 
         LinearLayout topRow = horizontalRow();
@@ -583,6 +591,25 @@ public class MainActivity extends Activity {
         showPhrase(0);
     }
 
+    private void showDialogueContentError(Lesson lesson, Dialogue dialogue) {
+        clearContent();
+
+        LinearLayout topRow = horizontalRow();
+        Button backButton = navButton("Dialoger");
+        backButton.setOnClickListener(v -> showDialogList(lesson));
+        topRow.addView(backButton, rowButtonParams(false));
+
+        Button lessonsButton = navButton("Til lektioner");
+        lessonsButton.setOnClickListener(v -> showLessonList());
+        topRow.addView(lessonsButton, rowButtonParams(true));
+        contentRoot.addView(topRow, compactWrap());
+
+        String message = "Indhold mangler\n"
+                + "Niveau " + selectedLevel + ", lektion " + lesson.getId() + ", dialog " + dialogue.getId()
+                + " har ingen gyldige fraser i JSON. Ret lesson-filen, så dialogen har mindst en phrase med textPt og textDa.";
+        contentRoot.addView(panel(message), matchWrap());
+    }
+
     @Override
     public void onBackPressed() {
         if (currentScreen == Screen.START) {
@@ -716,11 +743,18 @@ public class MainActivity extends Activity {
         }
 
         int currentPosition = 0;
+        boolean selectedDialogueFound = false;
         for (int i = 0; i < dialogues.size(); i++) {
             if (dialogues.get(i).getId() == selectedDialogue.getId()) {
                 currentPosition = i;
+                selectedDialogueFound = true;
                 break;
             }
+        }
+
+        if (!selectedDialogueFound) {
+            showSafeToast("Dialogen findes ikke i denne lektions JSON.");
+            return;
         }
 
         int nextPosition = currentPosition + offset;
@@ -1655,7 +1689,7 @@ public class MainActivity extends Activity {
             return sourceDialogues;
         }
 
-        return createPlaceholderDialogues(lesson);
+        return Collections.emptyList();
     }
 
     private List<Dialogue> splitPrototypeDialogue(Dialogue sourceDialogue) {
@@ -1676,29 +1710,6 @@ public class MainActivity extends Activity {
                     phrasesForDialogue,
                     sourceDialogue.getVocabulary(),
                     sourceDialogue.getGrammar()
-            ));
-        }
-        return dialogues;
-    }
-
-    private List<Dialogue> createPlaceholderDialogues(Lesson lesson) {
-        List<Dialogue> dialogues = new ArrayList<>();
-        for (int dialogueId = 1; dialogueId <= 10; dialogueId++) {
-            List<dk.nenolink.learnportuguese2.data.model.Phrase> placeholderPhrases = new ArrayList<>();
-            placeholderPhrases.add(new dk.nenolink.learnportuguese2.data.model.Phrase(
-                    "A",
-                    "Conteúdo em preparação.",
-                    "Indhold er under forberedelse.",
-                    "Denne dialog er en placeholder, indtil det fulde JSON-indhold tilføjes."
-            ));
-
-            dialogues.add(new Dialogue(
-                    dialogueId,
-                    "Dialog " + dialogueId,
-                    "Forberedt dialogplads til " + lesson.getTitleDa() + ".",
-                    placeholderPhrases,
-                    Collections.emptyList(),
-                    Collections.emptyList()
             ));
         }
         return dialogues;
@@ -1769,18 +1780,6 @@ public class MainActivity extends Activity {
                 Collections.emptyList()
         ));
         return fallbackLessons;
-    }
-
-    private static List<Phrase> createFallbackPhrases() {
-        List<Phrase> fallback = new ArrayList<>();
-        fallback.add(new Phrase(
-                "Conteúdo indisponível.",
-                "Indholdet kunne ikke indlæses.",
-                "Det rigtige læringsindhold skal ligge i JSON.",
-                EMPTY_VOCABULARY,
-                "fallback"
-        ));
-        return fallback;
     }
 
     private TextView text(String content, int sp, int color, boolean bold) {
