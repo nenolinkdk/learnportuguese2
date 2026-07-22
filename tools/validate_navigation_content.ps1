@@ -65,6 +65,15 @@ $bannedChildrenFiller = @(
     "Repete devagar."
 )
 
+$bannedFallbackPhrases = @(
+    "Olá.",
+    "Como estás?",
+    "Estou bem.",
+    "Obrigado.",
+    "Muito bem.",
+    "Repete devagar."
+)
+
 foreach ($levelDir in Get-ChildItem -LiteralPath $levelRoot -Directory | Sort-Object Name) {
     foreach ($lessonFile in Get-ChildItem -LiteralPath $levelDir.FullName -Filter "lesson*.json" | Sort-Object Name) {
         $lesson = Read-Json $lessonFile.FullName
@@ -210,8 +219,14 @@ if (-not (Test-Path -LiteralPath $lp3Root)) {
         Add-Error "Learn Portuguese 3 must contain exactly 10 lesson files; found $($lp3Lessons.Count)"
     }
 
+    $lp3PhrasePtIndex = @{}
+    $lp3PhraseDaIndex = @{}
     foreach ($lessonFile in $lp3Lessons) {
         $lesson = Read-Json $lessonFile.FullName
+        if (Is-Blank $lesson.id -or Is-Blank $lesson.titleDa) {
+            Add-Error "level4/$($lessonFile.Name) is missing a valid lesson id or title"
+        }
+
         $dialogs = As-Array $lesson.dialogues
         if ($dialogs.Count -ne 10) {
             Add-Error "level4/$($lessonFile.Name) must contain exactly 10 dialogs; found $($dialogs.Count)"
@@ -224,8 +239,68 @@ if (-not (Test-Path -LiteralPath $lp3Root)) {
         foreach ($storyPhrase in $story) {
             Test-Phrase "level4" $lessonFile.Name ([pscustomobject]@{ id = "story" }) $storyPhrase "story"
         }
+        $storyPt = New-Object System.Collections.Generic.HashSet[string]
+        foreach ($storyPhrase in $story) {
+            if (-not (Is-Blank $storyPhrase.textPt) -and -not $storyPt.Add([string]$storyPhrase.textPt)) {
+                Add-Error "level4/$($lessonFile.Name) story contains duplicate Portuguese reading line: $($storyPhrase.textPt)"
+            }
+        }
 
         foreach ($dialog in $dialogs) {
+            if (Is-Blank $dialog.id -or Is-Blank $dialog.titleDa) {
+                Add-Error "level4/$($lessonFile.Name) has a dialog missing id or title"
+            }
+            $phrases = As-Array $dialog.phrases
+            if ($phrases.Count -ne 10) {
+                Add-Error "level4/$($lessonFile.Name) dialog $($dialog.id) must contain exactly 10 phrases; found $($phrases.Count)"
+            }
+
+            $dialogPt = New-Object System.Collections.Generic.HashSet[string]
+            $dialogDa = New-Object System.Collections.Generic.HashSet[string]
+            $euStarts = 0
+            for ($phraseIndex = 0; $phraseIndex -lt $phrases.Count; $phraseIndex++) {
+                $phrase = $phrases[$phraseIndex]
+                Test-Phrase "level4" $lessonFile.Name $dialog $phrase ($phraseIndex + 1)
+
+                $textPt = [string]$phrase.textPt
+                $textDa = [string]$phrase.textDa
+                if ($bannedFallbackPhrases -contains $textPt) {
+                    Add-Error "level4/$($lessonFile.Name) dialog $($dialog.id) contains fallback/helper phrase: $textPt"
+                }
+                if ($textPt -match "^(Eu|eu)\s") {
+                    $euStarts++
+                }
+                if (-not (Is-Blank $textPt) -and -not $dialogPt.Add($textPt)) {
+                    Add-Error "level4/$($lessonFile.Name) dialog $($dialog.id) repeats Portuguese phrase: $textPt"
+                }
+                if (-not (Is-Blank $textDa) -and -not $dialogDa.Add($textDa)) {
+                    Add-Error "level4/$($lessonFile.Name) dialog $($dialog.id) repeats Danish phrase: $textDa"
+                }
+                if (-not (Is-Blank $textPt)) {
+                    if ($lp3PhrasePtIndex.ContainsKey($textPt)) {
+                        Add-Error "Learn Portuguese 3 repeats Portuguese phrase in $($lessonFile.Name) dialog $($dialog.id): $textPt"
+                    } else {
+                        $lp3PhrasePtIndex[$textPt] = "$($lessonFile.Name) dialog $($dialog.id)"
+                    }
+                }
+                if (-not (Is-Blank $textDa)) {
+                    if ($lp3PhraseDaIndex.ContainsKey($textDa)) {
+                        Add-Error "Learn Portuguese 3 repeats Danish phrase in $($lessonFile.Name) dialog $($dialog.id): $textDa"
+                    } else {
+                        $lp3PhraseDaIndex[$textDa] = "$($lessonFile.Name) dialog $($dialog.id)"
+                    }
+                }
+                if ($textPt -match "Hoje eu falo em casa|Ontem eu falei em casa|Também preciso de falar sobre") {
+                    Add-Error "level4/$($lessonFile.Name) dialog $($dialog.id) contains old repetitive placeholder pattern: $textPt"
+                }
+            }
+            if ($euStarts -gt 3) {
+                Add-Error "level4/$($lessonFile.Name) dialog $($dialog.id) starts too many phrases with Eu/eu; found $euStarts"
+            }
+            if (@($phrases | Where-Object { [string]$_.textPt -match "\?" }).Count -lt 1) {
+                Add-Error "level4/$($lessonFile.Name) dialog $($dialog.id) should include at least one question"
+            }
+
             $grammarItems = As-Array $dialog.grammar
             if ($grammarItems.Count -lt 1) {
                 Add-Error "level4/$($lessonFile.Name) dialog $($dialog.id) is missing grammar notes"
@@ -242,6 +317,15 @@ if (-not (Test-Path -LiteralPath $lp3Root)) {
                 }
                 if ((As-Array $grammar.commonMistakes).Count -lt 1) {
                     Add-Error "level4/$($lessonFile.Name) dialog $($dialog.id) needs commonMistakes"
+                }
+            }
+        }
+
+        if ($lessonFile.Name -eq "lesson10.json") {
+            $lesson10Text = $lesson | ConvertTo-Json -Depth 50 -Compress
+            foreach ($requiredPharmacyText in @("farmácia de serviço", "receita", "adequado para crianças", "efeito secundário", "médico", "instruções da embalagem", "não substitui aconselhamento médico")) {
+                if ($lesson10Text -notmatch [regex]::Escape($requiredPharmacyText)) {
+                    Add-Error "level4/lesson10.json is missing cautious pharmacy wording: $requiredPharmacyText"
                 }
             }
         }

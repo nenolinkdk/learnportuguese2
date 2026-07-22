@@ -245,7 +245,7 @@ public class MainActivity extends Activity {
 
         addStartupErrorPanelIfNeeded();
 
-        for (Level level : levels) {
+        for (Level level : getAdultWelcomeLevels()) {
             Button levelButton = lessonButton(getWelcomeLevelLabel(level));
             int levelId = level.getId();
             levelButton.setOnClickListener(v -> switchLevel(levelId));
@@ -260,11 +260,20 @@ public class MainActivity extends Activity {
         numbersButton.setOnClickListener(v -> showNumbers());
         contentRoot.addView(numbersButton, compactWrap());
 
-        LinearLayout utilityRow = horizontalRow();
+        LinearLayout guideRow = horizontalRow();
         Button guideIcon = settingsButton("\uD83D\uDCD6");
         guideIcon.setOnClickListener(v -> showUserGuide());
-        utilityRow.addView(guideIcon, rowButtonParams(false));
+        guideRow.addView(guideIcon, rowButtonParams(false));
+        contentRoot.addView(guideRow, iconRowWrap());
 
+        for (Level level : getChildrenWelcomeLevels()) {
+            Button levelButton = lessonButton(getWelcomeLevelLabel(level));
+            int levelId = level.getId();
+            levelButton.setOnClickListener(v -> switchLevel(levelId));
+            contentRoot.addView(levelButton, matchWrap());
+        }
+
+        LinearLayout utilityRow = horizontalRow();
         Button settingsIcon = settingsButton("\u2699");
         settingsIcon.setOnClickListener(v -> showSettings());
         utilityRow.addView(settingsIcon, rowButtonParams(true));
@@ -378,6 +387,30 @@ public class MainActivity extends Activity {
         }
 
         return level.getTitleDa();
+    }
+
+    private List<Level> getAdultWelcomeLevels() {
+        List<Level> orderedLevels = new ArrayList<>();
+        for (Level level : levels) {
+            if (!isChildrenLevel(level)) {
+                orderedLevels.add(level);
+            }
+        }
+        return orderedLevels;
+    }
+
+    private List<Level> getChildrenWelcomeLevels() {
+        List<Level> childrenLevels = new ArrayList<>();
+        for (Level level : levels) {
+            if (isChildrenLevel(level)) {
+                childrenLevels.add(level);
+            }
+        }
+        return childrenLevels;
+    }
+
+    private boolean isChildrenLevel(Level level) {
+        return level != null && "B\u00f8rn".equalsIgnoreCase(level.getTitleDa());
     }
 
     private void showDialogList(Lesson lesson) {
