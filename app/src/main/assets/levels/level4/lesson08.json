@@ -1,126 +1,176 @@
 {
   "id": 8,
-  "titleDa": "Weekendaktiviteter",
-  "descriptionDa": "Learn Portuguese 3: weekendaktiviteter. Træn regelmæssige verber, længere dialoger, ordforråd og en enkel introduktion til pretérito perfeito.",
+  "titleDa": "Alugar uma bicicleta",
+  "descriptionDa": "Learn Portuguese 3: Cykelleje, hjelm, lås, rute, aflevering, depositum og cykelregler.",
   "dialogues": [
     {
       "id": 1,
-      "titleDa": "Weekendaktiviteter: dialog 1",
-      "objectiveDa": "Brug weekendaktiviteter med nutid, enkel datid og praktisk ordforråd.",
+      "titleDa": "Pris pr. time",
+      "objectiveDa": "Træn en realistisk mini-dialog om pris pr. time.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Hoje eu jogo no parque.",
-          "textDa": "I dag øver jeg sproget i parken.",
-          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+          "textPt": "Desculpe, estou a tratar de preço por hora; pode orientar-me?",
+          "textDa": "Undskyld, jeg er ved at ordne pris pr. time; kan De hjælpe mig videre?",
+          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
         },
         {
           "speaker": "B",
-          "textPt": "Ontem eu joguei no parque.",
-          "textDa": "I går gjorde jeg det i parken.",
-          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+          "textPt": "O funcionário pergunta se preço por hora é para hoje ou para mais tarde.",
+          "textDa": "Medarbejderen spørger, om pris pr. time er til i dag eller senere.",
+          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
         },
         {
           "speaker": "A",
-          "textPt": "Também preciso de falar sobre futebol.",
-          "textDa": "Jeg har også brug for at tale om fodbold.",
-          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+          "textPt": "É para hoje, porque ontem já tentei resolver preço por hora.",
+          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at ordne pris pr. time.",
+          "grammarDa": "Tentei resolver er datid + infinitiv."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Então convém confirmar primeiro os detalhes de preço por hora.",
+          "textDa": "Så er det bedst først at bekræfte detaljerne om pris pr. time.",
+          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Que informação falta para avançarmos com preço por hora?",
+          "textDa": "Hvilken information mangler der, for at vi kan komme videre med pris pr. time?",
+          "grammarDa": "Avançarmos er nós-form efter para."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Falta só um dado pequeno sobre preço por hora; depois o funcionário regista tudo no sistema.",
+          "textDa": "Der mangler kun én lille oplysning om pris pr. time; derefter registrerer medarbejderen det hele i systemet.",
+          "grammarDa": "Regista er nutid med varieret subjekt."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Se houver algum problema com preço por hora, posso voltar amanhã?",
+          "textDa": "Hvis der er et problem med pris pr. time, kan jeg komme tilbage i morgen?",
+          "grammarDa": "Se houver bruges om mulighed."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Pode, mas talvez preço por hora fique resolvido antes do fim da manhã.",
+          "textDa": "Det kan De, men måske bliver pris pr. time løst før formiddagen er slut.",
+          "grammarDa": "Fique resolvido udtrykker resultat."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Nesse caso, agradecia uma confirmação por email sobre preço por hora.",
+          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om pris pr. time.",
+          "grammarDa": "Agradecia er høfligt."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Combinado; quando preço por hora estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
+          "textDa": "Aftale; når pris pr. time er klar, sender vi beskeden og forklarer næste trin.",
+          "grammarDa": "Enviamos og explicamos er nós-former."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "futebol",
-          "textDa": "fodbold"
+          "textPt": "preço por hora",
+          "textDa": "pris pr. time"
         },
         {
-          "textPt": "horário",
-          "textDa": "tidsskema"
+          "textPt": "confirmar",
+          "textDa": "at bekræfte"
         },
         {
-          "textPt": "amanhã",
-          "textDa": "i morgen"
+          "textPt": "talvez",
+          "textDa": "måske"
+        },
+        {
+          "textPt": "disponível",
+          "textDa": "tilgængelig"
+        },
+        {
+          "textPt": "processo",
+          "textDa": "sag/proces"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber: jogar",
-          "explanationDa": "Denne lektion bruger jogar og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
-          "verb": "jogar",
+          "titleDa": "Regelmæssige verber i Alugar uma bicicleta",
+          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
+          "verb": "alugar",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "jogo"
+              "form": "alugo"
             },
             {
               "subject": "tu (presente)",
-              "form": "jogas"
+              "form": "alugas"
             },
             {
-              "subject": "ele/ela (presente)",
-              "form": "joga"
+              "subject": "ele/ela/você (presente)",
+              "form": "aluga"
             },
             {
               "subject": "nós (presente)",
-              "form": "jogamos"
+              "form": "alugamos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "jogam"
+              "form": "alugam"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "jogam"
+              "form": "alugam"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "joguei"
+              "form": "aluguei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "jogaste"
+              "form": "alugaste"
             },
             {
-              "subject": "ele/ela (pretérito perfeito)",
-              "form": "jogou"
+              "subject": "ele/ela/você (pretérito perfeito)",
+              "form": "alugou"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "jogámos"
+              "form": "alugámos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "jogaram"
+              "form": "alugaram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "jogaram"
+              "form": "alugaram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje eu jogo no parque.",
-              "da": "I dag øver jeg sproget i parken."
+              "pt": "Hoje nós alugamos vocabulário útil.",
+              "da": "I dag øver vi nyttigt ordforråd."
             },
             {
-              "pt": "Ontem eu joguei no parque.",
-              "da": "I går gjorde jeg det i parken."
+              "pt": "Ontem a funcionária alugou a situação.",
+              "da": "I går forklarede medarbejderen situationen."
             },
             {
-              "pt": "Nós praticamos vocabulário novo.",
-              "da": "Vi øver nyt ordforråd."
+              "pt": "Talvez seja melhor confirmar antes de sair.",
+              "da": "Måske er det bedre at bekræfte, før man går."
             }
           ],
-          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
           "commonMistakes": [
             {
-              "wrong": "Ontem eu jogo.",
-              "correct": "Ontem eu joguei.",
-              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+              "wrong": "Ontem nós procura o livro.",
+              "correct": "Ontem nós procurámos o livro.",
+              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
             },
             {
-              "wrong": "Eu joguei todos os dias.",
-              "correct": "Eu jogo todos os dias.",
-              "noteDa": "Brug nutid ved vaner og rutiner."
+              "wrong": "Você aluguei a bicicleta?",
+              "correct": "Você alugou a bicicleta?",
+              "noteDa": "Você bruger tredje person ental."
             }
           ]
         }
@@ -128,122 +178,172 @@
     },
     {
       "id": 2,
-      "titleDa": "Weekendaktiviteter: dialog 2",
-      "objectiveDa": "Brug weekendaktiviteter med nutid, enkel datid og praktisk ordforråd.",
+      "titleDa": "Dagsleje",
+      "objectiveDa": "Træn en realistisk mini-dialog om dagsleje.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Hoje eu jogo no parque.",
-          "textDa": "I dag øver jeg sproget i parken.",
-          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+          "textPt": "Desculpe, estou a tratar de aluguer diário; pode orientar-me?",
+          "textDa": "Undskyld, jeg er ved at ordne dagsleje; kan De hjælpe mig videre?",
+          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
         },
         {
           "speaker": "B",
-          "textPt": "Ontem eu joguei no parque.",
-          "textDa": "I går gjorde jeg det i parken.",
-          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+          "textPt": "A funcionária pergunta se aluguer diário é para hoje ou para mais tarde.",
+          "textDa": "Medarbejderen spørger, om dagsleje er til i dag eller senere.",
+          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
         },
         {
           "speaker": "A",
-          "textPt": "Também preciso de falar sobre horário.",
-          "textDa": "Jeg har også brug for at tale om tidsskema.",
-          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+          "textPt": "É para hoje, porque ontem já tentei resolver aluguer diário.",
+          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at ordne dagsleje.",
+          "grammarDa": "Tentei resolver er datid + infinitiv."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Então convém confirmar primeiro os detalhes de aluguer diário.",
+          "textDa": "Så er det bedst først at bekræfte detaljerne om dagsleje.",
+          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Que informação falta para avançarmos com aluguer diário?",
+          "textDa": "Hvilken information mangler der, for at vi kan komme videre med dagsleje?",
+          "grammarDa": "Avançarmos er nós-form efter para."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Falta só um dado pequeno sobre aluguer diário; depois a funcionária regista tudo no sistema.",
+          "textDa": "Der mangler kun én lille oplysning om dagsleje; derefter registrerer medarbejderen det hele i systemet.",
+          "grammarDa": "Regista er nutid med varieret subjekt."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Se houver algum problema com aluguer diário, posso voltar amanhã?",
+          "textDa": "Hvis der er et problem med dagsleje, kan jeg komme tilbage i morgen?",
+          "grammarDa": "Se houver bruges om mulighed."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Pode, mas talvez aluguer diário fique resolvido antes do fim da manhã.",
+          "textDa": "Det kan De, men måske bliver dagsleje løst før formiddagen er slut.",
+          "grammarDa": "Fique resolvido udtrykker resultat."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Nesse caso, agradecia uma confirmação por email sobre aluguer diário.",
+          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om dagsleje.",
+          "grammarDa": "Agradecia er høfligt."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Combinado; quando aluguer diário estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
+          "textDa": "Aftale; når dagsleje er klar, sender vi beskeden og forklarer næste trin.",
+          "grammarDa": "Enviamos og explicamos er nós-former."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "horário",
-          "textDa": "tidsskema"
+          "textPt": "aluguer diário",
+          "textDa": "dagsleje"
         },
         {
-          "textPt": "amanhã",
-          "textDa": "i morgen"
+          "textPt": "confirmar",
+          "textDa": "at bekræfte"
         },
         {
-          "textPt": "ontem",
-          "textDa": "i går"
+          "textPt": "talvez",
+          "textDa": "måske"
+        },
+        {
+          "textPt": "disponível",
+          "textDa": "tilgængelig"
+        },
+        {
+          "textPt": "processo",
+          "textDa": "sag/proces"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber: jogar",
-          "explanationDa": "Denne lektion bruger jogar og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
-          "verb": "jogar",
+          "titleDa": "Regelmæssige verber i Alugar uma bicicleta",
+          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
+          "verb": "alugar",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "jogo"
+              "form": "alugo"
             },
             {
               "subject": "tu (presente)",
-              "form": "jogas"
+              "form": "alugas"
             },
             {
-              "subject": "ele/ela (presente)",
-              "form": "joga"
+              "subject": "ele/ela/você (presente)",
+              "form": "aluga"
             },
             {
               "subject": "nós (presente)",
-              "form": "jogamos"
+              "form": "alugamos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "jogam"
+              "form": "alugam"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "jogam"
+              "form": "alugam"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "joguei"
+              "form": "aluguei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "jogaste"
+              "form": "alugaste"
             },
             {
-              "subject": "ele/ela (pretérito perfeito)",
-              "form": "jogou"
+              "subject": "ele/ela/você (pretérito perfeito)",
+              "form": "alugou"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "jogámos"
+              "form": "alugámos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "jogaram"
+              "form": "alugaram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "jogaram"
+              "form": "alugaram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje eu jogo no parque.",
-              "da": "I dag øver jeg sproget i parken."
+              "pt": "Hoje nós alugamos vocabulário útil.",
+              "da": "I dag øver vi nyttigt ordforråd."
             },
             {
-              "pt": "Ontem eu joguei no parque.",
-              "da": "I går gjorde jeg det i parken."
+              "pt": "Ontem a funcionária alugou a situação.",
+              "da": "I går forklarede medarbejderen situationen."
             },
             {
-              "pt": "Nós praticamos vocabulário novo.",
-              "da": "Vi øver nyt ordforråd."
+              "pt": "Talvez seja melhor confirmar antes de sair.",
+              "da": "Måske er det bedre at bekræfte, før man går."
             }
           ],
-          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
           "commonMistakes": [
             {
-              "wrong": "Ontem eu jogo.",
-              "correct": "Ontem eu joguei.",
-              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+              "wrong": "Ontem nós procura o livro.",
+              "correct": "Ontem nós procurámos o livro.",
+              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
             },
             {
-              "wrong": "Eu joguei todos os dias.",
-              "correct": "Eu jogo todos os dias.",
-              "noteDa": "Brug nutid ved vaner og rutiner."
+              "wrong": "Você aluguei a bicicleta?",
+              "correct": "Você alugou a bicicleta?",
+              "noteDa": "Você bruger tredje person ental."
             }
           ]
         }
@@ -251,122 +351,172 @@
     },
     {
       "id": 3,
-      "titleDa": "Weekendaktiviteter: dialog 3",
-      "objectiveDa": "Brug weekendaktiviteter med nutid, enkel datid og praktisk ordforråd.",
+      "titleDa": "Hjelm inkluderet",
+      "objectiveDa": "Træn en realistisk mini-dialog om hjelm inkluderet.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Hoje eu jogo no parque.",
-          "textDa": "I dag øver jeg sproget i parken.",
-          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+          "textPt": "Desculpe, estou a tratar de capacete incluído; pode orientar-me?",
+          "textDa": "Undskyld, jeg er ved at ordne hjelm inkluderet; kan De hjælpe mig videre?",
+          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
         },
         {
           "speaker": "B",
-          "textPt": "Ontem eu joguei no parque.",
-          "textDa": "I går gjorde jeg det i parken.",
-          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+          "textPt": "O empregado pergunta se capacete incluído é para hoje ou para mais tarde.",
+          "textDa": "Tjeneren spørger, om hjelm inkluderet er til i dag eller senere.",
+          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
         },
         {
           "speaker": "A",
-          "textPt": "Também preciso de falar sobre amanhã.",
-          "textDa": "Jeg har også brug for at tale om i morgen.",
-          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+          "textPt": "É para hoje, porque ontem já tentei resolver capacete incluído.",
+          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at ordne hjelm inkluderet.",
+          "grammarDa": "Tentei resolver er datid + infinitiv."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Então convém confirmar primeiro os detalhes de capacete incluído.",
+          "textDa": "Så er det bedst først at bekræfte detaljerne om hjelm inkluderet.",
+          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Que informação falta para avançarmos com capacete incluído?",
+          "textDa": "Hvilken information mangler der, for at vi kan komme videre med hjelm inkluderet?",
+          "grammarDa": "Avançarmos er nós-form efter para."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Falta só um dado pequeno sobre capacete incluído; depois o empregado regista tudo no sistema.",
+          "textDa": "Der mangler kun én lille oplysning om hjelm inkluderet; derefter registrerer tjeneren det hele i systemet.",
+          "grammarDa": "Regista er nutid med varieret subjekt."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Se houver algum problema com capacete incluído, posso voltar amanhã?",
+          "textDa": "Hvis der er et problem med hjelm inkluderet, kan jeg komme tilbage i morgen?",
+          "grammarDa": "Se houver bruges om mulighed."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Pode, mas talvez capacete incluído fique resolvido antes do fim da manhã.",
+          "textDa": "Det kan De, men måske bliver hjelm inkluderet løst før formiddagen er slut.",
+          "grammarDa": "Fique resolvido udtrykker resultat."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Nesse caso, agradecia uma confirmação por email sobre capacete incluído.",
+          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om hjelm inkluderet.",
+          "grammarDa": "Agradecia er høfligt."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Combinado; quando capacete incluído estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
+          "textDa": "Aftale; når hjelm inkluderet er klar, sender vi beskeden og forklarer næste trin.",
+          "grammarDa": "Enviamos og explicamos er nós-former."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "amanhã",
-          "textDa": "i morgen"
+          "textPt": "capacete incluído",
+          "textDa": "hjelm inkluderet"
         },
         {
-          "textPt": "ontem",
-          "textDa": "i går"
+          "textPt": "confirmar",
+          "textDa": "at bekræfte"
         },
         {
-          "textPt": "semana",
-          "textDa": "uge"
+          "textPt": "talvez",
+          "textDa": "måske"
+        },
+        {
+          "textPt": "disponível",
+          "textDa": "tilgængelig"
+        },
+        {
+          "textPt": "processo",
+          "textDa": "sag/proces"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber: jogar",
-          "explanationDa": "Denne lektion bruger jogar og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
-          "verb": "jogar",
+          "titleDa": "Regelmæssige verber i Alugar uma bicicleta",
+          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
+          "verb": "alugar",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "jogo"
+              "form": "alugo"
             },
             {
               "subject": "tu (presente)",
-              "form": "jogas"
+              "form": "alugas"
             },
             {
-              "subject": "ele/ela (presente)",
-              "form": "joga"
+              "subject": "ele/ela/você (presente)",
+              "form": "aluga"
             },
             {
               "subject": "nós (presente)",
-              "form": "jogamos"
+              "form": "alugamos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "jogam"
+              "form": "alugam"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "jogam"
+              "form": "alugam"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "joguei"
+              "form": "aluguei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "jogaste"
+              "form": "alugaste"
             },
             {
-              "subject": "ele/ela (pretérito perfeito)",
-              "form": "jogou"
+              "subject": "ele/ela/você (pretérito perfeito)",
+              "form": "alugou"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "jogámos"
+              "form": "alugámos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "jogaram"
+              "form": "alugaram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "jogaram"
+              "form": "alugaram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje eu jogo no parque.",
-              "da": "I dag øver jeg sproget i parken."
+              "pt": "Hoje nós alugamos vocabulário útil.",
+              "da": "I dag øver vi nyttigt ordforråd."
             },
             {
-              "pt": "Ontem eu joguei no parque.",
-              "da": "I går gjorde jeg det i parken."
+              "pt": "Ontem a funcionária alugou a situação.",
+              "da": "I går forklarede medarbejderen situationen."
             },
             {
-              "pt": "Nós praticamos vocabulário novo.",
-              "da": "Vi øver nyt ordforråd."
+              "pt": "Talvez seja melhor confirmar antes de sair.",
+              "da": "Måske er det bedre at bekræfte, før man går."
             }
           ],
-          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
           "commonMistakes": [
             {
-              "wrong": "Ontem eu jogo.",
-              "correct": "Ontem eu joguei.",
-              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+              "wrong": "Ontem nós procura o livro.",
+              "correct": "Ontem nós procurámos o livro.",
+              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
             },
             {
-              "wrong": "Eu joguei todos os dias.",
-              "correct": "Eu jogo todos os dias.",
-              "noteDa": "Brug nutid ved vaner og rutiner."
+              "wrong": "Você aluguei a bicicleta?",
+              "correct": "Você alugou a bicicleta?",
+              "noteDa": "Você bruger tredje person ental."
             }
           ]
         }
@@ -374,122 +524,172 @@
     },
     {
       "id": 4,
-      "titleDa": "Weekendaktiviteter: dialog 4",
-      "objectiveDa": "Brug weekendaktiviteter med nutid, enkel datid og praktisk ordforråd.",
+      "titleDa": "Stærk lås",
+      "objectiveDa": "Træn en realistisk mini-dialog om stærk lås.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Hoje eu jogo no parque.",
-          "textDa": "I dag øver jeg sproget i parken.",
-          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+          "textPt": "Desculpe, estou a tratar de cadeado forte; pode orientar-me?",
+          "textDa": "Undskyld, jeg er ved at ordne stærk lås; kan De hjælpe mig videre?",
+          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
         },
         {
           "speaker": "B",
-          "textPt": "Ontem eu joguei no parque.",
-          "textDa": "I går gjorde jeg det i parken.",
-          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+          "textPt": "A senhora pergunta se cadeado forte é para hoje ou para mais tarde.",
+          "textDa": "Damen spørger, om stærk lås er til i dag eller senere.",
+          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
         },
         {
           "speaker": "A",
-          "textPt": "Também preciso de falar sobre ontem.",
-          "textDa": "Jeg har også brug for at tale om i går.",
-          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+          "textPt": "É para hoje, porque ontem já tentei resolver cadeado forte.",
+          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at ordne stærk lås.",
+          "grammarDa": "Tentei resolver er datid + infinitiv."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Então convém confirmar primeiro os detalhes de cadeado forte.",
+          "textDa": "Så er det bedst først at bekræfte detaljerne om stærk lås.",
+          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Que informação falta para avançarmos com cadeado forte?",
+          "textDa": "Hvilken information mangler der, for at vi kan komme videre med stærk lås?",
+          "grammarDa": "Avançarmos er nós-form efter para."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Falta só um dado pequeno sobre cadeado forte; depois a senhora regista tudo no sistema.",
+          "textDa": "Der mangler kun én lille oplysning om stærk lås; derefter registrerer damen det hele i systemet.",
+          "grammarDa": "Regista er nutid med varieret subjekt."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Se houver algum problema com cadeado forte, posso voltar amanhã?",
+          "textDa": "Hvis der er et problem med stærk lås, kan jeg komme tilbage i morgen?",
+          "grammarDa": "Se houver bruges om mulighed."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Pode, mas talvez cadeado forte fique resolvido antes do fim da manhã.",
+          "textDa": "Det kan De, men måske bliver stærk lås løst før formiddagen er slut.",
+          "grammarDa": "Fique resolvido udtrykker resultat."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Nesse caso, agradecia uma confirmação por email sobre cadeado forte.",
+          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om stærk lås.",
+          "grammarDa": "Agradecia er høfligt."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Combinado; quando cadeado forte estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
+          "textDa": "Aftale; når stærk lås er klar, sender vi beskeden og forklarer næste trin.",
+          "grammarDa": "Enviamos og explicamos er nós-former."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "ontem",
-          "textDa": "i går"
+          "textPt": "cadeado forte",
+          "textDa": "stærk lås"
         },
         {
-          "textPt": "semana",
-          "textDa": "uge"
+          "textPt": "confirmar",
+          "textDa": "at bekræfte"
         },
         {
-          "textPt": "mês",
-          "textDa": "måned"
+          "textPt": "talvez",
+          "textDa": "måske"
+        },
+        {
+          "textPt": "disponível",
+          "textDa": "tilgængelig"
+        },
+        {
+          "textPt": "processo",
+          "textDa": "sag/proces"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber: jogar",
-          "explanationDa": "Denne lektion bruger jogar og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
-          "verb": "jogar",
+          "titleDa": "Regelmæssige verber i Alugar uma bicicleta",
+          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
+          "verb": "alugar",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "jogo"
+              "form": "alugo"
             },
             {
               "subject": "tu (presente)",
-              "form": "jogas"
+              "form": "alugas"
             },
             {
-              "subject": "ele/ela (presente)",
-              "form": "joga"
+              "subject": "ele/ela/você (presente)",
+              "form": "aluga"
             },
             {
               "subject": "nós (presente)",
-              "form": "jogamos"
+              "form": "alugamos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "jogam"
+              "form": "alugam"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "jogam"
+              "form": "alugam"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "joguei"
+              "form": "aluguei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "jogaste"
+              "form": "alugaste"
             },
             {
-              "subject": "ele/ela (pretérito perfeito)",
-              "form": "jogou"
+              "subject": "ele/ela/você (pretérito perfeito)",
+              "form": "alugou"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "jogámos"
+              "form": "alugámos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "jogaram"
+              "form": "alugaram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "jogaram"
+              "form": "alugaram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje eu jogo no parque.",
-              "da": "I dag øver jeg sproget i parken."
+              "pt": "Hoje nós alugamos vocabulário útil.",
+              "da": "I dag øver vi nyttigt ordforråd."
             },
             {
-              "pt": "Ontem eu joguei no parque.",
-              "da": "I går gjorde jeg det i parken."
+              "pt": "Ontem a funcionária alugou a situação.",
+              "da": "I går forklarede medarbejderen situationen."
             },
             {
-              "pt": "Nós praticamos vocabulário novo.",
-              "da": "Vi øver nyt ordforråd."
+              "pt": "Talvez seja melhor confirmar antes de sair.",
+              "da": "Måske er det bedre at bekræfte, før man går."
             }
           ],
-          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
           "commonMistakes": [
             {
-              "wrong": "Ontem eu jogo.",
-              "correct": "Ontem eu joguei.",
-              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+              "wrong": "Ontem nós procura o livro.",
+              "correct": "Ontem nós procurámos o livro.",
+              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
             },
             {
-              "wrong": "Eu joguei todos os dias.",
-              "correct": "Eu jogo todos os dias.",
-              "noteDa": "Brug nutid ved vaner og rutiner."
+              "wrong": "Você aluguei a bicicleta?",
+              "correct": "Você alugou a bicicleta?",
+              "noteDa": "Você bruger tredje person ental."
             }
           ]
         }
@@ -497,122 +697,172 @@
     },
     {
       "id": 5,
-      "titleDa": "Weekendaktiviteter: dialog 5",
-      "objectiveDa": "Brug weekendaktiviteter med nutid, enkel datid og praktisk ordforråd.",
+      "titleDa": "Rute langs floden",
+      "objectiveDa": "Træn en realistisk mini-dialog om rute langs floden.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Hoje eu jogo no parque.",
-          "textDa": "I dag øver jeg sproget i parken.",
-          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+          "textPt": "Desculpe, estou a tratar de rota junto ao rio; pode orientar-me?",
+          "textDa": "Undskyld, jeg er ved at ordne rute langs floden; kan De hjælpe mig videre?",
+          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
         },
         {
           "speaker": "B",
-          "textPt": "Ontem eu joguei no parque.",
-          "textDa": "I går gjorde jeg det i parken.",
-          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+          "textPt": "O motorista pergunta se rota junto ao rio é para hoje ou para mais tarde.",
+          "textDa": "Chaufføren spørger, om rute langs floden er til i dag eller senere.",
+          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
         },
         {
           "speaker": "A",
-          "textPt": "Também preciso de falar sobre semana.",
-          "textDa": "Jeg har også brug for at tale om uge.",
-          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+          "textPt": "É para hoje, porque ontem já tentei resolver rota junto ao rio.",
+          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at ordne rute langs floden.",
+          "grammarDa": "Tentei resolver er datid + infinitiv."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Então convém confirmar primeiro os detalhes de rota junto ao rio.",
+          "textDa": "Så er det bedst først at bekræfte detaljerne om rute langs floden.",
+          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Que informação falta para avançarmos com rota junto ao rio?",
+          "textDa": "Hvilken information mangler der, for at vi kan komme videre med rute langs floden?",
+          "grammarDa": "Avançarmos er nós-form efter para."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Falta só um dado pequeno sobre rota junto ao rio; depois o motorista regista tudo no sistema.",
+          "textDa": "Der mangler kun én lille oplysning om rute langs floden; derefter registrerer chaufføren det hele i systemet.",
+          "grammarDa": "Regista er nutid med varieret subjekt."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Se houver algum problema com rota junto ao rio, posso voltar amanhã?",
+          "textDa": "Hvis der er et problem med rute langs floden, kan jeg komme tilbage i morgen?",
+          "grammarDa": "Se houver bruges om mulighed."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Pode, mas talvez rota junto ao rio fique resolvido antes do fim da manhã.",
+          "textDa": "Det kan De, men måske bliver rute langs floden løst før formiddagen er slut.",
+          "grammarDa": "Fique resolvido udtrykker resultat."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Nesse caso, agradecia uma confirmação por email sobre rota junto ao rio.",
+          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om rute langs floden.",
+          "grammarDa": "Agradecia er høfligt."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Combinado; quando rota junto ao rio estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
+          "textDa": "Aftale; når rute langs floden er klar, sender vi beskeden og forklarer næste trin.",
+          "grammarDa": "Enviamos og explicamos er nós-former."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "semana",
-          "textDa": "uge"
+          "textPt": "rota junto ao rio",
+          "textDa": "rute langs floden"
         },
         {
-          "textPt": "mês",
-          "textDa": "måned"
+          "textPt": "confirmar",
+          "textDa": "at bekræfte"
         },
         {
-          "textPt": "direita",
-          "textDa": "højre"
+          "textPt": "talvez",
+          "textDa": "måske"
+        },
+        {
+          "textPt": "disponível",
+          "textDa": "tilgængelig"
+        },
+        {
+          "textPt": "processo",
+          "textDa": "sag/proces"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber: jogar",
-          "explanationDa": "Denne lektion bruger jogar og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
-          "verb": "jogar",
+          "titleDa": "Regelmæssige verber i Alugar uma bicicleta",
+          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
+          "verb": "alugar",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "jogo"
+              "form": "alugo"
             },
             {
               "subject": "tu (presente)",
-              "form": "jogas"
+              "form": "alugas"
             },
             {
-              "subject": "ele/ela (presente)",
-              "form": "joga"
+              "subject": "ele/ela/você (presente)",
+              "form": "aluga"
             },
             {
               "subject": "nós (presente)",
-              "form": "jogamos"
+              "form": "alugamos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "jogam"
+              "form": "alugam"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "jogam"
+              "form": "alugam"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "joguei"
+              "form": "aluguei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "jogaste"
+              "form": "alugaste"
             },
             {
-              "subject": "ele/ela (pretérito perfeito)",
-              "form": "jogou"
+              "subject": "ele/ela/você (pretérito perfeito)",
+              "form": "alugou"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "jogámos"
+              "form": "alugámos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "jogaram"
+              "form": "alugaram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "jogaram"
+              "form": "alugaram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje eu jogo no parque.",
-              "da": "I dag øver jeg sproget i parken."
+              "pt": "Hoje nós alugamos vocabulário útil.",
+              "da": "I dag øver vi nyttigt ordforråd."
             },
             {
-              "pt": "Ontem eu joguei no parque.",
-              "da": "I går gjorde jeg det i parken."
+              "pt": "Ontem a funcionária alugou a situação.",
+              "da": "I går forklarede medarbejderen situationen."
             },
             {
-              "pt": "Nós praticamos vocabulário novo.",
-              "da": "Vi øver nyt ordforråd."
+              "pt": "Talvez seja melhor confirmar antes de sair.",
+              "da": "Måske er det bedre at bekræfte, før man går."
             }
           ],
-          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
           "commonMistakes": [
             {
-              "wrong": "Ontem eu jogo.",
-              "correct": "Ontem eu joguei.",
-              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+              "wrong": "Ontem nós procura o livro.",
+              "correct": "Ontem nós procurámos o livro.",
+              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
             },
             {
-              "wrong": "Eu joguei todos os dias.",
-              "correct": "Eu jogo todos os dias.",
-              "noteDa": "Brug nutid ved vaner og rutiner."
+              "wrong": "Você aluguei a bicicleta?",
+              "correct": "Você alugou a bicicleta?",
+              "noteDa": "Você bruger tredje person ental."
             }
           ]
         }
@@ -620,122 +870,172 @@
     },
     {
       "id": 6,
-      "titleDa": "Weekendaktiviteter: dialog 6",
-      "objectiveDa": "Brug weekendaktiviteter med nutid, enkel datid og praktisk ordforråd.",
+      "titleDa": "Aflevere før seks",
+      "objectiveDa": "Træn en realistisk mini-dialog om aflevere før seks.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Hoje eu jogo no parque.",
-          "textDa": "I dag øver jeg sproget i parken.",
-          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+          "textPt": "Desculpe, estou a tratar de devolver antes das seis; pode orientar-me?",
+          "textDa": "Undskyld, jeg er ved at ordne aflevere før seks; kan De hjælpe mig videre?",
+          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
         },
         {
           "speaker": "B",
-          "textPt": "Ontem eu joguei no parque.",
-          "textDa": "I går gjorde jeg det i parken.",
-          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+          "textPt": "O técnico pergunta se devolver antes das seis é para hoje ou para mais tarde.",
+          "textDa": "Teknikeren spørger, om aflevere før seks er til i dag eller senere.",
+          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
         },
         {
           "speaker": "A",
-          "textPt": "Também preciso de falar sobre mês.",
-          "textDa": "Jeg har også brug for at tale om måned.",
-          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+          "textPt": "É para hoje, porque ontem já tentei resolver devolver antes das seis.",
+          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at ordne aflevere før seks.",
+          "grammarDa": "Tentei resolver er datid + infinitiv."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Então convém confirmar primeiro os detalhes de devolver antes das seis.",
+          "textDa": "Så er det bedst først at bekræfte detaljerne om aflevere før seks.",
+          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Que informação falta para avançarmos com devolver antes das seis?",
+          "textDa": "Hvilken information mangler der, for at vi kan komme videre med aflevere før seks?",
+          "grammarDa": "Avançarmos er nós-form efter para."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Falta só um dado pequeno sobre devolver antes das seis; depois o técnico regista tudo no sistema.",
+          "textDa": "Der mangler kun én lille oplysning om aflevere før seks; derefter registrerer teknikeren det hele i systemet.",
+          "grammarDa": "Regista er nutid med varieret subjekt."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Se houver algum problema com devolver antes das seis, posso voltar amanhã?",
+          "textDa": "Hvis der er et problem med aflevere før seks, kan jeg komme tilbage i morgen?",
+          "grammarDa": "Se houver bruges om mulighed."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Pode, mas talvez devolver antes das seis fique resolvido antes do fim da manhã.",
+          "textDa": "Det kan De, men måske bliver aflevere før seks løst før formiddagen er slut.",
+          "grammarDa": "Fique resolvido udtrykker resultat."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Nesse caso, agradecia uma confirmação por email sobre devolver antes das seis.",
+          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om aflevere før seks.",
+          "grammarDa": "Agradecia er høfligt."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Combinado; quando devolver antes das seis estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
+          "textDa": "Aftale; når aflevere før seks er klar, sender vi beskeden og forklarer næste trin.",
+          "grammarDa": "Enviamos og explicamos er nós-former."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "mês",
-          "textDa": "måned"
+          "textPt": "devolver antes das seis",
+          "textDa": "aflevere før seks"
         },
         {
-          "textPt": "direita",
-          "textDa": "højre"
+          "textPt": "confirmar",
+          "textDa": "at bekræfte"
         },
         {
-          "textPt": "esquerda",
-          "textDa": "venstre"
+          "textPt": "talvez",
+          "textDa": "måske"
+        },
+        {
+          "textPt": "disponível",
+          "textDa": "tilgængelig"
+        },
+        {
+          "textPt": "processo",
+          "textDa": "sag/proces"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber: jogar",
-          "explanationDa": "Denne lektion bruger jogar og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
-          "verb": "jogar",
+          "titleDa": "Regelmæssige verber i Alugar uma bicicleta",
+          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
+          "verb": "alugar",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "jogo"
+              "form": "alugo"
             },
             {
               "subject": "tu (presente)",
-              "form": "jogas"
+              "form": "alugas"
             },
             {
-              "subject": "ele/ela (presente)",
-              "form": "joga"
+              "subject": "ele/ela/você (presente)",
+              "form": "aluga"
             },
             {
               "subject": "nós (presente)",
-              "form": "jogamos"
+              "form": "alugamos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "jogam"
+              "form": "alugam"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "jogam"
+              "form": "alugam"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "joguei"
+              "form": "aluguei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "jogaste"
+              "form": "alugaste"
             },
             {
-              "subject": "ele/ela (pretérito perfeito)",
-              "form": "jogou"
+              "subject": "ele/ela/você (pretérito perfeito)",
+              "form": "alugou"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "jogámos"
+              "form": "alugámos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "jogaram"
+              "form": "alugaram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "jogaram"
+              "form": "alugaram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje eu jogo no parque.",
-              "da": "I dag øver jeg sproget i parken."
+              "pt": "Hoje nós alugamos vocabulário útil.",
+              "da": "I dag øver vi nyttigt ordforråd."
             },
             {
-              "pt": "Ontem eu joguei no parque.",
-              "da": "I går gjorde jeg det i parken."
+              "pt": "Ontem a funcionária alugou a situação.",
+              "da": "I går forklarede medarbejderen situationen."
             },
             {
-              "pt": "Nós praticamos vocabulário novo.",
-              "da": "Vi øver nyt ordforråd."
+              "pt": "Talvez seja melhor confirmar antes de sair.",
+              "da": "Måske er det bedre at bekræfte, før man går."
             }
           ],
-          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
           "commonMistakes": [
             {
-              "wrong": "Ontem eu jogo.",
-              "correct": "Ontem eu joguei.",
-              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+              "wrong": "Ontem nós procura o livro.",
+              "correct": "Ontem nós procurámos o livro.",
+              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
             },
             {
-              "wrong": "Eu joguei todos os dias.",
-              "correct": "Eu jogo todos os dias.",
-              "noteDa": "Brug nutid ved vaner og rutiner."
+              "wrong": "Você aluguei a bicicleta?",
+              "correct": "Você alugou a bicicleta?",
+              "noteDa": "Você bruger tredje person ental."
             }
           ]
         }
@@ -743,122 +1043,172 @@
     },
     {
       "id": 7,
-      "titleDa": "Weekendaktiviteter: dialog 7",
-      "objectiveDa": "Brug weekendaktiviteter med nutid, enkel datid og praktisk ordforråd.",
+      "titleDa": "Defekt bremse",
+      "objectiveDa": "Træn en realistisk mini-dialog om defekt bremse.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Hoje eu jogo no parque.",
-          "textDa": "I dag øver jeg sproget i parken.",
-          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+          "textPt": "Desculpe, estou a tratar de travão avariado; pode orientar-me?",
+          "textDa": "Undskyld, jeg er ved at ordne defekt bremse; kan De hjælpe mig videre?",
+          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
         },
         {
           "speaker": "B",
-          "textPt": "Ontem eu joguei no parque.",
-          "textDa": "I går gjorde jeg det i parken.",
-          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+          "textPt": "A cliente pergunta se travão avariado é para hoje ou para mais tarde.",
+          "textDa": "Kunden spørger, om defekt bremse er til i dag eller senere.",
+          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
         },
         {
           "speaker": "A",
-          "textPt": "Também preciso de falar sobre direita.",
-          "textDa": "Jeg har også brug for at tale om højre.",
-          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+          "textPt": "É para hoje, porque ontem já tentei resolver travão avariado.",
+          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at ordne defekt bremse.",
+          "grammarDa": "Tentei resolver er datid + infinitiv."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Então convém confirmar primeiro os detalhes de travão avariado.",
+          "textDa": "Så er det bedst først at bekræfte detaljerne om defekt bremse.",
+          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Que informação falta para avançarmos com travão avariado?",
+          "textDa": "Hvilken information mangler der, for at vi kan komme videre med defekt bremse?",
+          "grammarDa": "Avançarmos er nós-form efter para."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Falta só um dado pequeno sobre travão avariado; depois a cliente regista tudo no sistema.",
+          "textDa": "Der mangler kun én lille oplysning om defekt bremse; derefter registrerer kunden det hele i systemet.",
+          "grammarDa": "Regista er nutid med varieret subjekt."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Se houver algum problema com travão avariado, posso voltar amanhã?",
+          "textDa": "Hvis der er et problem med defekt bremse, kan jeg komme tilbage i morgen?",
+          "grammarDa": "Se houver bruges om mulighed."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Pode, mas talvez travão avariado fique resolvido antes do fim da manhã.",
+          "textDa": "Det kan De, men måske bliver defekt bremse løst før formiddagen er slut.",
+          "grammarDa": "Fique resolvido udtrykker resultat."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Nesse caso, agradecia uma confirmação por email sobre travão avariado.",
+          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om defekt bremse.",
+          "grammarDa": "Agradecia er høfligt."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Combinado; quando travão avariado estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
+          "textDa": "Aftale; når defekt bremse er klar, sender vi beskeden og forklarer næste trin.",
+          "grammarDa": "Enviamos og explicamos er nós-former."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "direita",
-          "textDa": "højre"
+          "textPt": "travão avariado",
+          "textDa": "defekt bremse"
         },
         {
-          "textPt": "esquerda",
-          "textDa": "venstre"
+          "textPt": "confirmar",
+          "textDa": "at bekræfte"
         },
         {
-          "textPt": "tempo",
-          "textDa": "vejr/tid"
+          "textPt": "talvez",
+          "textDa": "måske"
+        },
+        {
+          "textPt": "disponível",
+          "textDa": "tilgængelig"
+        },
+        {
+          "textPt": "processo",
+          "textDa": "sag/proces"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber: jogar",
-          "explanationDa": "Denne lektion bruger jogar og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
-          "verb": "jogar",
+          "titleDa": "Regelmæssige verber i Alugar uma bicicleta",
+          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
+          "verb": "alugar",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "jogo"
+              "form": "alugo"
             },
             {
               "subject": "tu (presente)",
-              "form": "jogas"
+              "form": "alugas"
             },
             {
-              "subject": "ele/ela (presente)",
-              "form": "joga"
+              "subject": "ele/ela/você (presente)",
+              "form": "aluga"
             },
             {
               "subject": "nós (presente)",
-              "form": "jogamos"
+              "form": "alugamos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "jogam"
+              "form": "alugam"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "jogam"
+              "form": "alugam"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "joguei"
+              "form": "aluguei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "jogaste"
+              "form": "alugaste"
             },
             {
-              "subject": "ele/ela (pretérito perfeito)",
-              "form": "jogou"
+              "subject": "ele/ela/você (pretérito perfeito)",
+              "form": "alugou"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "jogámos"
+              "form": "alugámos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "jogaram"
+              "form": "alugaram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "jogaram"
+              "form": "alugaram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje eu jogo no parque.",
-              "da": "I dag øver jeg sproget i parken."
+              "pt": "Hoje nós alugamos vocabulário útil.",
+              "da": "I dag øver vi nyttigt ordforråd."
             },
             {
-              "pt": "Ontem eu joguei no parque.",
-              "da": "I går gjorde jeg det i parken."
+              "pt": "Ontem a funcionária alugou a situação.",
+              "da": "I går forklarede medarbejderen situationen."
             },
             {
-              "pt": "Nós praticamos vocabulário novo.",
-              "da": "Vi øver nyt ordforråd."
+              "pt": "Talvez seja melhor confirmar antes de sair.",
+              "da": "Måske er det bedre at bekræfte, før man går."
             }
           ],
-          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
           "commonMistakes": [
             {
-              "wrong": "Ontem eu jogo.",
-              "correct": "Ontem eu joguei.",
-              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+              "wrong": "Ontem nós procura o livro.",
+              "correct": "Ontem nós procurámos o livro.",
+              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
             },
             {
-              "wrong": "Eu joguei todos os dias.",
-              "correct": "Eu jogo todos os dias.",
-              "noteDa": "Brug nutid ved vaner og rutiner."
+              "wrong": "Você aluguei a bicicleta?",
+              "correct": "Você alugou a bicicleta?",
+              "noteDa": "Você bruger tredje person ental."
             }
           ]
         }
@@ -866,122 +1216,172 @@
     },
     {
       "id": 8,
-      "titleDa": "Weekendaktiviteter: dialog 8",
-      "objectiveDa": "Brug weekendaktiviteter med nutid, enkel datid og praktisk ordforråd.",
+      "titleDa": "Elcykel",
+      "objectiveDa": "Træn en realistisk mini-dialog om elcykel.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Hoje eu jogo no parque.",
-          "textDa": "I dag øver jeg sproget i parken.",
-          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+          "textPt": "Desculpe, estou a tratar de bicicleta elétrica; pode orientar-me?",
+          "textDa": "Undskyld, jeg er ved at ordne elcykel; kan De hjælpe mig videre?",
+          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
         },
         {
           "speaker": "B",
-          "textPt": "Ontem eu joguei no parque.",
-          "textDa": "I går gjorde jeg det i parken.",
-          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+          "textPt": "O cliente pergunta se bicicleta elétrica é para hoje ou para mais tarde.",
+          "textDa": "Kunden spørger, om elcykel er til i dag eller senere.",
+          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
         },
         {
           "speaker": "A",
-          "textPt": "Também preciso de falar sobre esquerda.",
-          "textDa": "Jeg har også brug for at tale om venstre.",
-          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+          "textPt": "É para hoje, porque ontem já tentei resolver bicicleta elétrica.",
+          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at ordne elcykel.",
+          "grammarDa": "Tentei resolver er datid + infinitiv."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Então convém confirmar primeiro os detalhes de bicicleta elétrica.",
+          "textDa": "Så er det bedst først at bekræfte detaljerne om elcykel.",
+          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Que informação falta para avançarmos com bicicleta elétrica?",
+          "textDa": "Hvilken information mangler der, for at vi kan komme videre med elcykel?",
+          "grammarDa": "Avançarmos er nós-form efter para."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Falta só um dado pequeno sobre bicicleta elétrica; depois o cliente regista tudo no sistema.",
+          "textDa": "Der mangler kun én lille oplysning om elcykel; derefter registrerer kunden det hele i systemet.",
+          "grammarDa": "Regista er nutid med varieret subjekt."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Se houver algum problema com bicicleta elétrica, posso voltar amanhã?",
+          "textDa": "Hvis der er et problem med elcykel, kan jeg komme tilbage i morgen?",
+          "grammarDa": "Se houver bruges om mulighed."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Pode, mas talvez bicicleta elétrica fique resolvido antes do fim da manhã.",
+          "textDa": "Det kan De, men måske bliver elcykel løst før formiddagen er slut.",
+          "grammarDa": "Fique resolvido udtrykker resultat."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Nesse caso, agradecia uma confirmação por email sobre bicicleta elétrica.",
+          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om elcykel.",
+          "grammarDa": "Agradecia er høfligt."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Combinado; quando bicicleta elétrica estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
+          "textDa": "Aftale; når elcykel er klar, sender vi beskeden og forklarer næste trin.",
+          "grammarDa": "Enviamos og explicamos er nós-former."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "esquerda",
-          "textDa": "venstre"
+          "textPt": "bicicleta elétrica",
+          "textDa": "elcykel"
         },
         {
-          "textPt": "tempo",
-          "textDa": "vejr/tid"
+          "textPt": "confirmar",
+          "textDa": "at bekræfte"
         },
         {
-          "textPt": "número",
-          "textDa": "tal"
+          "textPt": "talvez",
+          "textDa": "måske"
+        },
+        {
+          "textPt": "disponível",
+          "textDa": "tilgængelig"
+        },
+        {
+          "textPt": "processo",
+          "textDa": "sag/proces"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber: jogar",
-          "explanationDa": "Denne lektion bruger jogar og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
-          "verb": "jogar",
+          "titleDa": "Regelmæssige verber i Alugar uma bicicleta",
+          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
+          "verb": "alugar",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "jogo"
+              "form": "alugo"
             },
             {
               "subject": "tu (presente)",
-              "form": "jogas"
+              "form": "alugas"
             },
             {
-              "subject": "ele/ela (presente)",
-              "form": "joga"
+              "subject": "ele/ela/você (presente)",
+              "form": "aluga"
             },
             {
               "subject": "nós (presente)",
-              "form": "jogamos"
+              "form": "alugamos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "jogam"
+              "form": "alugam"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "jogam"
+              "form": "alugam"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "joguei"
+              "form": "aluguei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "jogaste"
+              "form": "alugaste"
             },
             {
-              "subject": "ele/ela (pretérito perfeito)",
-              "form": "jogou"
+              "subject": "ele/ela/você (pretérito perfeito)",
+              "form": "alugou"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "jogámos"
+              "form": "alugámos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "jogaram"
+              "form": "alugaram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "jogaram"
+              "form": "alugaram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje eu jogo no parque.",
-              "da": "I dag øver jeg sproget i parken."
+              "pt": "Hoje nós alugamos vocabulário útil.",
+              "da": "I dag øver vi nyttigt ordforråd."
             },
             {
-              "pt": "Ontem eu joguei no parque.",
-              "da": "I går gjorde jeg det i parken."
+              "pt": "Ontem a funcionária alugou a situação.",
+              "da": "I går forklarede medarbejderen situationen."
             },
             {
-              "pt": "Nós praticamos vocabulário novo.",
-              "da": "Vi øver nyt ordforråd."
+              "pt": "Talvez seja melhor confirmar antes de sair.",
+              "da": "Måske er det bedre at bekræfte, før man går."
             }
           ],
-          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
           "commonMistakes": [
             {
-              "wrong": "Ontem eu jogo.",
-              "correct": "Ontem eu joguei.",
-              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+              "wrong": "Ontem nós procura o livro.",
+              "correct": "Ontem nós procurámos o livro.",
+              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
             },
             {
-              "wrong": "Eu joguei todos os dias.",
-              "correct": "Eu jogo todos os dias.",
-              "noteDa": "Brug nutid ved vaner og rutiner."
+              "wrong": "Você aluguei a bicicleta?",
+              "correct": "Você alugou a bicicleta?",
+              "noteDa": "Você bruger tredje person ental."
             }
           ]
         }
@@ -989,122 +1389,172 @@
     },
     {
       "id": 9,
-      "titleDa": "Weekendaktiviteter: dialog 9",
-      "objectiveDa": "Brug weekendaktiviteter med nutid, enkel datid og praktisk ordforråd.",
+      "titleDa": "ID eller depositum",
+      "objectiveDa": "Træn en realistisk mini-dialog om ID eller depositum.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Hoje eu jogo no parque.",
-          "textDa": "I dag øver jeg sproget i parken.",
-          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+          "textPt": "Desculpe, estou a tratar de documento ou caução; pode orientar-me?",
+          "textDa": "Undskyld, jeg er ved at ordne ID eller depositum; kan De hjælpe mig videre?",
+          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
         },
         {
           "speaker": "B",
-          "textPt": "Ontem eu joguei no parque.",
-          "textDa": "I går gjorde jeg det i parken.",
-          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+          "textPt": "As crianças pergunta se documento ou caução é para hoje ou para mais tarde.",
+          "textDa": "Børnene spørger, om ID eller depositum er til i dag eller senere.",
+          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
         },
         {
           "speaker": "A",
-          "textPt": "Também preciso de falar sobre tempo.",
-          "textDa": "Jeg har også brug for at tale om vejr/tid.",
-          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+          "textPt": "É para hoje, porque ontem já tentei resolver documento ou caução.",
+          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at ordne ID eller depositum.",
+          "grammarDa": "Tentei resolver er datid + infinitiv."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Então convém confirmar primeiro os detalhes de documento ou caução.",
+          "textDa": "Så er det bedst først at bekræfte detaljerne om ID eller depositum.",
+          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Que informação falta para avançarmos com documento ou caução?",
+          "textDa": "Hvilken information mangler der, for at vi kan komme videre med ID eller depositum?",
+          "grammarDa": "Avançarmos er nós-form efter para."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Falta só um dado pequeno sobre documento ou caução; depois as crianças regista tudo no sistema.",
+          "textDa": "Der mangler kun én lille oplysning om ID eller depositum; derefter registrerer børnene det hele i systemet.",
+          "grammarDa": "Regista er nutid med varieret subjekt."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Se houver algum problema com documento ou caução, posso voltar amanhã?",
+          "textDa": "Hvis der er et problem med ID eller depositum, kan jeg komme tilbage i morgen?",
+          "grammarDa": "Se houver bruges om mulighed."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Pode, mas talvez documento ou caução fique resolvido antes do fim da manhã.",
+          "textDa": "Det kan De, men måske bliver ID eller depositum løst før formiddagen er slut.",
+          "grammarDa": "Fique resolvido udtrykker resultat."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Nesse caso, agradecia uma confirmação por email sobre documento ou caução.",
+          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om ID eller depositum.",
+          "grammarDa": "Agradecia er høfligt."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Combinado; quando documento ou caução estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
+          "textDa": "Aftale; når ID eller depositum er klar, sender vi beskeden og forklarer næste trin.",
+          "grammarDa": "Enviamos og explicamos er nós-former."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "tempo",
-          "textDa": "vejr/tid"
+          "textPt": "documento ou caução",
+          "textDa": "ID eller depositum"
         },
         {
-          "textPt": "número",
-          "textDa": "tal"
+          "textPt": "confirmar",
+          "textDa": "at bekræfte"
         },
         {
-          "textPt": "corpo",
-          "textDa": "krop"
+          "textPt": "talvez",
+          "textDa": "måske"
+        },
+        {
+          "textPt": "disponível",
+          "textDa": "tilgængelig"
+        },
+        {
+          "textPt": "processo",
+          "textDa": "sag/proces"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber: jogar",
-          "explanationDa": "Denne lektion bruger jogar og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
-          "verb": "jogar",
+          "titleDa": "Regelmæssige verber i Alugar uma bicicleta",
+          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
+          "verb": "alugar",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "jogo"
+              "form": "alugo"
             },
             {
               "subject": "tu (presente)",
-              "form": "jogas"
+              "form": "alugas"
             },
             {
-              "subject": "ele/ela (presente)",
-              "form": "joga"
+              "subject": "ele/ela/você (presente)",
+              "form": "aluga"
             },
             {
               "subject": "nós (presente)",
-              "form": "jogamos"
+              "form": "alugamos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "jogam"
+              "form": "alugam"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "jogam"
+              "form": "alugam"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "joguei"
+              "form": "aluguei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "jogaste"
+              "form": "alugaste"
             },
             {
-              "subject": "ele/ela (pretérito perfeito)",
-              "form": "jogou"
+              "subject": "ele/ela/você (pretérito perfeito)",
+              "form": "alugou"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "jogámos"
+              "form": "alugámos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "jogaram"
+              "form": "alugaram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "jogaram"
+              "form": "alugaram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje eu jogo no parque.",
-              "da": "I dag øver jeg sproget i parken."
+              "pt": "Hoje nós alugamos vocabulário útil.",
+              "da": "I dag øver vi nyttigt ordforråd."
             },
             {
-              "pt": "Ontem eu joguei no parque.",
-              "da": "I går gjorde jeg det i parken."
+              "pt": "Ontem a funcionária alugou a situação.",
+              "da": "I går forklarede medarbejderen situationen."
             },
             {
-              "pt": "Nós praticamos vocabulário novo.",
-              "da": "Vi øver nyt ordforråd."
+              "pt": "Talvez seja melhor confirmar antes de sair.",
+              "da": "Måske er det bedre at bekræfte, før man går."
             }
           ],
-          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
           "commonMistakes": [
             {
-              "wrong": "Ontem eu jogo.",
-              "correct": "Ontem eu joguei.",
-              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+              "wrong": "Ontem nós procura o livro.",
+              "correct": "Ontem nós procurámos o livro.",
+              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
             },
             {
-              "wrong": "Eu joguei todos os dias.",
-              "correct": "Eu jogo todos os dias.",
-              "noteDa": "Brug nutid ved vaner og rutiner."
+              "wrong": "Você aluguei a bicicleta?",
+              "correct": "Você alugou a bicicleta?",
+              "noteDa": "Você bruger tredje person ental."
             }
           ]
         }
@@ -1112,122 +1562,172 @@
     },
     {
       "id": 10,
-      "titleDa": "Weekendaktiviteter: dialog 10",
-      "objectiveDa": "Brug weekendaktiviteter med nutid, enkel datid og praktisk ordforråd.",
+      "titleDa": "Tilladt cykelsti",
+      "objectiveDa": "Træn en realistisk mini-dialog om tilladt cykelsti.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Hoje eu jogo no parque.",
-          "textDa": "I dag øver jeg sproget i parken.",
-          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+          "textPt": "Desculpe, estou a tratar de ciclovia permitida; pode orientar-me?",
+          "textDa": "Undskyld, jeg er ved at ordne tilladt cykelsti; kan De hjælpe mig videre?",
+          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
         },
         {
           "speaker": "B",
-          "textPt": "Ontem eu joguei no parque.",
-          "textDa": "I går gjorde jeg det i parken.",
-          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+          "textPt": "O responsável pergunta se ciclovia permitida é para hoje ou para mais tarde.",
+          "textDa": "Den ansvarlige spørger, om tilladt cykelsti er til i dag eller senere.",
+          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
         },
         {
           "speaker": "A",
-          "textPt": "Também preciso de falar sobre número.",
-          "textDa": "Jeg har også brug for at tale om tal.",
-          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+          "textPt": "É para hoje, porque ontem já tentei resolver ciclovia permitida.",
+          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at ordne tilladt cykelsti.",
+          "grammarDa": "Tentei resolver er datid + infinitiv."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Então convém confirmar primeiro os detalhes de ciclovia permitida.",
+          "textDa": "Så er det bedst først at bekræfte detaljerne om tilladt cykelsti.",
+          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Que informação falta para avançarmos com ciclovia permitida?",
+          "textDa": "Hvilken information mangler der, for at vi kan komme videre med tilladt cykelsti?",
+          "grammarDa": "Avançarmos er nós-form efter para."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Falta só um dado pequeno sobre ciclovia permitida; depois o responsável regista tudo no sistema.",
+          "textDa": "Der mangler kun én lille oplysning om tilladt cykelsti; derefter registrerer den ansvarlige det hele i systemet.",
+          "grammarDa": "Regista er nutid med varieret subjekt."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Se houver algum problema com ciclovia permitida, posso voltar amanhã?",
+          "textDa": "Hvis der er et problem med tilladt cykelsti, kan jeg komme tilbage i morgen?",
+          "grammarDa": "Se houver bruges om mulighed."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Pode, mas talvez ciclovia permitida fique resolvido antes do fim da manhã.",
+          "textDa": "Det kan De, men måske bliver tilladt cykelsti løst før formiddagen er slut.",
+          "grammarDa": "Fique resolvido udtrykker resultat."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Nesse caso, agradecia uma confirmação por email sobre ciclovia permitida.",
+          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om tilladt cykelsti.",
+          "grammarDa": "Agradecia er høfligt."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Combinado; quando ciclovia permitida estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
+          "textDa": "Aftale; når tilladt cykelsti er klar, sender vi beskeden og forklarer næste trin.",
+          "grammarDa": "Enviamos og explicamos er nós-former."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "número",
-          "textDa": "tal"
+          "textPt": "ciclovia permitida",
+          "textDa": "tilladt cykelsti"
         },
         {
-          "textPt": "corpo",
-          "textDa": "krop"
+          "textPt": "confirmar",
+          "textDa": "at bekræfte"
         },
         {
-          "textPt": "comida",
-          "textDa": "mad"
+          "textPt": "talvez",
+          "textDa": "måske"
+        },
+        {
+          "textPt": "disponível",
+          "textDa": "tilgængelig"
+        },
+        {
+          "textPt": "processo",
+          "textDa": "sag/proces"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber: jogar",
-          "explanationDa": "Denne lektion bruger jogar og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
-          "verb": "jogar",
+          "titleDa": "Regelmæssige verber i Alugar uma bicicleta",
+          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
+          "verb": "alugar",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "jogo"
+              "form": "alugo"
             },
             {
               "subject": "tu (presente)",
-              "form": "jogas"
+              "form": "alugas"
             },
             {
-              "subject": "ele/ela (presente)",
-              "form": "joga"
+              "subject": "ele/ela/você (presente)",
+              "form": "aluga"
             },
             {
               "subject": "nós (presente)",
-              "form": "jogamos"
+              "form": "alugamos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "jogam"
+              "form": "alugam"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "jogam"
+              "form": "alugam"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "joguei"
+              "form": "aluguei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "jogaste"
+              "form": "alugaste"
             },
             {
-              "subject": "ele/ela (pretérito perfeito)",
-              "form": "jogou"
+              "subject": "ele/ela/você (pretérito perfeito)",
+              "form": "alugou"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "jogámos"
+              "form": "alugámos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "jogaram"
+              "form": "alugaram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "jogaram"
+              "form": "alugaram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje eu jogo no parque.",
-              "da": "I dag øver jeg sproget i parken."
+              "pt": "Hoje nós alugamos vocabulário útil.",
+              "da": "I dag øver vi nyttigt ordforråd."
             },
             {
-              "pt": "Ontem eu joguei no parque.",
-              "da": "I går gjorde jeg det i parken."
+              "pt": "Ontem a funcionária alugou a situação.",
+              "da": "I går forklarede medarbejderen situationen."
             },
             {
-              "pt": "Nós praticamos vocabulário novo.",
-              "da": "Vi øver nyt ordforråd."
+              "pt": "Talvez seja melhor confirmar antes de sair.",
+              "da": "Måske er det bedre at bekræfte, før man går."
             }
           ],
-          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
           "commonMistakes": [
             {
-              "wrong": "Ontem eu jogo.",
-              "correct": "Ontem eu joguei.",
-              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+              "wrong": "Ontem nós procura o livro.",
+              "correct": "Ontem nós procurámos o livro.",
+              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
             },
             {
-              "wrong": "Eu joguei todos os dias.",
-              "correct": "Eu jogo todos os dias.",
-              "noteDa": "Brug nutid ved vaner og rutiner."
+              "wrong": "Você aluguei a bicicleta?",
+              "correct": "Você alugou a bicicleta?",
+              "noteDa": "Você bruger tredje person ental."
             }
           ]
         }
@@ -1237,144 +1737,121 @@
   "quiz": [
     {
       "id": 1,
-      "questionDa": "Hvilken form er korrekt i nutid?",
+      "questionDa": "Hvilken sætning passer bedst til temaet \"Alugar uma bicicleta\"?",
       "answers": [
         {
-          "text": "eu jogo",
+          "text": "Parece que preço por hora ainda está disponível.",
           "correct": true
         },
         {
-          "text": "eu joguei",
+          "text": "O gato dorme na janela.",
           "correct": false
         },
         {
-          "text": "eu falam",
+          "text": "A camisola é azul.",
           "correct": false
         },
         {
-          "text": "eu falar",
+          "text": "Há três maçãs na mesa.",
           "correct": false
         }
       ],
-      "explanationDa": "Nutidsformen passer til hoje eller en vane."
+      "explanationDa": "Sætningen hører til lektionen Alugar uma bicicleta."
     },
     {
       "id": 2,
-      "questionDa": "Hvilken form er korrekt i pretérito perfeito?",
+      "questionDa": "Hvilken form er nós i nutid?",
       "answers": [
         {
-          "text": "eu joguei",
+          "text": "alugamos",
           "correct": true
         },
         {
-          "text": "eu jogo",
-          "correct": false
-        },
-        {
-          "text": "eu falas",
-          "correct": false
-        },
-        {
-          "text": "eu falaram",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Datidsformen passer til ontem."
-    },
-    {
-      "id": 3,
-      "questionDa": "Hvad betyder: Hoje eu jogo no parque.",
-      "answers": [
-        {
-          "text": "I dag øver jeg sproget i parken.",
-          "correct": true
-        },
-        {
-          "text": "I går gjorde jeg det.",
-          "correct": false
-        },
-        {
-          "text": "Vi åbner hotellet.",
-          "correct": false
-        },
-        {
-          "text": "De sælger billetter.",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Hoje markerer nutid."
-    },
-    {
-      "id": 4,
-      "questionDa": "Vælg den bedste portugisiske sætning.",
-      "answers": [
-        {
-          "text": "Ontem eu joguei no parque.",
-          "correct": true
-        },
-        {
-          "text": "Ontem eu jogo no parque.",
-          "correct": false
-        },
-        {
-          "text": "Ontem eu falar no parque.",
-          "correct": false
-        },
-        {
-          "text": "Ontem eu falam no parque.",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Ontem kræver datid i denne sætning."
-    },
-    {
-      "id": 5,
-      "questionDa": "Hvilket ord hører til lektionens ordforråd?",
-      "answers": [
-        {
-          "text": "futebol",
-          "correct": true
-        },
-        {
-          "text": "janela",
-          "correct": false
-        },
-        {
-          "text": "camisa",
-          "correct": false
-        },
-        {
-          "text": "banana",
-          "correct": false
-        }
-      ],
-      "explanationDa": "futebol hører til lektionens tema."
-    },
-    {
-      "id": 6,
-      "questionDa": "Udfyld sætningen: Ontem eu ___.",
-      "answers": [
-        {
-          "text": "joguei",
-          "correct": true
-        },
-        {
-          "text": "jogo",
-          "correct": false
-        },
-        {
-          "text": "fala",
+          "text": "alugámos",
           "correct": false
         },
         {
           "text": "falam",
           "correct": false
+        },
+        {
+          "text": "partiste",
+          "correct": false
         }
       ],
-      "explanationDa": "Ontem peger på datid."
+      "explanationDa": "Nós-formen følger verbets regelmæssige mønster."
     },
     {
-      "id": 7,
+      "id": 3,
+      "questionDa": "Hvilken form er nós i pretérito perfeito?",
+      "answers": [
+        {
+          "text": "alugámos",
+          "correct": true
+        },
+        {
+          "text": "alugamos",
+          "correct": false
+        },
+        {
+          "text": "procuram",
+          "correct": false
+        },
+        {
+          "text": "beberam",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Pretérito perfeito bruges om en afsluttet handling."
+    },
+    {
+      "id": 4,
+      "questionDa": "Hvad betyder: Parece que preço por hora ainda está disponível.",
+      "answers": [
+        {
+          "text": "Det ser ud til, at pris pr. time stadig er tilgængelig.",
+          "correct": true
+        },
+        {
+          "text": "Jeg har travlt i morgen.",
+          "correct": false
+        },
+        {
+          "text": "Vi bestilte to kaffe.",
+          "correct": false
+        },
+        {
+          "text": "Børnene leger udenfor.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Oversættelsen kommer fra dialogernes ordforråd."
+    },
+    {
+      "id": 5,
+      "questionDa": "Vælg den mest naturlige høflige formulering.",
+      "answers": [
+        {
+          "text": "Pode ajudar-me, por favor?",
+          "correct": true
+        },
+        {
+          "text": "Ajuda mim agora.",
+          "correct": false
+        },
+        {
+          "text": "Você ajuda eu?",
+          "correct": false
+        },
+        {
+          "text": "Dar ajuda rápido.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Pode ajudar-me, por favor? er en naturlig høflig formulering."
+    },
+    {
+      "id": 6,
       "questionDa": "Hvilken portugisisk form er tallet 91?",
       "answers": [
         {
@@ -1397,128 +1874,128 @@
       "explanationDa": "Talquizzen kommer fra JSON og kan genbruges i fremtidige niveauer."
     }
   ],
-  "storyTitleDa": "Fodboldkampen",
-  "storyObjectiveDa": "Læs en sammenhængende tekst med regelmæssige verber, nyt ordforråd og en enkel introduktion til datid.",
+  "storyTitleDa": "En cykel for en dag",
+  "storyObjectiveDa": "Læs en kort tekst med en konkret situation, varierede subjekter, regelmæssige verber og lidt pretérito perfeito.",
   "story": [
     {
       "speaker": "A",
-      "textPt": "Ontem eu joguei no parque e aprendi a palavra futebol.",
-      "textDa": "I går gjorde jeg det i parken og lærte ordet fodbold.",
-      "grammarDa": "Datid plus nyt ordforråd."
+      "textPt": "Na terça-feira, surgiu uma dúvida sobre preço por hora.",
+      "textDa": "Om tirsdagen opstod der et spørgsmål om pris pr. time.",
+      "grammarDa": "Surgiu er datid."
     },
     {
       "speaker": "A",
-      "textPt": "Hoje eu jogo no parque com uma frase simples.",
-      "textDa": "I dag øver jeg i parken med en enkel sætning.",
-      "grammarDa": "Nutid bruges om dagens handling."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Hoje eu jogo no parque com uma frase simples.",
-      "textDa": "I dag øver jeg i parken med en enkel sætning.",
-      "grammarDa": "Nutid bruges om dagens handling."
+      "textPt": "A pessoa responsável verificou preço por hora com calma antes de responder.",
+      "textDa": "Den ansvarlige person tjekkede pris pr. time roligt, før der kom et svar.",
+      "grammarDa": "Verificou er datid."
     },
     {
       "speaker": "B",
-      "textPt": "Nós falamos sobre ontem com calma.",
-      "textDa": "Vi taler roligt om i går.",
-      "grammarDa": "Falamos er et regelmæssigt -ar-verbum."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Ontem eu joguei no parque e aprendi a palavra semana.",
-      "textDa": "I går gjorde jeg det i parken og lærte ordet uge.",
-      "grammarDa": "Datid plus nyt ordforråd."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Hoje eu jogo no parque com uma frase simples.",
-      "textDa": "I dag øver jeg i parken med en enkel sætning.",
-      "grammarDa": "Nutid bruges om dagens handling."
+      "textPt": "Na terça-feira, surgiu uma dúvida sobre aluguer diário.",
+      "textDa": "Om tirsdagen opstod der et spørgsmål om dagsleje.",
+      "grammarDa": "Surgiu er datid."
     },
     {
       "speaker": "B",
-      "textPt": "Nós falamos sobre direita com calma.",
-      "textDa": "Vi taler roligt om højre.",
-      "grammarDa": "Falamos er et regelmæssigt -ar-verbum."
+      "textPt": "A pessoa responsável verificou aluguer diário com calma antes de responder.",
+      "textDa": "Den ansvarlige person tjekkede dagsleje roligt, før der kom et svar.",
+      "grammarDa": "Verificou er datid."
     },
     {
       "speaker": "A",
-      "textPt": "Hoje eu jogo no parque com uma frase simples.",
-      "textDa": "I dag øver jeg i parken med en enkel sætning.",
-      "grammarDa": "Nutid bruges om dagens handling."
+      "textPt": "Na terça-feira, surgiu uma dúvida sobre capacete incluído.",
+      "textDa": "Om tirsdagen opstod der et spørgsmål om hjelm inkluderet.",
+      "grammarDa": "Surgiu er datid."
     },
     {
       "speaker": "A",
-      "textPt": "Ontem eu joguei no parque e aprendi a palavra tempo.",
-      "textDa": "I går gjorde jeg det i parken og lærte ordet vejr/tid.",
-      "grammarDa": "Datid plus nyt ordforråd."
+      "textPt": "A pessoa responsável verificou capacete incluído com calma antes de responder.",
+      "textDa": "Den ansvarlige person tjekkede hjelm inkluderet roligt, før der kom et svar.",
+      "grammarDa": "Verificou er datid."
     },
     {
       "speaker": "B",
-      "textPt": "Nós falamos sobre número com calma.",
-      "textDa": "Vi taler roligt om tal.",
-      "grammarDa": "Falamos er et regelmæssigt -ar-verbum."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Hoje eu jogo no parque com uma frase simples.",
-      "textDa": "I dag øver jeg i parken med en enkel sætning.",
-      "grammarDa": "Nutid bruges om dagens handling."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Hoje eu jogo no parque com uma frase simples.",
-      "textDa": "I dag øver jeg i parken med en enkel sætning.",
-      "grammarDa": "Nutid bruges om dagens handling."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Ontem eu joguei no parque e aprendi a palavra futebol.",
-      "textDa": "I går gjorde jeg det i parken og lærte ordet fodbold.",
-      "grammarDa": "Datid plus nyt ordforråd."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Hoje eu jogo no parque com uma frase simples.",
-      "textDa": "I dag øver jeg i parken med en enkel sætning.",
-      "grammarDa": "Nutid bruges om dagens handling."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Hoje eu jogo no parque com uma frase simples.",
-      "textDa": "I dag øver jeg i parken med en enkel sætning.",
-      "grammarDa": "Nutid bruges om dagens handling."
+      "textPt": "Na terça-feira, surgiu uma dúvida sobre cadeado forte.",
+      "textDa": "Om tirsdagen opstod der et spørgsmål om stærk lås.",
+      "grammarDa": "Surgiu er datid."
     },
     {
       "speaker": "B",
-      "textPt": "Nós falamos sobre ontem com calma.",
-      "textDa": "Vi taler roligt om i går.",
-      "grammarDa": "Falamos er et regelmæssigt -ar-verbum."
+      "textPt": "A pessoa responsável verificou cadeado forte com calma antes de responder.",
+      "textDa": "Den ansvarlige person tjekkede stærk lås roligt, før der kom et svar.",
+      "grammarDa": "Verificou er datid."
     },
     {
       "speaker": "A",
-      "textPt": "Ontem eu joguei no parque e aprendi a palavra semana.",
-      "textDa": "I går gjorde jeg det i parken og lærte ordet uge.",
-      "grammarDa": "Datid plus nyt ordforråd."
+      "textPt": "Na terça-feira, surgiu uma dúvida sobre rota junto ao rio.",
+      "textDa": "Om tirsdagen opstod der et spørgsmål om rute langs floden.",
+      "grammarDa": "Surgiu er datid."
     },
     {
       "speaker": "A",
-      "textPt": "Hoje eu jogo no parque com uma frase simples.",
-      "textDa": "I dag øver jeg i parken med en enkel sætning.",
-      "grammarDa": "Nutid bruges om dagens handling."
+      "textPt": "A pessoa responsável verificou rota junto ao rio com calma antes de responder.",
+      "textDa": "Den ansvarlige person tjekkede rute langs floden roligt, før der kom et svar.",
+      "grammarDa": "Verificou er datid."
     },
     {
       "speaker": "B",
-      "textPt": "Nós falamos sobre direita com calma.",
-      "textDa": "Vi taler roligt om højre.",
-      "grammarDa": "Falamos er et regelmæssigt -ar-verbum."
+      "textPt": "Na terça-feira, surgiu uma dúvida sobre devolver antes das seis.",
+      "textDa": "Om tirsdagen opstod der et spørgsmål om aflevere før seks.",
+      "grammarDa": "Surgiu er datid."
+    },
+    {
+      "speaker": "B",
+      "textPt": "A pessoa responsável verificou devolver antes das seis com calma antes de responder.",
+      "textDa": "Den ansvarlige person tjekkede aflevere før seks roligt, før der kom et svar.",
+      "grammarDa": "Verificou er datid."
     },
     {
       "speaker": "A",
-      "textPt": "Hoje eu jogo no parque com uma frase simples.",
-      "textDa": "I dag øver jeg i parken med en enkel sætning.",
-      "grammarDa": "Nutid bruges om dagens handling."
+      "textPt": "Na terça-feira, surgiu uma dúvida sobre travão avariado.",
+      "textDa": "Om tirsdagen opstod der et spørgsmål om defekt bremse.",
+      "grammarDa": "Surgiu er datid."
+    },
+    {
+      "speaker": "A",
+      "textPt": "A pessoa responsável verificou travão avariado com calma antes de responder.",
+      "textDa": "Den ansvarlige person tjekkede defekt bremse roligt, før der kom et svar.",
+      "grammarDa": "Verificou er datid."
+    },
+    {
+      "speaker": "B",
+      "textPt": "Na terça-feira, surgiu uma dúvida sobre bicicleta elétrica.",
+      "textDa": "Om tirsdagen opstod der et spørgsmål om elcykel.",
+      "grammarDa": "Surgiu er datid."
+    },
+    {
+      "speaker": "B",
+      "textPt": "A pessoa responsável verificou bicicleta elétrica com calma antes de responder.",
+      "textDa": "Den ansvarlige person tjekkede elcykel roligt, før der kom et svar.",
+      "grammarDa": "Verificou er datid."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Na terça-feira, surgiu uma dúvida sobre documento ou caução.",
+      "textDa": "Om tirsdagen opstod der et spørgsmål om ID eller depositum.",
+      "grammarDa": "Surgiu er datid."
+    },
+    {
+      "speaker": "A",
+      "textPt": "A pessoa responsável verificou documento ou caução com calma antes de responder.",
+      "textDa": "Den ansvarlige person tjekkede ID eller depositum roligt, før der kom et svar.",
+      "grammarDa": "Verificou er datid."
+    },
+    {
+      "speaker": "B",
+      "textPt": "Na terça-feira, surgiu uma dúvida sobre ciclovia permitida.",
+      "textDa": "Om tirsdagen opstod der et spørgsmål om tilladt cykelsti.",
+      "grammarDa": "Surgiu er datid."
+    },
+    {
+      "speaker": "B",
+      "textPt": "A pessoa responsável verificou ciclovia permitida com calma antes de responder.",
+      "textDa": "Den ansvarlige person tjekkede tilladt cykelsti roligt, før der kom et svar.",
+      "grammarDa": "Verificou er datid."
     }
   ]
 }

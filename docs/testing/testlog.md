@@ -1,5 +1,23 @@
 # Test Log
 
+## 2026-07-22 - Learn Portuguese 3 Content Revision
+
+Learn Portuguese 3 content quality and validation pass.
+
+### Scope
+
+- Rewrote Learn Portuguese 3 lessons to use the requested theme set while keeping all content in `levels/level4` JSON.
+- Checked that each Learn Portuguese 3 lesson has 10 dialogs and each dialog has exactly 10 phrase entries.
+- Added validation for duplicate Portuguese/Danish dialog phrases, repeated fallback/helper phrases, approximately 20-line story texts, grammar/conjugation/common-mistake structure and cautious pharmacy wording.
+- Confirmed that Learn Portuguese 3 still uses the shared JSON schema and the shared navigation engine; no separate Level 3 lesson/dialog/grammar engine was introduced.
+- Adjusted main menu ordering so Children appears after the adult levels, quiz, numbers and documentation.
+
+### Result
+
+Passed `tools/validate_navigation_content.ps1`, full bundled JSON parse validation, encoding/mojibake scan for the revised Learn Portuguese 3 files and documentation, `gradlew.bat tasks` and `gradlew.bat assembleDebug`.
+
+The debug build produced the normal Android Studio debug APK and the manual test copy at `app/build/outputs/manual-debug/LearnPortuguese2Test.apk`.
+
 ## 2026-07-22 - Learn Portuguese 3 JSON Package
 
 Learn Portuguese 3 content package.

@@ -215,11 +215,28 @@ Learn Portuguese 3 continues the shared JSON schema. Since `level3` is Children,
 Each Learn Portuguese 3 lesson must include:
 
 - exactly 10 dialog objects
-- at least one phrase per dialog, with `textPt` and `textDa`
+- exactly 10 original phrase entries per dialog, with `textPt` and `textDa`
 - vocabulary arrays inside dialogs
 - grammar notes in JSON with `titleDa`, `explanationDa`, `conjugation`, `examples`, `notesDa` and `commonMistakes`
 - one `story` array with approximately 20 reading lines
 - quiz questions derived from lesson JSON content: vocabulary, grammar, conjugation, numbers, sentence completion and translation
+
+Each Learn Portuguese 3 dialog should read as a small coherent exchange, not as isolated sentence drills. Avoid repeating the same sentence frame across dialogs. Vary subjects, questions, requests, answers, polite forms and practical problem-solving language. Repeated fallback/helper phrases such as `Obrigado.`, `Muito bem.` or `Repete devagar.` must never be used as lesson dialog content.
+
+The current Learn Portuguese 3 theme set is:
+
+- Biblioteca
+- Café e pastelaria
+- Notícias e informação
+- Câmara municipal
+- Piscina e centro desportivo
+- Roupa para crianças
+- Computador e internet
+- Alugar uma bicicleta
+- Praia
+- Táxi e encontrar o caminho
+
+Pharmacy content belongs inside the shared lesson/dialog schema too. It should use cautious, practical language such as asking for a duty pharmacy, asking whether a prescription is needed, asking about suitability for children, reading package instructions and contacting a doctor when relevant. It must be framed as language-learning support, not medical advice.
 
 The optional `commonMistakes` grammar array uses this shape:
 

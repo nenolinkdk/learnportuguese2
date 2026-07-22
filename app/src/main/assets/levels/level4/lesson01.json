@@ -1,126 +1,176 @@
 {
   "id": 1,
-  "titleDa": "Daglige rutiner",
-  "descriptionDa": "Learn Portuguese 3: daglige rutiner. Træn regelmæssige verber, længere dialoger, ordforråd og en enkel introduktion til pretérito perfeito.",
+  "titleDa": "Biblioteca",
+  "descriptionDa": "Learn Portuguese 3: Bibliotek, lånekort, reserveringer, åbningstider, computere og hjælp ved skranken.",
   "dialogues": [
     {
       "id": 1,
-      "titleDa": "Daglige rutiner: dialog 1",
-      "objectiveDa": "Brug daglige rutiner med nutid, enkel datid og praktisk ordforråd.",
+      "titleDa": "Lånekort",
+      "objectiveDa": "Træn en realistisk mini-dialog om lånekort.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Hoje eu falo em casa.",
-          "textDa": "I dag øver jeg sproget hjemme.",
-          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+          "textPt": "Bom dia, queria tratar do assunto \"lånekort\" sem interromper a fila.",
+          "textDa": "Goddag, jeg vil gerne ordne \"lånekort\" uden at forstyrre køen.",
+          "grammarDa": "Queria er en høflig form."
         },
         {
           "speaker": "B",
-          "textPt": "Ontem eu falei em casa.",
-          "textDa": "I går gjorde jeg det hjemme.",
-          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+          "textPt": "a bibliotecária pergunta se já trouxe documento de identificação.",
+          "textDa": "bibliotekaren spørger, om der allerede er medbragt legitimation.",
+          "grammarDa": "Trouxe er datid af trazer."
         },
         {
           "speaker": "A",
-          "textPt": "Também preciso de falar sobre pequeno-almoço.",
-          "textDa": "Jeg har også brug for at tale om morgenmad.",
-          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+          "textPt": "Ainda não tenho a certeza sobre cartão da biblioteca; pensei que bastava dizer o nome.",
+          "textDa": "Det er jeg ikke sikker på med lånekort; jeg troede, det var nok at sige navnet.",
+          "grammarDa": "Ainda não tenho a certeza varierer svaret."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Para cartão da biblioteca, convém preencher este formulário curto.",
+          "textDa": "Til lånekort er det bedst at udfylde denne korte formular.",
+          "grammarDa": "Convém + infinitiv er en nyttig anbefaling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Pode mostrar-me onde se assina para cartão da biblioteca?",
+          "textDa": "Kan De vise mig, hvor man skriver under til lånekort?",
+          "grammarDa": "Upersonligt se assina."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Assina aqui, e depois nós confirmamos os dados de cartão da biblioteca no sistema.",
+          "textDa": "Der skrives under her, og bagefter bekræfter vi oplysningerne om lånekort i systemet.",
+          "grammarDa": "Nós confirmamos er nutid."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Ontem procurei informação sobre cartão da biblioteca no site, mas a página não abriu.",
+          "textDa": "I går ledte jeg efter information om lånekort på hjemmesiden, men siden åbnede ikke.",
+          "grammarDa": "Procurei og abriu er datid."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Isso aconteceu a outras pessoas; talvez seja melhor tentar neste computador antes de tratar de cartão da biblioteca.",
+          "textDa": "Det skete for andre; måske er det bedre at prøve på denne computer, før lånekort ordnes.",
+          "grammarDa": "Aconteceu er datid."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Então fico aqui mais uns minutos e verifico cartão da biblioteca com calma.",
+          "textDa": "Så bliver jeg her nogle minutter mere og tjekker lånekort roligt.",
+          "grammarDa": "Fico og verifico er nutid."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Quando terminar cartão da biblioteca, entregue o papel no balcão da entrada.",
+          "textDa": "Når De er færdig med lånekort, aflever papiret ved skranken ved indgangen.",
+          "grammarDa": "Entregue er høflig opfordring."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "pequeno-almoço",
-          "textDa": "morgenmad"
+          "textPt": "cartão da biblioteca",
+          "textDa": "lånekort"
         },
         {
-          "textPt": "horário",
-          "textDa": "tidsskema"
+          "textPt": "documento de identificação",
+          "textDa": "legitimation"
         },
         {
-          "textPt": "amanhã",
-          "textDa": "i morgen"
+          "textPt": "a bibliotecária",
+          "textDa": "bibliotekaren"
+        },
+        {
+          "textPt": "confirmar",
+          "textDa": "at bekræfte"
+        },
+        {
+          "textPt": "talvez",
+          "textDa": "måske"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber: falar",
-          "explanationDa": "Denne lektion bruger falar og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
-          "verb": "falar",
+          "titleDa": "Regelmæssige verber i Biblioteca",
+          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
+          "verb": "procurar",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "falo"
+              "form": "procuro"
             },
             {
               "subject": "tu (presente)",
-              "form": "falas"
+              "form": "procuras"
             },
             {
-              "subject": "ele/ela (presente)",
-              "form": "fala"
+              "subject": "ele/ela/você (presente)",
+              "form": "procura"
             },
             {
               "subject": "nós (presente)",
-              "form": "falamos"
+              "form": "procuramos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "falam"
+              "form": "procuram"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "falam"
+              "form": "procuram"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "falei"
+              "form": "procurei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "falaste"
+              "form": "procuraste"
             },
             {
-              "subject": "ele/ela (pretérito perfeito)",
-              "form": "falou"
+              "subject": "ele/ela/você (pretérito perfeito)",
+              "form": "procurou"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "falámos"
+              "form": "procurámos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "falaram"
+              "form": "procuraram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "falaram"
+              "form": "procuraram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje eu falo em casa.",
-              "da": "I dag øver jeg sproget hjemme."
+              "pt": "Hoje nós procuramos vocabulário útil.",
+              "da": "I dag øver vi nyttigt ordforråd."
             },
             {
-              "pt": "Ontem eu falei em casa.",
-              "da": "I går gjorde jeg det hjemme."
+              "pt": "Ontem a funcionária procurou a situação.",
+              "da": "I går forklarede medarbejderen situationen."
             },
             {
-              "pt": "Nós praticamos vocabulário novo.",
-              "da": "Vi øver nyt ordforråd."
+              "pt": "Talvez seja melhor confirmar antes de sair.",
+              "da": "Måske er det bedre at bekræfte, før man går."
             }
           ],
-          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
           "commonMistakes": [
             {
-              "wrong": "Ontem eu falo.",
-              "correct": "Ontem eu falei.",
-              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+              "wrong": "Ontem nós procura o livro.",
+              "correct": "Ontem nós procurámos o livro.",
+              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
             },
             {
-              "wrong": "Eu falei todos os dias.",
-              "correct": "Eu falo todos os dias.",
-              "noteDa": "Brug nutid ved vaner og rutiner."
+              "wrong": "Você aluguei a bicicleta?",
+              "correct": "Você alugou a bicicleta?",
+              "noteDa": "Você bruger tredje person ental."
             }
           ]
         }
@@ -128,122 +178,172 @@
     },
     {
       "id": 2,
-      "titleDa": "Daglige rutiner: dialog 2",
-      "objectiveDa": "Brug daglige rutiner med nutid, enkel datid og praktisk ordforråd.",
+      "titleDa": "Låne en roman",
+      "objectiveDa": "Træn en realistisk mini-dialog om låne en roman.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Hoje eu falo em casa.",
-          "textDa": "I dag øver jeg sproget hjemme.",
-          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+          "textPt": "Bom dia, queria tratar do assunto \"låne en roman\" sem interromper a fila.",
+          "textDa": "Goddag, jeg vil gerne ordne \"låne en roman\" uden at forstyrre køen.",
+          "grammarDa": "Queria er en høflig form."
         },
         {
           "speaker": "B",
-          "textPt": "Ontem eu falei em casa.",
-          "textDa": "I går gjorde jeg det hjemme.",
-          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+          "textPt": "o leitor pergunta se já trouxe duas semanas.",
+          "textDa": "læseren spørger, om der allerede er medbragt to uger.",
+          "grammarDa": "Trouxe er datid af trazer."
         },
         {
           "speaker": "A",
-          "textPt": "Também preciso de falar sobre horário.",
-          "textDa": "Jeg har også brug for at tale om tidsskema.",
-          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+          "textPt": "Ainda não tenho a certeza sobre romance português; pensei que bastava dizer o nome.",
+          "textDa": "Det er jeg ikke sikker på med portugisisk roman; jeg troede, det var nok at sige navnet.",
+          "grammarDa": "Ainda não tenho a certeza varierer svaret."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Para romance português, convém preencher este formulário curto.",
+          "textDa": "Til portugisisk roman er det bedst at udfylde denne korte formular.",
+          "grammarDa": "Convém + infinitiv er en nyttig anbefaling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Pode mostrar-me onde se assina para romance português?",
+          "textDa": "Kan De vise mig, hvor man skriver under til portugisisk roman?",
+          "grammarDa": "Upersonligt se assina."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Assina aqui, e depois nós confirmamos os dados de romance português no sistema.",
+          "textDa": "Der skrives under her, og bagefter bekræfter vi oplysningerne om portugisisk roman i systemet.",
+          "grammarDa": "Nós confirmamos er nutid."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Ontem procurei informação sobre romance português no site, mas a página não abriu.",
+          "textDa": "I går ledte jeg efter information om portugisisk roman på hjemmesiden, men siden åbnede ikke.",
+          "grammarDa": "Procurei og abriu er datid."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Isso aconteceu a outras pessoas; talvez seja melhor tentar neste computador antes de tratar de romance português.",
+          "textDa": "Det skete for andre; måske er det bedre at prøve på denne computer, før portugisisk roman ordnes.",
+          "grammarDa": "Aconteceu er datid."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Então fico aqui mais uns minutos e verifico romance português com calma.",
+          "textDa": "Så bliver jeg her nogle minutter mere og tjekker portugisisk roman roligt.",
+          "grammarDa": "Fico og verifico er nutid."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Quando terminar romance português, entregue o papel no balcão da entrada.",
+          "textDa": "Når De er færdig med portugisisk roman, aflever papiret ved skranken ved indgangen.",
+          "grammarDa": "Entregue er høflig opfordring."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "horário",
-          "textDa": "tidsskema"
+          "textPt": "romance português",
+          "textDa": "portugisisk roman"
         },
         {
-          "textPt": "amanhã",
-          "textDa": "i morgen"
+          "textPt": "duas semanas",
+          "textDa": "to uger"
         },
         {
-          "textPt": "ontem",
-          "textDa": "i går"
+          "textPt": "o leitor",
+          "textDa": "læseren"
+        },
+        {
+          "textPt": "confirmar",
+          "textDa": "at bekræfte"
+        },
+        {
+          "textPt": "talvez",
+          "textDa": "måske"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber: falar",
-          "explanationDa": "Denne lektion bruger falar og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
-          "verb": "falar",
+          "titleDa": "Regelmæssige verber i Biblioteca",
+          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
+          "verb": "procurar",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "falo"
+              "form": "procuro"
             },
             {
               "subject": "tu (presente)",
-              "form": "falas"
+              "form": "procuras"
             },
             {
-              "subject": "ele/ela (presente)",
-              "form": "fala"
+              "subject": "ele/ela/você (presente)",
+              "form": "procura"
             },
             {
               "subject": "nós (presente)",
-              "form": "falamos"
+              "form": "procuramos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "falam"
+              "form": "procuram"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "falam"
+              "form": "procuram"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "falei"
+              "form": "procurei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "falaste"
+              "form": "procuraste"
             },
             {
-              "subject": "ele/ela (pretérito perfeito)",
-              "form": "falou"
+              "subject": "ele/ela/você (pretérito perfeito)",
+              "form": "procurou"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "falámos"
+              "form": "procurámos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "falaram"
+              "form": "procuraram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "falaram"
+              "form": "procuraram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje eu falo em casa.",
-              "da": "I dag øver jeg sproget hjemme."
+              "pt": "Hoje nós procuramos vocabulário útil.",
+              "da": "I dag øver vi nyttigt ordforråd."
             },
             {
-              "pt": "Ontem eu falei em casa.",
-              "da": "I går gjorde jeg det hjemme."
+              "pt": "Ontem a funcionária procurou a situação.",
+              "da": "I går forklarede medarbejderen situationen."
             },
             {
-              "pt": "Nós praticamos vocabulário novo.",
-              "da": "Vi øver nyt ordforråd."
+              "pt": "Talvez seja melhor confirmar antes de sair.",
+              "da": "Måske er det bedre at bekræfte, før man går."
             }
           ],
-          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
           "commonMistakes": [
             {
-              "wrong": "Ontem eu falo.",
-              "correct": "Ontem eu falei.",
-              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+              "wrong": "Ontem nós procura o livro.",
+              "correct": "Ontem nós procurámos o livro.",
+              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
             },
             {
-              "wrong": "Eu falei todos os dias.",
-              "correct": "Eu falo todos os dias.",
-              "noteDa": "Brug nutid ved vaner og rutiner."
+              "wrong": "Você aluguei a bicicleta?",
+              "correct": "Você alugou a bicicleta?",
+              "noteDa": "Você bruger tredje person ental."
             }
           ]
         }
@@ -251,122 +351,172 @@
     },
     {
       "id": 3,
-      "titleDa": "Daglige rutiner: dialog 3",
-      "objectiveDa": "Brug daglige rutiner med nutid, enkel datid og praktisk ordforråd.",
+      "titleDa": "Aflevere for sent",
+      "objectiveDa": "Træn en realistisk mini-dialog om aflevere for sent.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Hoje eu falo em casa.",
-          "textDa": "I dag øver jeg sproget hjemme.",
-          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+          "textPt": "Bom dia, queria tratar do assunto \"aflevere for sent\" sem interromper a fila.",
+          "textDa": "Goddag, jeg vil gerne ordne \"aflevere for sent\" uden at forstyrre køen.",
+          "grammarDa": "Queria er en høflig form."
         },
         {
           "speaker": "B",
-          "textPt": "Ontem eu falei em casa.",
-          "textDa": "I går gjorde jeg det hjemme.",
-          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+          "textPt": "a funcionária pergunta se já trouxe pequena multa.",
+          "textDa": "medarbejderen spørger, om der allerede er medbragt lille bøde.",
+          "grammarDa": "Trouxe er datid af trazer."
         },
         {
           "speaker": "A",
-          "textPt": "Também preciso de falar sobre amanhã.",
-          "textDa": "Jeg har også brug for at tale om i morgen.",
-          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+          "textPt": "Ainda não tenho a certeza sobre livro atrasado; pensei que bastava dizer o nome.",
+          "textDa": "Det er jeg ikke sikker på med forsinket bog; jeg troede, det var nok at sige navnet.",
+          "grammarDa": "Ainda não tenho a certeza varierer svaret."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Para livro atrasado, convém preencher este formulário curto.",
+          "textDa": "Til forsinket bog er det bedst at udfylde denne korte formular.",
+          "grammarDa": "Convém + infinitiv er en nyttig anbefaling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Pode mostrar-me onde se assina para livro atrasado?",
+          "textDa": "Kan De vise mig, hvor man skriver under til forsinket bog?",
+          "grammarDa": "Upersonligt se assina."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Assina aqui, e depois nós confirmamos os dados de livro atrasado no sistema.",
+          "textDa": "Der skrives under her, og bagefter bekræfter vi oplysningerne om forsinket bog i systemet.",
+          "grammarDa": "Nós confirmamos er nutid."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Ontem procurei informação sobre livro atrasado no site, mas a página não abriu.",
+          "textDa": "I går ledte jeg efter information om forsinket bog på hjemmesiden, men siden åbnede ikke.",
+          "grammarDa": "Procurei og abriu er datid."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Isso aconteceu a outras pessoas; talvez seja melhor tentar neste computador antes de tratar de livro atrasado.",
+          "textDa": "Det skete for andre; måske er det bedre at prøve på denne computer, før forsinket bog ordnes.",
+          "grammarDa": "Aconteceu er datid."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Então fico aqui mais uns minutos e verifico livro atrasado com calma.",
+          "textDa": "Så bliver jeg her nogle minutter mere og tjekker forsinket bog roligt.",
+          "grammarDa": "Fico og verifico er nutid."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Quando terminar livro atrasado, entregue o papel no balcão da entrada.",
+          "textDa": "Når De er færdig med forsinket bog, aflever papiret ved skranken ved indgangen.",
+          "grammarDa": "Entregue er høflig opfordring."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "amanhã",
-          "textDa": "i morgen"
+          "textPt": "livro atrasado",
+          "textDa": "forsinket bog"
         },
         {
-          "textPt": "ontem",
-          "textDa": "i går"
+          "textPt": "pequena multa",
+          "textDa": "lille bøde"
         },
         {
-          "textPt": "semana",
-          "textDa": "uge"
+          "textPt": "a funcionária",
+          "textDa": "medarbejderen"
+        },
+        {
+          "textPt": "confirmar",
+          "textDa": "at bekræfte"
+        },
+        {
+          "textPt": "talvez",
+          "textDa": "måske"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber: falar",
-          "explanationDa": "Denne lektion bruger falar og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
-          "verb": "falar",
+          "titleDa": "Regelmæssige verber i Biblioteca",
+          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
+          "verb": "procurar",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "falo"
+              "form": "procuro"
             },
             {
               "subject": "tu (presente)",
-              "form": "falas"
+              "form": "procuras"
             },
             {
-              "subject": "ele/ela (presente)",
-              "form": "fala"
+              "subject": "ele/ela/você (presente)",
+              "form": "procura"
             },
             {
               "subject": "nós (presente)",
-              "form": "falamos"
+              "form": "procuramos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "falam"
+              "form": "procuram"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "falam"
+              "form": "procuram"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "falei"
+              "form": "procurei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "falaste"
+              "form": "procuraste"
             },
             {
-              "subject": "ele/ela (pretérito perfeito)",
-              "form": "falou"
+              "subject": "ele/ela/você (pretérito perfeito)",
+              "form": "procurou"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "falámos"
+              "form": "procurámos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "falaram"
+              "form": "procuraram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "falaram"
+              "form": "procuraram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje eu falo em casa.",
-              "da": "I dag øver jeg sproget hjemme."
+              "pt": "Hoje nós procuramos vocabulário útil.",
+              "da": "I dag øver vi nyttigt ordforråd."
             },
             {
-              "pt": "Ontem eu falei em casa.",
-              "da": "I går gjorde jeg det hjemme."
+              "pt": "Ontem a funcionária procurou a situação.",
+              "da": "I går forklarede medarbejderen situationen."
             },
             {
-              "pt": "Nós praticamos vocabulário novo.",
-              "da": "Vi øver nyt ordforråd."
+              "pt": "Talvez seja melhor confirmar antes de sair.",
+              "da": "Måske er det bedre at bekræfte, før man går."
             }
           ],
-          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
           "commonMistakes": [
             {
-              "wrong": "Ontem eu falo.",
-              "correct": "Ontem eu falei.",
-              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+              "wrong": "Ontem nós procura o livro.",
+              "correct": "Ontem nós procurámos o livro.",
+              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
             },
             {
-              "wrong": "Eu falei todos os dias.",
-              "correct": "Eu falo todos os dias.",
-              "noteDa": "Brug nutid ved vaner og rutiner."
+              "wrong": "Você aluguei a bicicleta?",
+              "correct": "Você alugou a bicicleta?",
+              "noteDa": "Você bruger tredje person ental."
             }
           ]
         }
@@ -374,122 +524,172 @@
     },
     {
       "id": 4,
-      "titleDa": "Daglige rutiner: dialog 4",
-      "objectiveDa": "Brug daglige rutiner med nutid, enkel datid og praktisk ordforråd.",
+      "titleDa": "Finde en sektion",
+      "objectiveDa": "Træn en realistisk mini-dialog om finde en sektion.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Hoje eu falo em casa.",
-          "textDa": "I dag øver jeg sproget hjemme.",
-          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+          "textPt": "Bom dia, queria tratar do assunto \"finde en sektion\" sem interromper a fila.",
+          "textDa": "Goddag, jeg vil gerne ordne \"finde en sektion\" uden at forstyrre køen.",
+          "grammarDa": "Queria er en høflig form."
         },
         {
           "speaker": "B",
-          "textPt": "Ontem eu falei em casa.",
-          "textDa": "I går gjorde jeg det hjemme.",
-          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+          "textPt": "o funcionário pergunta se já trouxe primeiro andar.",
+          "textDa": "medarbejderen spørger, om der allerede er medbragt første sal.",
+          "grammarDa": "Trouxe er datid af trazer."
         },
         {
           "speaker": "A",
-          "textPt": "Também preciso de falar sobre ontem.",
-          "textDa": "Jeg har også brug for at tale om i går.",
-          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+          "textPt": "Ainda não tenho a certeza sobre secção de viagens; pensei que bastava dizer o nome.",
+          "textDa": "Det er jeg ikke sikker på med rejseafdeling; jeg troede, det var nok at sige navnet.",
+          "grammarDa": "Ainda não tenho a certeza varierer svaret."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Para secção de viagens, convém preencher este formulário curto.",
+          "textDa": "Til rejseafdeling er det bedst at udfylde denne korte formular.",
+          "grammarDa": "Convém + infinitiv er en nyttig anbefaling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Pode mostrar-me onde se assina para secção de viagens?",
+          "textDa": "Kan De vise mig, hvor man skriver under til rejseafdeling?",
+          "grammarDa": "Upersonligt se assina."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Assina aqui, e depois nós confirmamos os dados de secção de viagens no sistema.",
+          "textDa": "Der skrives under her, og bagefter bekræfter vi oplysningerne om rejseafdeling i systemet.",
+          "grammarDa": "Nós confirmamos er nutid."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Ontem procurei informação sobre secção de viagens no site, mas a página não abriu.",
+          "textDa": "I går ledte jeg efter information om rejseafdeling på hjemmesiden, men siden åbnede ikke.",
+          "grammarDa": "Procurei og abriu er datid."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Isso aconteceu a outras pessoas; talvez seja melhor tentar neste computador antes de tratar de secção de viagens.",
+          "textDa": "Det skete for andre; måske er det bedre at prøve på denne computer, før rejseafdeling ordnes.",
+          "grammarDa": "Aconteceu er datid."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Então fico aqui mais uns minutos e verifico secção de viagens com calma.",
+          "textDa": "Så bliver jeg her nogle minutter mere og tjekker rejseafdeling roligt.",
+          "grammarDa": "Fico og verifico er nutid."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Quando terminar secção de viagens, entregue o papel no balcão da entrada.",
+          "textDa": "Når De er færdig med rejseafdeling, aflever papiret ved skranken ved indgangen.",
+          "grammarDa": "Entregue er høflig opfordring."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "ontem",
-          "textDa": "i går"
+          "textPt": "secção de viagens",
+          "textDa": "rejseafdeling"
         },
         {
-          "textPt": "semana",
-          "textDa": "uge"
+          "textPt": "primeiro andar",
+          "textDa": "første sal"
         },
         {
-          "textPt": "mês",
-          "textDa": "måned"
+          "textPt": "o funcionário",
+          "textDa": "medarbejderen"
+        },
+        {
+          "textPt": "confirmar",
+          "textDa": "at bekræfte"
+        },
+        {
+          "textPt": "talvez",
+          "textDa": "måske"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber: falar",
-          "explanationDa": "Denne lektion bruger falar og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
-          "verb": "falar",
+          "titleDa": "Regelmæssige verber i Biblioteca",
+          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
+          "verb": "procurar",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "falo"
+              "form": "procuro"
             },
             {
               "subject": "tu (presente)",
-              "form": "falas"
+              "form": "procuras"
             },
             {
-              "subject": "ele/ela (presente)",
-              "form": "fala"
+              "subject": "ele/ela/você (presente)",
+              "form": "procura"
             },
             {
               "subject": "nós (presente)",
-              "form": "falamos"
+              "form": "procuramos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "falam"
+              "form": "procuram"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "falam"
+              "form": "procuram"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "falei"
+              "form": "procurei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "falaste"
+              "form": "procuraste"
             },
             {
-              "subject": "ele/ela (pretérito perfeito)",
-              "form": "falou"
+              "subject": "ele/ela/você (pretérito perfeito)",
+              "form": "procurou"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "falámos"
+              "form": "procurámos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "falaram"
+              "form": "procuraram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "falaram"
+              "form": "procuraram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje eu falo em casa.",
-              "da": "I dag øver jeg sproget hjemme."
+              "pt": "Hoje nós procuramos vocabulário útil.",
+              "da": "I dag øver vi nyttigt ordforråd."
             },
             {
-              "pt": "Ontem eu falei em casa.",
-              "da": "I går gjorde jeg det hjemme."
+              "pt": "Ontem a funcionária procurou a situação.",
+              "da": "I går forklarede medarbejderen situationen."
             },
             {
-              "pt": "Nós praticamos vocabulário novo.",
-              "da": "Vi øver nyt ordforråd."
+              "pt": "Talvez seja melhor confirmar antes de sair.",
+              "da": "Måske er det bedre at bekræfte, før man går."
             }
           ],
-          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
           "commonMistakes": [
             {
-              "wrong": "Ontem eu falo.",
-              "correct": "Ontem eu falei.",
-              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+              "wrong": "Ontem nós procura o livro.",
+              "correct": "Ontem nós procurámos o livro.",
+              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
             },
             {
-              "wrong": "Eu falei todos os dias.",
-              "correct": "Eu falo todos os dias.",
-              "noteDa": "Brug nutid ved vaner og rutiner."
+              "wrong": "Você aluguei a bicicleta?",
+              "correct": "Você alugou a bicicleta?",
+              "noteDa": "Você bruger tredje person ental."
             }
           ]
         }
@@ -497,122 +697,172 @@
     },
     {
       "id": 5,
-      "titleDa": "Daglige rutiner: dialog 5",
-      "objectiveDa": "Brug daglige rutiner med nutid, enkel datid og praktisk ordforråd.",
+      "titleDa": "Reservere en titel",
+      "objectiveDa": "Træn en realistisk mini-dialog om reservere en titel.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Hoje eu falo em casa.",
-          "textDa": "I dag øver jeg sproget hjemme.",
-          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+          "textPt": "Bom dia, queria tratar do assunto \"reservere en titel\" sem interromper a fila.",
+          "textDa": "Goddag, jeg vil gerne ordne \"reservere en titel\" uden at forstyrre køen.",
+          "grammarDa": "Queria er en høflig form."
         },
         {
           "speaker": "B",
-          "textPt": "Ontem eu falei em casa.",
-          "textDa": "I går gjorde jeg det hjemme.",
-          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+          "textPt": "a senhora pergunta se já trouxe mensagem no telemóvel.",
+          "textDa": "damen spørger, om der allerede er medbragt besked på mobilen.",
+          "grammarDa": "Trouxe er datid af trazer."
         },
         {
           "speaker": "A",
-          "textPt": "Também preciso de falar sobre semana.",
-          "textDa": "Jeg har også brug for at tale om uge.",
-          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+          "textPt": "Ainda não tenho a certeza sobre título reservado; pensei que bastava dizer o nome.",
+          "textDa": "Det er jeg ikke sikker på med reserveret titel; jeg troede, det var nok at sige navnet.",
+          "grammarDa": "Ainda não tenho a certeza varierer svaret."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Para título reservado, convém preencher este formulário curto.",
+          "textDa": "Til reserveret titel er det bedst at udfylde denne korte formular.",
+          "grammarDa": "Convém + infinitiv er en nyttig anbefaling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Pode mostrar-me onde se assina para título reservado?",
+          "textDa": "Kan De vise mig, hvor man skriver under til reserveret titel?",
+          "grammarDa": "Upersonligt se assina."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Assina aqui, e depois nós confirmamos os dados de título reservado no sistema.",
+          "textDa": "Der skrives under her, og bagefter bekræfter vi oplysningerne om reserveret titel i systemet.",
+          "grammarDa": "Nós confirmamos er nutid."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Ontem procurei informação sobre título reservado no site, mas a página não abriu.",
+          "textDa": "I går ledte jeg efter information om reserveret titel på hjemmesiden, men siden åbnede ikke.",
+          "grammarDa": "Procurei og abriu er datid."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Isso aconteceu a outras pessoas; talvez seja melhor tentar neste computador antes de tratar de título reservado.",
+          "textDa": "Det skete for andre; måske er det bedre at prøve på denne computer, før reserveret titel ordnes.",
+          "grammarDa": "Aconteceu er datid."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Então fico aqui mais uns minutos e verifico título reservado com calma.",
+          "textDa": "Så bliver jeg her nogle minutter mere og tjekker reserveret titel roligt.",
+          "grammarDa": "Fico og verifico er nutid."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Quando terminar título reservado, entregue o papel no balcão da entrada.",
+          "textDa": "Når De er færdig med reserveret titel, aflever papiret ved skranken ved indgangen.",
+          "grammarDa": "Entregue er høflig opfordring."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "semana",
-          "textDa": "uge"
+          "textPt": "título reservado",
+          "textDa": "reserveret titel"
         },
         {
-          "textPt": "mês",
-          "textDa": "måned"
+          "textPt": "mensagem no telemóvel",
+          "textDa": "besked på mobilen"
         },
         {
-          "textPt": "direita",
-          "textDa": "højre"
+          "textPt": "a senhora",
+          "textDa": "damen"
+        },
+        {
+          "textPt": "confirmar",
+          "textDa": "at bekræfte"
+        },
+        {
+          "textPt": "talvez",
+          "textDa": "måske"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber: falar",
-          "explanationDa": "Denne lektion bruger falar og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
-          "verb": "falar",
+          "titleDa": "Regelmæssige verber i Biblioteca",
+          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
+          "verb": "procurar",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "falo"
+              "form": "procuro"
             },
             {
               "subject": "tu (presente)",
-              "form": "falas"
+              "form": "procuras"
             },
             {
-              "subject": "ele/ela (presente)",
-              "form": "fala"
+              "subject": "ele/ela/você (presente)",
+              "form": "procura"
             },
             {
               "subject": "nós (presente)",
-              "form": "falamos"
+              "form": "procuramos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "falam"
+              "form": "procuram"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "falam"
+              "form": "procuram"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "falei"
+              "form": "procurei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "falaste"
+              "form": "procuraste"
             },
             {
-              "subject": "ele/ela (pretérito perfeito)",
-              "form": "falou"
+              "subject": "ele/ela/você (pretérito perfeito)",
+              "form": "procurou"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "falámos"
+              "form": "procurámos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "falaram"
+              "form": "procuraram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "falaram"
+              "form": "procuraram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje eu falo em casa.",
-              "da": "I dag øver jeg sproget hjemme."
+              "pt": "Hoje nós procuramos vocabulário útil.",
+              "da": "I dag øver vi nyttigt ordforråd."
             },
             {
-              "pt": "Ontem eu falei em casa.",
-              "da": "I går gjorde jeg det hjemme."
+              "pt": "Ontem a funcionária procurou a situação.",
+              "da": "I går forklarede medarbejderen situationen."
             },
             {
-              "pt": "Nós praticamos vocabulário novo.",
-              "da": "Vi øver nyt ordforråd."
+              "pt": "Talvez seja melhor confirmar antes de sair.",
+              "da": "Måske er det bedre at bekræfte, før man går."
             }
           ],
-          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
           "commonMistakes": [
             {
-              "wrong": "Ontem eu falo.",
-              "correct": "Ontem eu falei.",
-              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+              "wrong": "Ontem nós procura o livro.",
+              "correct": "Ontem nós procurámos o livro.",
+              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
             },
             {
-              "wrong": "Eu falei todos os dias.",
-              "correct": "Eu falo todos os dias.",
-              "noteDa": "Brug nutid ved vaner og rutiner."
+              "wrong": "Você aluguei a bicicleta?",
+              "correct": "Você alugou a bicicleta?",
+              "noteDa": "Você bruger tredje person ental."
             }
           ]
         }
@@ -620,122 +870,172 @@
     },
     {
       "id": 6,
-      "titleDa": "Daglige rutiner: dialog 6",
-      "objectiveDa": "Brug daglige rutiner med nutid, enkel datid og praktisk ordforråd.",
+      "titleDa": "Bruge computer",
+      "objectiveDa": "Træn en realistisk mini-dialog om bruge computer.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Hoje eu falo em casa.",
-          "textDa": "I dag øver jeg sproget hjemme.",
-          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+          "textPt": "Bom dia, queria tratar do assunto \"bruge computer\" sem interromper a fila.",
+          "textDa": "Goddag, jeg vil gerne ordne \"bruge computer\" uden at forstyrre køen.",
+          "grammarDa": "Queria er en høflig form."
         },
         {
           "speaker": "B",
-          "textPt": "Ontem eu falei em casa.",
-          "textDa": "I går gjorde jeg det hjemme.",
-          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+          "textPt": "o utilizador pergunta se já trouxe trinta minutos.",
+          "textDa": "brugeren spørger, om der allerede er medbragt tredive minutter.",
+          "grammarDa": "Trouxe er datid af trazer."
         },
         {
           "speaker": "A",
-          "textPt": "Também preciso de falar sobre mês.",
-          "textDa": "Jeg har også brug for at tale om måned.",
-          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+          "textPt": "Ainda não tenho a certeza sobre computador público; pensei que bastava dizer o nome.",
+          "textDa": "Det er jeg ikke sikker på med offentlig computer; jeg troede, det var nok at sige navnet.",
+          "grammarDa": "Ainda não tenho a certeza varierer svaret."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Para computador público, convém preencher este formulário curto.",
+          "textDa": "Til offentlig computer er det bedst at udfylde denne korte formular.",
+          "grammarDa": "Convém + infinitiv er en nyttig anbefaling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Pode mostrar-me onde se assina para computador público?",
+          "textDa": "Kan De vise mig, hvor man skriver under til offentlig computer?",
+          "grammarDa": "Upersonligt se assina."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Assina aqui, e depois nós confirmamos os dados de computador público no sistema.",
+          "textDa": "Der skrives under her, og bagefter bekræfter vi oplysningerne om offentlig computer i systemet.",
+          "grammarDa": "Nós confirmamos er nutid."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Ontem procurei informação sobre computador público no site, mas a página não abriu.",
+          "textDa": "I går ledte jeg efter information om offentlig computer på hjemmesiden, men siden åbnede ikke.",
+          "grammarDa": "Procurei og abriu er datid."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Isso aconteceu a outras pessoas; talvez seja melhor tentar neste computador antes de tratar de computador público.",
+          "textDa": "Det skete for andre; måske er det bedre at prøve på denne computer, før offentlig computer ordnes.",
+          "grammarDa": "Aconteceu er datid."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Então fico aqui mais uns minutos e verifico computador público com calma.",
+          "textDa": "Så bliver jeg her nogle minutter mere og tjekker offentlig computer roligt.",
+          "grammarDa": "Fico og verifico er nutid."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Quando terminar computador público, entregue o papel no balcão da entrada.",
+          "textDa": "Når De er færdig med offentlig computer, aflever papiret ved skranken ved indgangen.",
+          "grammarDa": "Entregue er høflig opfordring."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "mês",
-          "textDa": "måned"
+          "textPt": "computador público",
+          "textDa": "offentlig computer"
         },
         {
-          "textPt": "direita",
-          "textDa": "højre"
+          "textPt": "trinta minutos",
+          "textDa": "tredive minutter"
         },
         {
-          "textPt": "esquerda",
-          "textDa": "venstre"
+          "textPt": "o utilizador",
+          "textDa": "brugeren"
+        },
+        {
+          "textPt": "confirmar",
+          "textDa": "at bekræfte"
+        },
+        {
+          "textPt": "talvez",
+          "textDa": "måske"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber: falar",
-          "explanationDa": "Denne lektion bruger falar og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
-          "verb": "falar",
+          "titleDa": "Regelmæssige verber i Biblioteca",
+          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
+          "verb": "procurar",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "falo"
+              "form": "procuro"
             },
             {
               "subject": "tu (presente)",
-              "form": "falas"
+              "form": "procuras"
             },
             {
-              "subject": "ele/ela (presente)",
-              "form": "fala"
+              "subject": "ele/ela/você (presente)",
+              "form": "procura"
             },
             {
               "subject": "nós (presente)",
-              "form": "falamos"
+              "form": "procuramos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "falam"
+              "form": "procuram"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "falam"
+              "form": "procuram"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "falei"
+              "form": "procurei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "falaste"
+              "form": "procuraste"
             },
             {
-              "subject": "ele/ela (pretérito perfeito)",
-              "form": "falou"
+              "subject": "ele/ela/você (pretérito perfeito)",
+              "form": "procurou"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "falámos"
+              "form": "procurámos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "falaram"
+              "form": "procuraram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "falaram"
+              "form": "procuraram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje eu falo em casa.",
-              "da": "I dag øver jeg sproget hjemme."
+              "pt": "Hoje nós procuramos vocabulário útil.",
+              "da": "I dag øver vi nyttigt ordforråd."
             },
             {
-              "pt": "Ontem eu falei em casa.",
-              "da": "I går gjorde jeg det hjemme."
+              "pt": "Ontem a funcionária procurou a situação.",
+              "da": "I går forklarede medarbejderen situationen."
             },
             {
-              "pt": "Nós praticamos vocabulário novo.",
-              "da": "Vi øver nyt ordforråd."
+              "pt": "Talvez seja melhor confirmar antes de sair.",
+              "da": "Måske er det bedre at bekræfte, før man går."
             }
           ],
-          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
           "commonMistakes": [
             {
-              "wrong": "Ontem eu falo.",
-              "correct": "Ontem eu falei.",
-              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+              "wrong": "Ontem nós procura o livro.",
+              "correct": "Ontem nós procurámos o livro.",
+              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
             },
             {
-              "wrong": "Eu falei todos os dias.",
-              "correct": "Eu falo todos os dias.",
-              "noteDa": "Brug nutid ved vaner og rutiner."
+              "wrong": "Você aluguei a bicicleta?",
+              "correct": "Você alugou a bicicleta?",
+              "noteDa": "Você bruger tredje person ental."
             }
           ]
         }
@@ -743,122 +1043,172 @@
     },
     {
       "id": 7,
-      "titleDa": "Daglige rutiner: dialog 7",
-      "objectiveDa": "Brug daglige rutiner med nutid, enkel datid og praktisk ordforråd.",
+      "titleDa": "Åbningstider",
+      "objectiveDa": "Træn en realistisk mini-dialog om åbningstider.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Hoje eu falo em casa.",
-          "textDa": "I dag øver jeg sproget hjemme.",
-          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+          "textPt": "Bom dia, queria tratar do assunto \"åbningstider\" sem interromper a fila.",
+          "textDa": "Goddag, jeg vil gerne ordne \"åbningstider\" uden at forstyrre køen.",
+          "grammarDa": "Queria er en høflig form."
         },
         {
           "speaker": "B",
-          "textPt": "Ontem eu falei em casa.",
-          "textDa": "I går gjorde jeg det hjemme.",
-          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+          "textPt": "a bibliotecária pergunta se já trouxe fecha às seis.",
+          "textDa": "bibliotekaren spørger, om der allerede er medbragt lukker klokken seks.",
+          "grammarDa": "Trouxe er datid af trazer."
         },
         {
           "speaker": "A",
-          "textPt": "Também preciso de falar sobre direita.",
-          "textDa": "Jeg har også brug for at tale om højre.",
-          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+          "textPt": "Ainda não tenho a certeza sobre horário de sábado; pensei que bastava dizer o nome.",
+          "textDa": "Det er jeg ikke sikker på med lørdagsåbningstid; jeg troede, det var nok at sige navnet.",
+          "grammarDa": "Ainda não tenho a certeza varierer svaret."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Para horário de sábado, convém preencher este formulário curto.",
+          "textDa": "Til lørdagsåbningstid er det bedst at udfylde denne korte formular.",
+          "grammarDa": "Convém + infinitiv er en nyttig anbefaling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Pode mostrar-me onde se assina para horário de sábado?",
+          "textDa": "Kan De vise mig, hvor man skriver under til lørdagsåbningstid?",
+          "grammarDa": "Upersonligt se assina."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Assina aqui, e depois nós confirmamos os dados de horário de sábado no sistema.",
+          "textDa": "Der skrives under her, og bagefter bekræfter vi oplysningerne om lørdagsåbningstid i systemet.",
+          "grammarDa": "Nós confirmamos er nutid."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Ontem procurei informação sobre horário de sábado no site, mas a página não abriu.",
+          "textDa": "I går ledte jeg efter information om lørdagsåbningstid på hjemmesiden, men siden åbnede ikke.",
+          "grammarDa": "Procurei og abriu er datid."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Isso aconteceu a outras pessoas; talvez seja melhor tentar neste computador antes de tratar de horário de sábado.",
+          "textDa": "Det skete for andre; måske er det bedre at prøve på denne computer, før lørdagsåbningstid ordnes.",
+          "grammarDa": "Aconteceu er datid."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Então fico aqui mais uns minutos e verifico horário de sábado com calma.",
+          "textDa": "Så bliver jeg her nogle minutter mere og tjekker lørdagsåbningstid roligt.",
+          "grammarDa": "Fico og verifico er nutid."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Quando terminar horário de sábado, entregue o papel no balcão da entrada.",
+          "textDa": "Når De er færdig med lørdagsåbningstid, aflever papiret ved skranken ved indgangen.",
+          "grammarDa": "Entregue er høflig opfordring."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "direita",
-          "textDa": "højre"
+          "textPt": "horário de sábado",
+          "textDa": "lørdagsåbningstid"
         },
         {
-          "textPt": "esquerda",
-          "textDa": "venstre"
+          "textPt": "fecha às seis",
+          "textDa": "lukker klokken seks"
         },
         {
-          "textPt": "tempo",
-          "textDa": "vejr/tid"
+          "textPt": "a bibliotecária",
+          "textDa": "bibliotekaren"
+        },
+        {
+          "textPt": "confirmar",
+          "textDa": "at bekræfte"
+        },
+        {
+          "textPt": "talvez",
+          "textDa": "måske"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber: falar",
-          "explanationDa": "Denne lektion bruger falar og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
-          "verb": "falar",
+          "titleDa": "Regelmæssige verber i Biblioteca",
+          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
+          "verb": "procurar",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "falo"
+              "form": "procuro"
             },
             {
               "subject": "tu (presente)",
-              "form": "falas"
+              "form": "procuras"
             },
             {
-              "subject": "ele/ela (presente)",
-              "form": "fala"
+              "subject": "ele/ela/você (presente)",
+              "form": "procura"
             },
             {
               "subject": "nós (presente)",
-              "form": "falamos"
+              "form": "procuramos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "falam"
+              "form": "procuram"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "falam"
+              "form": "procuram"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "falei"
+              "form": "procurei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "falaste"
+              "form": "procuraste"
             },
             {
-              "subject": "ele/ela (pretérito perfeito)",
-              "form": "falou"
+              "subject": "ele/ela/você (pretérito perfeito)",
+              "form": "procurou"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "falámos"
+              "form": "procurámos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "falaram"
+              "form": "procuraram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "falaram"
+              "form": "procuraram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje eu falo em casa.",
-              "da": "I dag øver jeg sproget hjemme."
+              "pt": "Hoje nós procuramos vocabulário útil.",
+              "da": "I dag øver vi nyttigt ordforråd."
             },
             {
-              "pt": "Ontem eu falei em casa.",
-              "da": "I går gjorde jeg det hjemme."
+              "pt": "Ontem a funcionária procurou a situação.",
+              "da": "I går forklarede medarbejderen situationen."
             },
             {
-              "pt": "Nós praticamos vocabulário novo.",
-              "da": "Vi øver nyt ordforråd."
+              "pt": "Talvez seja melhor confirmar antes de sair.",
+              "da": "Måske er det bedre at bekræfte, før man går."
             }
           ],
-          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
           "commonMistakes": [
             {
-              "wrong": "Ontem eu falo.",
-              "correct": "Ontem eu falei.",
-              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+              "wrong": "Ontem nós procura o livro.",
+              "correct": "Ontem nós procurámos o livro.",
+              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
             },
             {
-              "wrong": "Eu falei todos os dias.",
-              "correct": "Eu falo todos os dias.",
-              "noteDa": "Brug nutid ved vaner og rutiner."
+              "wrong": "Você aluguei a bicicleta?",
+              "correct": "Você alugou a bicicleta?",
+              "noteDa": "Você bruger tredje person ental."
             }
           ]
         }
@@ -866,122 +1216,172 @@
     },
     {
       "id": 8,
-      "titleDa": "Daglige rutiner: dialog 8",
-      "objectiveDa": "Brug daglige rutiner med nutid, enkel datid og praktisk ordforråd.",
+      "titleDa": "Hjælp til katalog",
+      "objectiveDa": "Træn en realistisk mini-dialog om hjælp til katalog.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Hoje eu falo em casa.",
-          "textDa": "I dag øver jeg sproget hjemme.",
-          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+          "textPt": "Bom dia, queria tratar do assunto \"hjælp til katalog\" sem interromper a fila.",
+          "textDa": "Goddag, jeg vil gerne ordne \"hjælp til katalog\" uden at forstyrre køen.",
+          "grammarDa": "Queria er en høflig form."
         },
         {
           "speaker": "B",
-          "textPt": "Ontem eu falei em casa.",
-          "textDa": "I går gjorde jeg det hjemme.",
-          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+          "textPt": "o estudante pergunta se já trouxe nome do autor.",
+          "textDa": "den studerende spørger, om der allerede er medbragt forfatterens navn.",
+          "grammarDa": "Trouxe er datid af trazer."
         },
         {
           "speaker": "A",
-          "textPt": "Também preciso de falar sobre esquerda.",
-          "textDa": "Jeg har også brug for at tale om venstre.",
-          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+          "textPt": "Ainda não tenho a certeza sobre catálogo online; pensei que bastava dizer o nome.",
+          "textDa": "Det er jeg ikke sikker på med onlinekatalog; jeg troede, det var nok at sige navnet.",
+          "grammarDa": "Ainda não tenho a certeza varierer svaret."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Para catálogo online, convém preencher este formulário curto.",
+          "textDa": "Til onlinekatalog er det bedst at udfylde denne korte formular.",
+          "grammarDa": "Convém + infinitiv er en nyttig anbefaling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Pode mostrar-me onde se assina para catálogo online?",
+          "textDa": "Kan De vise mig, hvor man skriver under til onlinekatalog?",
+          "grammarDa": "Upersonligt se assina."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Assina aqui, e depois nós confirmamos os dados de catálogo online no sistema.",
+          "textDa": "Der skrives under her, og bagefter bekræfter vi oplysningerne om onlinekatalog i systemet.",
+          "grammarDa": "Nós confirmamos er nutid."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Ontem procurei informação sobre catálogo online no site, mas a página não abriu.",
+          "textDa": "I går ledte jeg efter information om onlinekatalog på hjemmesiden, men siden åbnede ikke.",
+          "grammarDa": "Procurei og abriu er datid."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Isso aconteceu a outras pessoas; talvez seja melhor tentar neste computador antes de tratar de catálogo online.",
+          "textDa": "Det skete for andre; måske er det bedre at prøve på denne computer, før onlinekatalog ordnes.",
+          "grammarDa": "Aconteceu er datid."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Então fico aqui mais uns minutos e verifico catálogo online com calma.",
+          "textDa": "Så bliver jeg her nogle minutter mere og tjekker onlinekatalog roligt.",
+          "grammarDa": "Fico og verifico er nutid."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Quando terminar catálogo online, entregue o papel no balcão da entrada.",
+          "textDa": "Når De er færdig med onlinekatalog, aflever papiret ved skranken ved indgangen.",
+          "grammarDa": "Entregue er høflig opfordring."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "esquerda",
-          "textDa": "venstre"
+          "textPt": "catálogo online",
+          "textDa": "onlinekatalog"
         },
         {
-          "textPt": "tempo",
-          "textDa": "vejr/tid"
+          "textPt": "nome do autor",
+          "textDa": "forfatterens navn"
         },
         {
-          "textPt": "número",
-          "textDa": "tal"
+          "textPt": "o estudante",
+          "textDa": "den studerende"
+        },
+        {
+          "textPt": "confirmar",
+          "textDa": "at bekræfte"
+        },
+        {
+          "textPt": "talvez",
+          "textDa": "måske"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber: falar",
-          "explanationDa": "Denne lektion bruger falar og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
-          "verb": "falar",
+          "titleDa": "Regelmæssige verber i Biblioteca",
+          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
+          "verb": "procurar",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "falo"
+              "form": "procuro"
             },
             {
               "subject": "tu (presente)",
-              "form": "falas"
+              "form": "procuras"
             },
             {
-              "subject": "ele/ela (presente)",
-              "form": "fala"
+              "subject": "ele/ela/você (presente)",
+              "form": "procura"
             },
             {
               "subject": "nós (presente)",
-              "form": "falamos"
+              "form": "procuramos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "falam"
+              "form": "procuram"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "falam"
+              "form": "procuram"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "falei"
+              "form": "procurei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "falaste"
+              "form": "procuraste"
             },
             {
-              "subject": "ele/ela (pretérito perfeito)",
-              "form": "falou"
+              "subject": "ele/ela/você (pretérito perfeito)",
+              "form": "procurou"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "falámos"
+              "form": "procurámos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "falaram"
+              "form": "procuraram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "falaram"
+              "form": "procuraram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje eu falo em casa.",
-              "da": "I dag øver jeg sproget hjemme."
+              "pt": "Hoje nós procuramos vocabulário útil.",
+              "da": "I dag øver vi nyttigt ordforråd."
             },
             {
-              "pt": "Ontem eu falei em casa.",
-              "da": "I går gjorde jeg det hjemme."
+              "pt": "Ontem a funcionária procurou a situação.",
+              "da": "I går forklarede medarbejderen situationen."
             },
             {
-              "pt": "Nós praticamos vocabulário novo.",
-              "da": "Vi øver nyt ordforråd."
+              "pt": "Talvez seja melhor confirmar antes de sair.",
+              "da": "Måske er det bedre at bekræfte, før man går."
             }
           ],
-          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
           "commonMistakes": [
             {
-              "wrong": "Ontem eu falo.",
-              "correct": "Ontem eu falei.",
-              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+              "wrong": "Ontem nós procura o livro.",
+              "correct": "Ontem nós procurámos o livro.",
+              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
             },
             {
-              "wrong": "Eu falei todos os dias.",
-              "correct": "Eu falo todos os dias.",
-              "noteDa": "Brug nutid ved vaner og rutiner."
+              "wrong": "Você aluguei a bicicleta?",
+              "correct": "Você alugou a bicicleta?",
+              "noteDa": "Você bruger tredje person ental."
             }
           ]
         }
@@ -989,122 +1389,172 @@
     },
     {
       "id": 9,
-      "titleDa": "Daglige rutiner: dialog 9",
-      "objectiveDa": "Brug daglige rutiner med nutid, enkel datid og praktisk ordforråd.",
+      "titleDa": "Bog ikke hjemme",
+      "objectiveDa": "Træn en realistisk mini-dialog om bog ikke hjemme.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Hoje eu falo em casa.",
-          "textDa": "I dag øver jeg sproget hjemme.",
-          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+          "textPt": "Bom dia, queria tratar do assunto \"bog ikke hjemme\" sem interromper a fila.",
+          "textDa": "Goddag, jeg vil gerne ordne \"bog ikke hjemme\" uden at forstyrre køen.",
+          "grammarDa": "Queria er en høflig form."
         },
         {
           "speaker": "B",
-          "textPt": "Ontem eu falei em casa.",
-          "textDa": "I går gjorde jeg det hjemme.",
-          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+          "textPt": "a funcionária pergunta se já trouxe lista de espera.",
+          "textDa": "medarbejderen spørger, om der allerede er medbragt venteliste.",
+          "grammarDa": "Trouxe er datid af trazer."
         },
         {
           "speaker": "A",
-          "textPt": "Também preciso de falar sobre tempo.",
-          "textDa": "Jeg har også brug for at tale om vejr/tid.",
-          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+          "textPt": "Ainda não tenho a certeza sobre exemplar emprestado; pensei que bastava dizer o nome.",
+          "textDa": "Det er jeg ikke sikker på med udlånt eksemplar; jeg troede, det var nok at sige navnet.",
+          "grammarDa": "Ainda não tenho a certeza varierer svaret."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Para exemplar emprestado, convém preencher este formulário curto.",
+          "textDa": "Til udlånt eksemplar er det bedst at udfylde denne korte formular.",
+          "grammarDa": "Convém + infinitiv er en nyttig anbefaling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Pode mostrar-me onde se assina para exemplar emprestado?",
+          "textDa": "Kan De vise mig, hvor man skriver under til udlånt eksemplar?",
+          "grammarDa": "Upersonligt se assina."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Assina aqui, e depois nós confirmamos os dados de exemplar emprestado no sistema.",
+          "textDa": "Der skrives under her, og bagefter bekræfter vi oplysningerne om udlånt eksemplar i systemet.",
+          "grammarDa": "Nós confirmamos er nutid."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Ontem procurei informação sobre exemplar emprestado no site, mas a página não abriu.",
+          "textDa": "I går ledte jeg efter information om udlånt eksemplar på hjemmesiden, men siden åbnede ikke.",
+          "grammarDa": "Procurei og abriu er datid."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Isso aconteceu a outras pessoas; talvez seja melhor tentar neste computador antes de tratar de exemplar emprestado.",
+          "textDa": "Det skete for andre; måske er det bedre at prøve på denne computer, før udlånt eksemplar ordnes.",
+          "grammarDa": "Aconteceu er datid."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Então fico aqui mais uns minutos e verifico exemplar emprestado com calma.",
+          "textDa": "Så bliver jeg her nogle minutter mere og tjekker udlånt eksemplar roligt.",
+          "grammarDa": "Fico og verifico er nutid."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Quando terminar exemplar emprestado, entregue o papel no balcão da entrada.",
+          "textDa": "Når De er færdig med udlånt eksemplar, aflever papiret ved skranken ved indgangen.",
+          "grammarDa": "Entregue er høflig opfordring."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "tempo",
-          "textDa": "vejr/tid"
+          "textPt": "exemplar emprestado",
+          "textDa": "udlånt eksemplar"
         },
         {
-          "textPt": "número",
-          "textDa": "tal"
+          "textPt": "lista de espera",
+          "textDa": "venteliste"
         },
         {
-          "textPt": "corpo",
-          "textDa": "krop"
+          "textPt": "a funcionária",
+          "textDa": "medarbejderen"
+        },
+        {
+          "textPt": "confirmar",
+          "textDa": "at bekræfte"
+        },
+        {
+          "textPt": "talvez",
+          "textDa": "måske"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber: falar",
-          "explanationDa": "Denne lektion bruger falar og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
-          "verb": "falar",
+          "titleDa": "Regelmæssige verber i Biblioteca",
+          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
+          "verb": "procurar",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "falo"
+              "form": "procuro"
             },
             {
               "subject": "tu (presente)",
-              "form": "falas"
+              "form": "procuras"
             },
             {
-              "subject": "ele/ela (presente)",
-              "form": "fala"
+              "subject": "ele/ela/você (presente)",
+              "form": "procura"
             },
             {
               "subject": "nós (presente)",
-              "form": "falamos"
+              "form": "procuramos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "falam"
+              "form": "procuram"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "falam"
+              "form": "procuram"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "falei"
+              "form": "procurei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "falaste"
+              "form": "procuraste"
             },
             {
-              "subject": "ele/ela (pretérito perfeito)",
-              "form": "falou"
+              "subject": "ele/ela/você (pretérito perfeito)",
+              "form": "procurou"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "falámos"
+              "form": "procurámos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "falaram"
+              "form": "procuraram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "falaram"
+              "form": "procuraram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje eu falo em casa.",
-              "da": "I dag øver jeg sproget hjemme."
+              "pt": "Hoje nós procuramos vocabulário útil.",
+              "da": "I dag øver vi nyttigt ordforråd."
             },
             {
-              "pt": "Ontem eu falei em casa.",
-              "da": "I går gjorde jeg det hjemme."
+              "pt": "Ontem a funcionária procurou a situação.",
+              "da": "I går forklarede medarbejderen situationen."
             },
             {
-              "pt": "Nós praticamos vocabulário novo.",
-              "da": "Vi øver nyt ordforråd."
+              "pt": "Talvez seja melhor confirmar antes de sair.",
+              "da": "Måske er det bedre at bekræfte, før man går."
             }
           ],
-          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
           "commonMistakes": [
             {
-              "wrong": "Ontem eu falo.",
-              "correct": "Ontem eu falei.",
-              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+              "wrong": "Ontem nós procura o livro.",
+              "correct": "Ontem nós procurámos o livro.",
+              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
             },
             {
-              "wrong": "Eu falei todos os dias.",
-              "correct": "Eu falo todos os dias.",
-              "noteDa": "Brug nutid ved vaner og rutiner."
+              "wrong": "Você aluguei a bicicleta?",
+              "correct": "Você alugou a bicicleta?",
+              "noteDa": "Você bruger tredje person ental."
             }
           ]
         }
@@ -1112,122 +1562,172 @@
     },
     {
       "id": 10,
-      "titleDa": "Daglige rutiner: dialog 10",
-      "objectiveDa": "Brug daglige rutiner med nutid, enkel datid og praktisk ordforråd.",
+      "titleDa": "Stille læsesal",
+      "objectiveDa": "Træn en realistisk mini-dialog om stille læsesal.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Hoje eu falo em casa.",
-          "textDa": "I dag øver jeg sproget hjemme.",
-          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+          "textPt": "Bom dia, queria tratar do assunto \"stille læsesal\" sem interromper a fila.",
+          "textDa": "Goddag, jeg vil gerne ordne \"stille læsesal\" uden at forstyrre køen.",
+          "grammarDa": "Queria er en høflig form."
         },
         {
           "speaker": "B",
-          "textPt": "Ontem eu falei em casa.",
-          "textDa": "I går gjorde jeg det hjemme.",
-          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+          "textPt": "o segurança pergunta se já trouxe sem chamadas.",
+          "textDa": "vagten spørger, om der allerede er medbragt ingen opkald.",
+          "grammarDa": "Trouxe er datid af trazer."
         },
         {
           "speaker": "A",
-          "textPt": "Também preciso de falar sobre número.",
-          "textDa": "Jeg har også brug for at tale om tal.",
-          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+          "textPt": "Ainda não tenho a certeza sobre sala de leitura; pensei que bastava dizer o nome.",
+          "textDa": "Det er jeg ikke sikker på med læsesal; jeg troede, det var nok at sige navnet.",
+          "grammarDa": "Ainda não tenho a certeza varierer svaret."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Para sala de leitura, convém preencher este formulário curto.",
+          "textDa": "Til læsesal er det bedst at udfylde denne korte formular.",
+          "grammarDa": "Convém + infinitiv er en nyttig anbefaling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Pode mostrar-me onde se assina para sala de leitura?",
+          "textDa": "Kan De vise mig, hvor man skriver under til læsesal?",
+          "grammarDa": "Upersonligt se assina."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Assina aqui, e depois nós confirmamos os dados de sala de leitura no sistema.",
+          "textDa": "Der skrives under her, og bagefter bekræfter vi oplysningerne om læsesal i systemet.",
+          "grammarDa": "Nós confirmamos er nutid."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Ontem procurei informação sobre sala de leitura no site, mas a página não abriu.",
+          "textDa": "I går ledte jeg efter information om læsesal på hjemmesiden, men siden åbnede ikke.",
+          "grammarDa": "Procurei og abriu er datid."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Isso aconteceu a outras pessoas; talvez seja melhor tentar neste computador antes de tratar de sala de leitura.",
+          "textDa": "Det skete for andre; måske er det bedre at prøve på denne computer, før læsesal ordnes.",
+          "grammarDa": "Aconteceu er datid."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Então fico aqui mais uns minutos e verifico sala de leitura com calma.",
+          "textDa": "Så bliver jeg her nogle minutter mere og tjekker læsesal roligt.",
+          "grammarDa": "Fico og verifico er nutid."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Quando terminar sala de leitura, entregue o papel no balcão da entrada.",
+          "textDa": "Når De er færdig med læsesal, aflever papiret ved skranken ved indgangen.",
+          "grammarDa": "Entregue er høflig opfordring."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "número",
-          "textDa": "tal"
+          "textPt": "sala de leitura",
+          "textDa": "læsesal"
         },
         {
-          "textPt": "corpo",
-          "textDa": "krop"
+          "textPt": "sem chamadas",
+          "textDa": "ingen opkald"
         },
         {
-          "textPt": "comida",
-          "textDa": "mad"
+          "textPt": "o segurança",
+          "textDa": "vagten"
+        },
+        {
+          "textPt": "confirmar",
+          "textDa": "at bekræfte"
+        },
+        {
+          "textPt": "talvez",
+          "textDa": "måske"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber: falar",
-          "explanationDa": "Denne lektion bruger falar og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
-          "verb": "falar",
+          "titleDa": "Regelmæssige verber i Biblioteca",
+          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
+          "verb": "procurar",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "falo"
+              "form": "procuro"
             },
             {
               "subject": "tu (presente)",
-              "form": "falas"
+              "form": "procuras"
             },
             {
-              "subject": "ele/ela (presente)",
-              "form": "fala"
+              "subject": "ele/ela/você (presente)",
+              "form": "procura"
             },
             {
               "subject": "nós (presente)",
-              "form": "falamos"
+              "form": "procuramos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "falam"
+              "form": "procuram"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "falam"
+              "form": "procuram"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "falei"
+              "form": "procurei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "falaste"
+              "form": "procuraste"
             },
             {
-              "subject": "ele/ela (pretérito perfeito)",
-              "form": "falou"
+              "subject": "ele/ela/você (pretérito perfeito)",
+              "form": "procurou"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "falámos"
+              "form": "procurámos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "falaram"
+              "form": "procuraram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "falaram"
+              "form": "procuraram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje eu falo em casa.",
-              "da": "I dag øver jeg sproget hjemme."
+              "pt": "Hoje nós procuramos vocabulário útil.",
+              "da": "I dag øver vi nyttigt ordforråd."
             },
             {
-              "pt": "Ontem eu falei em casa.",
-              "da": "I går gjorde jeg det hjemme."
+              "pt": "Ontem a funcionária procurou a situação.",
+              "da": "I går forklarede medarbejderen situationen."
             },
             {
-              "pt": "Nós praticamos vocabulário novo.",
-              "da": "Vi øver nyt ordforråd."
+              "pt": "Talvez seja melhor confirmar antes de sair.",
+              "da": "Måske er det bedre at bekræfte, før man går."
             }
           ],
-          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
           "commonMistakes": [
             {
-              "wrong": "Ontem eu falo.",
-              "correct": "Ontem eu falei.",
-              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+              "wrong": "Ontem nós procura o livro.",
+              "correct": "Ontem nós procurámos o livro.",
+              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
             },
             {
-              "wrong": "Eu falei todos os dias.",
-              "correct": "Eu falo todos os dias.",
-              "noteDa": "Brug nutid ved vaner og rutiner."
+              "wrong": "Você aluguei a bicicleta?",
+              "correct": "Você alugou a bicicleta?",
+              "noteDa": "Você bruger tredje person ental."
             }
           ]
         }
@@ -1237,148 +1737,125 @@
   "quiz": [
     {
       "id": 1,
-      "questionDa": "Hvilken form er korrekt i nutid?",
+      "questionDa": "Hvilken sætning passer bedst til temaet \"Biblioteca\"?",
       "answers": [
         {
-          "text": "eu falo",
+          "text": "Bom dia, queria tratar do assunto \"lånekort\" sem interromper a fila.",
           "correct": true
         },
         {
-          "text": "eu falei",
+          "text": "O gato dorme na janela.",
           "correct": false
         },
         {
-          "text": "eu falam",
+          "text": "A camisola é azul.",
           "correct": false
         },
         {
-          "text": "eu falar",
+          "text": "Há três maçãs na mesa.",
           "correct": false
         }
       ],
-      "explanationDa": "Nutidsformen passer til hoje eller en vane."
+      "explanationDa": "Sætningen hører til lektionen Biblioteca."
     },
     {
       "id": 2,
-      "questionDa": "Hvilken form er korrekt i pretérito perfeito?",
+      "questionDa": "Hvilken form er nós i nutid?",
       "answers": [
         {
-          "text": "eu falei",
+          "text": "procuramos",
           "correct": true
         },
         {
-          "text": "eu falo",
-          "correct": false
-        },
-        {
-          "text": "eu falas",
-          "correct": false
-        },
-        {
-          "text": "eu falaram",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Datidsformen passer til ontem."
-    },
-    {
-      "id": 3,
-      "questionDa": "Hvad betyder: Hoje eu falo em casa.",
-      "answers": [
-        {
-          "text": "I dag øver jeg sproget hjemme.",
-          "correct": true
-        },
-        {
-          "text": "I går gjorde jeg det.",
-          "correct": false
-        },
-        {
-          "text": "Vi åbner hotellet.",
-          "correct": false
-        },
-        {
-          "text": "De sælger billetter.",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Hoje markerer nutid."
-    },
-    {
-      "id": 4,
-      "questionDa": "Vælg den bedste portugisiske sætning.",
-      "answers": [
-        {
-          "text": "Ontem eu falei em casa.",
-          "correct": true
-        },
-        {
-          "text": "Ontem eu falo em casa.",
-          "correct": false
-        },
-        {
-          "text": "Ontem eu falar em casa.",
-          "correct": false
-        },
-        {
-          "text": "Ontem eu falam em casa.",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Ontem kræver datid i denne sætning."
-    },
-    {
-      "id": 5,
-      "questionDa": "Hvilket ord hører til lektionens ordforråd?",
-      "answers": [
-        {
-          "text": "pequeno-almoço",
-          "correct": true
-        },
-        {
-          "text": "janela",
-          "correct": false
-        },
-        {
-          "text": "camisa",
-          "correct": false
-        },
-        {
-          "text": "banana",
-          "correct": false
-        }
-      ],
-      "explanationDa": "pequeno-almoço hører til lektionens tema."
-    },
-    {
-      "id": 6,
-      "questionDa": "Udfyld sætningen: Ontem eu ___.",
-      "answers": [
-        {
-          "text": "falei",
-          "correct": true
-        },
-        {
-          "text": "falo",
-          "correct": false
-        },
-        {
-          "text": "fala",
+          "text": "procurámos",
           "correct": false
         },
         {
           "text": "falam",
           "correct": false
+        },
+        {
+          "text": "partiste",
+          "correct": false
         }
       ],
-      "explanationDa": "Ontem peger på datid."
+      "explanationDa": "Nós-formen følger verbets regelmæssige mønster."
     },
     {
-      "id": 7,
-      "questionDa": "Hvilken portugisisk form er tallet 21?",
+      "id": 3,
+      "questionDa": "Hvilken form er nós i pretérito perfeito?",
       "answers": [
         {
-          "text": "vinte e um",
+          "text": "procurámos",
+          "correct": true
+        },
+        {
+          "text": "procuramos",
+          "correct": false
+        },
+        {
+          "text": "procuram",
+          "correct": false
+        },
+        {
+          "text": "beberam",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Pretérito perfeito bruges om en afsluttet handling."
+    },
+    {
+      "id": 4,
+      "questionDa": "Hvad betyder: Bom dia, queria tratar do assunto \"lånekort\" sem interromper a fila.",
+      "answers": [
+        {
+          "text": "Goddag, jeg vil gerne ordne \"lånekort\" uden at forstyrre køen.",
+          "correct": true
+        },
+        {
+          "text": "Jeg har travlt i morgen.",
+          "correct": false
+        },
+        {
+          "text": "Vi bestilte to kaffe.",
+          "correct": false
+        },
+        {
+          "text": "Børnene leger udenfor.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Oversættelsen kommer fra dialogernes ordforråd."
+    },
+    {
+      "id": 5,
+      "questionDa": "Vælg den mest naturlige høflige formulering.",
+      "answers": [
+        {
+          "text": "Pode ajudar-me, por favor?",
+          "correct": true
+        },
+        {
+          "text": "Ajuda mim agora.",
+          "correct": false
+        },
+        {
+          "text": "Você ajuda eu?",
+          "correct": false
+        },
+        {
+          "text": "Dar ajuda rápido.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Pode ajudar-me, por favor? er en naturlig høflig formulering."
+    },
+    {
+      "id": 6,
+      "questionDa": "Hvilken portugisisk form er tallet 23?",
+      "answers": [
+        {
+          "text": "vinte e três",
           "correct": true
         },
         {
@@ -1397,128 +1874,128 @@
       "explanationDa": "Talquizzen kommer fra JSON og kan genbruges i fremtidige niveauer."
     }
   ],
-  "storyTitleDa": "Min dag",
-  "storyObjectiveDa": "Læs en sammenhængende tekst med regelmæssige verber, nyt ordforråd og en enkel introduktion til datid.",
+  "storyTitleDa": "Bogen der ikke var ledig",
+  "storyObjectiveDa": "Læs en kort tekst med en konkret situation, varierede subjekter, regelmæssige verber og lidt pretérito perfeito.",
   "story": [
     {
       "speaker": "A",
-      "textPt": "Ontem eu falei em casa e aprendi a palavra pequeno-almoço.",
-      "textDa": "I går gjorde jeg det hjemme og lærte ordet morgenmad.",
-      "grammarDa": "Datid plus nyt ordforråd."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Hoje eu falo em casa com uma frase simples.",
-      "textDa": "I dag øver jeg hjemme med en enkel sætning.",
-      "grammarDa": "Nutid bruges om dagens handling."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Hoje eu falo em casa com uma frase simples.",
-      "textDa": "I dag øver jeg hjemme med en enkel sætning.",
-      "grammarDa": "Nutid bruges om dagens handling."
+      "textPt": "A Ana chegou à biblioteca pouco depois das dez.",
+      "textDa": "Ana kom til biblioteket lidt efter klokken ti.",
+      "grammarDa": "Chegou er datid."
     },
     {
       "speaker": "B",
-      "textPt": "Nós falamos sobre ontem com calma.",
-      "textDa": "Vi taler roligt om i går.",
-      "grammarDa": "Falamos er et regelmæssigt -ar-verbum."
+      "textPt": "Na entrada, uma funcionária explicou o novo sistema de reservas.",
+      "textDa": "Ved indgangen forklarede en medarbejder det nye reservationssystem.",
+      "grammarDa": "Explicou er datid."
     },
     {
       "speaker": "A",
-      "textPt": "Ontem eu falei em casa e aprendi a palavra semana.",
-      "textDa": "I går gjorde jeg det hjemme og lærte ordet uge.",
-      "grammarDa": "Datid plus nyt ordforråd."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Hoje eu falo em casa com uma frase simples.",
-      "textDa": "I dag øver jeg hjemme med en enkel sætning.",
-      "grammarDa": "Nutid bruges om dagens handling."
+      "textPt": "Ana procurava um romance português para ler no fim de semana.",
+      "textDa": "Ana ledte efter en portugisisk roman til weekenden.",
+      "grammarDa": "Procurava beskriver baggrund."
     },
     {
       "speaker": "B",
-      "textPt": "Nós falamos sobre direita com calma.",
-      "textDa": "Vi taler roligt om højre.",
-      "grammarDa": "Falamos er et regelmæssigt -ar-verbum."
+      "textPt": "O catálogo mostrava que o livro estava emprestado.",
+      "textDa": "Kataloget viste, at bogen var udlånt.",
+      "grammarDa": "Estava beskriver tilstand."
     },
     {
       "speaker": "A",
-      "textPt": "Hoje eu falo em casa com uma frase simples.",
-      "textDa": "I dag øver jeg hjemme med en enkel sætning.",
-      "grammarDa": "Nutid bruges om dagens handling."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Ontem eu falei em casa e aprendi a palavra tempo.",
-      "textDa": "I går gjorde jeg det hjemme og lærte ordet vejr/tid.",
-      "grammarDa": "Datid plus nyt ordforråd."
+      "textPt": "A bibliotecária sugeriu uma reserva gratuita.",
+      "textDa": "Bibliotekaren foreslog en gratis reservation.",
+      "grammarDa": "Sugeriu er datid."
     },
     {
       "speaker": "B",
-      "textPt": "Nós falamos sobre número com calma.",
-      "textDa": "Vi taler roligt om tal.",
-      "grammarDa": "Falamos er et regelmæssigt -ar-verbum."
+      "textPt": "Ana perguntou quanto tempo demorava a espera.",
+      "textDa": "Ana spurgte, hvor lang ventetiden var.",
+      "grammarDa": "Perguntou er datid."
     },
     {
       "speaker": "A",
-      "textPt": "Hoje eu falo em casa com uma frase simples.",
-      "textDa": "I dag øver jeg hjemme med en enkel sætning.",
-      "grammarDa": "Nutid bruges om dagens handling."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Hoje eu falo em casa com uma frase simples.",
-      "textDa": "I dag øver jeg hjemme med en enkel sætning.",
-      "grammarDa": "Nutid bruges om dagens handling."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Ontem eu falei em casa e aprendi a palavra pequeno-almoço.",
-      "textDa": "I går gjorde jeg det hjemme og lærte ordet morgenmad.",
-      "grammarDa": "Datid plus nyt ordforråd."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Hoje eu falo em casa com uma frase simples.",
-      "textDa": "I dag øver jeg hjemme med en enkel sætning.",
-      "grammarDa": "Nutid bruges om dagens handling."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Hoje eu falo em casa com uma frase simples.",
-      "textDa": "I dag øver jeg hjemme med en enkel sætning.",
-      "grammarDa": "Nutid bruges om dagens handling."
+      "textPt": "Disseram que normalmente chegava uma mensagem em três dias.",
+      "textDa": "De sagde, at der normalt kom en besked efter tre dage.",
+      "grammarDa": "Disseram er datid."
     },
     {
       "speaker": "B",
-      "textPt": "Nós falamos sobre ontem com calma.",
-      "textDa": "Vi taler roligt om i går.",
-      "grammarDa": "Falamos er et regelmæssigt -ar-verbum."
+      "textPt": "Enquanto esperava, Ana usou um computador público.",
+      "textDa": "Mens hun ventede, brugte Ana en offentlig computer.",
+      "grammarDa": "Usou er datid."
     },
     {
       "speaker": "A",
-      "textPt": "Ontem eu falei em casa e aprendi a palavra semana.",
-      "textDa": "I går gjorde jeg det hjemme og lærte ordet uge.",
-      "grammarDa": "Datid plus nyt ordforråd."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Hoje eu falo em casa com uma frase simples.",
-      "textDa": "I dag øver jeg hjemme med en enkel sætning.",
-      "grammarDa": "Nutid bruges om dagens handling."
+      "textPt": "O computador estava lento, mas abriu o jornal local.",
+      "textDa": "Computeren var langsom, men åbnede lokalavisen.",
+      "grammarDa": "Abriu er datid."
     },
     {
       "speaker": "B",
-      "textPt": "Nós falamos sobre direita com calma.",
-      "textDa": "Vi taler roligt om højre.",
-      "grammarDa": "Falamos er et regelmæssigt -ar-verbum."
+      "textPt": "Ela leu uma notícia sobre novos horários da biblioteca.",
+      "textDa": "Hun læste en nyhed om bibliotekets nye åbningstider.",
+      "grammarDa": "Leu er datid."
     },
     {
       "speaker": "A",
-      "textPt": "Hoje eu falo em casa com uma frase simples.",
-      "textDa": "I dag øver jeg hjemme med en enkel sætning.",
-      "grammarDa": "Nutid bruges om dagens handling."
+      "textPt": "Depois, uma senhora pediu ajuda para encontrar a sala de leitura.",
+      "textDa": "Derefter bad en dame om hjælp til at finde læsesalen.",
+      "grammarDa": "Pediu er datid."
+    },
+    {
+      "speaker": "B",
+      "textPt": "Ana acompanhou a senhora até ao primeiro andar.",
+      "textDa": "Ana fulgte damen op på første sal.",
+      "grammarDa": "Acompanhou er datid."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Na sala, várias pessoas estudavam em silêncio.",
+      "textDa": "I salen studerede flere personer i stilhed.",
+      "grammarDa": "Estudavam beskriver baggrund."
+    },
+    {
+      "speaker": "B",
+      "textPt": "O segurança lembrou que não se podia telefonar ali.",
+      "textDa": "Vagten mindede om, at man ikke måtte tale i telefon der.",
+      "grammarDa": "Se podia er upersonligt."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Antes de sair, Ana confirmou a reserva no balcão.",
+      "textDa": "Før hun gik, bekræftede Ana reservationen ved skranken.",
+      "grammarDa": "Confirmou er datid."
+    },
+    {
+      "speaker": "B",
+      "textPt": "A funcionária imprimiu um pequeno comprovativo.",
+      "textDa": "Medarbejderen printede en lille kvittering.",
+      "grammarDa": "Imprimiu er datid."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Ana guardou o papel dentro da carteira.",
+      "textDa": "Ana lagde papiret i pungen.",
+      "grammarDa": "Guardou er datid."
+    },
+    {
+      "speaker": "B",
+      "textPt": "No dia seguinte, chegou a mensagem no telemóvel.",
+      "textDa": "Næste dag kom beskeden på mobilen.",
+      "grammarDa": "Chegou er datid."
+    },
+    {
+      "speaker": "A",
+      "textPt": "O livro já estava disponível para levantamento.",
+      "textDa": "Bogen var nu klar til afhentning.",
+      "grammarDa": "Estava disponível er nyttigt udtryk."
+    },
+    {
+      "speaker": "B",
+      "textPt": "Ana voltou à biblioteca e agradeceu a ajuda.",
+      "textDa": "Ana vendte tilbage til biblioteket og takkede for hjælpen.",
+      "grammarDa": "Voltou og agradeceu er datid."
     }
   ]
 }

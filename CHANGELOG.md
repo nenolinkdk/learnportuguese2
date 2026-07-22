@@ -12,6 +12,8 @@
 - Standardized lesson status lines as `gennemført · klar`, where `klar` means available quiz questions for the lesson.
 - Moved dialog breadcrumb/status text to the bottom of dialog and story screens.
 - Removed repeated children objective text from dialog screens.
+- Rewrote Learn Portuguese 3 dialog content to remove repetitive generated phrasing, reduce repeated "Eu/Jeg" starts, and make each dialog a coherent mini-dialog with its own topic progression.
+- Adjusted the welcome/main menu ordering so Children is shown after the adult levels, quiz, numbers and documentation.
 
 ### Added
 
@@ -26,8 +28,10 @@
 - Added release-process documentation.
 - Added Learn Portuguese 3 as a new JSON-only Nenoling content package under `app/src/main/assets/levels/level4` because `level3` is already used for Children.
 - Added 10 lower-intermediate Learn Portuguese 3 lessons with 10 dialogs per lesson, reading texts of approximately 20 lines, expanded vocabulary, grammar explanations, conjugation tables, examples, notes and common mistakes.
+- Added revised Learn Portuguese 3 themes: library, café and pastry shop, news and information, municipal office, swimming pool and sports centre, children’s clothing, computer and internet, bicycle rental, beach, taxi and finding the way.
+- Added cautious pharmacy language inside Learn Portuguese 3 taxi/finding-the-way content, with wording that supports language learning and does not replace medical advice.
 - Extended the shared grammar formatter to display JSON `commonMistakes` without adding a separate grammar engine.
-- Extended validation to check Learn Portuguese 3 lesson count, dialog count, story length, grammar/conjugation/common-mistake structure, quiz presence and deterministic navigation.
+- Extended validation to check Learn Portuguese 3 lesson count, dialog count, exactly 10 phrases per dialog, duplicate-free dialog text, story length, grammar/conjugation/common-mistake structure, quiz presence, pharmacy safety wording and deterministic navigation.
 
 ## 1.0 Local Release Candidate
 
