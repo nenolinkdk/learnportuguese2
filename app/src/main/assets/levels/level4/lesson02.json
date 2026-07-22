@@ -1,0 +1,1524 @@
+{
+  "id": 2,
+  "titleDa": "Skole og arbejde",
+  "descriptionDa": "Learn Portuguese 3: skole og arbejde. Træn regelmæssige verber, længere dialoger, ordforråd og en enkel introduktion til pretérito perfeito.",
+  "dialogues": [
+    {
+      "id": 1,
+      "titleDa": "Skole og arbejde: dialog 1",
+      "objectiveDa": "Brug skole og arbejde med nutid, enkel datid og praktisk ordforråd.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Hoje eu trabalho na escola.",
+          "textDa": "I dag øver jeg sproget på skolen.",
+          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Ontem eu trabalhei na escola.",
+          "textDa": "I går gjorde jeg det på skolen.",
+          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Também preciso de falar sobre aula.",
+          "textDa": "Jeg har også brug for at tale om time.",
+          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "aula",
+          "textDa": "time"
+        },
+        {
+          "textPt": "horário",
+          "textDa": "tidsskema"
+        },
+        {
+          "textPt": "amanhã",
+          "textDa": "i morgen"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Regelmæssige verber: trabalhar",
+          "explanationDa": "Denne lektion bruger trabalhar og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
+          "verb": "trabalhar",
+          "conjugation": [
+            {
+              "subject": "eu (presente)",
+              "form": "trabalho"
+            },
+            {
+              "subject": "tu (presente)",
+              "form": "trabalhas"
+            },
+            {
+              "subject": "ele/ela (presente)",
+              "form": "trabalha"
+            },
+            {
+              "subject": "nós (presente)",
+              "form": "trabalhamos"
+            },
+            {
+              "subject": "vocês (presente)",
+              "form": "trabalham"
+            },
+            {
+              "subject": "eles/elas (presente)",
+              "form": "trabalham"
+            },
+            {
+              "subject": "eu (pretérito perfeito)",
+              "form": "trabalhei"
+            },
+            {
+              "subject": "tu (pretérito perfeito)",
+              "form": "trabalhaste"
+            },
+            {
+              "subject": "ele/ela (pretérito perfeito)",
+              "form": "trabalhou"
+            },
+            {
+              "subject": "nós (pretérito perfeito)",
+              "form": "trabalhámos"
+            },
+            {
+              "subject": "vocês (pretérito perfeito)",
+              "form": "trabalharam"
+            },
+            {
+              "subject": "eles/elas (pretérito perfeito)",
+              "form": "trabalharam"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Hoje eu trabalho na escola.",
+              "da": "I dag øver jeg sproget på skolen."
+            },
+            {
+              "pt": "Ontem eu trabalhei na escola.",
+              "da": "I går gjorde jeg det på skolen."
+            },
+            {
+              "pt": "Nós praticamos vocabulário novo.",
+              "da": "Vi øver nyt ordforråd."
+            }
+          ],
+          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "commonMistakes": [
+            {
+              "wrong": "Ontem eu trabalho.",
+              "correct": "Ontem eu trabalhei.",
+              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+            },
+            {
+              "wrong": "Eu trabalhei todos os dias.",
+              "correct": "Eu trabalho todos os dias.",
+              "noteDa": "Brug nutid ved vaner og rutiner."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titleDa": "Skole og arbejde: dialog 2",
+      "objectiveDa": "Brug skole og arbejde med nutid, enkel datid og praktisk ordforråd.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Hoje eu trabalho na escola.",
+          "textDa": "I dag øver jeg sproget på skolen.",
+          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Ontem eu trabalhei na escola.",
+          "textDa": "I går gjorde jeg det på skolen.",
+          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Também preciso de falar sobre horário.",
+          "textDa": "Jeg har også brug for at tale om tidsskema.",
+          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "horário",
+          "textDa": "tidsskema"
+        },
+        {
+          "textPt": "amanhã",
+          "textDa": "i morgen"
+        },
+        {
+          "textPt": "ontem",
+          "textDa": "i går"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Regelmæssige verber: trabalhar",
+          "explanationDa": "Denne lektion bruger trabalhar og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
+          "verb": "trabalhar",
+          "conjugation": [
+            {
+              "subject": "eu (presente)",
+              "form": "trabalho"
+            },
+            {
+              "subject": "tu (presente)",
+              "form": "trabalhas"
+            },
+            {
+              "subject": "ele/ela (presente)",
+              "form": "trabalha"
+            },
+            {
+              "subject": "nós (presente)",
+              "form": "trabalhamos"
+            },
+            {
+              "subject": "vocês (presente)",
+              "form": "trabalham"
+            },
+            {
+              "subject": "eles/elas (presente)",
+              "form": "trabalham"
+            },
+            {
+              "subject": "eu (pretérito perfeito)",
+              "form": "trabalhei"
+            },
+            {
+              "subject": "tu (pretérito perfeito)",
+              "form": "trabalhaste"
+            },
+            {
+              "subject": "ele/ela (pretérito perfeito)",
+              "form": "trabalhou"
+            },
+            {
+              "subject": "nós (pretérito perfeito)",
+              "form": "trabalhámos"
+            },
+            {
+              "subject": "vocês (pretérito perfeito)",
+              "form": "trabalharam"
+            },
+            {
+              "subject": "eles/elas (pretérito perfeito)",
+              "form": "trabalharam"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Hoje eu trabalho na escola.",
+              "da": "I dag øver jeg sproget på skolen."
+            },
+            {
+              "pt": "Ontem eu trabalhei na escola.",
+              "da": "I går gjorde jeg det på skolen."
+            },
+            {
+              "pt": "Nós praticamos vocabulário novo.",
+              "da": "Vi øver nyt ordforråd."
+            }
+          ],
+          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "commonMistakes": [
+            {
+              "wrong": "Ontem eu trabalho.",
+              "correct": "Ontem eu trabalhei.",
+              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+            },
+            {
+              "wrong": "Eu trabalhei todos os dias.",
+              "correct": "Eu trabalho todos os dias.",
+              "noteDa": "Brug nutid ved vaner og rutiner."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "titleDa": "Skole og arbejde: dialog 3",
+      "objectiveDa": "Brug skole og arbejde med nutid, enkel datid og praktisk ordforråd.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Hoje eu trabalho na escola.",
+          "textDa": "I dag øver jeg sproget på skolen.",
+          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Ontem eu trabalhei na escola.",
+          "textDa": "I går gjorde jeg det på skolen.",
+          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Também preciso de falar sobre amanhã.",
+          "textDa": "Jeg har også brug for at tale om i morgen.",
+          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "amanhã",
+          "textDa": "i morgen"
+        },
+        {
+          "textPt": "ontem",
+          "textDa": "i går"
+        },
+        {
+          "textPt": "semana",
+          "textDa": "uge"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Regelmæssige verber: trabalhar",
+          "explanationDa": "Denne lektion bruger trabalhar og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
+          "verb": "trabalhar",
+          "conjugation": [
+            {
+              "subject": "eu (presente)",
+              "form": "trabalho"
+            },
+            {
+              "subject": "tu (presente)",
+              "form": "trabalhas"
+            },
+            {
+              "subject": "ele/ela (presente)",
+              "form": "trabalha"
+            },
+            {
+              "subject": "nós (presente)",
+              "form": "trabalhamos"
+            },
+            {
+              "subject": "vocês (presente)",
+              "form": "trabalham"
+            },
+            {
+              "subject": "eles/elas (presente)",
+              "form": "trabalham"
+            },
+            {
+              "subject": "eu (pretérito perfeito)",
+              "form": "trabalhei"
+            },
+            {
+              "subject": "tu (pretérito perfeito)",
+              "form": "trabalhaste"
+            },
+            {
+              "subject": "ele/ela (pretérito perfeito)",
+              "form": "trabalhou"
+            },
+            {
+              "subject": "nós (pretérito perfeito)",
+              "form": "trabalhámos"
+            },
+            {
+              "subject": "vocês (pretérito perfeito)",
+              "form": "trabalharam"
+            },
+            {
+              "subject": "eles/elas (pretérito perfeito)",
+              "form": "trabalharam"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Hoje eu trabalho na escola.",
+              "da": "I dag øver jeg sproget på skolen."
+            },
+            {
+              "pt": "Ontem eu trabalhei na escola.",
+              "da": "I går gjorde jeg det på skolen."
+            },
+            {
+              "pt": "Nós praticamos vocabulário novo.",
+              "da": "Vi øver nyt ordforråd."
+            }
+          ],
+          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "commonMistakes": [
+            {
+              "wrong": "Ontem eu trabalho.",
+              "correct": "Ontem eu trabalhei.",
+              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+            },
+            {
+              "wrong": "Eu trabalhei todos os dias.",
+              "correct": "Eu trabalho todos os dias.",
+              "noteDa": "Brug nutid ved vaner og rutiner."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "titleDa": "Skole og arbejde: dialog 4",
+      "objectiveDa": "Brug skole og arbejde med nutid, enkel datid og praktisk ordforråd.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Hoje eu trabalho na escola.",
+          "textDa": "I dag øver jeg sproget på skolen.",
+          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Ontem eu trabalhei na escola.",
+          "textDa": "I går gjorde jeg det på skolen.",
+          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Também preciso de falar sobre ontem.",
+          "textDa": "Jeg har også brug for at tale om i går.",
+          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "ontem",
+          "textDa": "i går"
+        },
+        {
+          "textPt": "semana",
+          "textDa": "uge"
+        },
+        {
+          "textPt": "mês",
+          "textDa": "måned"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Regelmæssige verber: trabalhar",
+          "explanationDa": "Denne lektion bruger trabalhar og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
+          "verb": "trabalhar",
+          "conjugation": [
+            {
+              "subject": "eu (presente)",
+              "form": "trabalho"
+            },
+            {
+              "subject": "tu (presente)",
+              "form": "trabalhas"
+            },
+            {
+              "subject": "ele/ela (presente)",
+              "form": "trabalha"
+            },
+            {
+              "subject": "nós (presente)",
+              "form": "trabalhamos"
+            },
+            {
+              "subject": "vocês (presente)",
+              "form": "trabalham"
+            },
+            {
+              "subject": "eles/elas (presente)",
+              "form": "trabalham"
+            },
+            {
+              "subject": "eu (pretérito perfeito)",
+              "form": "trabalhei"
+            },
+            {
+              "subject": "tu (pretérito perfeito)",
+              "form": "trabalhaste"
+            },
+            {
+              "subject": "ele/ela (pretérito perfeito)",
+              "form": "trabalhou"
+            },
+            {
+              "subject": "nós (pretérito perfeito)",
+              "form": "trabalhámos"
+            },
+            {
+              "subject": "vocês (pretérito perfeito)",
+              "form": "trabalharam"
+            },
+            {
+              "subject": "eles/elas (pretérito perfeito)",
+              "form": "trabalharam"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Hoje eu trabalho na escola.",
+              "da": "I dag øver jeg sproget på skolen."
+            },
+            {
+              "pt": "Ontem eu trabalhei na escola.",
+              "da": "I går gjorde jeg det på skolen."
+            },
+            {
+              "pt": "Nós praticamos vocabulário novo.",
+              "da": "Vi øver nyt ordforråd."
+            }
+          ],
+          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "commonMistakes": [
+            {
+              "wrong": "Ontem eu trabalho.",
+              "correct": "Ontem eu trabalhei.",
+              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+            },
+            {
+              "wrong": "Eu trabalhei todos os dias.",
+              "correct": "Eu trabalho todos os dias.",
+              "noteDa": "Brug nutid ved vaner og rutiner."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "titleDa": "Skole og arbejde: dialog 5",
+      "objectiveDa": "Brug skole og arbejde med nutid, enkel datid og praktisk ordforråd.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Hoje eu trabalho na escola.",
+          "textDa": "I dag øver jeg sproget på skolen.",
+          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Ontem eu trabalhei na escola.",
+          "textDa": "I går gjorde jeg det på skolen.",
+          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Também preciso de falar sobre semana.",
+          "textDa": "Jeg har også brug for at tale om uge.",
+          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "semana",
+          "textDa": "uge"
+        },
+        {
+          "textPt": "mês",
+          "textDa": "måned"
+        },
+        {
+          "textPt": "direita",
+          "textDa": "højre"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Regelmæssige verber: trabalhar",
+          "explanationDa": "Denne lektion bruger trabalhar og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
+          "verb": "trabalhar",
+          "conjugation": [
+            {
+              "subject": "eu (presente)",
+              "form": "trabalho"
+            },
+            {
+              "subject": "tu (presente)",
+              "form": "trabalhas"
+            },
+            {
+              "subject": "ele/ela (presente)",
+              "form": "trabalha"
+            },
+            {
+              "subject": "nós (presente)",
+              "form": "trabalhamos"
+            },
+            {
+              "subject": "vocês (presente)",
+              "form": "trabalham"
+            },
+            {
+              "subject": "eles/elas (presente)",
+              "form": "trabalham"
+            },
+            {
+              "subject": "eu (pretérito perfeito)",
+              "form": "trabalhei"
+            },
+            {
+              "subject": "tu (pretérito perfeito)",
+              "form": "trabalhaste"
+            },
+            {
+              "subject": "ele/ela (pretérito perfeito)",
+              "form": "trabalhou"
+            },
+            {
+              "subject": "nós (pretérito perfeito)",
+              "form": "trabalhámos"
+            },
+            {
+              "subject": "vocês (pretérito perfeito)",
+              "form": "trabalharam"
+            },
+            {
+              "subject": "eles/elas (pretérito perfeito)",
+              "form": "trabalharam"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Hoje eu trabalho na escola.",
+              "da": "I dag øver jeg sproget på skolen."
+            },
+            {
+              "pt": "Ontem eu trabalhei na escola.",
+              "da": "I går gjorde jeg det på skolen."
+            },
+            {
+              "pt": "Nós praticamos vocabulário novo.",
+              "da": "Vi øver nyt ordforråd."
+            }
+          ],
+          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "commonMistakes": [
+            {
+              "wrong": "Ontem eu trabalho.",
+              "correct": "Ontem eu trabalhei.",
+              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+            },
+            {
+              "wrong": "Eu trabalhei todos os dias.",
+              "correct": "Eu trabalho todos os dias.",
+              "noteDa": "Brug nutid ved vaner og rutiner."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "titleDa": "Skole og arbejde: dialog 6",
+      "objectiveDa": "Brug skole og arbejde med nutid, enkel datid og praktisk ordforråd.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Hoje eu trabalho na escola.",
+          "textDa": "I dag øver jeg sproget på skolen.",
+          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Ontem eu trabalhei na escola.",
+          "textDa": "I går gjorde jeg det på skolen.",
+          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Também preciso de falar sobre mês.",
+          "textDa": "Jeg har også brug for at tale om måned.",
+          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "mês",
+          "textDa": "måned"
+        },
+        {
+          "textPt": "direita",
+          "textDa": "højre"
+        },
+        {
+          "textPt": "esquerda",
+          "textDa": "venstre"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Regelmæssige verber: trabalhar",
+          "explanationDa": "Denne lektion bruger trabalhar og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
+          "verb": "trabalhar",
+          "conjugation": [
+            {
+              "subject": "eu (presente)",
+              "form": "trabalho"
+            },
+            {
+              "subject": "tu (presente)",
+              "form": "trabalhas"
+            },
+            {
+              "subject": "ele/ela (presente)",
+              "form": "trabalha"
+            },
+            {
+              "subject": "nós (presente)",
+              "form": "trabalhamos"
+            },
+            {
+              "subject": "vocês (presente)",
+              "form": "trabalham"
+            },
+            {
+              "subject": "eles/elas (presente)",
+              "form": "trabalham"
+            },
+            {
+              "subject": "eu (pretérito perfeito)",
+              "form": "trabalhei"
+            },
+            {
+              "subject": "tu (pretérito perfeito)",
+              "form": "trabalhaste"
+            },
+            {
+              "subject": "ele/ela (pretérito perfeito)",
+              "form": "trabalhou"
+            },
+            {
+              "subject": "nós (pretérito perfeito)",
+              "form": "trabalhámos"
+            },
+            {
+              "subject": "vocês (pretérito perfeito)",
+              "form": "trabalharam"
+            },
+            {
+              "subject": "eles/elas (pretérito perfeito)",
+              "form": "trabalharam"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Hoje eu trabalho na escola.",
+              "da": "I dag øver jeg sproget på skolen."
+            },
+            {
+              "pt": "Ontem eu trabalhei na escola.",
+              "da": "I går gjorde jeg det på skolen."
+            },
+            {
+              "pt": "Nós praticamos vocabulário novo.",
+              "da": "Vi øver nyt ordforråd."
+            }
+          ],
+          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "commonMistakes": [
+            {
+              "wrong": "Ontem eu trabalho.",
+              "correct": "Ontem eu trabalhei.",
+              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+            },
+            {
+              "wrong": "Eu trabalhei todos os dias.",
+              "correct": "Eu trabalho todos os dias.",
+              "noteDa": "Brug nutid ved vaner og rutiner."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "titleDa": "Skole og arbejde: dialog 7",
+      "objectiveDa": "Brug skole og arbejde med nutid, enkel datid og praktisk ordforråd.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Hoje eu trabalho na escola.",
+          "textDa": "I dag øver jeg sproget på skolen.",
+          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Ontem eu trabalhei na escola.",
+          "textDa": "I går gjorde jeg det på skolen.",
+          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Também preciso de falar sobre direita.",
+          "textDa": "Jeg har også brug for at tale om højre.",
+          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "direita",
+          "textDa": "højre"
+        },
+        {
+          "textPt": "esquerda",
+          "textDa": "venstre"
+        },
+        {
+          "textPt": "tempo",
+          "textDa": "vejr/tid"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Regelmæssige verber: trabalhar",
+          "explanationDa": "Denne lektion bruger trabalhar og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
+          "verb": "trabalhar",
+          "conjugation": [
+            {
+              "subject": "eu (presente)",
+              "form": "trabalho"
+            },
+            {
+              "subject": "tu (presente)",
+              "form": "trabalhas"
+            },
+            {
+              "subject": "ele/ela (presente)",
+              "form": "trabalha"
+            },
+            {
+              "subject": "nós (presente)",
+              "form": "trabalhamos"
+            },
+            {
+              "subject": "vocês (presente)",
+              "form": "trabalham"
+            },
+            {
+              "subject": "eles/elas (presente)",
+              "form": "trabalham"
+            },
+            {
+              "subject": "eu (pretérito perfeito)",
+              "form": "trabalhei"
+            },
+            {
+              "subject": "tu (pretérito perfeito)",
+              "form": "trabalhaste"
+            },
+            {
+              "subject": "ele/ela (pretérito perfeito)",
+              "form": "trabalhou"
+            },
+            {
+              "subject": "nós (pretérito perfeito)",
+              "form": "trabalhámos"
+            },
+            {
+              "subject": "vocês (pretérito perfeito)",
+              "form": "trabalharam"
+            },
+            {
+              "subject": "eles/elas (pretérito perfeito)",
+              "form": "trabalharam"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Hoje eu trabalho na escola.",
+              "da": "I dag øver jeg sproget på skolen."
+            },
+            {
+              "pt": "Ontem eu trabalhei na escola.",
+              "da": "I går gjorde jeg det på skolen."
+            },
+            {
+              "pt": "Nós praticamos vocabulário novo.",
+              "da": "Vi øver nyt ordforråd."
+            }
+          ],
+          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "commonMistakes": [
+            {
+              "wrong": "Ontem eu trabalho.",
+              "correct": "Ontem eu trabalhei.",
+              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+            },
+            {
+              "wrong": "Eu trabalhei todos os dias.",
+              "correct": "Eu trabalho todos os dias.",
+              "noteDa": "Brug nutid ved vaner og rutiner."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "titleDa": "Skole og arbejde: dialog 8",
+      "objectiveDa": "Brug skole og arbejde med nutid, enkel datid og praktisk ordforråd.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Hoje eu trabalho na escola.",
+          "textDa": "I dag øver jeg sproget på skolen.",
+          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Ontem eu trabalhei na escola.",
+          "textDa": "I går gjorde jeg det på skolen.",
+          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Também preciso de falar sobre esquerda.",
+          "textDa": "Jeg har også brug for at tale om venstre.",
+          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "esquerda",
+          "textDa": "venstre"
+        },
+        {
+          "textPt": "tempo",
+          "textDa": "vejr/tid"
+        },
+        {
+          "textPt": "número",
+          "textDa": "tal"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Regelmæssige verber: trabalhar",
+          "explanationDa": "Denne lektion bruger trabalhar og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
+          "verb": "trabalhar",
+          "conjugation": [
+            {
+              "subject": "eu (presente)",
+              "form": "trabalho"
+            },
+            {
+              "subject": "tu (presente)",
+              "form": "trabalhas"
+            },
+            {
+              "subject": "ele/ela (presente)",
+              "form": "trabalha"
+            },
+            {
+              "subject": "nós (presente)",
+              "form": "trabalhamos"
+            },
+            {
+              "subject": "vocês (presente)",
+              "form": "trabalham"
+            },
+            {
+              "subject": "eles/elas (presente)",
+              "form": "trabalham"
+            },
+            {
+              "subject": "eu (pretérito perfeito)",
+              "form": "trabalhei"
+            },
+            {
+              "subject": "tu (pretérito perfeito)",
+              "form": "trabalhaste"
+            },
+            {
+              "subject": "ele/ela (pretérito perfeito)",
+              "form": "trabalhou"
+            },
+            {
+              "subject": "nós (pretérito perfeito)",
+              "form": "trabalhámos"
+            },
+            {
+              "subject": "vocês (pretérito perfeito)",
+              "form": "trabalharam"
+            },
+            {
+              "subject": "eles/elas (pretérito perfeito)",
+              "form": "trabalharam"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Hoje eu trabalho na escola.",
+              "da": "I dag øver jeg sproget på skolen."
+            },
+            {
+              "pt": "Ontem eu trabalhei na escola.",
+              "da": "I går gjorde jeg det på skolen."
+            },
+            {
+              "pt": "Nós praticamos vocabulário novo.",
+              "da": "Vi øver nyt ordforråd."
+            }
+          ],
+          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "commonMistakes": [
+            {
+              "wrong": "Ontem eu trabalho.",
+              "correct": "Ontem eu trabalhei.",
+              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+            },
+            {
+              "wrong": "Eu trabalhei todos os dias.",
+              "correct": "Eu trabalho todos os dias.",
+              "noteDa": "Brug nutid ved vaner og rutiner."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "titleDa": "Skole og arbejde: dialog 9",
+      "objectiveDa": "Brug skole og arbejde med nutid, enkel datid og praktisk ordforråd.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Hoje eu trabalho na escola.",
+          "textDa": "I dag øver jeg sproget på skolen.",
+          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Ontem eu trabalhei na escola.",
+          "textDa": "I går gjorde jeg det på skolen.",
+          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Também preciso de falar sobre tempo.",
+          "textDa": "Jeg har også brug for at tale om vejr/tid.",
+          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "tempo",
+          "textDa": "vejr/tid"
+        },
+        {
+          "textPt": "número",
+          "textDa": "tal"
+        },
+        {
+          "textPt": "corpo",
+          "textDa": "krop"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Regelmæssige verber: trabalhar",
+          "explanationDa": "Denne lektion bruger trabalhar og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
+          "verb": "trabalhar",
+          "conjugation": [
+            {
+              "subject": "eu (presente)",
+              "form": "trabalho"
+            },
+            {
+              "subject": "tu (presente)",
+              "form": "trabalhas"
+            },
+            {
+              "subject": "ele/ela (presente)",
+              "form": "trabalha"
+            },
+            {
+              "subject": "nós (presente)",
+              "form": "trabalhamos"
+            },
+            {
+              "subject": "vocês (presente)",
+              "form": "trabalham"
+            },
+            {
+              "subject": "eles/elas (presente)",
+              "form": "trabalham"
+            },
+            {
+              "subject": "eu (pretérito perfeito)",
+              "form": "trabalhei"
+            },
+            {
+              "subject": "tu (pretérito perfeito)",
+              "form": "trabalhaste"
+            },
+            {
+              "subject": "ele/ela (pretérito perfeito)",
+              "form": "trabalhou"
+            },
+            {
+              "subject": "nós (pretérito perfeito)",
+              "form": "trabalhámos"
+            },
+            {
+              "subject": "vocês (pretérito perfeito)",
+              "form": "trabalharam"
+            },
+            {
+              "subject": "eles/elas (pretérito perfeito)",
+              "form": "trabalharam"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Hoje eu trabalho na escola.",
+              "da": "I dag øver jeg sproget på skolen."
+            },
+            {
+              "pt": "Ontem eu trabalhei na escola.",
+              "da": "I går gjorde jeg det på skolen."
+            },
+            {
+              "pt": "Nós praticamos vocabulário novo.",
+              "da": "Vi øver nyt ordforråd."
+            }
+          ],
+          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "commonMistakes": [
+            {
+              "wrong": "Ontem eu trabalho.",
+              "correct": "Ontem eu trabalhei.",
+              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+            },
+            {
+              "wrong": "Eu trabalhei todos os dias.",
+              "correct": "Eu trabalho todos os dias.",
+              "noteDa": "Brug nutid ved vaner og rutiner."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "titleDa": "Skole og arbejde: dialog 10",
+      "objectiveDa": "Brug skole og arbejde med nutid, enkel datid og praktisk ordforråd.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Hoje eu trabalho na escola.",
+          "textDa": "I dag øver jeg sproget på skolen.",
+          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Ontem eu trabalhei na escola.",
+          "textDa": "I går gjorde jeg det på skolen.",
+          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Também preciso de falar sobre número.",
+          "textDa": "Jeg har også brug for at tale om tal.",
+          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "número",
+          "textDa": "tal"
+        },
+        {
+          "textPt": "corpo",
+          "textDa": "krop"
+        },
+        {
+          "textPt": "comida",
+          "textDa": "mad"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Regelmæssige verber: trabalhar",
+          "explanationDa": "Denne lektion bruger trabalhar og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
+          "verb": "trabalhar",
+          "conjugation": [
+            {
+              "subject": "eu (presente)",
+              "form": "trabalho"
+            },
+            {
+              "subject": "tu (presente)",
+              "form": "trabalhas"
+            },
+            {
+              "subject": "ele/ela (presente)",
+              "form": "trabalha"
+            },
+            {
+              "subject": "nós (presente)",
+              "form": "trabalhamos"
+            },
+            {
+              "subject": "vocês (presente)",
+              "form": "trabalham"
+            },
+            {
+              "subject": "eles/elas (presente)",
+              "form": "trabalham"
+            },
+            {
+              "subject": "eu (pretérito perfeito)",
+              "form": "trabalhei"
+            },
+            {
+              "subject": "tu (pretérito perfeito)",
+              "form": "trabalhaste"
+            },
+            {
+              "subject": "ele/ela (pretérito perfeito)",
+              "form": "trabalhou"
+            },
+            {
+              "subject": "nós (pretérito perfeito)",
+              "form": "trabalhámos"
+            },
+            {
+              "subject": "vocês (pretérito perfeito)",
+              "form": "trabalharam"
+            },
+            {
+              "subject": "eles/elas (pretérito perfeito)",
+              "form": "trabalharam"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Hoje eu trabalho na escola.",
+              "da": "I dag øver jeg sproget på skolen."
+            },
+            {
+              "pt": "Ontem eu trabalhei na escola.",
+              "da": "I går gjorde jeg det på skolen."
+            },
+            {
+              "pt": "Nós praticamos vocabulário novo.",
+              "da": "Vi øver nyt ordforråd."
+            }
+          ],
+          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "commonMistakes": [
+            {
+              "wrong": "Ontem eu trabalho.",
+              "correct": "Ontem eu trabalhei.",
+              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+            },
+            {
+              "wrong": "Eu trabalhei todos os dias.",
+              "correct": "Eu trabalho todos os dias.",
+              "noteDa": "Brug nutid ved vaner og rutiner."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "questionDa": "Hvilken form er korrekt i nutid?",
+      "answers": [
+        {
+          "text": "eu trabalho",
+          "correct": true
+        },
+        {
+          "text": "eu trabalhei",
+          "correct": false
+        },
+        {
+          "text": "eu falam",
+          "correct": false
+        },
+        {
+          "text": "eu falar",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Nutidsformen passer til hoje eller en vane."
+    },
+    {
+      "id": 2,
+      "questionDa": "Hvilken form er korrekt i pretérito perfeito?",
+      "answers": [
+        {
+          "text": "eu trabalhei",
+          "correct": true
+        },
+        {
+          "text": "eu trabalho",
+          "correct": false
+        },
+        {
+          "text": "eu falas",
+          "correct": false
+        },
+        {
+          "text": "eu falaram",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Datidsformen passer til ontem."
+    },
+    {
+      "id": 3,
+      "questionDa": "Hvad betyder: Hoje eu trabalho na escola.",
+      "answers": [
+        {
+          "text": "I dag øver jeg sproget på skolen.",
+          "correct": true
+        },
+        {
+          "text": "I går gjorde jeg det.",
+          "correct": false
+        },
+        {
+          "text": "Vi åbner hotellet.",
+          "correct": false
+        },
+        {
+          "text": "De sælger billetter.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Hoje markerer nutid."
+    },
+    {
+      "id": 4,
+      "questionDa": "Vælg den bedste portugisiske sætning.",
+      "answers": [
+        {
+          "text": "Ontem eu trabalhei na escola.",
+          "correct": true
+        },
+        {
+          "text": "Ontem eu trabalho na escola.",
+          "correct": false
+        },
+        {
+          "text": "Ontem eu falar na escola.",
+          "correct": false
+        },
+        {
+          "text": "Ontem eu falam na escola.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Ontem kræver datid i denne sætning."
+    },
+    {
+      "id": 5,
+      "questionDa": "Hvilket ord hører til lektionens ordforråd?",
+      "answers": [
+        {
+          "text": "aula",
+          "correct": true
+        },
+        {
+          "text": "janela",
+          "correct": false
+        },
+        {
+          "text": "camisa",
+          "correct": false
+        },
+        {
+          "text": "banana",
+          "correct": false
+        }
+      ],
+      "explanationDa": "aula hører til lektionens tema."
+    },
+    {
+      "id": 6,
+      "questionDa": "Udfyld sætningen: Ontem eu ___.",
+      "answers": [
+        {
+          "text": "trabalhei",
+          "correct": true
+        },
+        {
+          "text": "trabalho",
+          "correct": false
+        },
+        {
+          "text": "fala",
+          "correct": false
+        },
+        {
+          "text": "falam",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Ontem peger på datid."
+    },
+    {
+      "id": 7,
+      "questionDa": "Hvilken portugisisk form er tallet 34?",
+      "answers": [
+        {
+          "text": "trinta e quatro",
+          "correct": true
+        },
+        {
+          "text": "vinte",
+          "correct": false
+        },
+        {
+          "text": "sessenta",
+          "correct": false
+        },
+        {
+          "text": "noventa",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Talquizzen kommer fra JSON og kan genbruges i fremtidige niveauer."
+    }
+  ],
+  "storyTitleDa": "En dag på skolen",
+  "storyObjectiveDa": "Læs en sammenhængende tekst med regelmæssige verber, nyt ordforråd og en enkel introduktion til datid.",
+  "story": [
+    {
+      "speaker": "A",
+      "textPt": "Ontem eu trabalhei na escola e aprendi a palavra aula.",
+      "textDa": "I går gjorde jeg det på skolen og lærte ordet time.",
+      "grammarDa": "Datid plus nyt ordforråd."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Hoje eu trabalho na escola com uma frase simples.",
+      "textDa": "I dag øver jeg på skolen med en enkel sætning.",
+      "grammarDa": "Nutid bruges om dagens handling."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Hoje eu trabalho na escola com uma frase simples.",
+      "textDa": "I dag øver jeg på skolen med en enkel sætning.",
+      "grammarDa": "Nutid bruges om dagens handling."
+    },
+    {
+      "speaker": "B",
+      "textPt": "Nós falamos sobre ontem com calma.",
+      "textDa": "Vi taler roligt om i går.",
+      "grammarDa": "Falamos er et regelmæssigt -ar-verbum."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Ontem eu trabalhei na escola e aprendi a palavra semana.",
+      "textDa": "I går gjorde jeg det på skolen og lærte ordet uge.",
+      "grammarDa": "Datid plus nyt ordforråd."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Hoje eu trabalho na escola com uma frase simples.",
+      "textDa": "I dag øver jeg på skolen med en enkel sætning.",
+      "grammarDa": "Nutid bruges om dagens handling."
+    },
+    {
+      "speaker": "B",
+      "textPt": "Nós falamos sobre direita com calma.",
+      "textDa": "Vi taler roligt om højre.",
+      "grammarDa": "Falamos er et regelmæssigt -ar-verbum."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Hoje eu trabalho na escola com uma frase simples.",
+      "textDa": "I dag øver jeg på skolen med en enkel sætning.",
+      "grammarDa": "Nutid bruges om dagens handling."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Ontem eu trabalhei na escola e aprendi a palavra tempo.",
+      "textDa": "I går gjorde jeg det på skolen og lærte ordet vejr/tid.",
+      "grammarDa": "Datid plus nyt ordforråd."
+    },
+    {
+      "speaker": "B",
+      "textPt": "Nós falamos sobre número com calma.",
+      "textDa": "Vi taler roligt om tal.",
+      "grammarDa": "Falamos er et regelmæssigt -ar-verbum."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Hoje eu trabalho na escola com uma frase simples.",
+      "textDa": "I dag øver jeg på skolen med en enkel sætning.",
+      "grammarDa": "Nutid bruges om dagens handling."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Hoje eu trabalho na escola com uma frase simples.",
+      "textDa": "I dag øver jeg på skolen med en enkel sætning.",
+      "grammarDa": "Nutid bruges om dagens handling."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Ontem eu trabalhei na escola e aprendi a palavra aula.",
+      "textDa": "I går gjorde jeg det på skolen og lærte ordet time.",
+      "grammarDa": "Datid plus nyt ordforråd."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Hoje eu trabalho na escola com uma frase simples.",
+      "textDa": "I dag øver jeg på skolen med en enkel sætning.",
+      "grammarDa": "Nutid bruges om dagens handling."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Hoje eu trabalho na escola com uma frase simples.",
+      "textDa": "I dag øver jeg på skolen med en enkel sætning.",
+      "grammarDa": "Nutid bruges om dagens handling."
+    },
+    {
+      "speaker": "B",
+      "textPt": "Nós falamos sobre ontem com calma.",
+      "textDa": "Vi taler roligt om i går.",
+      "grammarDa": "Falamos er et regelmæssigt -ar-verbum."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Ontem eu trabalhei na escola e aprendi a palavra semana.",
+      "textDa": "I går gjorde jeg det på skolen og lærte ordet uge.",
+      "grammarDa": "Datid plus nyt ordforråd."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Hoje eu trabalho na escola com uma frase simples.",
+      "textDa": "I dag øver jeg på skolen med en enkel sætning.",
+      "grammarDa": "Nutid bruges om dagens handling."
+    },
+    {
+      "speaker": "B",
+      "textPt": "Nós falamos sobre direita com calma.",
+      "textDa": "Vi taler roligt om højre.",
+      "grammarDa": "Falamos er et regelmæssigt -ar-verbum."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Hoje eu trabalho na escola com uma frase simples.",
+      "textDa": "I dag øver jeg på skolen med en enkel sætning.",
+      "grammarDa": "Nutid bruges om dagens handling."
+    }
+  ]
+}

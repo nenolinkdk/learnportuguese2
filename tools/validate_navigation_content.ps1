@@ -196,6 +196,72 @@ foreach ($requiredPhrase in @("Quero falar com a polícia.", "Onde é a esquadra
     }
 }
 
+$lp3Root = Join-Path $levelRoot "level4"
+if (-not (Test-Path -LiteralPath $lp3Root)) {
+    Add-Error "Learn Portuguese 3 content folder is missing: levels/level4"
+} else {
+    $lp3Level = Read-Json (Join-Path $lp3Root "level.json")
+    if ($lp3Level.titleDa -ne "Learn Portuguese 3") {
+        Add-Error "level4/level.json must identify the package as Learn Portuguese 3"
+    }
+
+    $lp3Lessons = @(Get-ChildItem -LiteralPath $lp3Root -Filter "lesson*.json" | Sort-Object Name)
+    if ($lp3Lessons.Count -ne 10) {
+        Add-Error "Learn Portuguese 3 must contain exactly 10 lesson files; found $($lp3Lessons.Count)"
+    }
+
+    foreach ($lessonFile in $lp3Lessons) {
+        $lesson = Read-Json $lessonFile.FullName
+        $dialogs = As-Array $lesson.dialogues
+        if ($dialogs.Count -ne 10) {
+            Add-Error "level4/$($lessonFile.Name) must contain exactly 10 dialogs; found $($dialogs.Count)"
+        }
+
+        $story = As-Array $lesson.story
+        if ($story.Count -lt 18 -or $story.Count -gt 22) {
+            Add-Error "level4/$($lessonFile.Name) story should contain approximately 20 lines; found $($story.Count)"
+        }
+        foreach ($storyPhrase in $story) {
+            Test-Phrase "level4" $lessonFile.Name ([pscustomobject]@{ id = "story" }) $storyPhrase "story"
+        }
+
+        foreach ($dialog in $dialogs) {
+            $grammarItems = As-Array $dialog.grammar
+            if ($grammarItems.Count -lt 1) {
+                Add-Error "level4/$($lessonFile.Name) dialog $($dialog.id) is missing grammar notes"
+            }
+            foreach ($grammar in $grammarItems) {
+                if (Is-Blank $grammar.titleDa -or Is-Blank $grammar.explanationDa -or Is-Blank $grammar.notesDa) {
+                    Add-Error "level4/$($lessonFile.Name) dialog $($dialog.id) has incomplete grammar text"
+                }
+                if ((As-Array $grammar.conjugation).Count -lt 6) {
+                    Add-Error "level4/$($lessonFile.Name) dialog $($dialog.id) needs a conjugation table"
+                }
+                if ((As-Array $grammar.examples).Count -lt 2) {
+                    Add-Error "level4/$($lessonFile.Name) dialog $($dialog.id) needs grammar examples"
+                }
+                if ((As-Array $grammar.commonMistakes).Count -lt 1) {
+                    Add-Error "level4/$($lessonFile.Name) dialog $($dialog.id) needs commonMistakes"
+                }
+            }
+        }
+
+        if ((As-Array $lesson.quiz).Count -lt 5) {
+            Add-Error "level4/$($lessonFile.Name) needs reusable quiz questions from JSON"
+        }
+
+        $state = @{ DialogIndex = 0; PhraseIndex = 0 }
+        for ($step = 1; $step -le 20; $step++) {
+            $state = Move-Next $state $dialogs
+            $dialog = $dialogs[$state.DialogIndex]
+            $phrases = As-Array $dialog.phrases
+            if ($state.PhraseIndex -lt 0 -or $state.PhraseIndex -ge $phrases.Count) {
+                Add-Error "level4/$($lessonFile.Name) Next step $step lands outside dialog $($dialog.id)"
+            }
+        }
+    }
+}
+
 if ($errors.Count -gt 0) {
     $errors | ForEach-Object { Write-Error $_ }
     exit 1

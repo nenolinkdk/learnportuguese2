@@ -1,0 +1,1524 @@
+{
+  "id": 7,
+  "titleDa": "Læge og apotek",
+  "descriptionDa": "Learn Portuguese 3: læge og apotek. Træn regelmæssige verber, længere dialoger, ordforråd og en enkel introduktion til pretérito perfeito.",
+  "dialogues": [
+    {
+      "id": 1,
+      "titleDa": "Læge og apotek: dialog 1",
+      "objectiveDa": "Brug læge og apotek med nutid, enkel datid og praktisk ordforråd.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Hoje eu assisto na farmácia.",
+          "textDa": "I dag øver jeg sproget på apoteket.",
+          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Ontem eu assisti na farmácia.",
+          "textDa": "I går gjorde jeg det på apoteket.",
+          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Também preciso de falar sobre receita.",
+          "textDa": "Jeg har også brug for at tale om recept.",
+          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "receita",
+          "textDa": "recept"
+        },
+        {
+          "textPt": "horário",
+          "textDa": "tidsskema"
+        },
+        {
+          "textPt": "amanhã",
+          "textDa": "i morgen"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Regelmæssige verber: assistir",
+          "explanationDa": "Denne lektion bruger assistir og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
+          "verb": "assistir",
+          "conjugation": [
+            {
+              "subject": "eu (presente)",
+              "form": "assisto"
+            },
+            {
+              "subject": "tu (presente)",
+              "form": "assistes"
+            },
+            {
+              "subject": "ele/ela (presente)",
+              "form": "assiste"
+            },
+            {
+              "subject": "nós (presente)",
+              "form": "assistimos"
+            },
+            {
+              "subject": "vocês (presente)",
+              "form": "assistem"
+            },
+            {
+              "subject": "eles/elas (presente)",
+              "form": "assistem"
+            },
+            {
+              "subject": "eu (pretérito perfeito)",
+              "form": "assisti"
+            },
+            {
+              "subject": "tu (pretérito perfeito)",
+              "form": "assististe"
+            },
+            {
+              "subject": "ele/ela (pretérito perfeito)",
+              "form": "assistiu"
+            },
+            {
+              "subject": "nós (pretérito perfeito)",
+              "form": "assistimos"
+            },
+            {
+              "subject": "vocês (pretérito perfeito)",
+              "form": "assistiram"
+            },
+            {
+              "subject": "eles/elas (pretérito perfeito)",
+              "form": "assistiram"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Hoje eu assisto na farmácia.",
+              "da": "I dag øver jeg sproget på apoteket."
+            },
+            {
+              "pt": "Ontem eu assisti na farmácia.",
+              "da": "I går gjorde jeg det på apoteket."
+            },
+            {
+              "pt": "Nós praticamos vocabulário novo.",
+              "da": "Vi øver nyt ordforråd."
+            }
+          ],
+          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "commonMistakes": [
+            {
+              "wrong": "Ontem eu assisto.",
+              "correct": "Ontem eu assisti.",
+              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+            },
+            {
+              "wrong": "Eu assisti todos os dias.",
+              "correct": "Eu assisto todos os dias.",
+              "noteDa": "Brug nutid ved vaner og rutiner."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titleDa": "Læge og apotek: dialog 2",
+      "objectiveDa": "Brug læge og apotek med nutid, enkel datid og praktisk ordforråd.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Hoje eu assisto na farmácia.",
+          "textDa": "I dag øver jeg sproget på apoteket.",
+          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Ontem eu assisti na farmácia.",
+          "textDa": "I går gjorde jeg det på apoteket.",
+          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Também preciso de falar sobre horário.",
+          "textDa": "Jeg har også brug for at tale om tidsskema.",
+          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "horário",
+          "textDa": "tidsskema"
+        },
+        {
+          "textPt": "amanhã",
+          "textDa": "i morgen"
+        },
+        {
+          "textPt": "ontem",
+          "textDa": "i går"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Regelmæssige verber: assistir",
+          "explanationDa": "Denne lektion bruger assistir og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
+          "verb": "assistir",
+          "conjugation": [
+            {
+              "subject": "eu (presente)",
+              "form": "assisto"
+            },
+            {
+              "subject": "tu (presente)",
+              "form": "assistes"
+            },
+            {
+              "subject": "ele/ela (presente)",
+              "form": "assiste"
+            },
+            {
+              "subject": "nós (presente)",
+              "form": "assistimos"
+            },
+            {
+              "subject": "vocês (presente)",
+              "form": "assistem"
+            },
+            {
+              "subject": "eles/elas (presente)",
+              "form": "assistem"
+            },
+            {
+              "subject": "eu (pretérito perfeito)",
+              "form": "assisti"
+            },
+            {
+              "subject": "tu (pretérito perfeito)",
+              "form": "assististe"
+            },
+            {
+              "subject": "ele/ela (pretérito perfeito)",
+              "form": "assistiu"
+            },
+            {
+              "subject": "nós (pretérito perfeito)",
+              "form": "assistimos"
+            },
+            {
+              "subject": "vocês (pretérito perfeito)",
+              "form": "assistiram"
+            },
+            {
+              "subject": "eles/elas (pretérito perfeito)",
+              "form": "assistiram"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Hoje eu assisto na farmácia.",
+              "da": "I dag øver jeg sproget på apoteket."
+            },
+            {
+              "pt": "Ontem eu assisti na farmácia.",
+              "da": "I går gjorde jeg det på apoteket."
+            },
+            {
+              "pt": "Nós praticamos vocabulário novo.",
+              "da": "Vi øver nyt ordforråd."
+            }
+          ],
+          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "commonMistakes": [
+            {
+              "wrong": "Ontem eu assisto.",
+              "correct": "Ontem eu assisti.",
+              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+            },
+            {
+              "wrong": "Eu assisti todos os dias.",
+              "correct": "Eu assisto todos os dias.",
+              "noteDa": "Brug nutid ved vaner og rutiner."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "titleDa": "Læge og apotek: dialog 3",
+      "objectiveDa": "Brug læge og apotek med nutid, enkel datid og praktisk ordforråd.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Hoje eu assisto na farmácia.",
+          "textDa": "I dag øver jeg sproget på apoteket.",
+          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Ontem eu assisti na farmácia.",
+          "textDa": "I går gjorde jeg det på apoteket.",
+          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Também preciso de falar sobre amanhã.",
+          "textDa": "Jeg har også brug for at tale om i morgen.",
+          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "amanhã",
+          "textDa": "i morgen"
+        },
+        {
+          "textPt": "ontem",
+          "textDa": "i går"
+        },
+        {
+          "textPt": "semana",
+          "textDa": "uge"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Regelmæssige verber: assistir",
+          "explanationDa": "Denne lektion bruger assistir og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
+          "verb": "assistir",
+          "conjugation": [
+            {
+              "subject": "eu (presente)",
+              "form": "assisto"
+            },
+            {
+              "subject": "tu (presente)",
+              "form": "assistes"
+            },
+            {
+              "subject": "ele/ela (presente)",
+              "form": "assiste"
+            },
+            {
+              "subject": "nós (presente)",
+              "form": "assistimos"
+            },
+            {
+              "subject": "vocês (presente)",
+              "form": "assistem"
+            },
+            {
+              "subject": "eles/elas (presente)",
+              "form": "assistem"
+            },
+            {
+              "subject": "eu (pretérito perfeito)",
+              "form": "assisti"
+            },
+            {
+              "subject": "tu (pretérito perfeito)",
+              "form": "assististe"
+            },
+            {
+              "subject": "ele/ela (pretérito perfeito)",
+              "form": "assistiu"
+            },
+            {
+              "subject": "nós (pretérito perfeito)",
+              "form": "assistimos"
+            },
+            {
+              "subject": "vocês (pretérito perfeito)",
+              "form": "assistiram"
+            },
+            {
+              "subject": "eles/elas (pretérito perfeito)",
+              "form": "assistiram"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Hoje eu assisto na farmácia.",
+              "da": "I dag øver jeg sproget på apoteket."
+            },
+            {
+              "pt": "Ontem eu assisti na farmácia.",
+              "da": "I går gjorde jeg det på apoteket."
+            },
+            {
+              "pt": "Nós praticamos vocabulário novo.",
+              "da": "Vi øver nyt ordforråd."
+            }
+          ],
+          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "commonMistakes": [
+            {
+              "wrong": "Ontem eu assisto.",
+              "correct": "Ontem eu assisti.",
+              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+            },
+            {
+              "wrong": "Eu assisti todos os dias.",
+              "correct": "Eu assisto todos os dias.",
+              "noteDa": "Brug nutid ved vaner og rutiner."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "titleDa": "Læge og apotek: dialog 4",
+      "objectiveDa": "Brug læge og apotek med nutid, enkel datid og praktisk ordforråd.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Hoje eu assisto na farmácia.",
+          "textDa": "I dag øver jeg sproget på apoteket.",
+          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Ontem eu assisti na farmácia.",
+          "textDa": "I går gjorde jeg det på apoteket.",
+          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Também preciso de falar sobre ontem.",
+          "textDa": "Jeg har også brug for at tale om i går.",
+          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "ontem",
+          "textDa": "i går"
+        },
+        {
+          "textPt": "semana",
+          "textDa": "uge"
+        },
+        {
+          "textPt": "mês",
+          "textDa": "måned"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Regelmæssige verber: assistir",
+          "explanationDa": "Denne lektion bruger assistir og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
+          "verb": "assistir",
+          "conjugation": [
+            {
+              "subject": "eu (presente)",
+              "form": "assisto"
+            },
+            {
+              "subject": "tu (presente)",
+              "form": "assistes"
+            },
+            {
+              "subject": "ele/ela (presente)",
+              "form": "assiste"
+            },
+            {
+              "subject": "nós (presente)",
+              "form": "assistimos"
+            },
+            {
+              "subject": "vocês (presente)",
+              "form": "assistem"
+            },
+            {
+              "subject": "eles/elas (presente)",
+              "form": "assistem"
+            },
+            {
+              "subject": "eu (pretérito perfeito)",
+              "form": "assisti"
+            },
+            {
+              "subject": "tu (pretérito perfeito)",
+              "form": "assististe"
+            },
+            {
+              "subject": "ele/ela (pretérito perfeito)",
+              "form": "assistiu"
+            },
+            {
+              "subject": "nós (pretérito perfeito)",
+              "form": "assistimos"
+            },
+            {
+              "subject": "vocês (pretérito perfeito)",
+              "form": "assistiram"
+            },
+            {
+              "subject": "eles/elas (pretérito perfeito)",
+              "form": "assistiram"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Hoje eu assisto na farmácia.",
+              "da": "I dag øver jeg sproget på apoteket."
+            },
+            {
+              "pt": "Ontem eu assisti na farmácia.",
+              "da": "I går gjorde jeg det på apoteket."
+            },
+            {
+              "pt": "Nós praticamos vocabulário novo.",
+              "da": "Vi øver nyt ordforråd."
+            }
+          ],
+          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "commonMistakes": [
+            {
+              "wrong": "Ontem eu assisto.",
+              "correct": "Ontem eu assisti.",
+              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+            },
+            {
+              "wrong": "Eu assisti todos os dias.",
+              "correct": "Eu assisto todos os dias.",
+              "noteDa": "Brug nutid ved vaner og rutiner."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "titleDa": "Læge og apotek: dialog 5",
+      "objectiveDa": "Brug læge og apotek med nutid, enkel datid og praktisk ordforråd.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Hoje eu assisto na farmácia.",
+          "textDa": "I dag øver jeg sproget på apoteket.",
+          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Ontem eu assisti na farmácia.",
+          "textDa": "I går gjorde jeg det på apoteket.",
+          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Também preciso de falar sobre semana.",
+          "textDa": "Jeg har også brug for at tale om uge.",
+          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "semana",
+          "textDa": "uge"
+        },
+        {
+          "textPt": "mês",
+          "textDa": "måned"
+        },
+        {
+          "textPt": "direita",
+          "textDa": "højre"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Regelmæssige verber: assistir",
+          "explanationDa": "Denne lektion bruger assistir og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
+          "verb": "assistir",
+          "conjugation": [
+            {
+              "subject": "eu (presente)",
+              "form": "assisto"
+            },
+            {
+              "subject": "tu (presente)",
+              "form": "assistes"
+            },
+            {
+              "subject": "ele/ela (presente)",
+              "form": "assiste"
+            },
+            {
+              "subject": "nós (presente)",
+              "form": "assistimos"
+            },
+            {
+              "subject": "vocês (presente)",
+              "form": "assistem"
+            },
+            {
+              "subject": "eles/elas (presente)",
+              "form": "assistem"
+            },
+            {
+              "subject": "eu (pretérito perfeito)",
+              "form": "assisti"
+            },
+            {
+              "subject": "tu (pretérito perfeito)",
+              "form": "assististe"
+            },
+            {
+              "subject": "ele/ela (pretérito perfeito)",
+              "form": "assistiu"
+            },
+            {
+              "subject": "nós (pretérito perfeito)",
+              "form": "assistimos"
+            },
+            {
+              "subject": "vocês (pretérito perfeito)",
+              "form": "assistiram"
+            },
+            {
+              "subject": "eles/elas (pretérito perfeito)",
+              "form": "assistiram"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Hoje eu assisto na farmácia.",
+              "da": "I dag øver jeg sproget på apoteket."
+            },
+            {
+              "pt": "Ontem eu assisti na farmácia.",
+              "da": "I går gjorde jeg det på apoteket."
+            },
+            {
+              "pt": "Nós praticamos vocabulário novo.",
+              "da": "Vi øver nyt ordforråd."
+            }
+          ],
+          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "commonMistakes": [
+            {
+              "wrong": "Ontem eu assisto.",
+              "correct": "Ontem eu assisti.",
+              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+            },
+            {
+              "wrong": "Eu assisti todos os dias.",
+              "correct": "Eu assisto todos os dias.",
+              "noteDa": "Brug nutid ved vaner og rutiner."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "titleDa": "Læge og apotek: dialog 6",
+      "objectiveDa": "Brug læge og apotek med nutid, enkel datid og praktisk ordforråd.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Hoje eu assisto na farmácia.",
+          "textDa": "I dag øver jeg sproget på apoteket.",
+          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Ontem eu assisti na farmácia.",
+          "textDa": "I går gjorde jeg det på apoteket.",
+          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Também preciso de falar sobre mês.",
+          "textDa": "Jeg har også brug for at tale om måned.",
+          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "mês",
+          "textDa": "måned"
+        },
+        {
+          "textPt": "direita",
+          "textDa": "højre"
+        },
+        {
+          "textPt": "esquerda",
+          "textDa": "venstre"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Regelmæssige verber: assistir",
+          "explanationDa": "Denne lektion bruger assistir og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
+          "verb": "assistir",
+          "conjugation": [
+            {
+              "subject": "eu (presente)",
+              "form": "assisto"
+            },
+            {
+              "subject": "tu (presente)",
+              "form": "assistes"
+            },
+            {
+              "subject": "ele/ela (presente)",
+              "form": "assiste"
+            },
+            {
+              "subject": "nós (presente)",
+              "form": "assistimos"
+            },
+            {
+              "subject": "vocês (presente)",
+              "form": "assistem"
+            },
+            {
+              "subject": "eles/elas (presente)",
+              "form": "assistem"
+            },
+            {
+              "subject": "eu (pretérito perfeito)",
+              "form": "assisti"
+            },
+            {
+              "subject": "tu (pretérito perfeito)",
+              "form": "assististe"
+            },
+            {
+              "subject": "ele/ela (pretérito perfeito)",
+              "form": "assistiu"
+            },
+            {
+              "subject": "nós (pretérito perfeito)",
+              "form": "assistimos"
+            },
+            {
+              "subject": "vocês (pretérito perfeito)",
+              "form": "assistiram"
+            },
+            {
+              "subject": "eles/elas (pretérito perfeito)",
+              "form": "assistiram"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Hoje eu assisto na farmácia.",
+              "da": "I dag øver jeg sproget på apoteket."
+            },
+            {
+              "pt": "Ontem eu assisti na farmácia.",
+              "da": "I går gjorde jeg det på apoteket."
+            },
+            {
+              "pt": "Nós praticamos vocabulário novo.",
+              "da": "Vi øver nyt ordforråd."
+            }
+          ],
+          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "commonMistakes": [
+            {
+              "wrong": "Ontem eu assisto.",
+              "correct": "Ontem eu assisti.",
+              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+            },
+            {
+              "wrong": "Eu assisti todos os dias.",
+              "correct": "Eu assisto todos os dias.",
+              "noteDa": "Brug nutid ved vaner og rutiner."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "titleDa": "Læge og apotek: dialog 7",
+      "objectiveDa": "Brug læge og apotek med nutid, enkel datid og praktisk ordforråd.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Hoje eu assisto na farmácia.",
+          "textDa": "I dag øver jeg sproget på apoteket.",
+          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Ontem eu assisti na farmácia.",
+          "textDa": "I går gjorde jeg det på apoteket.",
+          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Também preciso de falar sobre direita.",
+          "textDa": "Jeg har også brug for at tale om højre.",
+          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "direita",
+          "textDa": "højre"
+        },
+        {
+          "textPt": "esquerda",
+          "textDa": "venstre"
+        },
+        {
+          "textPt": "tempo",
+          "textDa": "vejr/tid"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Regelmæssige verber: assistir",
+          "explanationDa": "Denne lektion bruger assistir og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
+          "verb": "assistir",
+          "conjugation": [
+            {
+              "subject": "eu (presente)",
+              "form": "assisto"
+            },
+            {
+              "subject": "tu (presente)",
+              "form": "assistes"
+            },
+            {
+              "subject": "ele/ela (presente)",
+              "form": "assiste"
+            },
+            {
+              "subject": "nós (presente)",
+              "form": "assistimos"
+            },
+            {
+              "subject": "vocês (presente)",
+              "form": "assistem"
+            },
+            {
+              "subject": "eles/elas (presente)",
+              "form": "assistem"
+            },
+            {
+              "subject": "eu (pretérito perfeito)",
+              "form": "assisti"
+            },
+            {
+              "subject": "tu (pretérito perfeito)",
+              "form": "assististe"
+            },
+            {
+              "subject": "ele/ela (pretérito perfeito)",
+              "form": "assistiu"
+            },
+            {
+              "subject": "nós (pretérito perfeito)",
+              "form": "assistimos"
+            },
+            {
+              "subject": "vocês (pretérito perfeito)",
+              "form": "assistiram"
+            },
+            {
+              "subject": "eles/elas (pretérito perfeito)",
+              "form": "assistiram"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Hoje eu assisto na farmácia.",
+              "da": "I dag øver jeg sproget på apoteket."
+            },
+            {
+              "pt": "Ontem eu assisti na farmácia.",
+              "da": "I går gjorde jeg det på apoteket."
+            },
+            {
+              "pt": "Nós praticamos vocabulário novo.",
+              "da": "Vi øver nyt ordforråd."
+            }
+          ],
+          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "commonMistakes": [
+            {
+              "wrong": "Ontem eu assisto.",
+              "correct": "Ontem eu assisti.",
+              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+            },
+            {
+              "wrong": "Eu assisti todos os dias.",
+              "correct": "Eu assisto todos os dias.",
+              "noteDa": "Brug nutid ved vaner og rutiner."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "titleDa": "Læge og apotek: dialog 8",
+      "objectiveDa": "Brug læge og apotek med nutid, enkel datid og praktisk ordforråd.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Hoje eu assisto na farmácia.",
+          "textDa": "I dag øver jeg sproget på apoteket.",
+          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Ontem eu assisti na farmácia.",
+          "textDa": "I går gjorde jeg det på apoteket.",
+          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Também preciso de falar sobre esquerda.",
+          "textDa": "Jeg har også brug for at tale om venstre.",
+          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "esquerda",
+          "textDa": "venstre"
+        },
+        {
+          "textPt": "tempo",
+          "textDa": "vejr/tid"
+        },
+        {
+          "textPt": "número",
+          "textDa": "tal"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Regelmæssige verber: assistir",
+          "explanationDa": "Denne lektion bruger assistir og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
+          "verb": "assistir",
+          "conjugation": [
+            {
+              "subject": "eu (presente)",
+              "form": "assisto"
+            },
+            {
+              "subject": "tu (presente)",
+              "form": "assistes"
+            },
+            {
+              "subject": "ele/ela (presente)",
+              "form": "assiste"
+            },
+            {
+              "subject": "nós (presente)",
+              "form": "assistimos"
+            },
+            {
+              "subject": "vocês (presente)",
+              "form": "assistem"
+            },
+            {
+              "subject": "eles/elas (presente)",
+              "form": "assistem"
+            },
+            {
+              "subject": "eu (pretérito perfeito)",
+              "form": "assisti"
+            },
+            {
+              "subject": "tu (pretérito perfeito)",
+              "form": "assististe"
+            },
+            {
+              "subject": "ele/ela (pretérito perfeito)",
+              "form": "assistiu"
+            },
+            {
+              "subject": "nós (pretérito perfeito)",
+              "form": "assistimos"
+            },
+            {
+              "subject": "vocês (pretérito perfeito)",
+              "form": "assistiram"
+            },
+            {
+              "subject": "eles/elas (pretérito perfeito)",
+              "form": "assistiram"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Hoje eu assisto na farmácia.",
+              "da": "I dag øver jeg sproget på apoteket."
+            },
+            {
+              "pt": "Ontem eu assisti na farmácia.",
+              "da": "I går gjorde jeg det på apoteket."
+            },
+            {
+              "pt": "Nós praticamos vocabulário novo.",
+              "da": "Vi øver nyt ordforråd."
+            }
+          ],
+          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "commonMistakes": [
+            {
+              "wrong": "Ontem eu assisto.",
+              "correct": "Ontem eu assisti.",
+              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+            },
+            {
+              "wrong": "Eu assisti todos os dias.",
+              "correct": "Eu assisto todos os dias.",
+              "noteDa": "Brug nutid ved vaner og rutiner."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "titleDa": "Læge og apotek: dialog 9",
+      "objectiveDa": "Brug læge og apotek med nutid, enkel datid og praktisk ordforråd.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Hoje eu assisto na farmácia.",
+          "textDa": "I dag øver jeg sproget på apoteket.",
+          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Ontem eu assisti na farmácia.",
+          "textDa": "I går gjorde jeg det på apoteket.",
+          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Também preciso de falar sobre tempo.",
+          "textDa": "Jeg har også brug for at tale om vejr/tid.",
+          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "tempo",
+          "textDa": "vejr/tid"
+        },
+        {
+          "textPt": "número",
+          "textDa": "tal"
+        },
+        {
+          "textPt": "corpo",
+          "textDa": "krop"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Regelmæssige verber: assistir",
+          "explanationDa": "Denne lektion bruger assistir og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
+          "verb": "assistir",
+          "conjugation": [
+            {
+              "subject": "eu (presente)",
+              "form": "assisto"
+            },
+            {
+              "subject": "tu (presente)",
+              "form": "assistes"
+            },
+            {
+              "subject": "ele/ela (presente)",
+              "form": "assiste"
+            },
+            {
+              "subject": "nós (presente)",
+              "form": "assistimos"
+            },
+            {
+              "subject": "vocês (presente)",
+              "form": "assistem"
+            },
+            {
+              "subject": "eles/elas (presente)",
+              "form": "assistem"
+            },
+            {
+              "subject": "eu (pretérito perfeito)",
+              "form": "assisti"
+            },
+            {
+              "subject": "tu (pretérito perfeito)",
+              "form": "assististe"
+            },
+            {
+              "subject": "ele/ela (pretérito perfeito)",
+              "form": "assistiu"
+            },
+            {
+              "subject": "nós (pretérito perfeito)",
+              "form": "assistimos"
+            },
+            {
+              "subject": "vocês (pretérito perfeito)",
+              "form": "assistiram"
+            },
+            {
+              "subject": "eles/elas (pretérito perfeito)",
+              "form": "assistiram"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Hoje eu assisto na farmácia.",
+              "da": "I dag øver jeg sproget på apoteket."
+            },
+            {
+              "pt": "Ontem eu assisti na farmácia.",
+              "da": "I går gjorde jeg det på apoteket."
+            },
+            {
+              "pt": "Nós praticamos vocabulário novo.",
+              "da": "Vi øver nyt ordforråd."
+            }
+          ],
+          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "commonMistakes": [
+            {
+              "wrong": "Ontem eu assisto.",
+              "correct": "Ontem eu assisti.",
+              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+            },
+            {
+              "wrong": "Eu assisti todos os dias.",
+              "correct": "Eu assisto todos os dias.",
+              "noteDa": "Brug nutid ved vaner og rutiner."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "titleDa": "Læge og apotek: dialog 10",
+      "objectiveDa": "Brug læge og apotek med nutid, enkel datid og praktisk ordforråd.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Hoje eu assisto na farmácia.",
+          "textDa": "I dag øver jeg sproget på apoteket.",
+          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Ontem eu assisti na farmácia.",
+          "textDa": "I går gjorde jeg det på apoteket.",
+          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Também preciso de falar sobre número.",
+          "textDa": "Jeg har også brug for at tale om tal.",
+          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "número",
+          "textDa": "tal"
+        },
+        {
+          "textPt": "corpo",
+          "textDa": "krop"
+        },
+        {
+          "textPt": "comida",
+          "textDa": "mad"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Regelmæssige verber: assistir",
+          "explanationDa": "Denne lektion bruger assistir og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
+          "verb": "assistir",
+          "conjugation": [
+            {
+              "subject": "eu (presente)",
+              "form": "assisto"
+            },
+            {
+              "subject": "tu (presente)",
+              "form": "assistes"
+            },
+            {
+              "subject": "ele/ela (presente)",
+              "form": "assiste"
+            },
+            {
+              "subject": "nós (presente)",
+              "form": "assistimos"
+            },
+            {
+              "subject": "vocês (presente)",
+              "form": "assistem"
+            },
+            {
+              "subject": "eles/elas (presente)",
+              "form": "assistem"
+            },
+            {
+              "subject": "eu (pretérito perfeito)",
+              "form": "assisti"
+            },
+            {
+              "subject": "tu (pretérito perfeito)",
+              "form": "assististe"
+            },
+            {
+              "subject": "ele/ela (pretérito perfeito)",
+              "form": "assistiu"
+            },
+            {
+              "subject": "nós (pretérito perfeito)",
+              "form": "assistimos"
+            },
+            {
+              "subject": "vocês (pretérito perfeito)",
+              "form": "assistiram"
+            },
+            {
+              "subject": "eles/elas (pretérito perfeito)",
+              "form": "assistiram"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Hoje eu assisto na farmácia.",
+              "da": "I dag øver jeg sproget på apoteket."
+            },
+            {
+              "pt": "Ontem eu assisti na farmácia.",
+              "da": "I går gjorde jeg det på apoteket."
+            },
+            {
+              "pt": "Nós praticamos vocabulário novo.",
+              "da": "Vi øver nyt ordforråd."
+            }
+          ],
+          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "commonMistakes": [
+            {
+              "wrong": "Ontem eu assisto.",
+              "correct": "Ontem eu assisti.",
+              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+            },
+            {
+              "wrong": "Eu assisti todos os dias.",
+              "correct": "Eu assisto todos os dias.",
+              "noteDa": "Brug nutid ved vaner og rutiner."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "questionDa": "Hvilken form er korrekt i nutid?",
+      "answers": [
+        {
+          "text": "eu assisto",
+          "correct": true
+        },
+        {
+          "text": "eu assisti",
+          "correct": false
+        },
+        {
+          "text": "eu falam",
+          "correct": false
+        },
+        {
+          "text": "eu falar",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Nutidsformen passer til hoje eller en vane."
+    },
+    {
+      "id": 2,
+      "questionDa": "Hvilken form er korrekt i pretérito perfeito?",
+      "answers": [
+        {
+          "text": "eu assisti",
+          "correct": true
+        },
+        {
+          "text": "eu assisto",
+          "correct": false
+        },
+        {
+          "text": "eu falas",
+          "correct": false
+        },
+        {
+          "text": "eu falaram",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Datidsformen passer til ontem."
+    },
+    {
+      "id": 3,
+      "questionDa": "Hvad betyder: Hoje eu assisto na farmácia.",
+      "answers": [
+        {
+          "text": "I dag øver jeg sproget på apoteket.",
+          "correct": true
+        },
+        {
+          "text": "I går gjorde jeg det.",
+          "correct": false
+        },
+        {
+          "text": "Vi åbner hotellet.",
+          "correct": false
+        },
+        {
+          "text": "De sælger billetter.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Hoje markerer nutid."
+    },
+    {
+      "id": 4,
+      "questionDa": "Vælg den bedste portugisiske sætning.",
+      "answers": [
+        {
+          "text": "Ontem eu assisti na farmácia.",
+          "correct": true
+        },
+        {
+          "text": "Ontem eu assisto na farmácia.",
+          "correct": false
+        },
+        {
+          "text": "Ontem eu falar na farmácia.",
+          "correct": false
+        },
+        {
+          "text": "Ontem eu falam na farmácia.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Ontem kræver datid i denne sætning."
+    },
+    {
+      "id": 5,
+      "questionDa": "Hvilket ord hører til lektionens ordforråd?",
+      "answers": [
+        {
+          "text": "receita",
+          "correct": true
+        },
+        {
+          "text": "janela",
+          "correct": false
+        },
+        {
+          "text": "camisa",
+          "correct": false
+        },
+        {
+          "text": "banana",
+          "correct": false
+        }
+      ],
+      "explanationDa": "receita hører til lektionens tema."
+    },
+    {
+      "id": 6,
+      "questionDa": "Udfyld sætningen: Ontem eu ___.",
+      "answers": [
+        {
+          "text": "assisti",
+          "correct": true
+        },
+        {
+          "text": "assisto",
+          "correct": false
+        },
+        {
+          "text": "fala",
+          "correct": false
+        },
+        {
+          "text": "falam",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Ontem peger på datid."
+    },
+    {
+      "id": 7,
+      "questionDa": "Hvilken portugisisk form er tallet 84?",
+      "answers": [
+        {
+          "text": "oitenta e quatro",
+          "correct": true
+        },
+        {
+          "text": "vinte",
+          "correct": false
+        },
+        {
+          "text": "sessenta",
+          "correct": false
+        },
+        {
+          "text": "noventa",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Talquizzen kommer fra JSON og kan genbruges i fremtidige niveauer."
+    }
+  ],
+  "storyTitleDa": "Et besøg på apoteket",
+  "storyObjectiveDa": "Læs en sammenhængende tekst med regelmæssige verber, nyt ordforråd og en enkel introduktion til datid.",
+  "story": [
+    {
+      "speaker": "A",
+      "textPt": "Ontem eu assisti na farmácia e aprendi a palavra receita.",
+      "textDa": "I går gjorde jeg det på apoteket og lærte ordet recept.",
+      "grammarDa": "Datid plus nyt ordforråd."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Hoje eu assisto na farmácia com uma frase simples.",
+      "textDa": "I dag øver jeg på apoteket med en enkel sætning.",
+      "grammarDa": "Nutid bruges om dagens handling."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Hoje eu assisto na farmácia com uma frase simples.",
+      "textDa": "I dag øver jeg på apoteket med en enkel sætning.",
+      "grammarDa": "Nutid bruges om dagens handling."
+    },
+    {
+      "speaker": "B",
+      "textPt": "Nós falamos sobre ontem com calma.",
+      "textDa": "Vi taler roligt om i går.",
+      "grammarDa": "Falamos er et regelmæssigt -ar-verbum."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Ontem eu assisti na farmácia e aprendi a palavra semana.",
+      "textDa": "I går gjorde jeg det på apoteket og lærte ordet uge.",
+      "grammarDa": "Datid plus nyt ordforråd."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Hoje eu assisto na farmácia com uma frase simples.",
+      "textDa": "I dag øver jeg på apoteket med en enkel sætning.",
+      "grammarDa": "Nutid bruges om dagens handling."
+    },
+    {
+      "speaker": "B",
+      "textPt": "Nós falamos sobre direita com calma.",
+      "textDa": "Vi taler roligt om højre.",
+      "grammarDa": "Falamos er et regelmæssigt -ar-verbum."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Hoje eu assisto na farmácia com uma frase simples.",
+      "textDa": "I dag øver jeg på apoteket med en enkel sætning.",
+      "grammarDa": "Nutid bruges om dagens handling."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Ontem eu assisti na farmácia e aprendi a palavra tempo.",
+      "textDa": "I går gjorde jeg det på apoteket og lærte ordet vejr/tid.",
+      "grammarDa": "Datid plus nyt ordforråd."
+    },
+    {
+      "speaker": "B",
+      "textPt": "Nós falamos sobre número com calma.",
+      "textDa": "Vi taler roligt om tal.",
+      "grammarDa": "Falamos er et regelmæssigt -ar-verbum."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Hoje eu assisto na farmácia com uma frase simples.",
+      "textDa": "I dag øver jeg på apoteket med en enkel sætning.",
+      "grammarDa": "Nutid bruges om dagens handling."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Hoje eu assisto na farmácia com uma frase simples.",
+      "textDa": "I dag øver jeg på apoteket med en enkel sætning.",
+      "grammarDa": "Nutid bruges om dagens handling."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Ontem eu assisti na farmácia e aprendi a palavra receita.",
+      "textDa": "I går gjorde jeg det på apoteket og lærte ordet recept.",
+      "grammarDa": "Datid plus nyt ordforråd."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Hoje eu assisto na farmácia com uma frase simples.",
+      "textDa": "I dag øver jeg på apoteket med en enkel sætning.",
+      "grammarDa": "Nutid bruges om dagens handling."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Hoje eu assisto na farmácia com uma frase simples.",
+      "textDa": "I dag øver jeg på apoteket med en enkel sætning.",
+      "grammarDa": "Nutid bruges om dagens handling."
+    },
+    {
+      "speaker": "B",
+      "textPt": "Nós falamos sobre ontem com calma.",
+      "textDa": "Vi taler roligt om i går.",
+      "grammarDa": "Falamos er et regelmæssigt -ar-verbum."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Ontem eu assisti na farmácia e aprendi a palavra semana.",
+      "textDa": "I går gjorde jeg det på apoteket og lærte ordet uge.",
+      "grammarDa": "Datid plus nyt ordforråd."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Hoje eu assisto na farmácia com uma frase simples.",
+      "textDa": "I dag øver jeg på apoteket med en enkel sætning.",
+      "grammarDa": "Nutid bruges om dagens handling."
+    },
+    {
+      "speaker": "B",
+      "textPt": "Nós falamos sobre direita com calma.",
+      "textDa": "Vi taler roligt om højre.",
+      "grammarDa": "Falamos er et regelmæssigt -ar-verbum."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Hoje eu assisto na farmácia com uma frase simples.",
+      "textDa": "I dag øver jeg på apoteket med en enkel sætning.",
+      "grammarDa": "Nutid bruges om dagens handling."
+    }
+  ]
+}

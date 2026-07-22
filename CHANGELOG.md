@@ -24,6 +24,10 @@
 - Added configurable Nenolink browser link via generated Android resource.
 - Added children safety phrases for ordinary police help and emergency 112 use in Portugal.
 - Added release-process documentation.
+- Added Learn Portuguese 3 as a new JSON-only Nenoling content package under `app/src/main/assets/levels/level4` because `level3` is already used for Children.
+- Added 10 lower-intermediate Learn Portuguese 3 lessons with 10 dialogs per lesson, reading texts of approximately 20 lines, expanded vocabulary, grammar explanations, conjugation tables, examples, notes and common mistakes.
+- Extended the shared grammar formatter to display JSON `commonMistakes` without adding a separate grammar engine.
+- Extended validation to check Learn Portuguese 3 lesson count, dialog count, story length, grammar/conjugation/common-mistake structure, quiz presence and deterministic navigation.
 
 ## 1.0 Local Release Candidate
 

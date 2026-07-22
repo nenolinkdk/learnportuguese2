@@ -11,6 +11,7 @@ The app reuses the existing Learn Portuguese Java/Android structure and keeps Ni
 - Niveau 1 content lives in `app/src/main/assets/levels/level1`.
 - Niveau 2 content lives in `app/src/main/assets/levels/level2`.
 - Børneniveauet ligger i `app/src/main/assets/levels/level3`.
+- Learn Portuguese 3 content lives in `app/src/main/assets/levels/level4` because `level3` is already used for Children.
 - The bundled Nenoling user guide lives in `app/src/main/assets/docs/user_guide.json`.
 - The app defaults to Niveau 2 and lets the user choose Niveau 1, Niveau 2, børneniveau, quizzes, numbers and the offline guide.
 - Current release metadata is maintained in `app/build.gradle`: `versionName 0.2.0`, `versionCode 12`, and release date `2026-07-12`.
@@ -21,6 +22,13 @@ The app reuses the existing Learn Portuguese Java/Android structure and keeps Ni
 
 - `tools/validate_navigation_content.ps1` validates deterministic dialog navigation assumptions and checks that helper/feedback phrases are not stored as children dialog content.
 - The same script checks shared lesson status formatting, dialog breadcrumb metadata, release metadata, Nenolink link wiring, and children safety phrases.
+- It also validates Learn Portuguese 3 lesson count, dialog count, story length, grammar/conjugation/common-mistake structure, quiz presence and deterministic navigation.
+
+## Learn Portuguese 3
+
+Learn Portuguese 3 is prepared as the next lower-intermediate Nenoling package. It reuses the existing application engine completely: no separate lesson, dialog, grammar, story or quiz implementation.
+
+Because `level3` is already used for Children, the Learn Portuguese 3 product package is stored as `levels/level4` with `productLevel: 3`. It contains 10 lessons, 10 dialogs per lesson, JSON grammar notes for regular verbs, conjugation tables, common mistakes, quizzes and one approximately 20-line reading text per lesson.
 
 ## Documentation
 

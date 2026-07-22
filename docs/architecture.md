@@ -315,6 +315,22 @@ Release metadata is defined in `app/build.gradle`:
 
 The main menu displays these values from Gradle-generated Android metadata/resources. The Nenolink website URL is also defined once in `app/build.gradle` as the generated `nenolink_url` string resource. The user guide opens this URL through a browser intent; the guide itself remains bundled and offline.
 
+## Learn Portuguese 3 Package
+
+Learn Portuguese 3 is the next lower-intermediate Nenoling language package. The existing `level3` folder is reserved for Children, so Learn Portuguese 3 is stored in `app/src/main/assets/levels/level4/` with `titleDa: "Learn Portuguese 3"` and `productLevel: 3`.
+
+The package uses the same engine as Niveau 1, Niveau 2 and Children:
+
+- one `level.json` metadata file
+- ten `lessonNN.json` files
+- ten `dialogues` per lesson
+- `phrases`, `vocabulary`, `grammar`, `quiz` and `story` arrays using the shared schema
+- no separate lesson, dialog, grammar, story or quiz renderer
+
+Learn Portuguese 3 introduces regular `-ar`, `-er` and `-ir` verbs, a simple introduction to pretérito perfeito, longer dialogs, expanded vocabulary and one approximately 20-line reading text per lesson. The only code change for this package is reusable: the grammar formatter reads the optional JSON `commonMistakes` array and displays it as part of the existing grammar explanation.
+
+Future language packages such as French to Danish, Danish to Spanish and Danish to Italian should follow the same folder/schema pattern with new JSON assets only.
+
 ## Checklist: Add A New Niveau
 
 1. Create `app/src/main/assets/levels/levelN/`.

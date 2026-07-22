@@ -362,6 +362,19 @@ public class LessonRepository {
             appendLine(builder, notes);
         }
 
+        JSONArray commonMistakes = json.optJSONArray("commonMistakes");
+        if (commonMistakes != null && commonMistakes.length() > 0) {
+            appendSection(builder, "Typiske fejl");
+            for (int index = 0; index < commonMistakes.length(); index++) {
+                JSONObject mistake = commonMistakes.getJSONObject(index);
+                String wrong = mistake.optString("wrong");
+                String correct = mistake.optString("correct");
+                String note = mistake.optString("noteDa");
+                appendLine(builder, wrong + " -> " + correct);
+                appendLine(builder, note);
+            }
+        }
+
         return builder.toString();
     }
 
