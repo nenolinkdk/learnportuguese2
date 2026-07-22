@@ -1,0 +1,1524 @@
+{
+  "id": 4,
+  "titleDa": "Rejser",
+  "descriptionDa": "Learn Portuguese 3: rejser. Træn regelmæssige verber, længere dialoger, ordforråd og en enkel introduktion til pretérito perfeito.",
+  "dialogues": [
+    {
+      "id": 1,
+      "titleDa": "Rejser: dialog 1",
+      "objectiveDa": "Brug rejser med nutid, enkel datid og praktisk ordforråd.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Hoje eu parto na estação.",
+          "textDa": "I dag øver jeg sproget på stationen.",
+          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Ontem eu parti na estação.",
+          "textDa": "I går gjorde jeg det på stationen.",
+          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Também preciso de falar sobre bilhete.",
+          "textDa": "Jeg har også brug for at tale om billet.",
+          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "bilhete",
+          "textDa": "billet"
+        },
+        {
+          "textPt": "horário",
+          "textDa": "tidsskema"
+        },
+        {
+          "textPt": "amanhã",
+          "textDa": "i morgen"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Regelmæssige verber: partir",
+          "explanationDa": "Denne lektion bruger partir og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
+          "verb": "partir",
+          "conjugation": [
+            {
+              "subject": "eu (presente)",
+              "form": "parto"
+            },
+            {
+              "subject": "tu (presente)",
+              "form": "partes"
+            },
+            {
+              "subject": "ele/ela (presente)",
+              "form": "parte"
+            },
+            {
+              "subject": "nós (presente)",
+              "form": "partimos"
+            },
+            {
+              "subject": "vocês (presente)",
+              "form": "partem"
+            },
+            {
+              "subject": "eles/elas (presente)",
+              "form": "partem"
+            },
+            {
+              "subject": "eu (pretérito perfeito)",
+              "form": "parti"
+            },
+            {
+              "subject": "tu (pretérito perfeito)",
+              "form": "partiste"
+            },
+            {
+              "subject": "ele/ela (pretérito perfeito)",
+              "form": "partiu"
+            },
+            {
+              "subject": "nós (pretérito perfeito)",
+              "form": "partimos"
+            },
+            {
+              "subject": "vocês (pretérito perfeito)",
+              "form": "partiram"
+            },
+            {
+              "subject": "eles/elas (pretérito perfeito)",
+              "form": "partiram"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Hoje eu parto na estação.",
+              "da": "I dag øver jeg sproget på stationen."
+            },
+            {
+              "pt": "Ontem eu parti na estação.",
+              "da": "I går gjorde jeg det på stationen."
+            },
+            {
+              "pt": "Nós praticamos vocabulário novo.",
+              "da": "Vi øver nyt ordforråd."
+            }
+          ],
+          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "commonMistakes": [
+            {
+              "wrong": "Ontem eu parto.",
+              "correct": "Ontem eu parti.",
+              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+            },
+            {
+              "wrong": "Eu parti todos os dias.",
+              "correct": "Eu parto todos os dias.",
+              "noteDa": "Brug nutid ved vaner og rutiner."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titleDa": "Rejser: dialog 2",
+      "objectiveDa": "Brug rejser med nutid, enkel datid og praktisk ordforråd.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Hoje eu parto na estação.",
+          "textDa": "I dag øver jeg sproget på stationen.",
+          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Ontem eu parti na estação.",
+          "textDa": "I går gjorde jeg det på stationen.",
+          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Também preciso de falar sobre horário.",
+          "textDa": "Jeg har også brug for at tale om tidsskema.",
+          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "horário",
+          "textDa": "tidsskema"
+        },
+        {
+          "textPt": "amanhã",
+          "textDa": "i morgen"
+        },
+        {
+          "textPt": "ontem",
+          "textDa": "i går"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Regelmæssige verber: partir",
+          "explanationDa": "Denne lektion bruger partir og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
+          "verb": "partir",
+          "conjugation": [
+            {
+              "subject": "eu (presente)",
+              "form": "parto"
+            },
+            {
+              "subject": "tu (presente)",
+              "form": "partes"
+            },
+            {
+              "subject": "ele/ela (presente)",
+              "form": "parte"
+            },
+            {
+              "subject": "nós (presente)",
+              "form": "partimos"
+            },
+            {
+              "subject": "vocês (presente)",
+              "form": "partem"
+            },
+            {
+              "subject": "eles/elas (presente)",
+              "form": "partem"
+            },
+            {
+              "subject": "eu (pretérito perfeito)",
+              "form": "parti"
+            },
+            {
+              "subject": "tu (pretérito perfeito)",
+              "form": "partiste"
+            },
+            {
+              "subject": "ele/ela (pretérito perfeito)",
+              "form": "partiu"
+            },
+            {
+              "subject": "nós (pretérito perfeito)",
+              "form": "partimos"
+            },
+            {
+              "subject": "vocês (pretérito perfeito)",
+              "form": "partiram"
+            },
+            {
+              "subject": "eles/elas (pretérito perfeito)",
+              "form": "partiram"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Hoje eu parto na estação.",
+              "da": "I dag øver jeg sproget på stationen."
+            },
+            {
+              "pt": "Ontem eu parti na estação.",
+              "da": "I går gjorde jeg det på stationen."
+            },
+            {
+              "pt": "Nós praticamos vocabulário novo.",
+              "da": "Vi øver nyt ordforråd."
+            }
+          ],
+          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "commonMistakes": [
+            {
+              "wrong": "Ontem eu parto.",
+              "correct": "Ontem eu parti.",
+              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+            },
+            {
+              "wrong": "Eu parti todos os dias.",
+              "correct": "Eu parto todos os dias.",
+              "noteDa": "Brug nutid ved vaner og rutiner."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "titleDa": "Rejser: dialog 3",
+      "objectiveDa": "Brug rejser med nutid, enkel datid og praktisk ordforråd.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Hoje eu parto na estação.",
+          "textDa": "I dag øver jeg sproget på stationen.",
+          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Ontem eu parti na estação.",
+          "textDa": "I går gjorde jeg det på stationen.",
+          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Também preciso de falar sobre amanhã.",
+          "textDa": "Jeg har også brug for at tale om i morgen.",
+          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "amanhã",
+          "textDa": "i morgen"
+        },
+        {
+          "textPt": "ontem",
+          "textDa": "i går"
+        },
+        {
+          "textPt": "semana",
+          "textDa": "uge"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Regelmæssige verber: partir",
+          "explanationDa": "Denne lektion bruger partir og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
+          "verb": "partir",
+          "conjugation": [
+            {
+              "subject": "eu (presente)",
+              "form": "parto"
+            },
+            {
+              "subject": "tu (presente)",
+              "form": "partes"
+            },
+            {
+              "subject": "ele/ela (presente)",
+              "form": "parte"
+            },
+            {
+              "subject": "nós (presente)",
+              "form": "partimos"
+            },
+            {
+              "subject": "vocês (presente)",
+              "form": "partem"
+            },
+            {
+              "subject": "eles/elas (presente)",
+              "form": "partem"
+            },
+            {
+              "subject": "eu (pretérito perfeito)",
+              "form": "parti"
+            },
+            {
+              "subject": "tu (pretérito perfeito)",
+              "form": "partiste"
+            },
+            {
+              "subject": "ele/ela (pretérito perfeito)",
+              "form": "partiu"
+            },
+            {
+              "subject": "nós (pretérito perfeito)",
+              "form": "partimos"
+            },
+            {
+              "subject": "vocês (pretérito perfeito)",
+              "form": "partiram"
+            },
+            {
+              "subject": "eles/elas (pretérito perfeito)",
+              "form": "partiram"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Hoje eu parto na estação.",
+              "da": "I dag øver jeg sproget på stationen."
+            },
+            {
+              "pt": "Ontem eu parti na estação.",
+              "da": "I går gjorde jeg det på stationen."
+            },
+            {
+              "pt": "Nós praticamos vocabulário novo.",
+              "da": "Vi øver nyt ordforråd."
+            }
+          ],
+          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "commonMistakes": [
+            {
+              "wrong": "Ontem eu parto.",
+              "correct": "Ontem eu parti.",
+              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+            },
+            {
+              "wrong": "Eu parti todos os dias.",
+              "correct": "Eu parto todos os dias.",
+              "noteDa": "Brug nutid ved vaner og rutiner."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "titleDa": "Rejser: dialog 4",
+      "objectiveDa": "Brug rejser med nutid, enkel datid og praktisk ordforråd.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Hoje eu parto na estação.",
+          "textDa": "I dag øver jeg sproget på stationen.",
+          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Ontem eu parti na estação.",
+          "textDa": "I går gjorde jeg det på stationen.",
+          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Também preciso de falar sobre ontem.",
+          "textDa": "Jeg har også brug for at tale om i går.",
+          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "ontem",
+          "textDa": "i går"
+        },
+        {
+          "textPt": "semana",
+          "textDa": "uge"
+        },
+        {
+          "textPt": "mês",
+          "textDa": "måned"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Regelmæssige verber: partir",
+          "explanationDa": "Denne lektion bruger partir og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
+          "verb": "partir",
+          "conjugation": [
+            {
+              "subject": "eu (presente)",
+              "form": "parto"
+            },
+            {
+              "subject": "tu (presente)",
+              "form": "partes"
+            },
+            {
+              "subject": "ele/ela (presente)",
+              "form": "parte"
+            },
+            {
+              "subject": "nós (presente)",
+              "form": "partimos"
+            },
+            {
+              "subject": "vocês (presente)",
+              "form": "partem"
+            },
+            {
+              "subject": "eles/elas (presente)",
+              "form": "partem"
+            },
+            {
+              "subject": "eu (pretérito perfeito)",
+              "form": "parti"
+            },
+            {
+              "subject": "tu (pretérito perfeito)",
+              "form": "partiste"
+            },
+            {
+              "subject": "ele/ela (pretérito perfeito)",
+              "form": "partiu"
+            },
+            {
+              "subject": "nós (pretérito perfeito)",
+              "form": "partimos"
+            },
+            {
+              "subject": "vocês (pretérito perfeito)",
+              "form": "partiram"
+            },
+            {
+              "subject": "eles/elas (pretérito perfeito)",
+              "form": "partiram"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Hoje eu parto na estação.",
+              "da": "I dag øver jeg sproget på stationen."
+            },
+            {
+              "pt": "Ontem eu parti na estação.",
+              "da": "I går gjorde jeg det på stationen."
+            },
+            {
+              "pt": "Nós praticamos vocabulário novo.",
+              "da": "Vi øver nyt ordforråd."
+            }
+          ],
+          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "commonMistakes": [
+            {
+              "wrong": "Ontem eu parto.",
+              "correct": "Ontem eu parti.",
+              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+            },
+            {
+              "wrong": "Eu parti todos os dias.",
+              "correct": "Eu parto todos os dias.",
+              "noteDa": "Brug nutid ved vaner og rutiner."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "titleDa": "Rejser: dialog 5",
+      "objectiveDa": "Brug rejser med nutid, enkel datid og praktisk ordforråd.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Hoje eu parto na estação.",
+          "textDa": "I dag øver jeg sproget på stationen.",
+          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Ontem eu parti na estação.",
+          "textDa": "I går gjorde jeg det på stationen.",
+          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Também preciso de falar sobre semana.",
+          "textDa": "Jeg har også brug for at tale om uge.",
+          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "semana",
+          "textDa": "uge"
+        },
+        {
+          "textPt": "mês",
+          "textDa": "måned"
+        },
+        {
+          "textPt": "direita",
+          "textDa": "højre"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Regelmæssige verber: partir",
+          "explanationDa": "Denne lektion bruger partir og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
+          "verb": "partir",
+          "conjugation": [
+            {
+              "subject": "eu (presente)",
+              "form": "parto"
+            },
+            {
+              "subject": "tu (presente)",
+              "form": "partes"
+            },
+            {
+              "subject": "ele/ela (presente)",
+              "form": "parte"
+            },
+            {
+              "subject": "nós (presente)",
+              "form": "partimos"
+            },
+            {
+              "subject": "vocês (presente)",
+              "form": "partem"
+            },
+            {
+              "subject": "eles/elas (presente)",
+              "form": "partem"
+            },
+            {
+              "subject": "eu (pretérito perfeito)",
+              "form": "parti"
+            },
+            {
+              "subject": "tu (pretérito perfeito)",
+              "form": "partiste"
+            },
+            {
+              "subject": "ele/ela (pretérito perfeito)",
+              "form": "partiu"
+            },
+            {
+              "subject": "nós (pretérito perfeito)",
+              "form": "partimos"
+            },
+            {
+              "subject": "vocês (pretérito perfeito)",
+              "form": "partiram"
+            },
+            {
+              "subject": "eles/elas (pretérito perfeito)",
+              "form": "partiram"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Hoje eu parto na estação.",
+              "da": "I dag øver jeg sproget på stationen."
+            },
+            {
+              "pt": "Ontem eu parti na estação.",
+              "da": "I går gjorde jeg det på stationen."
+            },
+            {
+              "pt": "Nós praticamos vocabulário novo.",
+              "da": "Vi øver nyt ordforråd."
+            }
+          ],
+          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "commonMistakes": [
+            {
+              "wrong": "Ontem eu parto.",
+              "correct": "Ontem eu parti.",
+              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+            },
+            {
+              "wrong": "Eu parti todos os dias.",
+              "correct": "Eu parto todos os dias.",
+              "noteDa": "Brug nutid ved vaner og rutiner."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "titleDa": "Rejser: dialog 6",
+      "objectiveDa": "Brug rejser med nutid, enkel datid og praktisk ordforråd.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Hoje eu parto na estação.",
+          "textDa": "I dag øver jeg sproget på stationen.",
+          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Ontem eu parti na estação.",
+          "textDa": "I går gjorde jeg det på stationen.",
+          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Também preciso de falar sobre mês.",
+          "textDa": "Jeg har også brug for at tale om måned.",
+          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "mês",
+          "textDa": "måned"
+        },
+        {
+          "textPt": "direita",
+          "textDa": "højre"
+        },
+        {
+          "textPt": "esquerda",
+          "textDa": "venstre"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Regelmæssige verber: partir",
+          "explanationDa": "Denne lektion bruger partir og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
+          "verb": "partir",
+          "conjugation": [
+            {
+              "subject": "eu (presente)",
+              "form": "parto"
+            },
+            {
+              "subject": "tu (presente)",
+              "form": "partes"
+            },
+            {
+              "subject": "ele/ela (presente)",
+              "form": "parte"
+            },
+            {
+              "subject": "nós (presente)",
+              "form": "partimos"
+            },
+            {
+              "subject": "vocês (presente)",
+              "form": "partem"
+            },
+            {
+              "subject": "eles/elas (presente)",
+              "form": "partem"
+            },
+            {
+              "subject": "eu (pretérito perfeito)",
+              "form": "parti"
+            },
+            {
+              "subject": "tu (pretérito perfeito)",
+              "form": "partiste"
+            },
+            {
+              "subject": "ele/ela (pretérito perfeito)",
+              "form": "partiu"
+            },
+            {
+              "subject": "nós (pretérito perfeito)",
+              "form": "partimos"
+            },
+            {
+              "subject": "vocês (pretérito perfeito)",
+              "form": "partiram"
+            },
+            {
+              "subject": "eles/elas (pretérito perfeito)",
+              "form": "partiram"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Hoje eu parto na estação.",
+              "da": "I dag øver jeg sproget på stationen."
+            },
+            {
+              "pt": "Ontem eu parti na estação.",
+              "da": "I går gjorde jeg det på stationen."
+            },
+            {
+              "pt": "Nós praticamos vocabulário novo.",
+              "da": "Vi øver nyt ordforråd."
+            }
+          ],
+          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "commonMistakes": [
+            {
+              "wrong": "Ontem eu parto.",
+              "correct": "Ontem eu parti.",
+              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+            },
+            {
+              "wrong": "Eu parti todos os dias.",
+              "correct": "Eu parto todos os dias.",
+              "noteDa": "Brug nutid ved vaner og rutiner."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "titleDa": "Rejser: dialog 7",
+      "objectiveDa": "Brug rejser med nutid, enkel datid og praktisk ordforråd.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Hoje eu parto na estação.",
+          "textDa": "I dag øver jeg sproget på stationen.",
+          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Ontem eu parti na estação.",
+          "textDa": "I går gjorde jeg det på stationen.",
+          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Também preciso de falar sobre direita.",
+          "textDa": "Jeg har også brug for at tale om højre.",
+          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "direita",
+          "textDa": "højre"
+        },
+        {
+          "textPt": "esquerda",
+          "textDa": "venstre"
+        },
+        {
+          "textPt": "tempo",
+          "textDa": "vejr/tid"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Regelmæssige verber: partir",
+          "explanationDa": "Denne lektion bruger partir og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
+          "verb": "partir",
+          "conjugation": [
+            {
+              "subject": "eu (presente)",
+              "form": "parto"
+            },
+            {
+              "subject": "tu (presente)",
+              "form": "partes"
+            },
+            {
+              "subject": "ele/ela (presente)",
+              "form": "parte"
+            },
+            {
+              "subject": "nós (presente)",
+              "form": "partimos"
+            },
+            {
+              "subject": "vocês (presente)",
+              "form": "partem"
+            },
+            {
+              "subject": "eles/elas (presente)",
+              "form": "partem"
+            },
+            {
+              "subject": "eu (pretérito perfeito)",
+              "form": "parti"
+            },
+            {
+              "subject": "tu (pretérito perfeito)",
+              "form": "partiste"
+            },
+            {
+              "subject": "ele/ela (pretérito perfeito)",
+              "form": "partiu"
+            },
+            {
+              "subject": "nós (pretérito perfeito)",
+              "form": "partimos"
+            },
+            {
+              "subject": "vocês (pretérito perfeito)",
+              "form": "partiram"
+            },
+            {
+              "subject": "eles/elas (pretérito perfeito)",
+              "form": "partiram"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Hoje eu parto na estação.",
+              "da": "I dag øver jeg sproget på stationen."
+            },
+            {
+              "pt": "Ontem eu parti na estação.",
+              "da": "I går gjorde jeg det på stationen."
+            },
+            {
+              "pt": "Nós praticamos vocabulário novo.",
+              "da": "Vi øver nyt ordforråd."
+            }
+          ],
+          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "commonMistakes": [
+            {
+              "wrong": "Ontem eu parto.",
+              "correct": "Ontem eu parti.",
+              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+            },
+            {
+              "wrong": "Eu parti todos os dias.",
+              "correct": "Eu parto todos os dias.",
+              "noteDa": "Brug nutid ved vaner og rutiner."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "titleDa": "Rejser: dialog 8",
+      "objectiveDa": "Brug rejser med nutid, enkel datid og praktisk ordforråd.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Hoje eu parto na estação.",
+          "textDa": "I dag øver jeg sproget på stationen.",
+          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Ontem eu parti na estação.",
+          "textDa": "I går gjorde jeg det på stationen.",
+          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Também preciso de falar sobre esquerda.",
+          "textDa": "Jeg har også brug for at tale om venstre.",
+          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "esquerda",
+          "textDa": "venstre"
+        },
+        {
+          "textPt": "tempo",
+          "textDa": "vejr/tid"
+        },
+        {
+          "textPt": "número",
+          "textDa": "tal"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Regelmæssige verber: partir",
+          "explanationDa": "Denne lektion bruger partir og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
+          "verb": "partir",
+          "conjugation": [
+            {
+              "subject": "eu (presente)",
+              "form": "parto"
+            },
+            {
+              "subject": "tu (presente)",
+              "form": "partes"
+            },
+            {
+              "subject": "ele/ela (presente)",
+              "form": "parte"
+            },
+            {
+              "subject": "nós (presente)",
+              "form": "partimos"
+            },
+            {
+              "subject": "vocês (presente)",
+              "form": "partem"
+            },
+            {
+              "subject": "eles/elas (presente)",
+              "form": "partem"
+            },
+            {
+              "subject": "eu (pretérito perfeito)",
+              "form": "parti"
+            },
+            {
+              "subject": "tu (pretérito perfeito)",
+              "form": "partiste"
+            },
+            {
+              "subject": "ele/ela (pretérito perfeito)",
+              "form": "partiu"
+            },
+            {
+              "subject": "nós (pretérito perfeito)",
+              "form": "partimos"
+            },
+            {
+              "subject": "vocês (pretérito perfeito)",
+              "form": "partiram"
+            },
+            {
+              "subject": "eles/elas (pretérito perfeito)",
+              "form": "partiram"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Hoje eu parto na estação.",
+              "da": "I dag øver jeg sproget på stationen."
+            },
+            {
+              "pt": "Ontem eu parti na estação.",
+              "da": "I går gjorde jeg det på stationen."
+            },
+            {
+              "pt": "Nós praticamos vocabulário novo.",
+              "da": "Vi øver nyt ordforråd."
+            }
+          ],
+          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "commonMistakes": [
+            {
+              "wrong": "Ontem eu parto.",
+              "correct": "Ontem eu parti.",
+              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+            },
+            {
+              "wrong": "Eu parti todos os dias.",
+              "correct": "Eu parto todos os dias.",
+              "noteDa": "Brug nutid ved vaner og rutiner."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "titleDa": "Rejser: dialog 9",
+      "objectiveDa": "Brug rejser med nutid, enkel datid og praktisk ordforråd.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Hoje eu parto na estação.",
+          "textDa": "I dag øver jeg sproget på stationen.",
+          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Ontem eu parti na estação.",
+          "textDa": "I går gjorde jeg det på stationen.",
+          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Também preciso de falar sobre tempo.",
+          "textDa": "Jeg har også brug for at tale om vejr/tid.",
+          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "tempo",
+          "textDa": "vejr/tid"
+        },
+        {
+          "textPt": "número",
+          "textDa": "tal"
+        },
+        {
+          "textPt": "corpo",
+          "textDa": "krop"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Regelmæssige verber: partir",
+          "explanationDa": "Denne lektion bruger partir og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
+          "verb": "partir",
+          "conjugation": [
+            {
+              "subject": "eu (presente)",
+              "form": "parto"
+            },
+            {
+              "subject": "tu (presente)",
+              "form": "partes"
+            },
+            {
+              "subject": "ele/ela (presente)",
+              "form": "parte"
+            },
+            {
+              "subject": "nós (presente)",
+              "form": "partimos"
+            },
+            {
+              "subject": "vocês (presente)",
+              "form": "partem"
+            },
+            {
+              "subject": "eles/elas (presente)",
+              "form": "partem"
+            },
+            {
+              "subject": "eu (pretérito perfeito)",
+              "form": "parti"
+            },
+            {
+              "subject": "tu (pretérito perfeito)",
+              "form": "partiste"
+            },
+            {
+              "subject": "ele/ela (pretérito perfeito)",
+              "form": "partiu"
+            },
+            {
+              "subject": "nós (pretérito perfeito)",
+              "form": "partimos"
+            },
+            {
+              "subject": "vocês (pretérito perfeito)",
+              "form": "partiram"
+            },
+            {
+              "subject": "eles/elas (pretérito perfeito)",
+              "form": "partiram"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Hoje eu parto na estação.",
+              "da": "I dag øver jeg sproget på stationen."
+            },
+            {
+              "pt": "Ontem eu parti na estação.",
+              "da": "I går gjorde jeg det på stationen."
+            },
+            {
+              "pt": "Nós praticamos vocabulário novo.",
+              "da": "Vi øver nyt ordforråd."
+            }
+          ],
+          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "commonMistakes": [
+            {
+              "wrong": "Ontem eu parto.",
+              "correct": "Ontem eu parti.",
+              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+            },
+            {
+              "wrong": "Eu parti todos os dias.",
+              "correct": "Eu parto todos os dias.",
+              "noteDa": "Brug nutid ved vaner og rutiner."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "titleDa": "Rejser: dialog 10",
+      "objectiveDa": "Brug rejser med nutid, enkel datid og praktisk ordforråd.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Hoje eu parto na estação.",
+          "textDa": "I dag øver jeg sproget på stationen.",
+          "grammarDa": "Nutid beskriver hvad der sker nu eller normalt."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Ontem eu parti na estação.",
+          "textDa": "I går gjorde jeg det på stationen.",
+          "grammarDa": "Pretérito perfeito beskriver en afsluttet handling."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Também preciso de falar sobre número.",
+          "textDa": "Jeg har også brug for at tale om tal.",
+          "grammarDa": "Precisar de + infinitiv er en nyttig fast konstruktion."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "número",
+          "textDa": "tal"
+        },
+        {
+          "textPt": "corpo",
+          "textDa": "krop"
+        },
+        {
+          "textPt": "comida",
+          "textDa": "mad"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Regelmæssige verber: partir",
+          "explanationDa": "Denne lektion bruger partir og andre regelmæssige verber i nutid og introducerer pretérito perfeito som enkel datid.",
+          "verb": "partir",
+          "conjugation": [
+            {
+              "subject": "eu (presente)",
+              "form": "parto"
+            },
+            {
+              "subject": "tu (presente)",
+              "form": "partes"
+            },
+            {
+              "subject": "ele/ela (presente)",
+              "form": "parte"
+            },
+            {
+              "subject": "nós (presente)",
+              "form": "partimos"
+            },
+            {
+              "subject": "vocês (presente)",
+              "form": "partem"
+            },
+            {
+              "subject": "eles/elas (presente)",
+              "form": "partem"
+            },
+            {
+              "subject": "eu (pretérito perfeito)",
+              "form": "parti"
+            },
+            {
+              "subject": "tu (pretérito perfeito)",
+              "form": "partiste"
+            },
+            {
+              "subject": "ele/ela (pretérito perfeito)",
+              "form": "partiu"
+            },
+            {
+              "subject": "nós (pretérito perfeito)",
+              "form": "partimos"
+            },
+            {
+              "subject": "vocês (pretérito perfeito)",
+              "form": "partiram"
+            },
+            {
+              "subject": "eles/elas (pretérito perfeito)",
+              "form": "partiram"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Hoje eu parto na estação.",
+              "da": "I dag øver jeg sproget på stationen."
+            },
+            {
+              "pt": "Ontem eu parti na estação.",
+              "da": "I går gjorde jeg det på stationen."
+            },
+            {
+              "pt": "Nós praticamos vocabulário novo.",
+              "da": "Vi øver nyt ordforråd."
+            }
+          ],
+          "notesDa": "Læs tidsordet først. Hoje peger ofte på nutid, mens ontem og na semana passada ofte peger på datid.",
+          "commonMistakes": [
+            {
+              "wrong": "Ontem eu parto.",
+              "correct": "Ontem eu parti.",
+              "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+            },
+            {
+              "wrong": "Eu parti todos os dias.",
+              "correct": "Eu parto todos os dias.",
+              "noteDa": "Brug nutid ved vaner og rutiner."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": 1,
+      "questionDa": "Hvilken form er korrekt i nutid?",
+      "answers": [
+        {
+          "text": "eu parto",
+          "correct": true
+        },
+        {
+          "text": "eu parti",
+          "correct": false
+        },
+        {
+          "text": "eu falam",
+          "correct": false
+        },
+        {
+          "text": "eu falar",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Nutidsformen passer til hoje eller en vane."
+    },
+    {
+      "id": 2,
+      "questionDa": "Hvilken form er korrekt i pretérito perfeito?",
+      "answers": [
+        {
+          "text": "eu parti",
+          "correct": true
+        },
+        {
+          "text": "eu parto",
+          "correct": false
+        },
+        {
+          "text": "eu falas",
+          "correct": false
+        },
+        {
+          "text": "eu falaram",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Datidsformen passer til ontem."
+    },
+    {
+      "id": 3,
+      "questionDa": "Hvad betyder: Hoje eu parto na estação.",
+      "answers": [
+        {
+          "text": "I dag øver jeg sproget på stationen.",
+          "correct": true
+        },
+        {
+          "text": "I går gjorde jeg det.",
+          "correct": false
+        },
+        {
+          "text": "Vi åbner hotellet.",
+          "correct": false
+        },
+        {
+          "text": "De sælger billetter.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Hoje markerer nutid."
+    },
+    {
+      "id": 4,
+      "questionDa": "Vælg den bedste portugisiske sætning.",
+      "answers": [
+        {
+          "text": "Ontem eu parti na estação.",
+          "correct": true
+        },
+        {
+          "text": "Ontem eu parto na estação.",
+          "correct": false
+        },
+        {
+          "text": "Ontem eu falar na estação.",
+          "correct": false
+        },
+        {
+          "text": "Ontem eu falam na estação.",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Ontem kræver datid i denne sætning."
+    },
+    {
+      "id": 5,
+      "questionDa": "Hvilket ord hører til lektionens ordforråd?",
+      "answers": [
+        {
+          "text": "bilhete",
+          "correct": true
+        },
+        {
+          "text": "janela",
+          "correct": false
+        },
+        {
+          "text": "camisa",
+          "correct": false
+        },
+        {
+          "text": "banana",
+          "correct": false
+        }
+      ],
+      "explanationDa": "bilhete hører til lektionens tema."
+    },
+    {
+      "id": 6,
+      "questionDa": "Udfyld sætningen: Ontem eu ___.",
+      "answers": [
+        {
+          "text": "parti",
+          "correct": true
+        },
+        {
+          "text": "parto",
+          "correct": false
+        },
+        {
+          "text": "fala",
+          "correct": false
+        },
+        {
+          "text": "falam",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Ontem peger på datid."
+    },
+    {
+      "id": 7,
+      "questionDa": "Hvilken portugisisk form er tallet 52?",
+      "answers": [
+        {
+          "text": "cinquenta e dois",
+          "correct": true
+        },
+        {
+          "text": "vinte",
+          "correct": false
+        },
+        {
+          "text": "sessenta",
+          "correct": false
+        },
+        {
+          "text": "noventa",
+          "correct": false
+        }
+      ],
+      "explanationDa": "Talquizzen kommer fra JSON og kan genbruges i fremtidige niveauer."
+    }
+  ],
+  "storyTitleDa": "Togrejsen",
+  "storyObjectiveDa": "Læs en sammenhængende tekst med regelmæssige verber, nyt ordforråd og en enkel introduktion til datid.",
+  "story": [
+    {
+      "speaker": "A",
+      "textPt": "Ontem eu parti na estação e aprendi a palavra bilhete.",
+      "textDa": "I går gjorde jeg det på stationen og lærte ordet billet.",
+      "grammarDa": "Datid plus nyt ordforråd."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Hoje eu parto na estação com uma frase simples.",
+      "textDa": "I dag øver jeg på stationen med en enkel sætning.",
+      "grammarDa": "Nutid bruges om dagens handling."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Hoje eu parto na estação com uma frase simples.",
+      "textDa": "I dag øver jeg på stationen med en enkel sætning.",
+      "grammarDa": "Nutid bruges om dagens handling."
+    },
+    {
+      "speaker": "B",
+      "textPt": "Nós falamos sobre ontem com calma.",
+      "textDa": "Vi taler roligt om i går.",
+      "grammarDa": "Falamos er et regelmæssigt -ar-verbum."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Ontem eu parti na estação e aprendi a palavra semana.",
+      "textDa": "I går gjorde jeg det på stationen og lærte ordet uge.",
+      "grammarDa": "Datid plus nyt ordforråd."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Hoje eu parto na estação com uma frase simples.",
+      "textDa": "I dag øver jeg på stationen med en enkel sætning.",
+      "grammarDa": "Nutid bruges om dagens handling."
+    },
+    {
+      "speaker": "B",
+      "textPt": "Nós falamos sobre direita com calma.",
+      "textDa": "Vi taler roligt om højre.",
+      "grammarDa": "Falamos er et regelmæssigt -ar-verbum."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Hoje eu parto na estação com uma frase simples.",
+      "textDa": "I dag øver jeg på stationen med en enkel sætning.",
+      "grammarDa": "Nutid bruges om dagens handling."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Ontem eu parti na estação e aprendi a palavra tempo.",
+      "textDa": "I går gjorde jeg det på stationen og lærte ordet vejr/tid.",
+      "grammarDa": "Datid plus nyt ordforråd."
+    },
+    {
+      "speaker": "B",
+      "textPt": "Nós falamos sobre número com calma.",
+      "textDa": "Vi taler roligt om tal.",
+      "grammarDa": "Falamos er et regelmæssigt -ar-verbum."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Hoje eu parto na estação com uma frase simples.",
+      "textDa": "I dag øver jeg på stationen med en enkel sætning.",
+      "grammarDa": "Nutid bruges om dagens handling."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Hoje eu parto na estação com uma frase simples.",
+      "textDa": "I dag øver jeg på stationen med en enkel sætning.",
+      "grammarDa": "Nutid bruges om dagens handling."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Ontem eu parti na estação e aprendi a palavra bilhete.",
+      "textDa": "I går gjorde jeg det på stationen og lærte ordet billet.",
+      "grammarDa": "Datid plus nyt ordforråd."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Hoje eu parto na estação com uma frase simples.",
+      "textDa": "I dag øver jeg på stationen med en enkel sætning.",
+      "grammarDa": "Nutid bruges om dagens handling."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Hoje eu parto na estação com uma frase simples.",
+      "textDa": "I dag øver jeg på stationen med en enkel sætning.",
+      "grammarDa": "Nutid bruges om dagens handling."
+    },
+    {
+      "speaker": "B",
+      "textPt": "Nós falamos sobre ontem com calma.",
+      "textDa": "Vi taler roligt om i går.",
+      "grammarDa": "Falamos er et regelmæssigt -ar-verbum."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Ontem eu parti na estação e aprendi a palavra semana.",
+      "textDa": "I går gjorde jeg det på stationen og lærte ordet uge.",
+      "grammarDa": "Datid plus nyt ordforråd."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Hoje eu parto na estação com uma frase simples.",
+      "textDa": "I dag øver jeg på stationen med en enkel sætning.",
+      "grammarDa": "Nutid bruges om dagens handling."
+    },
+    {
+      "speaker": "B",
+      "textPt": "Nós falamos sobre direita com calma.",
+      "textDa": "Vi taler roligt om højre.",
+      "grammarDa": "Falamos er et regelmæssigt -ar-verbum."
+    },
+    {
+      "speaker": "A",
+      "textPt": "Hoje eu parto na estação com uma frase simples.",
+      "textDa": "I dag øver jeg på stationen med en enkel sætning.",
+      "grammarDa": "Nutid bruges om dagens handling."
+    }
+  ]
+}

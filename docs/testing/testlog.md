@@ -1,5 +1,20 @@
 # Test Log
 
+## 2026-07-22 - Learn Portuguese 3 JSON Package
+
+Learn Portuguese 3 content package.
+
+### Scope
+
+- Added Learn Portuguese 3 as a JSON-only package in `levels/level4`.
+- Validated that the package uses the same lesson, dialog, phrase, vocabulary, grammar, quiz and story schema as existing content.
+- Added validator checks for 10 lessons, 10 dialogs per lesson, approximately 20 story lines, grammar explanations, conjugation tables, examples, notes, common mistakes and quiz presence.
+- Confirmed deterministic navigation validation across Learn Portuguese 3 dialogs.
+
+### Result
+
+Passed local JSON, navigation and Gradle debug build validation. Android Studio/device smoke test is still recommended before release.
+
 ## 2026-07-12 - Terminology, Status, Release Metadata
 
 Consistency and documentation correction.

@@ -21,6 +21,9 @@ levels/
   level3/
     level.json
     lesson01.json
+  level4/
+    level.json
+    lesson01.json
 ```
 
 The app discovers available `level*` folders from assets and reads lesson files named `lessonNN.json`.
@@ -204,3 +207,28 @@ https://digital-strategy.ec.europa.eu/en/policies/112
 - Put grammar help, conjugations, examples, and notes in `grammar`.
 - Keep UI behavior in Java, but keep language-learning content in JSON.
 - Add new future levels as new `levels/levelN/` folders rather than duplicating Java code.
+
+## Learn Portuguese 3 Grammar And Reading Content
+
+Learn Portuguese 3 continues the shared JSON schema. Since `level3` is Children, the Learn Portuguese 3 product package is stored as `levels/level4` and declares `productLevel: 3` in `level.json`.
+
+Each Learn Portuguese 3 lesson must include:
+
+- exactly 10 dialog objects
+- at least one phrase per dialog, with `textPt` and `textDa`
+- vocabulary arrays inside dialogs
+- grammar notes in JSON with `titleDa`, `explanationDa`, `conjugation`, `examples`, `notesDa` and `commonMistakes`
+- one `story` array with approximately 20 reading lines
+- quiz questions derived from lesson JSON content: vocabulary, grammar, conjugation, numbers, sentence completion and translation
+
+The optional `commonMistakes` grammar array uses this shape:
+
+```json
+{
+  "wrong": "Ontem eu falo.",
+  "correct": "Ontem eu falei.",
+  "noteDa": "Brug datid efter ontem, når handlingen er afsluttet."
+}
+```
+
+The app displays this through the shared grammar formatter. It must not introduce a separate Learn Portuguese 3 grammar engine.
