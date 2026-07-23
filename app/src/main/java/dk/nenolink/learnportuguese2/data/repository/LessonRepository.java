@@ -338,6 +338,13 @@ public class LessonRepository {
     private String formatGrammarExplanation(JSONObject json) throws JSONException {
         StringBuilder builder = new StringBuilder(json.optString("explanationDa"));
 
+        String verb = json.optString("verb");
+        String verbDa = json.optString("verbDa");
+        if (!verb.isEmpty()) {
+            appendSection(builder, "Verbum");
+            appendLine(builder, verbDa.isEmpty() ? verb : verb + " = " + verbDa);
+        }
+
         JSONArray conjugation = json.optJSONArray("conjugation");
         if (conjugation != null && conjugation.length() > 0) {
             appendSection(builder, "Bøjning");
@@ -380,7 +387,7 @@ public class LessonRepository {
 
     private void appendSection(StringBuilder builder, String title) {
         if (builder.length() > 0) {
-            builder.append('\n');
+            builder.append("\n\n");
         }
         builder.append(title).append(':');
     }

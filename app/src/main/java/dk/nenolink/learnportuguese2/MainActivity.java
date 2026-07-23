@@ -543,11 +543,11 @@ public class MainActivity extends Activity {
         nextParams.setMargins(dp(12), 0, 0, 0);
         row.addView(nextButton, nextParams);
 
-        grammarView = panel("Grammatik");
-        contentRoot.addView(grammarView, matchWrap());
-
         glossaryView = panel("Ordliste");
         contentRoot.addView(glossaryView, matchWrap());
+
+        grammarView = panel("Grammatik");
+        contentRoot.addView(grammarView, matchWrap());
 
         counterView = text("", 13, COLOR_MUTED, false);
         counterView.setGravity(Gravity.CENTER);
@@ -1843,9 +1843,9 @@ public class MainActivity extends Activity {
         StringBuilder builder = new StringBuilder();
         for (GrammarNote note : grammar) {
             if (builder.length() > 0) {
-                builder.append('\n');
+                builder.append("\n\n");
             }
-            builder.append(note.getTitleDa()).append(": ").append(note.getExplanationDa());
+            builder.append(note.getTitleDa()).append("\n").append(note.getExplanationDa());
         }
         return builder.toString();
     }

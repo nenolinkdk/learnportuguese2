@@ -1,5 +1,23 @@
 # Test Log
 
+## 2026-07-23 - Level 3 Library Content Feedback
+
+Learn Portuguese 3 library lesson correction after device review.
+
+### Scope
+
+- Rewrote the Level 3 library lesson from Danish workflow sentences first, then short Portuguese variants.
+- Removed Danish words from Portuguese text, lower-case dialog starts and generic "ordne/tjekke" style wording from the library lesson.
+- Made library phrases active and concrete: applying for a library card, borrowing a novel, returning late, reserving, using the catalogue, using a computer and asking about reading-room rules.
+- Moved vocabulary above grammar on dialog screens and added clearer grammar sections with `verbDa` support.
+- Documented a reusable Level 3+ content quality checklist.
+
+### Result
+
+Passed `tools/validate_navigation_content.ps1`, bundled JSON parse validation, targeted Level 3 text-quality scan, `git diff --check` and `gradlew.bat assembleDebug`.
+
+The updated APK was copied to `C:\Users\henri\Dropbox\Privat\Nenolink\github\learnportuguese2\app\LearnPortuguese2Test.apk`.
+
 ## 2026-07-22 - Learn Portuguese 3 Content Revision
 
 Learn Portuguese 3 content quality and validation pass.
