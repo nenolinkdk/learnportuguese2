@@ -223,6 +223,21 @@ Each Learn Portuguese 3 lesson must include:
 
 Each Learn Portuguese 3 dialog should read as a small coherent exchange, not as isolated sentence drills. Avoid repeating the same sentence frame across dialogs. Vary subjects, questions, requests, answers, polite forms and practical problem-solving language. Repeated fallback/helper phrases such as `Obrigado.`, `Muito bem.` or `Repete devagar.` must never be used as lesson dialog content.
 
+### Content Quality Checklist For Level 3+
+
+Use this checklist before adding or revising a dialog:
+
+- Start from a correct Danish sentence that matches the real situation.
+- Describe the real workflow for the place: library card application, loan period, reservation, return, fee, catalogue search, appointment, payment, pickup, etc.
+- Use the correct Danish terminology first, then choose a short natural Portuguese equivalent.
+- Prefer active, direct phrasing: "Du skriver under her", "Jeg vil gerne låne en roman", "Jeg afleverer bogen for sent".
+- Avoid vague placeholder verbs such as "ordne", "tjekke" and "behandle", unless that is truly what the person says.
+- Do not put Danish words inside `textPt`.
+- Start Portuguese dialog lines with a capital letter.
+- Keep each phrase useful for the learner's goal in that location; remove filler such as "uden at forstyrre køen" unless it matters in the situation.
+- Grammar notes should include the meaning of the conjugated verb through `verbDa`.
+- Vocabulary should appear before grammar in the app, so keep vocabulary concise and tied to the dialog.
+
 The current Learn Portuguese 3 theme set is:
 
 - Biblioteca

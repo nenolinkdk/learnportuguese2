@@ -11,7 +11,7 @@
         {
           "speaker": "A",
           "textPt": "Desculpe, estou a tratar de preço por hora; pode orientar-me?",
-          "textDa": "Undskyld, jeg er ved at ordne pris pr. time; kan De hjælpe mig videre?",
+          "textDa": "Undskyld, jeg har et spørgsmål om pris pr. time; kan De hjælpe mig videre?",
           "grammarDa": "Estou a tratar de beskriver en igangværende handling."
         },
         {
@@ -23,7 +23,7 @@
         {
           "speaker": "A",
           "textPt": "É para hoje, porque ontem já tentei resolver preço por hora.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at ordne pris pr. time.",
+          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at få svar om pris pr. time.",
           "grammarDa": "Tentei resolver er datid + infinitiv."
         },
         {
@@ -172,7 +172,8 @@
               "correct": "Você alugou a bicicleta?",
               "noteDa": "Você bruger tredje person ental."
             }
-          ]
+          ],
+          "verbDa": "at leje"
         }
       ]
     },
@@ -184,7 +185,7 @@
         {
           "speaker": "A",
           "textPt": "Desculpe, estou a tratar de aluguer diário; pode orientar-me?",
-          "textDa": "Undskyld, jeg er ved at ordne dagsleje; kan De hjælpe mig videre?",
+          "textDa": "Undskyld, jeg har et spørgsmål om dagsleje; kan De hjælpe mig videre?",
           "grammarDa": "Estou a tratar de beskriver en igangværende handling."
         },
         {
@@ -196,7 +197,7 @@
         {
           "speaker": "A",
           "textPt": "É para hoje, porque ontem já tentei resolver aluguer diário.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at ordne dagsleje.",
+          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at få svar om dagsleje.",
           "grammarDa": "Tentei resolver er datid + infinitiv."
         },
         {
@@ -345,7 +346,8 @@
               "correct": "Você alugou a bicicleta?",
               "noteDa": "Você bruger tredje person ental."
             }
-          ]
+          ],
+          "verbDa": "at leje"
         }
       ]
     },
@@ -357,7 +359,7 @@
         {
           "speaker": "A",
           "textPt": "Desculpe, estou a tratar de capacete incluído; pode orientar-me?",
-          "textDa": "Undskyld, jeg er ved at ordne hjelm inkluderet; kan De hjælpe mig videre?",
+          "textDa": "Undskyld, jeg har et spørgsmål om hjelm inkluderet; kan De hjælpe mig videre?",
           "grammarDa": "Estou a tratar de beskriver en igangværende handling."
         },
         {
@@ -369,7 +371,7 @@
         {
           "speaker": "A",
           "textPt": "É para hoje, porque ontem já tentei resolver capacete incluído.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at ordne hjelm inkluderet.",
+          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at få svar om hjelm inkluderet.",
           "grammarDa": "Tentei resolver er datid + infinitiv."
         },
         {
@@ -518,7 +520,8 @@
               "correct": "Você alugou a bicicleta?",
               "noteDa": "Você bruger tredje person ental."
             }
-          ]
+          ],
+          "verbDa": "at leje"
         }
       ]
     },
@@ -530,7 +533,7 @@
         {
           "speaker": "A",
           "textPt": "Desculpe, estou a tratar de cadeado forte; pode orientar-me?",
-          "textDa": "Undskyld, jeg er ved at ordne stærk lås; kan De hjælpe mig videre?",
+          "textDa": "Undskyld, jeg har et spørgsmål om stærk lås; kan De hjælpe mig videre?",
           "grammarDa": "Estou a tratar de beskriver en igangværende handling."
         },
         {
@@ -542,7 +545,7 @@
         {
           "speaker": "A",
           "textPt": "É para hoje, porque ontem já tentei resolver cadeado forte.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at ordne stærk lås.",
+          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at få svar om stærk lås.",
           "grammarDa": "Tentei resolver er datid + infinitiv."
         },
         {
@@ -691,7 +694,8 @@
               "correct": "Você alugou a bicicleta?",
               "noteDa": "Você bruger tredje person ental."
             }
-          ]
+          ],
+          "verbDa": "at leje"
         }
       ]
     },
@@ -703,7 +707,7 @@
         {
           "speaker": "A",
           "textPt": "Desculpe, estou a tratar de rota junto ao rio; pode orientar-me?",
-          "textDa": "Undskyld, jeg er ved at ordne rute langs floden; kan De hjælpe mig videre?",
+          "textDa": "Undskyld, jeg har et spørgsmål om rute langs floden; kan De hjælpe mig videre?",
           "grammarDa": "Estou a tratar de beskriver en igangværende handling."
         },
         {
@@ -715,7 +719,7 @@
         {
           "speaker": "A",
           "textPt": "É para hoje, porque ontem já tentei resolver rota junto ao rio.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at ordne rute langs floden.",
+          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at få svar om rute langs floden.",
           "grammarDa": "Tentei resolver er datid + infinitiv."
         },
         {
@@ -864,7 +868,8 @@
               "correct": "Você alugou a bicicleta?",
               "noteDa": "Você bruger tredje person ental."
             }
-          ]
+          ],
+          "verbDa": "at leje"
         }
       ]
     },
@@ -876,7 +881,7 @@
         {
           "speaker": "A",
           "textPt": "Desculpe, estou a tratar de devolver antes das seis; pode orientar-me?",
-          "textDa": "Undskyld, jeg er ved at ordne aflevere før seks; kan De hjælpe mig videre?",
+          "textDa": "Undskyld, jeg har et spørgsmål om aflevere før seks; kan De hjælpe mig videre?",
           "grammarDa": "Estou a tratar de beskriver en igangværende handling."
         },
         {
@@ -888,7 +893,7 @@
         {
           "speaker": "A",
           "textPt": "É para hoje, porque ontem já tentei resolver devolver antes das seis.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at ordne aflevere før seks.",
+          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at få svar om aflevere før seks.",
           "grammarDa": "Tentei resolver er datid + infinitiv."
         },
         {
@@ -1037,7 +1042,8 @@
               "correct": "Você alugou a bicicleta?",
               "noteDa": "Você bruger tredje person ental."
             }
-          ]
+          ],
+          "verbDa": "at leje"
         }
       ]
     },
@@ -1049,7 +1055,7 @@
         {
           "speaker": "A",
           "textPt": "Desculpe, estou a tratar de travão avariado; pode orientar-me?",
-          "textDa": "Undskyld, jeg er ved at ordne defekt bremse; kan De hjælpe mig videre?",
+          "textDa": "Undskyld, jeg har et spørgsmål om defekt bremse; kan De hjælpe mig videre?",
           "grammarDa": "Estou a tratar de beskriver en igangværende handling."
         },
         {
@@ -1061,7 +1067,7 @@
         {
           "speaker": "A",
           "textPt": "É para hoje, porque ontem já tentei resolver travão avariado.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at ordne defekt bremse.",
+          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at få svar om defekt bremse.",
           "grammarDa": "Tentei resolver er datid + infinitiv."
         },
         {
@@ -1210,7 +1216,8 @@
               "correct": "Você alugou a bicicleta?",
               "noteDa": "Você bruger tredje person ental."
             }
-          ]
+          ],
+          "verbDa": "at leje"
         }
       ]
     },
@@ -1222,7 +1229,7 @@
         {
           "speaker": "A",
           "textPt": "Desculpe, estou a tratar de bicicleta elétrica; pode orientar-me?",
-          "textDa": "Undskyld, jeg er ved at ordne elcykel; kan De hjælpe mig videre?",
+          "textDa": "Undskyld, jeg har et spørgsmål om elcykel; kan De hjælpe mig videre?",
           "grammarDa": "Estou a tratar de beskriver en igangværende handling."
         },
         {
@@ -1234,7 +1241,7 @@
         {
           "speaker": "A",
           "textPt": "É para hoje, porque ontem já tentei resolver bicicleta elétrica.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at ordne elcykel.",
+          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at få svar om elcykel.",
           "grammarDa": "Tentei resolver er datid + infinitiv."
         },
         {
@@ -1383,7 +1390,8 @@
               "correct": "Você alugou a bicicleta?",
               "noteDa": "Você bruger tredje person ental."
             }
-          ]
+          ],
+          "verbDa": "at leje"
         }
       ]
     },
@@ -1395,7 +1403,7 @@
         {
           "speaker": "A",
           "textPt": "Desculpe, estou a tratar de documento ou caução; pode orientar-me?",
-          "textDa": "Undskyld, jeg er ved at ordne ID eller depositum; kan De hjælpe mig videre?",
+          "textDa": "Undskyld, jeg har et spørgsmål om ID eller depositum; kan De hjælpe mig videre?",
           "grammarDa": "Estou a tratar de beskriver en igangværende handling."
         },
         {
@@ -1407,7 +1415,7 @@
         {
           "speaker": "A",
           "textPt": "É para hoje, porque ontem já tentei resolver documento ou caução.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at ordne ID eller depositum.",
+          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at få svar om ID eller depositum.",
           "grammarDa": "Tentei resolver er datid + infinitiv."
         },
         {
@@ -1556,7 +1564,8 @@
               "correct": "Você alugou a bicicleta?",
               "noteDa": "Você bruger tredje person ental."
             }
-          ]
+          ],
+          "verbDa": "at leje"
         }
       ]
     },
@@ -1568,7 +1577,7 @@
         {
           "speaker": "A",
           "textPt": "Desculpe, estou a tratar de ciclovia permitida; pode orientar-me?",
-          "textDa": "Undskyld, jeg er ved at ordne tilladt cykelsti; kan De hjælpe mig videre?",
+          "textDa": "Undskyld, jeg har et spørgsmål om tilladt cykelsti; kan De hjælpe mig videre?",
           "grammarDa": "Estou a tratar de beskriver en igangværende handling."
         },
         {
@@ -1580,7 +1589,7 @@
         {
           "speaker": "A",
           "textPt": "É para hoje, porque ontem já tentei resolver ciclovia permitida.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at ordne tilladt cykelsti.",
+          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at få svar om tilladt cykelsti.",
           "grammarDa": "Tentei resolver er datid + infinitiv."
         },
         {
@@ -1729,7 +1738,8 @@
               "correct": "Você alugou a bicicleta?",
               "noteDa": "Você bruger tredje person ental."
             }
-          ]
+          ],
+          "verbDa": "at leje"
         }
       ]
     }
@@ -1886,7 +1896,7 @@
     {
       "speaker": "A",
       "textPt": "A pessoa responsável verificou preço por hora com calma antes de responder.",
-      "textDa": "Den ansvarlige person tjekkede pris pr. time roligt, før der kom et svar.",
+      "textDa": "Den ansvarlige person gennemgik informationen om pris pr. time, før der kom et svar.",
       "grammarDa": "Verificou er datid."
     },
     {
@@ -1898,7 +1908,7 @@
     {
       "speaker": "B",
       "textPt": "A pessoa responsável verificou aluguer diário com calma antes de responder.",
-      "textDa": "Den ansvarlige person tjekkede dagsleje roligt, før der kom et svar.",
+      "textDa": "Den ansvarlige person gennemgik informationen om dagsleje, før der kom et svar.",
       "grammarDa": "Verificou er datid."
     },
     {
@@ -1910,7 +1920,7 @@
     {
       "speaker": "A",
       "textPt": "A pessoa responsável verificou capacete incluído com calma antes de responder.",
-      "textDa": "Den ansvarlige person tjekkede hjelm inkluderet roligt, før der kom et svar.",
+      "textDa": "Den ansvarlige person gennemgik informationen om hjelm inkluderet, før der kom et svar.",
       "grammarDa": "Verificou er datid."
     },
     {
@@ -1922,7 +1932,7 @@
     {
       "speaker": "B",
       "textPt": "A pessoa responsável verificou cadeado forte com calma antes de responder.",
-      "textDa": "Den ansvarlige person tjekkede stærk lås roligt, før der kom et svar.",
+      "textDa": "Den ansvarlige person gennemgik informationen om stærk lås, før der kom et svar.",
       "grammarDa": "Verificou er datid."
     },
     {
@@ -1934,7 +1944,7 @@
     {
       "speaker": "A",
       "textPt": "A pessoa responsável verificou rota junto ao rio com calma antes de responder.",
-      "textDa": "Den ansvarlige person tjekkede rute langs floden roligt, før der kom et svar.",
+      "textDa": "Den ansvarlige person gennemgik informationen om rute langs floden, før der kom et svar.",
       "grammarDa": "Verificou er datid."
     },
     {
@@ -1946,7 +1956,7 @@
     {
       "speaker": "B",
       "textPt": "A pessoa responsável verificou devolver antes das seis com calma antes de responder.",
-      "textDa": "Den ansvarlige person tjekkede aflevere før seks roligt, før der kom et svar.",
+      "textDa": "Den ansvarlige person gennemgik informationen om aflevere før seks, før der kom et svar.",
       "grammarDa": "Verificou er datid."
     },
     {
@@ -1958,7 +1968,7 @@
     {
       "speaker": "A",
       "textPt": "A pessoa responsável verificou travão avariado com calma antes de responder.",
-      "textDa": "Den ansvarlige person tjekkede defekt bremse roligt, før der kom et svar.",
+      "textDa": "Den ansvarlige person gennemgik informationen om defekt bremse, før der kom et svar.",
       "grammarDa": "Verificou er datid."
     },
     {
@@ -1970,7 +1980,7 @@
     {
       "speaker": "B",
       "textPt": "A pessoa responsável verificou bicicleta elétrica com calma antes de responder.",
-      "textDa": "Den ansvarlige person tjekkede elcykel roligt, før der kom et svar.",
+      "textDa": "Den ansvarlige person gennemgik informationen om elcykel, før der kom et svar.",
       "grammarDa": "Verificou er datid."
     },
     {
@@ -1982,7 +1992,7 @@
     {
       "speaker": "A",
       "textPt": "A pessoa responsável verificou documento ou caução com calma antes de responder.",
-      "textDa": "Den ansvarlige person tjekkede ID eller depositum roligt, før der kom et svar.",
+      "textDa": "Den ansvarlige person gennemgik informationen om ID eller depositum, før der kom et svar.",
       "grammarDa": "Verificou er datid."
     },
     {
@@ -1994,7 +2004,7 @@
     {
       "speaker": "B",
       "textPt": "A pessoa responsável verificou ciclovia permitida com calma antes de responder.",
-      "textDa": "Den ansvarlige person tjekkede tilladt cykelsti roligt, før der kom et svar.",
+      "textDa": "Den ansvarlige person gennemgik informationen om tilladt cykelsti, før der kom et svar.",
       "grammarDa": "Verificou er datid."
     }
   ]

@@ -267,6 +267,15 @@ if (-not (Test-Path -LiteralPath $lp3Root)) {
                 if ($bannedFallbackPhrases -contains $textPt) {
                     Add-Error "level4/$($lessonFile.Name) dialog $($dialog.id) contains fallback/helper phrase: $textPt"
                 }
+                if ($textPt -match "[æøåÆØÅ]") {
+                    Add-Error "level4/$($lessonFile.Name) dialog $($dialog.id) phrase $($phraseIndex + 1) contains Danish letters in Portuguese text: $textPt"
+                }
+                if ($textPt -cmatch "^[a-záàâãéêíóôõúç]") {
+                    Add-Error "level4/$($lessonFile.Name) dialog $($dialog.id) phrase $($phraseIndex + 1) starts with a lowercase Portuguese letter: $textPt"
+                }
+                if ($textDa -match "\bordne\b|\btjekke\w*|\bordnes\b") {
+                    Add-Error "level4/$($lessonFile.Name) dialog $($dialog.id) phrase $($phraseIndex + 1) uses vague Danish workflow wording: $textDa"
+                }
                 if ($textPt -match "^(Eu|eu)\s") {
                     $euStarts++
                 }
@@ -308,6 +317,9 @@ if (-not (Test-Path -LiteralPath $lp3Root)) {
             foreach ($grammar in $grammarItems) {
                 if (Is-Blank $grammar.titleDa -or Is-Blank $grammar.explanationDa -or Is-Blank $grammar.notesDa) {
                     Add-Error "level4/$($lessonFile.Name) dialog $($dialog.id) has incomplete grammar text"
+                }
+                if ((-not (Is-Blank $grammar.verb)) -and (Is-Blank $grammar.verbDa)) {
+                    Add-Error "level4/$($lessonFile.Name) dialog $($dialog.id) grammar verb $($grammar.verb) is missing verbDa"
                 }
                 if ((As-Array $grammar.conjugation).Count -lt 6) {
                     Add-Error "level4/$($lessonFile.Name) dialog $($dialog.id) needs a conjugation table"
