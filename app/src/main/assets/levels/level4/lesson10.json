@@ -1,176 +1,170 @@
 {
   "id": 10,
-  "titleDa": "Táxi e encontrar o caminho",
-  "descriptionDa": "Learn Portuguese 3: Taxi, adresse, rejsetid, trafik, kvittering, retninger og at finde vej.",
+  "titleDa": "Táxi, autocarro, comboio, metro e Uber",
+  "descriptionDa": "Learn Portuguese 3: Transport, billet, app, tider, perron, linjer og en hel rejse. Fokus på regelmæssige verber, aktivt hverdagssprog og en rolig introduktion til pretérito perfeito.",
   "dialogues": [
     {
       "id": 1,
-      "titleDa": "Ringe efter taxi",
-      "objectiveDa": "Træn en realistisk mini-dialog om ringe efter taxi.",
+      "titleDa": "Busstoppested",
+      "objectiveDa": "Træn busstoppested med konkrete handlinger, høflige spørgsmål og naturlig europæisk portugisisk.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de chamar um táxi; pode orientar-me?",
-          "textDa": "Undskyld, jeg er ved at ordne ringe efter taxi; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
+          "textPt": "Bom dia, queria informação sobre paragem de autocarro para apanhar o autocarro hoje.",
+          "textDa": "Goddag, jeg vil gerne have information om busstoppested, så jeg kan tage bussen til centrum.",
+          "grammarDa": "Queria er høfligt og naturligt ved en skranke."
         },
         {
           "speaker": "B",
-          "textPt": "O funcionário pergunta se chamar um táxi é para hoje ou para mais tarde.",
-          "textDa": "Medarbejderen spørger, om ringe efter taxi er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
+          "textPt": "Claro. Para esse pedido de paragem de autocarro no transporte, normalmente é preciso apanhar o autocarro primeiro.",
+          "textDa": "Selvfølgelig. Til henvendelsen om busstoppested i transporten skal man normalt først tage bussen.",
+          "grammarDa": "É preciso + infinitiv forklarer et krav."
         },
         {
           "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver chamar um táxi.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at ordne ringe efter taxi.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
+          "textPt": "Não sabia isso quando procurei paragem de autocarro para apanhar o autocarro ontem à noite.",
+          "textDa": "Det vidste jeg ikke, da jeg søgte efter busstoppested for at tage bussen i går aftes.",
+          "grammarDa": "Procurei er en afsluttet handling i datid."
         },
         {
           "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de chamar um táxi.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om ringe efter taxi.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+          "textPt": "Tem algum documento ou pergunta concreta sobre paragem de autocarro no transporte antes de apanhar o autocarro?",
+          "textDa": "Har De et dokument eller et konkret spørgsmål om busstoppested i transporten, før De skal tage bussen?",
+          "grammarDa": "Tem er nutid af ter."
         },
         {
           "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com chamar um táxi?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med ringe efter taxi?",
-          "grammarDa": "Avançarmos er nós-form efter para."
+          "textPt": "Tenho esta informação sobre paragem de autocarro no transporte para apanhar o autocarro, mas não sei se está atualizada.",
+          "textDa": "Jeg har denne oplysning om busstoppested i transporten for at tage bussen, men jeg ved ikke, om den er opdateret.",
+          "grammarDa": "Tenho og está viser ter og estar i praksis."
         },
         {
           "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre chamar um táxi; depois o funcionário regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om ringe efter taxi; derefter registrerer medarbejderen det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
+          "textPt": "Então confirme aqui no balcão antes de avançar com paragem de autocarro no transporte.",
+          "textDa": "Bekræft det så her ved skranken, før De går videre med busstoppested i transporten.",
+          "grammarDa": "Confirme er en høflig opfordring."
         },
         {
           "speaker": "A",
-          "textPt": "Se houver algum problema com chamar um táxi, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med ringe efter taxi, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
+          "textPt": "O aviso diz \"VALIDAR BILHETE\"; isso aplica-se também a paragem de autocarro no transporte?",
+          "textDa": "Skiltet siger \"VALIDAR BILHETE\"; gælder det også for busstoppested i transporten?",
+          "grammarDa": "Aplica-se betyder gælder."
         },
         {
           "speaker": "B",
-          "textPt": "Pode, mas talvez chamar um táxi fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver ringe efter taxi løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
+          "textPt": "Sim, aqui o aviso \"VALIDAR BILHETE\" regula o uso do serviço durante paragem de autocarro no transporte.",
+          "textDa": "Ja, her betyder skiltet \"VALIDAR BILHETE\" validér billet, mens det handler om busstoppested i transporten.",
+          "grammarDa": "Significa er et nyttigt forklaringsverbum."
         },
         {
           "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre chamar um táxi.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om ringe efter taxi.",
-          "grammarDa": "Agradecia er høfligt."
+          "textPt": "Depois de apanhar o autocarro no transporte, posso voltar aqui se tiver dúvidas?",
+          "textDa": "Når jeg er færdig med busstoppested i transporten, kan jeg komme tilbage hertil, hvis jeg er i tvivl?",
+          "grammarDa": "Se tiver dúvidas er en nyttig betingelse."
         },
         {
           "speaker": "B",
-          "textPt": "Combinado; quando chamar um táxi estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når ringe efter taxi er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
+          "textPt": "Pode, e também pode guardar esta nota sobre paragem de autocarro no transporte.",
+          "textDa": "Ja, og De kan også gemme denne note om busstoppested i transporten.",
+          "grammarDa": "Também binder informationen sammen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "chamar um táxi",
-          "textDa": "ringe efter taxi"
+          "textPt": "paragem de autocarro",
+          "textDa": "busstoppested"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "apanhar o autocarro",
+          "textDa": "tage bussen"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "VALIDAR BILHETE",
+          "textDa": "validér billet"
         },
         {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
+          "textPt": "documento",
+          "textDa": "dokument"
         },
         {
-          "textPt": "processo",
-          "textDa": "sag/proces"
+          "textPt": "balcão",
+          "textDa": "skranke/disk"
+        },
+        {
+          "textPt": "apanhar",
+          "textDa": "at tage"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Táxi e encontrar o caminho",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "chamar",
+          "titleDa": "Regelmæssigt verbum: apanhar",
+          "explanationDa": "apanhar betyder \"at tage\". Dialogen bruger nutid til det, der sker nu, og pretérito perfeito til en enkel afsluttet handling.",
+          "verb": "apanhar",
+          "verbDa": "at tage",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "chamo"
+              "form": "apanho"
             },
             {
               "subject": "tu (presente)",
-              "form": "chamas"
+              "form": "apanhas"
             },
             {
-              "subject": "ele/ela/você (presente)",
-              "form": "chama"
+              "subject": "ele/ela/voce (presente)",
+              "form": "apanha"
             },
             {
-              "subject": "nós (presente)",
-              "form": "chamamos"
+              "subject": "nos (presente)",
+              "form": "apanhamos"
             },
             {
-              "subject": "vocês (presente)",
-              "form": "chamam"
+              "subject": "voces (presente)",
+              "form": "apanham"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "chamam"
+              "form": "apanham"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "chamei"
+              "form": "apanhei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "chamaste"
+              "form": "apanhaste"
             },
             {
-              "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "chamou"
+              "subject": "ele/ela/voce (pretérito perfeito)",
+              "form": "apanhou"
             },
             {
-              "subject": "nós (pretérito perfeito)",
-              "form": "chamámos"
+              "subject": "nos (pretérito perfeito)",
+              "form": "apanhamos"
             },
             {
-              "subject": "vocês (pretérito perfeito)",
-              "form": "chamaram"
+              "subject": "voces (pretérito perfeito)",
+              "form": "apanharam"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "chamaram"
+              "form": "apanharam"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje nós chamamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Hoje apanho paragem de autocarro.",
+              "da": "I dag arbejder jeg med busstoppested."
             },
             {
-              "pt": "Ontem a funcionária chamou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "Ontem à noite apanhei paragem de autocarro.",
+              "da": "I går arbejdede jeg med busstoppested."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Læg mærke til forskellen mellem apanho og apanhei; tidsordet viser ofte om handlingen er nu eller afsluttet.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "da": "Undgå at oversætte ord for ord fra dansk. Vælg et konkret portugisisk verbum som apanhar."
             }
           ]
         }
@@ -178,172 +172,166 @@
     },
     {
       "id": 2,
-      "titleDa": "Fuld adresse",
-      "objectiveDa": "Træn en realistisk mini-dialog om fuld adresse.",
+      "titleDa": "Billet",
+      "objectiveDa": "Træn enkeltbillet med konkrete handlinger, høflige spørgsmål og naturlig europæisk portugisisk.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de morada completa; pode orientar-me?",
-          "textDa": "Undskyld, jeg er ved at ordne fuld adresse; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
+          "textPt": "Bom dia, queria informação sobre bilhete simples para comprar o bilhete.",
+          "textDa": "Goddag, jeg vil gerne have information om enkeltbillet, så jeg kan rejse én vej.",
+          "grammarDa": "Queria er høfligt og naturligt ved en skranke."
         },
         {
           "speaker": "B",
-          "textPt": "A funcionária pergunta se morada completa é para hoje ou para mais tarde.",
-          "textDa": "Medarbejderen spørger, om fuld adresse er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
+          "textPt": "Claro. Para esse pedido de bilhete simples no transporte, normalmente é preciso comprar o bilhete primeiro.",
+          "textDa": "Selvfølgelig. Til henvendelsen om enkeltbillet i transporten skal man normalt først købe billetten.",
+          "grammarDa": "É preciso + infinitiv forklarer et krav."
         },
         {
           "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver morada completa.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at ordne fuld adresse.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
+          "textPt": "Não sabia isso quando procurei bilhete simples para comprar o bilhete ontem à noite.",
+          "textDa": "Det vidste jeg ikke, da jeg søgte efter enkeltbillet for at købe billetten i går aftes.",
+          "grammarDa": "Procurei er en afsluttet handling i datid."
         },
         {
           "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de morada completa.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om fuld adresse.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+          "textPt": "Tem algum documento ou pergunta concreta sobre bilhete simples no transporte antes de comprar o bilhete?",
+          "textDa": "Har De et dokument eller et konkret spørgsmål om enkeltbillet i transporten, før De skal købe billetten?",
+          "grammarDa": "Tem er nutid af ter."
         },
         {
           "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com morada completa?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med fuld adresse?",
-          "grammarDa": "Avançarmos er nós-form efter para."
+          "textPt": "Tenho esta informação sobre bilhete simples no transporte para comprar o bilhete, mas não sei se está atualizada.",
+          "textDa": "Jeg har denne oplysning om enkeltbillet i transporten for at købe billetten, men jeg ved ikke, om den er opdateret.",
+          "grammarDa": "Tenho og está viser ter og estar i praksis."
         },
         {
           "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre morada completa; depois a funcionária regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om fuld adresse; derefter registrerer medarbejderen det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
+          "textPt": "Então confirme aqui no balcão antes de avançar com bilhete simples no transporte.",
+          "textDa": "Bekræft det så her ved skranken, før De går videre med enkeltbillet i transporten.",
+          "grammarDa": "Confirme er en høflig opfordring."
         },
         {
           "speaker": "A",
-          "textPt": "Se houver algum problema com morada completa, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med fuld adresse, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
+          "textPt": "O aviso diz \"VALIDAR BILHETE\"; isso aplica-se também a bilhete simples no transporte?",
+          "textDa": "Skiltet siger \"VALIDAR BILHETE\"; gælder det også for enkeltbillet i transporten?",
+          "grammarDa": "Aplica-se betyder gælder."
         },
         {
           "speaker": "B",
-          "textPt": "Pode, mas talvez morada completa fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver fuld adresse løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
+          "textPt": "Sim, aqui o aviso \"VALIDAR BILHETE\" regula o uso do serviço durante bilhete simples no transporte.",
+          "textDa": "Ja, her betyder skiltet \"VALIDAR BILHETE\" validér billet, mens det handler om enkeltbillet i transporten.",
+          "grammarDa": "Significa er et nyttigt forklaringsverbum."
         },
         {
           "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre morada completa.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om fuld adresse.",
-          "grammarDa": "Agradecia er høfligt."
+          "textPt": "Depois de comprar o bilhete no transporte, posso voltar aqui se tiver dúvidas?",
+          "textDa": "Når jeg er færdig med enkeltbillet i transporten, kan jeg komme tilbage hertil, hvis jeg er i tvivl?",
+          "grammarDa": "Se tiver dúvidas er en nyttig betingelse."
         },
         {
           "speaker": "B",
-          "textPt": "Combinado; quando morada completa estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når fuld adresse er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
+          "textPt": "Pode, e também pode guardar esta nota sobre bilhete simples no transporte.",
+          "textDa": "Ja, og De kan også gemme denne note om enkeltbillet i transporten.",
+          "grammarDa": "Também binder informationen sammen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "morada completa",
-          "textDa": "fuld adresse"
+          "textPt": "bilhete simples",
+          "textDa": "enkeltbillet"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "comprar o bilhete",
+          "textDa": "købe billetten"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "VALIDAR BILHETE",
+          "textDa": "validér billet"
         },
         {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
+          "textPt": "documento",
+          "textDa": "dokument"
         },
         {
-          "textPt": "processo",
-          "textDa": "sag/proces"
+          "textPt": "balcão",
+          "textDa": "skranke/disk"
+        },
+        {
+          "textPt": "apanhar",
+          "textDa": "at tage"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Táxi e encontrar o caminho",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "chamar",
+          "titleDa": "Regelmæssigt verbum: apanhar",
+          "explanationDa": "apanhar betyder \"at tage\". Dialogen bruger nutid til det, der sker nu, og pretérito perfeito til en enkel afsluttet handling.",
+          "verb": "apanhar",
+          "verbDa": "at tage",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "chamo"
+              "form": "apanho"
             },
             {
               "subject": "tu (presente)",
-              "form": "chamas"
+              "form": "apanhas"
             },
             {
-              "subject": "ele/ela/você (presente)",
-              "form": "chama"
+              "subject": "ele/ela/voce (presente)",
+              "form": "apanha"
             },
             {
-              "subject": "nós (presente)",
-              "form": "chamamos"
+              "subject": "nos (presente)",
+              "form": "apanhamos"
             },
             {
-              "subject": "vocês (presente)",
-              "form": "chamam"
+              "subject": "voces (presente)",
+              "form": "apanham"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "chamam"
+              "form": "apanham"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "chamei"
+              "form": "apanhei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "chamaste"
+              "form": "apanhaste"
             },
             {
-              "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "chamou"
+              "subject": "ele/ela/voce (pretérito perfeito)",
+              "form": "apanhou"
             },
             {
-              "subject": "nós (pretérito perfeito)",
-              "form": "chamámos"
+              "subject": "nos (pretérito perfeito)",
+              "form": "apanhamos"
             },
             {
-              "subject": "vocês (pretérito perfeito)",
-              "form": "chamaram"
+              "subject": "voces (pretérito perfeito)",
+              "form": "apanharam"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "chamaram"
+              "form": "apanharam"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje nós chamamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Hoje apanho bilhete simples.",
+              "da": "I dag arbejder jeg med enkeltbillet."
             },
             {
-              "pt": "Ontem a funcionária chamou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "Ontem à noite apanhei bilhete simples.",
+              "da": "I går arbejdede jeg med enkeltbillet."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Læg mærke til forskellen mellem apanho og apanhei; tidsordet viser ofte om handlingen er nu eller afsluttet.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "da": "Undgå at oversætte ord for ord fra dansk. Vælg et konkret portugisisk verbum som apanhar."
             }
           ]
         }
@@ -351,172 +339,166 @@
     },
     {
       "id": 3,
-      "titleDa": "Rejsetid",
-      "objectiveDa": "Træn en realistisk mini-dialog om rejsetid.",
+      "titleDa": "Transport-app",
+      "objectiveDa": "Træn transport-app med konkrete handlinger, høflige spørgsmål og naturlig europæisk portugisisk.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de tempo de viagem; pode orientar-me?",
-          "textDa": "Undskyld, jeg er ved at ordne rejsetid; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
+          "textPt": "Bom dia, queria informação sobre aplicação de transportes para abrir a aplicação.",
+          "textDa": "Goddag, jeg vil gerne have information om transport-app, så jeg kan se afgangstider.",
+          "grammarDa": "Queria er høfligt og naturligt ved en skranke."
         },
         {
           "speaker": "B",
-          "textPt": "O empregado pergunta se tempo de viagem é para hoje ou para mais tarde.",
-          "textDa": "Tjeneren spørger, om rejsetid er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
+          "textPt": "Claro. Para esse pedido de aplicação de transportes no transporte, normalmente é preciso abrir a aplicação primeiro.",
+          "textDa": "Selvfølgelig. Til henvendelsen om transport-app i transporten skal man normalt først åbne appen.",
+          "grammarDa": "É preciso + infinitiv forklarer et krav."
         },
         {
           "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver tempo de viagem.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at ordne rejsetid.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
+          "textPt": "Não sabia isso quando procurei aplicação de transportes para abrir a aplicação ontem à noite.",
+          "textDa": "Det vidste jeg ikke, da jeg søgte efter transport-app for at åbne appen i går aftes.",
+          "grammarDa": "Procurei er en afsluttet handling i datid."
         },
         {
           "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de tempo de viagem.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om rejsetid.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+          "textPt": "Tem algum documento ou pergunta concreta sobre aplicação de transportes no transporte antes de abrir a aplicação?",
+          "textDa": "Har De et dokument eller et konkret spørgsmål om transport-app i transporten, før De skal åbne appen?",
+          "grammarDa": "Tem er nutid af ter."
         },
         {
           "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com tempo de viagem?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med rejsetid?",
-          "grammarDa": "Avançarmos er nós-form efter para."
+          "textPt": "Tenho esta informação sobre aplicação de transportes no transporte para abrir a aplicação, mas não sei se está atualizada.",
+          "textDa": "Jeg har denne oplysning om transport-app i transporten for at åbne appen, men jeg ved ikke, om den er opdateret.",
+          "grammarDa": "Tenho og está viser ter og estar i praksis."
         },
         {
           "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre tempo de viagem; depois o empregado regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om rejsetid; derefter registrerer tjeneren det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
+          "textPt": "Então confirme aqui no balcão antes de avançar com aplicação de transportes no transporte.",
+          "textDa": "Bekræft det så her ved skranken, før De går videre med transport-app i transporten.",
+          "grammarDa": "Confirme er en høflig opfordring."
         },
         {
           "speaker": "A",
-          "textPt": "Se houver algum problema com tempo de viagem, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med rejsetid, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
+          "textPt": "O aviso diz \"VALIDAR BILHETE\"; isso aplica-se também a aplicação de transportes no transporte?",
+          "textDa": "Skiltet siger \"VALIDAR BILHETE\"; gælder det også for transport-app i transporten?",
+          "grammarDa": "Aplica-se betyder gælder."
         },
         {
           "speaker": "B",
-          "textPt": "Pode, mas talvez tempo de viagem fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver rejsetid løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
+          "textPt": "Sim, aqui o aviso \"VALIDAR BILHETE\" regula o uso do serviço durante aplicação de transportes no transporte.",
+          "textDa": "Ja, her betyder skiltet \"VALIDAR BILHETE\" validér billet, mens det handler om transport-app i transporten.",
+          "grammarDa": "Significa er et nyttigt forklaringsverbum."
         },
         {
           "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre tempo de viagem.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om rejsetid.",
-          "grammarDa": "Agradecia er høfligt."
+          "textPt": "Depois de abrir a aplicação no transporte, posso voltar aqui se tiver dúvidas?",
+          "textDa": "Når jeg er færdig med transport-app i transporten, kan jeg komme tilbage hertil, hvis jeg er i tvivl?",
+          "grammarDa": "Se tiver dúvidas er en nyttig betingelse."
         },
         {
           "speaker": "B",
-          "textPt": "Combinado; quando tempo de viagem estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når rejsetid er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
+          "textPt": "Pode, e também pode guardar esta nota sobre aplicação de transportes no transporte.",
+          "textDa": "Ja, og De kan også gemme denne note om transport-app i transporten.",
+          "grammarDa": "Também binder informationen sammen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "tempo de viagem",
-          "textDa": "rejsetid"
+          "textPt": "aplicação de transportes",
+          "textDa": "transport-app"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "abrir a aplicação",
+          "textDa": "åbne appen"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "VALIDAR BILHETE",
+          "textDa": "validér billet"
         },
         {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
+          "textPt": "documento",
+          "textDa": "dokument"
         },
         {
-          "textPt": "processo",
-          "textDa": "sag/proces"
+          "textPt": "balcão",
+          "textDa": "skranke/disk"
+        },
+        {
+          "textPt": "apanhar",
+          "textDa": "at tage"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Táxi e encontrar o caminho",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "chamar",
+          "titleDa": "Regelmæssigt verbum: apanhar",
+          "explanationDa": "apanhar betyder \"at tage\". Dialogen bruger nutid til det, der sker nu, og pretérito perfeito til en enkel afsluttet handling.",
+          "verb": "apanhar",
+          "verbDa": "at tage",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "chamo"
+              "form": "apanho"
             },
             {
               "subject": "tu (presente)",
-              "form": "chamas"
+              "form": "apanhas"
             },
             {
-              "subject": "ele/ela/você (presente)",
-              "form": "chama"
+              "subject": "ele/ela/voce (presente)",
+              "form": "apanha"
             },
             {
-              "subject": "nós (presente)",
-              "form": "chamamos"
+              "subject": "nos (presente)",
+              "form": "apanhamos"
             },
             {
-              "subject": "vocês (presente)",
-              "form": "chamam"
+              "subject": "voces (presente)",
+              "form": "apanham"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "chamam"
+              "form": "apanham"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "chamei"
+              "form": "apanhei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "chamaste"
+              "form": "apanhaste"
             },
             {
-              "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "chamou"
+              "subject": "ele/ela/voce (pretérito perfeito)",
+              "form": "apanhou"
             },
             {
-              "subject": "nós (pretérito perfeito)",
-              "form": "chamámos"
+              "subject": "nos (pretérito perfeito)",
+              "form": "apanhamos"
             },
             {
-              "subject": "vocês (pretérito perfeito)",
-              "form": "chamaram"
+              "subject": "voces (pretérito perfeito)",
+              "form": "apanharam"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "chamaram"
+              "form": "apanharam"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje nós chamamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Hoje apanho aplicação de transportes.",
+              "da": "I dag arbejder jeg med transport-app."
             },
             {
-              "pt": "Ontem a funcionária chamou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "Ontem à noite apanhei aplicação de transportes.",
+              "da": "I går arbejdede jeg med transport-app."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Læg mærke til forskellen mellem apanho og apanhei; tidsordet viser ofte om handlingen er nu eller afsluttet.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "da": "Undgå at oversætte ord for ord fra dansk. Vælg et konkret portugisisk verbum som apanhar."
             }
           ]
         }
@@ -524,172 +506,166 @@
     },
     {
       "id": 4,
-      "titleDa": "Trafik i centrum",
-      "objectiveDa": "Træn en realistisk mini-dialog om trafik i centrum.",
+      "titleDa": "Køreplan",
+      "objectiveDa": "Træn køreplan med konkrete handlinger, høflige spørgsmål og naturlig europæisk portugisisk.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de trânsito no centro; pode orientar-me?",
-          "textDa": "Undskyld, jeg er ved at ordne trafik i centrum; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
+          "textPt": "Bom dia, queria informação sobre horário para confirmar a partida hoje.",
+          "textDa": "Goddag, jeg vil gerne have information om køreplan, så jeg kan komme til tiden.",
+          "grammarDa": "Queria er høfligt og naturligt ved en skranke."
         },
         {
           "speaker": "B",
-          "textPt": "A senhora pergunta se trânsito no centro é para hoje ou para mais tarde.",
-          "textDa": "Damen spørger, om trafik i centrum er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
+          "textPt": "Claro. Para esse pedido de horário no transporte, normalmente é preciso confirmar a partida primeiro.",
+          "textDa": "Selvfølgelig. Til henvendelsen om køreplan i transporten skal man normalt først bekræfte afgangen.",
+          "grammarDa": "É preciso + infinitiv forklarer et krav."
         },
         {
           "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver trânsito no centro.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at ordne trafik i centrum.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
+          "textPt": "Não sabia isso quando procurei horário para confirmar a partida ontem à noite.",
+          "textDa": "Det vidste jeg ikke, da jeg søgte efter køreplan for at bekræfte afgangen i går aftes.",
+          "grammarDa": "Procurei er en afsluttet handling i datid."
         },
         {
           "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de trânsito no centro.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om trafik i centrum.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+          "textPt": "Tem algum documento ou pergunta concreta sobre horário no transporte antes de confirmar a partida?",
+          "textDa": "Har De et dokument eller et konkret spørgsmål om køreplan i transporten, før De skal bekræfte afgangen?",
+          "grammarDa": "Tem er nutid af ter."
         },
         {
           "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com trânsito no centro?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med trafik i centrum?",
-          "grammarDa": "Avançarmos er nós-form efter para."
+          "textPt": "Tenho esta informação sobre horário no transporte para confirmar a partida, mas não sei se está atualizada.",
+          "textDa": "Jeg har denne oplysning om køreplan i transporten for at bekræfte afgangen, men jeg ved ikke, om den er opdateret.",
+          "grammarDa": "Tenho og está viser ter og estar i praksis."
         },
         {
           "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre trânsito no centro; depois a senhora regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om trafik i centrum; derefter registrerer damen det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
+          "textPt": "Então confirme aqui no balcão antes de avançar com horário no transporte.",
+          "textDa": "Bekræft det så her ved skranken, før De går videre med køreplan i transporten.",
+          "grammarDa": "Confirme er en høflig opfordring."
         },
         {
           "speaker": "A",
-          "textPt": "Se houver algum problema com trânsito no centro, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med trafik i centrum, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
+          "textPt": "O aviso diz \"VALIDAR BILHETE\"; isso aplica-se também a horário no transporte?",
+          "textDa": "Skiltet siger \"VALIDAR BILHETE\"; gælder det også for køreplan i transporten?",
+          "grammarDa": "Aplica-se betyder gælder."
         },
         {
           "speaker": "B",
-          "textPt": "Pode, mas talvez trânsito no centro fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver trafik i centrum løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
+          "textPt": "Sim, aqui o aviso \"VALIDAR BILHETE\" regula o uso do serviço durante horário no transporte.",
+          "textDa": "Ja, her betyder skiltet \"VALIDAR BILHETE\" validér billet, mens det handler om køreplan i transporten.",
+          "grammarDa": "Significa er et nyttigt forklaringsverbum."
         },
         {
           "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre trânsito no centro.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om trafik i centrum.",
-          "grammarDa": "Agradecia er høfligt."
+          "textPt": "Depois de confirmar a partida no transporte, posso voltar aqui se tiver dúvidas?",
+          "textDa": "Når jeg er færdig med køreplan i transporten, kan jeg komme tilbage hertil, hvis jeg er i tvivl?",
+          "grammarDa": "Se tiver dúvidas er en nyttig betingelse."
         },
         {
           "speaker": "B",
-          "textPt": "Combinado; quando trânsito no centro estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når trafik i centrum er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
+          "textPt": "Pode, e também pode guardar esta nota sobre horário no transporte.",
+          "textDa": "Ja, og De kan også gemme denne note om køreplan i transporten.",
+          "grammarDa": "Também binder informationen sammen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "trânsito no centro",
-          "textDa": "trafik i centrum"
+          "textPt": "horário",
+          "textDa": "køreplan"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "confirmar a partida",
+          "textDa": "bekræfte afgangen"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "VALIDAR BILHETE",
+          "textDa": "validér billet"
         },
         {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
+          "textPt": "documento",
+          "textDa": "dokument"
         },
         {
-          "textPt": "processo",
-          "textDa": "sag/proces"
+          "textPt": "balcão",
+          "textDa": "skranke/disk"
+        },
+        {
+          "textPt": "apanhar",
+          "textDa": "at tage"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Táxi e encontrar o caminho",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "chamar",
+          "titleDa": "Regelmæssigt verbum: apanhar",
+          "explanationDa": "apanhar betyder \"at tage\". Dialogen bruger nutid til det, der sker nu, og pretérito perfeito til en enkel afsluttet handling.",
+          "verb": "apanhar",
+          "verbDa": "at tage",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "chamo"
+              "form": "apanho"
             },
             {
               "subject": "tu (presente)",
-              "form": "chamas"
+              "form": "apanhas"
             },
             {
-              "subject": "ele/ela/você (presente)",
-              "form": "chama"
+              "subject": "ele/ela/voce (presente)",
+              "form": "apanha"
             },
             {
-              "subject": "nós (presente)",
-              "form": "chamamos"
+              "subject": "nos (presente)",
+              "form": "apanhamos"
             },
             {
-              "subject": "vocês (presente)",
-              "form": "chamam"
+              "subject": "voces (presente)",
+              "form": "apanham"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "chamam"
+              "form": "apanham"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "chamei"
+              "form": "apanhei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "chamaste"
+              "form": "apanhaste"
             },
             {
-              "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "chamou"
+              "subject": "ele/ela/voce (pretérito perfeito)",
+              "form": "apanhou"
             },
             {
-              "subject": "nós (pretérito perfeito)",
-              "form": "chamámos"
+              "subject": "nos (pretérito perfeito)",
+              "form": "apanhamos"
             },
             {
-              "subject": "vocês (pretérito perfeito)",
-              "form": "chamaram"
+              "subject": "voces (pretérito perfeito)",
+              "form": "apanharam"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "chamaram"
+              "form": "apanharam"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje nós chamamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Hoje apanho horário.",
+              "da": "I dag arbejder jeg med køreplan."
             },
             {
-              "pt": "Ontem a funcionária chamou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "Ontem à noite apanhei horário.",
+              "da": "I går arbejdede jeg med køreplan."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Læg mærke til forskellen mellem apanho og apanhei; tidsordet viser ofte om handlingen er nu eller afsluttet.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "da": "Undgå at oversætte ord for ord fra dansk. Vælg et konkret portugisisk verbum som apanhar."
             }
           ]
         }
@@ -697,172 +673,166 @@
     },
     {
       "id": 5,
-      "titleDa": "Kortbetaling",
-      "objectiveDa": "Træn en realistisk mini-dialog om kortbetaling.",
+      "titleDa": "Perron",
+      "objectiveDa": "Træn perron med konkrete handlinger, høflige spørgsmål og naturlig europæisk portugisisk.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de pagamento com cartão; pode orientar-me?",
-          "textDa": "Undskyld, jeg er ved at ordne kortbetaling; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
+          "textPt": "Bom dia, queria informação sobre plataforma para procurar a plataforma.",
+          "textDa": "Goddag, jeg vil gerne have information om perron, så jeg kan finde toget.",
+          "grammarDa": "Queria er høfligt og naturligt ved en skranke."
         },
         {
           "speaker": "B",
-          "textPt": "O motorista pergunta se pagamento com cartão é para hoje ou para mais tarde.",
-          "textDa": "Chaufføren spørger, om kortbetaling er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
+          "textPt": "Claro. Para esse pedido de plataforma no transporte, normalmente é preciso procurar a plataforma primeiro.",
+          "textDa": "Selvfølgelig. Til henvendelsen om perron i transporten skal man normalt først søge efter perronen.",
+          "grammarDa": "É preciso + infinitiv forklarer et krav."
         },
         {
           "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver pagamento com cartão.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at ordne kortbetaling.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
+          "textPt": "Não sabia isso quando procurei plataforma para procurar a plataforma ontem à noite.",
+          "textDa": "Det vidste jeg ikke, da jeg søgte efter perron for at søge efter perronen i går aftes.",
+          "grammarDa": "Procurei er en afsluttet handling i datid."
         },
         {
           "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de pagamento com cartão.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om kortbetaling.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+          "textPt": "Tem algum documento ou pergunta concreta sobre plataforma no transporte antes de procurar a plataforma?",
+          "textDa": "Har De et dokument eller et konkret spørgsmål om perron i transporten, før De skal søge efter perronen?",
+          "grammarDa": "Tem er nutid af ter."
         },
         {
           "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com pagamento com cartão?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med kortbetaling?",
-          "grammarDa": "Avançarmos er nós-form efter para."
+          "textPt": "Tenho esta informação sobre plataforma no transporte para procurar a plataforma, mas não sei se está atualizada.",
+          "textDa": "Jeg har denne oplysning om perron i transporten for at søge efter perronen, men jeg ved ikke, om den er opdateret.",
+          "grammarDa": "Tenho og está viser ter og estar i praksis."
         },
         {
           "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre pagamento com cartão; depois o motorista regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om kortbetaling; derefter registrerer chaufføren det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
+          "textPt": "Então confirme aqui no balcão antes de avançar com plataforma no transporte.",
+          "textDa": "Bekræft det så her ved skranken, før De går videre med perron i transporten.",
+          "grammarDa": "Confirme er en høflig opfordring."
         },
         {
           "speaker": "A",
-          "textPt": "Se houver algum problema com pagamento com cartão, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med kortbetaling, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
+          "textPt": "O aviso diz \"VALIDAR BILHETE\"; isso aplica-se também a plataforma no transporte?",
+          "textDa": "Skiltet siger \"VALIDAR BILHETE\"; gælder det også for perron i transporten?",
+          "grammarDa": "Aplica-se betyder gælder."
         },
         {
           "speaker": "B",
-          "textPt": "Pode, mas talvez pagamento com cartão fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver kortbetaling løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
+          "textPt": "Sim, aqui o aviso \"VALIDAR BILHETE\" regula o uso do serviço durante plataforma no transporte.",
+          "textDa": "Ja, her betyder skiltet \"VALIDAR BILHETE\" validér billet, mens det handler om perron i transporten.",
+          "grammarDa": "Significa er et nyttigt forklaringsverbum."
         },
         {
           "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre pagamento com cartão.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om kortbetaling.",
-          "grammarDa": "Agradecia er høfligt."
+          "textPt": "Depois de procurar a plataforma no transporte, posso voltar aqui se tiver dúvidas?",
+          "textDa": "Når jeg er færdig med perron i transporten, kan jeg komme tilbage hertil, hvis jeg er i tvivl?",
+          "grammarDa": "Se tiver dúvidas er en nyttig betingelse."
         },
         {
           "speaker": "B",
-          "textPt": "Combinado; quando pagamento com cartão estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når kortbetaling er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
+          "textPt": "Pode, e também pode guardar esta nota sobre plataforma no transporte.",
+          "textDa": "Ja, og De kan også gemme denne note om perron i transporten.",
+          "grammarDa": "Também binder informationen sammen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "pagamento com cartão",
-          "textDa": "kortbetaling"
+          "textPt": "plataforma",
+          "textDa": "perron"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "procurar a plataforma",
+          "textDa": "søge efter perronen"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "VALIDAR BILHETE",
+          "textDa": "validér billet"
         },
         {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
+          "textPt": "documento",
+          "textDa": "dokument"
         },
         {
-          "textPt": "processo",
-          "textDa": "sag/proces"
+          "textPt": "balcão",
+          "textDa": "skranke/disk"
+        },
+        {
+          "textPt": "apanhar",
+          "textDa": "at tage"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Táxi e encontrar o caminho",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "chamar",
+          "titleDa": "Regelmæssigt verbum: apanhar",
+          "explanationDa": "apanhar betyder \"at tage\". Dialogen bruger nutid til det, der sker nu, og pretérito perfeito til en enkel afsluttet handling.",
+          "verb": "apanhar",
+          "verbDa": "at tage",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "chamo"
+              "form": "apanho"
             },
             {
               "subject": "tu (presente)",
-              "form": "chamas"
+              "form": "apanhas"
             },
             {
-              "subject": "ele/ela/você (presente)",
-              "form": "chama"
+              "subject": "ele/ela/voce (presente)",
+              "form": "apanha"
             },
             {
-              "subject": "nós (presente)",
-              "form": "chamamos"
+              "subject": "nos (presente)",
+              "form": "apanhamos"
             },
             {
-              "subject": "vocês (presente)",
-              "form": "chamam"
+              "subject": "voces (presente)",
+              "form": "apanham"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "chamam"
+              "form": "apanham"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "chamei"
+              "form": "apanhei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "chamaste"
+              "form": "apanhaste"
             },
             {
-              "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "chamou"
+              "subject": "ele/ela/voce (pretérito perfeito)",
+              "form": "apanhou"
             },
             {
-              "subject": "nós (pretérito perfeito)",
-              "form": "chamámos"
+              "subject": "nos (pretérito perfeito)",
+              "form": "apanhamos"
             },
             {
-              "subject": "vocês (pretérito perfeito)",
-              "form": "chamaram"
+              "subject": "voces (pretérito perfeito)",
+              "form": "apanharam"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "chamaram"
+              "form": "apanharam"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje nós chamamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Hoje apanho plataforma.",
+              "da": "I dag arbejder jeg med perron."
             },
             {
-              "pt": "Ontem a funcionária chamou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "Ontem à noite apanhei plataforma.",
+              "da": "I går arbejdede jeg med perron."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Læg mærke til forskellen mellem apanho og apanhei; tidsordet viser ofte om handlingen er nu eller afsluttet.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "da": "Undgå at oversætte ord for ord fra dansk. Vælg et konkret portugisisk verbum som apanhar."
             }
           ]
         }
@@ -870,172 +840,166 @@
     },
     {
       "id": 6,
-      "titleDa": "Printet kvittering",
-      "objectiveDa": "Træn en realistisk mini-dialog om printet kvittering.",
+      "titleDa": "Metro",
+      "objectiveDa": "Træn metro med konkrete handlinger, høflige spørgsmål og naturlig europæisk portugisisk.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de recibo impresso; pode orientar-me?",
-          "textDa": "Undskyld, jeg er ved at ordne printet kvittering; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
+          "textPt": "Bom dia, queria informação sobre metro para entrar na linha azul.",
+          "textDa": "Goddag, jeg vil gerne have information om metro, så jeg kan skifte hurtigt.",
+          "grammarDa": "Queria er høfligt og naturligt ved en skranke."
         },
         {
           "speaker": "B",
-          "textPt": "O técnico pergunta se recibo impresso é para hoje ou para mais tarde.",
-          "textDa": "Teknikeren spørger, om printet kvittering er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
+          "textPt": "Claro. Para esse pedido de metro no transporte, normalmente é preciso entrar na linha azul primeiro.",
+          "textDa": "Selvfølgelig. Til henvendelsen om metro i transporten skal man normalt først stige på den blå linje.",
+          "grammarDa": "É preciso + infinitiv forklarer et krav."
         },
         {
           "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver recibo impresso.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at ordne printet kvittering.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
+          "textPt": "Não sabia isso quando procurei metro para entrar na linha azul ontem à noite.",
+          "textDa": "Det vidste jeg ikke, da jeg søgte efter metro for at stige på den blå linje i går aftes.",
+          "grammarDa": "Procurei er en afsluttet handling i datid."
         },
         {
           "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de recibo impresso.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om printet kvittering.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+          "textPt": "Tem algum documento ou pergunta concreta sobre metro no transporte antes de entrar na linha azul?",
+          "textDa": "Har De et dokument eller et konkret spørgsmål om metro i transporten, før De skal stige på den blå linje?",
+          "grammarDa": "Tem er nutid af ter."
         },
         {
           "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com recibo impresso?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med printet kvittering?",
-          "grammarDa": "Avançarmos er nós-form efter para."
+          "textPt": "Tenho esta informação sobre metro no transporte para entrar na linha azul, mas não sei se está atualizada.",
+          "textDa": "Jeg har denne oplysning om metro i transporten for at stige på den blå linje, men jeg ved ikke, om den er opdateret.",
+          "grammarDa": "Tenho og está viser ter og estar i praksis."
         },
         {
           "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre recibo impresso; depois o técnico regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om printet kvittering; derefter registrerer teknikeren det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
+          "textPt": "Então confirme aqui no balcão antes de avançar com metro no transporte.",
+          "textDa": "Bekræft det så her ved skranken, før De går videre med metro i transporten.",
+          "grammarDa": "Confirme er en høflig opfordring."
         },
         {
           "speaker": "A",
-          "textPt": "Se houver algum problema com recibo impresso, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med printet kvittering, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
+          "textPt": "O aviso diz \"VALIDAR BILHETE\"; isso aplica-se também a metro no transporte?",
+          "textDa": "Skiltet siger \"VALIDAR BILHETE\"; gælder det også for metro i transporten?",
+          "grammarDa": "Aplica-se betyder gælder."
         },
         {
           "speaker": "B",
-          "textPt": "Pode, mas talvez recibo impresso fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver printet kvittering løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
+          "textPt": "Sim, aqui o aviso \"VALIDAR BILHETE\" regula o uso do serviço durante metro no transporte.",
+          "textDa": "Ja, her betyder skiltet \"VALIDAR BILHETE\" validér billet, mens det handler om metro i transporten.",
+          "grammarDa": "Significa er et nyttigt forklaringsverbum."
         },
         {
           "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre recibo impresso.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om printet kvittering.",
-          "grammarDa": "Agradecia er høfligt."
+          "textPt": "Depois de entrar na linha azul no transporte, posso voltar aqui se tiver dúvidas?",
+          "textDa": "Når jeg er færdig med metro i transporten, kan jeg komme tilbage hertil, hvis jeg er i tvivl?",
+          "grammarDa": "Se tiver dúvidas er en nyttig betingelse."
         },
         {
           "speaker": "B",
-          "textPt": "Combinado; quando recibo impresso estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når printet kvittering er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
+          "textPt": "Pode, e também pode guardar esta nota sobre metro no transporte.",
+          "textDa": "Ja, og De kan også gemme denne note om metro i transporten.",
+          "grammarDa": "Também binder informationen sammen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "recibo impresso",
-          "textDa": "printet kvittering"
+          "textPt": "metro",
+          "textDa": "metro"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "entrar na linha azul",
+          "textDa": "stige på den blå linje"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "VALIDAR BILHETE",
+          "textDa": "validér billet"
         },
         {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
+          "textPt": "documento",
+          "textDa": "dokument"
         },
         {
-          "textPt": "processo",
-          "textDa": "sag/proces"
+          "textPt": "balcão",
+          "textDa": "skranke/disk"
+        },
+        {
+          "textPt": "apanhar",
+          "textDa": "at tage"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Táxi e encontrar o caminho",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "chamar",
+          "titleDa": "Regelmæssigt verbum: apanhar",
+          "explanationDa": "apanhar betyder \"at tage\". Dialogen bruger nutid til det, der sker nu, og pretérito perfeito til en enkel afsluttet handling.",
+          "verb": "apanhar",
+          "verbDa": "at tage",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "chamo"
+              "form": "apanho"
             },
             {
               "subject": "tu (presente)",
-              "form": "chamas"
+              "form": "apanhas"
             },
             {
-              "subject": "ele/ela/você (presente)",
-              "form": "chama"
+              "subject": "ele/ela/voce (presente)",
+              "form": "apanha"
             },
             {
-              "subject": "nós (presente)",
-              "form": "chamamos"
+              "subject": "nos (presente)",
+              "form": "apanhamos"
             },
             {
-              "subject": "vocês (presente)",
-              "form": "chamam"
+              "subject": "voces (presente)",
+              "form": "apanham"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "chamam"
+              "form": "apanham"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "chamei"
+              "form": "apanhei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "chamaste"
+              "form": "apanhaste"
             },
             {
-              "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "chamou"
+              "subject": "ele/ela/voce (pretérito perfeito)",
+              "form": "apanhou"
             },
             {
-              "subject": "nós (pretérito perfeito)",
-              "form": "chamámos"
+              "subject": "nos (pretérito perfeito)",
+              "form": "apanhamos"
             },
             {
-              "subject": "vocês (pretérito perfeito)",
-              "form": "chamaram"
+              "subject": "voces (pretérito perfeito)",
+              "form": "apanharam"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "chamaram"
+              "form": "apanharam"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje nós chamamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Hoje apanho metro.",
+              "da": "I dag arbejder jeg med metro."
             },
             {
-              "pt": "Ontem a funcionária chamou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "Ontem à noite apanhei metro.",
+              "da": "I går arbejdede jeg med metro."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Læg mærke til forskellen mellem apanho og apanhei; tidsordet viser ofte om handlingen er nu eller afsluttet.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "da": "Undgå at oversætte ord for ord fra dansk. Vælg et konkret portugisisk verbum som apanhar."
             }
           ]
         }
@@ -1043,172 +1007,166 @@
     },
     {
       "id": 7,
-      "titleDa": "Mistet sving",
-      "objectiveDa": "Træn en realistisk mini-dialog om mistet sving.",
+      "titleDa": "Linje",
+      "objectiveDa": "Træn grøn linje med konkrete handlinger, høflige spørgsmål og naturlig europæisk portugisisk.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de viragem perdida; pode orientar-me?",
-          "textDa": "Undskyld, jeg er ved at ordne mistet sving; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
+          "textPt": "Bom dia, queria informação sobre linha verde para mudar de linha hoje.",
+          "textDa": "Goddag, jeg vil gerne have information om grøn linje, så jeg kan køre mod centrum.",
+          "grammarDa": "Queria er høfligt og naturligt ved en skranke."
         },
         {
           "speaker": "B",
-          "textPt": "A cliente pergunta se viragem perdida é para hoje ou para mais tarde.",
-          "textDa": "Kunden spørger, om mistet sving er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
+          "textPt": "Claro. Para esse pedido de linha verde no transporte, normalmente é preciso mudar de linha primeiro.",
+          "textDa": "Selvfølgelig. Til henvendelsen om grøn linje i transporten skal man normalt først skifte linje.",
+          "grammarDa": "É preciso + infinitiv forklarer et krav."
         },
         {
           "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver viragem perdida.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at ordne mistet sving.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
+          "textPt": "Não sabia isso quando procurei linha verde para mudar de linha ontem à noite.",
+          "textDa": "Det vidste jeg ikke, da jeg søgte efter grøn linje for at skifte linje i går aftes.",
+          "grammarDa": "Procurei er en afsluttet handling i datid."
         },
         {
           "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de viragem perdida.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om mistet sving.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+          "textPt": "Tem algum documento ou pergunta concreta sobre linha verde no transporte antes de mudar de linha?",
+          "textDa": "Har De et dokument eller et konkret spørgsmål om grøn linje i transporten, før De skal skifte linje?",
+          "grammarDa": "Tem er nutid af ter."
         },
         {
           "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com viragem perdida?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med mistet sving?",
-          "grammarDa": "Avançarmos er nós-form efter para."
+          "textPt": "Tenho esta informação sobre linha verde no transporte para mudar de linha, mas não sei se está atualizada.",
+          "textDa": "Jeg har denne oplysning om grøn linje i transporten for at skifte linje, men jeg ved ikke, om den er opdateret.",
+          "grammarDa": "Tenho og está viser ter og estar i praksis."
         },
         {
           "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre viragem perdida; depois a cliente regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om mistet sving; derefter registrerer kunden det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
+          "textPt": "Então confirme aqui no balcão antes de avançar com linha verde no transporte.",
+          "textDa": "Bekræft det så her ved skranken, før De går videre med grøn linje i transporten.",
+          "grammarDa": "Confirme er en høflig opfordring."
         },
         {
           "speaker": "A",
-          "textPt": "Se houver algum problema com viragem perdida, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med mistet sving, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
+          "textPt": "O aviso diz \"VALIDAR BILHETE\"; isso aplica-se também a linha verde no transporte?",
+          "textDa": "Skiltet siger \"VALIDAR BILHETE\"; gælder det også for grøn linje i transporten?",
+          "grammarDa": "Aplica-se betyder gælder."
         },
         {
           "speaker": "B",
-          "textPt": "Pode, mas talvez viragem perdida fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver mistet sving løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
+          "textPt": "Sim, aqui o aviso \"VALIDAR BILHETE\" regula o uso do serviço durante linha verde no transporte.",
+          "textDa": "Ja, her betyder skiltet \"VALIDAR BILHETE\" validér billet, mens det handler om grøn linje i transporten.",
+          "grammarDa": "Significa er et nyttigt forklaringsverbum."
         },
         {
           "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre viragem perdida.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om mistet sving.",
-          "grammarDa": "Agradecia er høfligt."
+          "textPt": "Depois de mudar de linha no transporte, posso voltar aqui se tiver dúvidas?",
+          "textDa": "Når jeg er færdig med grøn linje i transporten, kan jeg komme tilbage hertil, hvis jeg er i tvivl?",
+          "grammarDa": "Se tiver dúvidas er en nyttig betingelse."
         },
         {
           "speaker": "B",
-          "textPt": "Combinado; quando viragem perdida estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når mistet sving er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
+          "textPt": "Pode, e também pode guardar esta nota sobre linha verde no transporte.",
+          "textDa": "Ja, og De kan også gemme denne note om grøn linje i transporten.",
+          "grammarDa": "Também binder informationen sammen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "viragem perdida",
-          "textDa": "mistet sving"
+          "textPt": "linha verde",
+          "textDa": "grøn linje"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "mudar de linha",
+          "textDa": "skifte linje"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "VALIDAR BILHETE",
+          "textDa": "validér billet"
         },
         {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
+          "textPt": "documento",
+          "textDa": "dokument"
         },
         {
-          "textPt": "processo",
-          "textDa": "sag/proces"
+          "textPt": "balcão",
+          "textDa": "skranke/disk"
+        },
+        {
+          "textPt": "apanhar",
+          "textDa": "at tage"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Táxi e encontrar o caminho",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "chamar",
+          "titleDa": "Regelmæssigt verbum: apanhar",
+          "explanationDa": "apanhar betyder \"at tage\". Dialogen bruger nutid til det, der sker nu, og pretérito perfeito til en enkel afsluttet handling.",
+          "verb": "apanhar",
+          "verbDa": "at tage",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "chamo"
+              "form": "apanho"
             },
             {
               "subject": "tu (presente)",
-              "form": "chamas"
+              "form": "apanhas"
             },
             {
-              "subject": "ele/ela/você (presente)",
-              "form": "chama"
+              "subject": "ele/ela/voce (presente)",
+              "form": "apanha"
             },
             {
-              "subject": "nós (presente)",
-              "form": "chamamos"
+              "subject": "nos (presente)",
+              "form": "apanhamos"
             },
             {
-              "subject": "vocês (presente)",
-              "form": "chamam"
+              "subject": "voces (presente)",
+              "form": "apanham"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "chamam"
+              "form": "apanham"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "chamei"
+              "form": "apanhei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "chamaste"
+              "form": "apanhaste"
             },
             {
-              "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "chamou"
+              "subject": "ele/ela/voce (pretérito perfeito)",
+              "form": "apanhou"
             },
             {
-              "subject": "nós (pretérito perfeito)",
-              "form": "chamámos"
+              "subject": "nos (pretérito perfeito)",
+              "form": "apanhamos"
             },
             {
-              "subject": "vocês (pretérito perfeito)",
-              "form": "chamaram"
+              "subject": "voces (pretérito perfeito)",
+              "form": "apanharam"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "chamaram"
+              "form": "apanharam"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje nós chamamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Hoje apanho linha verde.",
+              "da": "I dag arbejder jeg med grøn linje."
             },
             {
-              "pt": "Ontem a funcionária chamou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "Ontem à noite apanhei linha verde.",
+              "da": "I går arbejdede jeg med grøn linje."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Læg mærke til forskellen mellem apanho og apanhei; tidsordet viser ofte om handlingen er nu eller afsluttet.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "da": "Undgå at oversætte ord for ord fra dansk. Vælg et konkret portugisisk verbum som apanhar."
             }
           ]
         }
@@ -1216,172 +1174,166 @@
     },
     {
       "id": 8,
-      "titleDa": "Nærmeste station",
-      "objectiveDa": "Træn en realistisk mini-dialog om nærmeste station.",
+      "titleDa": "Endestation",
+      "objectiveDa": "Træn endestation med konkrete handlinger, høflige spørgsmål og naturlig europæisk portugisisk.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de estação mais próxima; pode orientar-me?",
-          "textDa": "Undskyld, jeg er ved at ordne nærmeste station; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
+          "textPt": "Bom dia, queria informação sobre última paragem para ouvir o anúncio.",
+          "textDa": "Goddag, jeg vil gerne have information om endestation, så jeg kan ikke køre for langt.",
+          "grammarDa": "Queria er høfligt og naturligt ved en skranke."
         },
         {
           "speaker": "B",
-          "textPt": "O cliente pergunta se estação mais próxima é para hoje ou para mais tarde.",
-          "textDa": "Kunden spørger, om nærmeste station er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
+          "textPt": "Claro. Para esse pedido de última paragem no transporte, normalmente é preciso ouvir o anúncio primeiro.",
+          "textDa": "Selvfølgelig. Til henvendelsen om endestation i transporten skal man normalt først lytte til meldingen.",
+          "grammarDa": "É preciso + infinitiv forklarer et krav."
         },
         {
           "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver estação mais próxima.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at ordne nærmeste station.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
+          "textPt": "Não sabia isso quando procurei última paragem para ouvir o anúncio ontem à noite.",
+          "textDa": "Det vidste jeg ikke, da jeg søgte efter endestation for at lytte til meldingen i går aftes.",
+          "grammarDa": "Procurei er en afsluttet handling i datid."
         },
         {
           "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de estação mais próxima.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om nærmeste station.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+          "textPt": "Tem algum documento ou pergunta concreta sobre última paragem no transporte antes de ouvir o anúncio?",
+          "textDa": "Har De et dokument eller et konkret spørgsmål om endestation i transporten, før De skal lytte til meldingen?",
+          "grammarDa": "Tem er nutid af ter."
         },
         {
           "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com estação mais próxima?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med nærmeste station?",
-          "grammarDa": "Avançarmos er nós-form efter para."
+          "textPt": "Tenho esta informação sobre última paragem no transporte para ouvir o anúncio, mas não sei se está atualizada.",
+          "textDa": "Jeg har denne oplysning om endestation i transporten for at lytte til meldingen, men jeg ved ikke, om den er opdateret.",
+          "grammarDa": "Tenho og está viser ter og estar i praksis."
         },
         {
           "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre estação mais próxima; depois o cliente regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om nærmeste station; derefter registrerer kunden det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
+          "textPt": "Então confirme aqui no balcão antes de avançar com última paragem no transporte.",
+          "textDa": "Bekræft det så her ved skranken, før De går videre med endestation i transporten.",
+          "grammarDa": "Confirme er en høflig opfordring."
         },
         {
           "speaker": "A",
-          "textPt": "Se houver algum problema com estação mais próxima, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med nærmeste station, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
+          "textPt": "O aviso diz \"VALIDAR BILHETE\"; isso aplica-se também a última paragem no transporte?",
+          "textDa": "Skiltet siger \"VALIDAR BILHETE\"; gælder det også for endestation i transporten?",
+          "grammarDa": "Aplica-se betyder gælder."
         },
         {
           "speaker": "B",
-          "textPt": "Pode, mas talvez estação mais próxima fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver nærmeste station løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
+          "textPt": "Sim, aqui o aviso \"VALIDAR BILHETE\" regula o uso do serviço durante última paragem no transporte.",
+          "textDa": "Ja, her betyder skiltet \"VALIDAR BILHETE\" validér billet, mens det handler om endestation i transporten.",
+          "grammarDa": "Significa er et nyttigt forklaringsverbum."
         },
         {
           "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre estação mais próxima.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om nærmeste station.",
-          "grammarDa": "Agradecia er høfligt."
+          "textPt": "Depois de ouvir o anúncio no transporte, posso voltar aqui se tiver dúvidas?",
+          "textDa": "Når jeg er færdig med endestation i transporten, kan jeg komme tilbage hertil, hvis jeg er i tvivl?",
+          "grammarDa": "Se tiver dúvidas er en nyttig betingelse."
         },
         {
           "speaker": "B",
-          "textPt": "Combinado; quando estação mais próxima estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når nærmeste station er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
+          "textPt": "Pode, e também pode guardar esta nota sobre última paragem no transporte.",
+          "textDa": "Ja, og De kan også gemme denne note om endestation i transporten.",
+          "grammarDa": "Também binder informationen sammen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "estação mais próxima",
-          "textDa": "nærmeste station"
+          "textPt": "última paragem",
+          "textDa": "endestation"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "ouvir o anúncio",
+          "textDa": "lytte til meldingen"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "VALIDAR BILHETE",
+          "textDa": "validér billet"
         },
         {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
+          "textPt": "documento",
+          "textDa": "dokument"
         },
         {
-          "textPt": "processo",
-          "textDa": "sag/proces"
+          "textPt": "balcão",
+          "textDa": "skranke/disk"
+        },
+        {
+          "textPt": "apanhar",
+          "textDa": "at tage"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Táxi e encontrar o caminho",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "chamar",
+          "titleDa": "Regelmæssigt verbum: apanhar",
+          "explanationDa": "apanhar betyder \"at tage\". Dialogen bruger nutid til det, der sker nu, og pretérito perfeito til en enkel afsluttet handling.",
+          "verb": "apanhar",
+          "verbDa": "at tage",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "chamo"
+              "form": "apanho"
             },
             {
               "subject": "tu (presente)",
-              "form": "chamas"
+              "form": "apanhas"
             },
             {
-              "subject": "ele/ela/você (presente)",
-              "form": "chama"
+              "subject": "ele/ela/voce (presente)",
+              "form": "apanha"
             },
             {
-              "subject": "nós (presente)",
-              "form": "chamamos"
+              "subject": "nos (presente)",
+              "form": "apanhamos"
             },
             {
-              "subject": "vocês (presente)",
-              "form": "chamam"
+              "subject": "voces (presente)",
+              "form": "apanham"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "chamam"
+              "form": "apanham"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "chamei"
+              "form": "apanhei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "chamaste"
+              "form": "apanhaste"
             },
             {
-              "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "chamou"
+              "subject": "ele/ela/voce (pretérito perfeito)",
+              "form": "apanhou"
             },
             {
-              "subject": "nós (pretérito perfeito)",
-              "form": "chamámos"
+              "subject": "nos (pretérito perfeito)",
+              "form": "apanhamos"
             },
             {
-              "subject": "vocês (pretérito perfeito)",
-              "form": "chamaram"
+              "subject": "voces (pretérito perfeito)",
+              "form": "apanharam"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "chamaram"
+              "form": "apanharam"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje nós chamamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Hoje apanho última paragem.",
+              "da": "I dag arbejder jeg med endestation."
             },
             {
-              "pt": "Ontem a funcionária chamou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "Ontem à noite apanhei última paragem.",
+              "da": "I går arbejdede jeg med endestation."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Læg mærke til forskellen mellem apanho og apanhei; tidsordet viser ofte om handlingen er nu eller afsluttet.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "da": "Undgå at oversætte ord for ord fra dansk. Vælg et konkret portugisisk verbum som apanhar."
             }
           ]
         }
@@ -1389,172 +1341,166 @@
     },
     {
       "id": 9,
-      "titleDa": "Jeg er faret vild",
-      "objectiveDa": "Træn en realistisk mini-dialog om jeg er faret vild.",
+      "titleDa": "Uber og taxa",
+      "objectiveDa": "Træn taxa eller Uber med konkrete handlinger, høflige spørgsmål og naturlig europæisk portugisisk.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de estou perdido; pode orientar-me?",
-          "textDa": "Undskyld, jeg er ved at ordne jeg er faret vild; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
+          "textPt": "Bom dia, queria informação sobre táxi ou Uber para chamar um carro.",
+          "textDa": "Goddag, jeg vil gerne have information om taxa eller Uber, så jeg kan komme hjem sent.",
+          "grammarDa": "Queria er høfligt og naturligt ved en skranke."
         },
         {
           "speaker": "B",
-          "textPt": "As crianças pergunta se estou perdido é para hoje ou para mais tarde.",
-          "textDa": "Børnene spørger, om jeg er faret vild er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
+          "textPt": "Claro. Para esse pedido de táxi ou Uber no transporte, normalmente é preciso chamar um carro primeiro.",
+          "textDa": "Selvfølgelig. Til henvendelsen om taxa eller Uber i transporten skal man normalt først bestille en bil.",
+          "grammarDa": "É preciso + infinitiv forklarer et krav."
         },
         {
           "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver estou perdido.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at ordne jeg er faret vild.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
+          "textPt": "Não sabia isso quando procurei táxi ou Uber para chamar um carro ontem à noite.",
+          "textDa": "Det vidste jeg ikke, da jeg søgte efter taxa eller Uber for at bestille en bil i går aftes.",
+          "grammarDa": "Procurei er en afsluttet handling i datid."
         },
         {
           "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de estou perdido.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om jeg er faret vild.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+          "textPt": "Tem algum documento ou pergunta concreta sobre táxi ou Uber no transporte antes de chamar um carro?",
+          "textDa": "Har De et dokument eller et konkret spørgsmål om taxa eller Uber i transporten, før De skal bestille en bil?",
+          "grammarDa": "Tem er nutid af ter."
         },
         {
           "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com estou perdido?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med jeg er faret vild?",
-          "grammarDa": "Avançarmos er nós-form efter para."
+          "textPt": "Tenho esta informação sobre táxi ou Uber no transporte para chamar um carro, mas não sei se está atualizada.",
+          "textDa": "Jeg har denne oplysning om taxa eller Uber i transporten for at bestille en bil, men jeg ved ikke, om den er opdateret.",
+          "grammarDa": "Tenho og está viser ter og estar i praksis."
         },
         {
           "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre estou perdido; depois as crianças regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om jeg er faret vild; derefter registrerer børnene det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
+          "textPt": "Então confirme aqui no balcão antes de avançar com táxi ou Uber no transporte.",
+          "textDa": "Bekræft det så her ved skranken, før De går videre med taxa eller Uber i transporten.",
+          "grammarDa": "Confirme er en høflig opfordring."
         },
         {
           "speaker": "A",
-          "textPt": "Se houver algum problema com estou perdido, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med jeg er faret vild, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
+          "textPt": "O aviso diz \"VALIDAR BILHETE\"; isso aplica-se também a táxi ou Uber no transporte?",
+          "textDa": "Skiltet siger \"VALIDAR BILHETE\"; gælder det også for taxa eller Uber i transporten?",
+          "grammarDa": "Aplica-se betyder gælder."
         },
         {
           "speaker": "B",
-          "textPt": "Pode, mas talvez estou perdido fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver jeg er faret vild løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
+          "textPt": "Sim, aqui o aviso \"VALIDAR BILHETE\" regula o uso do serviço durante táxi ou Uber no transporte.",
+          "textDa": "Ja, her betyder skiltet \"VALIDAR BILHETE\" validér billet, mens det handler om taxa eller Uber i transporten.",
+          "grammarDa": "Significa er et nyttigt forklaringsverbum."
         },
         {
           "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre estou perdido.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om jeg er faret vild.",
-          "grammarDa": "Agradecia er høfligt."
+          "textPt": "Depois de chamar um carro no transporte, posso voltar aqui se tiver dúvidas?",
+          "textDa": "Når jeg er færdig med taxa eller Uber i transporten, kan jeg komme tilbage hertil, hvis jeg er i tvivl?",
+          "grammarDa": "Se tiver dúvidas er en nyttig betingelse."
         },
         {
           "speaker": "B",
-          "textPt": "Combinado; quando estou perdido estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når jeg er faret vild er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
+          "textPt": "Pode, e também pode guardar esta nota sobre táxi ou Uber no transporte.",
+          "textDa": "Ja, og De kan også gemme denne note om taxa eller Uber i transporten.",
+          "grammarDa": "Também binder informationen sammen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "estou perdido",
-          "textDa": "jeg er faret vild"
+          "textPt": "táxi ou Uber",
+          "textDa": "taxa eller Uber"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "chamar um carro",
+          "textDa": "bestille en bil"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "VALIDAR BILHETE",
+          "textDa": "validér billet"
         },
         {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
+          "textPt": "documento",
+          "textDa": "dokument"
         },
         {
-          "textPt": "processo",
-          "textDa": "sag/proces"
+          "textPt": "balcão",
+          "textDa": "skranke/disk"
+        },
+        {
+          "textPt": "apanhar",
+          "textDa": "at tage"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Táxi e encontrar o caminho",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "chamar",
+          "titleDa": "Regelmæssigt verbum: apanhar",
+          "explanationDa": "apanhar betyder \"at tage\". Dialogen bruger nutid til det, der sker nu, og pretérito perfeito til en enkel afsluttet handling.",
+          "verb": "apanhar",
+          "verbDa": "at tage",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "chamo"
+              "form": "apanho"
             },
             {
               "subject": "tu (presente)",
-              "form": "chamas"
+              "form": "apanhas"
             },
             {
-              "subject": "ele/ela/você (presente)",
-              "form": "chama"
+              "subject": "ele/ela/voce (presente)",
+              "form": "apanha"
             },
             {
-              "subject": "nós (presente)",
-              "form": "chamamos"
+              "subject": "nos (presente)",
+              "form": "apanhamos"
             },
             {
-              "subject": "vocês (presente)",
-              "form": "chamam"
+              "subject": "voces (presente)",
+              "form": "apanham"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "chamam"
+              "form": "apanham"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "chamei"
+              "form": "apanhei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "chamaste"
+              "form": "apanhaste"
             },
             {
-              "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "chamou"
+              "subject": "ele/ela/voce (pretérito perfeito)",
+              "form": "apanhou"
             },
             {
-              "subject": "nós (pretérito perfeito)",
-              "form": "chamámos"
+              "subject": "nos (pretérito perfeito)",
+              "form": "apanhamos"
             },
             {
-              "subject": "vocês (pretérito perfeito)",
-              "form": "chamaram"
+              "subject": "voces (pretérito perfeito)",
+              "form": "apanharam"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "chamaram"
+              "form": "apanharam"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje nós chamamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Hoje apanho táxi ou Uber.",
+              "da": "I dag arbejder jeg med taxa eller Uber."
             },
             {
-              "pt": "Ontem a funcionária chamou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "Ontem à noite apanhei táxi ou Uber.",
+              "da": "I går arbejdede jeg med taxa eller Uber."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Læg mærke til forskellen mellem apanho og apanhei; tidsordet viser ofte om handlingen er nu eller afsluttet.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "da": "Undgå at oversætte ord for ord fra dansk. Vælg et konkret portugisisk verbum som apanhar."
             }
           ]
         }
@@ -1562,440 +1508,409 @@
     },
     {
       "id": 10,
-      "titleDa": "Vagtapotek",
-      "objectiveDa": "Træn en realistisk mini-dialog om vagtapotek.",
+      "titleDa": "Hele rejsen",
+      "objectiveDa": "Træn hel rejse med konkrete handlinger, høflige spørgsmål og naturlig europæisk portugisisk.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Pode levar-nos a uma farmácia de serviço?",
-          "textDa": "Kan De køre os til et vagtapotek?",
-          "grammarDa": "Pode + infinitiv er en høflig anmodning."
+          "textPt": "Bom dia, queria informação sobre viagem completa para planear a viagem hoje.",
+          "textDa": "Goddag, jeg vil gerne have information om hel rejse, så jeg kan kombinere metro og tog.",
+          "grammarDa": "Queria er høfligt og naturligt ved en skranke."
         },
         {
           "speaker": "B",
-          "textPt": "O motorista confirma a morada antes de arrancar.",
-          "textDa": "Chaufføren bekræfter adressen, før han kører.",
-          "grammarDa": "Confirma er nutid."
+          "textPt": "Claro. Para esse pedido de viagem completa no transporte, normalmente é preciso planear a viagem primeiro.",
+          "textDa": "Selvfølgelig. Til henvendelsen om hel rejse i transporten skal man normalt først planlægge rejsen.",
+          "grammarDa": "É preciso + infinitiv forklarer et krav."
         },
         {
           "speaker": "A",
-          "textPt": "Tem alguma coisa para as dores de cabeça?",
-          "textDa": "Har de noget mod hovedpine?",
-          "grammarDa": "Cautious language for pharmacy situations."
+          "textPt": "Não sabia isso quando procurei viagem completa para planear a viagem ontem à noite.",
+          "textDa": "Det vidste jeg ikke, da jeg søgte efter hel rejse for at planlægge rejsen i går aftes.",
+          "grammarDa": "Procurei er en afsluttet handling i datid."
         },
         {
           "speaker": "B",
-          "textPt": "Na farmácia, pergunte se é preciso receita.",
-          "textDa": "På apoteket skal De spørge, om recept er nødvendig.",
-          "grammarDa": "Pergunte er høflig opfordring."
+          "textPt": "Tem algum documento ou pergunta concreta sobre viagem completa no transporte antes de planear a viagem?",
+          "textDa": "Har De et dokument eller et konkret spørgsmål om hel rejse i transporten, før De skal planlægge rejsen?",
+          "grammarDa": "Tem er nutid af ter."
         },
         {
           "speaker": "A",
-          "textPt": "Também quero saber quantas vezes por dia se deve tomar.",
-          "textDa": "Jeg vil også vide, hvor mange gange om dagen man skal tage det.",
-          "grammarDa": "Se deve tomar er upersonligt."
+          "textPt": "Tenho esta informação sobre viagem completa no transporte para planear a viagem, mas não sei se está atualizada.",
+          "textDa": "Jeg har denne oplysning om hel rejse i transporten for at planlægge rejsen, men jeg ved ikke, om den er opdateret.",
+          "grammarDa": "Tenho og está viser ter og estar i praksis."
         },
         {
           "speaker": "B",
-          "textPt": "Convém perguntar se é adequado para crianças.",
-          "textDa": "Det er bedst at spørge, om det egner sig til børn.",
-          "grammarDa": "Convém perguntar er forsigtig rådgivning."
+          "textPt": "Então confirme aqui no balcão antes de avançar com viagem completa no transporte.",
+          "textDa": "Bekræft det så her ved skranken, før De går videre med hel rejse i transporten.",
+          "grammarDa": "Confirme er en høflig opfordring."
         },
         {
           "speaker": "A",
-          "textPt": "E há algum efeito secundário importante?",
-          "textDa": "Og er der nogen vigtig bivirkning?",
-          "grammarDa": "Há algum introducerer et spørgsmål."
+          "textPt": "O aviso diz \"VALIDAR BILHETE\"; isso aplica-se também a viagem completa no transporte?",
+          "textDa": "Skiltet siger \"VALIDAR BILHETE\"; gælder det også for hel rejse i transporten?",
+          "grammarDa": "Aplica-se betyder gælder."
         },
         {
           "speaker": "B",
-          "textPt": "Leia sempre as instruções da embalagem.",
-          "textDa": "Læs altid instruktionerne på pakken.",
-          "grammarDa": "Leia er høflig opfordring."
+          "textPt": "Sim, aqui o aviso \"VALIDAR BILHETE\" regula o uso do serviço durante viagem completa no transporte.",
+          "textDa": "Ja, her betyder skiltet \"VALIDAR BILHETE\" validér billet, mens det handler om hel rejse i transporten.",
+          "grammarDa": "Significa er et nyttigt forklaringsverbum."
         },
         {
           "speaker": "A",
-          "textPt": "Se a dor continuar, talvez seja melhor falar com um médico.",
-          "textDa": "Hvis smerten fortsætter, er det måske bedre at tale med en læge.",
-          "grammarDa": "Talvez seja melhor er forsigtigt."
+          "textPt": "Depois de planear a viagem no transporte, posso voltar aqui se tiver dúvidas?",
+          "textDa": "Når jeg er færdig med hel rejse i transporten, kan jeg komme tilbage hertil, hvis jeg er i tvivl?",
+          "grammarDa": "Se tiver dúvidas er en nyttig betingelse."
         },
         {
           "speaker": "B",
-          "textPt": "A aplicação ajuda com a língua, não substitui aconselhamento médico.",
-          "textDa": "Appen hjælper med sproget, ikke med at erstatte medicinsk rådgivning.",
-          "grammarDa": "Clear safety wording."
+          "textPt": "Pode, e também pode guardar esta nota sobre viagem completa no transporte.",
+          "textDa": "Ja, og De kan også gemme denne note om hel rejse i transporten.",
+          "grammarDa": "Também binder informationen sammen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "farmácia de serviço",
-          "textDa": "vagtapotek"
+          "textPt": "viagem completa",
+          "textDa": "hel rejse"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "planear a viagem",
+          "textDa": "planlægge rejsen"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "VALIDAR BILHETE",
+          "textDa": "validér billet"
         },
         {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
+          "textPt": "documento",
+          "textDa": "dokument"
         },
         {
-          "textPt": "processo",
-          "textDa": "sag/proces"
+          "textPt": "balcão",
+          "textDa": "skranke/disk"
+        },
+        {
+          "textPt": "apanhar",
+          "textDa": "at tage"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Táxi e encontrar o caminho",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "chamar",
+          "titleDa": "Regelmæssigt verbum: apanhar",
+          "explanationDa": "apanhar betyder \"at tage\". Dialogen bruger nutid til det, der sker nu, og pretérito perfeito til en enkel afsluttet handling.",
+          "verb": "apanhar",
+          "verbDa": "at tage",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "chamo"
+              "form": "apanho"
             },
             {
               "subject": "tu (presente)",
-              "form": "chamas"
+              "form": "apanhas"
             },
             {
-              "subject": "ele/ela/você (presente)",
-              "form": "chama"
+              "subject": "ele/ela/voce (presente)",
+              "form": "apanha"
             },
             {
-              "subject": "nós (presente)",
-              "form": "chamamos"
+              "subject": "nos (presente)",
+              "form": "apanhamos"
             },
             {
-              "subject": "vocês (presente)",
-              "form": "chamam"
+              "subject": "voces (presente)",
+              "form": "apanham"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "chamam"
+              "form": "apanham"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "chamei"
+              "form": "apanhei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "chamaste"
+              "form": "apanhaste"
             },
             {
-              "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "chamou"
+              "subject": "ele/ela/voce (pretérito perfeito)",
+              "form": "apanhou"
             },
             {
-              "subject": "nós (pretérito perfeito)",
-              "form": "chamámos"
+              "subject": "nos (pretérito perfeito)",
+              "form": "apanhamos"
             },
             {
-              "subject": "vocês (pretérito perfeito)",
-              "form": "chamaram"
+              "subject": "voces (pretérito perfeito)",
+              "form": "apanharam"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "chamaram"
+              "form": "apanharam"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje nós chamamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Hoje apanho viagem completa.",
+              "da": "I dag arbejder jeg med hel rejse."
             },
             {
-              "pt": "Ontem a funcionária chamou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "Ontem à noite apanhei viagem completa.",
+              "da": "I går arbejdede jeg med hel rejse."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Læg mærke til forskellen mellem apanho og apanhei; tidsordet viser ofte om handlingen er nu eller afsluttet.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "da": "Undgå at oversætte ord for ord fra dansk. Vælg et konkret portugisisk verbum som apanhar."
             }
           ]
         }
       ]
     }
   ],
+  "story": [
+    {
+      "speaker": "Narrador",
+      "textPt": "Hoje estou på rejsen e quero resolver uma situação simples.",
+      "textDa": "I dag er jeg på rejsen og vil løse en enkel situation.",
+      "grammarDa": "Estar viser placering."
+    },
+    {
+      "speaker": "Narrador",
+      "textPt": "O lugar é claro, mas leio primeiro o aviso \"VALIDAR BILHETE\".",
+      "textDa": "Stedet er overskueligt, men jeg læser først skiltet \"VALIDAR BILHETE\".",
+      "grammarDa": "Ser bruges om fast egenskab."
+    },
+    {
+      "speaker": "Narrador",
+      "textPt": "No balcão apanho paragem de autocarro para apanhar o autocarro.",
+      "textDa": "Ved skranken arbejder jeg med busstoppested, så jeg kan tage bussen.",
+      "grammarDa": "Nutid beskriver handlingen nu."
+    },
+    {
+      "speaker": "Narrador",
+      "textPt": "Ontem apanhei informação sobre paragem de autocarro, e agora entendo melhor a resposta.",
+      "textDa": "i går aftes arbejdede jeg med busstoppested, og nu forstår jeg svaret bedre.",
+      "grammarDa": "Datid viser den afsluttede handling."
+    },
+    {
+      "speaker": "Narrador",
+      "textPt": "No balcão confirmo bilhete simples para comprar o bilhete.",
+      "textDa": "Ved skranken arbejder jeg med enkeltbillet, så jeg kan købe billetten.",
+      "grammarDa": "Nutid beskriver handlingen nu."
+    },
+    {
+      "speaker": "Narrador",
+      "textPt": "Ontem apanhei informação sobre bilhete simples, e agora entendo melhor a resposta.",
+      "textDa": "i går aftes arbejdede jeg med enkeltbillet, og nu forstår jeg svaret bedre.",
+      "grammarDa": "Datid viser den afsluttede handling."
+    },
+    {
+      "speaker": "Narrador",
+      "textPt": "No balcão apanho aplicação de transportes para abrir a aplicação.",
+      "textDa": "Ved skranken arbejder jeg med transport-app, så jeg kan åbne appen.",
+      "grammarDa": "Nutid beskriver handlingen nu."
+    },
+    {
+      "speaker": "Narrador",
+      "textPt": "Ontem apanhei informação sobre aplicação de transportes, e agora entendo melhor a resposta.",
+      "textDa": "i går aftes arbejdede jeg med transport-app, og nu forstår jeg svaret bedre.",
+      "grammarDa": "Datid viser den afsluttede handling."
+    },
+    {
+      "speaker": "Narrador",
+      "textPt": "No balcão pergunto horário para confirmar a partida.",
+      "textDa": "Ved skranken arbejder jeg med køreplan, så jeg kan bekræfte afgangen.",
+      "grammarDa": "Nutid beskriver handlingen nu."
+    },
+    {
+      "speaker": "Narrador",
+      "textPt": "Ontem apanhei informação sobre horário, e agora entendo melhor a resposta.",
+      "textDa": "i går aftes arbejdede jeg med køreplan, og nu forstår jeg svaret bedre.",
+      "grammarDa": "Datid viser den afsluttede handling."
+    },
+    {
+      "speaker": "Narrador",
+      "textPt": "No balcão apanho plataforma para procurar a plataforma.",
+      "textDa": "Ved skranken arbejder jeg med perron, så jeg kan søge efter perronen.",
+      "grammarDa": "Nutid beskriver handlingen nu."
+    },
+    {
+      "speaker": "Narrador",
+      "textPt": "Ontem apanhei informação sobre plataforma, e agora entendo melhor a resposta.",
+      "textDa": "i går aftes arbejdede jeg med perron, og nu forstår jeg svaret bedre.",
+      "grammarDa": "Datid viser den afsluttede handling."
+    },
+    {
+      "speaker": "Narrador",
+      "textPt": "No balcão confirmo metro para entrar na linha azul.",
+      "textDa": "Ved skranken arbejder jeg med metro, så jeg kan stige på den blå linje.",
+      "grammarDa": "Nutid beskriver handlingen nu."
+    },
+    {
+      "speaker": "Narrador",
+      "textPt": "Ontem apanhei informação sobre metro, e agora entendo melhor a resposta.",
+      "textDa": "i går aftes arbejdede jeg med metro, og nu forstår jeg svaret bedre.",
+      "grammarDa": "Datid viser den afsluttede handling."
+    },
+    {
+      "speaker": "Narrador",
+      "textPt": "No balcão apanho linha verde para mudar de linha.",
+      "textDa": "Ved skranken arbejder jeg med grøn linje, så jeg kan skifte linje.",
+      "grammarDa": "Nutid beskriver handlingen nu."
+    },
+    {
+      "speaker": "Narrador",
+      "textPt": "Ontem apanhei informação sobre linha verde, e agora entendo melhor a resposta.",
+      "textDa": "i går aftes arbejdede jeg med grøn linje, og nu forstår jeg svaret bedre.",
+      "grammarDa": "Datid viser den afsluttede handling."
+    },
+    {
+      "speaker": "Narrador",
+      "textPt": "No balcão confirmo última paragem para ouvir o anúncio.",
+      "textDa": "Ved skranken arbejder jeg med endestation, så jeg kan lytte til meldingen.",
+      "grammarDa": "Nutid beskriver handlingen nu."
+    },
+    {
+      "speaker": "Narrador",
+      "textPt": "Ontem apanhei informação sobre última paragem, e agora entendo melhor a resposta.",
+      "textDa": "i går aftes arbejdede jeg med endestation, og nu forstår jeg svaret bedre.",
+      "grammarDa": "Datid viser den afsluttede handling."
+    },
+    {
+      "speaker": "Narrador",
+      "textPt": "No balcão apanho táxi ou Uber para chamar um carro.",
+      "textDa": "Ved skranken arbejder jeg med taxa eller Uber, så jeg kan bestille en bil.",
+      "grammarDa": "Nutid beskriver handlingen nu."
+    },
+    {
+      "speaker": "Narrador",
+      "textPt": "Ontem apanhei informação sobre táxi ou Uber, e agora entendo melhor a resposta.",
+      "textDa": "i går aftes arbejdede jeg med taxa eller Uber, og nu forstår jeg svaret bedre.",
+      "grammarDa": "Datid viser den afsluttede handling."
+    }
+  ],
   "quiz": [
     {
       "id": 1,
-      "questionDa": "Hvilken sætning passer bedst til temaet \"Táxi e encontrar o caminho\"?",
+      "questionDa": "Hvad betyder \"paragem de autocarro\"?",
       "answers": [
         {
-          "text": "Parece que chamar um táxi ainda está disponível.",
+          "text": "busstoppested",
           "correct": true
         },
         {
-          "text": "O gato dorme na janela.",
+          "text": "enkeltbillet",
           "correct": false
         },
         {
-          "text": "A camisola é azul.",
+          "text": "vejrudsigten",
           "correct": false
         },
         {
-          "text": "Há três maçãs na mesa.",
+          "text": "endestation",
           "correct": false
         }
       ],
-      "explanationDa": "Sætningen hører til lektionen Táxi e encontrar o caminho."
+      "explanationDa": "Quizzen bruger ord fra JSON-indholdet."
     },
     {
       "id": 2,
-      "questionDa": "Hvilken form er nós i nutid?",
+      "questionDa": "Hvilken form er eu i nutid af apanhar?",
       "answers": [
         {
-          "text": "chamamos",
+          "text": "apanho",
           "correct": true
         },
         {
-          "text": "chamámos",
+          "text": "apanhas",
           "correct": false
         },
         {
-          "text": "falam",
+          "text": "apanhei",
           "correct": false
         },
         {
-          "text": "partiste",
+          "text": "apanham",
           "correct": false
         }
       ],
-      "explanationDa": "Nós-formen følger verbets regelmæssige mønster."
+      "explanationDa": "Eu-formen i nutid er apanho."
     },
     {
       "id": 3,
-      "questionDa": "Hvilken form er nós i pretérito perfeito?",
+      "questionDa": "Hvilken form er eu i pretérito perfeito af apanhar?",
       "answers": [
         {
-          "text": "chamámos",
+          "text": "apanhei",
           "correct": true
         },
         {
-          "text": "chamamos",
+          "text": "apanho",
           "correct": false
         },
         {
-          "text": "procuram",
+          "text": "apanhou",
           "correct": false
         },
         {
-          "text": "beberam",
+          "text": "apanhamos",
           "correct": false
         }
       ],
-      "explanationDa": "Pretérito perfeito bruges om en afsluttet handling."
+      "explanationDa": "Datidsformen for eu er apanhei."
     },
     {
       "id": 4,
-      "questionDa": "Hvad betyder: Parece que chamar um táxi ainda está disponível.",
+      "questionDa": "Fuldfør sætningen: Tenho esta informação, mas não sei se ___ atualizada.",
       "answers": [
         {
-          "text": "Det ser ud til, at ringe efter taxi stadig er tilgængelig.",
+          "text": "está",
           "correct": true
         },
         {
-          "text": "Jeg har travlt i morgen.",
+          "text": "é",
           "correct": false
         },
         {
-          "text": "Vi bestilte to kaffe.",
+          "text": "sou",
           "correct": false
         },
         {
-          "text": "Børnene leger udenfor.",
+          "text": "têm",
           "correct": false
         }
       ],
-      "explanationDa": "Oversættelsen kommer fra dialogernes ordforråd."
+      "explanationDa": "Estar bruges om midlertidig status."
     },
     {
       "id": 5,
-      "questionDa": "Vælg den mest naturlige høflige formulering.",
+      "questionDa": "Hvilket ord passer bedst til skiltet \"VALIDAR BILHETE\"?",
       "answers": [
         {
-          "text": "Pode ajudar-me, por favor?",
+          "text": "validér billet",
           "correct": true
         },
         {
-          "text": "Ajuda mim agora.",
+          "text": "gratis adgang",
           "correct": false
         },
         {
-          "text": "Você ajuda eu?",
+          "text": "kun kontant",
           "correct": false
         },
         {
-          "text": "Dar ajuda rápido.",
+          "text": "lukket hele dagen",
           "correct": false
         }
       ],
-      "explanationDa": "Pode ajudar-me, por favor? er en naturlig høflig formulering."
-    },
-    {
-      "id": 6,
-      "questionDa": "Hvilken portugisisk form er tallet 100?",
-      "answers": [
-        {
-          "text": "cem",
-          "correct": true
-        },
-        {
-          "text": "vinte",
-          "correct": false
-        },
-        {
-          "text": "sessenta",
-          "correct": false
-        },
-        {
-          "text": "noventa",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Talquizzen kommer fra JSON og kan genbruges i fremtidige niveauer."
-    }
-  ],
-  "storyTitleDa": "Den rigtige adresse",
-  "storyObjectiveDa": "Læs en kort tekst med en konkret situation, varierede subjekter, regelmæssige verber og lidt pretérito perfeito.",
-  "story": [
-    {
-      "speaker": "A",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre chamar um táxi.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om ringe efter taxi.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "A pessoa responsável verificou chamar um táxi com calma antes de responder.",
-      "textDa": "Den ansvarlige person tjekkede ringe efter taxi roligt, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre morada completa.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om fuld adresse.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "A pessoa responsável verificou morada completa com calma antes de responder.",
-      "textDa": "Den ansvarlige person tjekkede fuld adresse roligt, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre tempo de viagem.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om rejsetid.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "A pessoa responsável verificou tempo de viagem com calma antes de responder.",
-      "textDa": "Den ansvarlige person tjekkede rejsetid roligt, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre trânsito no centro.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om trafik i centrum.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "A pessoa responsável verificou trânsito no centro com calma antes de responder.",
-      "textDa": "Den ansvarlige person tjekkede trafik i centrum roligt, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre pagamento com cartão.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om kortbetaling.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "A pessoa responsável verificou pagamento com cartão com calma antes de responder.",
-      "textDa": "Den ansvarlige person tjekkede kortbetaling roligt, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre recibo impresso.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om printet kvittering.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "A pessoa responsável verificou recibo impresso com calma antes de responder.",
-      "textDa": "Den ansvarlige person tjekkede printet kvittering roligt, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre viragem perdida.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om mistet sving.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "A pessoa responsável verificou viragem perdida com calma antes de responder.",
-      "textDa": "Den ansvarlige person tjekkede mistet sving roligt, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre estação mais próxima.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om nærmeste station.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "A pessoa responsável verificou estação mais próxima com calma antes de responder.",
-      "textDa": "Den ansvarlige person tjekkede nærmeste station roligt, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre estou perdido.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om jeg er faret vild.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "A pessoa responsável verificou estou perdido com calma antes de responder.",
-      "textDa": "Den ansvarlige person tjekkede jeg er faret vild roligt, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre farmácia de serviço.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om vagtapotek.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "A pessoa responsável verificou farmácia de serviço com calma antes de responder.",
-      "textDa": "Den ansvarlige person tjekkede vagtapotek roligt, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
+      "explanationDa": "Skilte og korte opslag ligger også i JSON."
     }
   ]
 }

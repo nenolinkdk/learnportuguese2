@@ -327,7 +327,9 @@ The package uses the same engine as Niveau 1, Niveau 2 and Children:
 - `phrases`, `vocabulary`, `grammar`, `quiz` and `story` arrays using the shared schema
 - no separate lesson, dialog, grammar, story or quiz renderer
 
-Learn Portuguese 3 introduces regular `-ar`, `-er` and `-ir` verbs, a simple introduction to pretérito perfeito, longer dialogs, expanded vocabulary and one approximately 20-line reading text per lesson. The only code change for this package is reusable: the grammar formatter reads the optional JSON `commonMistakes` array and displays it as part of the existing grammar explanation.
+Learn Portuguese 3 introduces regular `-ar`, `-er` and `-ir` verbs, a simple introduction to pretérito perfeito, longer dialogs, expanded vocabulary and one approximately 20-line reading text per lesson. Its current fixed JSON course themes are library, cafe and pastry shop, news and information, municipal office, swimming pool and sports centre, children's clothing, computer and internet, bicycle rental, beach, and taxi/bus/train/metro/Uber.
+
+The package is curated JSON content, not runtime-generated from generic templates. New content revisions should keep workplace terms, signs, vocabulary, grammar explanations, conjugation tables, examples, common mistakes and reading text lines in JSON, using the shared parser and existing screens.
 
 Future language packages such as French to Danish, Danish to Spanish and Danish to Italian should follow the same folder/schema pattern with new JSON assets only.
 

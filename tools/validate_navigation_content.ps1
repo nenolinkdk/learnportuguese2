@@ -321,12 +321,26 @@ if (-not (Test-Path -LiteralPath $lp3Root)) {
             }
         }
 
-        if ($lessonFile.Name -eq "lesson10.json") {
-            $lesson10Text = $lesson | ConvertTo-Json -Depth 50 -Compress
-            foreach ($requiredPharmacyText in @("farmácia de serviço", "receita", "adequado para crianças", "efeito secundário", "médico", "instruções da embalagem", "não substitui aconselhamento médico")) {
-                if ($lesson10Text -notmatch [regex]::Escape($requiredPharmacyText)) {
-                    Add-Error "level4/lesson10.json is missing cautious pharmacy wording: $requiredPharmacyText"
-                }
+        $lessonText = $lesson | ConvertTo-Json -Depth 50 -Compress
+        if ($lessonText -match "ordne|tjekke|sem interromper a fila|Hoje eu falo em casa|Também preciso de falar sobre|Pode ajudar-me") {
+            Add-Error "level4/$($lessonFile.Name) contains old generated wording or generic helper language"
+        }
+
+        $expectedByLesson = @{
+            "lesson01.json" = @("cartão da biblioteca", "SILÊNCIO", "jornais e revistas", "dicionário de português")
+            "lesson02.json" = @("pastel de nata", "galão", "PAGA-SE AO BALCÃO", "opção sem glúten")
+            "lesson03.json" = @("notícias online", "previsão do tempo", "ÚLTIMA HORA", "manchete")
+            "lesson04.json" = @("senha de atendimento", "TIRE A SENHA", "formulário", "comprovativo")
+            "lesson05.json" = @("horário da piscina", "USO OBRIGATÓRIO DE TOUCA", "cacifo", "aula de natação")
+            "lesson06.json" = @("t-shirt de criança", "TROCAS COM TALÃO", "instruções de lavagem", "embrulho de presente")
+            "lesson07.json" = @("palavra-passe esquecida", "NÃO PARTILHE A PALAVRA-PASSE", "impressora", "dados pessoais")
+            "lesson08.json" = @("preço do aluguer", "bicicleta elétrica", "DEVOLUÇÕES ATÉ ÀS 19H", "pneu furado")
+            "lesson09.json" = @("BANDEIRA VERMELHA", "nadador-salvador", "protetor solar", "objeto perdido")
+            "lesson10.json" = @("paragem de autocarro", "VALIDAR BILHETE", "plataforma", "táxi ou Uber")
+        }
+        foreach ($requiredText in $expectedByLesson[$lessonFile.Name]) {
+            if ($lessonText -notmatch [regex]::Escape($requiredText)) {
+                Add-Error "level4/$($lessonFile.Name) is missing required curated Level 3 content: $requiredText"
             }
         }
 
@@ -342,6 +356,16 @@ if (-not (Test-Path -LiteralPath $lp3Root)) {
             if ($state.PhraseIndex -lt 0 -or $state.PhraseIndex -ge $phrases.Count) {
                 Add-Error "level4/$($lessonFile.Name) Next step $step lands outside dialog $($dialog.id)"
             }
+        }
+    }
+
+    $lp3Text = ""
+    foreach ($lessonFile in $lp3Lessons) {
+        $lp3Text += Get-Content -LiteralPath $lessonFile.FullName -Raw -Encoding UTF8
+    }
+    foreach ($requiredGrammarVerb in @('"verb": "ser"', '"verb": "estar"', '"verb": "ter"', '"verb": "procurar"', '"verb": "pagar"', '"verb": "comparar"', '"verb": "preencher"', '"verb": "nadar"', '"verb": "trocar"', '"verb": "imprimir"', '"verb": "alugar"', '"verb": "caminhar"', '"verb": "apanhar"')) {
+        if ($lp3Text -notmatch [regex]::Escape($requiredGrammarVerb)) {
+            Add-Error "Learn Portuguese 3 is missing required grammar/conjugation coverage: $requiredGrammarVerb"
         }
     }
 }

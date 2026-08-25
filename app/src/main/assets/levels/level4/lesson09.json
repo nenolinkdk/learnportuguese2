@@ -1,101 +1,106 @@
 {
   "id": 9,
   "titleDa": "Praia",
-  "descriptionDa": "Learn Portuguese 3: Strand, vejr, vind, bølger, solcreme, parasol, livredder og planer senere.",
+  "descriptionDa": "Learn Portuguese 3: Strand, vejr, bølger, livredder, solcreme, mad, fundet ting og afgang. Fokus på regelmæssige verber, aktivt hverdagssprog og en rolig introduktion til pretérito perfeito.",
   "dialogues": [
     {
       "id": 1,
-      "titleDa": "Stærke bølger",
-      "objectiveDa": "Træn en realistisk mini-dialog om stærke bølger.",
+      "titleDa": "Vejr",
+      "objectiveDa": "Træn strandvejr med konkrete handlinger, høflige spørgsmål og naturlig europæisk portugisisk.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de ondas fortes; pode orientar-me?",
-          "textDa": "Undskyld, jeg er ved at ordne stærke bølger; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
+          "textPt": "Bom dia, queria informação sobre tempo na praia para ver a previsão hoje.",
+          "textDa": "Goddag, jeg vil gerne have information om strandvejr, så jeg kan vælge tidspunkt.",
+          "grammarDa": "Queria er høfligt og naturligt ved en skranke."
         },
         {
           "speaker": "B",
-          "textPt": "O funcionário pergunta se ondas fortes é para hoje ou para mais tarde.",
-          "textDa": "Medarbejderen spørger, om stærke bølger er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
+          "textPt": "Claro. Para esse pedido de tempo na praia na praia, normalmente é preciso ver a previsão primeiro.",
+          "textDa": "Selvfølgelig. Til henvendelsen om strandvejr på stranden skal man normalt først se vejrudsigten.",
+          "grammarDa": "É preciso + infinitiv forklarer et krav."
         },
         {
           "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver ondas fortes.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at ordne stærke bølger.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
+          "textPt": "Não sabia isso quando procurei tempo na praia para ver a previsão esta manhã.",
+          "textDa": "Det vidste jeg ikke, da jeg søgte efter strandvejr for at se vejrudsigten her til morgen.",
+          "grammarDa": "Procurei er en afsluttet handling i datid."
         },
         {
           "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de ondas fortes.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om stærke bølger.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+          "textPt": "Tem algum documento ou pergunta concreta sobre tempo na praia na praia antes de ver a previsão?",
+          "textDa": "Har De et dokument eller et konkret spørgsmål om strandvejr på stranden, før De skal se vejrudsigten?",
+          "grammarDa": "Tem er nutid af ter."
         },
         {
           "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com ondas fortes?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med stærke bølger?",
-          "grammarDa": "Avançarmos er nós-form efter para."
+          "textPt": "Tenho esta informação sobre tempo na praia na praia para ver a previsão, mas não sei se está atualizada.",
+          "textDa": "Jeg har denne oplysning om strandvejr på stranden for at se vejrudsigten, men jeg ved ikke, om den er opdateret.",
+          "grammarDa": "Tenho og está viser ter og estar i praksis."
         },
         {
           "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre ondas fortes; depois o funcionário regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om stærke bølger; derefter registrerer medarbejderen det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
+          "textPt": "Então confirme aqui no balcão antes de avançar com tempo na praia na praia.",
+          "textDa": "Bekræft det så her ved skranken, før De går videre med strandvejr på stranden.",
+          "grammarDa": "Confirme er en høflig opfordring."
         },
         {
           "speaker": "A",
-          "textPt": "Se houver algum problema com ondas fortes, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med stærke bølger, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
+          "textPt": "O aviso diz \"BANDEIRA VERMELHA\"; isso aplica-se também a tempo na praia na praia?",
+          "textDa": "Skiltet siger \"BANDEIRA VERMELHA\"; gælder det også for strandvejr på stranden?",
+          "grammarDa": "Aplica-se betyder gælder."
         },
         {
           "speaker": "B",
-          "textPt": "Pode, mas talvez ondas fortes fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver stærke bølger løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
+          "textPt": "Sim, aqui o aviso \"BANDEIRA VERMELHA\" regula o uso do serviço durante tempo na praia na praia.",
+          "textDa": "Ja, her betyder skiltet \"BANDEIRA VERMELHA\" rødt flag, mens det handler om strandvejr på stranden.",
+          "grammarDa": "Significa er et nyttigt forklaringsverbum."
         },
         {
           "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre ondas fortes.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om stærke bølger.",
-          "grammarDa": "Agradecia er høfligt."
+          "textPt": "Depois de ver a previsão na praia, posso voltar aqui se tiver dúvidas?",
+          "textDa": "Når jeg er færdig med strandvejr på stranden, kan jeg komme tilbage hertil, hvis jeg er i tvivl?",
+          "grammarDa": "Se tiver dúvidas er en nyttig betingelse."
         },
         {
           "speaker": "B",
-          "textPt": "Combinado; quando ondas fortes estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når stærke bølger er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
+          "textPt": "Pode, e também pode guardar esta nota sobre tempo na praia na praia.",
+          "textDa": "Ja, og De kan også gemme denne note om strandvejr på stranden.",
+          "grammarDa": "Também binder informationen sammen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "ondas fortes",
-          "textDa": "stærke bølger"
+          "textPt": "tempo na praia",
+          "textDa": "strandvejr"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "ver a previsão",
+          "textDa": "se vejrudsigten"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "BANDEIRA VERMELHA",
+          "textDa": "rødt flag"
         },
         {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
+          "textPt": "documento",
+          "textDa": "dokument"
         },
         {
-          "textPt": "processo",
-          "textDa": "sag/proces"
+          "textPt": "balcão",
+          "textDa": "skranke/disk"
+        },
+        {
+          "textPt": "caminhar",
+          "textDa": "at gå"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Praia",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
+          "titleDa": "Regelmæssigt verbum: caminhar",
+          "explanationDa": "caminhar betyder \"at gå\". Dialogen bruger nutid til det, der sker nu, og pretérito perfeito til en enkel afsluttet handling.",
           "verb": "caminhar",
+          "verbDa": "at gå",
           "conjugation": [
             {
               "subject": "eu (presente)",
@@ -106,15 +111,15 @@
               "form": "caminhas"
             },
             {
-              "subject": "ele/ela/você (presente)",
+              "subject": "ele/ela/voce (presente)",
               "form": "caminha"
             },
             {
-              "subject": "nós (presente)",
+              "subject": "nos (presente)",
               "form": "caminhamos"
             },
             {
-              "subject": "vocês (presente)",
+              "subject": "voces (presente)",
               "form": "caminham"
             },
             {
@@ -130,15 +135,15 @@
               "form": "caminhaste"
             },
             {
-              "subject": "ele/ela/você (pretérito perfeito)",
+              "subject": "ele/ela/voce (pretérito perfeito)",
               "form": "caminhou"
             },
             {
-              "subject": "nós (pretérito perfeito)",
-              "form": "caminhámos"
+              "subject": "nos (pretérito perfeito)",
+              "form": "caminhamos"
             },
             {
-              "subject": "vocês (pretérito perfeito)",
+              "subject": "voces (pretérito perfeito)",
               "form": "caminharam"
             },
             {
@@ -148,29 +153,18 @@
           ],
           "examples": [
             {
-              "pt": "Hoje nós caminhamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Hoje caminho tempo na praia.",
+              "da": "I dag arbejder jeg med strandvejr."
             },
             {
-              "pt": "Ontem a funcionária caminhou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "Esta manhã caminhei tempo na praia.",
+              "da": "I går arbejdede jeg med strandvejr."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Læg mærke til forskellen mellem caminho og caminhei; tidsordet viser ofte om handlingen er nu eller afsluttet.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "da": "Undgå at oversætte ord for ord fra dansk. Vælg et konkret portugisisk verbum som caminhar."
             }
           ]
         }
@@ -178,97 +172,102 @@
     },
     {
       "id": 2,
-      "titleDa": "Solcreme",
-      "objectiveDa": "Træn en realistisk mini-dialog om solcreme.",
+      "titleDa": "Havet",
+      "objectiveDa": "Træn roligt hav med konkrete handlinger, høflige spørgsmål og naturlig europæisk portugisisk.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de protetor solar; pode orientar-me?",
-          "textDa": "Undskyld, jeg er ved at ordne solcreme; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
+          "textPt": "Bom dia, queria informação sobre mar calmo para observar o mar.",
+          "textDa": "Goddag, jeg vil gerne have information om roligt hav, så jeg kan bade sikkert.",
+          "grammarDa": "Queria er høfligt og naturligt ved en skranke."
         },
         {
           "speaker": "B",
-          "textPt": "A funcionária pergunta se protetor solar é para hoje ou para mais tarde.",
-          "textDa": "Medarbejderen spørger, om solcreme er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
+          "textPt": "Claro. Para esse pedido de mar calmo na praia, normalmente é preciso observar o mar primeiro.",
+          "textDa": "Selvfølgelig. Til henvendelsen om roligt hav på stranden skal man normalt først se på havet.",
+          "grammarDa": "É preciso + infinitiv forklarer et krav."
         },
         {
           "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver protetor solar.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at ordne solcreme.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
+          "textPt": "Não sabia isso quando procurei mar calmo para observar o mar esta manhã.",
+          "textDa": "Det vidste jeg ikke, da jeg søgte efter roligt hav for at se på havet her til morgen.",
+          "grammarDa": "Procurei er en afsluttet handling i datid."
         },
         {
           "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de protetor solar.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om solcreme.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+          "textPt": "Tem algum documento ou pergunta concreta sobre mar calmo na praia antes de observar o mar?",
+          "textDa": "Har De et dokument eller et konkret spørgsmål om roligt hav på stranden, før De skal se på havet?",
+          "grammarDa": "Tem er nutid af ter."
         },
         {
           "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com protetor solar?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med solcreme?",
-          "grammarDa": "Avançarmos er nós-form efter para."
+          "textPt": "Tenho esta informação sobre mar calmo na praia para observar o mar, mas não sei se está atualizada.",
+          "textDa": "Jeg har denne oplysning om roligt hav på stranden for at se på havet, men jeg ved ikke, om den er opdateret.",
+          "grammarDa": "Tenho og está viser ter og estar i praksis."
         },
         {
           "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre protetor solar; depois a funcionária regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om solcreme; derefter registrerer medarbejderen det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
+          "textPt": "Então confirme aqui no balcão antes de avançar com mar calmo na praia.",
+          "textDa": "Bekræft det så her ved skranken, før De går videre med roligt hav på stranden.",
+          "grammarDa": "Confirme er en høflig opfordring."
         },
         {
           "speaker": "A",
-          "textPt": "Se houver algum problema com protetor solar, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med solcreme, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
+          "textPt": "O aviso diz \"BANDEIRA VERMELHA\"; isso aplica-se também a mar calmo na praia?",
+          "textDa": "Skiltet siger \"BANDEIRA VERMELHA\"; gælder det også for roligt hav på stranden?",
+          "grammarDa": "Aplica-se betyder gælder."
         },
         {
           "speaker": "B",
-          "textPt": "Pode, mas talvez protetor solar fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver solcreme løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
+          "textPt": "Sim, aqui o aviso \"BANDEIRA VERMELHA\" regula o uso do serviço durante mar calmo na praia.",
+          "textDa": "Ja, her betyder skiltet \"BANDEIRA VERMELHA\" rødt flag, mens det handler om roligt hav på stranden.",
+          "grammarDa": "Significa er et nyttigt forklaringsverbum."
         },
         {
           "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre protetor solar.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om solcreme.",
-          "grammarDa": "Agradecia er høfligt."
+          "textPt": "Depois de observar o mar na praia, posso voltar aqui se tiver dúvidas?",
+          "textDa": "Når jeg er færdig med roligt hav på stranden, kan jeg komme tilbage hertil, hvis jeg er i tvivl?",
+          "grammarDa": "Se tiver dúvidas er en nyttig betingelse."
         },
         {
           "speaker": "B",
-          "textPt": "Combinado; quando protetor solar estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når solcreme er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
+          "textPt": "Pode, e também pode guardar esta nota sobre mar calmo na praia.",
+          "textDa": "Ja, og De kan også gemme denne note om roligt hav på stranden.",
+          "grammarDa": "Também binder informationen sammen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "protetor solar",
-          "textDa": "solcreme"
+          "textPt": "mar calmo",
+          "textDa": "roligt hav"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "observar o mar",
+          "textDa": "se på havet"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "BANDEIRA VERMELHA",
+          "textDa": "rødt flag"
         },
         {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
+          "textPt": "documento",
+          "textDa": "dokument"
         },
         {
-          "textPt": "processo",
-          "textDa": "sag/proces"
+          "textPt": "balcão",
+          "textDa": "skranke/disk"
+        },
+        {
+          "textPt": "caminhar",
+          "textDa": "at gå"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Praia",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
+          "titleDa": "Regelmæssigt verbum: caminhar",
+          "explanationDa": "caminhar betyder \"at gå\". Dialogen bruger nutid til det, der sker nu, og pretérito perfeito til en enkel afsluttet handling.",
           "verb": "caminhar",
+          "verbDa": "at gå",
           "conjugation": [
             {
               "subject": "eu (presente)",
@@ -279,15 +278,15 @@
               "form": "caminhas"
             },
             {
-              "subject": "ele/ela/você (presente)",
+              "subject": "ele/ela/voce (presente)",
               "form": "caminha"
             },
             {
-              "subject": "nós (presente)",
+              "subject": "nos (presente)",
               "form": "caminhamos"
             },
             {
-              "subject": "vocês (presente)",
+              "subject": "voces (presente)",
               "form": "caminham"
             },
             {
@@ -303,15 +302,15 @@
               "form": "caminhaste"
             },
             {
-              "subject": "ele/ela/você (pretérito perfeito)",
+              "subject": "ele/ela/voce (pretérito perfeito)",
               "form": "caminhou"
             },
             {
-              "subject": "nós (pretérito perfeito)",
-              "form": "caminhámos"
+              "subject": "nos (pretérito perfeito)",
+              "form": "caminhamos"
             },
             {
-              "subject": "vocês (pretérito perfeito)",
+              "subject": "voces (pretérito perfeito)",
               "form": "caminharam"
             },
             {
@@ -321,29 +320,18 @@
           ],
           "examples": [
             {
-              "pt": "Hoje nós caminhamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Hoje caminho mar calmo.",
+              "da": "I dag arbejder jeg med roligt hav."
             },
             {
-              "pt": "Ontem a funcionária caminhou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "Esta manhã caminhei mar calmo.",
+              "da": "I går arbejdede jeg med roligt hav."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Læg mærke til forskellen mellem caminho og caminhei; tidsordet viser ofte om handlingen er nu eller afsluttet.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "da": "Undgå at oversætte ord for ord fra dansk. Vælg et konkret portugisisk verbum som caminhar."
             }
           ]
         }
@@ -351,97 +339,102 @@
     },
     {
       "id": 3,
-      "titleDa": "Parasol",
-      "objectiveDa": "Træn en realistisk mini-dialog om parasol.",
+      "titleDa": "Bølger",
+      "objectiveDa": "Træn kraftige bølger med konkrete handlinger, høflige spørgsmål og naturlig europæisk portugisisk.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de chapéu de sol; pode orientar-me?",
-          "textDa": "Undskyld, jeg er ved at ordne parasol; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
+          "textPt": "Bom dia, queria informação sobre ondas fortes para perguntar ao nadador-salvador.",
+          "textDa": "Goddag, jeg vil gerne have information om kraftige bølger, så jeg kan beskytte børnene.",
+          "grammarDa": "Queria er høfligt og naturligt ved en skranke."
         },
         {
           "speaker": "B",
-          "textPt": "O empregado pergunta se chapéu de sol é para hoje ou para mais tarde.",
-          "textDa": "Tjeneren spørger, om parasol er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
+          "textPt": "Claro. Para esse pedido de ondas fortes na praia, normalmente é preciso perguntar ao nadador-salvador primeiro.",
+          "textDa": "Selvfølgelig. Til henvendelsen om kraftige bølger på stranden skal man normalt først spørge livredderen.",
+          "grammarDa": "É preciso + infinitiv forklarer et krav."
         },
         {
           "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver chapéu de sol.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at ordne parasol.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
+          "textPt": "Não sabia isso quando procurei ondas fortes para perguntar ao nadador-salvador esta manhã.",
+          "textDa": "Det vidste jeg ikke, da jeg søgte efter kraftige bølger for at spørge livredderen her til morgen.",
+          "grammarDa": "Procurei er en afsluttet handling i datid."
         },
         {
           "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de chapéu de sol.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om parasol.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+          "textPt": "Tem algum documento ou pergunta concreta sobre ondas fortes na praia antes de perguntar ao nadador-salvador?",
+          "textDa": "Har De et dokument eller et konkret spørgsmål om kraftige bølger på stranden, før De skal spørge livredderen?",
+          "grammarDa": "Tem er nutid af ter."
         },
         {
           "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com chapéu de sol?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med parasol?",
-          "grammarDa": "Avançarmos er nós-form efter para."
+          "textPt": "Tenho esta informação sobre ondas fortes na praia para perguntar ao nadador-salvador, mas não sei se está atualizada.",
+          "textDa": "Jeg har denne oplysning om kraftige bølger på stranden for at spørge livredderen, men jeg ved ikke, om den er opdateret.",
+          "grammarDa": "Tenho og está viser ter og estar i praksis."
         },
         {
           "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre chapéu de sol; depois o empregado regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om parasol; derefter registrerer tjeneren det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
+          "textPt": "Então confirme aqui no balcão antes de avançar com ondas fortes na praia.",
+          "textDa": "Bekræft det så her ved skranken, før De går videre med kraftige bølger på stranden.",
+          "grammarDa": "Confirme er en høflig opfordring."
         },
         {
           "speaker": "A",
-          "textPt": "Se houver algum problema com chapéu de sol, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med parasol, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
+          "textPt": "O aviso diz \"BANDEIRA VERMELHA\"; isso aplica-se também a ondas fortes na praia?",
+          "textDa": "Skiltet siger \"BANDEIRA VERMELHA\"; gælder det også for kraftige bølger på stranden?",
+          "grammarDa": "Aplica-se betyder gælder."
         },
         {
           "speaker": "B",
-          "textPt": "Pode, mas talvez chapéu de sol fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver parasol løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
+          "textPt": "Sim, aqui o aviso \"BANDEIRA VERMELHA\" regula o uso do serviço durante ondas fortes na praia.",
+          "textDa": "Ja, her betyder skiltet \"BANDEIRA VERMELHA\" rødt flag, mens det handler om kraftige bølger på stranden.",
+          "grammarDa": "Significa er et nyttigt forklaringsverbum."
         },
         {
           "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre chapéu de sol.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om parasol.",
-          "grammarDa": "Agradecia er høfligt."
+          "textPt": "Depois de perguntar ao nadador-salvador na praia, posso voltar aqui se tiver dúvidas?",
+          "textDa": "Når jeg er færdig med kraftige bølger på stranden, kan jeg komme tilbage hertil, hvis jeg er i tvivl?",
+          "grammarDa": "Se tiver dúvidas er en nyttig betingelse."
         },
         {
           "speaker": "B",
-          "textPt": "Combinado; quando chapéu de sol estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når parasol er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
+          "textPt": "Pode, e também pode guardar esta nota sobre ondas fortes na praia.",
+          "textDa": "Ja, og De kan også gemme denne note om kraftige bølger på stranden.",
+          "grammarDa": "Também binder informationen sammen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "chapéu de sol",
-          "textDa": "parasol"
+          "textPt": "ondas fortes",
+          "textDa": "kraftige bølger"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "perguntar ao nadador-salvador",
+          "textDa": "spørge livredderen"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "BANDEIRA VERMELHA",
+          "textDa": "rødt flag"
         },
         {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
+          "textPt": "documento",
+          "textDa": "dokument"
         },
         {
-          "textPt": "processo",
-          "textDa": "sag/proces"
+          "textPt": "balcão",
+          "textDa": "skranke/disk"
+        },
+        {
+          "textPt": "caminhar",
+          "textDa": "at gå"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Praia",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
+          "titleDa": "Regelmæssigt verbum: caminhar",
+          "explanationDa": "caminhar betyder \"at gå\". Dialogen bruger nutid til det, der sker nu, og pretérito perfeito til en enkel afsluttet handling.",
           "verb": "caminhar",
+          "verbDa": "at gå",
           "conjugation": [
             {
               "subject": "eu (presente)",
@@ -452,15 +445,15 @@
               "form": "caminhas"
             },
             {
-              "subject": "ele/ela/você (presente)",
+              "subject": "ele/ela/voce (presente)",
               "form": "caminha"
             },
             {
-              "subject": "nós (presente)",
+              "subject": "nos (presente)",
               "form": "caminhamos"
             },
             {
-              "subject": "vocês (presente)",
+              "subject": "voces (presente)",
               "form": "caminham"
             },
             {
@@ -476,15 +469,15 @@
               "form": "caminhaste"
             },
             {
-              "subject": "ele/ela/você (pretérito perfeito)",
+              "subject": "ele/ela/voce (pretérito perfeito)",
               "form": "caminhou"
             },
             {
-              "subject": "nós (pretérito perfeito)",
-              "form": "caminhámos"
+              "subject": "nos (pretérito perfeito)",
+              "form": "caminhamos"
             },
             {
-              "subject": "vocês (pretérito perfeito)",
+              "subject": "voces (pretérito perfeito)",
               "form": "caminharam"
             },
             {
@@ -494,29 +487,18 @@
           ],
           "examples": [
             {
-              "pt": "Hoje nós caminhamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Hoje caminho ondas fortes.",
+              "da": "I dag arbejder jeg med kraftige bølger."
             },
             {
-              "pt": "Ontem a funcionária caminhou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "Esta manhã caminhei ondas fortes.",
+              "da": "I går arbejdede jeg med kraftige bølger."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Læg mærke til forskellen mellem caminho og caminhei; tidsordet viser ofte om handlingen er nu eller afsluttet.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "da": "Undgå at oversætte ord for ord fra dansk. Vælg et konkret portugisisk verbum som caminhar."
             }
           ]
         }
@@ -524,760 +506,68 @@
     },
     {
       "id": 4,
-      "titleDa": "Roligere sted",
-      "objectiveDa": "Træn en realistisk mini-dialog om roligere sted.",
+      "titleDa": "Vind",
+      "objectiveDa": "Træn nordenvind med konkrete handlinger, høflige spørgsmål og naturlig europæisk portugisisk.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de lugar mais calmo; pode orientar-me?",
-          "textDa": "Undskyld, jeg er ved at ordne roligere sted; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
+          "textPt": "Bom dia, queria informação sobre vento norte para procurar abrigo hoje.",
+          "textDa": "Goddag, jeg vil gerne have information om nordenvind, så jeg kan holde parasollen fast.",
+          "grammarDa": "Queria er høfligt og naturligt ved en skranke."
         },
         {
           "speaker": "B",
-          "textPt": "A senhora pergunta se lugar mais calmo é para hoje ou para mais tarde.",
-          "textDa": "Damen spørger, om roligere sted er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
+          "textPt": "Claro. Para esse pedido de vento norte na praia, normalmente é preciso procurar abrigo primeiro.",
+          "textDa": "Selvfølgelig. Til henvendelsen om nordenvind på stranden skal man normalt først finde læ.",
+          "grammarDa": "É preciso + infinitiv forklarer et krav."
         },
         {
           "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver lugar mais calmo.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at ordne roligere sted.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
+          "textPt": "Não sabia isso quando procurei vento norte para procurar abrigo esta manhã.",
+          "textDa": "Det vidste jeg ikke, da jeg søgte efter nordenvind for at finde læ her til morgen.",
+          "grammarDa": "Procurei er en afsluttet handling i datid."
         },
         {
           "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de lugar mais calmo.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om roligere sted.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+          "textPt": "Tem algum documento ou pergunta concreta sobre vento norte na praia antes de procurar abrigo?",
+          "textDa": "Har De et dokument eller et konkret spørgsmål om nordenvind på stranden, før De skal finde læ?",
+          "grammarDa": "Tem er nutid af ter."
         },
         {
           "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com lugar mais calmo?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med roligere sted?",
-          "grammarDa": "Avançarmos er nós-form efter para."
+          "textPt": "Tenho esta informação sobre vento norte na praia para procurar abrigo, mas não sei se está atualizada.",
+          "textDa": "Jeg har denne oplysning om nordenvind på stranden for at finde læ, men jeg ved ikke, om den er opdateret.",
+          "grammarDa": "Tenho og está viser ter og estar i praksis."
         },
         {
           "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre lugar mais calmo; depois a senhora regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om roligere sted; derefter registrerer damen det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
+          "textPt": "Então confirme aqui no balcão antes de avançar com vento norte na praia.",
+          "textDa": "Bekræft det så her ved skranken, før De går videre med nordenvind på stranden.",
+          "grammarDa": "Confirme er en høflig opfordring."
         },
         {
           "speaker": "A",
-          "textPt": "Se houver algum problema com lugar mais calmo, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med roligere sted, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
+          "textPt": "O aviso diz \"BANDEIRA VERMELHA\"; isso aplica-se também a vento norte na praia?",
+          "textDa": "Skiltet siger \"BANDEIRA VERMELHA\"; gælder det også for nordenvind på stranden?",
+          "grammarDa": "Aplica-se betyder gælder."
         },
         {
           "speaker": "B",
-          "textPt": "Pode, mas talvez lugar mais calmo fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver roligere sted løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
+          "textPt": "Sim, aqui o aviso \"BANDEIRA VERMELHA\" regula o uso do serviço durante vento norte na praia.",
+          "textDa": "Ja, her betyder skiltet \"BANDEIRA VERMELHA\" rødt flag, mens det handler om nordenvind på stranden.",
+          "grammarDa": "Significa er et nyttigt forklaringsverbum."
         },
         {
           "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre lugar mais calmo.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om roligere sted.",
-          "grammarDa": "Agradecia er høfligt."
+          "textPt": "Depois de procurar abrigo na praia, posso voltar aqui se tiver dúvidas?",
+          "textDa": "Når jeg er færdig med nordenvind på stranden, kan jeg komme tilbage hertil, hvis jeg er i tvivl?",
+          "grammarDa": "Se tiver dúvidas er en nyttig betingelse."
         },
         {
           "speaker": "B",
-          "textPt": "Combinado; quando lugar mais calmo estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når roligere sted er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "lugar mais calmo",
-          "textDa": "roligere sted"
-        },
-        {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
-        },
-        {
-          "textPt": "talvez",
-          "textDa": "måske"
-        },
-        {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
-        },
-        {
-          "textPt": "processo",
-          "textDa": "sag/proces"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "Regelmæssige verber i Praia",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "caminhar",
-          "conjugation": [
-            {
-              "subject": "eu (presente)",
-              "form": "caminho"
-            },
-            {
-              "subject": "tu (presente)",
-              "form": "caminhas"
-            },
-            {
-              "subject": "ele/ela/você (presente)",
-              "form": "caminha"
-            },
-            {
-              "subject": "nós (presente)",
-              "form": "caminhamos"
-            },
-            {
-              "subject": "vocês (presente)",
-              "form": "caminham"
-            },
-            {
-              "subject": "eles/elas (presente)",
-              "form": "caminham"
-            },
-            {
-              "subject": "eu (pretérito perfeito)",
-              "form": "caminhei"
-            },
-            {
-              "subject": "tu (pretérito perfeito)",
-              "form": "caminhaste"
-            },
-            {
-              "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "caminhou"
-            },
-            {
-              "subject": "nós (pretérito perfeito)",
-              "form": "caminhámos"
-            },
-            {
-              "subject": "vocês (pretérito perfeito)",
-              "form": "caminharam"
-            },
-            {
-              "subject": "eles/elas (pretérito perfeito)",
-              "form": "caminharam"
-            }
-          ],
-          "examples": [
-            {
-              "pt": "Hoje nós caminhamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
-            },
-            {
-              "pt": "Ontem a funcionária caminhou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
-            }
-          ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
-          "commonMistakes": [
-            {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "titleDa": "Livredder",
-      "objectiveDa": "Træn en realistisk mini-dialog om livredder.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de nadador-salvador; pode orientar-me?",
-          "textDa": "Undskyld, jeg er ved at ordne livredder; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
-        },
-        {
-          "speaker": "B",
-          "textPt": "O motorista pergunta se nadador-salvador é para hoje ou para mais tarde.",
-          "textDa": "Chaufføren spørger, om livredder er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
-        },
-        {
-          "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver nadador-salvador.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at ordne livredder.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de nadador-salvador.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om livredder.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com nadador-salvador?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med livredder?",
-          "grammarDa": "Avançarmos er nós-form efter para."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre nadador-salvador; depois o motorista regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om livredder; derefter registrerer chaufføren det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Se houver algum problema com nadador-salvador, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med livredder, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Pode, mas talvez nadador-salvador fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver livredder løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre nadador-salvador.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om livredder.",
-          "grammarDa": "Agradecia er høfligt."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Combinado; quando nadador-salvador estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når livredder er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "nadador-salvador",
-          "textDa": "livredder"
-        },
-        {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
-        },
-        {
-          "textPt": "talvez",
-          "textDa": "måske"
-        },
-        {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
-        },
-        {
-          "textPt": "processo",
-          "textDa": "sag/proces"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "Regelmæssige verber i Praia",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "caminhar",
-          "conjugation": [
-            {
-              "subject": "eu (presente)",
-              "form": "caminho"
-            },
-            {
-              "subject": "tu (presente)",
-              "form": "caminhas"
-            },
-            {
-              "subject": "ele/ela/você (presente)",
-              "form": "caminha"
-            },
-            {
-              "subject": "nós (presente)",
-              "form": "caminhamos"
-            },
-            {
-              "subject": "vocês (presente)",
-              "form": "caminham"
-            },
-            {
-              "subject": "eles/elas (presente)",
-              "form": "caminham"
-            },
-            {
-              "subject": "eu (pretérito perfeito)",
-              "form": "caminhei"
-            },
-            {
-              "subject": "tu (pretérito perfeito)",
-              "form": "caminhaste"
-            },
-            {
-              "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "caminhou"
-            },
-            {
-              "subject": "nós (pretérito perfeito)",
-              "form": "caminhámos"
-            },
-            {
-              "subject": "vocês (pretérito perfeito)",
-              "form": "caminharam"
-            },
-            {
-              "subject": "eles/elas (pretérito perfeito)",
-              "form": "caminharam"
-            }
-          ],
-          "examples": [
-            {
-              "pt": "Hoje nós caminhamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
-            },
-            {
-              "pt": "Ontem a funcionária caminhou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
-            }
-          ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
-          "commonMistakes": [
-            {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "titleDa": "Mistet rygsæk",
-      "objectiveDa": "Træn en realistisk mini-dialog om mistet rygsæk.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de mochila perdida; pode orientar-me?",
-          "textDa": "Undskyld, jeg er ved at ordne mistet rygsæk; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
-        },
-        {
-          "speaker": "B",
-          "textPt": "O técnico pergunta se mochila perdida é para hoje ou para mais tarde.",
-          "textDa": "Teknikeren spørger, om mistet rygsæk er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
-        },
-        {
-          "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver mochila perdida.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at ordne mistet rygsæk.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de mochila perdida.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om mistet rygsæk.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com mochila perdida?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med mistet rygsæk?",
-          "grammarDa": "Avançarmos er nós-form efter para."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre mochila perdida; depois o técnico regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om mistet rygsæk; derefter registrerer teknikeren det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Se houver algum problema com mochila perdida, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med mistet rygsæk, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Pode, mas talvez mochila perdida fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver mistet rygsæk løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre mochila perdida.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om mistet rygsæk.",
-          "grammarDa": "Agradecia er høfligt."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Combinado; quando mochila perdida estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når mistet rygsæk er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "mochila perdida",
-          "textDa": "mistet rygsæk"
-        },
-        {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
-        },
-        {
-          "textPt": "talvez",
-          "textDa": "måske"
-        },
-        {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
-        },
-        {
-          "textPt": "processo",
-          "textDa": "sag/proces"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "Regelmæssige verber i Praia",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "caminhar",
-          "conjugation": [
-            {
-              "subject": "eu (presente)",
-              "form": "caminho"
-            },
-            {
-              "subject": "tu (presente)",
-              "form": "caminhas"
-            },
-            {
-              "subject": "ele/ela/você (presente)",
-              "form": "caminha"
-            },
-            {
-              "subject": "nós (presente)",
-              "form": "caminhamos"
-            },
-            {
-              "subject": "vocês (presente)",
-              "form": "caminham"
-            },
-            {
-              "subject": "eles/elas (presente)",
-              "form": "caminham"
-            },
-            {
-              "subject": "eu (pretérito perfeito)",
-              "form": "caminhei"
-            },
-            {
-              "subject": "tu (pretérito perfeito)",
-              "form": "caminhaste"
-            },
-            {
-              "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "caminhou"
-            },
-            {
-              "subject": "nós (pretérito perfeito)",
-              "form": "caminhámos"
-            },
-            {
-              "subject": "vocês (pretérito perfeito)",
-              "form": "caminharam"
-            },
-            {
-              "subject": "eles/elas (pretérito perfeito)",
-              "form": "caminharam"
-            }
-          ],
-          "examples": [
-            {
-              "pt": "Hoje nós caminhamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
-            },
-            {
-              "pt": "Ontem a funcionária caminhou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
-            }
-          ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
-          "commonMistakes": [
-            {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "titleDa": "Koldt vand",
-      "objectiveDa": "Træn en realistisk mini-dialog om koldt vand.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de água fresca; pode orientar-me?",
-          "textDa": "Undskyld, jeg er ved at ordne koldt vand; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
-        },
-        {
-          "speaker": "B",
-          "textPt": "A cliente pergunta se água fresca é para hoje ou para mais tarde.",
-          "textDa": "Kunden spørger, om koldt vand er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
-        },
-        {
-          "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver água fresca.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at ordne koldt vand.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de água fresca.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om koldt vand.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com água fresca?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med koldt vand?",
-          "grammarDa": "Avançarmos er nós-form efter para."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre água fresca; depois a cliente regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om koldt vand; derefter registrerer kunden det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Se houver algum problema com água fresca, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med koldt vand, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Pode, mas talvez água fresca fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver koldt vand løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre água fresca.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om koldt vand.",
-          "grammarDa": "Agradecia er høfligt."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Combinado; quando água fresca estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når koldt vand er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "água fresca",
-          "textDa": "koldt vand"
-        },
-        {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
-        },
-        {
-          "textPt": "talvez",
-          "textDa": "måske"
-        },
-        {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
-        },
-        {
-          "textPt": "processo",
-          "textDa": "sag/proces"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "Regelmæssige verber i Praia",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "caminhar",
-          "conjugation": [
-            {
-              "subject": "eu (presente)",
-              "form": "caminho"
-            },
-            {
-              "subject": "tu (presente)",
-              "form": "caminhas"
-            },
-            {
-              "subject": "ele/ela/você (presente)",
-              "form": "caminha"
-            },
-            {
-              "subject": "nós (presente)",
-              "form": "caminhamos"
-            },
-            {
-              "subject": "vocês (presente)",
-              "form": "caminham"
-            },
-            {
-              "subject": "eles/elas (presente)",
-              "form": "caminham"
-            },
-            {
-              "subject": "eu (pretérito perfeito)",
-              "form": "caminhei"
-            },
-            {
-              "subject": "tu (pretérito perfeito)",
-              "form": "caminhaste"
-            },
-            {
-              "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "caminhou"
-            },
-            {
-              "subject": "nós (pretérito perfeito)",
-              "form": "caminhámos"
-            },
-            {
-              "subject": "vocês (pretérito perfeito)",
-              "form": "caminharam"
-            },
-            {
-              "subject": "eles/elas (pretérito perfeito)",
-              "form": "caminharam"
-            }
-          ],
-          "examples": [
-            {
-              "pt": "Hoje nós caminhamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
-            },
-            {
-              "pt": "Ontem a funcionária caminhou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
-            }
-          ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
-          "commonMistakes": [
-            {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "titleDa": "Nordenvind",
-      "objectiveDa": "Træn en realistisk mini-dialog om nordenvind.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de vento norte; pode orientar-me?",
-          "textDa": "Undskyld, jeg er ved at ordne nordenvind; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
-        },
-        {
-          "speaker": "B",
-          "textPt": "O cliente pergunta se vento norte é para hoje ou para mais tarde.",
-          "textDa": "Kunden spørger, om nordenvind er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
-        },
-        {
-          "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver vento norte.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at ordne nordenvind.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de vento norte.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om nordenvind.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com vento norte?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med nordenvind?",
-          "grammarDa": "Avançarmos er nós-form efter para."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre vento norte; depois o cliente regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om nordenvind; derefter registrerer kunden det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Se houver algum problema com vento norte, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med nordenvind, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Pode, mas talvez vento norte fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver nordenvind løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre vento norte.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om nordenvind.",
-          "grammarDa": "Agradecia er høfligt."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Combinado; quando vento norte estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når nordenvind er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
+          "textPt": "Pode, e também pode guardar esta nota sobre vento norte na praia.",
+          "textDa": "Ja, og De kan også gemme denne note om nordenvind på stranden.",
+          "grammarDa": "Também binder informationen sammen."
         }
       ],
       "vocabulary": [
@@ -1286,27 +576,32 @@
           "textDa": "nordenvind"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "procurar abrigo",
+          "textDa": "finde læ"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "BANDEIRA VERMELHA",
+          "textDa": "rødt flag"
         },
         {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
+          "textPt": "documento",
+          "textDa": "dokument"
         },
         {
-          "textPt": "processo",
-          "textDa": "sag/proces"
+          "textPt": "balcão",
+          "textDa": "skranke/disk"
+        },
+        {
+          "textPt": "caminhar",
+          "textDa": "at gå"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Praia",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
+          "titleDa": "Regelmæssigt verbum: caminhar",
+          "explanationDa": "caminhar betyder \"at gå\". Dialogen bruger nutid til det, der sker nu, og pretérito perfeito til en enkel afsluttet handling.",
           "verb": "caminhar",
+          "verbDa": "at gå",
           "conjugation": [
             {
               "subject": "eu (presente)",
@@ -1317,15 +612,15 @@
               "form": "caminhas"
             },
             {
-              "subject": "ele/ela/você (presente)",
+              "subject": "ele/ela/voce (presente)",
               "form": "caminha"
             },
             {
-              "subject": "nós (presente)",
+              "subject": "nos (presente)",
               "form": "caminhamos"
             },
             {
-              "subject": "vocês (presente)",
+              "subject": "voces (presente)",
               "form": "caminham"
             },
             {
@@ -1341,15 +636,15 @@
               "form": "caminhaste"
             },
             {
-              "subject": "ele/ela/você (pretérito perfeito)",
+              "subject": "ele/ela/voce (pretérito perfeito)",
               "form": "caminhou"
             },
             {
-              "subject": "nós (pretérito perfeito)",
-              "form": "caminhámos"
+              "subject": "nos (pretérito perfeito)",
+              "form": "caminhamos"
             },
             {
-              "subject": "vocês (pretérito perfeito)",
+              "subject": "voces (pretérito perfeito)",
               "form": "caminharam"
             },
             {
@@ -1359,29 +654,686 @@
           ],
           "examples": [
             {
-              "pt": "Hoje nós caminhamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Hoje caminho vento norte.",
+              "da": "I dag arbejder jeg med nordenvind."
             },
             {
-              "pt": "Ontem a funcionária caminhou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "Esta manhã caminhei vento norte.",
+              "da": "I går arbejdede jeg med nordenvind."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Læg mærke til forskellen mellem caminho og caminhei; tidsordet viser ofte om handlingen er nu eller afsluttet.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
+              "da": "Undgå at oversætte ord for ord fra dansk. Vælg et konkret portugisisk verbum som caminhar."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "titleDa": "Livredder",
+      "objectiveDa": "Træn livredder med konkrete handlinger, høflige spørgsmål og naturlig europæisk portugisisk.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Bom dia, queria informação sobre nadador-salvador para falar com o nadador-salvador.",
+          "textDa": "Goddag, jeg vil gerne have information om livredder, så jeg kan få råd.",
+          "grammarDa": "Queria er høfligt og naturligt ved en skranke."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Claro. Para esse pedido de nadador-salvador na praia, normalmente é preciso falar com o nadador-salvador primeiro.",
+          "textDa": "Selvfølgelig. Til henvendelsen om livredder på stranden skal man normalt først tale med livredderen.",
+          "grammarDa": "É preciso + infinitiv forklarer et krav."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Não sabia isso quando procurei nadador-salvador para falar com o nadador-salvador esta manhã.",
+          "textDa": "Det vidste jeg ikke, da jeg søgte efter livredder for at tale med livredderen her til morgen.",
+          "grammarDa": "Procurei er en afsluttet handling i datid."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Tem algum documento ou pergunta concreta sobre nadador-salvador na praia antes de falar com o nadador-salvador?",
+          "textDa": "Har De et dokument eller et konkret spørgsmål om livredder på stranden, før De skal tale med livredderen?",
+          "grammarDa": "Tem er nutid af ter."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Tenho esta informação sobre nadador-salvador na praia para falar com o nadador-salvador, mas não sei se está atualizada.",
+          "textDa": "Jeg har denne oplysning om livredder på stranden for at tale med livredderen, men jeg ved ikke, om den er opdateret.",
+          "grammarDa": "Tenho og está viser ter og estar i praksis."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Então confirme aqui no balcão antes de avançar com nadador-salvador na praia.",
+          "textDa": "Bekræft det så her ved skranken, før De går videre med livredder på stranden.",
+          "grammarDa": "Confirme er en høflig opfordring."
+        },
+        {
+          "speaker": "A",
+          "textPt": "O aviso diz \"BANDEIRA VERMELHA\"; isso aplica-se também a nadador-salvador na praia?",
+          "textDa": "Skiltet siger \"BANDEIRA VERMELHA\"; gælder det også for livredder på stranden?",
+          "grammarDa": "Aplica-se betyder gælder."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Sim, aqui o aviso \"BANDEIRA VERMELHA\" regula o uso do serviço durante nadador-salvador na praia.",
+          "textDa": "Ja, her betyder skiltet \"BANDEIRA VERMELHA\" rødt flag, mens det handler om livredder på stranden.",
+          "grammarDa": "Significa er et nyttigt forklaringsverbum."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Depois de falar com o nadador-salvador na praia, posso voltar aqui se tiver dúvidas?",
+          "textDa": "Når jeg er færdig med livredder på stranden, kan jeg komme tilbage hertil, hvis jeg er i tvivl?",
+          "grammarDa": "Se tiver dúvidas er en nyttig betingelse."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Pode, e também pode guardar esta nota sobre nadador-salvador na praia.",
+          "textDa": "Ja, og De kan også gemme denne note om livredder på stranden.",
+          "grammarDa": "Também binder informationen sammen."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "nadador-salvador",
+          "textDa": "livredder"
+        },
+        {
+          "textPt": "falar com o nadador-salvador",
+          "textDa": "tale med livredderen"
+        },
+        {
+          "textPt": "BANDEIRA VERMELHA",
+          "textDa": "rødt flag"
+        },
+        {
+          "textPt": "documento",
+          "textDa": "dokument"
+        },
+        {
+          "textPt": "balcão",
+          "textDa": "skranke/disk"
+        },
+        {
+          "textPt": "caminhar",
+          "textDa": "at gå"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Regelmæssigt verbum: caminhar",
+          "explanationDa": "caminhar betyder \"at gå\". Dialogen bruger nutid til det, der sker nu, og pretérito perfeito til en enkel afsluttet handling.",
+          "verb": "caminhar",
+          "verbDa": "at gå",
+          "conjugation": [
+            {
+              "subject": "eu (presente)",
+              "form": "caminho"
             },
             {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "subject": "tu (presente)",
+              "form": "caminhas"
+            },
+            {
+              "subject": "ele/ela/voce (presente)",
+              "form": "caminha"
+            },
+            {
+              "subject": "nos (presente)",
+              "form": "caminhamos"
+            },
+            {
+              "subject": "voces (presente)",
+              "form": "caminham"
+            },
+            {
+              "subject": "eles/elas (presente)",
+              "form": "caminham"
+            },
+            {
+              "subject": "eu (pretérito perfeito)",
+              "form": "caminhei"
+            },
+            {
+              "subject": "tu (pretérito perfeito)",
+              "form": "caminhaste"
+            },
+            {
+              "subject": "ele/ela/voce (pretérito perfeito)",
+              "form": "caminhou"
+            },
+            {
+              "subject": "nos (pretérito perfeito)",
+              "form": "caminhamos"
+            },
+            {
+              "subject": "voces (pretérito perfeito)",
+              "form": "caminharam"
+            },
+            {
+              "subject": "eles/elas (pretérito perfeito)",
+              "form": "caminharam"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Hoje caminho nadador-salvador.",
+              "da": "I dag arbejder jeg med livredder."
+            },
+            {
+              "pt": "Esta manhã caminhei nadador-salvador.",
+              "da": "I går arbejdede jeg med livredder."
+            }
+          ],
+          "notesDa": "Læg mærke til forskellen mellem caminho og caminhei; tidsordet viser ofte om handlingen er nu eller afsluttet.",
+          "commonMistakes": [
+            {
+              "da": "Undgå at oversætte ord for ord fra dansk. Vælg et konkret portugisisk verbum som caminhar."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "titleDa": "Solcreme",
+      "objectiveDa": "Træn solcreme med konkrete handlinger, høflige spørgsmål og naturlig europæisk portugisisk.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Bom dia, queria informação sobre protetor solar para comprar protetor.",
+          "textDa": "Goddag, jeg vil gerne have information om solcreme, så jeg kan undgå solskoldning.",
+          "grammarDa": "Queria er høfligt og naturligt ved en skranke."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Claro. Para esse pedido de protetor solar na praia, normalmente é preciso comprar protetor primeiro.",
+          "textDa": "Selvfølgelig. Til henvendelsen om solcreme på stranden skal man normalt først købe solcreme.",
+          "grammarDa": "É preciso + infinitiv forklarer et krav."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Não sabia isso quando procurei protetor solar para comprar protetor esta manhã.",
+          "textDa": "Det vidste jeg ikke, da jeg søgte efter solcreme for at købe solcreme her til morgen.",
+          "grammarDa": "Procurei er en afsluttet handling i datid."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Tem algum documento ou pergunta concreta sobre protetor solar na praia antes de comprar protetor?",
+          "textDa": "Har De et dokument eller et konkret spørgsmål om solcreme på stranden, før De skal købe solcreme?",
+          "grammarDa": "Tem er nutid af ter."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Tenho esta informação sobre protetor solar na praia para comprar protetor, mas não sei se está atualizada.",
+          "textDa": "Jeg har denne oplysning om solcreme på stranden for at købe solcreme, men jeg ved ikke, om den er opdateret.",
+          "grammarDa": "Tenho og está viser ter og estar i praksis."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Então confirme aqui no balcão antes de avançar com protetor solar na praia.",
+          "textDa": "Bekræft det så her ved skranken, før De går videre med solcreme på stranden.",
+          "grammarDa": "Confirme er en høflig opfordring."
+        },
+        {
+          "speaker": "A",
+          "textPt": "O aviso diz \"BANDEIRA VERMELHA\"; isso aplica-se também a protetor solar na praia?",
+          "textDa": "Skiltet siger \"BANDEIRA VERMELHA\"; gælder det også for solcreme på stranden?",
+          "grammarDa": "Aplica-se betyder gælder."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Sim, aqui o aviso \"BANDEIRA VERMELHA\" regula o uso do serviço durante protetor solar na praia.",
+          "textDa": "Ja, her betyder skiltet \"BANDEIRA VERMELHA\" rødt flag, mens det handler om solcreme på stranden.",
+          "grammarDa": "Significa er et nyttigt forklaringsverbum."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Depois de comprar protetor na praia, posso voltar aqui se tiver dúvidas?",
+          "textDa": "Når jeg er færdig med solcreme på stranden, kan jeg komme tilbage hertil, hvis jeg er i tvivl?",
+          "grammarDa": "Se tiver dúvidas er en nyttig betingelse."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Pode, e também pode guardar esta nota sobre protetor solar na praia.",
+          "textDa": "Ja, og De kan også gemme denne note om solcreme på stranden.",
+          "grammarDa": "Também binder informationen sammen."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "protetor solar",
+          "textDa": "solcreme"
+        },
+        {
+          "textPt": "comprar protetor",
+          "textDa": "købe solcreme"
+        },
+        {
+          "textPt": "BANDEIRA VERMELHA",
+          "textDa": "rødt flag"
+        },
+        {
+          "textPt": "documento",
+          "textDa": "dokument"
+        },
+        {
+          "textPt": "balcão",
+          "textDa": "skranke/disk"
+        },
+        {
+          "textPt": "caminhar",
+          "textDa": "at gå"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Regelmæssigt verbum: caminhar",
+          "explanationDa": "caminhar betyder \"at gå\". Dialogen bruger nutid til det, der sker nu, og pretérito perfeito til en enkel afsluttet handling.",
+          "verb": "caminhar",
+          "verbDa": "at gå",
+          "conjugation": [
+            {
+              "subject": "eu (presente)",
+              "form": "caminho"
+            },
+            {
+              "subject": "tu (presente)",
+              "form": "caminhas"
+            },
+            {
+              "subject": "ele/ela/voce (presente)",
+              "form": "caminha"
+            },
+            {
+              "subject": "nos (presente)",
+              "form": "caminhamos"
+            },
+            {
+              "subject": "voces (presente)",
+              "form": "caminham"
+            },
+            {
+              "subject": "eles/elas (presente)",
+              "form": "caminham"
+            },
+            {
+              "subject": "eu (pretérito perfeito)",
+              "form": "caminhei"
+            },
+            {
+              "subject": "tu (pretérito perfeito)",
+              "form": "caminhaste"
+            },
+            {
+              "subject": "ele/ela/voce (pretérito perfeito)",
+              "form": "caminhou"
+            },
+            {
+              "subject": "nos (pretérito perfeito)",
+              "form": "caminhamos"
+            },
+            {
+              "subject": "voces (pretérito perfeito)",
+              "form": "caminharam"
+            },
+            {
+              "subject": "eles/elas (pretérito perfeito)",
+              "form": "caminharam"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Hoje caminho protetor solar.",
+              "da": "I dag arbejder jeg med solcreme."
+            },
+            {
+              "pt": "Esta manhã caminhei protetor solar.",
+              "da": "I går arbejdede jeg med solcreme."
+            }
+          ],
+          "notesDa": "Læg mærke til forskellen mellem caminho og caminhei; tidsordet viser ofte om handlingen er nu eller afsluttet.",
+          "commonMistakes": [
+            {
+              "da": "Undgå at oversætte ord for ord fra dansk. Vælg et konkret portugisisk verbum som caminhar."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "titleDa": "Parasol",
+      "objectiveDa": "Træn parasol med konkrete handlinger, høflige spørgsmål og naturlig europæisk portugisisk.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Bom dia, queria informação sobre chapéu de sol para alugar um chapéu hoje.",
+          "textDa": "Goddag, jeg vil gerne have information om parasol, så jeg kan sidde i skygge.",
+          "grammarDa": "Queria er høfligt og naturligt ved en skranke."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Claro. Para esse pedido de chapéu de sol na praia, normalmente é preciso alugar um chapéu primeiro.",
+          "textDa": "Selvfølgelig. Til henvendelsen om parasol på stranden skal man normalt først leje en parasol.",
+          "grammarDa": "É preciso + infinitiv forklarer et krav."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Não sabia isso quando procurei chapéu de sol para alugar um chapéu esta manhã.",
+          "textDa": "Det vidste jeg ikke, da jeg søgte efter parasol for at leje en parasol her til morgen.",
+          "grammarDa": "Procurei er en afsluttet handling i datid."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Tem algum documento ou pergunta concreta sobre chapéu de sol na praia antes de alugar um chapéu?",
+          "textDa": "Har De et dokument eller et konkret spørgsmål om parasol på stranden, før De skal leje en parasol?",
+          "grammarDa": "Tem er nutid af ter."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Tenho esta informação sobre chapéu de sol na praia para alugar um chapéu, mas não sei se está atualizada.",
+          "textDa": "Jeg har denne oplysning om parasol på stranden for at leje en parasol, men jeg ved ikke, om den er opdateret.",
+          "grammarDa": "Tenho og está viser ter og estar i praksis."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Então confirme aqui no balcão antes de avançar com chapéu de sol na praia.",
+          "textDa": "Bekræft det så her ved skranken, før De går videre med parasol på stranden.",
+          "grammarDa": "Confirme er en høflig opfordring."
+        },
+        {
+          "speaker": "A",
+          "textPt": "O aviso diz \"BANDEIRA VERMELHA\"; isso aplica-se também a chapéu de sol na praia?",
+          "textDa": "Skiltet siger \"BANDEIRA VERMELHA\"; gælder det også for parasol på stranden?",
+          "grammarDa": "Aplica-se betyder gælder."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Sim, aqui o aviso \"BANDEIRA VERMELHA\" regula o uso do serviço durante chapéu de sol na praia.",
+          "textDa": "Ja, her betyder skiltet \"BANDEIRA VERMELHA\" rødt flag, mens det handler om parasol på stranden.",
+          "grammarDa": "Significa er et nyttigt forklaringsverbum."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Depois de alugar um chapéu na praia, posso voltar aqui se tiver dúvidas?",
+          "textDa": "Når jeg er færdig med parasol på stranden, kan jeg komme tilbage hertil, hvis jeg er i tvivl?",
+          "grammarDa": "Se tiver dúvidas er en nyttig betingelse."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Pode, e também pode guardar esta nota sobre chapéu de sol na praia.",
+          "textDa": "Ja, og De kan også gemme denne note om parasol på stranden.",
+          "grammarDa": "Também binder informationen sammen."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "chapéu de sol",
+          "textDa": "parasol"
+        },
+        {
+          "textPt": "alugar um chapéu",
+          "textDa": "leje en parasol"
+        },
+        {
+          "textPt": "BANDEIRA VERMELHA",
+          "textDa": "rødt flag"
+        },
+        {
+          "textPt": "documento",
+          "textDa": "dokument"
+        },
+        {
+          "textPt": "balcão",
+          "textDa": "skranke/disk"
+        },
+        {
+          "textPt": "caminhar",
+          "textDa": "at gå"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Regelmæssigt verbum: caminhar",
+          "explanationDa": "caminhar betyder \"at gå\". Dialogen bruger nutid til det, der sker nu, og pretérito perfeito til en enkel afsluttet handling.",
+          "verb": "caminhar",
+          "verbDa": "at gå",
+          "conjugation": [
+            {
+              "subject": "eu (presente)",
+              "form": "caminho"
+            },
+            {
+              "subject": "tu (presente)",
+              "form": "caminhas"
+            },
+            {
+              "subject": "ele/ela/voce (presente)",
+              "form": "caminha"
+            },
+            {
+              "subject": "nos (presente)",
+              "form": "caminhamos"
+            },
+            {
+              "subject": "voces (presente)",
+              "form": "caminham"
+            },
+            {
+              "subject": "eles/elas (presente)",
+              "form": "caminham"
+            },
+            {
+              "subject": "eu (pretérito perfeito)",
+              "form": "caminhei"
+            },
+            {
+              "subject": "tu (pretérito perfeito)",
+              "form": "caminhaste"
+            },
+            {
+              "subject": "ele/ela/voce (pretérito perfeito)",
+              "form": "caminhou"
+            },
+            {
+              "subject": "nos (pretérito perfeito)",
+              "form": "caminhamos"
+            },
+            {
+              "subject": "voces (pretérito perfeito)",
+              "form": "caminharam"
+            },
+            {
+              "subject": "eles/elas (pretérito perfeito)",
+              "form": "caminharam"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Hoje caminho chapéu de sol.",
+              "da": "I dag arbejder jeg med parasol."
+            },
+            {
+              "pt": "Esta manhã caminhei chapéu de sol.",
+              "da": "I går arbejdede jeg med parasol."
+            }
+          ],
+          "notesDa": "Læg mærke til forskellen mellem caminho og caminhei; tidsordet viser ofte om handlingen er nu eller afsluttet.",
+          "commonMistakes": [
+            {
+              "da": "Undgå at oversætte ord for ord fra dansk. Vælg et konkret portugisisk verbum som caminhar."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "titleDa": "Vand og mad",
+      "objectiveDa": "Træn vand og sandwich med konkrete handlinger, høflige spørgsmål og naturlig europæisk portugisisk.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Bom dia, queria informação sobre água e sandes para comprar água.",
+          "textDa": "Goddag, jeg vil gerne have information om vand og sandwich, så jeg kan blive længere.",
+          "grammarDa": "Queria er høfligt og naturligt ved en skranke."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Claro. Para esse pedido de água e sandes na praia, normalmente é preciso comprar água primeiro.",
+          "textDa": "Selvfølgelig. Til henvendelsen om vand og sandwich på stranden skal man normalt først købe vand.",
+          "grammarDa": "É preciso + infinitiv forklarer et krav."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Não sabia isso quando procurei água e sandes para comprar água esta manhã.",
+          "textDa": "Det vidste jeg ikke, da jeg søgte efter vand og sandwich for at købe vand her til morgen.",
+          "grammarDa": "Procurei er en afsluttet handling i datid."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Tem algum documento ou pergunta concreta sobre água e sandes na praia antes de comprar água?",
+          "textDa": "Har De et dokument eller et konkret spørgsmål om vand og sandwich på stranden, før De skal købe vand?",
+          "grammarDa": "Tem er nutid af ter."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Tenho esta informação sobre água e sandes na praia para comprar água, mas não sei se está atualizada.",
+          "textDa": "Jeg har denne oplysning om vand og sandwich på stranden for at købe vand, men jeg ved ikke, om den er opdateret.",
+          "grammarDa": "Tenho og está viser ter og estar i praksis."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Então confirme aqui no balcão antes de avançar com água e sandes na praia.",
+          "textDa": "Bekræft det så her ved skranken, før De går videre med vand og sandwich på stranden.",
+          "grammarDa": "Confirme er en høflig opfordring."
+        },
+        {
+          "speaker": "A",
+          "textPt": "O aviso diz \"BANDEIRA VERMELHA\"; isso aplica-se também a água e sandes na praia?",
+          "textDa": "Skiltet siger \"BANDEIRA VERMELHA\"; gælder det også for vand og sandwich på stranden?",
+          "grammarDa": "Aplica-se betyder gælder."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Sim, aqui o aviso \"BANDEIRA VERMELHA\" regula o uso do serviço durante água e sandes na praia.",
+          "textDa": "Ja, her betyder skiltet \"BANDEIRA VERMELHA\" rødt flag, mens det handler om vand og sandwich på stranden.",
+          "grammarDa": "Significa er et nyttigt forklaringsverbum."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Depois de comprar água na praia, posso voltar aqui se tiver dúvidas?",
+          "textDa": "Når jeg er færdig med vand og sandwich på stranden, kan jeg komme tilbage hertil, hvis jeg er i tvivl?",
+          "grammarDa": "Se tiver dúvidas er en nyttig betingelse."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Pode, e também pode guardar esta nota sobre água e sandes na praia.",
+          "textDa": "Ja, og De kan også gemme denne note om vand og sandwich på stranden.",
+          "grammarDa": "Também binder informationen sammen."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "água e sandes",
+          "textDa": "vand og sandwich"
+        },
+        {
+          "textPt": "comprar água",
+          "textDa": "købe vand"
+        },
+        {
+          "textPt": "BANDEIRA VERMELHA",
+          "textDa": "rødt flag"
+        },
+        {
+          "textPt": "documento",
+          "textDa": "dokument"
+        },
+        {
+          "textPt": "balcão",
+          "textDa": "skranke/disk"
+        },
+        {
+          "textPt": "caminhar",
+          "textDa": "at gå"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Regelmæssigt verbum: caminhar",
+          "explanationDa": "caminhar betyder \"at gå\". Dialogen bruger nutid til det, der sker nu, og pretérito perfeito til en enkel afsluttet handling.",
+          "verb": "caminhar",
+          "verbDa": "at gå",
+          "conjugation": [
+            {
+              "subject": "eu (presente)",
+              "form": "caminho"
+            },
+            {
+              "subject": "tu (presente)",
+              "form": "caminhas"
+            },
+            {
+              "subject": "ele/ela/voce (presente)",
+              "form": "caminha"
+            },
+            {
+              "subject": "nos (presente)",
+              "form": "caminhamos"
+            },
+            {
+              "subject": "voces (presente)",
+              "form": "caminham"
+            },
+            {
+              "subject": "eles/elas (presente)",
+              "form": "caminham"
+            },
+            {
+              "subject": "eu (pretérito perfeito)",
+              "form": "caminhei"
+            },
+            {
+              "subject": "tu (pretérito perfeito)",
+              "form": "caminhaste"
+            },
+            {
+              "subject": "ele/ela/voce (pretérito perfeito)",
+              "form": "caminhou"
+            },
+            {
+              "subject": "nos (pretérito perfeito)",
+              "form": "caminhamos"
+            },
+            {
+              "subject": "voces (pretérito perfeito)",
+              "form": "caminharam"
+            },
+            {
+              "subject": "eles/elas (pretérito perfeito)",
+              "form": "caminharam"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Hoje caminho água e sandes.",
+              "da": "I dag arbejder jeg med vand og sandwich."
+            },
+            {
+              "pt": "Esta manhã caminhei água e sandes.",
+              "da": "I går arbejdede jeg med vand og sandwich."
+            }
+          ],
+          "notesDa": "Læg mærke til forskellen mellem caminho og caminhei; tidsordet viser ofte om handlingen er nu eller afsluttet.",
+          "commonMistakes": [
+            {
+              "da": "Undgå at oversætte ord for ord fra dansk. Vælg et konkret portugisisk verbum som caminhar."
             }
           ]
         }
@@ -1389,97 +1341,102 @@
     },
     {
       "id": 9,
-      "titleDa": "Svømme forsigtigt",
-      "objectiveDa": "Træn en realistisk mini-dialog om svømme forsigtigt.",
+      "titleDa": "Mistet ting",
+      "objectiveDa": "Træn mistet ting med konkrete handlinger, høflige spørgsmål og naturlig europæisk portugisisk.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de nadar com cuidado; pode orientar-me?",
-          "textDa": "Undskyld, jeg er ved at ordne svømme forsigtigt; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
+          "textPt": "Bom dia, queria informação sobre objeto perdido para entregar no posto.",
+          "textDa": "Goddag, jeg vil gerne have information om mistet ting, så jeg kan finde tasken.",
+          "grammarDa": "Queria er høfligt og naturligt ved en skranke."
         },
         {
           "speaker": "B",
-          "textPt": "As crianças pergunta se nadar com cuidado é para hoje ou para mais tarde.",
-          "textDa": "Børnene spørger, om svømme forsigtigt er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
+          "textPt": "Claro. Para esse pedido de objeto perdido na praia, normalmente é preciso entregar no posto primeiro.",
+          "textDa": "Selvfølgelig. Til henvendelsen om mistet ting på stranden skal man normalt først aflevere ved posten.",
+          "grammarDa": "É preciso + infinitiv forklarer et krav."
         },
         {
           "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver nadar com cuidado.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at ordne svømme forsigtigt.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
+          "textPt": "Não sabia isso quando procurei objeto perdido para entregar no posto esta manhã.",
+          "textDa": "Det vidste jeg ikke, da jeg søgte efter mistet ting for at aflevere ved posten her til morgen.",
+          "grammarDa": "Procurei er en afsluttet handling i datid."
         },
         {
           "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de nadar com cuidado.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om svømme forsigtigt.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+          "textPt": "Tem algum documento ou pergunta concreta sobre objeto perdido na praia antes de entregar no posto?",
+          "textDa": "Har De et dokument eller et konkret spørgsmål om mistet ting på stranden, før De skal aflevere ved posten?",
+          "grammarDa": "Tem er nutid af ter."
         },
         {
           "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com nadar com cuidado?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med svømme forsigtigt?",
-          "grammarDa": "Avançarmos er nós-form efter para."
+          "textPt": "Tenho esta informação sobre objeto perdido na praia para entregar no posto, mas não sei se está atualizada.",
+          "textDa": "Jeg har denne oplysning om mistet ting på stranden for at aflevere ved posten, men jeg ved ikke, om den er opdateret.",
+          "grammarDa": "Tenho og está viser ter og estar i praksis."
         },
         {
           "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre nadar com cuidado; depois as crianças regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om svømme forsigtigt; derefter registrerer børnene det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
+          "textPt": "Então confirme aqui no balcão antes de avançar com objeto perdido na praia.",
+          "textDa": "Bekræft det så her ved skranken, før De går videre med mistet ting på stranden.",
+          "grammarDa": "Confirme er en høflig opfordring."
         },
         {
           "speaker": "A",
-          "textPt": "Se houver algum problema com nadar com cuidado, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med svømme forsigtigt, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
+          "textPt": "O aviso diz \"BANDEIRA VERMELHA\"; isso aplica-se também a objeto perdido na praia?",
+          "textDa": "Skiltet siger \"BANDEIRA VERMELHA\"; gælder det også for mistet ting på stranden?",
+          "grammarDa": "Aplica-se betyder gælder."
         },
         {
           "speaker": "B",
-          "textPt": "Pode, mas talvez nadar com cuidado fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver svømme forsigtigt løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
+          "textPt": "Sim, aqui o aviso \"BANDEIRA VERMELHA\" regula o uso do serviço durante objeto perdido na praia.",
+          "textDa": "Ja, her betyder skiltet \"BANDEIRA VERMELHA\" rødt flag, mens det handler om mistet ting på stranden.",
+          "grammarDa": "Significa er et nyttigt forklaringsverbum."
         },
         {
           "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre nadar com cuidado.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om svømme forsigtigt.",
-          "grammarDa": "Agradecia er høfligt."
+          "textPt": "Depois de entregar no posto na praia, posso voltar aqui se tiver dúvidas?",
+          "textDa": "Når jeg er færdig med mistet ting på stranden, kan jeg komme tilbage hertil, hvis jeg er i tvivl?",
+          "grammarDa": "Se tiver dúvidas er en nyttig betingelse."
         },
         {
           "speaker": "B",
-          "textPt": "Combinado; quando nadar com cuidado estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når svømme forsigtigt er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
+          "textPt": "Pode, e também pode guardar esta nota sobre objeto perdido na praia.",
+          "textDa": "Ja, og De kan også gemme denne note om mistet ting på stranden.",
+          "grammarDa": "Também binder informationen sammen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "nadar com cuidado",
-          "textDa": "svømme forsigtigt"
+          "textPt": "objeto perdido",
+          "textDa": "mistet ting"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "entregar no posto",
+          "textDa": "aflevere ved posten"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "BANDEIRA VERMELHA",
+          "textDa": "rødt flag"
         },
         {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
+          "textPt": "documento",
+          "textDa": "dokument"
         },
         {
-          "textPt": "processo",
-          "textDa": "sag/proces"
+          "textPt": "balcão",
+          "textDa": "skranke/disk"
+        },
+        {
+          "textPt": "caminhar",
+          "textDa": "at gå"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Praia",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
+          "titleDa": "Regelmæssigt verbum: caminhar",
+          "explanationDa": "caminhar betyder \"at gå\". Dialogen bruger nutid til det, der sker nu, og pretérito perfeito til en enkel afsluttet handling.",
           "verb": "caminhar",
+          "verbDa": "at gå",
           "conjugation": [
             {
               "subject": "eu (presente)",
@@ -1490,15 +1447,15 @@
               "form": "caminhas"
             },
             {
-              "subject": "ele/ela/você (presente)",
+              "subject": "ele/ela/voce (presente)",
               "form": "caminha"
             },
             {
-              "subject": "nós (presente)",
+              "subject": "nos (presente)",
               "form": "caminhamos"
             },
             {
-              "subject": "vocês (presente)",
+              "subject": "voces (presente)",
               "form": "caminham"
             },
             {
@@ -1514,15 +1471,15 @@
               "form": "caminhaste"
             },
             {
-              "subject": "ele/ela/você (pretérito perfeito)",
+              "subject": "ele/ela/voce (pretérito perfeito)",
               "form": "caminhou"
             },
             {
-              "subject": "nós (pretérito perfeito)",
-              "form": "caminhámos"
+              "subject": "nos (pretérito perfeito)",
+              "form": "caminhamos"
             },
             {
-              "subject": "vocês (pretérito perfeito)",
+              "subject": "voces (pretérito perfeito)",
               "form": "caminharam"
             },
             {
@@ -1532,29 +1489,18 @@
           ],
           "examples": [
             {
-              "pt": "Hoje nós caminhamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Hoje caminho objeto perdido.",
+              "da": "I dag arbejder jeg med mistet ting."
             },
             {
-              "pt": "Ontem a funcionária caminhou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "Esta manhã caminhei objeto perdido.",
+              "da": "I går arbejdede jeg med mistet ting."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Læg mærke til forskellen mellem caminho og caminhei; tidsordet viser ofte om handlingen er nu eller afsluttet.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "da": "Undgå at oversætte ord for ord fra dansk. Vælg et konkret portugisisk verbum som caminhar."
             }
           ]
         }
@@ -1562,97 +1508,102 @@
     },
     {
       "id": 10,
-      "titleDa": "Planer til senere",
-      "objectiveDa": "Træn en realistisk mini-dialog om planer til senere.",
+      "titleDa": "Afgang og retur",
+      "objectiveDa": "Træn tilbage til hotellet med konkrete handlinger, høflige spørgsmål og naturlig europæisk portugisisk.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de planos para logo; pode orientar-me?",
-          "textDa": "Undskyld, jeg er ved at ordne planer til senere; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
+          "textPt": "Bom dia, queria informação sobre regresso ao hotel para combinar a saída hoje.",
+          "textDa": "Goddag, jeg vil gerne have information om tilbage til hotellet, så jeg kan komme hjem før mørke.",
+          "grammarDa": "Queria er høfligt og naturligt ved en skranke."
         },
         {
           "speaker": "B",
-          "textPt": "O responsável pergunta se planos para logo é para hoje ou para mais tarde.",
-          "textDa": "Den ansvarlige spørger, om planer til senere er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
+          "textPt": "Claro. Para esse pedido de regresso ao hotel na praia, normalmente é preciso combinar a saída primeiro.",
+          "textDa": "Selvfølgelig. Til henvendelsen om tilbage til hotellet på stranden skal man normalt først aftale afgang.",
+          "grammarDa": "É preciso + infinitiv forklarer et krav."
         },
         {
           "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver planos para logo.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at ordne planer til senere.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
+          "textPt": "Não sabia isso quando procurei regresso ao hotel para combinar a saída esta manhã.",
+          "textDa": "Det vidste jeg ikke, da jeg søgte efter tilbage til hotellet for at aftale afgang her til morgen.",
+          "grammarDa": "Procurei er en afsluttet handling i datid."
         },
         {
           "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de planos para logo.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om planer til senere.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+          "textPt": "Tem algum documento ou pergunta concreta sobre regresso ao hotel na praia antes de combinar a saída?",
+          "textDa": "Har De et dokument eller et konkret spørgsmål om tilbage til hotellet på stranden, før De skal aftale afgang?",
+          "grammarDa": "Tem er nutid af ter."
         },
         {
           "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com planos para logo?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med planer til senere?",
-          "grammarDa": "Avançarmos er nós-form efter para."
+          "textPt": "Tenho esta informação sobre regresso ao hotel na praia para combinar a saída, mas não sei se está atualizada.",
+          "textDa": "Jeg har denne oplysning om tilbage til hotellet på stranden for at aftale afgang, men jeg ved ikke, om den er opdateret.",
+          "grammarDa": "Tenho og está viser ter og estar i praksis."
         },
         {
           "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre planos para logo; depois o responsável regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om planer til senere; derefter registrerer den ansvarlige det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
+          "textPt": "Então confirme aqui no balcão antes de avançar com regresso ao hotel na praia.",
+          "textDa": "Bekræft det så her ved skranken, før De går videre med tilbage til hotellet på stranden.",
+          "grammarDa": "Confirme er en høflig opfordring."
         },
         {
           "speaker": "A",
-          "textPt": "Se houver algum problema com planos para logo, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med planer til senere, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
+          "textPt": "O aviso diz \"BANDEIRA VERMELHA\"; isso aplica-se também a regresso ao hotel na praia?",
+          "textDa": "Skiltet siger \"BANDEIRA VERMELHA\"; gælder det også for tilbage til hotellet på stranden?",
+          "grammarDa": "Aplica-se betyder gælder."
         },
         {
           "speaker": "B",
-          "textPt": "Pode, mas talvez planos para logo fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver planer til senere løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
+          "textPt": "Sim, aqui o aviso \"BANDEIRA VERMELHA\" regula o uso do serviço durante regresso ao hotel na praia.",
+          "textDa": "Ja, her betyder skiltet \"BANDEIRA VERMELHA\" rødt flag, mens det handler om tilbage til hotellet på stranden.",
+          "grammarDa": "Significa er et nyttigt forklaringsverbum."
         },
         {
           "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre planos para logo.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om planer til senere.",
-          "grammarDa": "Agradecia er høfligt."
+          "textPt": "Depois de combinar a saída na praia, posso voltar aqui se tiver dúvidas?",
+          "textDa": "Når jeg er færdig med tilbage til hotellet på stranden, kan jeg komme tilbage hertil, hvis jeg er i tvivl?",
+          "grammarDa": "Se tiver dúvidas er en nyttig betingelse."
         },
         {
           "speaker": "B",
-          "textPt": "Combinado; quando planos para logo estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når planer til senere er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
+          "textPt": "Pode, e também pode guardar esta nota sobre regresso ao hotel na praia.",
+          "textDa": "Ja, og De kan også gemme denne note om tilbage til hotellet på stranden.",
+          "grammarDa": "Também binder informationen sammen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "planos para logo",
-          "textDa": "planer til senere"
+          "textPt": "regresso ao hotel",
+          "textDa": "tilbage til hotellet"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "combinar a saída",
+          "textDa": "aftale afgang"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "BANDEIRA VERMELHA",
+          "textDa": "rødt flag"
         },
         {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
+          "textPt": "documento",
+          "textDa": "dokument"
         },
         {
-          "textPt": "processo",
-          "textDa": "sag/proces"
+          "textPt": "balcão",
+          "textDa": "skranke/disk"
+        },
+        {
+          "textPt": "caminhar",
+          "textDa": "at gå"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Praia",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
+          "titleDa": "Regelmæssigt verbum: caminhar",
+          "explanationDa": "caminhar betyder \"at gå\". Dialogen bruger nutid til det, der sker nu, og pretérito perfeito til en enkel afsluttet handling.",
           "verb": "caminhar",
+          "verbDa": "at gå",
           "conjugation": [
             {
               "subject": "eu (presente)",
@@ -1663,15 +1614,15 @@
               "form": "caminhas"
             },
             {
-              "subject": "ele/ela/você (presente)",
+              "subject": "ele/ela/voce (presente)",
               "form": "caminha"
             },
             {
-              "subject": "nós (presente)",
+              "subject": "nos (presente)",
               "form": "caminhamos"
             },
             {
-              "subject": "vocês (presente)",
+              "subject": "voces (presente)",
               "form": "caminham"
             },
             {
@@ -1687,15 +1638,15 @@
               "form": "caminhaste"
             },
             {
-              "subject": "ele/ela/você (pretérito perfeito)",
+              "subject": "ele/ela/voce (pretérito perfeito)",
               "form": "caminhou"
             },
             {
-              "subject": "nós (pretérito perfeito)",
-              "form": "caminhámos"
+              "subject": "nos (pretérito perfeito)",
+              "form": "caminhamos"
             },
             {
-              "subject": "vocês (pretérito perfeito)",
+              "subject": "voces (pretérito perfeito)",
               "form": "caminharam"
             },
             {
@@ -1705,297 +1656,261 @@
           ],
           "examples": [
             {
-              "pt": "Hoje nós caminhamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Hoje caminho regresso ao hotel.",
+              "da": "I dag arbejder jeg med tilbage til hotellet."
             },
             {
-              "pt": "Ontem a funcionária caminhou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "Esta manhã caminhei regresso ao hotel.",
+              "da": "I går arbejdede jeg med tilbage til hotellet."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Læg mærke til forskellen mellem caminho og caminhei; tidsordet viser ofte om handlingen er nu eller afsluttet.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "da": "Undgå at oversætte ord for ord fra dansk. Vælg et konkret portugisisk verbum som caminhar."
             }
           ]
         }
       ]
     }
   ],
+  "story": [
+    {
+      "speaker": "Narrador",
+      "textPt": "Hoje estou på stranden e quero resolver uma situação simples.",
+      "textDa": "I dag er jeg på stranden og vil løse en enkel situation.",
+      "grammarDa": "Estar viser placering."
+    },
+    {
+      "speaker": "Narrador",
+      "textPt": "O lugar é claro, mas leio primeiro o aviso \"BANDEIRA VERMELHA\".",
+      "textDa": "Stedet er overskueligt, men jeg læser først skiltet \"BANDEIRA VERMELHA\".",
+      "grammarDa": "Ser bruges om fast egenskab."
+    },
+    {
+      "speaker": "Narrador",
+      "textPt": "No balcão caminho tempo na praia para ver a previsão.",
+      "textDa": "Ved skranken arbejder jeg med strandvejr, så jeg kan se vejrudsigten.",
+      "grammarDa": "Nutid beskriver handlingen nu."
+    },
+    {
+      "speaker": "Narrador",
+      "textPt": "Ontem caminhei informação sobre tempo na praia, e agora entendo melhor a resposta.",
+      "textDa": "her til morgen arbejdede jeg med strandvejr, og nu forstår jeg svaret bedre.",
+      "grammarDa": "Datid viser den afsluttede handling."
+    },
+    {
+      "speaker": "Narrador",
+      "textPt": "No balcão confirmo mar calmo para observar o mar.",
+      "textDa": "Ved skranken arbejder jeg med roligt hav, så jeg kan se på havet.",
+      "grammarDa": "Nutid beskriver handlingen nu."
+    },
+    {
+      "speaker": "Narrador",
+      "textPt": "Ontem caminhei informação sobre mar calmo, e agora entendo melhor a resposta.",
+      "textDa": "her til morgen arbejdede jeg med roligt hav, og nu forstår jeg svaret bedre.",
+      "grammarDa": "Datid viser den afsluttede handling."
+    },
+    {
+      "speaker": "Narrador",
+      "textPt": "No balcão caminho ondas fortes para perguntar ao nadador-salvador.",
+      "textDa": "Ved skranken arbejder jeg med kraftige bølger, så jeg kan spørge livredderen.",
+      "grammarDa": "Nutid beskriver handlingen nu."
+    },
+    {
+      "speaker": "Narrador",
+      "textPt": "Ontem caminhei informação sobre ondas fortes, e agora entendo melhor a resposta.",
+      "textDa": "her til morgen arbejdede jeg med kraftige bølger, og nu forstår jeg svaret bedre.",
+      "grammarDa": "Datid viser den afsluttede handling."
+    },
+    {
+      "speaker": "Narrador",
+      "textPt": "No balcão pergunto vento norte para procurar abrigo.",
+      "textDa": "Ved skranken arbejder jeg med nordenvind, så jeg kan finde læ.",
+      "grammarDa": "Nutid beskriver handlingen nu."
+    },
+    {
+      "speaker": "Narrador",
+      "textPt": "Ontem caminhei informação sobre vento norte, e agora entendo melhor a resposta.",
+      "textDa": "her til morgen arbejdede jeg med nordenvind, og nu forstår jeg svaret bedre.",
+      "grammarDa": "Datid viser den afsluttede handling."
+    },
+    {
+      "speaker": "Narrador",
+      "textPt": "No balcão caminho nadador-salvador para falar com o nadador-salvador.",
+      "textDa": "Ved skranken arbejder jeg med livredder, så jeg kan tale med livredderen.",
+      "grammarDa": "Nutid beskriver handlingen nu."
+    },
+    {
+      "speaker": "Narrador",
+      "textPt": "Ontem caminhei informação sobre nadador-salvador, e agora entendo melhor a resposta.",
+      "textDa": "her til morgen arbejdede jeg med livredder, og nu forstår jeg svaret bedre.",
+      "grammarDa": "Datid viser den afsluttede handling."
+    },
+    {
+      "speaker": "Narrador",
+      "textPt": "No balcão confirmo protetor solar para comprar protetor.",
+      "textDa": "Ved skranken arbejder jeg med solcreme, så jeg kan købe solcreme.",
+      "grammarDa": "Nutid beskriver handlingen nu."
+    },
+    {
+      "speaker": "Narrador",
+      "textPt": "Ontem caminhei informação sobre protetor solar, e agora entendo melhor a resposta.",
+      "textDa": "her til morgen arbejdede jeg med solcreme, og nu forstår jeg svaret bedre.",
+      "grammarDa": "Datid viser den afsluttede handling."
+    },
+    {
+      "speaker": "Narrador",
+      "textPt": "No balcão caminho chapéu de sol para alugar um chapéu.",
+      "textDa": "Ved skranken arbejder jeg med parasol, så jeg kan leje en parasol.",
+      "grammarDa": "Nutid beskriver handlingen nu."
+    },
+    {
+      "speaker": "Narrador",
+      "textPt": "Ontem caminhei informação sobre chapéu de sol, e agora entendo melhor a resposta.",
+      "textDa": "her til morgen arbejdede jeg med parasol, og nu forstår jeg svaret bedre.",
+      "grammarDa": "Datid viser den afsluttede handling."
+    },
+    {
+      "speaker": "Narrador",
+      "textPt": "No balcão confirmo água e sandes para comprar água.",
+      "textDa": "Ved skranken arbejder jeg med vand og sandwich, så jeg kan købe vand.",
+      "grammarDa": "Nutid beskriver handlingen nu."
+    },
+    {
+      "speaker": "Narrador",
+      "textPt": "Ontem caminhei informação sobre água e sandes, e agora entendo melhor a resposta.",
+      "textDa": "her til morgen arbejdede jeg med vand og sandwich, og nu forstår jeg svaret bedre.",
+      "grammarDa": "Datid viser den afsluttede handling."
+    },
+    {
+      "speaker": "Narrador",
+      "textPt": "No balcão caminho objeto perdido para entregar no posto.",
+      "textDa": "Ved skranken arbejder jeg med mistet ting, så jeg kan aflevere ved posten.",
+      "grammarDa": "Nutid beskriver handlingen nu."
+    },
+    {
+      "speaker": "Narrador",
+      "textPt": "Ontem caminhei informação sobre objeto perdido, e agora entendo melhor a resposta.",
+      "textDa": "her til morgen arbejdede jeg med mistet ting, og nu forstår jeg svaret bedre.",
+      "grammarDa": "Datid viser den afsluttede handling."
+    }
+  ],
   "quiz": [
     {
       "id": 1,
-      "questionDa": "Hvilken sætning passer bedst til temaet \"Praia\"?",
+      "questionDa": "Hvad betyder \"tempo na praia\"?",
       "answers": [
         {
-          "text": "Parece que ondas fortes ainda está disponível.",
+          "text": "strandvejr",
           "correct": true
         },
         {
-          "text": "O gato dorme na janela.",
+          "text": "roligt hav",
           "correct": false
         },
         {
-          "text": "A camisola é azul.",
+          "text": "vejrudsigten",
           "correct": false
         },
         {
-          "text": "Há três maçãs na mesa.",
+          "text": "endestation",
           "correct": false
         }
       ],
-      "explanationDa": "Sætningen hører til lektionen Praia."
+      "explanationDa": "Quizzen bruger ord fra JSON-indholdet."
     },
     {
       "id": 2,
-      "questionDa": "Hvilken form er nós i nutid?",
+      "questionDa": "Hvilken form er eu i nutid af caminhar?",
       "answers": [
         {
-          "text": "caminhamos",
+          "text": "caminho",
           "correct": true
         },
         {
-          "text": "caminhámos",
+          "text": "caminhas",
           "correct": false
         },
         {
-          "text": "falam",
+          "text": "caminhei",
           "correct": false
         },
         {
-          "text": "partiste",
+          "text": "caminham",
           "correct": false
         }
       ],
-      "explanationDa": "Nós-formen følger verbets regelmæssige mønster."
+      "explanationDa": "Eu-formen i nutid er caminho."
     },
     {
       "id": 3,
-      "questionDa": "Hvilken form er nós i pretérito perfeito?",
+      "questionDa": "Hvilken form er eu i pretérito perfeito af caminhar?",
       "answers": [
         {
-          "text": "caminhámos",
+          "text": "caminhei",
           "correct": true
+        },
+        {
+          "text": "caminho",
+          "correct": false
+        },
+        {
+          "text": "caminhou",
+          "correct": false
         },
         {
           "text": "caminhamos",
           "correct": false
-        },
-        {
-          "text": "procuram",
-          "correct": false
-        },
-        {
-          "text": "beberam",
-          "correct": false
         }
       ],
-      "explanationDa": "Pretérito perfeito bruges om en afsluttet handling."
+      "explanationDa": "Datidsformen for eu er caminhei."
     },
     {
       "id": 4,
-      "questionDa": "Hvad betyder: Parece que ondas fortes ainda está disponível.",
+      "questionDa": "Fuldfør sætningen: Tenho esta informação, mas não sei se ___ atualizada.",
       "answers": [
         {
-          "text": "Det ser ud til, at stærke bølger stadig er tilgængelig.",
+          "text": "está",
           "correct": true
         },
         {
-          "text": "Jeg har travlt i morgen.",
+          "text": "é",
           "correct": false
         },
         {
-          "text": "Vi bestilte to kaffe.",
+          "text": "sou",
           "correct": false
         },
         {
-          "text": "Børnene leger udenfor.",
+          "text": "têm",
           "correct": false
         }
       ],
-      "explanationDa": "Oversættelsen kommer fra dialogernes ordforråd."
+      "explanationDa": "Estar bruges om midlertidig status."
     },
     {
       "id": 5,
-      "questionDa": "Vælg den mest naturlige høflige formulering.",
+      "questionDa": "Hvilket ord passer bedst til skiltet \"BANDEIRA VERMELHA\"?",
       "answers": [
         {
-          "text": "Pode ajudar-me, por favor?",
+          "text": "rødt flag",
           "correct": true
         },
         {
-          "text": "Ajuda mim agora.",
+          "text": "gratis adgang",
           "correct": false
         },
         {
-          "text": "Você ajuda eu?",
+          "text": "kun kontant",
           "correct": false
         },
         {
-          "text": "Dar ajuda rápido.",
+          "text": "lukket hele dagen",
           "correct": false
         }
       ],
-      "explanationDa": "Pode ajudar-me, por favor? er en naturlig høflig formulering."
-    },
-    {
-      "id": 6,
-      "questionDa": "Hvilken portugisisk form er tallet 99?",
-      "answers": [
-        {
-          "text": "noventa e nove",
-          "correct": true
-        },
-        {
-          "text": "vinte",
-          "correct": false
-        },
-        {
-          "text": "sessenta",
-          "correct": false
-        },
-        {
-          "text": "noventa",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Talquizzen kommer fra JSON og kan genbruges i fremtidige niveauer."
-    }
-  ],
-  "storyTitleDa": "En blæsende eftermiddag på stranden",
-  "storyObjectiveDa": "Læs en kort tekst med en konkret situation, varierede subjekter, regelmæssige verber og lidt pretérito perfeito.",
-  "story": [
-    {
-      "speaker": "A",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre ondas fortes.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om stærke bølger.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "A pessoa responsável verificou ondas fortes com calma antes de responder.",
-      "textDa": "Den ansvarlige person tjekkede stærke bølger roligt, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre protetor solar.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om solcreme.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "A pessoa responsável verificou protetor solar com calma antes de responder.",
-      "textDa": "Den ansvarlige person tjekkede solcreme roligt, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre chapéu de sol.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om parasol.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "A pessoa responsável verificou chapéu de sol com calma antes de responder.",
-      "textDa": "Den ansvarlige person tjekkede parasol roligt, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre lugar mais calmo.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om roligere sted.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "A pessoa responsável verificou lugar mais calmo com calma antes de responder.",
-      "textDa": "Den ansvarlige person tjekkede roligere sted roligt, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre nadador-salvador.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om livredder.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "A pessoa responsável verificou nadador-salvador com calma antes de responder.",
-      "textDa": "Den ansvarlige person tjekkede livredder roligt, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre mochila perdida.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om mistet rygsæk.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "A pessoa responsável verificou mochila perdida com calma antes de responder.",
-      "textDa": "Den ansvarlige person tjekkede mistet rygsæk roligt, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre água fresca.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om koldt vand.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "A pessoa responsável verificou água fresca com calma antes de responder.",
-      "textDa": "Den ansvarlige person tjekkede koldt vand roligt, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre vento norte.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om nordenvind.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "A pessoa responsável verificou vento norte com calma antes de responder.",
-      "textDa": "Den ansvarlige person tjekkede nordenvind roligt, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre nadar com cuidado.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om svømme forsigtigt.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "A pessoa responsável verificou nadar com cuidado com calma antes de responder.",
-      "textDa": "Den ansvarlige person tjekkede svømme forsigtigt roligt, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre planos para logo.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om planer til senere.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "A pessoa responsável verificou planos para logo com calma antes de responder.",
-      "textDa": "Den ansvarlige person tjekkede planer til senere roligt, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
+      "explanationDa": "Skilte og korte opslag ligger også i JSON."
     }
   ]
 }

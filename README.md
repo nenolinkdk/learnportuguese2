@@ -22,7 +22,7 @@ The app reuses the existing Learn Portuguese Java/Android structure and keeps Ni
 
 - `tools/validate_navigation_content.ps1` validates deterministic dialog navigation assumptions and checks that helper/feedback phrases are not stored as children dialog content.
 - The same script checks shared lesson status formatting, dialog breadcrumb metadata, release metadata, Nenolink link wiring, and children safety phrases.
-- It also validates Learn Portuguese 3 lesson count, dialog count, exactly 10 phrases per dialog, duplicate-free dialog text, story length, grammar/conjugation/common-mistake structure, quiz presence, cautious pharmacy wording and deterministic navigation.
+- It also validates Learn Portuguese 3 lesson count, dialog count, exactly 10 phrases per dialog, duplicate-free dialog text, story length, grammar/conjugation/common-mistake structure, quiz presence, required curated theme vocabulary/signs and deterministic navigation.
 
 ## Learn Portuguese 3
 
@@ -30,7 +30,7 @@ Learn Portuguese 3 is prepared as the next lower-intermediate Nenoling package. 
 
 Because `level3` is already used for Children, the Learn Portuguese 3 product package is stored as `levels/level4` with `productLevel: 3`. It contains 10 lessons, 10 coherent dialogs per lesson, exactly 10 original phrase entries per dialog, JSON grammar notes for regular verbs, conjugation tables, common mistakes, quizzes and one approximately 20-line reading text per lesson.
 
-The current Learn Portuguese 3 themes are library, café and pastry shop, news and information, municipal office, swimming pool and sports centre, children’s clothing, computer and internet, bicycle rental, beach, taxi and finding the way. The taxi lesson also contains cautious pharmacy language for asking practical questions without giving medical advice.
+The current Learn Portuguese 3 themes are library, cafe and pastry shop, news and information, municipal office, swimming pool and sports centre, children's clothing, computer and internet, bicycle rental, beach, and taxi/bus/train/metro/Uber. The content is a fixed curated JSON course package, not generated dynamically from generic sentence templates at runtime.
 
 ## Documentation
 

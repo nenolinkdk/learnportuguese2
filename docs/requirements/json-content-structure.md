@@ -234,9 +234,9 @@ The current Learn Portuguese 3 theme set is:
 - Computador e internet
 - Alugar uma bicicleta
 - Praia
-- Táxi e encontrar o caminho
+- Táxi, autocarro, comboio, metro e Uber
 
-Pharmacy content belongs inside the shared lesson/dialog schema too. It should use cautious, practical language such as asking for a duty pharmacy, asking whether a prescription is needed, asking about suitability for children, reading package instructions and contacting a doctor when relevant. It must be framed as language-learning support, not medical advice.
+Learn Portuguese 3 is a fixed curated JSON course package. The app loads it through the same level, lesson, dialog, story and quiz parser as the other packages; it is not generated dynamically from generic sentence templates at runtime. New revisions should start from correct Danish workplace or everyday actions first, then choose a short natural European Portuguese equivalent.
 
 The optional `commonMistakes` grammar array uses this shape:
 
