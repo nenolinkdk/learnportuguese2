@@ -315,6 +315,32 @@ Release metadata is defined in `app/build.gradle`:
 
 The main menu displays these values from Gradle-generated Android metadata/resources. The Nenolink website URL is also defined once in `app/build.gradle` as the generated `nenolink_url` string resource. The user guide opens this URL through a browser intent; the guide itself remains bundled and offline.
 
+## Android Application Package
+
+The app is a normal Android application module declared by `settings.gradle` as `:app`. The Android identity is defined in `app/build.gradle`:
+
+- `namespace "dk.nenolink.learnportuguese2"`
+- `applicationId "dk.nenolink.learnportuguese2"`
+- `minSdk 23`
+- `targetSdk 35`
+- `compileSdk 35`
+
+The launcher is declared in `app/src/main/AndroidManifest.xml`. `MainActivity` is exported and has the required `android.intent.action.MAIN` and `android.intent.category.LAUNCHER` intent filter. The app label and launcher icons are configured on the `<application>` element.
+
+Android Studio Run uses the standard debug artifact:
+
+```text
+app/build/outputs/apk/debug/app-debug.apk
+```
+
+For manual testing, Gradle copies a fresh successful debug build to:
+
+```text
+app/build/outputs/apk/debug/LearnPortuguese2Test.apk
+```
+
+This copy step happens after `assembleDebug`; it does not replace Android Studio's normal APK output.
+
 ## Learn Portuguese 3 Package
 
 Learn Portuguese 3 is the next lower-intermediate Nenoling language package. The existing `level3` folder is reserved for Children, so Learn Portuguese 3 is stored in `app/src/main/assets/levels/level4/` with `titleDa: "Learn Portuguese 3"` and `productLevel: 3`.

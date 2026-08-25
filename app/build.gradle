@@ -3,7 +3,7 @@ plugins {
 }
 
 ext {
-    releaseDate = "2026-07-12"
+    releaseDate = "2026-08-25"
 }
 
 android {
@@ -14,8 +14,8 @@ android {
         applicationId "dk.nenolink.learnportuguese2"
         minSdk 23
         targetSdk 35
-        versionCode 12
-        versionName "0.2.0"
+        versionCode 13
+        versionName "0.2.1"
         resValue "string", "release_date", releaseDate
         resValue "string", "nenolink_url", "https://www.nenolink.dk"
     }
@@ -27,10 +27,15 @@ android {
 
 }
 
-tasks.register("copyDebugApkForManualTesting", Copy) {
-    from(layout.buildDirectory.file("outputs/apk/debug/app-debug.apk"))
-    into(layout.buildDirectory.dir("outputs/manual-debug"))
-    rename { "LearnPortuguese2Test.apk" }
+tasks.register("copyDebugApkForManualTesting") {
+    dependsOn("packageDebug")
+    doLast {
+        copy {
+            from(layout.buildDirectory.file("outputs/apk/debug/app-debug.apk"))
+            into(layout.buildDirectory.dir("outputs/apk/debug"))
+            rename { "LearnPortuguese2Test.apk" }
+        }
+    }
 }
 
 tasks.configureEach { task ->

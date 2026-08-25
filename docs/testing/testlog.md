@@ -1,5 +1,32 @@
 # Test Log
 
+## 2026-08-25 - Clean Android Build And APK Verification
+
+Clean rebuild for installable LearnPortuguese2 debug APK.
+
+### Scope
+
+- Verified the Android application module, applicationId, namespace, manifest launcher activity, exported launcher flag, app label and launcher icon resources.
+- Kept Android Studio Run on the standard `app-debug.apk` output.
+- Changed the manual debug copy to `app/build/outputs/apk/debug/LearnPortuguese2Test.apk` after a successful `assembleDebug`.
+- Bumped test build metadata to `versionName 0.2.1`, `versionCode 13`, release date `2026-08-25`.
+- Preserved all JSON language-learning content and the shared JSON loading architecture.
+
+### Validation
+
+- `tools/validate_navigation_content.ps1`
+- bundled JSON parse check
+- `gradlew.bat clean`
+- `gradlew.bat tasks`
+- `gradlew.bat assembleDebug`
+- APK archive inspection for `AndroidManifest.xml`, `classes.dex`, `resources.arsc` and bundled JSON assets
+- Android SDK signature/package checks where local build-tools are available
+- adb install check when an emulator or device is available
+
+### Result
+
+Passed. The clean build produced both `app-debug.apk` and `app/build/outputs/apk/debug/LearnPortuguese2Test.apk`. The APK contains `AndroidManifest.xml`, `classes.dex`, `resources.arsc`, bundled JSON assets for levels 1-4, the user guide and number content. `apksigner` verified the debug signature, `aapt dump badging` showed package `dk.nenolink.learnportuguese2`, version `0.2.1` / build `13`, minSdk `23`, targetSdk `35`, label `LearnPortuguese2`, and launchable `dk.nenolink.learnportuguese2.MainActivity`. `adb install -r` succeeded on `emulator-5554`, and `adb shell am start -W -n dk.nenolink.learnportuguese2/.MainActivity` returned `Status: ok`.
+
 ## 2026-07-23 - Level 3 Library Content Feedback
 
 Learn Portuguese 3 library lesson correction after device review.

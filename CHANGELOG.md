@@ -4,6 +4,8 @@
 
 ### Fixed
 
+- Rebuilt the debug APK flow from source so Android Studio keeps the standard `app-debug.apk` while the manual test copy is produced after a successful build as `app/build/outputs/apk/debug/LearnPortuguese2Test.apk`.
+- Verified launcher/install configuration: unique applicationId, MainActivity launcher intent, exported launcher activity, app label and icon resources.
 - Corrected dialog Previous/Next behavior so crossing dialog boundaries stays deterministic: Next opens the first phrase of the next dialog and Previous opens the last phrase of the previous dialog.
 - Removed repeated feedback/helper phrases from children dialog navigation content.
 - Normalized children dialogs to the same JSON lesson/dialog/phrase architecture as adult levels.
@@ -20,6 +22,8 @@
 
 ### Added
 
+- Bumped test build metadata to `versionName 0.2.1`, `versionCode 13`, release date `2026-08-25`.
+- Added clean Android build and APK verification documentation for manual install testing and future release prep.
 - Added bundled offline Nenoling user guide for users and parents.
 - Added a main-menu book icon that opens the user guide without internet access.
 - Added validation script for dialog navigation/content checks.

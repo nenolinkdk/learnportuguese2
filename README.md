@@ -14,15 +14,38 @@ The app reuses the existing Learn Portuguese Java/Android structure and keeps Ni
 - Learn Portuguese 3 content lives in `app/src/main/assets/levels/level4` because `level3` is already used for Children.
 - The bundled Nenoling user guide lives in `app/src/main/assets/docs/user_guide.json`.
 - The app defaults to Niveau 2 and the main menu orders choices as Niveau 1, Niveau 2, Learn Portuguese 3, Quiz, Numbers, Documentation and Children.
-- Current release metadata is maintained in `app/build.gradle`: `versionName 0.2.0`, `versionCode 12`, and release date `2026-07-12`.
+- Current release metadata is maintained in `app/build.gradle`: `versionName 0.2.1`, `versionCode 13`, and release date `2026-08-25`.
 - The configurable Nenolink website URL is generated from `app/build.gradle` as `https://www.nenolink.dk`.
-- The manual debug APK copy remains `app/build/outputs/manual-debug/LearnPortuguese2Test.apk`.
+- Android Studio Run keeps the normal debug APK output. A post-build copy for manual testing is written to `app/build/outputs/apk/debug/LearnPortuguese2Test.apk`.
+
+## Clean Android Build And APK Verification
+
+Run from the repository root:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\tools\validate_navigation_content.ps1
+.\gradlew.bat clean
+.\gradlew.bat assembleDebug
+```
+
+The standard debug APK remains `app/build/outputs/apk/debug/app-debug.apk` for Android Studio. The manual install/test APK is copied after a successful build to:
+
+```text
+app/build/outputs/apk/debug/LearnPortuguese2Test.apk
+```
+
+Verify the APK before sharing it:
+
+```powershell
+Get-ChildItem app/build/outputs/apk/debug/LearnPortuguese2Test.apk
+jar tf app/build/outputs/apk/debug/LearnPortuguese2Test.apk
+```
 
 ## Validation
 
 - `tools/validate_navigation_content.ps1` validates deterministic dialog navigation assumptions and checks that helper/feedback phrases are not stored as children dialog content.
 - The same script checks shared lesson status formatting, dialog breadcrumb metadata, release metadata, Nenolink link wiring, and children safety phrases.
-- It also validates Learn Portuguese 3 lesson count, dialog count, exactly 10 phrases per dialog, duplicate-free dialog text, story length, grammar/conjugation/common-mistake structure, quiz presence, cautious pharmacy wording and deterministic navigation.
+- It also validates Learn Portuguese 3 lesson count, dialog count, exactly 10 phrases per dialog, duplicate-free dialog text, story length, grammar/conjugation/common-mistake structure, quiz presence and deterministic navigation.
 
 ## Learn Portuguese 3
 
