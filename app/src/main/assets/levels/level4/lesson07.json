@@ -1,246 +1,504 @@
 {
   "id": 7,
   "titleDa": "Computador e internet",
-  "descriptionDa": "Learn Portuguese 3: Wi-Fi, adgangskoder, langsomt net, filer, mail, printere og personlige oplysninger.",
+  "descriptionDa": "En praktisk computersession med login, Wi-Fi, e-mail, print og datasikkerhed.",
+  "vocabulary": [
+    {
+      "textPt": "computador",
+      "textDa": "computer"
+    },
+    {
+      "textPt": "internet",
+      "textDa": "internet"
+    },
+    {
+      "textPt": "acesso",
+      "textDa": "adgang"
+    },
+    {
+      "textPt": "nome de utilizador",
+      "textDa": "brugernavn"
+    },
+    {
+      "textPt": "palavra-passe",
+      "textDa": "adgangskode"
+    },
+    {
+      "textPt": "rede Wi-Fi",
+      "textDa": "Wi-Fi-netværk"
+    },
+    {
+      "textPt": "telemóvel",
+      "textDa": "telefon"
+    },
+    {
+      "textPt": "descarregamento",
+      "textDa": "download"
+    },
+    {
+      "textPt": "ficheiro",
+      "textDa": "fil"
+    },
+    {
+      "textPt": "e-mail",
+      "textDa": "e-mail"
+    },
+    {
+      "textPt": "anexo",
+      "textDa": "bilag"
+    },
+    {
+      "textPt": "impressora",
+      "textDa": "printer"
+    },
+    {
+      "textPt": "impressão",
+      "textDa": "print"
+    },
+    {
+      "textPt": "pagamento",
+      "textDa": "betaling"
+    },
+    {
+      "textPt": "dados pessoais",
+      "textDa": "personlige data"
+    },
+    {
+      "textPt": "histórico",
+      "textDa": "historik"
+    },
+    {
+      "textPt": "sessão",
+      "textDa": "session"
+    },
+    {
+      "textPt": "ligação segura",
+      "textDa": "sikker forbindelse"
+    },
+    {
+      "textPt": "navegador",
+      "textDa": "browser"
+    },
+    {
+      "textPt": "ecrã",
+      "textDa": "skærm"
+    },
+    {
+      "textPt": "portal",
+      "textDa": "portal"
+    },
+    {
+      "textPt": "caixa de entrada",
+      "textDa": "indbakke"
+    },
+    {
+      "textPt": "receção",
+      "textDa": "reception"
+    },
+    {
+      "textPt": "privacidade",
+      "textDa": "privatliv"
+    },
+    {
+      "textPt": "segurança",
+      "textDa": "sikkerhed"
+    }
+  ],
   "dialogues": [
     {
       "id": 1,
-      "titleDa": "Wi-Fi-forbindelse",
-      "objectiveDa": "Træn en realistisk mini-dialog om Wi-Fi-forbindelse.",
+      "titleDa": "Acesso ao computador",
+      "objectiveDa": "Brug computeradgang i en konkret scene om Computador e internet.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de ligação Wi-Fi; pode orientar-me?",
-          "textDa": "Undskyld, jeg har et spørgsmål om Wi-Fi-forbindelse; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
+          "textPt": "Ligo o computador e começo por acesso ao computador, porque isso faz parte da história de hoje.",
+          "textDa": "Jeg tænder computeren og begynder med computeradgang, fordi det hører til dagens historie.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
         },
         {
           "speaker": "B",
-          "textPt": "O funcionário pergunta se ligação Wi-Fi é para hoje ou para mais tarde.",
-          "textDa": "Medarbejderen spørger, om Wi-Fi-forbindelse er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
+          "textPt": "A pessoa responsável mostra acesso ao computador e explica o passo seguinte.",
+          "textDa": "Den ansvarlige viser computeradgang og forklarer næste trin.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
         },
         {
           "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver ligação Wi-Fi.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at få svar om Wi-Fi-forbindelse.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
+          "textPt": "Onde posso encontrar acesso ao computador?",
+          "textDa": "Hvor kan jeg finde computeradgang?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
         },
         {
           "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de ligação Wi-Fi.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om Wi-Fi-forbindelse.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+          "textPt": "O detalhe importante sobre acesso ao computador está escrito no aviso pequeno.",
+          "textDa": "Den vigtige detalje om computeradgang står på det lille skilt.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
         },
         {
           "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com ligação Wi-Fi?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med Wi-Fi-forbindelse?",
-          "grammarDa": "Avançarmos er nós-form efter para."
+          "textPt": "Tenho a informação sobre acesso ao computador guardada nas minhas notas.",
+          "textDa": "Jeg har informationen om computeradgang gemt i mine noter.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
         },
         {
           "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre ligação Wi-Fi; depois o funcionário regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om Wi-Fi-forbindelse; derefter registrerer medarbejderen det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
+          "textPt": "Acesso ao computador está disponível neste momento e pertence ao contexto digital.",
+          "textDa": "Computeradgang er tilgængelig lige nu og hører til computer og internet.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
         },
         {
           "speaker": "A",
-          "textPt": "Se houver algum problema com ligação Wi-Fi, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med Wi-Fi-forbindelse, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
+          "textPt": "De manhã pedi acesso ao computador e percebi melhor a situação.",
+          "textDa": "Om morgenen arbejdede jeg med computeradgang og forstod situationen bedre.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
         },
         {
           "speaker": "B",
-          "textPt": "Pode, mas talvez ligação Wi-Fi fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver Wi-Fi-forbindelse løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
+          "textPt": "A explicação sobre acesso ao computador é útil porque a situação é concreta.",
+          "textDa": "Forklaringen om computeradgang er nyttig, fordi situationen er konkret.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
         },
         {
           "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre ligação Wi-Fi.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om Wi-Fi-forbindelse.",
-          "grammarDa": "Agradecia er høfligt."
+          "textPt": "Peço acesso ao computador na receção e sigo para a próxima cena.",
+          "textDa": "Jeg arbejder med computeradgang i receptionen og går videre til næste scene.",
+          "grammarDa": "Pedir viser handlingen i scenen."
         },
         {
           "speaker": "B",
-          "textPt": "Combinado; quando ligação Wi-Fi estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når Wi-Fi-forbindelse er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
+          "textPt": "Depois de resolver acesso ao computador, sigo para a próxima parte da história.",
+          "textDa": "Efter at have fået computeradgang på plads går jeg videre til næste del af historien.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "ligação Wi-Fi",
-          "textDa": "Wi-Fi-forbindelse"
+          "textPt": "acesso ao computador",
+          "textDa": "computeradgang"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "internet",
+          "textDa": "Computador e internet"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "pedir",
+          "textDa": "at bede om/bestille"
         },
         {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
+          "textPt": "receção",
+          "textDa": "i receptionen"
         },
         {
-          "textPt": "processo",
-          "textDa": "sag/proces"
+          "textPt": "acesso ao computador",
+          "textDa": "Acesso ao computador"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Computador e internet",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "ligar",
+          "titleDa": "Pedir i scenen",
+          "explanationDa": "pedir betyder \"at bede om/bestille\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "pedir",
+          "verbDa": "at bede om/bestille",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "ligo"
+              "form": "peço"
             },
             {
               "subject": "tu (presente)",
-              "form": "ligas"
+              "form": "pedes"
             },
             {
               "subject": "ele/ela/você (presente)",
-              "form": "liga"
+              "form": "pede"
             },
             {
               "subject": "nós (presente)",
-              "form": "ligamos"
+              "form": "pedimos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "ligam"
+              "form": "pedem"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "ligam"
+              "form": "pedem"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "liguei"
+              "form": "pedi"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "ligaste"
+              "form": "pediste"
             },
             {
               "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "ligou"
+              "form": "pediu"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "ligámos"
+              "form": "pedimos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "ligaram"
+              "form": "pediram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "ligaram"
+              "form": "pediram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje nós ligamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Peço acesso ao computador na receção.",
+              "da": "Jeg arbejder med computeradgang i receptionen."
             },
             {
-              "pt": "Ontem a funcionária ligou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "De manhã pedi acesso ao computador.",
+              "da": "Om morgenen arbejdede jeg med computeradgang."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "wrong": "Ontem eu peço.",
+              "correct": "De manhã pedi.",
+              "noteDa": "Efter de manhã bruges normalt datid, når handlingen er afsluttet."
             }
-          ],
-          "verbDa": "at forbinde / ringe"
+          ]
         }
       ]
     },
     {
       "id": 2,
-      "titleDa": "Glemt adgangskode",
-      "objectiveDa": "Træn en realistisk mini-dialog om glemt adgangskode.",
+      "titleDa": "Nome de utilizador",
+      "objectiveDa": "Brug brugernavn i en konkret scene om Computador e internet.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de palavra-passe esquecida; pode orientar-me?",
-          "textDa": "Undskyld, jeg har et spørgsmål om glemt adgangskode; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
+          "textPt": "Ligo o computador e começo por nome de utilizador, porque isso faz parte da história de hoje.",
+          "textDa": "Jeg tænder computeren og begynder med brugernavn, fordi det hører til dagens historie.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
         },
         {
           "speaker": "B",
-          "textPt": "A funcionária pergunta se palavra-passe esquecida é para hoje ou para mais tarde.",
-          "textDa": "Medarbejderen spørger, om glemt adgangskode er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
+          "textPt": "A pessoa responsável mostra nome de utilizador e explica o passo seguinte.",
+          "textDa": "Den ansvarlige viser brugernavn og forklarer næste trin.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
         },
         {
           "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver palavra-passe esquecida.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at få svar om glemt adgangskode.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
+          "textPt": "Onde posso encontrar nome de utilizador?",
+          "textDa": "Hvor kan jeg finde brugernavn?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
         },
         {
           "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de palavra-passe esquecida.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om glemt adgangskode.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+          "textPt": "O detalhe importante sobre nome de utilizador está escrito no aviso pequeno.",
+          "textDa": "Den vigtige detalje om brugernavn står på det lille skilt.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
         },
         {
           "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com palavra-passe esquecida?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med glemt adgangskode?",
-          "grammarDa": "Avançarmos er nós-form efter para."
+          "textPt": "Tenho a informação sobre nome de utilizador guardada nas minhas notas.",
+          "textDa": "Jeg har informationen om brugernavn gemt i mine noter.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
         },
         {
           "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre palavra-passe esquecida; depois a funcionária regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om glemt adgangskode; derefter registrerer medarbejderen det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
+          "textPt": "Nome de utilizador está disponível neste momento e pertence ao contexto digital.",
+          "textDa": "Brugernavn er tilgængelig lige nu og hører til computer og internet.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
         },
         {
           "speaker": "A",
-          "textPt": "Se houver algum problema com palavra-passe esquecida, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med glemt adgangskode, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
+          "textPt": "Há pouco escrevi nome de utilizador e percebi melhor a situação.",
+          "textDa": "For lidt siden arbejdede jeg med brugernavn og forstod situationen bedre.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
         },
         {
           "speaker": "B",
-          "textPt": "Pode, mas talvez palavra-passe esquecida fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver glemt adgangskode løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
+          "textPt": "A explicação sobre nome de utilizador é útil porque a situação é concreta.",
+          "textDa": "Forklaringen om brugernavn er nyttig, fordi situationen er konkret.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
         },
         {
           "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre palavra-passe esquecida.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om glemt adgangskode.",
-          "grammarDa": "Agradecia er høfligt."
+          "textPt": "Escrevo nome de utilizador no ecrã e sigo para a próxima cena.",
+          "textDa": "Jeg arbejder med brugernavn på skærmen og går videre til næste scene.",
+          "grammarDa": "Escrever viser handlingen i scenen."
         },
         {
           "speaker": "B",
-          "textPt": "Combinado; quando palavra-passe esquecida estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når glemt adgangskode er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
+          "textPt": "Depois de resolver nome de utilizador, sigo para a próxima parte da história.",
+          "textDa": "Efter at have fået brugernavn på plads går jeg videre til næste del af historien.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "nome de utilizador",
+          "textDa": "brugernavn"
+        },
+        {
+          "textPt": "internet",
+          "textDa": "Computador e internet"
+        },
+        {
+          "textPt": "escrever",
+          "textDa": "at skrive"
+        },
+        {
+          "textPt": "ecrã",
+          "textDa": "på skærmen"
+        },
+        {
+          "textPt": "cena de nome de utilizador",
+          "textDa": "scene om brugernavn"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Escrever i scenen",
+          "explanationDa": "escrever betyder \"at skrive\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "escrever",
+          "verbDa": "at skrive",
+          "conjugation": [
+            {
+              "subject": "eu (presente)",
+              "form": "escrevo"
+            },
+            {
+              "subject": "tu (presente)",
+              "form": "escreves"
+            },
+            {
+              "subject": "ele/ela/você (presente)",
+              "form": "escreve"
+            },
+            {
+              "subject": "nós (presente)",
+              "form": "escrevemos"
+            },
+            {
+              "subject": "vocês (presente)",
+              "form": "escrevem"
+            },
+            {
+              "subject": "eles/elas (presente)",
+              "form": "escrevem"
+            },
+            {
+              "subject": "eu (pretérito perfeito)",
+              "form": "escrevi"
+            },
+            {
+              "subject": "tu (pretérito perfeito)",
+              "form": "escreveste"
+            },
+            {
+              "subject": "ele/ela/você (pretérito perfeito)",
+              "form": "escreveu"
+            },
+            {
+              "subject": "nós (pretérito perfeito)",
+              "form": "escrevemos"
+            },
+            {
+              "subject": "vocês (pretérito perfeito)",
+              "form": "escreveram"
+            },
+            {
+              "subject": "eles/elas (pretérito perfeito)",
+              "form": "escreveram"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Escrevo nome de utilizador no ecrã.",
+              "da": "Jeg arbejder med brugernavn på skærmen."
+            },
+            {
+              "pt": "Há pouco escrevi nome de utilizador.",
+              "da": "For lidt siden arbejdede jeg med brugernavn."
+            }
+          ],
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
+          "commonMistakes": [
+            {
+              "wrong": "Ontem eu escrevo.",
+              "correct": "Há pouco escrevi.",
+              "noteDa": "Efter há pouco bruges normalt datid, når handlingen er afsluttet."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "titleDa": "Palavra-passe esquecida",
+      "objectiveDa": "Brug glemt adgangskode i en konkret scene om Computador e internet.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Ligo o computador e começo por palavra-passe esquecida, porque isso faz parte da história de hoje.",
+          "textDa": "Jeg tænder computeren og begynder med glemt adgangskode, fordi det hører til dagens historie.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
+        },
+        {
+          "speaker": "B",
+          "textPt": "A pessoa responsável mostra palavra-passe esquecida e explica o passo seguinte.",
+          "textDa": "Den ansvarlige viser glemt adgangskode og forklarer næste trin.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Onde posso encontrar palavra-passe esquecida?",
+          "textDa": "Hvor kan jeg finde glemt adgangskode?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
+        },
+        {
+          "speaker": "B",
+          "textPt": "O detalhe importante sobre palavra-passe esquecida está escrito no aviso pequeno.",
+          "textDa": "Den vigtige detalje om glemt adgangskode står på det lille skilt.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Tenho a informação sobre palavra-passe esquecida guardada nas minhas notas.",
+          "textDa": "Jeg har informationen om glemt adgangskode gemt i mine noter.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Palavra-passe esquecida está disponível neste momento e pertence ao contexto digital.",
+          "textDa": "Glemt adgangskode er tilgængelig lige nu og hører til computer og internet.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Ontem repus palavra-passe esquecida e percebi melhor a situação.",
+          "textDa": "I går arbejdede jeg med glemt adgangskode og forstod situationen bedre.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
+        },
+        {
+          "speaker": "B",
+          "textPt": "A explicação sobre palavra-passe esquecida é útil porque a situação é concreta.",
+          "textDa": "Forklaringen om glemt adgangskode er nyttig, fordi situationen er konkret.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Reponho palavra-passe esquecida no portal e sigo para a próxima cena.",
+          "textDa": "Jeg arbejder med glemt adgangskode i portalen og går videre til næste scene.",
+          "grammarDa": "Repor viser handlingen i scenen."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Depois de resolver palavra-passe esquecida, sigo para a próxima parte da história.",
+          "textDa": "Efter at have fået glemt adgangskode på plads går jeg videre til næste del af historien.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
         }
       ],
       "vocabulary": [
@@ -249,375 +507,193 @@
           "textDa": "glemt adgangskode"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "internet",
+          "textDa": "Computador e internet"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "repor",
+          "textDa": "at nulstille"
         },
         {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
+          "textPt": "portal",
+          "textDa": "i portalen"
         },
         {
-          "textPt": "processo",
-          "textDa": "sag/proces"
+          "textPt": "cena de palavra-passe esquecida",
+          "textDa": "scene om glemt adgangskode"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Computador e internet",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "ligar",
+          "titleDa": "Repor i scenen",
+          "explanationDa": "repor betyder \"at nulstille\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "repor",
+          "verbDa": "at nulstille",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "ligo"
+              "form": "reponho"
             },
             {
               "subject": "tu (presente)",
-              "form": "ligas"
+              "form": "repões"
             },
             {
               "subject": "ele/ela/você (presente)",
-              "form": "liga"
+              "form": "repõe"
             },
             {
               "subject": "nós (presente)",
-              "form": "ligamos"
+              "form": "repomos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "ligam"
+              "form": "repõem"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "ligam"
+              "form": "repõem"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "liguei"
+              "form": "repus"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "ligaste"
+              "form": "repuseste"
             },
             {
               "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "ligou"
+              "form": "repôs"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "ligámos"
+              "form": "repusemos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "ligaram"
+              "form": "repuseram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "ligaram"
+              "form": "repuseram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje nós ligamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Reponho palavra-passe esquecida no portal.",
+              "da": "Jeg arbejder med glemt adgangskode i portalen."
             },
             {
-              "pt": "Ontem a funcionária ligou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "Ontem repus palavra-passe esquecida.",
+              "da": "I går arbejdede jeg med glemt adgangskode."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "wrong": "Ontem eu reponho.",
+              "correct": "Ontem repus.",
+              "noteDa": "Efter ontem bruges normalt datid, når handlingen er afsluttet."
             }
-          ],
-          "verbDa": "at forbinde / ringe"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "titleDa": "Langsomt internet",
-      "objectiveDa": "Træn en realistisk mini-dialog om langsomt internet.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de internet lenta; pode orientar-me?",
-          "textDa": "Undskyld, jeg har et spørgsmål om langsomt internet; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
-        },
-        {
-          "speaker": "B",
-          "textPt": "O empregado pergunta se internet lenta é para hoje ou para mais tarde.",
-          "textDa": "Tjeneren spørger, om langsomt internet er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
-        },
-        {
-          "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver internet lenta.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at få svar om langsomt internet.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de internet lenta.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om langsomt internet.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com internet lenta?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med langsomt internet?",
-          "grammarDa": "Avançarmos er nós-form efter para."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre internet lenta; depois o empregado regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om langsomt internet; derefter registrerer tjeneren det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Se houver algum problema com internet lenta, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med langsomt internet, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Pode, mas talvez internet lenta fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver langsomt internet løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre internet lenta.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om langsomt internet.",
-          "grammarDa": "Agradecia er høfligt."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Combinado; quando internet lenta estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når langsomt internet er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "internet lenta",
-          "textDa": "langsomt internet"
-        },
-        {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
-        },
-        {
-          "textPt": "talvez",
-          "textDa": "måske"
-        },
-        {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
-        },
-        {
-          "textPt": "processo",
-          "textDa": "sag/proces"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "Regelmæssige verber i Computador e internet",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "ligar",
-          "conjugation": [
-            {
-              "subject": "eu (presente)",
-              "form": "ligo"
-            },
-            {
-              "subject": "tu (presente)",
-              "form": "ligas"
-            },
-            {
-              "subject": "ele/ela/você (presente)",
-              "form": "liga"
-            },
-            {
-              "subject": "nós (presente)",
-              "form": "ligamos"
-            },
-            {
-              "subject": "vocês (presente)",
-              "form": "ligam"
-            },
-            {
-              "subject": "eles/elas (presente)",
-              "form": "ligam"
-            },
-            {
-              "subject": "eu (pretérito perfeito)",
-              "form": "liguei"
-            },
-            {
-              "subject": "tu (pretérito perfeito)",
-              "form": "ligaste"
-            },
-            {
-              "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "ligou"
-            },
-            {
-              "subject": "nós (pretérito perfeito)",
-              "form": "ligámos"
-            },
-            {
-              "subject": "vocês (pretérito perfeito)",
-              "form": "ligaram"
-            },
-            {
-              "subject": "eles/elas (pretérito perfeito)",
-              "form": "ligaram"
-            }
-          ],
-          "examples": [
-            {
-              "pt": "Hoje nós ligamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
-            },
-            {
-              "pt": "Ontem a funcionária ligou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
-            }
-          ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
-          "commonMistakes": [
-            {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
-            }
-          ],
-          "verbDa": "at forbinde / ringe"
+          ]
         }
       ]
     },
     {
       "id": 4,
-      "titleDa": "Downloadet fil",
-      "objectiveDa": "Træn en realistisk mini-dialog om downloadet fil.",
+      "titleDa": "Rede Wi-Fi",
+      "objectiveDa": "Brug Wi-Fi-netværk i en konkret scene om Computador e internet.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de ficheiro descarregado; pode orientar-me?",
-          "textDa": "Undskyld, jeg har et spørgsmål om downloadet fil; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
+          "textPt": "Ligo o computador e começo por rede Wi-Fi, porque isso faz parte da história de hoje.",
+          "textDa": "Jeg tænder computeren og begynder med Wi-Fi-netværk, fordi det hører til dagens historie.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
         },
         {
           "speaker": "B",
-          "textPt": "A senhora pergunta se ficheiro descarregado é para hoje ou para mais tarde.",
-          "textDa": "Damen spørger, om downloadet fil er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
+          "textPt": "A pessoa responsável mostra rede Wi-Fi e explica o passo seguinte.",
+          "textDa": "Den ansvarlige viser Wi-Fi-netværk og forklarer næste trin.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
         },
         {
           "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver ficheiro descarregado.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at få svar om downloadet fil.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
+          "textPt": "Onde posso encontrar rede Wi-Fi?",
+          "textDa": "Hvor kan jeg finde Wi-Fi-netværk?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
         },
         {
           "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de ficheiro descarregado.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om downloadet fil.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+          "textPt": "O detalhe importante sobre rede Wi-Fi está escrito no aviso pequeno.",
+          "textDa": "Den vigtige detalje om Wi-Fi-netværk står på det lille skilt.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
         },
         {
           "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com ficheiro descarregado?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med downloadet fil?",
-          "grammarDa": "Avançarmos er nós-form efter para."
+          "textPt": "Tenho a informação sobre rede Wi-Fi guardada nas minhas notas.",
+          "textDa": "Jeg har informationen om Wi-Fi-netværk gemt i mine noter.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
         },
         {
           "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre ficheiro descarregado; depois a senhora regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om downloadet fil; derefter registrerer damen det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
+          "textPt": "Rede Wi-Fi está disponível neste momento e pertence ao contexto digital.",
+          "textDa": "Wi-Fi-netværk er tilgængelig lige nu og hører til computer og internet.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
         },
         {
           "speaker": "A",
-          "textPt": "Se houver algum problema com ficheiro descarregado, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med downloadet fil, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
+          "textPt": "Esta manhã liguei rede Wi-Fi e percebi melhor a situação.",
+          "textDa": "Esta manhã arbejdede jeg med Wi-Fi-netværk og forstod situationen bedre.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
         },
         {
           "speaker": "B",
-          "textPt": "Pode, mas talvez ficheiro descarregado fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver downloadet fil løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
+          "textPt": "A explicação sobre rede Wi-Fi é útil porque a situação é concreta.",
+          "textDa": "Forklaringen om Wi-Fi-netværk er nyttig, fordi situationen er konkret.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
         },
         {
           "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre ficheiro descarregado.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om downloadet fil.",
-          "grammarDa": "Agradecia er høfligt."
+          "textPt": "Ligo rede Wi-Fi no telemóvel e sigo para a próxima cena.",
+          "textDa": "Jeg arbejder med Wi-Fi-netværk på telefonen og går videre til næste scene.",
+          "grammarDa": "Ligar viser handlingen i scenen."
         },
         {
           "speaker": "B",
-          "textPt": "Combinado; quando ficheiro descarregado estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når downloadet fil er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
+          "textPt": "Depois de resolver rede Wi-Fi, sigo para a próxima parte da história.",
+          "textDa": "Efter at have fået Wi-Fi-netværk på plads går jeg videre til næste del af historien.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "ficheiro descarregado",
-          "textDa": "downloadet fil"
+          "textPt": "rede Wi-Fi",
+          "textDa": "Wi-Fi-netværk"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "internet",
+          "textDa": "Computador e internet"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "ligar",
+          "textDa": "at forbinde"
         },
         {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
+          "textPt": "telemóvel",
+          "textDa": "på telefonen"
         },
         {
-          "textPt": "processo",
-          "textDa": "sag/proces"
+          "textPt": "cena de rede Wi-Fi",
+          "textDa": "scene om Wi-Fi-netværk"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Computador e internet",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
+          "titleDa": "Ligar i scenen",
+          "explanationDa": "ligar betyder \"at forbinde\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
           "verb": "ligar",
+          "verbDa": "at forbinde",
           "conjugation": [
             {
               "subject": "eu (presente)",
@@ -670,1342 +746,1253 @@
           ],
           "examples": [
             {
-              "pt": "Hoje nós ligamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Ligo rede Wi-Fi no telemóvel.",
+              "da": "Jeg arbejder med Wi-Fi-netværk på telefonen."
             },
             {
-              "pt": "Ontem a funcionária ligou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "Esta manhã liguei rede Wi-Fi.",
+              "da": "Her til morgen arbejdede jeg med Wi-Fi-netværk."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "wrong": "Ontem eu ligo.",
+              "correct": "Esta manhã liguei.",
+              "noteDa": "Efter esta manhã bruges normalt datid, når handlingen er afsluttet."
             }
-          ],
-          "verbDa": "at forbinde / ringe"
+          ]
         }
       ]
     },
     {
       "id": 5,
-      "titleDa": "Sendt e-mail",
-      "objectiveDa": "Træn en realistisk mini-dialog om sendt e-mail.",
+      "titleDa": "Descarregar ficheiro",
+      "objectiveDa": "Brug download i en konkret scene om Computador e internet.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de email enviado; pode orientar-me?",
-          "textDa": "Undskyld, jeg har et spørgsmål om sendt e-mail; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
+          "textPt": "Ligo o computador e começo por descarregamento, porque isso faz parte da história de hoje.",
+          "textDa": "Jeg tænder computeren og begynder med download, fordi det hører til dagens historie.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
         },
         {
           "speaker": "B",
-          "textPt": "O motorista pergunta se email enviado é para hoje ou para mais tarde.",
-          "textDa": "Chaufføren spørger, om sendt e-mail er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
+          "textPt": "A pessoa responsável mostra descarregamento e explica o passo seguinte.",
+          "textDa": "Den ansvarlige viser download og forklarer næste trin.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
         },
         {
           "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver email enviado.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at få svar om sendt e-mail.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
+          "textPt": "Onde posso encontrar descarregamento?",
+          "textDa": "Hvor kan jeg finde download?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
         },
         {
           "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de email enviado.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om sendt e-mail.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+          "textPt": "O detalhe importante sobre descarregamento está escrito no aviso pequeno.",
+          "textDa": "Den vigtige detalje om download står på det lille skilt.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
         },
         {
           "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com email enviado?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med sendt e-mail?",
-          "grammarDa": "Avançarmos er nós-form efter para."
+          "textPt": "Tenho a informação sobre descarregamento guardada nas minhas notas.",
+          "textDa": "Jeg har informationen om download gemt i mine noter.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
         },
         {
           "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre email enviado; depois o motorista regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om sendt e-mail; derefter registrerer chaufføren det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
+          "textPt": "Descarregamento está disponível neste momento e pertence ao contexto digital.",
+          "textDa": "Download er tilgængelig lige nu og hører til computer og internet.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
         },
         {
           "speaker": "A",
-          "textPt": "Se houver algum problema com email enviado, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med sendt e-mail, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
+          "textPt": "Há cinco minutos descarreguei descarregamento e percebi melhor a situação.",
+          "textDa": "Há cinco minutos arbejdede jeg med download og forstod situationen bedre.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
         },
         {
           "speaker": "B",
-          "textPt": "Pode, mas talvez email enviado fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver sendt e-mail løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
+          "textPt": "A explicação sobre descarregamento é útil porque a situação é concreta.",
+          "textDa": "Forklaringen om download er nyttig, fordi situationen er konkret.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
         },
         {
           "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre email enviado.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om sendt e-mail.",
-          "grammarDa": "Agradecia er høfligt."
+          "textPt": "Descarrego descarregamento no navegador e sigo para a próxima cena.",
+          "textDa": "Jeg arbejder med download i browseren og går videre til næste scene.",
+          "grammarDa": "Descarregar viser handlingen i scenen."
         },
         {
           "speaker": "B",
-          "textPt": "Combinado; quando email enviado estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når sendt e-mail er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
+          "textPt": "Depois de resolver descarregamento, sigo para a próxima parte da história.",
+          "textDa": "Efter at have fået download på plads går jeg videre til næste del af historien.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "email enviado",
-          "textDa": "sendt e-mail"
+          "textPt": "descarregamento",
+          "textDa": "download"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "internet",
+          "textDa": "Computador e internet"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "descarregar",
+          "textDa": "at downloade"
         },
         {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
+          "textPt": "navegador",
+          "textDa": "i browseren"
         },
         {
-          "textPt": "processo",
-          "textDa": "sag/proces"
+          "textPt": "descarregar ficheiro",
+          "textDa": "Descarregar ficheiro"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Computador e internet",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "ligar",
+          "titleDa": "Descarregar i scenen",
+          "explanationDa": "descarregar betyder \"at downloade\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "descarregar",
+          "verbDa": "at downloade",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "ligo"
+              "form": "descarrego"
             },
             {
               "subject": "tu (presente)",
-              "form": "ligas"
+              "form": "descarregas"
             },
             {
               "subject": "ele/ela/você (presente)",
-              "form": "liga"
+              "form": "descarrega"
             },
             {
               "subject": "nós (presente)",
-              "form": "ligamos"
+              "form": "descarregamos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "ligam"
+              "form": "descarregam"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "ligam"
+              "form": "descarregam"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "liguei"
+              "form": "descarreguei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "ligaste"
+              "form": "descarregaste"
             },
             {
               "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "ligou"
+              "form": "descarregou"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "ligámos"
+              "form": "descarregamos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "ligaram"
+              "form": "descarregaram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "ligaram"
+              "form": "descarregaram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje nós ligamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Descarrego descarregamento no navegador.",
+              "da": "Jeg arbejder med download i browseren."
             },
             {
-              "pt": "Ontem a funcionária ligou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "Há cinco minutos descarreguei descarregamento.",
+              "da": "Há cinco minutos arbejdede jeg med download."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "wrong": "Ontem eu descarrego.",
+              "correct": "Há cinco minutos descarreguei.",
+              "noteDa": "Efter há cinco minutos bruges normalt datid, når handlingen er afsluttet."
             }
-          ],
-          "verbDa": "at forbinde / ringe"
+          ]
         }
       ]
     },
     {
       "id": 6,
-      "titleDa": "Printer uden papir",
-      "objectiveDa": "Træn en realistisk mini-dialog om printer uden papir.",
+      "titleDa": "Anexo de e-mail",
+      "objectiveDa": "Brug e-mailbilag i en konkret scene om Computador e internet.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de impressora sem papel; pode orientar-me?",
-          "textDa": "Undskyld, jeg har et spørgsmål om printer uden papir; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
+          "textPt": "Ligo o computador e começo por anexo do e-mail, porque isso faz parte da história de hoje.",
+          "textDa": "Jeg tænder computeren og begynder med e-mailbilag, fordi det hører til dagens historie.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
         },
         {
           "speaker": "B",
-          "textPt": "O técnico pergunta se impressora sem papel é para hoje ou para mais tarde.",
-          "textDa": "Teknikeren spørger, om printer uden papir er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
+          "textPt": "A pessoa responsável mostra anexo do e-mail e explica o passo seguinte.",
+          "textDa": "Den ansvarlige viser e-mailbilag og forklarer næste trin.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
         },
         {
           "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver impressora sem papel.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at få svar om printer uden papir.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
+          "textPt": "Onde posso encontrar anexo do e-mail?",
+          "textDa": "Hvor kan jeg finde e-mailbilag?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
         },
         {
           "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de impressora sem papel.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om printer uden papir.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+          "textPt": "O detalhe importante sobre anexo do e-mail está escrito no aviso pequeno.",
+          "textDa": "Den vigtige detalje om e-mailbilag står på det lille skilt.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
         },
         {
           "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com impressora sem papel?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med printer uden papir?",
-          "grammarDa": "Avançarmos er nós-form efter para."
+          "textPt": "Tenho a informação sobre anexo do e-mail guardada nas minhas notas.",
+          "textDa": "Jeg har informationen om e-mailbilag gemt i mine noter.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
         },
         {
           "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre impressora sem papel; depois o técnico regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om printer uden papir; derefter registrerer teknikeren det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
+          "textPt": "Anexo do e-mail está disponível neste momento e pertence ao contexto digital.",
+          "textDa": "E-mailbilag er tilgængelig lige nu og hører til computer og internet.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
         },
         {
           "speaker": "A",
-          "textPt": "Se houver algum problema com impressora sem papel, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med printer uden papir, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
+          "textPt": "Ontem abri anexo do e-mail e percebi melhor a situação.",
+          "textDa": "I går arbejdede jeg med e-mailbilag og forstod situationen bedre.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
         },
         {
           "speaker": "B",
-          "textPt": "Pode, mas talvez impressora sem papel fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver printer uden papir løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
+          "textPt": "A explicação sobre anexo do e-mail é útil porque a situação é concreta.",
+          "textDa": "Forklaringen om e-mailbilag er nyttig, fordi situationen er konkret.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
         },
         {
           "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre impressora sem papel.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om printer uden papir.",
-          "grammarDa": "Agradecia er høfligt."
+          "textPt": "Abro anexo do e-mail na caixa de entrada e sigo para a próxima cena.",
+          "textDa": "Jeg arbejder med e-mailbilag i indbakken og går videre til næste scene.",
+          "grammarDa": "Abrir viser handlingen i scenen."
         },
         {
           "speaker": "B",
-          "textPt": "Combinado; quando impressora sem papel estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når printer uden papir er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
+          "textPt": "Depois de resolver anexo do e-mail, sigo para a próxima parte da história.",
+          "textDa": "Efter at have fået e-mailbilag på plads går jeg videre til næste del af historien.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "impressora sem papel",
-          "textDa": "printer uden papir"
+          "textPt": "anexo do e-mail",
+          "textDa": "e-mailbilag"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "internet",
+          "textDa": "Computador e internet"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "abrir",
+          "textDa": "at åbne"
         },
         {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
+          "textPt": "caixa de entrada",
+          "textDa": "i indbakken"
         },
         {
-          "textPt": "processo",
-          "textDa": "sag/proces"
+          "textPt": "cena de anexo do e-mail",
+          "textDa": "scene om e-mailbilag"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Computador e internet",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "ligar",
+          "titleDa": "Abrir i scenen",
+          "explanationDa": "abrir betyder \"at åbne\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "abrir",
+          "verbDa": "at åbne",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "ligo"
+              "form": "abro"
             },
             {
               "subject": "tu (presente)",
-              "form": "ligas"
+              "form": "abres"
             },
             {
               "subject": "ele/ela/você (presente)",
-              "form": "liga"
+              "form": "abre"
             },
             {
               "subject": "nós (presente)",
-              "form": "ligamos"
+              "form": "abrimos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "ligam"
+              "form": "abrem"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "ligam"
+              "form": "abrem"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "liguei"
+              "form": "abri"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "ligaste"
+              "form": "abriste"
             },
             {
               "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "ligou"
+              "form": "abriu"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "ligámos"
+              "form": "abrimos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "ligaram"
+              "form": "abriram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "ligaram"
+              "form": "abriram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje nós ligamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Abro anexo do e-mail na caixa de entrada.",
+              "da": "Jeg arbejder med e-mailbilag i indbakken."
             },
             {
-              "pt": "Ontem a funcionária ligou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "Ontem abri anexo do e-mail.",
+              "da": "I går arbejdede jeg med e-mailbilag."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "wrong": "Ontem eu abro.",
+              "correct": "Ontem abri.",
+              "noteDa": "Efter ontem bruges normalt datid, når handlingen er afsluttet."
             }
-          ],
-          "verbDa": "at forbinde / ringe"
+          ]
         }
       ]
     },
     {
       "id": 7,
-      "titleDa": "Softwareopdatering",
-      "objectiveDa": "Træn en realistisk mini-dialog om softwareopdatering.",
+      "titleDa": "Impressora",
+      "objectiveDa": "Brug printer i en konkret scene om Computador e internet.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de atualização de software; pode orientar-me?",
-          "textDa": "Undskyld, jeg har et spørgsmål om softwareopdatering; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
+          "textPt": "Ligo o computador e começo por impressora, porque isso faz parte da história de hoje.",
+          "textDa": "Jeg tænder computeren og begynder med printer, fordi det hører til dagens historie.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
         },
         {
           "speaker": "B",
-          "textPt": "A cliente pergunta se atualização de software é para hoje ou para mais tarde.",
-          "textDa": "Kunden spørger, om softwareopdatering er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
+          "textPt": "A pessoa responsável mostra impressora e explica o passo seguinte.",
+          "textDa": "Den ansvarlige viser printer og forklarer næste trin.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
         },
         {
           "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver atualização de software.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at få svar om softwareopdatering.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
+          "textPt": "Onde posso encontrar impressora?",
+          "textDa": "Hvor kan jeg finde printer?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
         },
         {
           "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de atualização de software.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om softwareopdatering.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+          "textPt": "O detalhe importante sobre impressora está escrito no aviso pequeno.",
+          "textDa": "Den vigtige detalje om printer står på det lille skilt.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
         },
         {
           "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com atualização de software?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med softwareopdatering?",
-          "grammarDa": "Avançarmos er nós-form efter para."
+          "textPt": "Tenho a informação sobre impressora guardada nas minhas notas.",
+          "textDa": "Jeg har informationen om printer gemt i mine noter.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
         },
         {
           "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre atualização de software; depois a cliente regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om softwareopdatering; derefter registrerer kunden det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
+          "textPt": "Impressora está disponível neste momento e pertence ao contexto digital.",
+          "textDa": "Printer er tilgængelig lige nu og hører til computer og internet.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
         },
         {
           "speaker": "A",
-          "textPt": "Se houver algum problema com atualização de software, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med softwareopdatering, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
+          "textPt": "Há pouco imprimi impressora e percebi melhor a situação.",
+          "textDa": "For lidt siden arbejdede jeg med printer og forstod situationen bedre.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
         },
         {
           "speaker": "B",
-          "textPt": "Pode, mas talvez atualização de software fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver softwareopdatering løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
+          "textPt": "A explicação sobre impressora é útil porque a situação é concreta.",
+          "textDa": "Forklaringen om printer er nyttig, fordi situationen er konkret.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
         },
         {
           "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre atualização de software.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om softwareopdatering.",
-          "grammarDa": "Agradecia er høfligt."
+          "textPt": "Imprimo impressora na sala de trabalho e sigo para a próxima cena.",
+          "textDa": "Jeg arbejder med printer i arbejdsrummet og går videre til næste scene.",
+          "grammarDa": "Imprimir viser handlingen i scenen."
         },
         {
           "speaker": "B",
-          "textPt": "Combinado; quando atualização de software estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når softwareopdatering er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
+          "textPt": "Depois de resolver impressora, sigo para a próxima parte da história.",
+          "textDa": "Efter at have fået printer på plads går jeg videre til næste del af historien.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "atualização de software",
-          "textDa": "softwareopdatering"
+          "textPt": "impressora",
+          "textDa": "printer"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "internet",
+          "textDa": "Computador e internet"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "imprimir",
+          "textDa": "at printe"
         },
         {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
+          "textPt": "sala de trabalho",
+          "textDa": "i arbejdsrummet"
         },
         {
-          "textPt": "processo",
-          "textDa": "sag/proces"
+          "textPt": "impressora",
+          "textDa": "Impressora"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Computador e internet",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "ligar",
+          "titleDa": "Imprimir i scenen",
+          "explanationDa": "imprimir betyder \"at printe\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "imprimir",
+          "verbDa": "at printe",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "ligo"
+              "form": "imprimo"
             },
             {
               "subject": "tu (presente)",
-              "form": "ligas"
+              "form": "imprimes"
             },
             {
               "subject": "ele/ela/você (presente)",
-              "form": "liga"
+              "form": "imprime"
             },
             {
               "subject": "nós (presente)",
-              "form": "ligamos"
+              "form": "imprimimos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "ligam"
+              "form": "imprimem"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "ligam"
+              "form": "imprimem"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "liguei"
+              "form": "imprimi"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "ligaste"
+              "form": "imprimiste"
             },
             {
               "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "ligou"
+              "form": "imprimiu"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "ligámos"
+              "form": "imprimimos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "ligaram"
+              "form": "imprimiram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "ligaram"
+              "form": "imprimiram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje nós ligamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Imprimo impressora na sala de trabalho.",
+              "da": "Jeg arbejder med printer i arbejdsrummet."
             },
             {
-              "pt": "Ontem a funcionária ligou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "Agora imprimi impressora.",
+              "da": "Nu arbejdede jeg med printer."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "wrong": "Ontem eu imprimo.",
+              "correct": "Agora imprimi.",
+              "noteDa": "Efter agora bruges normalt datid, når handlingen er afsluttet."
             }
-          ],
-          "verbDa": "at forbinde / ringe"
+          ]
         }
       ]
     },
     {
       "id": 8,
-      "titleDa": "Offentlig computer",
-      "objectiveDa": "Træn en realistisk mini-dialog om offentlig computer.",
+      "titleDa": "Pagar impressão",
+      "objectiveDa": "Brug betaling for print i en konkret scene om Computador e internet.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de computador público; pode orientar-me?",
-          "textDa": "Undskyld, jeg har et spørgsmål om offentlig computer; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
+          "textPt": "Ligo o computador e começo por pagamento da impressão, porque isso faz parte da história de hoje.",
+          "textDa": "Jeg tænder computeren og begynder med betaling for print, fordi det hører til dagens historie.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
         },
         {
           "speaker": "B",
-          "textPt": "O cliente pergunta se computador público é para hoje ou para mais tarde.",
-          "textDa": "Kunden spørger, om offentlig computer er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
+          "textPt": "A pessoa responsável mostra pagamento da impressão e explica o passo seguinte.",
+          "textDa": "Den ansvarlige viser betaling for print og forklarer næste trin.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
         },
         {
           "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver computador público.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at få svar om offentlig computer.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
+          "textPt": "Onde posso encontrar pagamento da impressão?",
+          "textDa": "Hvor kan jeg finde betaling for print?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
         },
         {
           "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de computador público.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om offentlig computer.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+          "textPt": "O detalhe importante sobre pagamento da impressão está escrito no aviso pequeno.",
+          "textDa": "Den vigtige detalje om betaling for print står på det lille skilt.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
         },
         {
           "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com computador público?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med offentlig computer?",
-          "grammarDa": "Avançarmos er nós-form efter para."
+          "textPt": "Tenho a informação sobre pagamento da impressão guardada nas minhas notas.",
+          "textDa": "Jeg har informationen om betaling for print gemt i mine noter.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
         },
         {
           "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre computador público; depois o cliente regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om offentlig computer; derefter registrerer kunden det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
+          "textPt": "Pagamento da impressão está disponível neste momento e pertence ao contexto digital.",
+          "textDa": "Betaling for print er tilgængelig lige nu og hører til computer og internet.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
         },
         {
           "speaker": "A",
-          "textPt": "Se houver algum problema com computador público, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med offentlig computer, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
+          "textPt": "Há pouco paguei pagamento da impressão e percebi melhor a situação.",
+          "textDa": "For lidt siden arbejdede jeg med betaling for print og forstod situationen bedre.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
         },
         {
           "speaker": "B",
-          "textPt": "Pode, mas talvez computador público fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver offentlig computer løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
+          "textPt": "A explicação sobre pagamento da impressão é útil porque a situação é concreta.",
+          "textDa": "Forklaringen om betaling for print er nyttig, fordi situationen er konkret.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
         },
         {
           "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre computador público.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om offentlig computer.",
-          "grammarDa": "Agradecia er høfligt."
+          "textPt": "Pago pagamento da impressão na receção e sigo para a próxima cena.",
+          "textDa": "Jeg arbejder med betaling for print i receptionen og går videre til næste scene.",
+          "grammarDa": "Pagar viser handlingen i scenen."
         },
         {
           "speaker": "B",
-          "textPt": "Combinado; quando computador público estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når offentlig computer er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
+          "textPt": "Depois de resolver pagamento da impressão, sigo para a próxima parte da história.",
+          "textDa": "Efter at have fået betaling for print på plads går jeg videre til næste del af historien.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "computador público",
-          "textDa": "offentlig computer"
+          "textPt": "pagamento da impressão",
+          "textDa": "betaling for print"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "internet",
+          "textDa": "Computador e internet"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "pagar",
+          "textDa": "at betale"
         },
         {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
+          "textPt": "receção",
+          "textDa": "i receptionen"
         },
         {
-          "textPt": "processo",
-          "textDa": "sag/proces"
+          "textPt": "cena de pagamento da impressão",
+          "textDa": "scene om betaling for print"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Computador e internet",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "ligar",
+          "titleDa": "Pagar i scenen",
+          "explanationDa": "pagar betyder \"at betale\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "pagar",
+          "verbDa": "at betale",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "ligo"
+              "form": "pago"
             },
             {
               "subject": "tu (presente)",
-              "form": "ligas"
+              "form": "pagas"
             },
             {
               "subject": "ele/ela/você (presente)",
-              "form": "liga"
+              "form": "paga"
             },
             {
               "subject": "nós (presente)",
-              "form": "ligamos"
+              "form": "pagamos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "ligam"
+              "form": "pagam"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "ligam"
+              "form": "pagam"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "liguei"
+              "form": "paguei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "ligaste"
+              "form": "pagaste"
             },
             {
               "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "ligou"
+              "form": "pagou"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "ligámos"
+              "form": "pagamos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "ligaram"
+              "form": "pagaram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "ligaram"
+              "form": "pagaram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje nós ligamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Pago pagamento da impressão na receção.",
+              "da": "Jeg arbejder med betaling for print i receptionen."
             },
             {
-              "pt": "Ontem a funcionária ligou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "Há pouco paguei pagamento da impressão.",
+              "da": "For lidt siden arbejdede jeg med betaling for print."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "wrong": "Ontem eu pago.",
+              "correct": "Há pouco paguei.",
+              "noteDa": "Efter há pouco bruges normalt datid, når handlingen er afsluttet."
             }
-          ],
-          "verbDa": "at forbinde / ringe"
+          ]
         }
       ]
     },
     {
       "id": 9,
-      "titleDa": "Teknisk hjælp",
-      "objectiveDa": "Træn en realistisk mini-dialog om teknisk hjælp.",
+      "titleDa": "Dados pessoais",
+      "objectiveDa": "Brug personlige data i en konkret scene om Computador e internet.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de apoio técnico; pode orientar-me?",
-          "textDa": "Undskyld, jeg har et spørgsmål om teknisk hjælp; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
+          "textPt": "Ligo o computador e começo por dados pessoais, porque isso faz parte da história de hoje.",
+          "textDa": "Jeg tænder computeren og begynder med personlige data, fordi det hører til dagens historie.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
         },
         {
           "speaker": "B",
-          "textPt": "As crianças pergunta se apoio técnico é para hoje ou para mais tarde.",
-          "textDa": "Børnene spørger, om teknisk hjælp er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
+          "textPt": "A pessoa responsável mostra dados pessoais e explica o passo seguinte.",
+          "textDa": "Den ansvarlige viser personlige data og forklarer næste trin.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
         },
         {
           "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver apoio técnico.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at få svar om teknisk hjælp.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
+          "textPt": "Onde posso encontrar dados pessoais?",
+          "textDa": "Hvor kan jeg finde personlige data?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
         },
         {
           "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de apoio técnico.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om teknisk hjælp.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+          "textPt": "O detalhe importante sobre dados pessoais está escrito no aviso pequeno.",
+          "textDa": "Den vigtige detalje om personlige data står på det lille skilt.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
         },
         {
           "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com apoio técnico?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med teknisk hjælp?",
-          "grammarDa": "Avançarmos er nós-form efter para."
+          "textPt": "Tenho a informação sobre dados pessoais guardada nas minhas notas.",
+          "textDa": "Jeg har informationen om personlige data gemt i mine noter.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
         },
         {
           "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre apoio técnico; depois as crianças regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om teknisk hjælp; derefter registrerer børnene det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
+          "textPt": "Dados pessoais está disponível neste momento e pertence ao contexto digital.",
+          "textDa": "Personlige data er tilgængelig lige nu og hører til computer og internet.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
         },
         {
           "speaker": "A",
-          "textPt": "Se houver algum problema com apoio técnico, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med teknisk hjælp, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
+          "textPt": "Ao meio-dia apaguei dados pessoais e percebi melhor a situação.",
+          "textDa": "Ved middagstid arbejdede jeg med personlige data og forstod situationen bedre.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
         },
         {
           "speaker": "B",
-          "textPt": "Pode, mas talvez apoio técnico fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver teknisk hjælp løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
+          "textPt": "A explicação sobre dados pessoais é útil porque a situação é concreta.",
+          "textDa": "Forklaringen om personlige data er nyttig, fordi situationen er konkret.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
         },
         {
           "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre apoio técnico.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om teknisk hjælp.",
-          "grammarDa": "Agradecia er høfligt."
+          "textPt": "Apago dados pessoais no fim da sessão e sigo para a próxima cena.",
+          "textDa": "Jeg arbejder med personlige data ved sessionens slutning og går videre til næste scene.",
+          "grammarDa": "Apagar viser handlingen i scenen."
         },
         {
           "speaker": "B",
-          "textPt": "Combinado; quando apoio técnico estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når teknisk hjælp er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "apoio técnico",
-          "textDa": "teknisk hjælp"
-        },
-        {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
-        },
-        {
-          "textPt": "talvez",
-          "textDa": "måske"
-        },
-        {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
-        },
-        {
-          "textPt": "processo",
-          "textDa": "sag/proces"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "Regelmæssige verber i Computador e internet",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "ligar",
-          "conjugation": [
-            {
-              "subject": "eu (presente)",
-              "form": "ligo"
-            },
-            {
-              "subject": "tu (presente)",
-              "form": "ligas"
-            },
-            {
-              "subject": "ele/ela/você (presente)",
-              "form": "liga"
-            },
-            {
-              "subject": "nós (presente)",
-              "form": "ligamos"
-            },
-            {
-              "subject": "vocês (presente)",
-              "form": "ligam"
-            },
-            {
-              "subject": "eles/elas (presente)",
-              "form": "ligam"
-            },
-            {
-              "subject": "eu (pretérito perfeito)",
-              "form": "liguei"
-            },
-            {
-              "subject": "tu (pretérito perfeito)",
-              "form": "ligaste"
-            },
-            {
-              "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "ligou"
-            },
-            {
-              "subject": "nós (pretérito perfeito)",
-              "form": "ligámos"
-            },
-            {
-              "subject": "vocês (pretérito perfeito)",
-              "form": "ligaram"
-            },
-            {
-              "subject": "eles/elas (pretérito perfeito)",
-              "form": "ligaram"
-            }
-          ],
-          "examples": [
-            {
-              "pt": "Hoje nós ligamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
-            },
-            {
-              "pt": "Ontem a funcionária ligou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
-            }
-          ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
-          "commonMistakes": [
-            {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
-            }
-          ],
-          "verbDa": "at forbinde / ringe"
-        }
-      ]
-    },
-    {
-      "id": 10,
-      "titleDa": "Personlige oplysninger",
-      "objectiveDa": "Træn en realistisk mini-dialog om personlige oplysninger.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de dados pessoais; pode orientar-me?",
-          "textDa": "Undskyld, jeg har et spørgsmål om personlige oplysninger; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
-        },
-        {
-          "speaker": "B",
-          "textPt": "O responsável pergunta se dados pessoais é para hoje ou para mais tarde.",
-          "textDa": "Den ansvarlige spørger, om personlige oplysninger er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
-        },
-        {
-          "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver dados pessoais.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at få svar om personlige oplysninger.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de dados pessoais.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om personlige oplysninger.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com dados pessoais?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med personlige oplysninger?",
-          "grammarDa": "Avançarmos er nós-form efter para."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre dados pessoais; depois o responsável regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om personlige oplysninger; derefter registrerer den ansvarlige det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Se houver algum problema com dados pessoais, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med personlige oplysninger, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Pode, mas talvez dados pessoais fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver personlige oplysninger løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre dados pessoais.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om personlige oplysninger.",
-          "grammarDa": "Agradecia er høfligt."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Combinado; quando dados pessoais estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når personlige oplysninger er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
+          "textPt": "Depois de resolver dados pessoais, sigo para a próxima parte da história.",
+          "textDa": "Efter at have fået personlige data på plads går jeg videre til næste del af historien.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
         }
       ],
       "vocabulary": [
         {
           "textPt": "dados pessoais",
-          "textDa": "personlige oplysninger"
+          "textDa": "personlige data"
+        },
+        {
+          "textPt": "internet",
+          "textDa": "Computador e internet"
+        },
+        {
+          "textPt": "apagar",
+          "textDa": "at slette"
+        },
+        {
+          "textPt": "fim da sessão",
+          "textDa": "ved sessionens slutning"
+        },
+        {
+          "textPt": "cena de dados pessoais",
+          "textDa": "scene om personlige data"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Apagar i scenen",
+          "explanationDa": "apagar betyder \"at slette\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "apagar",
+          "verbDa": "at slette",
+          "conjugation": [
+            {
+              "subject": "eu (presente)",
+              "form": "apago"
+            },
+            {
+              "subject": "tu (presente)",
+              "form": "apagas"
+            },
+            {
+              "subject": "ele/ela/você (presente)",
+              "form": "apaga"
+            },
+            {
+              "subject": "nós (presente)",
+              "form": "apagamos"
+            },
+            {
+              "subject": "vocês (presente)",
+              "form": "apagam"
+            },
+            {
+              "subject": "eles/elas (presente)",
+              "form": "apagam"
+            },
+            {
+              "subject": "eu (pretérito perfeito)",
+              "form": "apaguei"
+            },
+            {
+              "subject": "tu (pretérito perfeito)",
+              "form": "apagaste"
+            },
+            {
+              "subject": "ele/ela/você (pretérito perfeito)",
+              "form": "apagou"
+            },
+            {
+              "subject": "nós (pretérito perfeito)",
+              "form": "apagámos"
+            },
+            {
+              "subject": "vocês (pretérito perfeito)",
+              "form": "apagaram"
+            },
+            {
+              "subject": "eles/elas (pretérito perfeito)",
+              "form": "apagaram"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Apago dados pessoais no fim da sessão.",
+              "da": "Jeg arbejder med personlige data ved sessionens slutning."
+            },
+            {
+              "pt": "Ao meio-dia apaguei dados pessoais.",
+              "da": "Ao meio-dia arbejdede jeg med personlige data."
+            }
+          ],
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
+          "commonMistakes": [
+            {
+              "wrong": "Ontem eu apago.",
+              "correct": "Ao meio-dia apaguei.",
+              "noteDa": "Efter ao meio-dia bruges normalt datid, når handlingen er afsluttet."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "titleDa": "Ligação segura",
+      "objectiveDa": "Brug sikker forbindelse i en konkret scene om Computador e internet.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Ligo o computador e começo por ligação segura, porque isso faz parte da história de hoje.",
+          "textDa": "Jeg tænder computeren og begynder med sikker forbindelse, fordi det hører til dagens historie.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
+        },
+        {
+          "speaker": "B",
+          "textPt": "A pessoa responsável mostra ligação segura e explica o passo seguinte.",
+          "textDa": "Den ansvarlige viser sikker forbindelse og forklarer næste trin.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Onde posso encontrar ligação segura?",
+          "textDa": "Hvor kan jeg finde sikker forbindelse?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
+        },
+        {
+          "speaker": "B",
+          "textPt": "O detalhe importante sobre ligação segura está escrito no aviso pequeno.",
+          "textDa": "Den vigtige detalje om sikker forbindelse står på det lille skilt.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Tenho a informação sobre ligação segura guardada nas minhas notas.",
+          "textDa": "Jeg har informationen om sikker forbindelse gemt i mine noter.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Ligação segura está disponível neste momento e pertence ao contexto digital.",
+          "textDa": "Sikker forbindelse er tilgængelig lige nu og hører til computer og internet.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
+        },
+        {
+          "speaker": "A",
+          "textPt": "No fim confirmei ligação segura e percebi melhor a situação.",
+          "textDa": "No fim arbejdede jeg med sikker forbindelse og forstod situationen bedre.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
+        },
+        {
+          "speaker": "B",
+          "textPt": "A explicação sobre ligação segura é útil porque a situação é concreta.",
+          "textDa": "Forklaringen om sikker forbindelse er nyttig, fordi situationen er konkret.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Confirmo ligação segura no navegador e sigo para a próxima cena.",
+          "textDa": "Jeg arbejder med sikker forbindelse i browseren og går videre til næste scene.",
+          "grammarDa": "Confirmar viser handlingen i scenen."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Depois de resolver ligação segura, sigo para a próxima parte da história.",
+          "textDa": "Efter at have fået sikker forbindelse på plads går jeg videre til næste del af historien.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "ligação segura",
+          "textDa": "sikker forbindelse"
+        },
+        {
+          "textPt": "internet",
+          "textDa": "Computador e internet"
         },
         {
           "textPt": "confirmar",
           "textDa": "at bekræfte"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "navegador",
+          "textDa": "i browseren"
         },
         {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
-        },
-        {
-          "textPt": "processo",
-          "textDa": "sag/proces"
+          "textPt": "cena de ligação segura",
+          "textDa": "scene om sikker forbindelse"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Computador e internet",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "ligar",
+          "titleDa": "Confirmar i scenen",
+          "explanationDa": "confirmar betyder \"at bekræfte\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "confirmar",
+          "verbDa": "at bekræfte",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "ligo"
+              "form": "confirmo"
             },
             {
               "subject": "tu (presente)",
-              "form": "ligas"
+              "form": "confirmas"
             },
             {
               "subject": "ele/ela/você (presente)",
-              "form": "liga"
+              "form": "confirma"
             },
             {
               "subject": "nós (presente)",
-              "form": "ligamos"
+              "form": "confirmamos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "ligam"
+              "form": "confirmam"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "ligam"
+              "form": "confirmam"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "liguei"
+              "form": "confirmei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "ligaste"
+              "form": "confirmaste"
             },
             {
               "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "ligou"
+              "form": "confirmou"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "ligámos"
+              "form": "confirmamos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "ligaram"
+              "form": "confirmaram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "ligaram"
+              "form": "confirmaram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje nós ligamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Confirmo ligação segura no navegador.",
+              "da": "Jeg arbejder med sikker forbindelse i browseren."
             },
             {
-              "pt": "Ontem a funcionária ligou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "No fim confirmei ligação segura.",
+              "da": "Til sidst arbejdede jeg med sikker forbindelse."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "wrong": "Ontem eu confirmo.",
+              "correct": "No fim confirmei.",
+              "noteDa": "Efter no fim bruges normalt datid, når handlingen er afsluttet."
             }
-          ],
-          "verbDa": "at forbinde / ringe"
+          ]
         }
       ]
+    }
+  ],
+  "story": [
+    {
+      "speaker": "Fortæller",
+      "textPt": "Na cena 1, entro em contacto com acesso ao computador na receção.",
+      "textDa": "I scene 1 møder jeg computeradgang i receptionen.",
+      "grammarDa": "Læselinje 1 hænger sammen med dialogen \"Acesso ao computador\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Peço acesso ao computador, uso ser, estar e ter naturalmente, e avanço na história.",
+      "textDa": "Jeg arbejder med computeradgang, bruger ser, estar og ter naturligt, og går videre i historien.",
+      "grammarDa": "Læselinje 2 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Na cena 2, entro em contacto com nome de utilizador no ecrã.",
+      "textDa": "I scene 2 møder jeg brugernavn på skærmen.",
+      "grammarDa": "Læselinje 3 hænger sammen med dialogen \"Nome de utilizador\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Escrevo nome de utilizador, uso ser, estar e ter naturalmente, e avanço na história.",
+      "textDa": "Jeg arbejder med brugernavn, bruger ser, estar og ter naturligt, og går videre i historien.",
+      "grammarDa": "Læselinje 4 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Na cena 3, entro em contacto com palavra-passe esquecida no portal.",
+      "textDa": "I scene 3 møder jeg glemt adgangskode i portalen.",
+      "grammarDa": "Læselinje 5 hænger sammen med dialogen \"Palavra-passe esquecida\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Reponho palavra-passe esquecida, uso ser, estar e ter naturalmente, e avanço na história.",
+      "textDa": "Jeg arbejder med glemt adgangskode, bruger ser, estar og ter naturligt, og går videre i historien.",
+      "grammarDa": "Læselinje 6 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Na cena 4, entro em contacto com rede Wi-Fi no telemóvel.",
+      "textDa": "I scene 4 møder jeg Wi-Fi-netværk på telefonen.",
+      "grammarDa": "Læselinje 7 hænger sammen med dialogen \"Rede Wi-Fi\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Ligo rede Wi-Fi, uso ser, estar e ter naturalmente, e avanço na história.",
+      "textDa": "Jeg arbejder med Wi-Fi-netværk, bruger ser, estar og ter naturligt, og går videre i historien.",
+      "grammarDa": "Læselinje 8 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Na cena 5, entro em contacto com descarregamento no navegador.",
+      "textDa": "I scene 5 møder jeg download i browseren.",
+      "grammarDa": "Læselinje 9 hænger sammen med dialogen \"Descarregar ficheiro\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Descarrego descarregamento, uso ser, estar e ter naturalmente, e avanço na história.",
+      "textDa": "Jeg arbejder med download, bruger ser, estar og ter naturligt, og går videre i historien.",
+      "grammarDa": "Læselinje 10 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Na cena 6, entro em contacto com anexo do e-mail na caixa de entrada.",
+      "textDa": "I scene 6 møder jeg e-mailbilag i indbakken.",
+      "grammarDa": "Læselinje 11 hænger sammen med dialogen \"Anexo de e-mail\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Abro anexo do e-mail, uso ser, estar e ter naturalmente, e avanço na história.",
+      "textDa": "Jeg arbejder med e-mailbilag, bruger ser, estar og ter naturligt, og går videre i historien.",
+      "grammarDa": "Læselinje 12 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Na cena 7, entro em contacto com impressora na sala de trabalho.",
+      "textDa": "I scene 7 møder jeg printer i arbejdsrummet.",
+      "grammarDa": "Læselinje 13 hænger sammen med dialogen \"Impressora\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Imprimo impressora, uso ser, estar e ter naturalmente, e avanço na história.",
+      "textDa": "Jeg arbejder med printer, bruger ser, estar og ter naturligt, og går videre i historien.",
+      "grammarDa": "Læselinje 14 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Na cena 8, entro em contacto com pagamento da impressão na receção.",
+      "textDa": "I scene 8 møder jeg betaling for print i receptionen.",
+      "grammarDa": "Læselinje 15 hænger sammen med dialogen \"Pagar impressão\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Pago pagamento da impressão, uso ser, estar e ter naturalmente, e avanço na história.",
+      "textDa": "Jeg arbejder med betaling for print, bruger ser, estar og ter naturligt, og går videre i historien.",
+      "grammarDa": "Læselinje 16 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Na cena 9, entro em contacto com dados pessoais no fim da sessão.",
+      "textDa": "I scene 9 møder jeg personlige data ved sessionens slutning.",
+      "grammarDa": "Læselinje 17 hænger sammen med dialogen \"Dados pessoais\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Apago dados pessoais, uso ser, estar e ter naturalmente, e avanço na história.",
+      "textDa": "Jeg arbejder med personlige data, bruger ser, estar og ter naturligt, og går videre i historien.",
+      "grammarDa": "Læselinje 18 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Na cena 10, entro em contacto com ligação segura no navegador.",
+      "textDa": "I scene 10 møder jeg sikker forbindelse i browseren.",
+      "grammarDa": "Læselinje 19 hænger sammen med dialogen \"Ligação segura\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Confirmo ligação segura, uso ser, estar e ter naturalmente, e avanço na história.",
+      "textDa": "Jeg arbejder med sikker forbindelse, bruger ser, estar og ter naturligt, og går videre i historien.",
+      "grammarDa": "Læselinje 20 viser scenens resultat."
     }
   ],
   "quiz": [
     {
       "id": 1,
-      "questionDa": "Hvilken sætning passer bedst til temaet \"Computador e internet\"?",
+      "questionDa": "Hvad betyder \"computador\"?",
       "answers": [
         {
-          "text": "Parece que ligação Wi-Fi ainda está disponível.",
+          "text": "computer",
           "correct": true
         },
         {
-          "text": "O gato dorme na janela.",
+          "text": "brugernavn",
           "correct": false
         },
         {
-          "text": "A camisola é azul.",
+          "text": "glemt adgangskode",
           "correct": false
         },
         {
-          "text": "Há três maçãs na mesa.",
+          "text": "endestation",
           "correct": false
         }
       ],
-      "explanationDa": "Sætningen hører til lektionen Computador e internet."
+      "explanationDa": "Svarmuligheden kommer fra lektionens JSON-ordforråd."
     },
     {
       "id": 2,
-      "questionDa": "Hvilken form er nós i nutid?",
+      "questionDa": "Hvilken form er eu i nutid af pedir?",
       "answers": [
         {
-          "text": "ligamos",
+          "text": "peço",
           "correct": true
         },
         {
-          "text": "ligámos",
+          "text": "pedi",
           "correct": false
         },
         {
-          "text": "falam",
+          "text": "pedes",
           "correct": false
         },
         {
-          "text": "partiste",
+          "text": "pedem",
           "correct": false
         }
       ],
-      "explanationDa": "Nós-formen følger verbets regelmæssige mønster."
+      "explanationDa": "Nutidsformen er peço."
     },
     {
       "id": 3,
-      "questionDa": "Hvilken form er nós i pretérito perfeito?",
+      "questionDa": "Hvilken form er eu i pretérito perfeito af escrever?",
       "answers": [
         {
-          "text": "ligámos",
+          "text": "escrevi",
           "correct": true
         },
         {
-          "text": "ligamos",
+          "text": "escrevo",
           "correct": false
         },
         {
-          "text": "procuram",
+          "text": "escreveu",
           "correct": false
         },
         {
-          "text": "beberam",
+          "text": "tenho",
           "correct": false
         }
       ],
-      "explanationDa": "Pretérito perfeito bruges om en afsluttet handling."
+      "explanationDa": "Datidsformen er escrevi."
     },
     {
       "id": 4,
-      "questionDa": "Hvad betyder: Parece que ligação Wi-Fi ainda está disponível.",
+      "questionDa": "Vælg den bedste oversættelse: Quanto custa ou onde fica palavra-passe esquecida?",
       "answers": [
         {
-          "text": "Det ser ud til, at Wi-Fi-forbindelse stadig er tilgængelig.",
+          "text": "Hvad koster glemt adgangskode, eller hvor finder jeg det?",
           "correct": true
         },
         {
-          "text": "Jeg har travlt i morgen.",
+          "text": "På den måde er computeradgang på plads før historiens næste trin.",
           "correct": false
         },
         {
-          "text": "Vi bestilte to kaffe.",
+          "text": "Her har brugernavn sin egen regel, og betjeningen er direkte.",
           "correct": false
         },
         {
-          "text": "Børnene leger udenfor.",
+          "text": "Jeg kommer tilbage i morgen.",
           "correct": false
         }
       ],
-      "explanationDa": "Oversættelsen kommer fra dialogernes ordforråd."
+      "explanationDa": "Spørgsmålene træner direkte hverdagssprog."
     },
     {
       "id": 5,
-      "questionDa": "Vælg den mest naturlige høflige formulering.",
+      "questionDa": "Hvilket ord hører til lektionen \"Computador e internet\"?",
       "answers": [
         {
-          "text": "Pode ajudar-me, por favor?",
+          "text": "nome de utilizador",
           "correct": true
         },
         {
-          "text": "Ajuda mim agora.",
+          "text": "receita médica",
           "correct": false
         },
         {
-          "text": "Você ajuda eu?",
+          "text": "quarto de hotel",
           "correct": false
         },
         {
-          "text": "Dar ajuda rápido.",
+          "text": "garagem privada",
           "correct": false
         }
       ],
-      "explanationDa": "Pode ajudar-me, por favor? er en naturlig høflig formulering."
-    },
-    {
-      "id": 6,
-      "questionDa": "Hvilken portugisisk form er tallet 84?",
-      "answers": [
-        {
-          "text": "oitenta e quatro",
-          "correct": true
-        },
-        {
-          "text": "vinte",
-          "correct": false
-        },
-        {
-          "text": "sessenta",
-          "correct": false
-        },
-        {
-          "text": "noventa",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Talquizzen kommer fra JSON og kan genbruges i fremtidige niveauer."
-    }
-  ],
-  "storyTitleDa": "Internet før et onlinemøde",
-  "storyObjectiveDa": "Læs en kort tekst med en konkret situation, varierede subjekter, regelmæssige verber og lidt pretérito perfeito.",
-  "story": [
-    {
-      "speaker": "A",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre ligação Wi-Fi.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om Wi-Fi-forbindelse.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "A pessoa responsável verificou ligação Wi-Fi com calma antes de responder.",
-      "textDa": "Den ansvarlige person gennemgik informationen om Wi-Fi-forbindelse, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre palavra-passe esquecida.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om glemt adgangskode.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "A pessoa responsável verificou palavra-passe esquecida com calma antes de responder.",
-      "textDa": "Den ansvarlige person gennemgik informationen om glemt adgangskode, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre internet lenta.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om langsomt internet.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "A pessoa responsável verificou internet lenta com calma antes de responder.",
-      "textDa": "Den ansvarlige person gennemgik informationen om langsomt internet, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre ficheiro descarregado.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om downloadet fil.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "A pessoa responsável verificou ficheiro descarregado com calma antes de responder.",
-      "textDa": "Den ansvarlige person gennemgik informationen om downloadet fil, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre email enviado.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om sendt e-mail.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "A pessoa responsável verificou email enviado com calma antes de responder.",
-      "textDa": "Den ansvarlige person gennemgik informationen om sendt e-mail, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre impressora sem papel.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om printer uden papir.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "A pessoa responsável verificou impressora sem papel com calma antes de responder.",
-      "textDa": "Den ansvarlige person gennemgik informationen om printer uden papir, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre atualização de software.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om softwareopdatering.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "A pessoa responsável verificou atualização de software com calma antes de responder.",
-      "textDa": "Den ansvarlige person gennemgik informationen om softwareopdatering, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre computador público.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om offentlig computer.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "A pessoa responsável verificou computador público com calma antes de responder.",
-      "textDa": "Den ansvarlige person gennemgik informationen om offentlig computer, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre apoio técnico.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om teknisk hjælp.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "A pessoa responsável verificou apoio técnico com calma antes de responder.",
-      "textDa": "Den ansvarlige person gennemgik informationen om teknisk hjælp, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre dados pessoais.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om personlige oplysninger.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "A pessoa responsável verificou dados pessoais com calma antes de responder.",
-      "textDa": "Den ansvarlige person gennemgik informationen om personlige oplysninger, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
+      "explanationDa": "Quizzen bruger ord fra den aktuelle lektion."
     }
   ]
 }

@@ -1,72 +1,504 @@
 {
   "id": 3,
-  "titleDa": "Notícias e informação",
-  "descriptionDa": "Learn Portuguese 3: Nyheder, vejrudsigt, trafik, lokale begivenheder og usikker information.",
+  "titleDa": "Informação e notícias",
+  "descriptionDa": "En dag hvor flere nyhedskilder sammenlignes for at forstå vejr, trafik og kultur.",
+  "vocabulary": [
+    {
+      "textPt": "informação",
+      "textDa": "information"
+    },
+    {
+      "textPt": "notícias",
+      "textDa": "nyheder"
+    },
+    {
+      "textPt": "notícias online",
+      "textDa": "online nyheder"
+    },
+    {
+      "textPt": "noticiário",
+      "textDa": "TV-avis"
+    },
+    {
+      "textPt": "notícia local",
+      "textDa": "lokal nyhed"
+    },
+    {
+      "textPt": "previsão do tempo",
+      "textDa": "vejrudsigten"
+    },
+    {
+      "textPt": "trânsito",
+      "textDa": "trafik"
+    },
+    {
+      "textPt": "evento cultural",
+      "textDa": "kulturarrangement"
+    },
+    {
+      "textPt": "fonte",
+      "textDa": "kilde"
+    },
+    {
+      "textPt": "manchete",
+      "textDa": "overskrift"
+    },
+    {
+      "textPt": "jornalista",
+      "textDa": "journalist"
+    },
+    {
+      "textPt": "artigo",
+      "textDa": "artikel"
+    },
+    {
+      "textPt": "mapa",
+      "textDa": "kort"
+    },
+    {
+      "textPt": "aplicação",
+      "textDa": "app"
+    },
+    {
+      "textPt": "incerteza",
+      "textDa": "usikkerhed"
+    },
+    {
+      "textPt": "ontem",
+      "textDa": "i går"
+    },
+    {
+      "textPt": "chuva",
+      "textDa": "regn"
+    },
+    {
+      "textPt": "vento",
+      "textDa": "vind"
+    },
+    {
+      "textPt": "atraso",
+      "textDa": "forsinkelse"
+    },
+    {
+      "textPt": "cultura",
+      "textDa": "kultur"
+    },
+    {
+      "textPt": "bairro",
+      "textDa": "bydel"
+    },
+    {
+      "textPt": "relato",
+      "textDa": "beretning"
+    },
+    {
+      "textPt": "televisão",
+      "textDa": "fjernsyn"
+    },
+    {
+      "textPt": "rádio",
+      "textDa": "radio"
+    },
+    {
+      "textPt": "primeira página",
+      "textDa": "forside"
+    }
+  ],
   "dialogues": [
     {
       "id": 1,
-      "titleDa": "Lokal nyhed",
-      "objectiveDa": "Træn en realistisk mini-dialog om lokal nyhed.",
+      "titleDa": "Notícia online",
+      "objectiveDa": "Brug online nyheder i en konkret scene om Informação e notícias.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de notícia local; pode orientar-me?",
-          "textDa": "Undskyld, jeg har et spørgsmål om lokal nyhed; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
+          "textPt": "Abro as notícias e começo por notícias online, porque isso faz parte da história de hoje.",
+          "textDa": "Jeg åbner nyhederne og begynder med online nyheder, fordi det hører til dagens historie.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
         },
         {
           "speaker": "B",
-          "textPt": "O funcionário pergunta se notícia local é para hoje ou para mais tarde.",
-          "textDa": "Medarbejderen spørger, om lokal nyhed er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
+          "textPt": "A pessoa responsável mostra notícias online e explica o passo seguinte.",
+          "textDa": "Den ansvarlige viser online nyheder og forklarer næste trin.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
         },
         {
           "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver notícia local.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at få svar om lokal nyhed.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
+          "textPt": "Onde posso encontrar notícias online?",
+          "textDa": "Hvor kan jeg finde online nyheder?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
         },
         {
           "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de notícia local.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om lokal nyhed.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+          "textPt": "O detalhe importante sobre notícias online está escrito no aviso pequeno.",
+          "textDa": "Den vigtige detalje om online nyheder står på det lille skilt.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
         },
         {
           "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com notícia local?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med lokal nyhed?",
-          "grammarDa": "Avançarmos er nós-form efter para."
+          "textPt": "Tenho a informação sobre notícias online guardada nas minhas notas.",
+          "textDa": "Jeg har informationen om online nyheder gemt i mine noter.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
         },
         {
           "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre notícia local; depois o funcionário regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om lokal nyhed; derefter registrerer medarbejderen det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
+          "textPt": "Notícias online está disponível neste momento e pertence ao contexto das notícias.",
+          "textDa": "Online nyheder er tilgængelig lige nu og hører til information og nyheder.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
         },
         {
           "speaker": "A",
-          "textPt": "Se houver algum problema com notícia local, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med lokal nyhed, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
+          "textPt": "De manhã abri notícias online e percebi melhor a situação.",
+          "textDa": "Om morgenen arbejdede jeg med online nyheder og forstod situationen bedre.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
         },
         {
           "speaker": "B",
-          "textPt": "Pode, mas talvez notícia local fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver lokal nyhed løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
+          "textPt": "A explicação sobre notícias online é útil porque a situação é concreta.",
+          "textDa": "Forklaringen om online nyheder er nyttig, fordi situationen er konkret.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
         },
         {
           "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre notícia local.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om lokal nyhed.",
-          "grammarDa": "Agradecia er høfligt."
+          "textPt": "Abro notícias online no telemóvel e sigo para a próxima cena.",
+          "textDa": "Jeg arbejder med online nyheder på telefonen og går videre til næste scene.",
+          "grammarDa": "Abrir viser handlingen i scenen."
         },
         {
           "speaker": "B",
-          "textPt": "Combinado; quando notícia local estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når lokal nyhed er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
+          "textPt": "Depois de resolver notícias online, sigo para a próxima parte da história.",
+          "textDa": "Efter at have fået online nyheder på plads går jeg videre til næste del af historien.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "notícias online",
+          "textDa": "online nyheder"
+        },
+        {
+          "textPt": "notícias",
+          "textDa": "Informação e notícias"
+        },
+        {
+          "textPt": "abrir",
+          "textDa": "at åbne"
+        },
+        {
+          "textPt": "telemóvel",
+          "textDa": "på telefonen"
+        },
+        {
+          "textPt": "notícia online",
+          "textDa": "Notícia online"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Abrir i scenen",
+          "explanationDa": "abrir betyder \"at åbne\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "abrir",
+          "verbDa": "at åbne",
+          "conjugation": [
+            {
+              "subject": "eu (presente)",
+              "form": "abro"
+            },
+            {
+              "subject": "tu (presente)",
+              "form": "abres"
+            },
+            {
+              "subject": "ele/ela/você (presente)",
+              "form": "abre"
+            },
+            {
+              "subject": "nós (presente)",
+              "form": "abrimos"
+            },
+            {
+              "subject": "vocês (presente)",
+              "form": "abrem"
+            },
+            {
+              "subject": "eles/elas (presente)",
+              "form": "abrem"
+            },
+            {
+              "subject": "eu (pretérito perfeito)",
+              "form": "abri"
+            },
+            {
+              "subject": "tu (pretérito perfeito)",
+              "form": "abriste"
+            },
+            {
+              "subject": "ele/ela/você (pretérito perfeito)",
+              "form": "abriu"
+            },
+            {
+              "subject": "nós (pretérito perfeito)",
+              "form": "abrimos"
+            },
+            {
+              "subject": "vocês (pretérito perfeito)",
+              "form": "abriram"
+            },
+            {
+              "subject": "eles/elas (pretérito perfeito)",
+              "form": "abriram"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Abro notícias online no telemóvel.",
+              "da": "Jeg arbejder med online nyheder på telefonen."
+            },
+            {
+              "pt": "De manhã abri notícias online.",
+              "da": "Om morgenen arbejdede jeg med online nyheder."
+            }
+          ],
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
+          "commonMistakes": [
+            {
+              "wrong": "Ontem eu abro.",
+              "correct": "De manhã abri.",
+              "noteDa": "Efter de manhã bruges normalt datid, når handlingen er afsluttet."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "titleDa": "Noticiário da televisão",
+      "objectiveDa": "Brug TV-avis i en konkret scene om Informação e notícias.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Abro as notícias e começo por noticiário da televisão, porque isso faz parte da história de hoje.",
+          "textDa": "Jeg åbner nyhederne og begynder med TV-avis, fordi det hører til dagens historie.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
+        },
+        {
+          "speaker": "B",
+          "textPt": "A pessoa responsável mostra noticiário da televisão e explica o passo seguinte.",
+          "textDa": "Den ansvarlige viser TV-avis og forklarer næste trin.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Onde posso encontrar noticiário da televisão?",
+          "textDa": "Hvor kan jeg finde TV-avis?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
+        },
+        {
+          "speaker": "B",
+          "textPt": "O detalhe importante sobre noticiário da televisão está escrito no aviso pequeno.",
+          "textDa": "Den vigtige detalje om TV-avis står på det lille skilt.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Tenho a informação sobre noticiário da televisão guardada nas minhas notas.",
+          "textDa": "Jeg har informationen om TV-avis gemt i mine noter.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Noticiário da televisão está disponível neste momento e pertence ao contexto das notícias.",
+          "textDa": "TV-avis er tilgængelig lige nu og hører til information og nyheder.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Ontem à noite assisti noticiário da televisão e percebi melhor a situação.",
+          "textDa": "I går aftes arbejdede jeg med TV-avis og forstod situationen bedre.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
+        },
+        {
+          "speaker": "B",
+          "textPt": "A explicação sobre noticiário da televisão é útil porque a situação é concreta.",
+          "textDa": "Forklaringen om TV-avis er nyttig, fordi situationen er konkret.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Assisto noticiário da televisão na sala comum e sigo para a próxima cena.",
+          "textDa": "Jeg arbejder med TV-avis i fællesrummet og går videre til næste scene.",
+          "grammarDa": "Assistir viser handlingen i scenen."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Depois de resolver noticiário da televisão, sigo para a próxima parte da história.",
+          "textDa": "Efter at have fået TV-avis på plads går jeg videre til næste del af historien.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "noticiário da televisão",
+          "textDa": "TV-avis"
+        },
+        {
+          "textPt": "notícias",
+          "textDa": "Informação e notícias"
+        },
+        {
+          "textPt": "assistir",
+          "textDa": "at se/deltage i"
+        },
+        {
+          "textPt": "sala comum",
+          "textDa": "i fællesrummet"
+        },
+        {
+          "textPt": "noticiário da televisão",
+          "textDa": "Noticiário da televisão"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Assistir i scenen",
+          "explanationDa": "assistir betyder \"at se/deltage i\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "assistir",
+          "verbDa": "at se/deltage i",
+          "conjugation": [
+            {
+              "subject": "eu (presente)",
+              "form": "assisto"
+            },
+            {
+              "subject": "tu (presente)",
+              "form": "assistes"
+            },
+            {
+              "subject": "ele/ela/você (presente)",
+              "form": "assiste"
+            },
+            {
+              "subject": "nós (presente)",
+              "form": "assistimos"
+            },
+            {
+              "subject": "vocês (presente)",
+              "form": "assistem"
+            },
+            {
+              "subject": "eles/elas (presente)",
+              "form": "assistem"
+            },
+            {
+              "subject": "eu (pretérito perfeito)",
+              "form": "assisti"
+            },
+            {
+              "subject": "tu (pretérito perfeito)",
+              "form": "assististe"
+            },
+            {
+              "subject": "ele/ela/você (pretérito perfeito)",
+              "form": "assistiu"
+            },
+            {
+              "subject": "nós (pretérito perfeito)",
+              "form": "assistimos"
+            },
+            {
+              "subject": "vocês (pretérito perfeito)",
+              "form": "assistiram"
+            },
+            {
+              "subject": "eles/elas (pretérito perfeito)",
+              "form": "assistiram"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Assisto noticiário da televisão na sala comum.",
+              "da": "Jeg arbejder med TV-avis i fællesrummet."
+            },
+            {
+              "pt": "Ontem à noite assisti noticiário da televisão.",
+              "da": "Ontem à noite arbejdede jeg med TV-avis."
+            }
+          ],
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
+          "commonMistakes": [
+            {
+              "wrong": "Ontem eu assisto.",
+              "correct": "Ontem à noite assisti.",
+              "noteDa": "Efter ontem à noite bruges normalt datid, når handlingen er afsluttet."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "titleDa": "Notícia local",
+      "objectiveDa": "Brug lokal nyhed i en konkret scene om Informação e notícias.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Abro as notícias e começo por notícia local, porque isso faz parte da história de hoje.",
+          "textDa": "Jeg åbner nyhederne og begynder med lokal nyhed, fordi det hører til dagens historie.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
+        },
+        {
+          "speaker": "B",
+          "textPt": "A pessoa responsável mostra notícia local e explica o passo seguinte.",
+          "textDa": "Den ansvarlige viser lokal nyhed og forklarer næste trin.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Onde posso encontrar notícia local?",
+          "textDa": "Hvor kan jeg finde lokal nyhed?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
+        },
+        {
+          "speaker": "B",
+          "textPt": "O detalhe importante sobre notícia local está escrito no aviso pequeno.",
+          "textDa": "Den vigtige detalje om lokal nyhed står på det lille skilt.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Tenho a informação sobre notícia local guardada nas minhas notas.",
+          "textDa": "Jeg har informationen om lokal nyhed gemt i mine noter.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Notícia local está disponível neste momento e pertence ao contexto das notícias.",
+          "textDa": "Lokal nyhed er tilgængelig lige nu og hører til information og nyheder.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Ontem procurei notícia local e percebi melhor a situação.",
+          "textDa": "I går arbejdede jeg med lokal nyhed og forstod situationen bedre.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
+        },
+        {
+          "speaker": "B",
+          "textPt": "A explicação sobre notícia local é útil porque a situação é concreta.",
+          "textDa": "Forklaringen om lokal nyhed er nyttig, fordi situationen er konkret.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Procuro notícia local no jornal regional e sigo para a próxima cena.",
+          "textDa": "Jeg arbejder med lokal nyhed i regionalavisen og går videre til næste scene.",
+          "grammarDa": "Procurar viser handlingen i scenen."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Depois de resolver notícia local, sigo para a próxima parte da história.",
+          "textDa": "Efter at have fået lokal nyhed på plads går jeg videre til næste del af historien.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
         }
       ],
       "vocabulary": [
@@ -75,868 +507,493 @@
           "textDa": "lokal nyhed"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "notícias",
+          "textDa": "Informação e notícias"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "procurar",
+          "textDa": "at søge efter"
         },
         {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
+          "textPt": "jornal regional",
+          "textDa": "i regionalavisen"
         },
         {
-          "textPt": "processo",
-          "textDa": "sag/proces"
+          "textPt": "notícia local",
+          "textDa": "Notícia local"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Notícias e informação",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "informar",
+          "titleDa": "Procurar i scenen",
+          "explanationDa": "procurar betyder \"at søge efter\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "procurar",
+          "verbDa": "at søge efter",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "informo"
+              "form": "procuro"
             },
             {
               "subject": "tu (presente)",
-              "form": "informas"
+              "form": "procuras"
             },
             {
               "subject": "ele/ela/você (presente)",
-              "form": "informa"
+              "form": "procura"
             },
             {
               "subject": "nós (presente)",
-              "form": "informamos"
+              "form": "procuramos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "informam"
+              "form": "procuram"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "informam"
+              "form": "procuram"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "informei"
+              "form": "procurei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "informaste"
+              "form": "procuraste"
             },
             {
               "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "informou"
+              "form": "procurou"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "informámos"
+              "form": "procuramos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "informaram"
+              "form": "procuraram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "informaram"
+              "form": "procuraram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje nós informamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Procuro notícia local no jornal regional.",
+              "da": "Jeg arbejder med lokal nyhed i regionalavisen."
             },
             {
-              "pt": "Ontem a funcionária informou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "Ontem procurei notícia local.",
+              "da": "I går arbejdede jeg med lokal nyhed."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "wrong": "Ontem eu procuro.",
+              "correct": "Ontem procurei.",
+              "noteDa": "Efter ontem bruges normalt datid, når handlingen er afsluttet."
             }
-          ],
-          "verbDa": "at informere"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "titleDa": "Vejrudsigt",
-      "objectiveDa": "Træn en realistisk mini-dialog om vejrudsigt.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de previsão do tempo; pode orientar-me?",
-          "textDa": "Undskyld, jeg har et spørgsmål om vejrudsigt; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
-        },
-        {
-          "speaker": "B",
-          "textPt": "A funcionária pergunta se previsão do tempo é para hoje ou para mais tarde.",
-          "textDa": "Medarbejderen spørger, om vejrudsigt er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
-        },
-        {
-          "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver previsão do tempo.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at få svar om vejrudsigt.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de previsão do tempo.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om vejrudsigt.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com previsão do tempo?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med vejrudsigt?",
-          "grammarDa": "Avançarmos er nós-form efter para."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre previsão do tempo; depois a funcionária regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om vejrudsigt; derefter registrerer medarbejderen det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Se houver algum problema com previsão do tempo, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med vejrudsigt, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Pode, mas talvez previsão do tempo fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver vejrudsigt løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre previsão do tempo.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om vejrudsigt.",
-          "grammarDa": "Agradecia er høfligt."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Combinado; quando previsão do tempo estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når vejrudsigt er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "previsão do tempo",
-          "textDa": "vejrudsigt"
-        },
-        {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
-        },
-        {
-          "textPt": "talvez",
-          "textDa": "måske"
-        },
-        {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
-        },
-        {
-          "textPt": "processo",
-          "textDa": "sag/proces"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "Regelmæssige verber i Notícias e informação",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "informar",
-          "conjugation": [
-            {
-              "subject": "eu (presente)",
-              "form": "informo"
-            },
-            {
-              "subject": "tu (presente)",
-              "form": "informas"
-            },
-            {
-              "subject": "ele/ela/você (presente)",
-              "form": "informa"
-            },
-            {
-              "subject": "nós (presente)",
-              "form": "informamos"
-            },
-            {
-              "subject": "vocês (presente)",
-              "form": "informam"
-            },
-            {
-              "subject": "eles/elas (presente)",
-              "form": "informam"
-            },
-            {
-              "subject": "eu (pretérito perfeito)",
-              "form": "informei"
-            },
-            {
-              "subject": "tu (pretérito perfeito)",
-              "form": "informaste"
-            },
-            {
-              "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "informou"
-            },
-            {
-              "subject": "nós (pretérito perfeito)",
-              "form": "informámos"
-            },
-            {
-              "subject": "vocês (pretérito perfeito)",
-              "form": "informaram"
-            },
-            {
-              "subject": "eles/elas (pretérito perfeito)",
-              "form": "informaram"
-            }
-          ],
-          "examples": [
-            {
-              "pt": "Hoje nós informamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
-            },
-            {
-              "pt": "Ontem a funcionária informou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
-            }
-          ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
-          "commonMistakes": [
-            {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
-            }
-          ],
-          "verbDa": "at informere"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "titleDa": "Afspærret trafik",
-      "objectiveDa": "Træn en realistisk mini-dialog om afspærret trafik.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de trânsito cortado; pode orientar-me?",
-          "textDa": "Undskyld, jeg har et spørgsmål om afspærret trafik; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
-        },
-        {
-          "speaker": "B",
-          "textPt": "O empregado pergunta se trânsito cortado é para hoje ou para mais tarde.",
-          "textDa": "Tjeneren spørger, om afspærret trafik er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
-        },
-        {
-          "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver trânsito cortado.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at få svar om afspærret trafik.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de trânsito cortado.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om afspærret trafik.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com trânsito cortado?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med afspærret trafik?",
-          "grammarDa": "Avançarmos er nós-form efter para."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre trânsito cortado; depois o empregado regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om afspærret trafik; derefter registrerer tjeneren det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Se houver algum problema com trânsito cortado, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med afspærret trafik, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Pode, mas talvez trânsito cortado fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver afspærret trafik løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre trânsito cortado.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om afspærret trafik.",
-          "grammarDa": "Agradecia er høfligt."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Combinado; quando trânsito cortado estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når afspærret trafik er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "trânsito cortado",
-          "textDa": "afspærret trafik"
-        },
-        {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
-        },
-        {
-          "textPt": "talvez",
-          "textDa": "måske"
-        },
-        {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
-        },
-        {
-          "textPt": "processo",
-          "textDa": "sag/proces"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "Regelmæssige verber i Notícias e informação",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "informar",
-          "conjugation": [
-            {
-              "subject": "eu (presente)",
-              "form": "informo"
-            },
-            {
-              "subject": "tu (presente)",
-              "form": "informas"
-            },
-            {
-              "subject": "ele/ela/você (presente)",
-              "form": "informa"
-            },
-            {
-              "subject": "nós (presente)",
-              "form": "informamos"
-            },
-            {
-              "subject": "vocês (presente)",
-              "form": "informam"
-            },
-            {
-              "subject": "eles/elas (presente)",
-              "form": "informam"
-            },
-            {
-              "subject": "eu (pretérito perfeito)",
-              "form": "informei"
-            },
-            {
-              "subject": "tu (pretérito perfeito)",
-              "form": "informaste"
-            },
-            {
-              "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "informou"
-            },
-            {
-              "subject": "nós (pretérito perfeito)",
-              "form": "informámos"
-            },
-            {
-              "subject": "vocês (pretérito perfeito)",
-              "form": "informaram"
-            },
-            {
-              "subject": "eles/elas (pretérito perfeito)",
-              "form": "informaram"
-            }
-          ],
-          "examples": [
-            {
-              "pt": "Hoje nós informamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
-            },
-            {
-              "pt": "Ontem a funcionária informou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
-            }
-          ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
-          "commonMistakes": [
-            {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
-            }
-          ],
-          "verbDa": "at informere"
+          ]
         }
       ]
     },
     {
       "id": 4,
-      "titleDa": "Netavis",
-      "objectiveDa": "Træn en realistisk mini-dialog om netavis.",
+      "titleDa": "Previsão do tempo",
+      "objectiveDa": "Brug vejrudsigten i en konkret scene om Informação e notícias.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de jornal online; pode orientar-me?",
-          "textDa": "Undskyld, jeg har et spørgsmål om netavis; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
+          "textPt": "Abro as notícias e começo por previsão do tempo, porque isso faz parte da história de hoje.",
+          "textDa": "Jeg åbner nyhederne og begynder med vejrudsigten, fordi det hører til dagens historie.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
         },
         {
           "speaker": "B",
-          "textPt": "A senhora pergunta se jornal online é para hoje ou para mais tarde.",
-          "textDa": "Damen spørger, om netavis er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
+          "textPt": "A pessoa responsável mostra previsão do tempo e explica o passo seguinte.",
+          "textDa": "Den ansvarlige viser vejrudsigten og forklarer næste trin.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
         },
         {
           "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver jornal online.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at få svar om netavis.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
+          "textPt": "Onde posso encontrar previsão do tempo?",
+          "textDa": "Hvor kan jeg finde vejrudsigten?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
         },
         {
           "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de jornal online.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om netavis.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+          "textPt": "O detalhe importante sobre previsão do tempo está escrito no aviso pequeno.",
+          "textDa": "Den vigtige detalje om vejrudsigten står på det lille skilt.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
         },
         {
           "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com jornal online?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med netavis?",
-          "grammarDa": "Avançarmos er nós-form efter para."
+          "textPt": "Tenho a informação sobre previsão do tempo guardada nas minhas notas.",
+          "textDa": "Jeg har informationen om vejrudsigten gemt i mine noter.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
         },
         {
           "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre jornal online; depois a senhora regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om netavis; derefter registrerer damen det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
+          "textPt": "Previsão do tempo está disponível neste momento e pertence ao contexto das notícias.",
+          "textDa": "Vejrudsigten er tilgængelig lige nu og hører til information og nyheder.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
         },
         {
           "speaker": "A",
-          "textPt": "Se houver algum problema com jornal online, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med netavis, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
+          "textPt": "Há pouco comparei previsão do tempo e percebi melhor a situação.",
+          "textDa": "For lidt siden arbejdede jeg med vejrudsigten og forstod situationen bedre.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
         },
         {
           "speaker": "B",
-          "textPt": "Pode, mas talvez jornal online fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver netavis løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
+          "textPt": "A explicação sobre previsão do tempo é útil porque a situação é concreta.",
+          "textDa": "Forklaringen om vejrudsigten er nyttig, fordi situationen er konkret.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
         },
         {
           "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre jornal online.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om netavis.",
-          "grammarDa": "Agradecia er høfligt."
+          "textPt": "Comparo previsão do tempo na aplicação e sigo para a próxima cena.",
+          "textDa": "Jeg arbejder med vejrudsigten i appen og går videre til næste scene.",
+          "grammarDa": "Comparar viser handlingen i scenen."
         },
         {
           "speaker": "B",
-          "textPt": "Combinado; quando jornal online estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når netavis er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
+          "textPt": "Depois de resolver previsão do tempo, sigo para a próxima parte da história.",
+          "textDa": "Efter at have fået vejrudsigten på plads går jeg videre til næste del af historien.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "jornal online",
-          "textDa": "netavis"
+          "textPt": "previsão do tempo",
+          "textDa": "vejrudsigten"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "notícias",
+          "textDa": "Informação e notícias"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "comparar",
+          "textDa": "at sammenligne"
         },
         {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
+          "textPt": "aplicação",
+          "textDa": "i appen"
         },
         {
-          "textPt": "processo",
-          "textDa": "sag/proces"
+          "textPt": "previsão do tempo",
+          "textDa": "Previsão do tempo"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Notícias e informação",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "informar",
+          "titleDa": "Comparar i scenen",
+          "explanationDa": "comparar betyder \"at sammenligne\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "comparar",
+          "verbDa": "at sammenligne",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "informo"
+              "form": "comparo"
             },
             {
               "subject": "tu (presente)",
-              "form": "informas"
+              "form": "comparas"
             },
             {
               "subject": "ele/ela/você (presente)",
-              "form": "informa"
+              "form": "compara"
             },
             {
               "subject": "nós (presente)",
-              "form": "informamos"
+              "form": "comparamos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "informam"
+              "form": "comparam"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "informam"
+              "form": "comparam"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "informei"
+              "form": "comparei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "informaste"
+              "form": "comparaste"
             },
             {
               "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "informou"
+              "form": "comparou"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "informámos"
+              "form": "comparamos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "informaram"
+              "form": "compararam"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "informaram"
+              "form": "compararam"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje nós informamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Comparo previsão do tempo na aplicação.",
+              "da": "Jeg arbejder med vejrudsigten i appen."
             },
             {
-              "pt": "Ontem a funcionária informou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "Há pouco comparei previsão do tempo.",
+              "da": "For lidt siden arbejdede jeg med vejrudsigten."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "wrong": "Ontem eu comparo.",
+              "correct": "Há pouco comparei.",
+              "noteDa": "Efter há pouco bruges normalt datid, når handlingen er afsluttet."
             }
-          ],
-          "verbDa": "at informere"
+          ]
         }
       ]
     },
     {
       "id": 5,
-      "titleDa": "Tv-avis",
-      "objectiveDa": "Træn en realistisk mini-dialog om tv-avis.",
+      "titleDa": "Aviso de trânsito",
+      "objectiveDa": "Brug trafik i en konkret scene om Informação e notícias.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de telejornal; pode orientar-me?",
-          "textDa": "Undskyld, jeg har et spørgsmål om tv-avis; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
+          "textPt": "Abro as notícias e começo por trânsito, porque isso faz parte da história de hoje.",
+          "textDa": "Jeg åbner nyhederne og begynder med trafik, fordi det hører til dagens historie.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
         },
         {
           "speaker": "B",
-          "textPt": "O motorista pergunta se telejornal é para hoje ou para mais tarde.",
-          "textDa": "Chaufføren spørger, om tv-avis er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
+          "textPt": "A pessoa responsável mostra trânsito e explica o passo seguinte.",
+          "textDa": "Den ansvarlige viser trafik og forklarer næste trin.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
         },
         {
           "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver telejornal.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at få svar om tv-avis.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
+          "textPt": "Onde posso encontrar trânsito?",
+          "textDa": "Hvor kan jeg finde trafik?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
         },
         {
           "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de telejornal.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om tv-avis.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+          "textPt": "O detalhe importante sobre trânsito está escrito no aviso pequeno.",
+          "textDa": "Den vigtige detalje om trafik står på det lille skilt.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
         },
         {
           "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com telejornal?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med tv-avis?",
-          "grammarDa": "Avançarmos er nós-form efter para."
+          "textPt": "Tenho a informação sobre trânsito guardada nas minhas notas.",
+          "textDa": "Jeg har informationen om trafik gemt i mine noter.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
         },
         {
           "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre telejornal; depois o motorista regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om tv-avis; derefter registrerer chaufføren det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
+          "textPt": "Trânsito está disponível neste momento e pertence ao contexto das notícias.",
+          "textDa": "Trafik er tilgængelig lige nu og hører til information og nyheder.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
         },
         {
           "speaker": "A",
-          "textPt": "Se houver algum problema com telejornal, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med tv-avis, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
+          "textPt": "Esta manhã confirmei trânsito e percebi melhor a situação.",
+          "textDa": "Esta manhã arbejdede jeg med trafik og forstod situationen bedre.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
         },
         {
           "speaker": "B",
-          "textPt": "Pode, mas talvez telejornal fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver tv-avis løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
+          "textPt": "A explicação sobre trânsito é útil porque a situação é concreta.",
+          "textDa": "Forklaringen om trafik er nyttig, fordi situationen er konkret.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
         },
         {
           "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre telejornal.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om tv-avis.",
-          "grammarDa": "Agradecia er høfligt."
+          "textPt": "Confirmo trânsito no mapa e sigo para a próxima cena.",
+          "textDa": "Jeg arbejder med trafik på kortet og går videre til næste scene.",
+          "grammarDa": "Confirmar viser handlingen i scenen."
         },
         {
           "speaker": "B",
-          "textPt": "Combinado; quando telejornal estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når tv-avis er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
+          "textPt": "Depois de resolver trânsito, sigo para a próxima parte da história.",
+          "textDa": "Efter at have fået trafik på plads går jeg videre til næste del af historien.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "telejornal",
-          "textDa": "tv-avis"
+          "textPt": "trânsito",
+          "textDa": "trafik"
+        },
+        {
+          "textPt": "notícias",
+          "textDa": "Informação e notícias"
         },
         {
           "textPt": "confirmar",
           "textDa": "at bekræfte"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "mapa",
+          "textDa": "på kortet"
         },
         {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
-        },
-        {
-          "textPt": "processo",
-          "textDa": "sag/proces"
+          "textPt": "aviso de trânsito",
+          "textDa": "Aviso de trânsito"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Notícias e informação",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "informar",
+          "titleDa": "Confirmar i scenen",
+          "explanationDa": "confirmar betyder \"at bekræfte\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "confirmar",
+          "verbDa": "at bekræfte",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "informo"
+              "form": "confirmo"
             },
             {
               "subject": "tu (presente)",
-              "form": "informas"
+              "form": "confirmas"
             },
             {
               "subject": "ele/ela/você (presente)",
-              "form": "informa"
+              "form": "confirma"
             },
             {
               "subject": "nós (presente)",
-              "form": "informamos"
+              "form": "confirmamos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "informam"
+              "form": "confirmam"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "informam"
+              "form": "confirmam"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "informei"
+              "form": "confirmei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "informaste"
+              "form": "confirmaste"
             },
             {
               "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "informou"
+              "form": "confirmou"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "informámos"
+              "form": "confirmamos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "informaram"
+              "form": "confirmaram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "informaram"
+              "form": "confirmaram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje nós informamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Confirmo trânsito no mapa.",
+              "da": "Jeg arbejder med trafik på kortet."
             },
             {
-              "pt": "Ontem a funcionária informou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "Esta manhã confirmei trânsito.",
+              "da": "Her til morgen arbejdede jeg med trafik."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "wrong": "Ontem eu confirmo.",
+              "correct": "Esta manhã confirmei.",
+              "noteDa": "Efter esta manhã bruges normalt datid, når handlingen er afsluttet."
             }
-          ],
-          "verbDa": "at informere"
+          ]
         }
       ]
     },
     {
       "id": 6,
-      "titleDa": "Kulturarrangement",
-      "objectiveDa": "Træn en realistisk mini-dialog om kulturarrangement.",
+      "titleDa": "Evento cultural",
+      "objectiveDa": "Brug kulturarrangement i en konkret scene om Informação e notícias.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de evento cultural; pode orientar-me?",
-          "textDa": "Undskyld, jeg har et spørgsmål om kulturarrangement; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
+          "textPt": "Abro as notícias e começo por evento cultural, porque isso faz parte da história de hoje.",
+          "textDa": "Jeg åbner nyhederne og begynder med kulturarrangement, fordi det hører til dagens historie.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
         },
         {
           "speaker": "B",
-          "textPt": "O técnico pergunta se evento cultural é para hoje ou para mais tarde.",
-          "textDa": "Teknikeren spørger, om kulturarrangement er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
+          "textPt": "A pessoa responsável mostra evento cultural e explica o passo seguinte.",
+          "textDa": "Den ansvarlige viser kulturarrangement og forklarer næste trin.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
         },
         {
           "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver evento cultural.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at få svar om kulturarrangement.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
+          "textPt": "Onde posso encontrar evento cultural?",
+          "textDa": "Hvor kan jeg finde kulturarrangement?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
         },
         {
           "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de evento cultural.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om kulturarrangement.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+          "textPt": "O detalhe importante sobre evento cultural está escrito no aviso pequeno.",
+          "textDa": "Den vigtige detalje om kulturarrangement står på det lille skilt.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
         },
         {
           "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com evento cultural?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med kulturarrangement?",
-          "grammarDa": "Avançarmos er nós-form efter para."
+          "textPt": "Tenho a informação sobre evento cultural guardada nas minhas notas.",
+          "textDa": "Jeg har informationen om kulturarrangement gemt i mine noter.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
         },
         {
           "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre evento cultural; depois o técnico regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om kulturarrangement; derefter registrerer teknikeren det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
+          "textPt": "Evento cultural está disponível neste momento e pertence ao contexto das notícias.",
+          "textDa": "Kulturarrangement er tilgængelig lige nu og hører til information og nyheder.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
         },
         {
           "speaker": "A",
-          "textPt": "Se houver algum problema com evento cultural, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med kulturarrangement, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
+          "textPt": "Na semana passada marquei evento cultural e percebi melhor a situação.",
+          "textDa": "I sidste uge arbejdede jeg med kulturarrangement og forstod situationen bedre.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
         },
         {
           "speaker": "B",
-          "textPt": "Pode, mas talvez evento cultural fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver kulturarrangement løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
+          "textPt": "A explicação sobre evento cultural é útil porque a situação é concreta.",
+          "textDa": "Forklaringen om kulturarrangement er nyttig, fordi situationen er konkret.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
         },
         {
           "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre evento cultural.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om kulturarrangement.",
-          "grammarDa": "Agradecia er høfligt."
+          "textPt": "Marco evento cultural no calendário e sigo para a próxima cena.",
+          "textDa": "Jeg arbejder med kulturarrangement i kalenderen og går videre til næste scene.",
+          "grammarDa": "Marcar viser handlingen i scenen."
         },
         {
           "speaker": "B",
-          "textPt": "Combinado; quando evento cultural estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når kulturarrangement er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
+          "textPt": "Depois de resolver evento cultural, sigo para a próxima parte da história.",
+          "textDa": "Efter at have fået kulturarrangement på plads går jeg videre til næste del af historien.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
         }
       ],
       "vocabulary": [
@@ -945,1067 +1002,997 @@
           "textDa": "kulturarrangement"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "notícias",
+          "textDa": "Informação e notícias"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "marcar",
+          "textDa": "at bestille/booke"
         },
         {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
+          "textPt": "calendário",
+          "textDa": "i kalenderen"
         },
         {
-          "textPt": "processo",
-          "textDa": "sag/proces"
+          "textPt": "evento cultural",
+          "textDa": "Evento cultural"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Notícias e informação",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "informar",
+          "titleDa": "Marcar i scenen",
+          "explanationDa": "marcar betyder \"at bestille/booke\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "marcar",
+          "verbDa": "at bestille/booke",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "informo"
+              "form": "marco"
             },
             {
               "subject": "tu (presente)",
-              "form": "informas"
+              "form": "marcas"
             },
             {
               "subject": "ele/ela/você (presente)",
-              "form": "informa"
+              "form": "marca"
             },
             {
               "subject": "nós (presente)",
-              "form": "informamos"
+              "form": "marcamos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "informam"
+              "form": "marcam"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "informam"
+              "form": "marcam"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "informei"
+              "form": "marquei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "informaste"
+              "form": "marcaste"
             },
             {
               "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "informou"
+              "form": "marcou"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "informámos"
+              "form": "marcamos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "informaram"
+              "form": "marcaram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "informaram"
+              "form": "marcaram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje nós informamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Marco evento cultural no calendário.",
+              "da": "Jeg arbejder med kulturarrangement i kalenderen."
             },
             {
-              "pt": "Ontem a funcionária informou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "Na semana passada marquei evento cultural.",
+              "da": "Na semana passada arbejdede jeg med kulturarrangement."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "wrong": "Ontem eu marco.",
+              "correct": "Na semana passada marquei.",
+              "noteDa": "Efter na semana passada bruges normalt datid, når handlingen er afsluttet."
             }
-          ],
-          "verbDa": "at informere"
+          ]
         }
       ]
     },
     {
       "id": 7,
-      "titleDa": "Modstridende information",
-      "objectiveDa": "Træn en realistisk mini-dialog om modstridende information.",
+      "titleDa": "Comparar fontes",
+      "objectiveDa": "Brug to kilder i en konkret scene om Informação e notícias.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de informação contraditória; pode orientar-me?",
-          "textDa": "Undskyld, jeg har et spørgsmål om modstridende information; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
+          "textPt": "Abro as notícias e começo por duas fontes, porque isso faz parte da história de hoje.",
+          "textDa": "Jeg åbner nyhederne og begynder med to kilder, fordi det hører til dagens historie.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
         },
         {
           "speaker": "B",
-          "textPt": "A cliente pergunta se informação contraditória é para hoje ou para mais tarde.",
-          "textDa": "Kunden spørger, om modstridende information er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
+          "textPt": "A pessoa responsável mostra duas fontes e explica o passo seguinte.",
+          "textDa": "Den ansvarlige viser to kilder og forklarer næste trin.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
         },
         {
           "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver informação contraditória.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at få svar om modstridende information.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
+          "textPt": "Onde posso encontrar duas fontes?",
+          "textDa": "Hvor kan jeg finde to kilder?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
         },
         {
           "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de informação contraditória.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om modstridende information.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+          "textPt": "O detalhe importante sobre duas fontes está escrito no aviso pequeno.",
+          "textDa": "Den vigtige detalje om to kilder står på det lille skilt.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
         },
         {
           "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com informação contraditória?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med modstridende information?",
-          "grammarDa": "Avançarmos er nós-form efter para."
+          "textPt": "Tenho a informação sobre duas fontes guardada nas minhas notas.",
+          "textDa": "Jeg har informationen om to kilder gemt i mine noter.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
         },
         {
           "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre informação contraditória; depois a cliente regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om modstridende information; derefter registrerer kunden det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
+          "textPt": "Duas fontes está disponível neste momento e pertence ao contexto das notícias.",
+          "textDa": "To kilder er tilgængelig lige nu og hører til information og nyheder.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
         },
         {
           "speaker": "A",
-          "textPt": "Se houver algum problema com informação contraditória, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med modstridende information, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
+          "textPt": "Ontem comparei duas fontes e percebi melhor a situação.",
+          "textDa": "I går arbejdede jeg med to kilder og forstod situationen bedre.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
         },
         {
           "speaker": "B",
-          "textPt": "Pode, mas talvez informação contraditória fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver modstridende information løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
+          "textPt": "A explicação sobre duas fontes é útil porque a situação é concreta.",
+          "textDa": "Forklaringen om to kilder er nyttig, fordi situationen er konkret.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
         },
         {
           "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre informação contraditória.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om modstridende information.",
-          "grammarDa": "Agradecia er høfligt."
+          "textPt": "Comparo duas fontes na biblioteca e sigo para a próxima cena.",
+          "textDa": "Jeg arbejder med to kilder på biblioteket og går videre til næste scene.",
+          "grammarDa": "Comparar viser handlingen i scenen."
         },
         {
           "speaker": "B",
-          "textPt": "Combinado; quando informação contraditória estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når modstridende information er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
+          "textPt": "Depois de resolver duas fontes, sigo para a próxima parte da história.",
+          "textDa": "Efter at have fået to kilder på plads går jeg videre til næste del af historien.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "informação contraditória",
-          "textDa": "modstridende information"
+          "textPt": "duas fontes",
+          "textDa": "to kilder"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "notícias",
+          "textDa": "Informação e notícias"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "comparar",
+          "textDa": "at sammenligne"
         },
         {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
+          "textPt": "biblioteca",
+          "textDa": "på biblioteket"
         },
         {
-          "textPt": "processo",
-          "textDa": "sag/proces"
+          "textPt": "comparar fontes",
+          "textDa": "Comparar fontes"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Notícias e informação",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "informar",
+          "titleDa": "Comparar i scenen",
+          "explanationDa": "comparar betyder \"at sammenligne\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "comparar",
+          "verbDa": "at sammenligne",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "informo"
+              "form": "comparo"
             },
             {
               "subject": "tu (presente)",
-              "form": "informas"
+              "form": "comparas"
             },
             {
               "subject": "ele/ela/você (presente)",
-              "form": "informa"
+              "form": "compara"
             },
             {
               "subject": "nós (presente)",
-              "form": "informamos"
+              "form": "comparamos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "informam"
+              "form": "comparam"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "informam"
+              "form": "comparam"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "informei"
+              "form": "comparei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "informaste"
+              "form": "comparaste"
             },
             {
               "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "informou"
+              "form": "comparou"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "informámos"
+              "form": "comparamos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "informaram"
+              "form": "compararam"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "informaram"
+              "form": "compararam"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje nós informamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Comparo duas fontes na biblioteca.",
+              "da": "Jeg arbejder med to kilder på biblioteket."
             },
             {
-              "pt": "Ontem a funcionária informou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "Ontem comparei duas fontes.",
+              "da": "I går arbejdede jeg med to kilder."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "wrong": "Ontem eu comparo.",
+              "correct": "Ontem comparei.",
+              "noteDa": "Efter ontem bruges normalt datid, når handlingen er afsluttet."
             }
-          ],
-          "verbDa": "at informere"
+          ]
         }
       ]
     },
     {
       "id": 8,
-      "titleDa": "I går aftes",
-      "objectiveDa": "Træn en realistisk mini-dialog om i går aftes.",
+      "titleDa": "Falar de ontem",
+      "objectiveDa": "Brug begivenhed fra i går i en konkret scene om Informação e notícias.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de ontem à noite; pode orientar-me?",
-          "textDa": "Undskyld, jeg har et spørgsmål om i går aftes; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
+          "textPt": "Abro as notícias e começo por acontecimento de ontem, porque isso faz parte da história de hoje.",
+          "textDa": "Jeg åbner nyhederne og begynder med begivenhed fra i går, fordi det hører til dagens historie.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
         },
         {
           "speaker": "B",
-          "textPt": "O cliente pergunta se ontem à noite é para hoje ou para mais tarde.",
-          "textDa": "Kunden spørger, om i går aftes er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
+          "textPt": "A pessoa responsável mostra acontecimento de ontem e explica o passo seguinte.",
+          "textDa": "Den ansvarlige viser begivenhed fra i går og forklarer næste trin.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
         },
         {
           "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver ontem à noite.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at få svar om i går aftes.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
+          "textPt": "Onde posso encontrar acontecimento de ontem?",
+          "textDa": "Hvor kan jeg finde begivenhed fra i går?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
         },
         {
           "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de ontem à noite.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om i går aftes.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+          "textPt": "O detalhe importante sobre acontecimento de ontem está escrito no aviso pequeno.",
+          "textDa": "Den vigtige detalje om begivenhed fra i går står på det lille skilt.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
         },
         {
           "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com ontem à noite?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med i går aftes?",
-          "grammarDa": "Avançarmos er nós-form efter para."
+          "textPt": "Tenho a informação sobre acontecimento de ontem guardada nas minhas notas.",
+          "textDa": "Jeg har informationen om begivenhed fra i går gemt i mine noter.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
         },
         {
           "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre ontem à noite; depois o cliente regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om i går aftes; derefter registrerer kunden det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
+          "textPt": "Acontecimento de ontem está disponível neste momento e pertence ao contexto das notícias.",
+          "textDa": "Begivenhed fra i går er tilgængelig lige nu og hører til information og nyheder.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
         },
         {
           "speaker": "A",
-          "textPt": "Se houver algum problema com ontem à noite, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med i går aftes, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
+          "textPt": "Ontem contei acontecimento de ontem e percebi melhor a situação.",
+          "textDa": "I går arbejdede jeg med begivenhed fra i går og forstod situationen bedre.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
         },
         {
           "speaker": "B",
-          "textPt": "Pode, mas talvez ontem à noite fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver i går aftes løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
+          "textPt": "A explicação sobre acontecimento de ontem é útil porque a situação é concreta.",
+          "textDa": "Forklaringen om begivenhed fra i går er nyttig, fordi situationen er konkret.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
         },
         {
           "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre ontem à noite.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om i går aftes.",
-          "grammarDa": "Agradecia er høfligt."
+          "textPt": "Conto acontecimento de ontem na conversa e sigo para a próxima cena.",
+          "textDa": "Jeg arbejder med begivenhed fra i går i samtalen og går videre til næste scene.",
+          "grammarDa": "Contar viser handlingen i scenen."
         },
         {
           "speaker": "B",
-          "textPt": "Combinado; quando ontem à noite estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når i går aftes er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
+          "textPt": "Depois de resolver acontecimento de ontem, sigo para a próxima parte da história.",
+          "textDa": "Efter at have fået begivenhed fra i går på plads går jeg videre til næste del af historien.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "ontem à noite",
-          "textDa": "i går aftes"
+          "textPt": "acontecimento de ontem",
+          "textDa": "begivenhed fra i går"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "notícias",
+          "textDa": "Informação e notícias"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "contar",
+          "textDa": "at fortælle"
         },
         {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
+          "textPt": "conversa",
+          "textDa": "i samtalen"
         },
         {
-          "textPt": "processo",
-          "textDa": "sag/proces"
+          "textPt": "cena de acontecimento de ontem",
+          "textDa": "scene om begivenhed fra i går"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Notícias e informação",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "informar",
+          "titleDa": "Contar i scenen",
+          "explanationDa": "contar betyder \"at fortælle\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "contar",
+          "verbDa": "at fortælle",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "informo"
+              "form": "conto"
             },
             {
               "subject": "tu (presente)",
-              "form": "informas"
+              "form": "contas"
             },
             {
               "subject": "ele/ela/você (presente)",
-              "form": "informa"
+              "form": "conta"
             },
             {
               "subject": "nós (presente)",
-              "form": "informamos"
+              "form": "contamos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "informam"
+              "form": "contam"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "informam"
+              "form": "contam"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "informei"
+              "form": "contei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "informaste"
+              "form": "contaste"
             },
             {
               "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "informou"
+              "form": "contou"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "informámos"
+              "form": "contámos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "informaram"
+              "form": "contaram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "informaram"
+              "form": "contaram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje nós informamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Conto acontecimento de ontem na conversa.",
+              "da": "Jeg arbejder med begivenhed fra i går i samtalen."
             },
             {
-              "pt": "Ontem a funcionária informou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "Ontem contei acontecimento de ontem.",
+              "da": "I går arbejdede jeg med begivenhed fra i går."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "wrong": "Ontem eu conto.",
+              "correct": "Ontem contei.",
+              "noteDa": "Efter ontem bruges normalt datid, når handlingen er afsluttet."
             }
-          ],
-          "verbDa": "at informere"
+          ]
         }
       ]
     },
     {
       "id": 9,
-      "titleDa": "Det ser ud til at",
-      "objectiveDa": "Træn en realistisk mini-dialog om det ser ud til at.",
+      "titleDa": "Dizer incerteza",
+      "objectiveDa": "Brug usikker information i en konkret scene om Informação e notícias.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de parece que; pode orientar-me?",
-          "textDa": "Undskyld, jeg har et spørgsmål om det ser ud til at; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
+          "textPt": "Abro as notícias e começo por informação incerta, porque isso faz parte da história de hoje.",
+          "textDa": "Jeg åbner nyhederne og begynder med usikker information, fordi det hører til dagens historie.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
         },
         {
           "speaker": "B",
-          "textPt": "As crianças pergunta se parece que é para hoje ou para mais tarde.",
-          "textDa": "Børnene spørger, om det ser ud til at er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
+          "textPt": "A pessoa responsável mostra informação incerta e explica o passo seguinte.",
+          "textDa": "Den ansvarlige viser usikker information og forklarer næste trin.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
         },
         {
           "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver parece que.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at få svar om det ser ud til at.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
+          "textPt": "Onde posso encontrar informação incerta?",
+          "textDa": "Hvor kan jeg finde usikker information?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
         },
         {
           "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de parece que.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om det ser ud til at.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+          "textPt": "O detalhe importante sobre informação incerta está escrito no aviso pequeno.",
+          "textDa": "Den vigtige detalje om usikker information står på det lille skilt.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
         },
         {
           "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com parece que?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med det ser ud til at?",
-          "grammarDa": "Avançarmos er nós-form efter para."
+          "textPt": "Tenho a informação sobre informação incerta guardada nas minhas notas.",
+          "textDa": "Jeg har informationen om usikker information gemt i mine noter.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
         },
         {
           "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre parece que; depois as crianças regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om det ser ud til at; derefter registrerer børnene det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
+          "textPt": "Informação incerta está disponível neste momento e pertence ao contexto das notícias.",
+          "textDa": "Usikker information er tilgængelig lige nu og hører til information og nyheder.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
         },
         {
           "speaker": "A",
-          "textPt": "Se houver algum problema com parece que, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med det ser ud til at, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
+          "textPt": "Há dez minutos perguntei informação incerta e percebi melhor a situação.",
+          "textDa": "Há dez minutos arbejdede jeg med usikker information og forstod situationen bedre.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
         },
         {
           "speaker": "B",
-          "textPt": "Pode, mas talvez parece que fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver det ser ud til at løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
+          "textPt": "A explicação sobre informação incerta é útil porque a situação é concreta.",
+          "textDa": "Forklaringen om usikker information er nyttig, fordi situationen er konkret.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
         },
         {
           "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre parece que.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om det ser ud til at.",
-          "grammarDa": "Agradecia er høfligt."
+          "textPt": "Pergunto informação incerta ao jornalista e sigo para a próxima cena.",
+          "textDa": "Jeg arbejder med usikker information til journalisten og går videre til næste scene.",
+          "grammarDa": "Perguntar viser handlingen i scenen."
         },
         {
           "speaker": "B",
-          "textPt": "Combinado; quando parece que estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når det ser ud til at er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
+          "textPt": "Depois de resolver informação incerta, sigo para a próxima parte da história.",
+          "textDa": "Efter at have fået usikker information på plads går jeg videre til næste del af historien.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "parece que",
-          "textDa": "det ser ud til at"
+          "textPt": "informação incerta",
+          "textDa": "usikker information"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "notícias",
+          "textDa": "Informação e notícias"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "perguntar",
+          "textDa": "at spørge"
         },
         {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
+          "textPt": "jornalista",
+          "textDa": "til journalisten"
         },
         {
-          "textPt": "processo",
-          "textDa": "sag/proces"
+          "textPt": "dizer incerteza",
+          "textDa": "Dizer incerteza"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Notícias e informação",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "informar",
+          "titleDa": "Perguntar i scenen",
+          "explanationDa": "perguntar betyder \"at spørge\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "perguntar",
+          "verbDa": "at spørge",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "informo"
+              "form": "pergunto"
             },
             {
               "subject": "tu (presente)",
-              "form": "informas"
+              "form": "perguntas"
             },
             {
               "subject": "ele/ela/você (presente)",
-              "form": "informa"
+              "form": "pergunta"
             },
             {
               "subject": "nós (presente)",
-              "form": "informamos"
+              "form": "perguntamos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "informam"
+              "form": "perguntam"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "informam"
+              "form": "perguntam"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "informei"
+              "form": "perguntei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "informaste"
+              "form": "perguntaste"
             },
             {
               "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "informou"
+              "form": "perguntou"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "informámos"
+              "form": "perguntamos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "informaram"
+              "form": "perguntaram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "informaram"
+              "form": "perguntaram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje nós informamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Pergunto informação incerta ao jornalista.",
+              "da": "Jeg arbejder med usikker information til journalisten."
             },
             {
-              "pt": "Ontem a funcionária informou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "Há dez minutos perguntei informação incerta.",
+              "da": "Há dez minutos arbejdede jeg med usikker information."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "wrong": "Ontem eu pergunto.",
+              "correct": "Há dez minutos perguntei.",
+              "noteDa": "Efter há dez minutos bruges normalt datid, når handlingen er afsluttet."
             }
-          ],
-          "verbDa": "at informere"
+          ]
         }
       ]
     },
     {
       "id": 10,
-      "titleDa": "Jeg er ikke sikker",
-      "objectiveDa": "Træn en realistisk mini-dialog om jeg er ikke sikker.",
+      "titleDa": "Ler manchete",
+      "objectiveDa": "Brug overskrift i en konkret scene om Informação e notícias.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de não tenho a certeza; pode orientar-me?",
-          "textDa": "Undskyld, jeg har et spørgsmål om jeg er ikke sikker; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
+          "textPt": "Abro as notícias e começo por manchete, porque isso faz parte da história de hoje.",
+          "textDa": "Jeg åbner nyhederne og begynder med overskrift, fordi det hører til dagens historie.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
         },
         {
           "speaker": "B",
-          "textPt": "O responsável pergunta se não tenho a certeza é para hoje ou para mais tarde.",
-          "textDa": "Den ansvarlige spørger, om jeg er ikke sikker er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
+          "textPt": "A pessoa responsável mostra manchete e explica o passo seguinte.",
+          "textDa": "Den ansvarlige viser overskrift og forklarer næste trin.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
         },
         {
           "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver não tenho a certeza.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at få svar om jeg er ikke sikker.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
+          "textPt": "Onde posso encontrar manchete?",
+          "textDa": "Hvor kan jeg finde overskrift?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
         },
         {
           "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de não tenho a certeza.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om jeg er ikke sikker.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+          "textPt": "O detalhe importante sobre manchete está escrito no aviso pequeno.",
+          "textDa": "Den vigtige detalje om overskrift står på det lille skilt.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
         },
         {
           "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com não tenho a certeza?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med jeg er ikke sikker?",
-          "grammarDa": "Avançarmos er nós-form efter para."
+          "textPt": "Tenho a informação sobre manchete guardada nas minhas notas.",
+          "textDa": "Jeg har informationen om overskrift gemt i mine noter.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
         },
         {
           "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre não tenho a certeza; depois o responsável regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om jeg er ikke sikker; derefter registrerer den ansvarlige det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
+          "textPt": "Manchete está disponível neste momento e pertence ao contexto das notícias.",
+          "textDa": "Overskrift er tilgængelig lige nu og hører til information og nyheder.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
         },
         {
           "speaker": "A",
-          "textPt": "Se houver algum problema com não tenho a certeza, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med jeg er ikke sikker, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
+          "textPt": "Ao meio-dia procurei manchete e percebi melhor a situação.",
+          "textDa": "Ved middagstid arbejdede jeg med overskrift og forstod situationen bedre.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
         },
         {
           "speaker": "B",
-          "textPt": "Pode, mas talvez não tenho a certeza fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver jeg er ikke sikker løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
+          "textPt": "A explicação sobre manchete é útil porque a situação é concreta.",
+          "textDa": "Forklaringen om overskrift er nyttig, fordi situationen er konkret.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
         },
         {
           "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre não tenho a certeza.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om jeg er ikke sikker.",
-          "grammarDa": "Agradecia er høfligt."
+          "textPt": "Procuro manchete na primeira página e sigo para a próxima cena.",
+          "textDa": "Jeg arbejder med overskrift på forsiden og går videre til næste scene.",
+          "grammarDa": "Procurar viser handlingen i scenen."
         },
         {
           "speaker": "B",
-          "textPt": "Combinado; quando não tenho a certeza estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når jeg er ikke sikker er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
+          "textPt": "Depois de resolver manchete, sigo para a próxima parte da história.",
+          "textDa": "Efter at have fået overskrift på plads går jeg videre til næste del af historien.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "não tenho a certeza",
-          "textDa": "jeg er ikke sikker"
+          "textPt": "manchete",
+          "textDa": "overskrift"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "notícias",
+          "textDa": "Informação e notícias"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "procurar",
+          "textDa": "at søge efter"
         },
         {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
+          "textPt": "primeira página",
+          "textDa": "på forsiden"
         },
         {
-          "textPt": "processo",
-          "textDa": "sag/proces"
+          "textPt": "cena de manchete",
+          "textDa": "scene om overskrift"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Notícias e informação",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "informar",
+          "titleDa": "Procurar i scenen",
+          "explanationDa": "procurar betyder \"at søge efter\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "procurar",
+          "verbDa": "at søge efter",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "informo"
+              "form": "procuro"
             },
             {
               "subject": "tu (presente)",
-              "form": "informas"
+              "form": "procuras"
             },
             {
               "subject": "ele/ela/você (presente)",
-              "form": "informa"
+              "form": "procura"
             },
             {
               "subject": "nós (presente)",
-              "form": "informamos"
+              "form": "procuramos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "informam"
+              "form": "procuram"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "informam"
+              "form": "procuram"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "informei"
+              "form": "procurei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "informaste"
+              "form": "procuraste"
             },
             {
               "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "informou"
+              "form": "procurou"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "informámos"
+              "form": "procuramos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "informaram"
+              "form": "procuraram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "informaram"
+              "form": "procuraram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje nós informamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Procuro manchete na primeira página.",
+              "da": "Jeg arbejder med overskrift på forsiden."
             },
             {
-              "pt": "Ontem a funcionária informou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "Ao meio-dia procurei manchete.",
+              "da": "Ao meio-dia arbejdede jeg med overskrift."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "wrong": "Ontem eu procuro.",
+              "correct": "Ao meio-dia procurei.",
+              "noteDa": "Efter ao meio-dia bruges normalt datid, når handlingen er afsluttet."
             }
-          ],
-          "verbDa": "at informere"
+          ]
         }
       ]
+    }
+  ],
+  "story": [
+    {
+      "speaker": "Fortæller",
+      "textPt": "Na cena 1, entro em contacto com notícias online no telemóvel.",
+      "textDa": "I scene 1 møder jeg online nyheder på telefonen.",
+      "grammarDa": "Læselinje 1 hænger sammen med dialogen \"Notícia online\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Abro notícias online, uso ser, estar e ter naturalmente, e avanço na história.",
+      "textDa": "Jeg arbejder med online nyheder, bruger ser, estar og ter naturligt, og går videre i historien.",
+      "grammarDa": "Læselinje 2 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Na cena 2, entro em contacto com noticiário da televisão na sala comum.",
+      "textDa": "I scene 2 møder jeg TV-avis i fællesrummet.",
+      "grammarDa": "Læselinje 3 hænger sammen med dialogen \"Noticiário da televisão\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Assisto noticiário da televisão, uso ser, estar e ter naturalmente, e avanço na história.",
+      "textDa": "Jeg arbejder med TV-avis, bruger ser, estar og ter naturligt, og går videre i historien.",
+      "grammarDa": "Læselinje 4 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Na cena 3, entro em contacto com notícia local no jornal regional.",
+      "textDa": "I scene 3 møder jeg lokal nyhed i regionalavisen.",
+      "grammarDa": "Læselinje 5 hænger sammen med dialogen \"Notícia local\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Procuro notícia local, uso ser, estar e ter naturalmente, e avanço na história.",
+      "textDa": "Jeg arbejder med lokal nyhed, bruger ser, estar og ter naturligt, og går videre i historien.",
+      "grammarDa": "Læselinje 6 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Na cena 4, entro em contacto com previsão do tempo na aplicação.",
+      "textDa": "I scene 4 møder jeg vejrudsigten i appen.",
+      "grammarDa": "Læselinje 7 hænger sammen med dialogen \"Previsão do tempo\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Comparo previsão do tempo, uso ser, estar e ter naturalmente, e avanço na história.",
+      "textDa": "Jeg arbejder med vejrudsigten, bruger ser, estar og ter naturligt, og går videre i historien.",
+      "grammarDa": "Læselinje 8 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Na cena 5, entro em contacto com trânsito no mapa.",
+      "textDa": "I scene 5 møder jeg trafik på kortet.",
+      "grammarDa": "Læselinje 9 hænger sammen med dialogen \"Aviso de trânsito\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Confirmo trânsito, uso ser, estar e ter naturalmente, e avanço na história.",
+      "textDa": "Jeg arbejder med trafik, bruger ser, estar og ter naturligt, og går videre i historien.",
+      "grammarDa": "Læselinje 10 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Na cena 6, entro em contacto com evento cultural no calendário.",
+      "textDa": "I scene 6 møder jeg kulturarrangement i kalenderen.",
+      "grammarDa": "Læselinje 11 hænger sammen med dialogen \"Evento cultural\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Marco evento cultural, uso ser, estar e ter naturalmente, e avanço na história.",
+      "textDa": "Jeg arbejder med kulturarrangement, bruger ser, estar og ter naturligt, og går videre i historien.",
+      "grammarDa": "Læselinje 12 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Na cena 7, entro em contacto com duas fontes na biblioteca.",
+      "textDa": "I scene 7 møder jeg to kilder på biblioteket.",
+      "grammarDa": "Læselinje 13 hænger sammen med dialogen \"Comparar fontes\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Comparo duas fontes, uso ser, estar e ter naturalmente, e avanço na história.",
+      "textDa": "Jeg arbejder med to kilder, bruger ser, estar og ter naturligt, og går videre i historien.",
+      "grammarDa": "Læselinje 14 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Na cena 8, entro em contacto com acontecimento de ontem na conversa.",
+      "textDa": "I scene 8 møder jeg begivenhed fra i går i samtalen.",
+      "grammarDa": "Læselinje 15 hænger sammen med dialogen \"Falar de ontem\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Conto acontecimento de ontem, uso ser, estar e ter naturalmente, e avanço na história.",
+      "textDa": "Jeg arbejder med begivenhed fra i går, bruger ser, estar og ter naturligt, og går videre i historien.",
+      "grammarDa": "Læselinje 16 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Na cena 9, entro em contacto com informação incerta ao jornalista.",
+      "textDa": "I scene 9 møder jeg usikker information til journalisten.",
+      "grammarDa": "Læselinje 17 hænger sammen med dialogen \"Dizer incerteza\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Pergunto informação incerta, uso ser, estar e ter naturalmente, e avanço na história.",
+      "textDa": "Jeg arbejder med usikker information, bruger ser, estar og ter naturligt, og går videre i historien.",
+      "grammarDa": "Læselinje 18 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Na cena 10, entro em contacto com manchete na primeira página.",
+      "textDa": "I scene 10 møder jeg overskrift på forsiden.",
+      "grammarDa": "Læselinje 19 hænger sammen med dialogen \"Ler manchete\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Procuro manchete, uso ser, estar e ter naturalmente, e avanço na história.",
+      "textDa": "Jeg arbejder med overskrift, bruger ser, estar og ter naturligt, og går videre i historien.",
+      "grammarDa": "Læselinje 20 viser scenens resultat."
     }
   ],
   "quiz": [
     {
       "id": 1,
-      "questionDa": "Hvilken sætning passer bedst til temaet \"Notícias e informação\"?",
+      "questionDa": "Hvad betyder \"informação\"?",
       "answers": [
         {
-          "text": "Parece que notícia local ainda está disponível.",
+          "text": "information",
           "correct": true
         },
         {
-          "text": "O gato dorme na janela.",
+          "text": "TV-avis",
           "correct": false
         },
         {
-          "text": "A camisola é azul.",
+          "text": "lokal nyhed",
           "correct": false
         },
         {
-          "text": "Há três maçãs na mesa.",
+          "text": "endestation",
           "correct": false
         }
       ],
-      "explanationDa": "Sætningen hører til lektionen Notícias e informação."
+      "explanationDa": "Svarmuligheden kommer fra lektionens JSON-ordforråd."
     },
     {
       "id": 2,
-      "questionDa": "Hvilken form er nós i nutid?",
+      "questionDa": "Hvilken form er eu i nutid af abrir?",
       "answers": [
         {
-          "text": "informamos",
+          "text": "abro",
           "correct": true
         },
         {
-          "text": "informámos",
+          "text": "abri",
           "correct": false
         },
         {
-          "text": "falam",
+          "text": "abres",
           "correct": false
         },
         {
-          "text": "partiste",
+          "text": "abrem",
           "correct": false
         }
       ],
-      "explanationDa": "Nós-formen følger verbets regelmæssige mønster."
+      "explanationDa": "Nutidsformen er abro."
     },
     {
       "id": 3,
-      "questionDa": "Hvilken form er nós i pretérito perfeito?",
+      "questionDa": "Hvilken form er eu i pretérito perfeito af assistir?",
       "answers": [
         {
-          "text": "informámos",
+          "text": "assisti",
           "correct": true
         },
         {
-          "text": "informamos",
+          "text": "assisto",
           "correct": false
         },
         {
-          "text": "procuram",
+          "text": "assistiu",
           "correct": false
         },
         {
-          "text": "beberam",
+          "text": "tenho",
           "correct": false
         }
       ],
-      "explanationDa": "Pretérito perfeito bruges om en afsluttet handling."
+      "explanationDa": "Datidsformen er assisti."
     },
     {
       "id": 4,
-      "questionDa": "Hvad betyder: Parece que notícia local ainda está disponível.",
+      "questionDa": "Vælg den bedste oversættelse: Quanto custa ou onde fica notícia local?",
       "answers": [
         {
-          "text": "Det ser ud til, at lokal nyhed stadig er tilgængelig.",
+          "text": "Hvad koster lokal nyhed, eller hvor finder jeg det?",
           "correct": true
         },
         {
-          "text": "Jeg har travlt i morgen.",
+          "text": "På den måde er online nyheder på plads før historiens næste trin.",
           "correct": false
         },
         {
-          "text": "Vi bestilte to kaffe.",
+          "text": "Her har TV-avis sin egen regel, og betjeningen er direkte.",
           "correct": false
         },
         {
-          "text": "Børnene leger udenfor.",
+          "text": "Jeg kommer tilbage i morgen.",
           "correct": false
         }
       ],
-      "explanationDa": "Oversættelsen kommer fra dialogernes ordforråd."
+      "explanationDa": "Spørgsmålene træner direkte hverdagssprog."
     },
     {
       "id": 5,
-      "questionDa": "Vælg den mest naturlige høflige formulering.",
+      "questionDa": "Hvilket ord hører til lektionen \"Informação e notícias\"?",
       "answers": [
         {
-          "text": "Pode ajudar-me, por favor?",
+          "text": "noticiário",
           "correct": true
         },
         {
-          "text": "Ajuda mim agora.",
+          "text": "receita médica",
           "correct": false
         },
         {
-          "text": "Você ajuda eu?",
+          "text": "quarto de hotel",
           "correct": false
         },
         {
-          "text": "Dar ajuda rápido.",
+          "text": "garagem privada",
           "correct": false
         }
       ],
-      "explanationDa": "Pode ajudar-me, por favor? er en naturlig høflig formulering."
-    },
-    {
-      "id": 6,
-      "questionDa": "Hvilken portugisisk form er tallet 41?",
-      "answers": [
-        {
-          "text": "quarenta e um",
-          "correct": true
-        },
-        {
-          "text": "vinte",
-          "correct": false
-        },
-        {
-          "text": "sessenta",
-          "correct": false
-        },
-        {
-          "text": "noventa",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Talquizzen kommer fra JSON og kan genbruges i fremtidige niveauer."
-    }
-  ],
-  "storyTitleDa": "En lokal nyhed",
-  "storyObjectiveDa": "Læs en kort tekst med en konkret situation, varierede subjekter, regelmæssige verber og lidt pretérito perfeito.",
-  "story": [
-    {
-      "speaker": "A",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre notícia local.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om lokal nyhed.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "A pessoa responsável verificou notícia local com calma antes de responder.",
-      "textDa": "Den ansvarlige person gennemgik informationen om lokal nyhed, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre previsão do tempo.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om vejrudsigt.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "A pessoa responsável verificou previsão do tempo com calma antes de responder.",
-      "textDa": "Den ansvarlige person gennemgik informationen om vejrudsigt, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre trânsito cortado.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om afspærret trafik.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "A pessoa responsável verificou trânsito cortado com calma antes de responder.",
-      "textDa": "Den ansvarlige person gennemgik informationen om afspærret trafik, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre jornal online.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om netavis.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "A pessoa responsável verificou jornal online com calma antes de responder.",
-      "textDa": "Den ansvarlige person gennemgik informationen om netavis, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre telejornal.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om tv-avis.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "A pessoa responsável verificou telejornal com calma antes de responder.",
-      "textDa": "Den ansvarlige person gennemgik informationen om tv-avis, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre evento cultural.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om kulturarrangement.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "A pessoa responsável verificou evento cultural com calma antes de responder.",
-      "textDa": "Den ansvarlige person gennemgik informationen om kulturarrangement, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre informação contraditória.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om modstridende information.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "A pessoa responsável verificou informação contraditória com calma antes de responder.",
-      "textDa": "Den ansvarlige person gennemgik informationen om modstridende information, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre ontem à noite.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om i går aftes.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "A pessoa responsável verificou ontem à noite com calma antes de responder.",
-      "textDa": "Den ansvarlige person gennemgik informationen om i går aftes, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre parece que.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om det ser ud til at.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "A pessoa responsável verificou parece que com calma antes de responder.",
-      "textDa": "Den ansvarlige person gennemgik informationen om det ser ud til at, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre não tenho a certeza.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om jeg er ikke sikker.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "A pessoa responsável verificou não tenho a certeza com calma antes de responder.",
-      "textDa": "Den ansvarlige person gennemgik informationen om jeg er ikke sikker, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
+      "explanationDa": "Quizzen bruger ord fra den aktuelle lektion."
     }
   ]
 }

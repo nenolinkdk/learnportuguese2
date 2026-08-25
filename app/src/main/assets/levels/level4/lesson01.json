@@ -1,100 +1,774 @@
 {
   "id": 1,
   "titleDa": "Biblioteca",
-  "descriptionDa": "Learn Portuguese 3: Bibliotek, lånekort, reserveringer, åbningstider, computere og hjælp ved skranken.",
+  "descriptionDa": "En sammenhængende historie om at bruge biblioteket til lånerkort, romaner, aviser, Wi-Fi og læserum.",
+  "vocabulary": [
+    {
+      "textPt": "biblioteca",
+      "textDa": "bibliotek"
+    },
+    {
+      "textPt": "cartão da biblioteca",
+      "textDa": "lånerkort"
+    },
+    {
+      "textPt": "formulário",
+      "textDa": "formular"
+    },
+    {
+      "textPt": "documento de identificação",
+      "textDa": "legitimation"
+    },
+    {
+      "textPt": "balcão",
+      "textDa": "skranke"
+    },
+    {
+      "textPt": "romance",
+      "textDa": "roman"
+    },
+    {
+      "textPt": "devolução",
+      "textDa": "aflevering"
+    },
+    {
+      "textPt": "multa",
+      "textDa": "bøde"
+    },
+    {
+      "textPt": "reserva",
+      "textDa": "reservation"
+    },
+    {
+      "textPt": "catálogo",
+      "textDa": "katalog"
+    },
+    {
+      "textPt": "computador",
+      "textDa": "computer"
+    },
+    {
+      "textPt": "palavra-passe do Wi-Fi",
+      "textDa": "Wi-Fi-kode"
+    },
+    {
+      "textPt": "mesa com tomada",
+      "textDa": "bord med stikkontakt"
+    },
+    {
+      "textPt": "sala de estudo",
+      "textDa": "læsesal"
+    },
+    {
+      "textPt": "dicionário",
+      "textDa": "ordbog"
+    },
+    {
+      "textPt": "jornal",
+      "textDa": "avis"
+    },
+    {
+      "textPt": "revista",
+      "textDa": "tidsskrift"
+    },
+    {
+      "textPt": "geografia",
+      "textDa": "geografi"
+    },
+    {
+      "textPt": "história",
+      "textDa": "historie"
+    },
+    {
+      "textPt": "SILÊNCIO",
+      "textDa": "stilhed"
+    },
+    {
+      "textPt": "bibliotecária",
+      "textDa": "bibliotekar"
+    },
+    {
+      "textPt": "prazo",
+      "textDa": "frist"
+    },
+    {
+      "textPt": "leitor",
+      "textDa": "læser"
+    },
+    {
+      "textPt": "prateleira",
+      "textDa": "hylde"
+    },
+    {
+      "textPt": "leitura",
+      "textDa": "læsning"
+    }
+  ],
+  "scenes": [
+    {
+      "titleDa": "Oprette lånerkort",
+      "objectiveDa": "Ansøg om et lånerkort for at kunne låne bøger.",
+      "verb": "preencher",
+      "objectPt": "o formulário do cartão",
+      "objectDa": "lånerkortformularen",
+      "placePt": "na biblioteca",
+      "placeDa": "på biblioteket",
+      "pastPt": "ontem",
+      "pastDa": "i går",
+      "openPt": "Bom dia, queria fazer um cartão da biblioteca para levar livros para casa.",
+      "openDa": "Goddag, jeg vil gerne oprette et lånerkort, så jeg kan låne bøger med hjem.",
+      "answerPt": "A bibliotecária pede primeiro um documento de identificação.",
+      "answerDa": "Bibliotekaren beder først om legitimation.",
+      "directQuestionPt": "O passaporte serve como identificação?",
+      "directQuestionDa": "Kan passet bruges som legitimation?",
+      "detailPt": "Sim, depois preenche este formulário curto com o nome e a morada.",
+      "detailDa": "Ja, bagefter udfylder du denne korte formular med navn og adresse.",
+      "terPt": "Tenho o passaporte e também tenho a morada escrita no telemóvel.",
+      "terDa": "Jeg har passet, og jeg har også adressen skrevet på telefonen.",
+      "estarPt": "A caneta está presa ao balcão, ao lado do formulário.",
+      "estarDa": "Pennen sidder fast ved skranken ved siden af formularen.",
+      "pastSentencePt": "Ontem procurei as regras no site, mas não encontrei a ficha de inscrição.",
+      "pastSentenceDa": "I går søgte jeg efter reglerne på hjemmesiden, men jeg fandt ikke indmeldelsesformularen.",
+      "serPt": "O cartão é gratuito para leitores residentes nesta freguesia.",
+      "serDa": "Kortet er gratis for lånere, der bor i dette lokalområde.",
+      "actionPt": "Preencho agora os dados e assino no fim da folha.",
+      "actionDa": "Jeg udfylder oplysningerne nu og skriver under nederst på arket.",
+      "closePt": "Quando acabar, entrego o cartão provisório e pode escolher o primeiro livro.",
+      "closeDa": "Når du er færdig, udleverer jeg det midlertidige kort, og du kan vælge den første bog.",
+      "storyPt1": "De manhã, chego à biblioteca porque quero fazer um cartão da biblioteca.",
+      "storyDa1": "Om formiddagen kommer jeg til biblioteket, fordi jeg vil oprette et lånerkort.",
+      "storyPt2": "Com o passaporte e o formulário preenchido, fico pronto para escolher livros.",
+      "storyDa2": "Med passet og den udfyldte formular er jeg klar til at vælge bøger.",
+      "vocabulary": [
+        [
+          "cartão da biblioteca",
+          "lånerkort"
+        ],
+        [
+          "formulário",
+          "formular"
+        ],
+        [
+          "documento de identificação",
+          "legitimation"
+        ],
+        [
+          "assinar",
+          "at skrive under"
+        ],
+        [
+          "morada",
+          "adresse"
+        ]
+      ]
+    },
+    {
+      "titleDa": "Låne en roman",
+      "objectiveDa": "Find og lån en portugisisk roman.",
+      "verb": "procurar",
+      "objectPt": "um romance português",
+      "objectDa": "en portugisisk roman",
+      "placePt": "na secção de literatura",
+      "placeDa": "i litteraturafdelingen",
+      "pastPt": "há pouco",
+      "pastDa": "for lidt siden",
+      "openPt": "Agora queria procurar um romance português que não fosse demasiado difícil.",
+      "openDa": "Nu vil jeg gerne finde en portugisisk roman, der ikke er alt for svær.",
+      "answerPt": "Na estante do fundo há romances curtos para leitores estrangeiros.",
+      "answerDa": "På reolen bagerst er der korte romaner til udenlandske læsere.",
+      "directQuestionPt": "Onde fica a prateleira dos romances fáceis?",
+      "directQuestionDa": "Hvor står hylden med de lette romaner?",
+      "detailPt": "Fica depois dos livros de poesia, junto à janela grande.",
+      "detailDa": "Den står efter digtsamlingerne ved det store vindue.",
+      "terPt": "Tenho tempo para ler algumas páginas antes de decidir.",
+      "terDa": "Jeg har tid til at læse nogle sider, før jeg beslutter mig.",
+      "estarPt": "Este romance está disponível e o prazo de empréstimo está na capa interior.",
+      "estarDa": "Denne roman er ledig, og lånefristen står på indersiden af omslaget.",
+      "pastSentencePt": "Há pouco li o primeiro parágrafo e gostei da linguagem simples.",
+      "pastSentenceDa": "For lidt siden læste jeg det første afsnit og kunne lide det enkle sprog.",
+      "serPt": "O autor é português, mas a história é fácil de seguir.",
+      "serDa": "Forfatteren er portugisisk, men historien er let at følge.",
+      "actionPt": "Procuro também uma edição com letras maiores.",
+      "actionDa": "Jeg søger også efter en udgave med større skrift.",
+      "closePt": "Leve este exemplar ao balcão; fica registado no seu cartão.",
+      "closeDa": "Tag dette eksemplar med til skranken; det bliver registreret på dit kort.",
+      "storyPt1": "Depois do cartão, sigo para a secção de literatura e procuro um romance curto.",
+      "storyDa1": "Efter lånerkortet går jeg til litteraturafdelingen og leder efter en kort roman.",
+      "storyPt2": "Leio uma página perto da janela e escolho um livro com linguagem clara.",
+      "storyDa2": "Jeg læser en side ved vinduet og vælger en bog med klart sprog.",
+      "vocabulary": [
+        [
+          "romance",
+          "roman"
+        ],
+        [
+          "prateleira",
+          "hylde"
+        ],
+        [
+          "empréstimo",
+          "lån"
+        ],
+        [
+          "autor",
+          "forfatter"
+        ],
+        [
+          "letras maiores",
+          "større skrift"
+        ]
+      ]
+    },
+    {
+      "titleDa": "Aflevere for sent",
+      "objectiveDa": "Aflever en bog for sent og spørg om bøden.",
+      "verb": "entregar",
+      "objectPt": "o livro atrasado",
+      "objectDa": "den forsinkede bog",
+      "placePt": "no balcão de devoluções",
+      "placeDa": "ved afleveringsskranken",
+      "pastPt": "na semana passada",
+      "pastDa": "i sidste uge",
+      "openPt": "Venho entregar este livro atrasado e quero saber o valor da multa.",
+      "openDa": "Jeg kommer for at aflevere denne forsinkede bog og vil gerne kende bødens størrelse.",
+      "answerPt": "A máquina mostra a data de devolução e calcula a multa automaticamente.",
+      "answerDa": "Maskinen viser afleveringsdatoen og beregner bøden automatisk.",
+      "directQuestionPt": "Quanto tenho de pagar pelo atraso?",
+      "directQuestionDa": "Hvor meget skal jeg betale for forsinkelsen?",
+      "detailPt": "São quarenta cêntimos, porque passaram dois dias depois do prazo.",
+      "detailDa": "Det er fyrre cent, fordi der gik to dage efter fristen.",
+      "terPt": "Tenho moedas pequenas, mas também posso pagar com cartão.",
+      "terDa": "Jeg har småmønter, men jeg kan også betale med kort.",
+      "estarPt": "O recibo está a sair da impressora ao lado da máquina.",
+      "estarDa": "Kvitteringen kommer ud af printeren ved siden af maskinen.",
+      "pastSentencePt": "Na semana passada pensei que o prazo era mais longo.",
+      "pastSentenceDa": "I sidste uge troede jeg, at fristen var længere.",
+      "serPt": "A multa é baixa, mas o aviso é importante para o próximo empréstimo.",
+      "serDa": "Bøden er lav, men påmindelsen er vigtig til næste lån.",
+      "actionPt": "Entrego o livro agora e guardo o recibo na carteira.",
+      "actionDa": "Jeg afleverer bogen nu og gemmer kvitteringen i tegnebogen.",
+      "closePt": "Fica resolvido; já pode levar outro livro se quiser.",
+      "closeDa": "Så er det afsluttet; du kan allerede låne en ny bog, hvis du vil.",
+      "storyPt1": "Ao lado da entrada vejo a máquina de devoluções e lembro-me do prazo.",
+      "storyDa1": "Ved indgangen ser jeg afleveringsautomaten og husker fristen.",
+      "storyPt2": "Pago uma pequena multa, e a devolução fica registada imediatamente.",
+      "storyDa2": "Jeg betaler en lille bøde, men afleveringen bliver registreret med det samme.",
+      "vocabulary": [
+        [
+          "devolução",
+          "aflevering"
+        ],
+        [
+          "livro atrasado",
+          "forsinket bog"
+        ],
+        [
+          "multa",
+          "bøde"
+        ],
+        [
+          "prazo",
+          "frist"
+        ],
+        [
+          "recibo",
+          "kvittering"
+        ]
+      ]
+    },
+    {
+      "titleDa": "Reservere en bog",
+      "objectiveDa": "Reserver en udlånt bog i kataloget.",
+      "verb": "reservar",
+      "objectPt": "o livro de história",
+      "objectDa": "historiebogen",
+      "placePt": "no catálogo digital",
+      "placeDa": "i det digitale katalog",
+      "pastPt": "ontem à noite",
+      "pastDa": "i går aftes",
+      "openPt": "O livro de história está emprestado, mas queria reservá-lo.",
+      "openDa": "Historiebogen er udlånt, men jeg vil gerne reservere den.",
+      "answerPt": "No catálogo digital, carregue em reservar e confirme o seu cartão.",
+      "answerDa": "I det digitale katalog trykker du på reserver og bekræfter dit kort.",
+      "directQuestionPt": "Recebo uma mensagem quando o livro chegar?",
+      "directQuestionDa": "Får jeg en besked, når bogen kommer?",
+      "detailPt": "Sim, recebe uma mensagem de correio eletrónico e tem cinco dias para a levantar.",
+      "detailDa": "Ja, du får en e-mail og har fem dage til at hente den.",
+      "terPt": "Tenho o endereço de correio eletrónico no registo do cartão.",
+      "terDa": "Jeg har e-mailadressen i kortets registrering.",
+      "estarPt": "A lista de espera está curta, só há uma pessoa à sua frente.",
+      "estarDa": "Ventelisten er kort; der er kun én person foran dig.",
+      "pastSentencePt": "Ontem à noite reservei outro título e o sistema funcionou bem.",
+      "pastSentenceDa": "I går aftes reserverede jeg en anden titel, og systemet virkede fint.",
+      "serPt": "A reserva é gratuita, mas o prazo de levantamento é fixo.",
+      "serDa": "Reservationen er gratis, men afhentningsfristen er fast.",
+      "actionPt": "Reservo este livro e anoto a data no calendário.",
+      "actionDa": "Jeg reserverer denne bog og skriver datoen i kalenderen.",
+      "closePt": "Quando chegar, o livro fica no balcão das reservas.",
+      "closeDa": "Når den kommer, ligger bogen ved reservationsskranken.",
+      "storyPt1": "No catálogo descubro que o livro de história já está emprestado.",
+      "storyDa1": "I kataloget opdager jeg, at historiebogen allerede er udlånt.",
+      "storyPt2": "Reservo o livro e recebo informação sobre a lista de espera antes de continuar.",
+      "storyDa2": "Jeg reserverer bogen og får besked om ventelisten, før jeg går videre.",
+      "vocabulary": [
+        [
+          "reserva",
+          "reservation"
+        ],
+        [
+          "catálogo digital",
+          "digitalt katalog"
+        ],
+        [
+          "lista de espera",
+          "venteliste"
+        ],
+        [
+          "correio eletrónico",
+          "e-mail"
+        ],
+        [
+          "levantar",
+          "at hente"
+        ]
+      ]
+    },
+    {
+      "titleDa": "Wi-Fi og computer",
+      "objectiveDa": "Brug bibliotekets computer og Wi-Fi.",
+      "verb": "abrir",
+      "objectPt": "a página do Wi-Fi",
+      "objectDa": "Wi-Fi-siden",
+      "placePt": "no computador público",
+      "placeDa": "på den offentlige computer",
+      "pastPt": "há dez minutos",
+      "pastDa": "for ti minutter siden",
+      "openPt": "Preciso de abrir a página do Wi-Fi para escrever um documento.",
+      "openDa": "Jeg skal åbne Wi-Fi-siden for at skrive et dokument.",
+      "answerPt": "Use este computador público; a sessão termina ao fim de trinta minutos.",
+      "answerDa": "Brug denne offentlige computer; sessionen slutter efter tredive minutter.",
+      "directQuestionPt": "Qual é a palavra-passe do Wi-Fi?",
+      "directQuestionDa": "Hvad er Wi-Fi-koden?",
+      "detailPt": "A palavra-passe está impressa no cartão pequeno junto ao ecrã.",
+      "detailDa": "Adgangskoden står trykt på det lille kort ved skærmen.",
+      "terPt": "Tenho uma pen USB com o documento, mas não sei se posso ligá-la.",
+      "terDa": "Jeg har en USB-nøgle med dokumentet, men jeg ved ikke, om jeg må sætte den i.",
+      "estarPt": "A entrada USB está bloqueada por razões de segurança.",
+      "estarDa": "USB-porten er blokeret af sikkerhedsgrunde.",
+      "pastSentencePt": "Há dez minutos abri o correio no telemóvel e enviei o ficheiro para mim.",
+      "pastSentenceDa": "For ti minutter siden åbnede jeg mailen på telefonen og sendte filen til mig selv.",
+      "serPt": "O acesso é gratuito, mas os ficheiros pessoais são apagados no fim.",
+      "serDa": "Adgangen er gratis, men personlige filer slettes til sidst.",
+      "actionPt": "Abro o navegador e entro no correio eletrónico.",
+      "actionDa": "Jeg åbner browseren og går ind i e-mailen.",
+      "closePt": "No fim, termine a sessão antes de sair da mesa.",
+      "closeDa": "Afslut sessionen, før du forlader bordet.",
+      "storyPt1": "No lugar do computador quero usar o Wi-Fi e escrever um documento.",
+      "storyDa1": "Ved computerpladsen vil jeg bruge Wi-Fi og skrive et dokument.",
+      "storyPt2": "Aprendo como funciona a sessão e termino tudo com segurança.",
+      "storyDa2": "Jeg lærer, hvordan sessionen virker, og afslutter den sikkert.",
+      "vocabulary": [
+        [
+          "computador público",
+          "offentlig computer"
+        ],
+        [
+          "palavra-passe do Wi-Fi",
+          "Wi-Fi-kode"
+        ],
+        [
+          "ecrã",
+          "skærm"
+        ],
+        [
+          "ficheiro",
+          "fil"
+        ],
+        [
+          "sessão",
+          "session"
+        ]
+      ]
+    },
+    {
+      "titleDa": "Plads til laptop",
+      "objectiveDa": "Find en arbejdsplads med strøm.",
+      "verb": "procurar",
+      "objectPt": "uma mesa com tomada",
+      "objectDa": "et bord med stikkontakt",
+      "placePt": "na sala de estudo",
+      "placeDa": "i læsesalen",
+      "pastPt": "ao meio-dia",
+      "pastDa": "ved middagstid",
+      "openPt": "Procuro uma mesa com tomada porque a bateria do portátil está fraca.",
+      "openDa": "Jeg leder efter et bord med stikkontakt, fordi computerens batteri er lavt.",
+      "answerPt": "Na sala de estudo há duas mesas livres junto à parede.",
+      "answerDa": "I læsesalen er der to ledige borde langs væggen.",
+      "directQuestionPt": "Posso falar ao telefone nesta sala?",
+      "directQuestionDa": "Må jeg tale i telefon i dette rum?",
+      "detailPt": "Não, a placa SILÊNCIO vale aqui durante todo o dia.",
+      "detailDa": "Nej, skiltet SILÊNCIO gælder her hele dagen.",
+      "terPt": "Tenho auscultadores, por isso posso ouvir a aula sem incomodar.",
+      "terDa": "Jeg har høretelefoner, så jeg kan lytte til undervisningen uden at forstyrre.",
+      "estarPt": "A sala está quase cheia, mas o lugar do canto está livre.",
+      "estarDa": "Rummet er næsten fyldt, men hjørnepladsen er ledig.",
+      "pastSentencePt": "Ao meio-dia procurei uma tomada no café e não encontrei nenhuma.",
+      "pastSentenceDa": "Ved middagstid ledte jeg efter en stikkontakt på cafeen og fandt ingen.",
+      "serPt": "A regra é simples: silêncio para quem estuda.",
+      "serDa": "Reglen er enkel: ro til dem, der studerer.",
+      "actionPt": "Procuro o lugar do canto e ligo o portátil.",
+      "actionDa": "Jeg finder hjørnepladsen og sætter computeren til.",
+      "closePt": "Se precisar de sair, leve o computador consigo.",
+      "closeDa": "Hvis du skal gå ud, så tag computeren med.",
+      "storyPt1": "Na sala de estudo procuro uma tomada para o meu portátil.",
+      "storyDa1": "I læsesalen leder jeg efter strøm til min laptop.",
+      "storyPt2": "Encontro um lugar calmo no canto e sigo o aviso de silêncio.",
+      "storyDa2": "Jeg finder en rolig hjørneplads og følger skiltet om stilhed.",
+      "vocabulary": [
+        [
+          "mesa com tomada",
+          "bord med stikkontakt"
+        ],
+        [
+          "portátil",
+          "laptop"
+        ],
+        [
+          "bateria",
+          "batteri"
+        ],
+        [
+          "sala de estudo",
+          "læsesal"
+        ],
+        [
+          "SILÊNCIO",
+          "stilhed"
+        ]
+      ]
+    },
+    {
+      "titleDa": "Ordbøger",
+      "objectiveDa": "Brug ordbøger til at forstå et ord.",
+      "verb": "comparar",
+      "objectPt": "dois dicionários",
+      "objectDa": "to ordbøger",
+      "placePt": "na mesa de referência",
+      "placeDa": "ved referencebordet",
+      "pastPt": "esta manhã",
+      "pastDa": "her til morgen",
+      "openPt": "Queria comparar dois dicionários para entender uma palavra de geografia.",
+      "openDa": "Jeg vil gerne sammenligne to ordbøger for at forstå et ord fra geografi.",
+      "answerPt": "O dicionário grande é mais completo, mas o pequeno tem exemplos claros.",
+      "answerDa": "Den store ordbog er mere omfattende, men den lille har tydelige eksempler.",
+      "directQuestionPt": "Qual deles explica melhor a pronúncia?",
+      "directQuestionDa": "Hvilken af dem forklarer udtalen bedst?",
+      "detailPt": "O pequeno mostra a divisão silábica e a pronúncia europeia.",
+      "detailDa": "Den lille viser stavelsesdeling og europæisk udtale.",
+      "terPt": "Tenho a frase no caderno e quero escrever uma tradução correta.",
+      "terDa": "Jeg har sætningen i notesbogen og vil skrive en korrekt oversættelse.",
+      "estarPt": "Os dicionários estão na mesa de referência e não podem sair da sala.",
+      "estarDa": "Ordbøgerne ligger på referencebordet og må ikke tages ud af rummet.",
+      "pastSentencePt": "Esta manhã comparei uma palavra parecida num dicionário online.",
+      "pastSentenceDa": "Her til morgen sammenlignede jeg et lignende ord i en onlineordbog.",
+      "serPt": "A tradução é boa quando respeita o contexto da frase.",
+      "serDa": "Oversættelsen er god, når den passer til sætningens sammenhæng.",
+      "actionPt": "Comparo os exemplos e escolho a palavra mais natural.",
+      "actionDa": "Jeg sammenligner eksemplerne og vælger det mest naturlige ord.",
+      "closePt": "Depois arrume os dicionários no mesmo lugar.",
+      "closeDa": "Sæt bagefter ordbøgerne tilbage samme sted.",
+      "storyPt1": "Na mesa de referência uso dicionários para uma palavra difícil de geografia.",
+      "storyDa1": "Ved referencebordet bruger jeg ordbøger til et svært geografisk ord.",
+      "storyPt2": "Comparo as explicações e escrevo uma tradução melhor.",
+      "storyDa2": "Jeg sammenligner forklaringerne og skriver en bedre oversættelse.",
+      "vocabulary": [
+        [
+          "dicionário",
+          "ordbog"
+        ],
+        [
+          "geografia",
+          "geografi"
+        ],
+        [
+          "pronúncia",
+          "udtale"
+        ],
+        [
+          "tradução",
+          "oversættelse"
+        ],
+        [
+          "contexto",
+          "sammenhæng"
+        ]
+      ]
+    },
+    {
+      "titleDa": "Aviser og tidsskrifter",
+      "objectiveDa": "Læs aviser og tidsskrifter på biblioteket.",
+      "verb": "procurar",
+      "objectPt": "jornais e revistas",
+      "objectDa": "aviser og tidsskrifter",
+      "placePt": "na zona de leitura",
+      "placeDa": "i læseområdet",
+      "pastPt": "ontem",
+      "pastDa": "i går",
+      "openPt": "Procuro jornais e revistas para seguir as notícias locais.",
+      "openDa": "Jeg søger efter aviser og tidsskrifter for at følge de lokale nyheder.",
+      "answerPt": "Os jornais de hoje estão na mesa redonda, e as revistas ficam na parede.",
+      "answerDa": "Dagens aviser ligger på det runde bord, og tidsskrifterne står ved væggen.",
+      "directQuestionPt": "Posso levar uma revista para a sala de estudo?",
+      "directQuestionDa": "Må jeg tage et tidsskrift med ind i læsesalen?",
+      "detailPt": "Pode ler aqui, mas as revistas atuais ficam sempre nesta zona.",
+      "detailDa": "Du må læse her, men de nyeste tidsskrifter bliver altid i dette område.",
+      "terPt": "Tenho interesse em cultura e também em história local.",
+      "terDa": "Jeg interesserer mig for kultur og også for lokalhistorie.",
+      "estarPt": "A revista de história está aberta na página sobre Lisboa.",
+      "estarDa": "Historietidsskriftet ligger åbent på siden om Lissabon.",
+      "pastSentencePt": "Ontem procurei a mesma notícia na internet, mas queria ler a versão impressa.",
+      "pastSentenceDa": "I går søgte jeg efter den samme nyhed på nettet, men jeg ville læse den trykte version.",
+      "serPt": "A zona de leitura é tranquila durante a tarde.",
+      "serDa": "Læseområdet er roligt om eftermiddagen.",
+      "actionPt": "Procuro primeiro o jornal local e depois escolho uma revista.",
+      "actionDa": "Jeg finder først lokalavisen og vælger derefter et tidsskrift.",
+      "closePt": "Quando terminar, deixe tudo no carrinho das publicações.",
+      "closeDa": "Når du er færdig, læg det hele på vognen til publikationer.",
+      "storyPt1": "Na zona de leitura quero ler notícias locais em papel.",
+      "storyDa1": "I læseområdet vil jeg læse lokale nyheder på papir.",
+      "storyPt2": "Os jornais e as revistas dão-me palavras novas sobre cultura e história.",
+      "storyDa2": "Aviser og tidsskrifter giver mig nye ord om kultur og historie.",
+      "vocabulary": [
+        [
+          "jornal",
+          "avis"
+        ],
+        [
+          "revista",
+          "tidsskrift"
+        ],
+        [
+          "notícias locais",
+          "lokale nyheder"
+        ],
+        [
+          "zona de leitura",
+          "læseområde"
+        ],
+        [
+          "publicações",
+          "publikationer"
+        ]
+      ]
+    },
+    {
+      "titleDa": "Geografi og historie",
+      "objectiveDa": "Find materialer om geografi og historie.",
+      "verb": "procurar",
+      "objectPt": "mapas e livros de história",
+      "objectDa": "kort og historiebøger",
+      "placePt": "na secção de geografia",
+      "placeDa": "i geografiafdelingen",
+      "pastPt": "no fim de semana",
+      "pastDa": "i weekenden",
+      "openPt": "Procuro mapas e livros de história para preparar uma visita ao norte.",
+      "openDa": "Jeg søger kort og historiebøger for at forberede et besøg i nord.",
+      "answerPt": "A secção de geografia fica depois das biografias, à esquerda.",
+      "answerDa": "Geografiafdelingen ligger efter biografierne til venstre.",
+      "directQuestionPt": "Há mapas recentes de Braga e do Porto?",
+      "directQuestionDa": "Er der nyere kort over Braga og Porto?",
+      "detailPt": "Há mapas atuais e também um atlas histórico na prateleira de baixo.",
+      "detailDa": "Der er aktuelle kort og også et historisk atlas på den nederste hylde.",
+      "terPt": "Tenho uma lista de cidades, mas falta-me entender as distâncias.",
+      "terDa": "Jeg har en liste over byer, men jeg mangler at forstå afstandene.",
+      "estarPt": "O atlas está marcado com uma etiqueta vermelha.",
+      "estarDa": "Atlasset er markeret med en rød etiket.",
+      "pastSentencePt": "No fim de semana procurei informação sobre comboios para Braga.",
+      "pastSentenceDa": "I weekenden søgte jeg information om tog til Braga.",
+      "serPt": "A história da região é útil para perceber os nomes dos lugares.",
+      "serDa": "Regionens historie er nyttig for at forstå stednavnene.",
+      "actionPt": "Procuro os mapas certos e anoto as páginas importantes.",
+      "actionDa": "Jeg finder de rigtige kort og noterer de vigtige sider.",
+      "closePt": "Se quiser, pode fotocopiar duas páginas junto à saída.",
+      "closeDa": "Hvis du vil, kan du kopiere to sider ved udgangen.",
+      "storyPt1": "Na secção de geografia e história encontro material para uma viagem ao norte.",
+      "storyDa1": "Ved geografi og historie finder jeg materiale til en tur nordpå.",
+      "storyPt2": "Os mapas tornam a viagem mais concreta, e o livro de história explica os nomes dos lugares.",
+      "storyDa2": "Kortene gør rejsen mere konkret, og historiebogen forklarer stednavnene.",
+      "vocabulary": [
+        [
+          "geografia",
+          "geografi"
+        ],
+        [
+          "história",
+          "historie"
+        ],
+        [
+          "mapa",
+          "kort"
+        ],
+        [
+          "atlas histórico",
+          "historisk atlas"
+        ],
+        [
+          "distância",
+          "afstand"
+        ]
+      ]
+    },
+    {
+      "titleDa": "Afslutte besøget",
+      "objectiveDa": "Afslut biblioteksbesøget og forstå fristerne.",
+      "verb": "confirmar",
+      "objectPt": "os prazos dos empréstimos",
+      "objectDa": "lånefristerne",
+      "placePt": "no balcão final",
+      "placeDa": "ved den sidste skranke",
+      "pastPt": "hoje",
+      "pastDa": "i dag",
+      "openPt": "Antes de sair, quero confirmar os prazos dos empréstimos.",
+      "openDa": "Før jeg går, vil jeg bekræfte lånefristerne.",
+      "answerPt": "O romance tem quatro semanas, mas as revistas só podem ser lidas aqui.",
+      "answerDa": "Romanen har fire uger, men tidsskrifterne må kun læses her.",
+      "directQuestionPt": "Onde vejo a data de devolução?",
+      "directQuestionDa": "Hvor ser jeg afleveringsdatoen?",
+      "detailPt": "A data aparece no talão e também na sua conta online.",
+      "detailDa": "Datoen står på kvitteringen og også på din onlinekonto.",
+      "terPt": "Tenho o talão e vou guardar a conta no telemóvel.",
+      "terDa": "Jeg har kvitteringen og vil gemme kontoen på telefonen.",
+      "estarPt": "Os livros estão registados no cartão novo.",
+      "estarDa": "Bøgerne er registreret på det nye kort.",
+      "pastSentencePt": "Hoje confirmei a reserva, usei o computador e escolhi um romance.",
+      "pastSentenceDa": "I dag bekræftede jeg reservationen, brugte computeren og valgte en roman.",
+      "serPt": "O primeiro passeio pela biblioteca foi muito útil.",
+      "serDa": "Det første besøg på biblioteket var meget nyttigt.",
+      "actionPt": "Confirmo os prazos e levo os livros na mochila.",
+      "actionDa": "Jeg bekræfter fristerne og tager bøgerne i rygsækken.",
+      "closePt": "Boa leitura, e volte quando precisar de novos materiais.",
+      "closeDa": "God læselyst, og kom igen, når du har brug for nye materialer.",
+      "storyPt1": "Antes de sair, confirmo os prazos no talão.",
+      "storyDa1": "Inden jeg går ud, kontrollerer jeg fristerne på kvitteringen.",
+      "storyPt2": "A visita à biblioteca termina com o romance, os mapas e um plano claro para a próxima vez.",
+      "storyDa2": "Biblioteksbesøget slutter med romanen, kortene og en klar plan for næste gang.",
+      "vocabulary": [
+        [
+          "prazo",
+          "frist"
+        ],
+        [
+          "talão",
+          "kvittering"
+        ],
+        [
+          "conta online",
+          "onlinekonto"
+        ],
+        [
+          "mochila",
+          "rygsæk"
+        ],
+        [
+          "materiais",
+          "materialer"
+        ]
+      ]
+    }
+  ],
   "dialogues": [
     {
       "id": 1,
-      "titleDa": "Oprette lånekort",
-      "objectiveDa": "Ansøg om et lånekort, så du kan låne bøger.",
+      "titleDa": "Oprette lånerkort",
+      "objectiveDa": "Ansøg om et lånerkort for at kunne låne bøger.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Bom dia, queria fazer um cartão da biblioteca para poder levar livros.",
-          "textDa": "Goddag, jeg vil gerne oprette et lånekort, så jeg kan låne bøger.",
-          "grammarDa": "Queria + infinitiv er høfligt."
+          "textPt": "Bom dia, queria fazer um cartão da biblioteca para levar livros para casa.",
+          "textDa": "Goddag, jeg vil gerne oprette et lånerkort, så jeg kan låne bøger med hjem.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
         },
         {
           "speaker": "B",
-          "textPt": "Claro. Já trouxe um documento de identificação?",
-          "textDa": "Selvfølgelig. Har du allerede medbragt legitimation?",
-          "grammarDa": "Já trouxe spørger til noget, der allerede er gjort."
+          "textPt": "A bibliotecária pede primeiro um documento de identificação.",
+          "textDa": "Bibliotekaren beder først om legitimation.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
         },
         {
           "speaker": "A",
-          "textPt": "Não sabia disso quando vim pedir o cartão.",
-          "textDa": "Det vidste jeg ikke, da jeg kom for at ansøge om lånekort.",
-          "grammarDa": "Vim pedir betyder kom for at ansøge om/bede om."
+          "textPt": "O passaporte serve como identificação?",
+          "textDa": "Kan passet bruges som legitimation?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
         },
         {
           "speaker": "B",
-          "textPt": "É melhor preencher este formulário primeiro.",
-          "textDa": "Det er bedst at udfylde denne formular først.",
-          "grammarDa": "É melhor + infinitiv er en enkel anbefaling."
+          "textPt": "Sim, depois preenche este formulário curto com o nome e a morada.",
+          "textDa": "Ja, bagefter udfylder du denne korte formular med navn og adresse.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
         },
         {
           "speaker": "A",
-          "textPt": "Pode mostrar-me onde devo assinar?",
-          "textDa": "Kan du vise mig, hvor jeg skal skrive under?",
-          "grammarDa": "Devo assinar betyder jeg skal skrive under."
+          "textPt": "Tenho o passaporte e também tenho a morada escrita no telemóvel.",
+          "textDa": "Jeg har passet, og jeg har også adressen skrevet på telefonen.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
         },
         {
           "speaker": "B",
-          "textPt": "Assina aqui, e depois confirmamos os seus dados.",
-          "textDa": "Du skriver under her, og bagefter bekræfter vi dine oplysninger.",
-          "grammarDa": "Assina bruges som direkte instruktion."
+          "textPt": "A caneta está presa ao balcão, ao lado do formulário.",
+          "textDa": "Pennen sidder fast ved skranken ved siden af formularen.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
         },
         {
           "speaker": "A",
-          "textPt": "Tentei ler as regras no site, mas a página não abriu.",
-          "textDa": "Jeg prøvede at læse reglerne på hjemmesiden, men siden åbnede ikke.",
-          "grammarDa": "Tentei + infinitiv betyder jeg prøvede at."
+          "textPt": "Ontem procurei as regras no site, mas não encontrei a ficha de inscrição.",
+          "textDa": "I går søgte jeg efter reglerne på hjemmesiden, men jeg fandt ikke indmeldelsesformularen.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
         },
         {
           "speaker": "B",
-          "textPt": "Pode usar este computador antes de pedir o cartão.",
-          "textDa": "Du kan bruge denne computer, før du ansøger om lånekort.",
-          "grammarDa": "Pedir o cartão er den konkrete handling."
+          "textPt": "O cartão é gratuito para leitores residentes nesta freguesia.",
+          "textDa": "Kortet er gratis for lånere, der bor i dette lokalområde.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
         },
         {
           "speaker": "A",
-          "textPt": "Então espero aqui alguns minutos para pedir o cartão.",
-          "textDa": "Så venter jeg her nogle minutter for at ansøge om lånekort.",
-          "grammarDa": "Espero aqui er aktivt og direkte."
+          "textPt": "Preencho agora os dados e assino no fim da folha.",
+          "textDa": "Jeg udfylder oplysningerne nu og skriver under nederst på arket.",
+          "grammarDa": "Preencher viser handlingen i scenen."
         },
         {
           "speaker": "B",
-          "textPt": "Quando acabar, entregue o formulário no balcão.",
-          "textDa": "Når du er færdig, aflever formularen ved skranken.",
-          "grammarDa": "Entregue er en høflig opfordring."
+          "textPt": "Quando acabar, entrego o cartão provisório e pode escolher o primeiro livro.",
+          "textDa": "Når du er færdig, udleverer jeg det midlertidige kort, og du kan vælge den første bog.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
         }
       ],
       "vocabulary": [
         {
           "textPt": "cartão da biblioteca",
-          "textDa": "lånekort"
+          "textDa": "lånerkort"
+        },
+        {
+          "textPt": "formulário",
+          "textDa": "formular"
         },
         {
           "textPt": "documento de identificação",
           "textDa": "legitimation"
         },
         {
-          "textPt": "preencher",
-          "textDa": "at udfylde"
-        },
-        {
           "textPt": "assinar",
           "textDa": "at skrive under"
         },
         {
-          "textPt": "balcão",
-          "textDa": "skranke"
+          "textPt": "morada",
+          "textDa": "adresse"
         }
       ],
       "grammar": [
         {
-          "titleDa": "At udfylde en formular",
-          "explanationDa": "Dialogen bruger konkrete bibliotekshandlinger: pedir um cartão, preencher um formulário og assinar.",
+          "titleDa": "Preencher i scenen",
+          "explanationDa": "preencher betyder \"at udfylde\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
           "verb": "preencher",
           "verbDa": "at udfylde",
           "conjugation": [
@@ -149,25 +823,20 @@
           ],
           "examples": [
             {
-              "pt": "Hoje preencho o formulário.",
-              "da": "I dag udfylder jeg formularen."
+              "pt": "Preencho o formulário do cartão na biblioteca.",
+              "da": "Jeg arbejder med lånerkortformularen på biblioteket."
             },
             {
-              "pt": "Ontem preenchi o formulário.",
-              "da": "I går udfyldte jeg formularen."
+              "pt": "Ontem preenchi o formulário do cartão.",
+              "da": "I går arbejdede jeg med lånerkortformularen."
             }
           ],
-          "notesDa": "Brug konkrete handlinger fra bibliotekets arbejdsgang: ansøge om lånekort, låne, aflevere, reservere, søge i kataloget og spørge ved skranken.",
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
           "commonMistakes": [
             {
-              "wrong": "Eu preencher o formulário ontem.",
-              "correct": "Eu preenchi o formulário ontem.",
-              "noteDa": "Efter ontem bruges datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você reservei o livro?",
-              "correct": "Você reservou o livro?",
-              "noteDa": "Você bruger tredje person ental."
+              "wrong": "Ontem eu preencho.",
+              "correct": "Ontem preenchi.",
+              "noteDa": "Efter ontem bruges normalt datid, når handlingen er afsluttet."
             }
           ]
         }
@@ -176,95 +845,95 @@
     {
       "id": 2,
       "titleDa": "Låne en roman",
-      "objectiveDa": "Lån en portugisisk roman og spørg om lånetiden.",
+      "objectiveDa": "Find og lån en portugisisk roman.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Boa tarde, queria levar este romance português emprestado.",
-          "textDa": "God eftermiddag, jeg vil gerne låne denne portugisiske roman.",
-          "grammarDa": "Levar emprestado betyder at låne med sig."
+          "textPt": "Agora queria procurar um romance português que não fosse demasiado difícil.",
+          "textDa": "Nu vil jeg gerne finde en portugisisk roman, der ikke er alt for svær.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
         },
         {
           "speaker": "B",
-          "textPt": "Tem cartão da biblioteca?",
-          "textDa": "Har du et lånekort?",
-          "grammarDa": "Tem spørger om at have noget."
+          "textPt": "Na estante do fundo há romances curtos para leitores estrangeiros.",
+          "textDa": "På reolen bagerst er der korte romaner til udenlandske læsere.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
         },
         {
           "speaker": "A",
-          "textPt": "Tenho, mas ainda não sei quanto tempo posso ficar com o livro.",
-          "textDa": "Ja, men jeg ved endnu ikke, hvor længe jeg må beholde bogen.",
-          "grammarDa": "Posso ficar com betyder må beholde."
+          "textPt": "Onde fica a prateleira dos romances fáceis?",
+          "textDa": "Hvor står hylden med de lette romaner?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
         },
         {
           "speaker": "B",
-          "textPt": "Pode ficar com o romance durante duas semanas.",
-          "textDa": "Du må beholde romanen i to uger.",
-          "grammarDa": "Durante duas semanas = i to uger."
+          "textPt": "Fica depois dos livros de poesia, junto à janela grande.",
+          "textDa": "Den står efter digtsamlingerne ved det store vindue.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
         },
         {
           "speaker": "A",
-          "textPt": "E se eu precisar de mais tempo?",
-          "textDa": "Og hvis jeg får brug for mere tid?",
-          "grammarDa": "Se indleder en betingelse."
+          "textPt": "Tenho tempo para ler algumas páginas antes de decidir.",
+          "textDa": "Jeg har tid til at læse nogle sider, før jeg beslutter mig.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
         },
         {
           "speaker": "B",
-          "textPt": "Pode renovar o empréstimo online, se ninguém reservou o livro.",
-          "textDa": "Du kan forlænge lånet online, hvis ingen har reserveret bogen.",
-          "grammarDa": "Renovar o empréstimo er bibliotekets handling."
+          "textPt": "Este romance está disponível e o prazo de empréstimo está na capa interior.",
+          "textDa": "Denne roman er ledig, og lånefristen står på indersiden af omslaget.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
         },
         {
           "speaker": "A",
-          "textPt": "Ontem procurei esta autora no catálogo.",
-          "textDa": "I går søgte jeg efter denne forfatter i kataloget.",
-          "grammarDa": "Procurei er datid."
+          "textPt": "Há pouco li o primeiro parágrafo e gostei da linguagem simples.",
+          "textDa": "For lidt siden læste jeg det første afsnit og kunne lide det enkle sprog.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
         },
         {
           "speaker": "B",
-          "textPt": "Há mais dois livros dela na secção de literatura.",
-          "textDa": "Der er to andre bøger af hende i litteraturafdelingen.",
-          "grammarDa": "Há bruges om der er."
+          "textPt": "O autor é português, mas a história é fácil de seguir.",
+          "textDa": "Forfatteren er portugisisk, men historien er let at følge.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
         },
         {
           "speaker": "A",
-          "textPt": "Então vou procurar os outros títulos depois.",
-          "textDa": "Så vil jeg søge efter de andre titler bagefter.",
-          "grammarDa": "Vou procurar = jeg vil søge."
+          "textPt": "Procuro também uma edição com letras maiores.",
+          "textDa": "Jeg søger også efter en udgave med større skrift.",
+          "grammarDa": "Procurar viser handlingen i scenen."
         },
         {
           "speaker": "B",
-          "textPt": "Quando escolher, passe novamente pelo balcão.",
-          "textDa": "Når du har valgt, så kom forbi skranken igen.",
-          "grammarDa": "Passe pelo balcão er en praktisk instruktion."
+          "textPt": "Leve este exemplar ao balcão; fica registado no seu cartão.",
+          "textDa": "Tag dette eksemplar med til skranken; det bliver registreret på dit kort.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "romance português",
-          "textDa": "portugisisk roman"
+          "textPt": "romance",
+          "textDa": "roman"
         },
         {
-          "textPt": "levar emprestado",
-          "textDa": "at låne med sig"
+          "textPt": "prateleira",
+          "textDa": "hylde"
         },
         {
           "textPt": "empréstimo",
           "textDa": "lån"
         },
         {
-          "textPt": "renovar",
-          "textDa": "at forlænge"
+          "textPt": "autor",
+          "textDa": "forfatter"
         },
         {
-          "textPt": "catálogo",
-          "textDa": "katalog"
+          "textPt": "letras maiores",
+          "textDa": "større skrift"
         }
       ],
       "grammar": [
         {
-          "titleDa": "At låne og forlænge",
-          "explanationDa": "Dialogen bruger lånearbejdsgangen: levar emprestado, ficar com o livro og renovar o empréstimo.",
+          "titleDa": "Procurar i scenen",
+          "explanationDa": "procurar betyder \"at søge efter\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
           "verb": "procurar",
           "verbDa": "at søge efter",
           "conjugation": [
@@ -306,7 +975,7 @@
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "procurámos"
+              "form": "procuramos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
@@ -319,25 +988,20 @@
           ],
           "examples": [
             {
-              "pt": "Hoje procuro uma autora portuguesa.",
-              "da": "I dag søger jeg efter en portugisisk forfatter."
+              "pt": "Procuro um romance português na secção de literatura.",
+              "da": "Jeg arbejder med en portugisisk roman i litteraturafdelingen."
             },
             {
-              "pt": "Ontem procurei a autora no catálogo.",
-              "da": "I går søgte jeg efter forfatteren i kataloget."
+              "pt": "Há pouco procurei um romance português.",
+              "da": "For lidt siden arbejdede jeg med en portugisisk roman."
             }
           ],
-          "notesDa": "Brug konkrete handlinger fra bibliotekets arbejdsgang: ansøge om lånekort, låne, aflevere, reservere, søge i kataloget og spørge ved skranken.",
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
           "commonMistakes": [
             {
-              "wrong": "Eu preencher o formulário ontem.",
-              "correct": "Eu preenchi o formulário ontem.",
-              "noteDa": "Efter ontem bruges datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você reservei o livro?",
-              "correct": "Você reservou o livro?",
-              "noteDa": "Você bruger tredje person ental."
+              "wrong": "Ontem eu procuro.",
+              "correct": "Há pouco procurei.",
+              "noteDa": "Efter há pouco bruges normalt datid, når handlingen er afsluttet."
             }
           ]
         }
@@ -346,168 +1010,163 @@
     {
       "id": 3,
       "titleDa": "Aflevere for sent",
-      "objectiveDa": "Aflever en forsinket bog og spørg, hvad du skal gøre.",
+      "objectiveDa": "Aflever en bog for sent og spørg om bøden.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Bom dia, venho devolver este livro com atraso.",
-          "textDa": "Goddag, jeg kommer for at aflevere denne bog for sent.",
-          "grammarDa": "Venho devolver betyder jeg kommer for at aflevere."
+          "textPt": "Venho entregar este livro atrasado e quero saber o valor da multa.",
+          "textDa": "Jeg kommer for at aflevere denne forsinkede bog og vil gerne kende bødens størrelse.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
         },
         {
           "speaker": "B",
-          "textPt": "Vamos ver a data de devolução no sistema.",
-          "textDa": "Lad os se afleveringsdatoen i systemet.",
-          "grammarDa": "Vamos ver er en naturlig serviceform."
+          "textPt": "A máquina mostra a data de devolução e calcula a multa automaticamente.",
+          "textDa": "Maskinen viser afleveringsdatoen og beregner bøden automatisk.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
         },
         {
           "speaker": "A",
-          "textPt": "Recebi uma mensagem, mas não percebi se havia multa.",
-          "textDa": "Jeg fik en besked, men jeg forstod ikke, om der var en bøde.",
-          "grammarDa": "Recebi og percebi er datid."
+          "textPt": "Quanto tenho de pagar pelo atraso?",
+          "textDa": "Hvor meget skal jeg betale for forsinkelsen?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
         },
         {
           "speaker": "B",
-          "textPt": "Quando o livro está atrasado, pode haver uma pequena multa.",
-          "textDa": "Når bogen er forsinket, kan der være en lille bøde.",
-          "grammarDa": "Está atrasado beskriver bogens status."
+          "textPt": "São quarenta cêntimos, porque passaram dois dias depois do prazo.",
+          "textDa": "Det er fyrre cent, fordi der gik to dage efter fristen.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
         },
         {
           "speaker": "A",
-          "textPt": "Quanto tenho de pagar hoje?",
-          "textDa": "Hvor meget skal jeg betale i dag?",
-          "grammarDa": "Tenho de pagar betyder jeg skal betale."
+          "textPt": "Tenho moedas pequenas, mas também posso pagar com cartão.",
+          "textDa": "Jeg har småmønter, men jeg kan også betale med kort.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
         },
         {
           "speaker": "B",
-          "textPt": "São apenas cinquenta cêntimos.",
-          "textDa": "Det er kun halvtreds cent.",
-          "grammarDa": "São bruges ved beløb."
+          "textPt": "O recibo está a sair da impressora ao lado da máquina.",
+          "textDa": "Kvitteringen kommer ud af printeren ved siden af maskinen.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
         },
         {
           "speaker": "A",
-          "textPt": "Posso pagar com cartão?",
-          "textDa": "Kan jeg betale med kort?",
-          "grammarDa": "Posso pagar er et praktisk spørgsmål."
+          "textPt": "Na semana passada pensei que o prazo era mais longo.",
+          "textDa": "I sidste uge troede jeg, at fristen var længere.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
         },
         {
           "speaker": "B",
-          "textPt": "Sim, pode pagar aqui no balcão.",
-          "textDa": "Ja, du kan betale her ved skranken.",
-          "grammarDa": "Pode pagar er direkte og konkret."
+          "textPt": "A multa é baixa, mas o aviso é importante para o próximo empréstimo.",
+          "textDa": "Bøden er lav, men påmindelsen er vigtig til næste lån.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
         },
         {
           "speaker": "A",
-          "textPt": "Depois de pagar, posso levar outro livro?",
-          "textDa": "Når jeg har betalt, må jeg så låne en anden bog?",
-          "grammarDa": "Depois de pagar = efter at betale."
+          "textPt": "Entrego o livro agora e guardo o recibo na carteira.",
+          "textDa": "Jeg afleverer bogen nu og gemmer kvitteringen i tegnebogen.",
+          "grammarDa": "Entregar viser handlingen i scenen."
         },
         {
           "speaker": "B",
-          "textPt": "Sim, a sua conta fica ativa novamente.",
-          "textDa": "Ja, din konto bliver aktiv igen.",
-          "grammarDa": "Fica ativa beskriver resultatet."
+          "textPt": "Fica resolvido; já pode levar outro livro se quiser.",
+          "textDa": "Så er det afsluttet; du kan allerede låne en ny bog, hvis du vil.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "devolver",
-          "textDa": "at aflevere"
+          "textPt": "devolução",
+          "textDa": "aflevering"
         },
         {
-          "textPt": "com atraso",
-          "textDa": "for sent"
-        },
-        {
-          "textPt": "data de devolução",
-          "textDa": "afleveringsdato"
+          "textPt": "livro atrasado",
+          "textDa": "forsinket bog"
         },
         {
           "textPt": "multa",
           "textDa": "bøde"
         },
         {
-          "textPt": "conta ativa",
-          "textDa": "aktiv konto"
+          "textPt": "prazo",
+          "textDa": "frist"
+        },
+        {
+          "textPt": "recibo",
+          "textDa": "kvittering"
         }
       ],
       "grammar": [
         {
-          "titleDa": "At aflevere for sent",
-          "explanationDa": "Dialogen bruger devolver, pagar og estar atrasado i en normal bibliotekssituation.",
-          "verb": "devolver",
+          "titleDa": "Entregar i scenen",
+          "explanationDa": "entregar betyder \"at aflevere\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "entregar",
           "verbDa": "at aflevere",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "devolvo"
+              "form": "entrego"
             },
             {
               "subject": "tu (presente)",
-              "form": "devolves"
+              "form": "entregas"
             },
             {
               "subject": "ele/ela/você (presente)",
-              "form": "devolve"
+              "form": "entrega"
             },
             {
               "subject": "nós (presente)",
-              "form": "devolvemos"
+              "form": "entregamos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "devolvem"
+              "form": "entregam"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "devolvem"
+              "form": "entregam"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "devolvi"
+              "form": "entreguei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "devolveste"
+              "form": "entregaste"
             },
             {
               "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "devolveu"
+              "form": "entregou"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "devolvemos"
+              "form": "entregamos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "devolveram"
+              "form": "entregaram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "devolveram"
+              "form": "entregaram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje devolvo o livro.",
-              "da": "I dag afleverer jeg bogen."
+              "pt": "Entrego o livro atrasado no balcão de devoluções.",
+              "da": "Jeg arbejder med den forsinkede bog ved afleveringsskranken."
             },
             {
-              "pt": "Ontem devolvi o livro com atraso.",
-              "da": "I går afleverede jeg bogen for sent."
+              "pt": "Na semana passada entreguei o livro atrasado.",
+              "da": "I sidste uge arbejdede jeg med den forsinkede bog."
             }
           ],
-          "notesDa": "Brug konkrete handlinger fra bibliotekets arbejdsgang: ansøge om lånekort, låne, aflevere, reservere, søge i kataloget og spørge ved skranken.",
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
           "commonMistakes": [
             {
-              "wrong": "Eu preencher o formulário ontem.",
-              "correct": "Eu preenchi o formulário ontem.",
-              "noteDa": "Efter ontem bruges datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você reservei o livro?",
-              "correct": "Você reservou o livro?",
-              "noteDa": "Você bruger tredje person ental."
+              "wrong": "Ontem eu entrego.",
+              "correct": "Na semana passada entreguei.",
+              "noteDa": "Efter na semana passada bruges normalt datid, når handlingen er afsluttet."
             }
           ]
         }
@@ -515,266 +1174,96 @@
     },
     {
       "id": 4,
-      "titleDa": "Finde rejseafdelingen",
-      "objectiveDa": "Spørg efter en bestemt afdeling på biblioteket.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Desculpe, procuro a secção de viagens.",
-          "textDa": "Undskyld, jeg leder efter rejseafdelingen.",
-          "grammarDa": "Procuro er nutid."
-        },
-        {
-          "speaker": "B",
-          "textPt": "A secção de viagens fica no primeiro andar.",
-          "textDa": "Rejseafdelingen ligger på første sal.",
-          "grammarDa": "Fica bruges om placering."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Há livros sobre Portugal nessa secção?",
-          "textDa": "Er der bøger om Portugal i den afdeling?",
-          "grammarDa": "Há spørger om der findes noget."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Sim, estão perto dos guias turísticos.",
-          "textDa": "Ja, de står ved rejseguiderne.",
-          "grammarDa": "Estão bruges om placering."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Ontem procurei no rés do chão, mas não encontrei nada.",
-          "textDa": "I går ledte jeg i stueetagen, men fandt ingenting.",
-          "grammarDa": "Procurei og encontrei er datid."
-        },
-        {
-          "speaker": "B",
-          "textPt": "A sinalização mudou na semana passada.",
-          "textDa": "Skiltningen blev ændret i sidste uge.",
-          "grammarDa": "Mudou er datid."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Pode indicar-me as escadas?",
-          "textDa": "Kan du vise mig trapperne?",
-          "grammarDa": "Indicar-me er en høflig anmodning."
-        },
-        {
-          "speaker": "B",
-          "textPt": "As escadas ficam à direita do balcão.",
-          "textDa": "Trapperne er til højre for skranken.",
-          "grammarDa": "À direita = til højre."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Vou subir agora e procurar um guia de Lisboa.",
-          "textDa": "Jeg går op nu og leder efter en guide til Lissabon.",
-          "grammarDa": "Vou subir = jeg går op."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Se não encontrar, volte aqui e eu ajudo.",
-          "textDa": "Hvis du ikke finder den, så kom tilbage hertil, og jeg hjælper.",
-          "grammarDa": "Se não encontrar er en betingelse."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "secção de viagens",
-          "textDa": "rejseafdeling"
-        },
-        {
-          "textPt": "primeiro andar",
-          "textDa": "første sal"
-        },
-        {
-          "textPt": "guias turísticos",
-          "textDa": "rejseguider"
-        },
-        {
-          "textPt": "escadas",
-          "textDa": "trapper"
-        },
-        {
-          "textPt": "à direita",
-          "textDa": "til højre"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "At finde en afdeling",
-          "explanationDa": "Dialogen bruger procurar, ficar og encontrar til at finde rundt på biblioteket.",
-          "verb": "procurar",
-          "verbDa": "at lede efter",
-          "conjugation": [
-            {
-              "subject": "eu (presente)",
-              "form": "procuro"
-            },
-            {
-              "subject": "tu (presente)",
-              "form": "procuras"
-            },
-            {
-              "subject": "ele/ela/você (presente)",
-              "form": "procura"
-            },
-            {
-              "subject": "nós (presente)",
-              "form": "procuramos"
-            },
-            {
-              "subject": "vocês (presente)",
-              "form": "procuram"
-            },
-            {
-              "subject": "eles/elas (presente)",
-              "form": "procuram"
-            },
-            {
-              "subject": "eu (pretérito perfeito)",
-              "form": "procurei"
-            },
-            {
-              "subject": "tu (pretérito perfeito)",
-              "form": "procuraste"
-            },
-            {
-              "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "procurou"
-            },
-            {
-              "subject": "nós (pretérito perfeito)",
-              "form": "procurámos"
-            },
-            {
-              "subject": "vocês (pretérito perfeito)",
-              "form": "procuraram"
-            },
-            {
-              "subject": "eles/elas (pretérito perfeito)",
-              "form": "procuraram"
-            }
-          ],
-          "examples": [
-            {
-              "pt": "Hoje procuro a secção de viagens.",
-              "da": "I dag leder jeg efter rejseafdelingen."
-            },
-            {
-              "pt": "Ontem procurei no rés do chão.",
-              "da": "I går ledte jeg i stueetagen."
-            }
-          ],
-          "notesDa": "Brug konkrete handlinger fra bibliotekets arbejdsgang: ansøge om lånekort, låne, aflevere, reservere, søge i kataloget og spørge ved skranken.",
-          "commonMistakes": [
-            {
-              "wrong": "Eu preencher o formulário ontem.",
-              "correct": "Eu preenchi o formulário ontem.",
-              "noteDa": "Efter ontem bruges datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você reservei o livro?",
-              "correct": "Você reservou o livro?",
-              "noteDa": "Você bruger tredje person ental."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 5,
       "titleDa": "Reservere en bog",
-      "objectiveDa": "Reserver en bog, der er udlånt.",
+      "objectiveDa": "Reserver en udlånt bog i kataloget.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Queria reservar este título, porque está emprestado.",
-          "textDa": "Jeg vil gerne reservere denne titel, fordi den er udlånt.",
-          "grammarDa": "Queria reservar er høfligt og konkret."
+          "textPt": "O livro de história está emprestado, mas queria reservá-lo.",
+          "textDa": "Historiebogen er udlånt, men jeg vil gerne reservere den.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
         },
         {
           "speaker": "B",
-          "textPt": "Posso fazer a reserva com o seu cartão da biblioteca.",
-          "textDa": "Jeg kan lave reservationen med dit lånekort.",
-          "grammarDa": "Fazer a reserva er bibliotekets handling."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Quanto tempo demora normalmente?",
-          "textDa": "Hvor lang tid tager det normalt?",
-          "grammarDa": "Quanto tempo demora er praktisk."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Normalmente demora três ou quatro dias.",
-          "textDa": "Normalt tager det tre eller fire dage.",
-          "grammarDa": "Demora beskriver tid."
+          "textPt": "No catálogo digital, carregue em reservar e confirme o seu cartão.",
+          "textDa": "I det digitale katalog trykker du på reserver og bekræfter dit kort.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
         },
         {
           "speaker": "A",
           "textPt": "Recebo uma mensagem quando o livro chegar?",
           "textDa": "Får jeg en besked, når bogen kommer?",
-          "grammarDa": "Quando o livro chegar = når bogen kommer."
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
         },
         {
           "speaker": "B",
-          "textPt": "Sim, enviamos uma mensagem para o seu telemóvel.",
-          "textDa": "Ja, vi sender en besked til din mobil.",
-          "grammarDa": "Enviamos er nós-form."
+          "textPt": "Sim, recebe uma mensagem de correio eletrónico e tem cinco dias para a levantar.",
+          "textDa": "Ja, du får en e-mail og har fem dage til at hente den.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
         },
         {
           "speaker": "A",
-          "textPt": "Na semana passada reservei outro livro online.",
-          "textDa": "I sidste uge reserverede jeg en anden bog online.",
-          "grammarDa": "Reservei er datid."
+          "textPt": "Tenho o endereço de correio eletrónico no registo do cartão.",
+          "textDa": "Jeg har e-mailadressen i kortets registrering.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
         },
         {
           "speaker": "B",
-          "textPt": "Então já conhece o processo de levantamento.",
-          "textDa": "Så kender du allerede afhentningsprocessen.",
-          "grammarDa": "Conhece er nutid."
+          "textPt": "A lista de espera está curta, só há uma pessoa à sua frente.",
+          "textDa": "Ventelisten er kort; der er kun én person foran dig.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
         },
         {
           "speaker": "A",
-          "textPt": "Quando receber a mensagem, venho buscar o livro.",
-          "textDa": "Når jeg får beskeden, kommer jeg for at hente bogen.",
-          "grammarDa": "Venho buscar er konkret handling."
+          "textPt": "Ontem à noite reservei outro título e o sistema funcionou bem.",
+          "textDa": "I går aftes reserverede jeg en anden titel, og systemet virkede fint.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
         },
         {
           "speaker": "B",
-          "textPt": "Guardamos a reserva durante cinco dias úteis.",
-          "textDa": "Vi holder reservationen i fem hverdage.",
-          "grammarDa": "Guardamos betyder vi holder/gemmer."
+          "textPt": "A reserva é gratuita, mas o prazo de levantamento é fixo.",
+          "textDa": "Reservationen er gratis, men afhentningsfristen er fast.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Reservo este livro e anoto a data no calendário.",
+          "textDa": "Jeg reserverer denne bog og skriver datoen i kalenderen.",
+          "grammarDa": "Reservar viser handlingen i scenen."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Quando chegar, o livro fica no balcão das reservas.",
+          "textDa": "Når den kommer, ligger bogen ved reservationsskranken.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "reservar",
-          "textDa": "at reservere"
+          "textPt": "reserva",
+          "textDa": "reservation"
         },
         {
-          "textPt": "emprestado",
-          "textDa": "udlånt"
+          "textPt": "catálogo digital",
+          "textDa": "digitalt katalog"
         },
         {
-          "textPt": "mensagem",
-          "textDa": "besked"
+          "textPt": "lista de espera",
+          "textDa": "venteliste"
         },
         {
-          "textPt": "telemóvel",
-          "textDa": "mobiltelefon"
+          "textPt": "correio eletrónico",
+          "textDa": "e-mail"
         },
         {
-          "textPt": "levantamento",
-          "textDa": "afhentning"
+          "textPt": "levantar",
+          "textDa": "at hente"
         }
       ],
       "grammar": [
         {
-          "titleDa": "At reservere en bog",
-          "explanationDa": "Dialogen følger reservation: reservar, receber mensagem og vir buscar o livro.",
+          "titleDa": "Reservar i scenen",
+          "explanationDa": "reservar betyder \"at reservere\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
           "verb": "reservar",
           "verbDa": "at reservere",
           "conjugation": [
@@ -816,7 +1305,7 @@
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "reservámos"
+              "form": "reservamos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
@@ -829,94 +1318,89 @@
           ],
           "examples": [
             {
-              "pt": "Hoje reservo este título.",
-              "da": "I dag reserverer jeg denne titel."
+              "pt": "Reservo o livro de história no catálogo digital.",
+              "da": "Jeg arbejder med historiebogen i det digitale katalog."
             },
             {
-              "pt": "Na semana passada reservei outro livro.",
-              "da": "I sidste uge reserverede jeg en anden bog."
+              "pt": "Ontem à noite reservei o livro de história.",
+              "da": "I går aftes arbejdede jeg med historiebogen."
             }
           ],
-          "notesDa": "Brug konkrete handlinger fra bibliotekets arbejdsgang: ansøge om lånekort, låne, aflevere, reservere, søge i kataloget og spørge ved skranken.",
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
           "commonMistakes": [
             {
-              "wrong": "Eu preencher o formulário ontem.",
-              "correct": "Eu preenchi o formulário ontem.",
-              "noteDa": "Efter ontem bruges datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você reservei o livro?",
-              "correct": "Você reservou o livro?",
-              "noteDa": "Você bruger tredje person ental."
+              "wrong": "Ontem eu reservo.",
+              "correct": "Ontem à noite reservei.",
+              "noteDa": "Efter ontem à noite bruges normalt datid, når handlingen er afsluttet."
             }
           ]
         }
       ]
     },
     {
-      "id": 6,
-      "titleDa": "Bruge computer",
-      "objectiveDa": "Bed om adgang til en offentlig computer.",
+      "id": 5,
+      "titleDa": "Wi-Fi og computer",
+      "objectiveDa": "Brug bibliotekets computer og Wi-Fi.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Bom dia, preciso de usar um computador público.",
-          "textDa": "Goddag, jeg har brug for at bruge en offentlig computer.",
-          "grammarDa": "Preciso de usar er direkte og praktisk."
+          "textPt": "Preciso de abrir a página do Wi-Fi para escrever um documento.",
+          "textDa": "Jeg skal åbne Wi-Fi-siden for at skrive et dokument.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
         },
         {
           "speaker": "B",
-          "textPt": "Tem cartão da biblioteca para iniciar sessão?",
-          "textDa": "Har du lånekort, så du kan logge ind?",
-          "grammarDa": "Iniciar sessão = logge ind."
+          "textPt": "Use este computador público; a sessão termina ao fim de trinta minutos.",
+          "textDa": "Brug denne offentlige computer; sessionen slutter efter tredive minutter.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
         },
         {
           "speaker": "A",
-          "textPt": "Tenho, mas esqueci-me da palavra-passe.",
-          "textDa": "Ja, men jeg har glemt adgangskoden.",
-          "grammarDa": "Esqueci-me de betyder jeg glemte."
+          "textPt": "Qual é a palavra-passe do Wi-Fi?",
+          "textDa": "Hvad er Wi-Fi-koden?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
         },
         {
           "speaker": "B",
-          "textPt": "Podemos criar uma palavra-passe nova no balcão.",
-          "textDa": "Vi kan oprette en ny adgangskode ved skranken.",
-          "grammarDa": "Criar uma palavra-passe er konkret IT-handling."
+          "textPt": "A palavra-passe está impressa no cartão pequeno junto ao ecrã.",
+          "textDa": "Adgangskoden står trykt på det lille kort ved skærmen.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
         },
         {
           "speaker": "A",
-          "textPt": "Quanto tempo posso usar o computador?",
-          "textDa": "Hvor længe må jeg bruge computeren?",
-          "grammarDa": "Posso usar spørger om tilladelse."
+          "textPt": "Tenho uma pen USB com o documento, mas não sei se posso ligá-la.",
+          "textDa": "Jeg har en USB-nøgle med dokumentet, men jeg ved ikke, om jeg må sætte den i.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
         },
         {
           "speaker": "B",
-          "textPt": "Cada sessão dura trinta minutos.",
-          "textDa": "Hver session varer tredive minutter.",
-          "grammarDa": "Dura beskriver varighed."
+          "textPt": "A entrada USB está bloqueada por razões de segurança.",
+          "textDa": "USB-porten er blokeret af sikkerhedsgrunde.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
         },
         {
           "speaker": "A",
-          "textPt": "Ontem tentei imprimir um documento, mas a impressora falhou.",
-          "textDa": "I går prøvede jeg at printe et dokument, men printeren fejlede.",
-          "grammarDa": "Tentei imprimir er datid + infinitiv."
+          "textPt": "Há dez minutos abri o correio no telemóvel e enviei o ficheiro para mim.",
+          "textDa": "For ti minutter siden åbnede jeg mailen på telefonen og sendte filen til mig selv.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
         },
         {
           "speaker": "B",
-          "textPt": "Hoje a impressora está a funcionar.",
-          "textDa": "I dag virker printeren.",
-          "grammarDa": "Está a funcionar beskriver aktuel tilstand."
+          "textPt": "O acesso é gratuito, mas os ficheiros pessoais são apagados no fim.",
+          "textDa": "Adgangen er gratis, men personlige filer slettes til sidst.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
         },
         {
           "speaker": "A",
-          "textPt": "Então vou imprimir o formulário depois da sessão.",
-          "textDa": "Så printer jeg formularen efter sessionen.",
-          "grammarDa": "Vou imprimir = jeg vil printe."
+          "textPt": "Abro o navegador e entro no correio eletrónico.",
+          "textDa": "Jeg åbner browseren og går ind i e-mailen.",
+          "grammarDa": "Abrir viser handlingen i scenen."
         },
         {
           "speaker": "B",
-          "textPt": "Se precisar de ajuda, chame-nos no balcão.",
-          "textDa": "Hvis du har brug for hjælp, så kald på os ved skranken.",
-          "grammarDa": "Se precisar de ajuda er nyttigt."
+          "textPt": "No fim, termine a sessão antes de sair da mesa.",
+          "textDa": "Afslut sessionen, før du forlader bordet.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
         }
       ],
       "vocabulary": [
@@ -925,16 +1409,16 @@
           "textDa": "offentlig computer"
         },
         {
-          "textPt": "iniciar sessão",
-          "textDa": "logge ind"
+          "textPt": "palavra-passe do Wi-Fi",
+          "textDa": "Wi-Fi-kode"
         },
         {
-          "textPt": "palavra-passe",
-          "textDa": "adgangskode"
+          "textPt": "ecrã",
+          "textDa": "skærm"
         },
         {
-          "textPt": "impressora",
-          "textDa": "printer"
+          "textPt": "ficheiro",
+          "textDa": "fil"
         },
         {
           "textPt": "sessão",
@@ -943,536 +1427,191 @@
       ],
       "grammar": [
         {
-          "titleDa": "At bruge en computer",
-          "explanationDa": "Dialogen bruger usar, imprimir og iniciar sessão i bibliotekets IT-service.",
-          "verb": "usar",
-          "verbDa": "at bruge",
+          "titleDa": "Abrir i scenen",
+          "explanationDa": "abrir betyder \"at åbne\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "abrir",
+          "verbDa": "at åbne",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "uso"
+              "form": "abro"
             },
             {
               "subject": "tu (presente)",
-              "form": "usas"
+              "form": "abres"
             },
             {
               "subject": "ele/ela/você (presente)",
-              "form": "usa"
+              "form": "abre"
             },
             {
               "subject": "nós (presente)",
-              "form": "usamos"
+              "form": "abrimos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "usam"
+              "form": "abrem"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "usam"
+              "form": "abrem"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "usei"
+              "form": "abri"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "usaste"
+              "form": "abriste"
             },
             {
               "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "usou"
+              "form": "abriu"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "usámos"
+              "form": "abrimos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "usaram"
+              "form": "abriram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "usaram"
+              "form": "abriram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje uso o computador público.",
-              "da": "I dag bruger jeg den offentlige computer."
+              "pt": "Abro a página do Wi-Fi no computador público.",
+              "da": "Jeg arbejder med Wi-Fi-siden på den offentlige computer."
             },
             {
-              "pt": "Ontem usei a impressora.",
-              "da": "I går brugte jeg printeren."
+              "pt": "Há dez minutos abri a página do Wi-Fi.",
+              "da": "For ti minutter siden arbejdede jeg med Wi-Fi-siden."
             }
           ],
-          "notesDa": "Brug konkrete handlinger fra bibliotekets arbejdsgang: ansøge om lånekort, låne, aflevere, reservere, søge i kataloget og spørge ved skranken.",
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
           "commonMistakes": [
             {
-              "wrong": "Eu preencher o formulário ontem.",
-              "correct": "Eu preenchi o formulário ontem.",
-              "noteDa": "Efter ontem bruges datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você reservei o livro?",
-              "correct": "Você reservou o livro?",
-              "noteDa": "Você bruger tredje person ental."
+              "wrong": "Ontem eu abro.",
+              "correct": "Há dez minutos abri.",
+              "noteDa": "Efter há dez minutos bruges normalt datid, når handlingen er afsluttet."
             }
           ]
         }
       ]
     },
     {
-      "id": 7,
-      "titleDa": "Åbningstider",
-      "objectiveDa": "Spørg om bibliotekets åbningstider.",
+      "id": 6,
+      "titleDa": "Plads til laptop",
+      "objectiveDa": "Find en arbejdsplads med strøm.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Boa tarde, a biblioteca abre ao sábado?",
-          "textDa": "God eftermiddag, har biblioteket åbent om lørdagen?",
-          "grammarDa": "Abre spørger til åbning."
+          "textPt": "Procuro uma mesa com tomada porque a bateria do portátil está fraca.",
+          "textDa": "Jeg leder efter et bord med stikkontakt, fordi computerens batteri er lavt.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
         },
         {
           "speaker": "B",
-          "textPt": "Sim, abre às dez e fecha às seis.",
-          "textDa": "Ja, det åbner klokken ti og lukker klokken seks.",
-          "grammarDa": "Abre og fecha er nutid."
+          "textPt": "Na sala de estudo há duas mesas livres junto à parede.",
+          "textDa": "I læsesalen er der to ledige borde langs væggen.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
         },
         {
           "speaker": "A",
-          "textPt": "E a sala de leitura tem o mesmo horário?",
-          "textDa": "Og har læsesalen samme åbningstid?",
-          "grammarDa": "Tem spørger om at have."
+          "textPt": "Posso falar ao telefone nesta sala?",
+          "textDa": "Må jeg tale i telefon i dette rum?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
         },
         {
           "speaker": "B",
-          "textPt": "A sala de leitura fecha meia hora mais cedo.",
-          "textDa": "Læsesalen lukker en halv time tidligere.",
-          "grammarDa": "Mais cedo = tidligere."
+          "textPt": "Não, a placa SILÊNCIO vale aqui durante todo o dia.",
+          "textDa": "Nej, skiltet SILÊNCIO gælder her hele dagen.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
         },
         {
           "speaker": "A",
-          "textPt": "Ontem cheguei tarde e a porta já estava fechada.",
-          "textDa": "I går kom jeg sent, og døren var allerede lukket.",
-          "grammarDa": "Cheguei og estava er datid/baggrund."
+          "textPt": "Tenho auscultadores, por isso posso ouvir a aula sem incomodar.",
+          "textDa": "Jeg har høretelefoner, så jeg kan lytte til undervisningen uden at forstyrre.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
         },
         {
           "speaker": "B",
-          "textPt": "Durante a semana fechamos às oito da noite.",
-          "textDa": "I hverdagene lukker vi klokken otte om aftenen.",
-          "grammarDa": "Fechamos er nós-form."
+          "textPt": "A sala está quase cheia, mas o lugar do canto está livre.",
+          "textDa": "Rummet er næsten fyldt, men hjørnepladsen er ledig.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
         },
         {
           "speaker": "A",
-          "textPt": "Posso devolver livros fora do horário?",
-          "textDa": "Kan jeg aflevere bøger uden for åbningstiden?",
-          "grammarDa": "Fora do horário = uden for åbningstiden."
+          "textPt": "Ao meio-dia procurei uma tomada no café e não encontrei nenhuma.",
+          "textDa": "Ved middagstid ledte jeg efter en stikkontakt på cafeen og fandt ingen.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
         },
         {
           "speaker": "B",
-          "textPt": "Pode usar a caixa de devolução na entrada.",
-          "textDa": "Du kan bruge afleveringsboksen ved indgangen.",
-          "grammarDa": "Caixa de devolução er biblioteksterminologi."
+          "textPt": "A regra é simples: silêncio para quem estuda.",
+          "textDa": "Reglen er enkel: ro til dem, der studerer.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
         },
         {
           "speaker": "A",
-          "textPt": "Então devolvo o livro na caixa esta noite.",
-          "textDa": "Så afleverer jeg bogen i boksen i aften.",
-          "grammarDa": "Devolvo er nutid."
+          "textPt": "Procuro o lugar do canto e ligo o portátil.",
+          "textDa": "Jeg finder hjørnepladsen og sætter computeren til.",
+          "grammarDa": "Procurar viser handlingen i scenen."
         },
         {
           "speaker": "B",
-          "textPt": "A devolução fica registada no dia útil seguinte.",
-          "textDa": "Afleveringen bliver registreret næste hverdag.",
-          "grammarDa": "Fica registada beskriver resultatet."
+          "textPt": "Se precisar de sair, leve o computador consigo.",
+          "textDa": "Hvis du skal gå ud, så tag computeren med.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "horário",
-          "textDa": "åbningstid"
+          "textPt": "mesa com tomada",
+          "textDa": "bord med stikkontakt"
         },
         {
-          "textPt": "sala de leitura",
+          "textPt": "portátil",
+          "textDa": "laptop"
+        },
+        {
+          "textPt": "bateria",
+          "textDa": "batteri"
+        },
+        {
+          "textPt": "sala de estudo",
           "textDa": "læsesal"
         },
         {
-          "textPt": "caixa de devolução",
-          "textDa": "afleveringsboks"
-        },
-        {
-          "textPt": "entrada",
-          "textDa": "indgang"
-        },
-        {
-          "textPt": "dia útil",
-          "textDa": "hverdag"
+          "textPt": "SILÊNCIO",
+          "textDa": "stilhed"
         }
       ],
       "grammar": [
         {
-          "titleDa": "At spørge om åbningstid",
-          "explanationDa": "Dialogen bruger abrir, fechar og devolver i forbindelse med åbningstider.",
-          "verb": "devolver",
-          "verbDa": "at aflevere",
+          "titleDa": "Procurar i scenen",
+          "explanationDa": "procurar betyder \"at søge efter\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "procurar",
+          "verbDa": "at søge efter",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "devolvo"
+              "form": "procuro"
             },
             {
               "subject": "tu (presente)",
-              "form": "devolves"
+              "form": "procuras"
             },
             {
               "subject": "ele/ela/você (presente)",
-              "form": "devolve"
+              "form": "procura"
             },
             {
               "subject": "nós (presente)",
-              "form": "devolvemos"
-            },
-            {
-              "subject": "vocês (presente)",
-              "form": "devolvem"
-            },
-            {
-              "subject": "eles/elas (presente)",
-              "form": "devolvem"
-            },
-            {
-              "subject": "eu (pretérito perfeito)",
-              "form": "devolvi"
-            },
-            {
-              "subject": "tu (pretérito perfeito)",
-              "form": "devolveste"
-            },
-            {
-              "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "devolveu"
-            },
-            {
-              "subject": "nós (pretérito perfeito)",
-              "form": "devolvemos"
-            },
-            {
-              "subject": "vocês (pretérito perfeito)",
-              "form": "devolveram"
-            },
-            {
-              "subject": "eles/elas (pretérito perfeito)",
-              "form": "devolveram"
-            }
-          ],
-          "examples": [
-            {
-              "pt": "Hoje devolvo o livro na caixa.",
-              "da": "I dag afleverer jeg bogen i boksen."
-            },
-            {
-              "pt": "Ontem devolvi o livro tarde.",
-              "da": "I går afleverede jeg bogen sent."
-            }
-          ],
-          "notesDa": "Brug konkrete handlinger fra bibliotekets arbejdsgang: ansøge om lånekort, låne, aflevere, reservere, søge i kataloget og spørge ved skranken.",
-          "commonMistakes": [
-            {
-              "wrong": "Eu preencher o formulário ontem.",
-              "correct": "Eu preenchi o formulário ontem.",
-              "noteDa": "Efter ontem bruges datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você reservei o livro?",
-              "correct": "Você reservou o livro?",
-              "noteDa": "Você bruger tredje person ental."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "titleDa": "Søge i kataloget",
-      "objectiveDa": "Få hjælp til at søge efter en forfatter i kataloget.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Desculpe, pode ajudar-me a consultar o catálogo?",
-          "textDa": "Undskyld, kan du hjælpe mig med at søge i kataloget?",
-          "grammarDa": "Consultar o catálogo er konkret."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Claro. Sabe o nome do autor?",
-          "textDa": "Selvfølgelig. Kender du forfatterens navn?",
-          "grammarDa": "Sabe spørger om viden."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Sei o apelido, mas não sei o título do livro.",
-          "textDa": "Jeg kender efternavnet, men ikke bogens titel.",
-          "grammarDa": "Sei/não sei er nyttige former."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Escreva o apelido neste campo de pesquisa.",
-          "textDa": "Skriv efternavnet i dette søgefelt.",
-          "grammarDa": "Escreva er en høflig instruktion."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Agora aparecem muitos resultados.",
-          "textDa": "Nu kommer der mange resultater frem.",
-          "grammarDa": "Aparecem er flertal."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Pode filtrar por língua portuguesa.",
-          "textDa": "Du kan filtrere efter portugisisk sprog.",
-          "grammarDa": "Filtrar por betyder filtrere efter."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Ontem não encontrei este filtro em casa.",
-          "textDa": "I går fandt jeg ikke dette filter hjemme.",
-          "grammarDa": "Encontrei er datid."
-        },
-        {
-          "speaker": "B",
-          "textPt": "No computador da biblioteca, o filtro aparece à esquerda.",
-          "textDa": "På bibliotekets computer vises filteret til venstre.",
-          "grammarDa": "À esquerda = til venstre."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Então escolho o primeiro resultado da lista.",
-          "textDa": "Så vælger jeg det første resultat på listen.",
-          "grammarDa": "Escolho er nutid."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Depois clique em disponibilidade para ver a estante.",
-          "textDa": "Klik derefter på tilgængelighed for at se hylden.",
-          "grammarDa": "Disponibilidade er bibliotekets statusfelt."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "catálogo",
-          "textDa": "katalog"
-        },
-        {
-          "textPt": "autor",
-          "textDa": "forfatter"
-        },
-        {
-          "textPt": "campo de pesquisa",
-          "textDa": "søgefelt"
-        },
-        {
-          "textPt": "filtro",
-          "textDa": "filter"
-        },
-        {
-          "textPt": "disponibilidade",
-          "textDa": "tilgængelighed"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "At søge i kataloget",
-          "explanationDa": "Dialogen bruger consultar, escrever, filtrar og escolher i katalogarbejdsgangen.",
-          "verb": "consultar",
-          "verbDa": "at søge i / slå op i",
-          "conjugation": [
-            {
-              "subject": "eu (presente)",
-              "form": "consulto"
-            },
-            {
-              "subject": "tu (presente)",
-              "form": "consultas"
-            },
-            {
-              "subject": "ele/ela/você (presente)",
-              "form": "consulta"
-            },
-            {
-              "subject": "nós (presente)",
-              "form": "consultamos"
-            },
-            {
-              "subject": "vocês (presente)",
-              "form": "consultam"
-            },
-            {
-              "subject": "eles/elas (presente)",
-              "form": "consultam"
-            },
-            {
-              "subject": "eu (pretérito perfeito)",
-              "form": "consultei"
-            },
-            {
-              "subject": "tu (pretérito perfeito)",
-              "form": "consultaste"
-            },
-            {
-              "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "consultou"
-            },
-            {
-              "subject": "nós (pretérito perfeito)",
-              "form": "consultámos"
-            },
-            {
-              "subject": "vocês (pretérito perfeito)",
-              "form": "consultaram"
-            },
-            {
-              "subject": "eles/elas (pretérito perfeito)",
-              "form": "consultaram"
-            }
-          ],
-          "examples": [
-            {
-              "pt": "Hoje consulto o catálogo.",
-              "da": "I dag søger jeg i kataloget."
-            },
-            {
-              "pt": "Ontem consultei o catálogo em casa.",
-              "da": "I går søgte jeg i kataloget hjemme."
-            }
-          ],
-          "notesDa": "Brug konkrete handlinger fra bibliotekets arbejdsgang: ansøge om lånekort, låne, aflevere, reservere, søge i kataloget og spørge ved skranken.",
-          "commonMistakes": [
-            {
-              "wrong": "Eu preencher o formulário ontem.",
-              "correct": "Eu preenchi o formulário ontem.",
-              "noteDa": "Efter ontem bruges datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você reservei o livro?",
-              "correct": "Você reservou o livro?",
-              "noteDa": "Você bruger tredje person ental."
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "titleDa": "Bog er udlånt",
-      "objectiveDa": "Spørg hvad du kan gøre, når bogen ikke er hjemme.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Procuro este livro, mas diz que está emprestado.",
-          "textDa": "Jeg leder efter denne bog, men der står, at den er udlånt.",
-          "grammarDa": "Está emprestado beskriver status."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Nesse caso, pode entrar na lista de espera.",
-          "textDa": "I så fald kan du komme på venteliste.",
-          "grammarDa": "Entrar na lista de espera er konkret."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Quantas pessoas estão antes de mim?",
-          "textDa": "Hvor mange personer er der foran mig?",
-          "grammarDa": "Quantas pessoas spørger om antal."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Há duas pessoas antes de si.",
-          "textDa": "Der er to personer foran dig.",
-          "grammarDa": "Antes de si er høfligt."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Posso escolher outra edição enquanto espero?",
-          "textDa": "Kan jeg vælge en anden udgave, mens jeg venter?",
-          "grammarDa": "Enquanto espero = mens jeg venter."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Sim, há uma edição antiga na estante.",
-          "textDa": "Ja, der er en ældre udgave på hylden.",
-          "grammarDa": "Há bruges om der findes."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Na semana passada pedi um livro parecido.",
-          "textDa": "I sidste uge bad jeg om en lignende bog.",
-          "grammarDa": "Pedi er datid."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Também posso procurar títulos do mesmo autor.",
-          "textDa": "Jeg kan også søge efter titler af samme forfatter.",
-          "grammarDa": "Posso procurar er høfligt tilbud."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Ótimo, quero entrar na lista e ver a edição antiga.",
-          "textDa": "Fint, jeg vil gerne på venteliste og se den ældre udgave.",
-          "grammarDa": "Quero entrar er direkte."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Fica registado; recebe uma mensagem quando chegar a sua vez.",
-          "textDa": "Det bliver registreret; du får en besked, når det bliver din tur.",
-          "grammarDa": "Chegar a sua vez = blive din tur."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "emprestado",
-          "textDa": "udlånt"
-        },
-        {
-          "textPt": "lista de espera",
-          "textDa": "venteliste"
-        },
-        {
-          "textPt": "edição",
-          "textDa": "udgave"
-        },
-        {
-          "textPt": "estante",
-          "textDa": "hylde"
-        },
-        {
-          "textPt": "a sua vez",
-          "textDa": "din tur"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "At komme på venteliste",
-          "explanationDa": "Dialogen bruger entrar, pedir og procurar når en bog er udlånt.",
-          "verb": "entrar",
-          "verbDa": "at komme ind / komme på",
-          "conjugation": [
-            {
-              "subject": "eu (presente)",
-              "form": "entro"
-            },
-            {
-              "subject": "tu (presente)",
-              "form": "entras"
-            },
-            {
-              "subject": "ele/ela/você (presente)",
-              "form": "entra"
-            },
-            {
-              "subject": "nós (presente)",
-              "form": "entramos"
+              "form": "procuramos"
             },
             {
               "subject": "vocês (presente)",
@@ -1480,54 +1619,544 @@
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "entram"
+              "form": "procuram"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "entrei"
+              "form": "procurei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "entraste"
+              "form": "procuraste"
             },
             {
               "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "entrou"
+              "form": "procurou"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "entrámos"
+              "form": "procuramos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "entraram"
+              "form": "procuraram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "entraram"
+              "form": "procuraram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje entro na lista de espera.",
-              "da": "I dag kommer jeg på venteliste."
+              "pt": "Procuro uma mesa com tomada na sala de estudo.",
+              "da": "Jeg arbejder med et bord med stikkontakt i læsesalen."
             },
             {
-              "pt": "Ontem entrei na lista de espera.",
-              "da": "I går kom jeg på venteliste."
+              "pt": "Ao meio-dia procurei uma mesa com tomada.",
+              "da": "Ved middagstid arbejdede jeg med et bord med stikkontakt."
             }
           ],
-          "notesDa": "Brug konkrete handlinger fra bibliotekets arbejdsgang: ansøge om lånekort, låne, aflevere, reservere, søge i kataloget og spørge ved skranken.",
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
           "commonMistakes": [
             {
-              "wrong": "Eu preencher o formulário ontem.",
-              "correct": "Eu preenchi o formulário ontem.",
-              "noteDa": "Efter ontem bruges datid, når handlingen er afsluttet."
+              "wrong": "Ontem eu procuro.",
+              "correct": "Ao meio-dia procurei.",
+              "noteDa": "Efter ao meio-dia bruges normalt datid, når handlingen er afsluttet."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "titleDa": "Ordbøger",
+      "objectiveDa": "Brug ordbøger til at forstå et ord.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Queria comparar dois dicionários para entender uma palavra de geografia.",
+          "textDa": "Jeg vil gerne sammenligne to ordbøger for at forstå et ord fra geografi.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
+        },
+        {
+          "speaker": "B",
+          "textPt": "O dicionário grande é mais completo, mas o pequeno tem exemplos claros.",
+          "textDa": "Den store ordbog er mere omfattende, men den lille har tydelige eksempler.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Qual deles explica melhor a pronúncia?",
+          "textDa": "Hvilken af dem forklarer udtalen bedst?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
+        },
+        {
+          "speaker": "B",
+          "textPt": "O pequeno mostra a divisão silábica e a pronúncia europeia.",
+          "textDa": "Den lille viser stavelsesdeling og europæisk udtale.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Tenho a frase no caderno e quero escrever uma tradução correta.",
+          "textDa": "Jeg har sætningen i notesbogen og vil skrive en korrekt oversættelse.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Os dicionários estão na mesa de referência e não podem sair da sala.",
+          "textDa": "Ordbøgerne ligger på referencebordet og må ikke tages ud af rummet.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Esta manhã comparei uma palavra parecida num dicionário online.",
+          "textDa": "Her til morgen sammenlignede jeg et lignende ord i en onlineordbog.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
+        },
+        {
+          "speaker": "B",
+          "textPt": "A tradução é boa quando respeita o contexto da frase.",
+          "textDa": "Oversættelsen er god, når den passer til sætningens sammenhæng.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Comparo os exemplos e escolho a palavra mais natural.",
+          "textDa": "Jeg sammenligner eksemplerne og vælger det mest naturlige ord.",
+          "grammarDa": "Comparar viser handlingen i scenen."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Depois arrume os dicionários no mesmo lugar.",
+          "textDa": "Sæt bagefter ordbøgerne tilbage samme sted.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "dicionário",
+          "textDa": "ordbog"
+        },
+        {
+          "textPt": "geografia",
+          "textDa": "geografi"
+        },
+        {
+          "textPt": "pronúncia",
+          "textDa": "udtale"
+        },
+        {
+          "textPt": "tradução",
+          "textDa": "oversættelse"
+        },
+        {
+          "textPt": "contexto",
+          "textDa": "sammenhæng"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Comparar i scenen",
+          "explanationDa": "comparar betyder \"at sammenligne\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "comparar",
+          "verbDa": "at sammenligne",
+          "conjugation": [
+            {
+              "subject": "eu (presente)",
+              "form": "comparo"
             },
             {
-              "wrong": "Você reservei o livro?",
-              "correct": "Você reservou o livro?",
-              "noteDa": "Você bruger tredje person ental."
+              "subject": "tu (presente)",
+              "form": "comparas"
+            },
+            {
+              "subject": "ele/ela/você (presente)",
+              "form": "compara"
+            },
+            {
+              "subject": "nós (presente)",
+              "form": "comparamos"
+            },
+            {
+              "subject": "vocês (presente)",
+              "form": "comparam"
+            },
+            {
+              "subject": "eles/elas (presente)",
+              "form": "comparam"
+            },
+            {
+              "subject": "eu (pretérito perfeito)",
+              "form": "comparei"
+            },
+            {
+              "subject": "tu (pretérito perfeito)",
+              "form": "comparaste"
+            },
+            {
+              "subject": "ele/ela/você (pretérito perfeito)",
+              "form": "comparou"
+            },
+            {
+              "subject": "nós (pretérito perfeito)",
+              "form": "comparamos"
+            },
+            {
+              "subject": "vocês (pretérito perfeito)",
+              "form": "compararam"
+            },
+            {
+              "subject": "eles/elas (pretérito perfeito)",
+              "form": "compararam"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Comparo dois dicionários na mesa de referência.",
+              "da": "Jeg arbejder med to ordbøger ved referencebordet."
+            },
+            {
+              "pt": "Esta manhã comparei dois dicionários.",
+              "da": "Her til morgen arbejdede jeg med to ordbøger."
+            }
+          ],
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
+          "commonMistakes": [
+            {
+              "wrong": "Ontem eu comparo.",
+              "correct": "Esta manhã comparei.",
+              "noteDa": "Efter esta manhã bruges normalt datid, når handlingen er afsluttet."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "titleDa": "Aviser og tidsskrifter",
+      "objectiveDa": "Læs aviser og tidsskrifter på biblioteket.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Procuro jornais e revistas para seguir as notícias locais.",
+          "textDa": "Jeg søger efter aviser og tidsskrifter for at følge de lokale nyheder.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Os jornais de hoje estão na mesa redonda, e as revistas ficam na parede.",
+          "textDa": "Dagens aviser ligger på det runde bord, og tidsskrifterne står ved væggen.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Posso levar uma revista para a sala de estudo?",
+          "textDa": "Må jeg tage et tidsskrift med ind i læsesalen?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Pode ler aqui, mas as revistas atuais ficam sempre nesta zona.",
+          "textDa": "Du må læse her, men de nyeste tidsskrifter bliver altid i dette område.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Tenho interesse em cultura e também em história local.",
+          "textDa": "Jeg interesserer mig for kultur og også for lokalhistorie.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
+        },
+        {
+          "speaker": "B",
+          "textPt": "A revista de história está aberta na página sobre Lisboa.",
+          "textDa": "Historietidsskriftet ligger åbent på siden om Lissabon.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Ontem procurei a mesma notícia na internet, mas queria ler a versão impressa.",
+          "textDa": "I går søgte jeg efter den samme nyhed på nettet, men jeg ville læse den trykte version.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
+        },
+        {
+          "speaker": "B",
+          "textPt": "A zona de leitura é tranquila durante a tarde.",
+          "textDa": "Læseområdet er roligt om eftermiddagen.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Procuro primeiro o jornal local e depois escolho uma revista.",
+          "textDa": "Jeg finder først lokalavisen og vælger derefter et tidsskrift.",
+          "grammarDa": "Procurar viser handlingen i scenen."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Quando terminar, deixe tudo no carrinho das publicações.",
+          "textDa": "Når du er færdig, læg det hele på vognen til publikationer.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "jornal",
+          "textDa": "avis"
+        },
+        {
+          "textPt": "revista",
+          "textDa": "tidsskrift"
+        },
+        {
+          "textPt": "notícias locais",
+          "textDa": "lokale nyheder"
+        },
+        {
+          "textPt": "zona de leitura",
+          "textDa": "læseområde"
+        },
+        {
+          "textPt": "publicações",
+          "textDa": "publikationer"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Procurar i scenen",
+          "explanationDa": "procurar betyder \"at søge efter\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "procurar",
+          "verbDa": "at søge efter",
+          "conjugation": [
+            {
+              "subject": "eu (presente)",
+              "form": "procuro"
+            },
+            {
+              "subject": "tu (presente)",
+              "form": "procuras"
+            },
+            {
+              "subject": "ele/ela/você (presente)",
+              "form": "procura"
+            },
+            {
+              "subject": "nós (presente)",
+              "form": "procuramos"
+            },
+            {
+              "subject": "vocês (presente)",
+              "form": "procuram"
+            },
+            {
+              "subject": "eles/elas (presente)",
+              "form": "procuram"
+            },
+            {
+              "subject": "eu (pretérito perfeito)",
+              "form": "procurei"
+            },
+            {
+              "subject": "tu (pretérito perfeito)",
+              "form": "procuraste"
+            },
+            {
+              "subject": "ele/ela/você (pretérito perfeito)",
+              "form": "procurou"
+            },
+            {
+              "subject": "nós (pretérito perfeito)",
+              "form": "procuramos"
+            },
+            {
+              "subject": "vocês (pretérito perfeito)",
+              "form": "procuraram"
+            },
+            {
+              "subject": "eles/elas (pretérito perfeito)",
+              "form": "procuraram"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Procuro jornais e revistas na zona de leitura.",
+              "da": "Jeg arbejder med aviser og tidsskrifter i læseområdet."
+            },
+            {
+              "pt": "Ontem procurei jornais e revistas.",
+              "da": "I går arbejdede jeg med aviser og tidsskrifter."
+            }
+          ],
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
+          "commonMistakes": [
+            {
+              "wrong": "Ontem eu procuro.",
+              "correct": "Ontem procurei.",
+              "noteDa": "Efter ontem bruges normalt datid, når handlingen er afsluttet."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "titleDa": "Geografi og historie",
+      "objectiveDa": "Find materialer om geografi og historie.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Procuro mapas e livros de história para preparar uma visita ao norte.",
+          "textDa": "Jeg søger kort og historiebøger for at forberede et besøg i nord.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
+        },
+        {
+          "speaker": "B",
+          "textPt": "A secção de geografia fica depois das biografias, à esquerda.",
+          "textDa": "Geografiafdelingen ligger efter biografierne til venstre.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Há mapas recentes de Braga e do Porto?",
+          "textDa": "Er der nyere kort over Braga og Porto?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Há mapas atuais e também um atlas histórico na prateleira de baixo.",
+          "textDa": "Der er aktuelle kort og også et historisk atlas på den nederste hylde.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Tenho uma lista de cidades, mas falta-me entender as distâncias.",
+          "textDa": "Jeg har en liste over byer, men jeg mangler at forstå afstandene.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
+        },
+        {
+          "speaker": "B",
+          "textPt": "O atlas está marcado com uma etiqueta vermelha.",
+          "textDa": "Atlasset er markeret med en rød etiket.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
+        },
+        {
+          "speaker": "A",
+          "textPt": "No fim de semana procurei informação sobre comboios para Braga.",
+          "textDa": "I weekenden søgte jeg information om tog til Braga.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
+        },
+        {
+          "speaker": "B",
+          "textPt": "A história da região é útil para perceber os nomes dos lugares.",
+          "textDa": "Regionens historie er nyttig for at forstå stednavnene.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Procuro os mapas certos e anoto as páginas importantes.",
+          "textDa": "Jeg finder de rigtige kort og noterer de vigtige sider.",
+          "grammarDa": "Procurar viser handlingen i scenen."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Se quiser, pode fotocopiar duas páginas junto à saída.",
+          "textDa": "Hvis du vil, kan du kopiere to sider ved udgangen.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "geografia",
+          "textDa": "geografi"
+        },
+        {
+          "textPt": "história",
+          "textDa": "historie"
+        },
+        {
+          "textPt": "mapa",
+          "textDa": "kort"
+        },
+        {
+          "textPt": "atlas histórico",
+          "textDa": "historisk atlas"
+        },
+        {
+          "textPt": "distância",
+          "textDa": "afstand"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Procurar i scenen",
+          "explanationDa": "procurar betyder \"at søge efter\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "procurar",
+          "verbDa": "at søge efter",
+          "conjugation": [
+            {
+              "subject": "eu (presente)",
+              "form": "procuro"
+            },
+            {
+              "subject": "tu (presente)",
+              "form": "procuras"
+            },
+            {
+              "subject": "ele/ela/você (presente)",
+              "form": "procura"
+            },
+            {
+              "subject": "nós (presente)",
+              "form": "procuramos"
+            },
+            {
+              "subject": "vocês (presente)",
+              "form": "procuram"
+            },
+            {
+              "subject": "eles/elas (presente)",
+              "form": "procuram"
+            },
+            {
+              "subject": "eu (pretérito perfeito)",
+              "form": "procurei"
+            },
+            {
+              "subject": "tu (pretérito perfeito)",
+              "form": "procuraste"
+            },
+            {
+              "subject": "ele/ela/você (pretérito perfeito)",
+              "form": "procurou"
+            },
+            {
+              "subject": "nós (pretérito perfeito)",
+              "form": "procuramos"
+            },
+            {
+              "subject": "vocês (pretérito perfeito)",
+              "form": "procuraram"
+            },
+            {
+              "subject": "eles/elas (pretérito perfeito)",
+              "form": "procuraram"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Procuro mapas e livros de história na secção de geografia.",
+              "da": "Jeg arbejder med kort og historiebøger i geografiafdelingen."
+            },
+            {
+              "pt": "No fim de semana procurei mapas e livros de história.",
+              "da": "I weekenden arbejdede jeg med kort og historiebøger."
+            }
+          ],
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
+          "commonMistakes": [
+            {
+              "wrong": "Ontem eu procuro.",
+              "correct": "No fim de semana procurei.",
+              "noteDa": "Efter no fim de semana bruges normalt datid, når handlingen er afsluttet."
             }
           ]
         }
@@ -1535,437 +2164,407 @@
     },
     {
       "id": 10,
-      "titleDa": "Stille læsesal",
-      "objectiveDa": "Spørg om reglerne i læsesalen.",
+      "titleDa": "Afslutte besøget",
+      "objectiveDa": "Afslut biblioteksbesøget og forstå fristerne.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Bom dia, posso estudar na sala de leitura?",
-          "textDa": "Goddag, må jeg studere i læsesalen?",
-          "grammarDa": "Posso estudar spørger om tilladelse."
+          "textPt": "Antes de sair, quero confirmar os prazos dos empréstimos.",
+          "textDa": "Før jeg går, vil jeg bekræfte lånefristerne.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
         },
         {
           "speaker": "B",
-          "textPt": "Sim, mas a sala deve ficar silenciosa.",
-          "textDa": "Ja, men salen skal være stille.",
-          "grammarDa": "Deve ficar beskriver en regel."
+          "textPt": "O romance tem quatro semanas, mas as revistas só podem ser lidas aqui.",
+          "textDa": "Romanen har fire uger, men tidsskrifterne må kun læses her.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
         },
         {
           "speaker": "A",
-          "textPt": "Posso atender uma chamada rápida?",
-          "textDa": "Må jeg tage et hurtigt opkald?",
-          "grammarDa": "Atender uma chamada = tage et opkald."
+          "textPt": "Onde vejo a data de devolução?",
+          "textDa": "Hvor ser jeg afleveringsdatoen?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
         },
         {
           "speaker": "B",
-          "textPt": "As chamadas devem ser feitas fora da sala.",
-          "textDa": "Opkald skal foretages uden for salen.",
-          "grammarDa": "Devem ser feitas er regel-sprog."
+          "textPt": "A data aparece no talão e também na sua conta online.",
+          "textDa": "Datoen står på kvitteringen og også på din onlinekonto.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
         },
         {
           "speaker": "A",
-          "textPt": "Ontem vi uma pessoa falar ao telefone aqui.",
-          "textDa": "I går så jeg en person tale i telefon her.",
-          "grammarDa": "Vi er datid af ver."
+          "textPt": "Tenho o talão e vou guardar a conta no telemóvel.",
+          "textDa": "Jeg har kvitteringen og vil gemme kontoen på telefonen.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
         },
         {
           "speaker": "B",
-          "textPt": "O segurança pediu-lhe para sair durante a chamada.",
-          "textDa": "Vagten bad personen gå ud under opkaldet.",
-          "grammarDa": "Pediu-lhe er datid."
+          "textPt": "Os livros estão registados no cartão novo.",
+          "textDa": "Bøgerne er registreret på det nye kort.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
         },
         {
           "speaker": "A",
-          "textPt": "Então deixo o telemóvel em silêncio.",
-          "textDa": "Så sætter jeg mobilen på lydløs.",
-          "grammarDa": "Deixo em silêncio er praktisk."
+          "textPt": "Hoje confirmei a reserva, usei o computador e escolhi um romance.",
+          "textDa": "I dag bekræftede jeg reservationen, brugte computeren og valgte en roman.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
         },
         {
           "speaker": "B",
-          "textPt": "Também pode usar auscultadores para ouvir áudio.",
-          "textDa": "Du kan også bruge hovedtelefoner til at lytte til lyd.",
-          "grammarDa": "Pode usar er tilladelse."
+          "textPt": "O primeiro passeio pela biblioteca foi muito útil.",
+          "textDa": "Det første besøg på biblioteket var meget nyttigt.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
         },
         {
           "speaker": "A",
-          "textPt": "Vou ficar uma hora e ler os meus apontamentos.",
-          "textDa": "Jeg bliver en time og læser mine noter.",
-          "grammarDa": "Vou ficar = jeg bliver."
+          "textPt": "Confirmo os prazos e levo os livros na mochila.",
+          "textDa": "Jeg bekræfter fristerne og tager bøgerne i rygsækken.",
+          "grammarDa": "Confirmar viser handlingen i scenen."
         },
         {
           "speaker": "B",
-          "textPt": "Perfeito. Se precisar de ajuda, fale connosco no balcão.",
-          "textDa": "Perfekt. Hvis du har brug for hjælp, så tal med os ved skranken.",
-          "grammarDa": "Fale connosco er en høflig opfordring."
+          "textPt": "Boa leitura, e volte quando precisar de novos materiais.",
+          "textDa": "God læselyst, og kom igen, når du har brug for nye materialer.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "sala de leitura",
-          "textDa": "læsesal"
+          "textPt": "prazo",
+          "textDa": "frist"
         },
         {
-          "textPt": "silenciosa",
-          "textDa": "stille"
+          "textPt": "talão",
+          "textDa": "kvittering"
         },
         {
-          "textPt": "chamada",
-          "textDa": "opkald"
+          "textPt": "conta online",
+          "textDa": "onlinekonto"
         },
         {
-          "textPt": "telemóvel",
-          "textDa": "mobiltelefon"
+          "textPt": "mochila",
+          "textDa": "rygsæk"
         },
         {
-          "textPt": "auscultadores",
-          "textDa": "hovedtelefoner"
+          "textPt": "materiais",
+          "textDa": "materialer"
         }
       ],
       "grammar": [
         {
-          "titleDa": "At følge regler i læsesalen",
-          "explanationDa": "Dialogen bruger pedir, telefonar og ficar i en konkret læsesalssituation.",
-          "verb": "telefonar",
-          "verbDa": "at telefonere",
+          "titleDa": "Confirmar i scenen",
+          "explanationDa": "confirmar betyder \"at bekræfte\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "confirmar",
+          "verbDa": "at bekræfte",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "telefono"
+              "form": "confirmo"
             },
             {
               "subject": "tu (presente)",
-              "form": "telefonas"
+              "form": "confirmas"
             },
             {
               "subject": "ele/ela/você (presente)",
-              "form": "telefona"
+              "form": "confirma"
             },
             {
               "subject": "nós (presente)",
-              "form": "telefonamos"
+              "form": "confirmamos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "telefonam"
+              "form": "confirmam"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "telefonam"
+              "form": "confirmam"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "telefonei"
+              "form": "confirmei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "telefonaste"
+              "form": "confirmaste"
             },
             {
               "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "telefonou"
+              "form": "confirmou"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "telefonámos"
+              "form": "confirmamos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "telefonaram"
+              "form": "confirmaram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "telefonaram"
+              "form": "confirmaram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje telefono fora da sala.",
-              "da": "I dag telefonerer jeg uden for salen."
+              "pt": "Confirmo os prazos dos empréstimos no balcão final.",
+              "da": "Jeg arbejder med lånefristerne ved den sidste skranke."
             },
             {
-              "pt": "Ontem telefonei no corredor.",
-              "da": "I går telefonerede jeg på gangen."
+              "pt": "Hoje confirmei os prazos dos empréstimos.",
+              "da": "I dag arbejdede jeg med lånefristerne."
             }
           ],
-          "notesDa": "Brug konkrete handlinger fra bibliotekets arbejdsgang: ansøge om lånekort, låne, aflevere, reservere, søge i kataloget og spørge ved skranken.",
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
           "commonMistakes": [
             {
-              "wrong": "Eu preencher o formulário ontem.",
-              "correct": "Eu preenchi o formulário ontem.",
-              "noteDa": "Efter ontem bruges datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você reservei o livro?",
-              "correct": "Você reservou o livro?",
-              "noteDa": "Você bruger tredje person ental."
+              "wrong": "Ontem eu confirmo.",
+              "correct": "Hoje confirmei.",
+              "noteDa": "Efter hoje bruges normalt datid, når handlingen er afsluttet."
             }
           ]
         }
       ]
     }
   ],
+  "story": [
+    {
+      "speaker": "Fortæller",
+      "textPt": "De manhã, chego à biblioteca porque quero fazer um cartão da biblioteca.",
+      "textDa": "Om formiddagen kommer jeg til biblioteket, fordi jeg vil oprette et lånerkort.",
+      "grammarDa": "Læselinje 1 hænger sammen med dialogen \"Oprette lånerkort\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Com o passaporte e o formulário preenchido, fico pronto para escolher livros.",
+      "textDa": "Med passet og den udfyldte formular er jeg klar til at vælge bøger.",
+      "grammarDa": "Læselinje 2 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Depois do cartão, sigo para a secção de literatura e procuro um romance curto.",
+      "textDa": "Efter lånerkortet går jeg til litteraturafdelingen og leder efter en kort roman.",
+      "grammarDa": "Læselinje 3 hænger sammen med dialogen \"Låne en roman\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Leio uma página perto da janela e escolho um livro com linguagem clara.",
+      "textDa": "Jeg læser en side ved vinduet og vælger en bog med klart sprog.",
+      "grammarDa": "Læselinje 4 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Ao lado da entrada vejo a máquina de devoluções e lembro-me do prazo.",
+      "textDa": "Ved indgangen ser jeg afleveringsautomaten og husker fristen.",
+      "grammarDa": "Læselinje 5 hænger sammen med dialogen \"Aflevere for sent\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Pago uma pequena multa, e a devolução fica registada imediatamente.",
+      "textDa": "Jeg betaler en lille bøde, men afleveringen bliver registreret med det samme.",
+      "grammarDa": "Læselinje 6 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "No catálogo descubro que o livro de história já está emprestado.",
+      "textDa": "I kataloget opdager jeg, at historiebogen allerede er udlånt.",
+      "grammarDa": "Læselinje 7 hænger sammen med dialogen \"Reservere en bog\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Reservo o livro e recebo informação sobre a lista de espera antes de continuar.",
+      "textDa": "Jeg reserverer bogen og får besked om ventelisten, før jeg går videre.",
+      "grammarDa": "Læselinje 8 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "No lugar do computador quero usar o Wi-Fi e escrever um documento.",
+      "textDa": "Ved computerpladsen vil jeg bruge Wi-Fi og skrive et dokument.",
+      "grammarDa": "Læselinje 9 hænger sammen med dialogen \"Wi-Fi og computer\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Aprendo como funciona a sessão e termino tudo com segurança.",
+      "textDa": "Jeg lærer, hvordan sessionen virker, og afslutter den sikkert.",
+      "grammarDa": "Læselinje 10 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Na sala de estudo procuro uma tomada para o meu portátil.",
+      "textDa": "I læsesalen leder jeg efter strøm til min laptop.",
+      "grammarDa": "Læselinje 11 hænger sammen med dialogen \"Plads til laptop\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Encontro um lugar calmo no canto e sigo o aviso de silêncio.",
+      "textDa": "Jeg finder en rolig hjørneplads og følger skiltet om stilhed.",
+      "grammarDa": "Læselinje 12 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Na mesa de referência uso dicionários para uma palavra difícil de geografia.",
+      "textDa": "Ved referencebordet bruger jeg ordbøger til et svært geografisk ord.",
+      "grammarDa": "Læselinje 13 hænger sammen med dialogen \"Ordbøger\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Comparo as explicações e escrevo uma tradução melhor.",
+      "textDa": "Jeg sammenligner forklaringerne og skriver en bedre oversættelse.",
+      "grammarDa": "Læselinje 14 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Na zona de leitura quero ler notícias locais em papel.",
+      "textDa": "I læseområdet vil jeg læse lokale nyheder på papir.",
+      "grammarDa": "Læselinje 15 hænger sammen med dialogen \"Aviser og tidsskrifter\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Os jornais e as revistas dão-me palavras novas sobre cultura e história.",
+      "textDa": "Aviser og tidsskrifter giver mig nye ord om kultur og historie.",
+      "grammarDa": "Læselinje 16 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Na secção de geografia e história encontro material para uma viagem ao norte.",
+      "textDa": "Ved geografi og historie finder jeg materiale til en tur nordpå.",
+      "grammarDa": "Læselinje 17 hænger sammen med dialogen \"Geografi og historie\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Os mapas tornam a viagem mais concreta, e o livro de história explica os nomes dos lugares.",
+      "textDa": "Kortene gør rejsen mere konkret, og historiebogen forklarer stednavnene.",
+      "grammarDa": "Læselinje 18 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Antes de sair, confirmo os prazos no talão.",
+      "textDa": "Inden jeg går ud, kontrollerer jeg fristerne på kvitteringen.",
+      "grammarDa": "Læselinje 19 hænger sammen med dialogen \"Afslutte besøget\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "A visita à biblioteca termina com o romance, os mapas e um plano claro para a próxima vez.",
+      "textDa": "Biblioteksbesøget slutter med romanen, kortene og en klar plan for næste gang.",
+      "grammarDa": "Læselinje 20 viser scenens resultat."
+    }
+  ],
   "quiz": [
     {
       "id": 1,
-      "questionDa": "Hvilken sætning passer bedst til temaet \"Biblioteca\"?",
+      "questionDa": "Hvad betyder \"biblioteca\"?",
       "answers": [
         {
-          "text": "Bom dia, queria tratar do assunto \"lånekort\" sem interromper a fila.",
+          "text": "bibliotek",
           "correct": true
         },
         {
-          "text": "O gato dorme na janela.",
+          "text": "en portugisisk roman",
           "correct": false
         },
         {
-          "text": "A camisola é azul.",
+          "text": "den forsinkede bog",
           "correct": false
         },
         {
-          "text": "Há três maçãs na mesa.",
+          "text": "endestation",
           "correct": false
         }
       ],
-      "explanationDa": "Sætningen hører til lektionen Biblioteca."
+      "explanationDa": "Svarmuligheden kommer fra lektionens JSON-ordforråd."
     },
     {
       "id": 2,
-      "questionDa": "Hvilken form er nós i nutid?",
+      "questionDa": "Hvilken form er eu i nutid af preencher?",
       "answers": [
         {
-          "text": "procuramos",
+          "text": "preencho",
           "correct": true
         },
         {
-          "text": "procurámos",
+          "text": "preenchi",
           "correct": false
         },
         {
-          "text": "falam",
+          "text": "preenches",
           "correct": false
         },
         {
-          "text": "partiste",
+          "text": "preenchem",
           "correct": false
         }
       ],
-      "explanationDa": "Nós-formen følger verbets regelmæssige mønster."
+      "explanationDa": "Nutidsformen er preencho."
     },
     {
       "id": 3,
-      "questionDa": "Hvilken form er nós i pretérito perfeito?",
+      "questionDa": "Hvilken form er eu i pretérito perfeito af procurar?",
       "answers": [
         {
-          "text": "procurámos",
+          "text": "procurei",
           "correct": true
         },
         {
-          "text": "procuramos",
+          "text": "procuro",
           "correct": false
         },
         {
-          "text": "procuram",
+          "text": "procurou",
           "correct": false
         },
         {
-          "text": "beberam",
+          "text": "tenho",
           "correct": false
         }
       ],
-      "explanationDa": "Pretérito perfeito bruges om en afsluttet handling."
+      "explanationDa": "Datidsformen er procurei."
     },
     {
       "id": 4,
-      "questionDa": "Hvad betyder: Bom dia, queria tratar do assunto \"lånekort\" sem interromper a fila.",
+      "questionDa": "Vælg den bedste oversættelse: Quanto tenho de pagar pelo atraso?",
       "answers": [
         {
-          "text": "Goddag, jeg vil gerne oprette et lånekort, så jeg kan låne bøger.",
+          "text": "Hvor meget skal jeg betale for forsinkelsen?",
           "correct": true
         },
         {
-          "text": "Jeg har travlt i morgen.",
+          "text": "Når du er færdig, udleverer jeg det midlertidige kort, og du kan vælge den første bog.",
           "correct": false
         },
         {
-          "text": "Vi bestilte to kaffe.",
+          "text": "På reolen bagerst er der korte romaner til udenlandske læsere.",
           "correct": false
         },
         {
-          "text": "Børnene leger udenfor.",
+          "text": "Jeg kommer tilbage i morgen.",
           "correct": false
         }
       ],
-      "explanationDa": "Oversættelsen kommer fra dialogernes ordforråd."
+      "explanationDa": "Spørgsmålene træner direkte hverdagssprog."
     },
     {
       "id": 5,
-      "questionDa": "Vælg den mest naturlige høflige formulering.",
+      "questionDa": "Hvilket ord hører til lektionen \"Biblioteca\"?",
       "answers": [
         {
-          "text": "Pode ajudar-me, por favor?",
+          "text": "documento de identificação",
           "correct": true
         },
         {
-          "text": "Ajuda mim agora.",
+          "text": "receita médica",
           "correct": false
         },
         {
-          "text": "Você ajuda eu?",
+          "text": "quarto de hotel",
           "correct": false
         },
         {
-          "text": "Dar ajuda rápido.",
+          "text": "garagem privada",
           "correct": false
         }
       ],
-      "explanationDa": "Pode ajudar-me, por favor? er en naturlig høflig formulering."
-    },
-    {
-      "id": 6,
-      "questionDa": "Hvilken portugisisk form er tallet 23?",
-      "answers": [
-        {
-          "text": "vinte e três",
-          "correct": true
-        },
-        {
-          "text": "vinte",
-          "correct": false
-        },
-        {
-          "text": "sessenta",
-          "correct": false
-        },
-        {
-          "text": "noventa",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Talquizzen kommer fra JSON og kan genbruges i fremtidige niveauer."
-    }
-  ],
-  "storyTitleDa": "En formiddag på biblioteket",
-  "storyObjectiveDa": "Læs en kort tekst om at ansøge om lånekort, søge i kataloget, reservere og låne bøger.",
-  "story": [
-    {
-      "speaker": "A",
-      "textPt": "Ana chegou à biblioteca às dez da manhã.",
-      "textDa": "Ana kom til biblioteket klokken ti om morgenen.",
-      "grammarDa": "Chegou er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Ela queria fazer um cartão da biblioteca.",
-      "textDa": "Hun ville oprette et lånekort.",
-      "grammarDa": "Queria + infinitiv beskriver formål."
-    },
-    {
-      "speaker": "A",
-      "textPt": "A bibliotecária pediu um documento de identificação.",
-      "textDa": "Bibliotekaren bad om legitimation.",
-      "grammarDa": "Pediu er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Ana não sabia que precisava desse documento.",
-      "textDa": "Ana vidste ikke, at hun havde brug for det dokument.",
-      "grammarDa": "Precisava beskriver behov."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Mesmo assim, preencheu o formulário no balcão.",
-      "textDa": "Alligevel udfyldte hun formularen ved skranken.",
-      "grammarDa": "Preencheu er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Depois assinou o formulário e confirmou os dados.",
-      "textDa": "Derefter skrev hun under og bekræftede oplysningerne.",
-      "grammarDa": "Assinou og confirmou er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Enquanto esperava, consultou o catálogo online.",
-      "textDa": "Mens hun ventede, søgte hun i onlinekataloget.",
-      "grammarDa": "Consultou er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Procurou uma autora portuguesa para ler no fim de semana.",
-      "textDa": "Hun søgte efter en portugisisk forfatter til weekenden.",
-      "grammarDa": "Procurou er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Um romance estava emprestado.",
-      "textDa": "En roman var udlånt.",
-      "grammarDa": "Estava beskriver status."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Por isso, Ana entrou na lista de espera.",
-      "textDa": "Derfor kom Ana på venteliste.",
-      "grammarDa": "Entrou er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "A funcionária explicou que chegaria uma mensagem.",
-      "textDa": "Medarbejderen forklarede, at der ville komme en besked.",
-      "grammarDa": "Explicou er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Depois Ana encontrou outro livro na secção de viagens.",
-      "textDa": "Derefter fandt Ana en anden bog i rejseafdelingen.",
-      "grammarDa": "Encontrou er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Ela levou esse livro emprestado por duas semanas.",
-      "textDa": "Hun lånte den bog i to uger.",
-      "grammarDa": "Levou emprestado er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Também perguntou onde ficava a sala de leitura.",
-      "textDa": "Hun spurgte også, hvor læsesalen lå.",
-      "grammarDa": "Perguntou er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Na sala, deixou o telemóvel em silêncio.",
-      "textDa": "I læsesalen satte hun mobilen på lydløs.",
-      "grammarDa": "Deixou er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Leu durante uma hora sem telefonar.",
-      "textDa": "Hun læste i en time uden at tale i telefon.",
-      "grammarDa": "Sem + infinitiv."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Antes de sair, devolveu um livro antigo.",
-      "textDa": "Før hun gik, afleverede hun en gammel bog.",
-      "grammarDa": "Devolveu er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "A devolução ficou registada no sistema.",
-      "textDa": "Afleveringen blev registreret i systemet.",
-      "grammarDa": "Ficou registada beskriver resultat."
-    },
-    {
-      "speaker": "A",
-      "textPt": "No dia seguinte, recebeu a mensagem da reserva.",
-      "textDa": "Næste dag fik hun beskeden om reservationen.",
-      "grammarDa": "Recebeu er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Ana voltou à biblioteca para levantar o romance.",
-      "textDa": "Ana vendte tilbage til biblioteket for at hente romanen.",
-      "grammarDa": "Voltou er datid."
+      "explanationDa": "Quizzen bruger ord fra den aktuelle lektion."
     }
   ]
 }

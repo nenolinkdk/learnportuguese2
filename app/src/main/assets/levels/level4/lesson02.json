@@ -1,246 +1,339 @@
 {
   "id": 2,
   "titleDa": "Café e pastelaria",
-  "descriptionDa": "Learn Portuguese 3: Café, kager, bestilling for flere, takeaway, allergener, regning og separat betaling.",
+  "descriptionDa": "En formiddag på cafe og konditori med brød, kager, kaffe, priser og siddeplads.",
+  "vocabulary": [
+    {
+      "textPt": "café",
+      "textDa": "cafe"
+    },
+    {
+      "textPt": "pastelaria",
+      "textDa": "konditori"
+    },
+    {
+      "textPt": "pão",
+      "textDa": "brød"
+    },
+    {
+      "textPt": "pastel de nata",
+      "textDa": "pastel de nata"
+    },
+    {
+      "textPt": "ingredientes",
+      "textDa": "ingredienser"
+    },
+    {
+      "textPt": "galão",
+      "textDa": "kaffe med mælk"
+    },
+    {
+      "textPt": "bica",
+      "textDa": "espresso"
+    },
+    {
+      "textPt": "gelado",
+      "textDa": "is"
+    },
+    {
+      "textPt": "mesa livre",
+      "textDa": "ledig plads"
+    },
+    {
+      "textPt": "pagamento com cartão",
+      "textDa": "kortbetaling"
+    },
+    {
+      "textPt": "euro",
+      "textDa": "euro"
+    },
+    {
+      "textPt": "cêntimo",
+      "textDa": "cent"
+    },
+    {
+      "textPt": "sem glúten",
+      "textDa": "glutenfri"
+    },
+    {
+      "textPt": "hora de fecho",
+      "textDa": "lukketid"
+    },
+    {
+      "textPt": "recibo",
+      "textDa": "kvittering"
+    },
+    {
+      "textPt": "vitrina",
+      "textDa": "montre"
+    },
+    {
+      "textPt": "açúcar",
+      "textDa": "sukker"
+    },
+    {
+      "textPt": "leite",
+      "textDa": "mælk"
+    },
+    {
+      "textPt": "farinha",
+      "textDa": "mel"
+    },
+    {
+      "textPt": "manteiga",
+      "textDa": "smør"
+    },
+    {
+      "textPt": "preço",
+      "textDa": "pris"
+    },
+    {
+      "textPt": "fila",
+      "textDa": "kø"
+    },
+    {
+      "textPt": "balcão",
+      "textDa": "disk"
+    },
+    {
+      "textPt": "chávena",
+      "textDa": "kop"
+    },
+    {
+      "textPt": "guardanapo",
+      "textDa": "serviet"
+    }
+  ],
   "dialogues": [
     {
       "id": 1,
-      "titleDa": "Bestille kaffe",
-      "objectiveDa": "Træn en realistisk mini-dialog om bestille kaffe.",
+      "titleDa": "Comprar pão",
+      "objectiveDa": "Brug frisk brød i en konkret scene om Café e pastelaria.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Boa tarde, ainda há bica curta?",
-          "textDa": "God eftermiddag, er der stadig lille espresso?",
-          "grammarDa": "Há bruges om der er."
+          "textPt": "Entro na pastelaria e começo por pão fresco, porque isso faz parte da história de hoje.",
+          "textDa": "Jeg går ind på cafeen og begynder med frisk brød, fordi det hører til dagens historie.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
         },
         {
           "speaker": "B",
-          "textPt": "O empregado confirma que sim, mas recomenda pedir ao balcão.",
-          "textDa": "tjeneren bekræfter ja, men anbefaler at bede om ved disken.",
-          "grammarDa": "Recomenda + infinitiv."
+          "textPt": "A pessoa responsável mostra pão fresco e explica o passo seguinte.",
+          "textDa": "Den ansvarlige viser frisk brød og forklarer næste trin.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
         },
         {
           "speaker": "A",
-          "textPt": "Parece uma boa ideia para bica curta; nós estamos com pouco tempo.",
-          "textDa": "Det lyder som en god idé til lille espresso; vi har ikke meget tid.",
-          "grammarDa": "Nós giver variation."
+          "textPt": "Onde posso encontrar pão fresco?",
+          "textDa": "Hvor kan jeg finde frisk brød?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
         },
         {
           "speaker": "B",
-          "textPt": "Querem consumir bica curta aqui ou levar?",
-          "textDa": "Vil I spise/drikke lille espresso her eller tage det med?",
-          "grammarDa": "Querem er vocês-form."
+          "textPt": "O detalhe importante sobre pão fresco está escrito no aviso pequeno.",
+          "textDa": "Den vigtige detalje om frisk brød står på det lille skilt.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
         },
         {
           "speaker": "A",
-          "textPt": "Duas pessoas ficam aqui com bica curta, e a senhora leva o dela.",
-          "textDa": "To personer bliver her med lille espresso, og damen tager sit med.",
-          "grammarDa": "Ficam og leva har forskellige subjekter."
+          "textPt": "Tenho a informação sobre pão fresco guardada nas minhas notas.",
+          "textDa": "Jeg har informationen om frisk brød gemt i mine noter.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
         },
         {
           "speaker": "B",
-          "textPt": "Ontem houve confusão com bica curta e pedidos parecidos, por isso confirmo tudo.",
-          "textDa": "I går var der forvirring med lille espresso og lignende bestillinger, så jeg bekræfter alt.",
-          "grammarDa": "Houve er datid."
+          "textPt": "Pão fresco está disponível neste momento e pertence ao contexto da pastelaria.",
+          "textDa": "Frisk brød er tilgængelig lige nu og hører til cafeen og konditoriet.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
         },
         {
           "speaker": "A",
-          "textPt": "Claro, convém confirmar bica curta antes de preparar.",
-          "textDa": "Selvfølgelig, det er bedst at bekræfte lille espresso før tilberedning.",
-          "grammarDa": "Convém + infinitiv."
+          "textPt": "De manhã paguei pão fresco e percebi melhor a situação.",
+          "textDa": "Om morgenen arbejdede jeg med frisk brød og forstod situationen bedre.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
         },
         {
           "speaker": "B",
-          "textPt": "A conta de bica curta pode ser separada se avisarem no fim.",
-          "textDa": "Regningen for lille espresso kan deles, hvis I siger til til sidst.",
-          "grammarDa": "Pode ser er passiv-lignende."
+          "textPt": "A explicação sobre pão fresco é útil porque a situação é concreta.",
+          "textDa": "Forklaringen om frisk brød er nyttig, fordi situationen er konkret.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
         },
         {
           "speaker": "A",
-          "textPt": "Então pagamos primeiro bica curta e depois o resto.",
-          "textDa": "Så betaler vi først lille espresso og derefter resten.",
-          "grammarDa": "Pagamos er nós-form."
+          "textPt": "Pago pão fresco na pastelaria e sigo para a próxima cena.",
+          "textDa": "Jeg arbejder med frisk brød på cafeen og går videre til næste scene.",
+          "grammarDa": "Pagar viser handlingen i scenen."
         },
         {
           "speaker": "B",
-          "textPt": "Perfeito; levo já bica curta para a mesa.",
-          "textDa": "Perfekt; jeg tager straks lille espresso til bordet.",
-          "grammarDa": "Levo já er praktisk caféudtryk."
+          "textPt": "Depois de resolver pão fresco, sigo para a próxima parte da história.",
+          "textDa": "Efter at have fået frisk brød på plads går jeg videre til næste del af historien.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "bica curta",
-          "textDa": "lille espresso"
+          "textPt": "pão fresco",
+          "textDa": "frisk brød"
         },
         {
-          "textPt": "ao balcão",
-          "textDa": "ved disken"
+          "textPt": "pastelaria",
+          "textDa": "Café e pastelaria"
         },
         {
-          "textPt": "o empregado",
-          "textDa": "tjeneren"
+          "textPt": "pagar",
+          "textDa": "at betale"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "pastelaria",
+          "textDa": "på cafeen"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "cena de pão fresco",
+          "textDa": "scene om frisk brød"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Café e pastelaria",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "provar",
+          "titleDa": "Pagar i scenen",
+          "explanationDa": "pagar betyder \"at betale\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "pagar",
+          "verbDa": "at betale",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "provo"
+              "form": "pago"
             },
             {
               "subject": "tu (presente)",
-              "form": "provas"
+              "form": "pagas"
             },
             {
               "subject": "ele/ela/você (presente)",
-              "form": "prova"
+              "form": "paga"
             },
             {
               "subject": "nós (presente)",
-              "form": "provamos"
+              "form": "pagamos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "provam"
+              "form": "pagam"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "provam"
+              "form": "pagam"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "provei"
+              "form": "paguei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "provaste"
+              "form": "pagaste"
             },
             {
               "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "provou"
+              "form": "pagou"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "provámos"
+              "form": "pagamos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "provaram"
+              "form": "pagaram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "provaram"
+              "form": "pagaram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje nós provamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Pago pão fresco na pastelaria.",
+              "da": "Jeg arbejder med frisk brød på cafeen."
             },
             {
-              "pt": "Ontem a funcionária provou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "De manhã paguei pão fresco.",
+              "da": "Om morgenen arbejdede jeg med frisk brød."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "wrong": "Ontem eu pago.",
+              "correct": "De manhã paguei.",
+              "noteDa": "Efter de manhã bruges normalt datid, når handlingen er afsluttet."
             }
-          ],
-          "verbDa": "at smage / prøve"
+          ]
         }
       ]
     },
     {
       "id": 2,
-      "titleDa": "Spørge om kage",
-      "objectiveDa": "Træn en realistisk mini-dialog om spørge om kage.",
+      "titleDa": "Escolher pastel",
+      "objectiveDa": "Brug pastel de nata i en konkret scene om Café e pastelaria.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Boa tarde, ainda há pastel de nata?",
-          "textDa": "God eftermiddag, er der stadig pastel de nata?",
-          "grammarDa": "Há bruges om der er."
+          "textPt": "Entro na pastelaria e começo por pastel de nata, porque isso faz parte da história de hoje.",
+          "textDa": "Jeg går ind på cafeen og begynder med pastel de nata, fordi det hører til dagens historie.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
         },
         {
           "speaker": "B",
-          "textPt": "A empregada confirma que sim, mas recomenda pedir sem canela.",
-          "textDa": "tjeneren bekræfter ja, men anbefaler at bede om uden kanel.",
-          "grammarDa": "Recomenda + infinitiv."
+          "textPt": "A pessoa responsável mostra pastel de nata e explica o passo seguinte.",
+          "textDa": "Den ansvarlige viser pastel de nata og forklarer næste trin.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
         },
         {
           "speaker": "A",
-          "textPt": "Parece uma boa ideia para pastel de nata; nós estamos com pouco tempo.",
-          "textDa": "Det lyder som en god idé til pastel de nata; vi har ikke meget tid.",
-          "grammarDa": "Nós giver variation."
+          "textPt": "Onde posso encontrar pastel de nata?",
+          "textDa": "Hvor kan jeg finde pastel de nata?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
         },
         {
           "speaker": "B",
-          "textPt": "Querem consumir pastel de nata aqui ou levar?",
-          "textDa": "Vil I spise/drikke pastel de nata her eller tage det med?",
-          "grammarDa": "Querem er vocês-form."
+          "textPt": "O detalhe importante sobre pastel de nata está escrito no aviso pequeno.",
+          "textDa": "Den vigtige detalje om pastel de nata står på det lille skilt.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
         },
         {
           "speaker": "A",
-          "textPt": "Duas pessoas ficam aqui com pastel de nata, e a senhora leva o dela.",
-          "textDa": "To personer bliver her med pastel de nata, og damen tager sit med.",
-          "grammarDa": "Ficam og leva har forskellige subjekter."
+          "textPt": "Tenho a informação sobre pastel de nata guardada nas minhas notas.",
+          "textDa": "Jeg har informationen om pastel de nata gemt i mine noter.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
         },
         {
           "speaker": "B",
-          "textPt": "Ontem houve confusão com pastel de nata e pedidos parecidos, por isso confirmo tudo.",
-          "textDa": "I går var der forvirring med pastel de nata og lignende bestillinger, så jeg bekræfter alt.",
-          "grammarDa": "Houve er datid."
+          "textPt": "Pastel de nata está disponível neste momento e pertence ao contexto da pastelaria.",
+          "textDa": "Pastel de nata er tilgængelig lige nu og hører til cafeen og konditoriet.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
         },
         {
           "speaker": "A",
-          "textPt": "Claro, convém confirmar pastel de nata antes de preparar.",
-          "textDa": "Selvfølgelig, det er bedst at bekræfte pastel de nata før tilberedning.",
-          "grammarDa": "Convém + infinitiv."
+          "textPt": "Ontem escolhi pastel de nata e percebi melhor a situação.",
+          "textDa": "I går arbejdede jeg med pastel de nata og forstod situationen bedre.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
         },
         {
           "speaker": "B",
-          "textPt": "A conta de pastel de nata pode ser separada se avisarem no fim.",
-          "textDa": "Regningen for pastel de nata kan deles, hvis I siger til til sidst.",
-          "grammarDa": "Pode ser er passiv-lignende."
+          "textPt": "A explicação sobre pastel de nata é útil porque a situação é concreta.",
+          "textDa": "Forklaringen om pastel de nata er nyttig, fordi situationen er konkret.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
         },
         {
           "speaker": "A",
-          "textPt": "Então pagamos primeiro pastel de nata e depois o resto.",
-          "textDa": "Så betaler vi først pastel de nata og derefter resten.",
-          "grammarDa": "Pagamos er nós-form."
+          "textPt": "Escolho pastel de nata ao balcão dos bolos e sigo para a próxima cena.",
+          "textDa": "Jeg arbejder med pastel de nata ved kagedisken og går videre til næste scene.",
+          "grammarDa": "Escolher viser handlingen i scenen."
         },
         {
           "speaker": "B",
-          "textPt": "Perfeito; levo já pastel de nata para a mesa.",
-          "textDa": "Perfekt; jeg tager straks pastel de nata til bordet.",
-          "grammarDa": "Levo já er praktisk caféudtryk."
+          "textPt": "Depois de resolver pastel de nata, sigo para a próxima parte da história.",
+          "textDa": "Efter at have fået pastel de nata på plads går jeg videre til næste del af historien.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
         }
       ],
       "vocabulary": [
@@ -249,1763 +342,1657 @@
           "textDa": "pastel de nata"
         },
         {
-          "textPt": "sem canela",
-          "textDa": "uden kanel"
+          "textPt": "pastelaria",
+          "textDa": "Café e pastelaria"
         },
         {
-          "textPt": "a empregada",
-          "textDa": "tjeneren"
+          "textPt": "escolher",
+          "textDa": "at vælge"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "balcão dos bolos",
+          "textDa": "ved kagedisken"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "cena de pastel de nata",
+          "textDa": "scene om pastel de nata"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Café e pastelaria",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "provar",
+          "titleDa": "Escolher i scenen",
+          "explanationDa": "escolher betyder \"at vælge\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "escolher",
+          "verbDa": "at vælge",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "provo"
+              "form": "escolho"
             },
             {
               "subject": "tu (presente)",
-              "form": "provas"
+              "form": "escolhes"
             },
             {
               "subject": "ele/ela/você (presente)",
-              "form": "prova"
+              "form": "escolhe"
             },
             {
               "subject": "nós (presente)",
-              "form": "provamos"
+              "form": "escolhemos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "provam"
+              "form": "escolhem"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "provam"
+              "form": "escolhem"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "provei"
+              "form": "escolhi"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "provaste"
+              "form": "escolheste"
             },
             {
               "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "provou"
+              "form": "escolheu"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "provámos"
+              "form": "escolhemos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "provaram"
+              "form": "escolheram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "provaram"
+              "form": "escolheram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje nós provamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Escolho pastel de nata ao balcão dos bolos.",
+              "da": "Jeg arbejder med pastel de nata ved kagedisken."
             },
             {
-              "pt": "Ontem a funcionária provou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "Ontem escolhi pastel de nata.",
+              "da": "I går arbejdede jeg med pastel de nata."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "wrong": "Ontem eu escolho.",
+              "correct": "Ontem escolhi.",
+              "noteDa": "Efter ontem bruges normalt datid, når handlingen er afsluttet."
             }
-          ],
-          "verbDa": "at smage / prøve"
+          ]
         }
       ]
     },
     {
       "id": 3,
-      "titleDa": "Sidde udenfor",
-      "objectiveDa": "Træn en realistisk mini-dialog om sidde udenfor.",
+      "titleDa": "Perguntar ingredientes",
+      "objectiveDa": "Brug ingredienser i en konkret scene om Café e pastelaria.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Boa tarde, ainda há mesa na esplanada?",
-          "textDa": "God eftermiddag, er der stadig bord udenfor?",
-          "grammarDa": "Há bruges om der er."
+          "textPt": "Entro na pastelaria e começo por ingredientes, porque isso faz parte da história de hoje.",
+          "textDa": "Jeg går ind på cafeen og begynder med ingredienser, fordi det hører til dagens historie.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
         },
         {
           "speaker": "B",
-          "textPt": "O cliente confirma que sim, mas recomenda pedir à sombra.",
-          "textDa": "kunden bekræfter ja, men anbefaler at bede om i skyggen.",
-          "grammarDa": "Recomenda + infinitiv."
+          "textPt": "A pessoa responsável mostra ingredientes e explica o passo seguinte.",
+          "textDa": "Den ansvarlige viser ingredienser og forklarer næste trin.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
         },
         {
           "speaker": "A",
-          "textPt": "Parece uma boa ideia para mesa na esplanada; nós estamos com pouco tempo.",
-          "textDa": "Det lyder som en god idé til bord udenfor; vi har ikke meget tid.",
-          "grammarDa": "Nós giver variation."
+          "textPt": "Onde posso encontrar ingredientes?",
+          "textDa": "Hvor kan jeg finde ingredienser?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
         },
         {
           "speaker": "B",
-          "textPt": "Querem consumir mesa na esplanada aqui ou levar?",
-          "textDa": "Vil I spise/drikke bord udenfor her eller tage det med?",
-          "grammarDa": "Querem er vocês-form."
+          "textPt": "O detalhe importante sobre ingredientes está escrito no aviso pequeno.",
+          "textDa": "Den vigtige detalje om ingredienser står på det lille skilt.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
         },
         {
           "speaker": "A",
-          "textPt": "Duas pessoas ficam aqui com mesa na esplanada, e a senhora leva o dela.",
-          "textDa": "To personer bliver her med bord udenfor, og damen tager sit med.",
-          "grammarDa": "Ficam og leva har forskellige subjekter."
+          "textPt": "Tenho a informação sobre ingredientes guardada nas minhas notas.",
+          "textDa": "Jeg har informationen om ingredienser gemt i mine noter.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
         },
         {
           "speaker": "B",
-          "textPt": "Ontem houve confusão com mesa na esplanada e pedidos parecidos, por isso confirmo tudo.",
-          "textDa": "I går var der forvirring med bord udenfor og lignende bestillinger, så jeg bekræfter alt.",
-          "grammarDa": "Houve er datid."
+          "textPt": "Ingredientes está disponível neste momento e pertence ao contexto da pastelaria.",
+          "textDa": "Ingredienser er tilgængelig lige nu og hører til cafeen og konditoriet.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
         },
         {
           "speaker": "A",
-          "textPt": "Claro, convém confirmar mesa na esplanada antes de preparar.",
-          "textDa": "Selvfølgelig, det er bedst at bekræfte bord udenfor før tilberedning.",
-          "grammarDa": "Convém + infinitiv."
+          "textPt": "Há pouco perguntei ingredientes e percebi melhor a situação.",
+          "textDa": "For lidt siden arbejdede jeg med ingredienser og forstod situationen bedre.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
         },
         {
           "speaker": "B",
-          "textPt": "A conta de mesa na esplanada pode ser separada se avisarem no fim.",
-          "textDa": "Regningen for bord udenfor kan deles, hvis I siger til til sidst.",
-          "grammarDa": "Pode ser er passiv-lignende."
+          "textPt": "A explicação sobre ingredientes é útil porque a situação é concreta.",
+          "textDa": "Forklaringen om ingredienser er nyttig, fordi situationen er konkret.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
         },
         {
           "speaker": "A",
-          "textPt": "Então pagamos primeiro mesa na esplanada e depois o resto.",
-          "textDa": "Så betaler vi først bord udenfor og derefter resten.",
-          "grammarDa": "Pagamos er nós-form."
+          "textPt": "Pergunto ingredientes junto à vitrina e sigo para a próxima cena.",
+          "textDa": "Jeg arbejder med ingredienser ved montren og går videre til næste scene.",
+          "grammarDa": "Perguntar viser handlingen i scenen."
         },
         {
           "speaker": "B",
-          "textPt": "Perfeito; levo já mesa na esplanada para a mesa.",
-          "textDa": "Perfekt; jeg tager straks bord udenfor til bordet.",
-          "grammarDa": "Levo já er praktisk caféudtryk."
+          "textPt": "Depois de resolver ingredientes, sigo para a próxima parte da história.",
+          "textDa": "Efter at have fået ingredienser på plads går jeg videre til næste del af historien.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "mesa na esplanada",
-          "textDa": "bord udenfor"
+          "textPt": "ingredientes",
+          "textDa": "ingredienser"
         },
         {
-          "textPt": "à sombra",
-          "textDa": "i skyggen"
+          "textPt": "pastelaria",
+          "textDa": "Café e pastelaria"
         },
         {
-          "textPt": "o cliente",
-          "textDa": "kunden"
+          "textPt": "perguntar",
+          "textDa": "at spørge"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "junto à vitrina",
+          "textDa": "ved montren"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "perguntar ingredientes",
+          "textDa": "Perguntar ingredientes"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Café e pastelaria",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "provar",
+          "titleDa": "Perguntar i scenen",
+          "explanationDa": "perguntar betyder \"at spørge\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "perguntar",
+          "verbDa": "at spørge",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "provo"
+              "form": "pergunto"
             },
             {
               "subject": "tu (presente)",
-              "form": "provas"
+              "form": "perguntas"
             },
             {
               "subject": "ele/ela/você (presente)",
-              "form": "prova"
+              "form": "pergunta"
             },
             {
               "subject": "nós (presente)",
-              "form": "provamos"
+              "form": "perguntamos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "provam"
+              "form": "perguntam"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "provam"
+              "form": "perguntam"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "provei"
+              "form": "perguntei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "provaste"
+              "form": "perguntaste"
             },
             {
               "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "provou"
+              "form": "perguntou"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "provámos"
+              "form": "perguntamos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "provaram"
+              "form": "perguntaram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "provaram"
+              "form": "perguntaram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje nós provamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Pergunto ingredientes junto à vitrina.",
+              "da": "Jeg arbejder med ingredienser ved montren."
             },
             {
-              "pt": "Ontem a funcionária provou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "Há pouco perguntei ingredientes.",
+              "da": "For lidt siden arbejdede jeg med ingredienser."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "wrong": "Ontem eu pergunto.",
+              "correct": "Há pouco perguntei.",
+              "noteDa": "Efter há pouco bruges normalt datid, når handlingen er afsluttet."
             }
-          ],
-          "verbDa": "at smage / prøve"
+          ]
         }
       ]
     },
     {
       "id": 4,
-      "titleDa": "Regning",
-      "objectiveDa": "Træn en realistisk mini-dialog om regning.",
+      "titleDa": "Pedir galão",
+      "objectiveDa": "Brug kaffe med mælk i en konkret scene om Café e pastelaria.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Boa tarde, ainda há conta separada?",
-          "textDa": "God eftermiddag, er der stadig separat regning?",
-          "grammarDa": "Há bruges om der er."
+          "textPt": "Entro na pastelaria e começo por galão, porque isso faz parte da história de hoje.",
+          "textDa": "Jeg går ind på cafeen og begynder med kaffe med mælk, fordi det hører til dagens historie.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
         },
         {
           "speaker": "B",
-          "textPt": "A senhora confirma que sim, mas recomenda pedir com cartão.",
-          "textDa": "damen bekræfter ja, men anbefaler at bede om med kort.",
-          "grammarDa": "Recomenda + infinitiv."
+          "textPt": "A pessoa responsável mostra galão e explica o passo seguinte.",
+          "textDa": "Den ansvarlige viser kaffe med mælk og forklarer næste trin.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
         },
         {
           "speaker": "A",
-          "textPt": "Parece uma boa ideia para conta separada; nós estamos com pouco tempo.",
-          "textDa": "Det lyder som en god idé til separat regning; vi har ikke meget tid.",
-          "grammarDa": "Nós giver variation."
+          "textPt": "Onde posso encontrar galão?",
+          "textDa": "Hvor kan jeg finde kaffe med mælk?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
         },
         {
           "speaker": "B",
-          "textPt": "Querem consumir conta separada aqui ou levar?",
-          "textDa": "Vil I spise/drikke separat regning her eller tage det med?",
-          "grammarDa": "Querem er vocês-form."
+          "textPt": "O detalhe importante sobre galão está escrito no aviso pequeno.",
+          "textDa": "Den vigtige detalje om kaffe med mælk står på det lille skilt.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
         },
         {
           "speaker": "A",
-          "textPt": "Duas pessoas ficam aqui com conta separada, e a senhora leva o dela.",
-          "textDa": "To personer bliver her med separat regning, og damen tager sit med.",
-          "grammarDa": "Ficam og leva har forskellige subjekter."
+          "textPt": "Tenho a informação sobre galão guardada nas minhas notas.",
+          "textDa": "Jeg har informationen om kaffe med mælk gemt i mine noter.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
         },
         {
           "speaker": "B",
-          "textPt": "Ontem houve confusão com conta separada e pedidos parecidos, por isso confirmo tudo.",
-          "textDa": "I går var der forvirring med separat regning og lignende bestillinger, så jeg bekræfter alt.",
-          "grammarDa": "Houve er datid."
+          "textPt": "Galão está disponível neste momento e pertence ao contexto da pastelaria.",
+          "textDa": "Kaffe med mælk er tilgængelig lige nu og hører til cafeen og konditoriet.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
         },
         {
           "speaker": "A",
-          "textPt": "Claro, convém confirmar conta separada antes de preparar.",
-          "textDa": "Selvfølgelig, det er bedst at bekræfte separat regning før tilberedning.",
-          "grammarDa": "Convém + infinitiv."
+          "textPt": "Esta manhã pedi galão e percebi melhor a situação.",
+          "textDa": "Esta manhã arbejdede jeg med kaffe med mælk og forstod situationen bedre.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
         },
         {
           "speaker": "B",
-          "textPt": "A conta de conta separada pode ser separada se avisarem no fim.",
-          "textDa": "Regningen for separat regning kan deles, hvis I siger til til sidst.",
-          "grammarDa": "Pode ser er passiv-lignende."
+          "textPt": "A explicação sobre galão é útil porque a situação é concreta.",
+          "textDa": "Forklaringen om kaffe med mælk er nyttig, fordi situationen er konkret.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
         },
         {
           "speaker": "A",
-          "textPt": "Então pagamos primeiro conta separada e depois o resto.",
-          "textDa": "Så betaler vi først separat regning og derefter resten.",
-          "grammarDa": "Pagamos er nós-form."
+          "textPt": "Peço galão na mesa pequena e sigo para a próxima cena.",
+          "textDa": "Jeg arbejder med kaffe med mælk ved det lille bord og går videre til næste scene.",
+          "grammarDa": "Pedir viser handlingen i scenen."
         },
         {
           "speaker": "B",
-          "textPt": "Perfeito; levo já conta separada para a mesa.",
-          "textDa": "Perfekt; jeg tager straks separat regning til bordet.",
-          "grammarDa": "Levo já er praktisk caféudtryk."
+          "textPt": "Depois de resolver galão, sigo para a próxima parte da história.",
+          "textDa": "Efter at have fået kaffe med mælk på plads går jeg videre til næste del af historien.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "conta separada",
-          "textDa": "separat regning"
+          "textPt": "galão",
+          "textDa": "kaffe med mælk"
         },
         {
-          "textPt": "com cartão",
-          "textDa": "med kort"
+          "textPt": "pastelaria",
+          "textDa": "Café e pastelaria"
         },
         {
-          "textPt": "a senhora",
-          "textDa": "damen"
+          "textPt": "pedir",
+          "textDa": "at bede om/bestille"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "mesa pequena",
+          "textDa": "ved det lille bord"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "cena de galão",
+          "textDa": "scene om kaffe med mælk"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Café e pastelaria",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "provar",
+          "titleDa": "Pedir i scenen",
+          "explanationDa": "pedir betyder \"at bede om/bestille\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "pedir",
+          "verbDa": "at bede om/bestille",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "provo"
+              "form": "peço"
             },
             {
               "subject": "tu (presente)",
-              "form": "provas"
+              "form": "pedes"
             },
             {
               "subject": "ele/ela/você (presente)",
-              "form": "prova"
+              "form": "pede"
             },
             {
               "subject": "nós (presente)",
-              "form": "provamos"
+              "form": "pedimos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "provam"
+              "form": "pedem"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "provam"
+              "form": "pedem"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "provei"
+              "form": "pedi"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "provaste"
+              "form": "pediste"
             },
             {
               "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "provou"
+              "form": "pediu"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "provámos"
+              "form": "pedimos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "provaram"
+              "form": "pediram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "provaram"
+              "form": "pediram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje nós provamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Peço galão na mesa pequena.",
+              "da": "Jeg arbejder med kaffe med mælk ved det lille bord."
             },
             {
-              "pt": "Ontem a funcionária provou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "Esta manhã pedi galão.",
+              "da": "Her til morgen arbejdede jeg med kaffe med mælk."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "wrong": "Ontem eu peço.",
+              "correct": "Esta manhã pedi.",
+              "noteDa": "Efter esta manhã bruges normalt datid, når handlingen er afsluttet."
             }
-          ],
-          "verbDa": "at smage / prøve"
+          ]
         }
       ]
     },
     {
       "id": 5,
-      "titleDa": "Bestille for flere",
-      "objectiveDa": "Træn en realistisk mini-dialog om bestille for flere.",
+      "titleDa": "Beber bica",
+      "objectiveDa": "Brug espresso i en konkret scene om Café e pastelaria.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Boa tarde, ainda há três cafés e dois sumos?",
-          "textDa": "God eftermiddag, er der stadig tre kaffe og to juice?",
-          "grammarDa": "Há bruges om der er."
+          "textPt": "Entro na pastelaria e começo por bica, porque isso faz parte da história de hoje.",
+          "textDa": "Jeg går ind på cafeen og begynder med espresso, fordi det hører til dagens historie.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
         },
         {
           "speaker": "B",
-          "textPt": "O empregado confirma que sim, mas recomenda pedir para a mesa do fundo.",
-          "textDa": "tjeneren bekræfter ja, men anbefaler at bede om til bordet bagerst.",
-          "grammarDa": "Recomenda + infinitiv."
+          "textPt": "A pessoa responsável mostra bica e explica o passo seguinte.",
+          "textDa": "Den ansvarlige viser espresso og forklarer næste trin.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
         },
         {
           "speaker": "A",
-          "textPt": "Parece uma boa ideia para três cafés e dois sumos; nós estamos com pouco tempo.",
-          "textDa": "Det lyder som en god idé til tre kaffe og to juice; vi har ikke meget tid.",
-          "grammarDa": "Nós giver variation."
+          "textPt": "Onde posso encontrar bica?",
+          "textDa": "Hvor kan jeg finde espresso?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
         },
         {
           "speaker": "B",
-          "textPt": "Querem consumir três cafés e dois sumos aqui ou levar?",
-          "textDa": "Vil I spise/drikke tre kaffe og to juice her eller tage det med?",
-          "grammarDa": "Querem er vocês-form."
+          "textPt": "O detalhe importante sobre bica está escrito no aviso pequeno.",
+          "textDa": "Den vigtige detalje om espresso står på det lille skilt.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
         },
         {
           "speaker": "A",
-          "textPt": "Duas pessoas ficam aqui com três cafés e dois sumos, e a senhora leva o dela.",
-          "textDa": "To personer bliver her med tre kaffe og to juice, og damen tager sit med.",
-          "grammarDa": "Ficam og leva har forskellige subjekter."
+          "textPt": "Tenho a informação sobre bica guardada nas minhas notas.",
+          "textDa": "Jeg har informationen om espresso gemt i mine noter.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
         },
         {
           "speaker": "B",
-          "textPt": "Ontem houve confusão com três cafés e dois sumos e pedidos parecidos, por isso confirmo tudo.",
-          "textDa": "I går var der forvirring med tre kaffe og to juice og lignende bestillinger, så jeg bekræfter alt.",
-          "grammarDa": "Houve er datid."
+          "textPt": "Bica está disponível neste momento e pertence ao contexto da pastelaria.",
+          "textDa": "Espresso er tilgængelig lige nu og hører til cafeen og konditoriet.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
         },
         {
           "speaker": "A",
-          "textPt": "Claro, convém confirmar três cafés e dois sumos antes de preparar.",
-          "textDa": "Selvfølgelig, det er bedst at bekræfte tre kaffe og to juice før tilberedning.",
-          "grammarDa": "Convém + infinitiv."
+          "textPt": "Ontem à tarde bebi bica e percebi melhor a situação.",
+          "textDa": "I går eftermiddags arbejdede jeg med espresso og forstod situationen bedre.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
         },
         {
           "speaker": "B",
-          "textPt": "A conta de três cafés e dois sumos pode ser separada se avisarem no fim.",
-          "textDa": "Regningen for tre kaffe og to juice kan deles, hvis I siger til til sidst.",
-          "grammarDa": "Pode ser er passiv-lignende."
+          "textPt": "A explicação sobre bica é útil porque a situação é concreta.",
+          "textDa": "Forklaringen om espresso er nyttig, fordi situationen er konkret.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
         },
         {
           "speaker": "A",
-          "textPt": "Então pagamos primeiro três cafés e dois sumos e depois o resto.",
-          "textDa": "Så betaler vi først tre kaffe og to juice og derefter resten.",
-          "grammarDa": "Pagamos er nós-form."
+          "textPt": "Bebo bica ao balcão e sigo para a próxima cena.",
+          "textDa": "Jeg arbejder med espresso ved disken og går videre til næste scene.",
+          "grammarDa": "Beber viser handlingen i scenen."
         },
         {
           "speaker": "B",
-          "textPt": "Perfeito; levo já três cafés e dois sumos para a mesa.",
-          "textDa": "Perfekt; jeg tager straks tre kaffe og to juice til bordet.",
-          "grammarDa": "Levo já er praktisk caféudtryk."
+          "textPt": "Depois de resolver bica, sigo para a próxima parte da história.",
+          "textDa": "Efter at have fået espresso på plads går jeg videre til næste del af historien.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "três cafés e dois sumos",
-          "textDa": "tre kaffe og to juice"
+          "textPt": "bica",
+          "textDa": "espresso"
         },
         {
-          "textPt": "para a mesa do fundo",
-          "textDa": "til bordet bagerst"
+          "textPt": "pastelaria",
+          "textDa": "Café e pastelaria"
         },
         {
-          "textPt": "o empregado",
-          "textDa": "tjeneren"
+          "textPt": "beber",
+          "textDa": "at drikke"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "balcão",
+          "textDa": "ved disken"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "beber bica",
+          "textDa": "Beber bica"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Café e pastelaria",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "provar",
+          "titleDa": "Beber i scenen",
+          "explanationDa": "beber betyder \"at drikke\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "beber",
+          "verbDa": "at drikke",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "provo"
+              "form": "bebo"
             },
             {
               "subject": "tu (presente)",
-              "form": "provas"
+              "form": "bebes"
             },
             {
               "subject": "ele/ela/você (presente)",
-              "form": "prova"
+              "form": "bebe"
             },
             {
               "subject": "nós (presente)",
-              "form": "provamos"
+              "form": "bebemos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "provam"
+              "form": "bebem"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "provam"
+              "form": "bebem"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "provei"
+              "form": "bebi"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "provaste"
+              "form": "bebeste"
             },
             {
               "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "provou"
+              "form": "bebeu"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "provámos"
+              "form": "bebemos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "provaram"
+              "form": "beberam"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "provaram"
+              "form": "beberam"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje nós provamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Bebo bica ao balcão.",
+              "da": "Jeg arbejder med espresso ved disken."
             },
             {
-              "pt": "Ontem a funcionária provou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "Ontem à tarde bebi bica.",
+              "da": "Ontem à tarde arbejdede jeg med espresso."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "wrong": "Ontem eu bebo.",
+              "correct": "Ontem à tarde bebi.",
+              "noteDa": "Efter ontem à tarde bruges normalt datid, når handlingen er afsluttet."
             }
-          ],
-          "verbDa": "at smage / prøve"
+          ]
         }
       ]
     },
     {
       "id": 6,
-      "titleDa": "Rette ordre",
-      "objectiveDa": "Træn en realistisk mini-dialog om rette ordre.",
+      "titleDa": "Comprar gelado",
+      "objectiveDa": "Brug jordbæris i en konkret scene om Café e pastelaria.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Boa tarde, ainda há chá em vez de café?",
-          "textDa": "God eftermiddag, er der stadig te i stedet for kaffe?",
-          "grammarDa": "Há bruges om der er."
+          "textPt": "Entro na pastelaria e começo por gelado de morango, porque isso faz parte da história de hoje.",
+          "textDa": "Jeg går ind på cafeen og begynder med jordbæris, fordi det hører til dagens historie.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
         },
         {
           "speaker": "B",
-          "textPt": "A cliente confirma que sim, mas recomenda pedir pedido trocado.",
-          "textDa": "kunden bekræfter ja, men anbefaler at bede om forkert bestilling.",
-          "grammarDa": "Recomenda + infinitiv."
+          "textPt": "A pessoa responsável mostra gelado de morango e explica o passo seguinte.",
+          "textDa": "Den ansvarlige viser jordbæris og forklarer næste trin.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
         },
         {
           "speaker": "A",
-          "textPt": "Parece uma boa ideia para chá em vez de café; nós estamos com pouco tempo.",
-          "textDa": "Det lyder som en god idé til te i stedet for kaffe; vi har ikke meget tid.",
-          "grammarDa": "Nós giver variation."
+          "textPt": "Onde posso encontrar gelado de morango?",
+          "textDa": "Hvor kan jeg finde jordbæris?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
         },
         {
           "speaker": "B",
-          "textPt": "Querem consumir chá em vez de café aqui ou levar?",
-          "textDa": "Vil I spise/drikke te i stedet for kaffe her eller tage det med?",
-          "grammarDa": "Querem er vocês-form."
+          "textPt": "O detalhe importante sobre gelado de morango está escrito no aviso pequeno.",
+          "textDa": "Den vigtige detalje om jordbæris står på det lille skilt.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
         },
         {
           "speaker": "A",
-          "textPt": "Duas pessoas ficam aqui com chá em vez de café, e a senhora leva o dela.",
-          "textDa": "To personer bliver her med te i stedet for kaffe, og damen tager sit med.",
-          "grammarDa": "Ficam og leva har forskellige subjekter."
+          "textPt": "Tenho a informação sobre gelado de morango guardada nas minhas notas.",
+          "textDa": "Jeg har informationen om jordbæris gemt i mine noter.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
         },
         {
           "speaker": "B",
-          "textPt": "Ontem houve confusão com chá em vez de café e pedidos parecidos, por isso confirmo tudo.",
-          "textDa": "I går var der forvirring med te i stedet for kaffe og lignende bestillinger, så jeg bekræfter alt.",
-          "grammarDa": "Houve er datid."
+          "textPt": "Gelado de morango está disponível neste momento e pertence ao contexto da pastelaria.",
+          "textDa": "Jordbæris er tilgængelig lige nu og hører til cafeen og konditoriet.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
         },
         {
           "speaker": "A",
-          "textPt": "Claro, convém confirmar chá em vez de café antes de preparar.",
-          "textDa": "Selvfølgelig, det er bedst at bekræfte te i stedet for kaffe før tilberedning.",
-          "grammarDa": "Convém + infinitiv."
+          "textPt": "No sábado escolhi gelado de morango e percebi melhor a situação.",
+          "textDa": "I lørdags arbejdede jeg med jordbæris og forstod situationen bedre.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
         },
         {
           "speaker": "B",
-          "textPt": "A conta de chá em vez de café pode ser separada se avisarem no fim.",
-          "textDa": "Regningen for te i stedet for kaffe kan deles, hvis I siger til til sidst.",
-          "grammarDa": "Pode ser er passiv-lignende."
+          "textPt": "A explicação sobre gelado de morango é útil porque a situação é concreta.",
+          "textDa": "Forklaringen om jordbæris er nyttig, fordi situationen er konkret.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
         },
         {
           "speaker": "A",
-          "textPt": "Então pagamos primeiro chá em vez de café e depois o resto.",
-          "textDa": "Så betaler vi først te i stedet for kaffe og derefter resten.",
-          "grammarDa": "Pagamos er nós-form."
+          "textPt": "Escolho gelado de morango na arca dos gelados e sigo para a próxima cena.",
+          "textDa": "Jeg arbejder med jordbæris ved isdisken og går videre til næste scene.",
+          "grammarDa": "Escolher viser handlingen i scenen."
         },
         {
           "speaker": "B",
-          "textPt": "Perfeito; levo já chá em vez de café para a mesa.",
-          "textDa": "Perfekt; jeg tager straks te i stedet for kaffe til bordet.",
-          "grammarDa": "Levo já er praktisk caféudtryk."
+          "textPt": "Depois de resolver gelado de morango, sigo para a próxima parte da história.",
+          "textDa": "Efter at have fået jordbæris på plads går jeg videre til næste del af historien.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "chá em vez de café",
-          "textDa": "te i stedet for kaffe"
+          "textPt": "gelado de morango",
+          "textDa": "jordbæris"
         },
         {
-          "textPt": "pedido trocado",
-          "textDa": "forkert bestilling"
+          "textPt": "pastelaria",
+          "textDa": "Café e pastelaria"
         },
         {
-          "textPt": "a cliente",
-          "textDa": "kunden"
+          "textPt": "escolher",
+          "textDa": "at vælge"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "arca dos gelados",
+          "textDa": "ved isdisken"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "cena de gelado de morango",
+          "textDa": "scene om jordbæris"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Café e pastelaria",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "provar",
+          "titleDa": "Escolher i scenen",
+          "explanationDa": "escolher betyder \"at vælge\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "escolher",
+          "verbDa": "at vælge",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "provo"
+              "form": "escolho"
             },
             {
               "subject": "tu (presente)",
-              "form": "provas"
+              "form": "escolhes"
             },
             {
               "subject": "ele/ela/você (presente)",
-              "form": "prova"
+              "form": "escolhe"
             },
             {
               "subject": "nós (presente)",
-              "form": "provamos"
+              "form": "escolhemos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "provam"
+              "form": "escolhem"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "provam"
+              "form": "escolhem"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "provei"
+              "form": "escolhi"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "provaste"
+              "form": "escolheste"
             },
             {
               "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "provou"
+              "form": "escolheu"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "provámos"
+              "form": "escolhemos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "provaram"
+              "form": "escolheram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "provaram"
+              "form": "escolheram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje nós provamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Escolho gelado de morango na arca dos gelados.",
+              "da": "Jeg arbejder med jordbæris ved isdisken."
             },
             {
-              "pt": "Ontem a funcionária provou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "No sábado escolhi gelado de morango.",
+              "da": "No sábado arbejdede jeg med jordbæris."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "wrong": "Ontem eu escolho.",
+              "correct": "No sábado escolhi.",
+              "noteDa": "Efter no sábado bruges normalt datid, når handlingen er afsluttet."
             }
-          ],
-          "verbDa": "at smage / prøve"
+          ]
         }
       ]
     },
     {
       "id": 7,
-      "titleDa": "Mælk i kagen",
-      "objectiveDa": "Træn en realistisk mini-dialog om mælk i kagen.",
+      "titleDa": "Encontrar mesa",
+      "objectiveDa": "Brug ledig plads i en konkret scene om Café e pastelaria.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Boa tarde, ainda há leite na massa?",
-          "textDa": "God eftermiddag, er der stadig mælk i dejen?",
-          "grammarDa": "Há bruges om der er."
+          "textPt": "Entro na pastelaria e começo por mesa livre, porque isso faz parte da história de hoje.",
+          "textDa": "Jeg går ind på cafeen og begynder med ledig plads, fordi det hører til dagens historie.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
         },
         {
           "speaker": "B",
-          "textPt": "O pasteleiro confirma que sim, mas recomenda pedir alergia.",
-          "textDa": "konditoren bekræfter ja, men anbefaler at bede om allergi.",
-          "grammarDa": "Recomenda + infinitiv."
+          "textPt": "A pessoa responsável mostra mesa livre e explica o passo seguinte.",
+          "textDa": "Den ansvarlige viser ledig plads og forklarer næste trin.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
         },
         {
           "speaker": "A",
-          "textPt": "Parece uma boa ideia para leite na massa; nós estamos com pouco tempo.",
-          "textDa": "Det lyder som en god idé til mælk i dejen; vi har ikke meget tid.",
-          "grammarDa": "Nós giver variation."
+          "textPt": "Onde posso encontrar mesa livre?",
+          "textDa": "Hvor kan jeg finde ledig plads?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
         },
         {
           "speaker": "B",
-          "textPt": "Querem consumir leite na massa aqui ou levar?",
-          "textDa": "Vil I spise/drikke mælk i dejen her eller tage det med?",
-          "grammarDa": "Querem er vocês-form."
+          "textPt": "O detalhe importante sobre mesa livre está escrito no aviso pequeno.",
+          "textDa": "Den vigtige detalje om ledig plads står på det lille skilt.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
         },
         {
           "speaker": "A",
-          "textPt": "Duas pessoas ficam aqui com leite na massa, e a senhora leva o dela.",
-          "textDa": "To personer bliver her med mælk i dejen, og damen tager sit med.",
-          "grammarDa": "Ficam og leva har forskellige subjekter."
+          "textPt": "Tenho a informação sobre mesa livre guardada nas minhas notas.",
+          "textDa": "Jeg har informationen om ledig plads gemt i mine noter.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
         },
         {
           "speaker": "B",
-          "textPt": "Ontem houve confusão com leite na massa e pedidos parecidos, por isso confirmo tudo.",
-          "textDa": "I går var der forvirring med mælk i dejen og lignende bestillinger, så jeg bekræfter alt.",
-          "grammarDa": "Houve er datid."
+          "textPt": "Mesa livre está disponível neste momento e pertence ao contexto da pastelaria.",
+          "textDa": "Ledig plads er tilgængelig lige nu og hører til cafeen og konditoriet.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
         },
         {
           "speaker": "A",
-          "textPt": "Claro, convém confirmar leite na massa antes de preparar.",
-          "textDa": "Selvfølgelig, det er bedst at bekræfte mælk i dejen før tilberedning.",
-          "grammarDa": "Convém + infinitiv."
+          "textPt": "Ao meio-dia procurei mesa livre e percebi melhor a situação.",
+          "textDa": "Ved middagstid arbejdede jeg med ledig plads og forstod situationen bedre.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
         },
         {
           "speaker": "B",
-          "textPt": "A conta de leite na massa pode ser separada se avisarem no fim.",
-          "textDa": "Regningen for mælk i dejen kan deles, hvis I siger til til sidst.",
-          "grammarDa": "Pode ser er passiv-lignende."
+          "textPt": "A explicação sobre mesa livre é útil porque a situação é concreta.",
+          "textDa": "Forklaringen om ledig plads er nyttig, fordi situationen er konkret.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
         },
         {
           "speaker": "A",
-          "textPt": "Então pagamos primeiro leite na massa e depois o resto.",
-          "textDa": "Så betaler vi først mælk i dejen og derefter resten.",
-          "grammarDa": "Pagamos er nós-form."
+          "textPt": "Procuro mesa livre na sala de trás e sigo para a próxima cena.",
+          "textDa": "Jeg arbejder med ledig plads i baglokalet og går videre til næste scene.",
+          "grammarDa": "Procurar viser handlingen i scenen."
         },
         {
           "speaker": "B",
-          "textPt": "Perfeito; levo já leite na massa para a mesa.",
-          "textDa": "Perfekt; jeg tager straks mælk i dejen til bordet.",
-          "grammarDa": "Levo já er praktisk caféudtryk."
+          "textPt": "Depois de resolver mesa livre, sigo para a próxima parte da história.",
+          "textDa": "Efter at have fået ledig plads på plads går jeg videre til næste del af historien.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "leite na massa",
-          "textDa": "mælk i dejen"
+          "textPt": "mesa livre",
+          "textDa": "ledig plads"
         },
         {
-          "textPt": "alergia",
-          "textDa": "allergi"
+          "textPt": "pastelaria",
+          "textDa": "Café e pastelaria"
         },
         {
-          "textPt": "o pasteleiro",
-          "textDa": "konditoren"
+          "textPt": "procurar",
+          "textDa": "at søge efter"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "sala de trás",
+          "textDa": "i baglokalet"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "encontrar mesa",
+          "textDa": "Encontrar mesa"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Café e pastelaria",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "provar",
+          "titleDa": "Procurar i scenen",
+          "explanationDa": "procurar betyder \"at søge efter\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "procurar",
+          "verbDa": "at søge efter",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "provo"
+              "form": "procuro"
             },
             {
               "subject": "tu (presente)",
-              "form": "provas"
+              "form": "procuras"
             },
             {
               "subject": "ele/ela/você (presente)",
-              "form": "prova"
+              "form": "procura"
             },
             {
               "subject": "nós (presente)",
-              "form": "provamos"
+              "form": "procuramos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "provam"
+              "form": "procuram"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "provam"
+              "form": "procuram"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "provei"
+              "form": "procurei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "provaste"
+              "form": "procuraste"
             },
             {
               "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "provou"
+              "form": "procurou"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "provámos"
+              "form": "procuramos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "provaram"
+              "form": "procuraram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "provaram"
+              "form": "procuraram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje nós provamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Procuro mesa livre na sala de trás.",
+              "da": "Jeg arbejder med ledig plads i baglokalet."
             },
             {
-              "pt": "Ontem a funcionária provou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "Ao meio-dia procurei mesa livre.",
+              "da": "Ao meio-dia arbejdede jeg med ledig plads."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "wrong": "Ontem eu procuro.",
+              "correct": "Ao meio-dia procurei.",
+              "noteDa": "Efter ao meio-dia bruges normalt datid, når handlingen er afsluttet."
             }
-          ],
-          "verbDa": "at smage / prøve"
+          ]
         }
       ]
     },
     {
       "id": 8,
-      "titleDa": "Takeaway",
-      "objectiveDa": "Træn en realistisk mini-dialog om takeaway.",
+      "titleDa": "Pagar com cartão",
+      "objectiveDa": "Brug kortbetaling i en konkret scene om Café e pastelaria.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Boa tarde, ainda há café para levar?",
-          "textDa": "God eftermiddag, er der stadig kaffe to go?",
-          "grammarDa": "Há bruges om der er."
+          "textPt": "Entro na pastelaria e começo por pagamento com cartão, porque isso faz parte da história de hoje.",
+          "textDa": "Jeg går ind på cafeen og begynder med kortbetaling, fordi det hører til dagens historie.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
         },
         {
           "speaker": "B",
-          "textPt": "A funcionária confirma que sim, mas recomenda pedir copo com tampa.",
-          "textDa": "medarbejderen bekræfter ja, men anbefaler at bede om kop med låg.",
-          "grammarDa": "Recomenda + infinitiv."
+          "textPt": "A pessoa responsável mostra pagamento com cartão e explica o passo seguinte.",
+          "textDa": "Den ansvarlige viser kortbetaling og forklarer næste trin.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
         },
         {
           "speaker": "A",
-          "textPt": "Parece uma boa ideia para café para levar; nós estamos com pouco tempo.",
-          "textDa": "Det lyder som en god idé til kaffe to go; vi har ikke meget tid.",
-          "grammarDa": "Nós giver variation."
+          "textPt": "Onde posso encontrar pagamento com cartão?",
+          "textDa": "Hvor kan jeg finde kortbetaling?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
         },
         {
           "speaker": "B",
-          "textPt": "Querem consumir café para levar aqui ou levar?",
-          "textDa": "Vil I spise/drikke kaffe to go her eller tage det med?",
-          "grammarDa": "Querem er vocês-form."
+          "textPt": "O detalhe importante sobre pagamento com cartão está escrito no aviso pequeno.",
+          "textDa": "Den vigtige detalje om kortbetaling står på det lille skilt.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
         },
         {
           "speaker": "A",
-          "textPt": "Duas pessoas ficam aqui com café para levar, e a senhora leva o dela.",
-          "textDa": "To personer bliver her med kaffe to go, og damen tager sit med.",
-          "grammarDa": "Ficam og leva har forskellige subjekter."
+          "textPt": "Tenho a informação sobre pagamento com cartão guardada nas minhas notas.",
+          "textDa": "Jeg har informationen om kortbetaling gemt i mine noter.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
         },
         {
           "speaker": "B",
-          "textPt": "Ontem houve confusão com café para levar e pedidos parecidos, por isso confirmo tudo.",
-          "textDa": "I går var der forvirring med kaffe to go og lignende bestillinger, så jeg bekræfter alt.",
-          "grammarDa": "Houve er datid."
+          "textPt": "Pagamento com cartão está disponível neste momento e pertence ao contexto da pastelaria.",
+          "textDa": "Kortbetaling er tilgængelig lige nu og hører til cafeen og konditoriet.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
         },
         {
           "speaker": "A",
-          "textPt": "Claro, convém confirmar café para levar antes de preparar.",
-          "textDa": "Selvfølgelig, det er bedst at bekræfte kaffe to go før tilberedning.",
-          "grammarDa": "Convém + infinitiv."
+          "textPt": "Há cinco minutos paguei pagamento com cartão e percebi melhor a situação.",
+          "textDa": "Há cinco minutos arbejdede jeg med kortbetaling og forstod situationen bedre.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
         },
         {
           "speaker": "B",
-          "textPt": "A conta de café para levar pode ser separada se avisarem no fim.",
-          "textDa": "Regningen for kaffe to go kan deles, hvis I siger til til sidst.",
-          "grammarDa": "Pode ser er passiv-lignende."
+          "textPt": "A explicação sobre pagamento com cartão é útil porque a situação é concreta.",
+          "textDa": "Forklaringen om kortbetaling er nyttig, fordi situationen er konkret.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
         },
         {
           "speaker": "A",
-          "textPt": "Então pagamos primeiro café para levar e depois o resto.",
-          "textDa": "Så betaler vi først kaffe to go og derefter resten.",
-          "grammarDa": "Pagamos er nós-form."
+          "textPt": "Pago pagamento com cartão na caixa e sigo para a próxima cena.",
+          "textDa": "Jeg arbejder med kortbetaling ved kassen og går videre til næste scene.",
+          "grammarDa": "Pagar viser handlingen i scenen."
         },
         {
           "speaker": "B",
-          "textPt": "Perfeito; levo já café para levar para a mesa.",
-          "textDa": "Perfekt; jeg tager straks kaffe to go til bordet.",
-          "grammarDa": "Levo já er praktisk caféudtryk."
+          "textPt": "Depois de resolver pagamento com cartão, sigo para a próxima parte da história.",
+          "textDa": "Efter at have fået kortbetaling på plads går jeg videre til næste del af historien.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "café para levar",
-          "textDa": "kaffe to go"
+          "textPt": "pagamento com cartão",
+          "textDa": "kortbetaling"
         },
         {
-          "textPt": "copo com tampa",
-          "textDa": "kop med låg"
+          "textPt": "pastelaria",
+          "textDa": "Café e pastelaria"
         },
         {
-          "textPt": "a funcionária",
-          "textDa": "medarbejderen"
+          "textPt": "pagar",
+          "textDa": "at betale"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "caixa",
+          "textDa": "ved kassen"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "cena de pagamento com cartão",
+          "textDa": "scene om kortbetaling"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Café e pastelaria",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "provar",
+          "titleDa": "Pagar i scenen",
+          "explanationDa": "pagar betyder \"at betale\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "pagar",
+          "verbDa": "at betale",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "provo"
+              "form": "pago"
             },
             {
               "subject": "tu (presente)",
-              "form": "provas"
+              "form": "pagas"
             },
             {
               "subject": "ele/ela/você (presente)",
-              "form": "prova"
+              "form": "paga"
             },
             {
               "subject": "nós (presente)",
-              "form": "provamos"
+              "form": "pagamos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "provam"
+              "form": "pagam"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "provam"
+              "form": "pagam"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "provei"
+              "form": "paguei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "provaste"
+              "form": "pagaste"
             },
             {
               "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "provou"
+              "form": "pagou"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "provámos"
+              "form": "pagamos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "provaram"
+              "form": "pagaram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "provaram"
+              "form": "pagaram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje nós provamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Pago pagamento com cartão na caixa.",
+              "da": "Jeg arbejder med kortbetaling ved kassen."
             },
             {
-              "pt": "Ontem a funcionária provou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "Há cinco minutos paguei pagamento com cartão.",
+              "da": "Há cinco minutos arbejdede jeg med kortbetaling."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "wrong": "Ontem eu pago.",
+              "correct": "Há cinco minutos paguei.",
+              "noteDa": "Efter há cinco minutos bruges normalt datid, når handlingen er afsluttet."
             }
-          ],
-          "verbDa": "at smage / prøve"
+          ]
         }
       ]
     },
     {
       "id": 9,
-      "titleDa": "Anbefaling",
-      "objectiveDa": "Træn en realistisk mini-dialog om anbefaling.",
+      "titleDa": "Entender euros",
+      "objectiveDa": "Brug euro og cent i en konkret scene om Café e pastelaria.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Boa tarde, ainda há bolo da casa?",
-          "textDa": "God eftermiddag, er der stadig husets kage?",
-          "grammarDa": "Há bruges om der er."
+          "textPt": "Entro na pastelaria e começo por euros e cêntimos, porque isso faz parte da história de hoje.",
+          "textDa": "Jeg går ind på cafeen og begynder med euro og cent, fordi det hører til dagens historie.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
         },
         {
           "speaker": "B",
-          "textPt": "O empregado confirma que sim, mas recomenda pedir acabou de sair.",
-          "textDa": "tjeneren bekræfter ja, men anbefaler at bede om lige kommet ud.",
-          "grammarDa": "Recomenda + infinitiv."
+          "textPt": "A pessoa responsável mostra euros e cêntimos e explica o passo seguinte.",
+          "textDa": "Den ansvarlige viser euro og cent og forklarer næste trin.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
         },
         {
           "speaker": "A",
-          "textPt": "Parece uma boa ideia para bolo da casa; nós estamos com pouco tempo.",
-          "textDa": "Det lyder som en god idé til husets kage; vi har ikke meget tid.",
-          "grammarDa": "Nós giver variation."
+          "textPt": "Onde posso encontrar euros e cêntimos?",
+          "textDa": "Hvor kan jeg finde euro og cent?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
         },
         {
           "speaker": "B",
-          "textPt": "Querem consumir bolo da casa aqui ou levar?",
-          "textDa": "Vil I spise/drikke husets kage her eller tage det med?",
-          "grammarDa": "Querem er vocês-form."
+          "textPt": "O detalhe importante sobre euros e cêntimos está escrito no aviso pequeno.",
+          "textDa": "Den vigtige detalje om euro og cent står på det lille skilt.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
         },
         {
           "speaker": "A",
-          "textPt": "Duas pessoas ficam aqui com bolo da casa, e a senhora leva o dela.",
-          "textDa": "To personer bliver her med husets kage, og damen tager sit med.",
-          "grammarDa": "Ficam og leva har forskellige subjekter."
+          "textPt": "Tenho a informação sobre euros e cêntimos guardada nas minhas notas.",
+          "textDa": "Jeg har informationen om euro og cent gemt i mine noter.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
         },
         {
           "speaker": "B",
-          "textPt": "Ontem houve confusão com bolo da casa e pedidos parecidos, por isso confirmo tudo.",
-          "textDa": "I går var der forvirring med husets kage og lignende bestillinger, så jeg bekræfter alt.",
-          "grammarDa": "Houve er datid."
+          "textPt": "Euros e cêntimos está disponível neste momento e pertence ao contexto da pastelaria.",
+          "textDa": "Euro og cent er tilgængelig lige nu og hører til cafeen og konditoriet.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
         },
         {
           "speaker": "A",
-          "textPt": "Claro, convém confirmar bolo da casa antes de preparar.",
-          "textDa": "Selvfølgelig, det er bedst at bekræfte husets kage før tilberedning.",
-          "grammarDa": "Convém + infinitiv."
+          "textPt": "Ontem confirmei euros e cêntimos e percebi melhor a situação.",
+          "textDa": "I går arbejdede jeg med euro og cent og forstod situationen bedre.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
         },
         {
           "speaker": "B",
-          "textPt": "A conta de bolo da casa pode ser separada se avisarem no fim.",
-          "textDa": "Regningen for husets kage kan deles, hvis I siger til til sidst.",
-          "grammarDa": "Pode ser er passiv-lignende."
+          "textPt": "A explicação sobre euros e cêntimos é útil porque a situação é concreta.",
+          "textDa": "Forklaringen om euro og cent er nyttig, fordi situationen er konkret.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
         },
         {
           "speaker": "A",
-          "textPt": "Então pagamos primeiro bolo da casa e depois o resto.",
-          "textDa": "Så betaler vi først husets kage og derefter resten.",
-          "grammarDa": "Pagamos er nós-form."
+          "textPt": "Confirmo euros e cêntimos no recibo e sigo para a próxima cena.",
+          "textDa": "Jeg arbejder med euro og cent på kvitteringen og går videre til næste scene.",
+          "grammarDa": "Confirmar viser handlingen i scenen."
         },
         {
           "speaker": "B",
-          "textPt": "Perfeito; levo já bolo da casa para a mesa.",
-          "textDa": "Perfekt; jeg tager straks husets kage til bordet.",
-          "grammarDa": "Levo já er praktisk caféudtryk."
+          "textPt": "Depois de resolver euros e cêntimos, sigo para a próxima parte da história.",
+          "textDa": "Efter at have fået euro og cent på plads går jeg videre til næste del af historien.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "bolo da casa",
-          "textDa": "husets kage"
+          "textPt": "euros e cêntimos",
+          "textDa": "euro og cent"
         },
         {
-          "textPt": "acabou de sair",
-          "textDa": "lige kommet ud"
-        },
-        {
-          "textPt": "o empregado",
-          "textDa": "tjeneren"
+          "textPt": "pastelaria",
+          "textDa": "Café e pastelaria"
         },
         {
           "textPt": "confirmar",
           "textDa": "at bekræfte"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "recibo",
+          "textDa": "på kvitteringen"
+        },
+        {
+          "textPt": "entender euros",
+          "textDa": "Entender euros"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Café e pastelaria",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "provar",
+          "titleDa": "Confirmar i scenen",
+          "explanationDa": "confirmar betyder \"at bekræfte\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "confirmar",
+          "verbDa": "at bekræfte",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "provo"
+              "form": "confirmo"
             },
             {
               "subject": "tu (presente)",
-              "form": "provas"
+              "form": "confirmas"
             },
             {
               "subject": "ele/ela/você (presente)",
-              "form": "prova"
+              "form": "confirma"
             },
             {
               "subject": "nós (presente)",
-              "form": "provamos"
+              "form": "confirmamos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "provam"
+              "form": "confirmam"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "provam"
+              "form": "confirmam"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "provei"
+              "form": "confirmei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "provaste"
+              "form": "confirmaste"
             },
             {
               "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "provou"
+              "form": "confirmou"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "provámos"
+              "form": "confirmamos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "provaram"
+              "form": "confirmaram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "provaram"
+              "form": "confirmaram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje nós provamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Confirmo euros e cêntimos no recibo.",
+              "da": "Jeg arbejder med euro og cent på kvitteringen."
             },
             {
-              "pt": "Ontem a funcionária provou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "Ontem confirmei euros e cêntimos.",
+              "da": "I går arbejdede jeg med euro og cent."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "wrong": "Ontem eu confirmo.",
+              "correct": "Ontem confirmei.",
+              "noteDa": "Efter ontem bruges normalt datid, når handlingen er afsluttet."
             }
-          ],
-          "verbDa": "at smage / prøve"
+          ]
         }
       ]
     },
     {
       "id": 10,
-      "titleDa": "Betale separat",
-      "objectiveDa": "Træn en realistisk mini-dialog om betale separat.",
+      "titleDa": "Sem glúten e fecho",
+      "objectiveDa": "Brug glutenfri mulighed i en konkret scene om Café e pastelaria.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Boa tarde, ainda há pagamento separado?",
-          "textDa": "God eftermiddag, er der stadig separat betaling?",
-          "grammarDa": "Há bruges om der er."
+          "textPt": "Entro na pastelaria e começo por opção sem glúten, porque isso faz parte da história de hoje.",
+          "textDa": "Jeg går ind på cafeen og begynder med glutenfri mulighed, fordi det hører til dagens historie.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
         },
         {
           "speaker": "B",
-          "textPt": "Os amigos confirma que sim, mas recomenda pedir dividir a conta.",
-          "textDa": "vennerne bekræfter ja, men anbefaler at bede om dele regningen.",
-          "grammarDa": "Recomenda + infinitiv."
+          "textPt": "A pessoa responsável mostra opção sem glúten e explica o passo seguinte.",
+          "textDa": "Den ansvarlige viser glutenfri mulighed og forklarer næste trin.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
         },
         {
           "speaker": "A",
-          "textPt": "Parece uma boa ideia para pagamento separado; nós estamos com pouco tempo.",
-          "textDa": "Det lyder som en god idé til separat betaling; vi har ikke meget tid.",
-          "grammarDa": "Nós giver variation."
+          "textPt": "Onde posso encontrar opção sem glúten?",
+          "textDa": "Hvor kan jeg finde glutenfri mulighed?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
         },
         {
           "speaker": "B",
-          "textPt": "Querem consumir pagamento separado aqui ou levar?",
-          "textDa": "Vil I spise/drikke separat betaling her eller tage det med?",
-          "grammarDa": "Querem er vocês-form."
+          "textPt": "O detalhe importante sobre opção sem glúten está escrito no aviso pequeno.",
+          "textDa": "Den vigtige detalje om glutenfri mulighed står på det lille skilt.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
         },
         {
           "speaker": "A",
-          "textPt": "Duas pessoas ficam aqui com pagamento separado, e a senhora leva o dela.",
-          "textDa": "To personer bliver her med separat betaling, og damen tager sit med.",
-          "grammarDa": "Ficam og leva har forskellige subjekter."
+          "textPt": "Tenho a informação sobre opção sem glúten guardada nas minhas notas.",
+          "textDa": "Jeg har informationen om glutenfri mulighed gemt i mine noter.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
         },
         {
           "speaker": "B",
-          "textPt": "Ontem houve confusão com pagamento separado e pedidos parecidos, por isso confirmo tudo.",
-          "textDa": "I går var der forvirring med separat betaling og lignende bestillinger, så jeg bekræfter alt.",
-          "grammarDa": "Houve er datid."
+          "textPt": "Opção sem glúten está disponível neste momento e pertence ao contexto da pastelaria.",
+          "textDa": "Glutenfri mulighed er tilgængelig lige nu og hører til cafeen og konditoriet.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
         },
         {
           "speaker": "A",
-          "textPt": "Claro, convém confirmar pagamento separado antes de preparar.",
-          "textDa": "Selvfølgelig, det er bedst at bekræfte separat betaling før tilberedning.",
-          "grammarDa": "Convém + infinitiv."
+          "textPt": "Ao fim da tarde perguntei opção sem glúten e percebi melhor a situação.",
+          "textDa": "Ao fim da tarde arbejdede jeg med glutenfri mulighed og forstod situationen bedre.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
         },
         {
           "speaker": "B",
-          "textPt": "A conta de pagamento separado pode ser separada se avisarem no fim.",
-          "textDa": "Regningen for separat betaling kan deles, hvis I siger til til sidst.",
-          "grammarDa": "Pode ser er passiv-lignende."
+          "textPt": "A explicação sobre opção sem glúten é útil porque a situação é concreta.",
+          "textDa": "Forklaringen om glutenfri mulighed er nyttig, fordi situationen er konkret.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
         },
         {
           "speaker": "A",
-          "textPt": "Então pagamos primeiro pagamento separado e depois o resto.",
-          "textDa": "Så betaler vi først separat betaling og derefter resten.",
-          "grammarDa": "Pagamos er nós-form."
+          "textPt": "Pergunto opção sem glúten perto da porta e sigo para a próxima cena.",
+          "textDa": "Jeg arbejder med glutenfri mulighed ved døren og går videre til næste scene.",
+          "grammarDa": "Perguntar viser handlingen i scenen."
         },
         {
           "speaker": "B",
-          "textPt": "Perfeito; levo já pagamento separado para a mesa.",
-          "textDa": "Perfekt; jeg tager straks separat betaling til bordet.",
-          "grammarDa": "Levo já er praktisk caféudtryk."
+          "textPt": "Depois de resolver opção sem glúten, sigo para a próxima parte da história.",
+          "textDa": "Efter at have fået glutenfri mulighed på plads går jeg videre til næste del af historien.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "pagamento separado",
-          "textDa": "separat betaling"
+          "textPt": "opção sem glúten",
+          "textDa": "glutenfri mulighed"
         },
         {
-          "textPt": "dividir a conta",
-          "textDa": "dele regningen"
+          "textPt": "pastelaria",
+          "textDa": "Café e pastelaria"
         },
         {
-          "textPt": "os amigos",
-          "textDa": "vennerne"
+          "textPt": "perguntar",
+          "textDa": "at spørge"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "perto da porta",
+          "textDa": "ved døren"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "sem glúten e fecho",
+          "textDa": "Sem glúten e fecho"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Café e pastelaria",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "provar",
+          "titleDa": "Perguntar i scenen",
+          "explanationDa": "perguntar betyder \"at spørge\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "perguntar",
+          "verbDa": "at spørge",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "provo"
+              "form": "pergunto"
             },
             {
               "subject": "tu (presente)",
-              "form": "provas"
+              "form": "perguntas"
             },
             {
               "subject": "ele/ela/você (presente)",
-              "form": "prova"
+              "form": "pergunta"
             },
             {
               "subject": "nós (presente)",
-              "form": "provamos"
+              "form": "perguntamos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "provam"
+              "form": "perguntam"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "provam"
+              "form": "perguntam"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "provei"
+              "form": "perguntei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "provaste"
+              "form": "perguntaste"
             },
             {
               "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "provou"
+              "form": "perguntou"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "provámos"
+              "form": "perguntamos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "provaram"
+              "form": "perguntaram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "provaram"
+              "form": "perguntaram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje nós provamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Pergunto opção sem glúten perto da porta.",
+              "da": "Jeg arbejder med glutenfri mulighed ved døren."
             },
             {
-              "pt": "Ontem a funcionária provou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "Ao fim da tarde perguntei opção sem glúten.",
+              "da": "Ao fim da tarde arbejdede jeg med glutenfri mulighed."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "wrong": "Ontem eu pergunto.",
+              "correct": "Ao fim da tarde perguntei.",
+              "noteDa": "Efter ao fim da tarde bruges normalt datid, når handlingen er afsluttet."
             }
-          ],
-          "verbDa": "at smage / prøve"
+          ]
         }
       ]
+    }
+  ],
+  "story": [
+    {
+      "speaker": "Fortæller",
+      "textPt": "Na cena 1, entro em contacto com pão fresco na pastelaria.",
+      "textDa": "I scene 1 møder jeg frisk brød på cafeen.",
+      "grammarDa": "Læselinje 1 hænger sammen med dialogen \"Comprar pão\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Pago pão fresco, uso ser, estar e ter naturalmente, e avanço na história.",
+      "textDa": "Jeg arbejder med frisk brød, bruger ser, estar og ter naturligt, og går videre i historien.",
+      "grammarDa": "Læselinje 2 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Na cena 2, entro em contacto com pastel de nata ao balcão dos bolos.",
+      "textDa": "I scene 2 møder jeg pastel de nata ved kagedisken.",
+      "grammarDa": "Læselinje 3 hænger sammen med dialogen \"Escolher pastel\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Escolho pastel de nata, uso ser, estar e ter naturalmente, e avanço na história.",
+      "textDa": "Jeg arbejder med pastel de nata, bruger ser, estar og ter naturligt, og går videre i historien.",
+      "grammarDa": "Læselinje 4 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Na cena 3, entro em contacto com ingredientes junto à vitrina.",
+      "textDa": "I scene 3 møder jeg ingredienser ved montren.",
+      "grammarDa": "Læselinje 5 hænger sammen med dialogen \"Perguntar ingredientes\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Pergunto ingredientes, uso ser, estar e ter naturalmente, e avanço na história.",
+      "textDa": "Jeg arbejder med ingredienser, bruger ser, estar og ter naturligt, og går videre i historien.",
+      "grammarDa": "Læselinje 6 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Na cena 4, entro em contacto com galão na mesa pequena.",
+      "textDa": "I scene 4 møder jeg kaffe med mælk ved det lille bord.",
+      "grammarDa": "Læselinje 7 hænger sammen med dialogen \"Pedir galão\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Peço galão, uso ser, estar e ter naturalmente, e avanço na história.",
+      "textDa": "Jeg arbejder med kaffe med mælk, bruger ser, estar og ter naturligt, og går videre i historien.",
+      "grammarDa": "Læselinje 8 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Na cena 5, entro em contacto com bica ao balcão.",
+      "textDa": "I scene 5 møder jeg espresso ved disken.",
+      "grammarDa": "Læselinje 9 hænger sammen med dialogen \"Beber bica\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Bebo bica, uso ser, estar e ter naturalmente, e avanço na história.",
+      "textDa": "Jeg arbejder med espresso, bruger ser, estar og ter naturligt, og går videre i historien.",
+      "grammarDa": "Læselinje 10 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Na cena 6, entro em contacto com gelado de morango na arca dos gelados.",
+      "textDa": "I scene 6 møder jeg jordbæris ved isdisken.",
+      "grammarDa": "Læselinje 11 hænger sammen med dialogen \"Comprar gelado\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Escolho gelado de morango, uso ser, estar e ter naturalmente, e avanço na história.",
+      "textDa": "Jeg arbejder med jordbæris, bruger ser, estar og ter naturligt, og går videre i historien.",
+      "grammarDa": "Læselinje 12 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Na cena 7, entro em contacto com mesa livre na sala de trás.",
+      "textDa": "I scene 7 møder jeg ledig plads i baglokalet.",
+      "grammarDa": "Læselinje 13 hænger sammen med dialogen \"Encontrar mesa\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Procuro mesa livre, uso ser, estar e ter naturalmente, e avanço na história.",
+      "textDa": "Jeg arbejder med ledig plads, bruger ser, estar og ter naturligt, og går videre i historien.",
+      "grammarDa": "Læselinje 14 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Na cena 8, entro em contacto com pagamento com cartão na caixa.",
+      "textDa": "I scene 8 møder jeg kortbetaling ved kassen.",
+      "grammarDa": "Læselinje 15 hænger sammen med dialogen \"Pagar com cartão\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Pago pagamento com cartão, uso ser, estar e ter naturalmente, e avanço na história.",
+      "textDa": "Jeg arbejder med kortbetaling, bruger ser, estar og ter naturligt, og går videre i historien.",
+      "grammarDa": "Læselinje 16 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Na cena 9, entro em contacto com euros e cêntimos no recibo.",
+      "textDa": "I scene 9 møder jeg euro og cent på kvitteringen.",
+      "grammarDa": "Læselinje 17 hænger sammen med dialogen \"Entender euros\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Confirmo euros e cêntimos, uso ser, estar e ter naturalmente, e avanço na história.",
+      "textDa": "Jeg arbejder med euro og cent, bruger ser, estar og ter naturligt, og går videre i historien.",
+      "grammarDa": "Læselinje 18 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Na cena 10, entro em contacto com opção sem glúten perto da porta.",
+      "textDa": "I scene 10 møder jeg glutenfri mulighed ved døren.",
+      "grammarDa": "Læselinje 19 hænger sammen med dialogen \"Sem glúten e fecho\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Pergunto opção sem glúten, uso ser, estar e ter naturalmente, e avanço na história.",
+      "textDa": "Jeg arbejder med glutenfri mulighed, bruger ser, estar og ter naturligt, og går videre i historien.",
+      "grammarDa": "Læselinje 20 viser scenens resultat."
     }
   ],
   "quiz": [
     {
       "id": 1,
-      "questionDa": "Hvilken sætning passer bedst til temaet \"Café e pastelaria\"?",
+      "questionDa": "Hvad betyder \"café\"?",
       "answers": [
         {
-          "text": "Boa tarde, ainda há bica curta?",
+          "text": "cafe",
           "correct": true
         },
         {
-          "text": "O gato dorme na janela.",
+          "text": "pastel de nata",
           "correct": false
         },
         {
-          "text": "A camisola é azul.",
+          "text": "ingredienser",
           "correct": false
         },
         {
-          "text": "Há três maçãs na mesa.",
+          "text": "endestation",
           "correct": false
         }
       ],
-      "explanationDa": "Sætningen hører til lektionen Café e pastelaria."
+      "explanationDa": "Svarmuligheden kommer fra lektionens JSON-ordforråd."
     },
     {
       "id": 2,
-      "questionDa": "Hvilken form er nós i nutid?",
+      "questionDa": "Hvilken form er eu i nutid af pagar?",
       "answers": [
         {
-          "text": "provamos",
+          "text": "pago",
           "correct": true
         },
         {
-          "text": "provámos",
+          "text": "paguei",
           "correct": false
         },
         {
-          "text": "falam",
+          "text": "pagas",
           "correct": false
         },
         {
-          "text": "partiste",
+          "text": "pagam",
           "correct": false
         }
       ],
-      "explanationDa": "Nós-formen følger verbets regelmæssige mønster."
+      "explanationDa": "Nutidsformen er pago."
     },
     {
       "id": 3,
-      "questionDa": "Hvilken form er nós i pretérito perfeito?",
+      "questionDa": "Hvilken form er eu i pretérito perfeito af escolher?",
       "answers": [
         {
-          "text": "provámos",
+          "text": "escolhi",
           "correct": true
         },
         {
-          "text": "provamos",
+          "text": "escolho",
           "correct": false
         },
         {
-          "text": "procuram",
+          "text": "escolheu",
           "correct": false
         },
         {
-          "text": "beberam",
+          "text": "tenho",
           "correct": false
         }
       ],
-      "explanationDa": "Pretérito perfeito bruges om en afsluttet handling."
+      "explanationDa": "Datidsformen er escolhi."
     },
     {
       "id": 4,
-      "questionDa": "Hvad betyder: Boa tarde, ainda há bica curta?",
+      "questionDa": "Vælg den bedste oversættelse: Quanto custa ou onde fica ingredientes?",
       "answers": [
         {
-          "text": "God eftermiddag, er der stadig lille espresso?",
+          "text": "Hvad koster ingredienser, eller hvor finder jeg det?",
           "correct": true
         },
         {
-          "text": "Jeg har travlt i morgen.",
+          "text": "På den måde er frisk brød på plads før historiens næste trin.",
           "correct": false
         },
         {
-          "text": "Vi bestilte to kaffe.",
+          "text": "Her har pastel de nata sin egen regel, og betjeningen er direkte.",
           "correct": false
         },
         {
-          "text": "Børnene leger udenfor.",
+          "text": "Jeg kommer tilbage i morgen.",
           "correct": false
         }
       ],
-      "explanationDa": "Oversættelsen kommer fra dialogernes ordforråd."
+      "explanationDa": "Spørgsmålene træner direkte hverdagssprog."
     },
     {
       "id": 5,
-      "questionDa": "Vælg den mest naturlige høflige formulering.",
+      "questionDa": "Hvilket ord hører til lektionen \"Café e pastelaria\"?",
       "answers": [
         {
-          "text": "Pode ajudar-me, por favor?",
+          "text": "pastel de nata",
           "correct": true
         },
         {
-          "text": "Ajuda mim agora.",
+          "text": "receita médica",
           "correct": false
         },
         {
-          "text": "Você ajuda eu?",
+          "text": "quarto de hotel",
           "correct": false
         },
         {
-          "text": "Dar ajuda rápido.",
+          "text": "garagem privada",
           "correct": false
         }
       ],
-      "explanationDa": "Pode ajudar-me, por favor? er en naturlig høflig formulering."
-    },
-    {
-      "id": 6,
-      "questionDa": "Hvilken portugisisk form er tallet 34?",
-      "answers": [
-        {
-          "text": "trinta e quatro",
-          "correct": true
-        },
-        {
-          "text": "vinte",
-          "correct": false
-        },
-        {
-          "text": "sessenta",
-          "correct": false
-        },
-        {
-          "text": "noventa",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Talquizzen kommer fra JSON og kan genbruges i fremtidige niveauer."
-    }
-  ],
-  "storyTitleDa": "En forkert bestilling på caféen",
-  "storyObjectiveDa": "Læs en kort tekst med en konkret situation, varierede subjekter, regelmæssige verber og lidt pretérito perfeito.",
-  "story": [
-    {
-      "speaker": "A",
-      "textPt": "No sábado, quatro amigos entraram numa pastelaria pequena.",
-      "textDa": "Om lørdagen gik fire venner ind i et lille konditori.",
-      "grammarDa": "Entraram er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "A esplanada estava cheia, mas havia uma mesa à sombra.",
-      "textDa": "Udeserveringen var fuld, men der var et bord i skyggen.",
-      "grammarDa": "Havia beskriver der var."
-    },
-    {
-      "speaker": "A",
-      "textPt": "O empregado trouxe a ementa e explicou os bolos do dia.",
-      "textDa": "Tjeneren kom med menuen og forklarede dagens kager.",
-      "grammarDa": "Trouxe og explicou er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Marta perguntou se o pastel levava leite.",
-      "textDa": "Marta spurgte, om kagen indeholdt mælk.",
-      "grammarDa": "Levava bruges om ingredienser."
-    },
-    {
-      "speaker": "A",
-      "textPt": "O pasteleiro confirmou a receita antes de responder.",
-      "textDa": "Konditoren bekræftede opskriften, før han svarede.",
-      "grammarDa": "Confirmou er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Dois amigos pediram café, mas um deles queria chá.",
-      "textDa": "To venner bestilte kaffe, men én af dem ville have te.",
-      "grammarDa": "Pediram er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Quando o pedido chegou, havia uma bica a mais.",
-      "textDa": "Da bestillingen kom, var der en espresso for meget.",
-      "grammarDa": "Chegou er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "A empregada pediu desculpa e corrigiu a mesa.",
-      "textDa": "Tjeneren undskyldte og rettede bordet.",
-      "grammarDa": "Corrigiu er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Ninguém ficou zangado, porque o erro foi resolvido depressa.",
-      "textDa": "Ingen blev vred, fordi fejlen blev løst hurtigt.",
-      "grammarDa": "Foi resolvido er passiv."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Depois, a senhora da mesa ao lado pediu uma recomendação.",
-      "textDa": "Derefter bad damen ved nabobordet om en anbefaling.",
-      "grammarDa": "Pediu er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "O empregado sugeriu o bolo da casa.",
-      "textDa": "Tjeneren foreslog husets kage.",
-      "grammarDa": "Sugeriu er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Marta provou um pedaço e disse que era leve.",
-      "textDa": "Marta smagte et stykke og sagde, at det var let.",
-      "grammarDa": "Provou og disse er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "No fim, os amigos dividiram a conta.",
-      "textDa": "Til sidst delte vennerne regningen.",
-      "grammarDa": "Dividiram er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Um pagou com cartão, e outro pagou em dinheiro.",
-      "textDa": "Én betalte med kort, og en anden betalte kontant.",
-      "grammarDa": "Pagou er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "A funcionária deu dois recibos separados.",
-      "textDa": "Medarbejderen gav to separate kvitteringer.",
-      "grammarDa": "Deu er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Antes de sair, compraram dois cafés para levar.",
-      "textDa": "Før de gik, købte de to kaffe to go.",
-      "grammarDa": "Compraram er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "O copo tinha tampa, por isso não entornou no caminho.",
-      "textDa": "Koppen havde låg, så den væltede ikke på vejen.",
-      "grammarDa": "Entornou er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Lá fora, o vento aumentou um pouco.",
-      "textDa": "Udenfor tog vinden lidt til.",
-      "grammarDa": "Aumentou er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Mesmo assim, combinaram voltar na semana seguinte.",
-      "textDa": "Alligevel aftalte de at komme tilbage ugen efter.",
-      "grammarDa": "Combinaram er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "A pastelaria ficou como um novo ponto de encontro.",
-      "textDa": "Konditoriet blev et nyt mødested.",
-      "grammarDa": "Ficou er datid."
+      "explanationDa": "Quizzen bruger ord fra den aktuelle lektion."
     }
   ]
 }

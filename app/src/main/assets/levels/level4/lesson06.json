@@ -1,420 +1,504 @@
 {
   "id": 6,
   "titleDa": "Roupa para crianças",
-  "descriptionDa": "Learn Portuguese 3: Børnetøj, størrelser, farver, sko, gaver, vask og bytte.",
+  "descriptionDa": "En realistisk tur i en børnetøjsbutik med størrelse, farver, sko og bytning.",
+  "vocabulary": [
+    {
+      "textPt": "roupa para crianças",
+      "textDa": "børnetøj"
+    },
+    {
+      "textPt": "t-shirt",
+      "textDa": "T-shirt"
+    },
+    {
+      "textPt": "calças",
+      "textDa": "bukser"
+    },
+    {
+      "textPt": "casaco",
+      "textDa": "jakke"
+    },
+    {
+      "textPt": "sapatos",
+      "textDa": "sko"
+    },
+    {
+      "textPt": "tamanho",
+      "textDa": "størrelse"
+    },
+    {
+      "textPt": "idade",
+      "textDa": "alder"
+    },
+    {
+      "textPt": "nove anos",
+      "textDa": "ni år"
+    },
+    {
+      "textPt": "provador",
+      "textDa": "prøverum"
+    },
+    {
+      "textPt": "cor azul",
+      "textDa": "blå farve"
+    },
+    {
+      "textPt": "vermelho",
+      "textDa": "rød"
+    },
+    {
+      "textPt": "verde",
+      "textDa": "grøn"
+    },
+    {
+      "textPt": "roupa de verão",
+      "textDa": "sommertøj"
+    },
+    {
+      "textPt": "roupa de inverno",
+      "textDa": "vintertøj"
+    },
+    {
+      "textPt": "instruções de lavagem",
+      "textDa": "vaskeanvisning"
+    },
+    {
+      "textPt": "etiqueta",
+      "textDa": "mærke"
+    },
+    {
+      "textPt": "talão",
+      "textDa": "bon"
+    },
+    {
+      "textPt": "troca",
+      "textDa": "bytning"
+    },
+    {
+      "textPt": "presente",
+      "textDa": "gave"
+    },
+    {
+      "textPt": "embrulho",
+      "textDa": "indpakning"
+    },
+    {
+      "textPt": "algodão",
+      "textDa": "bomuld"
+    },
+    {
+      "textPt": "casaco de inverno",
+      "textDa": "vinterjakke"
+    },
+    {
+      "textPt": "calções",
+      "textDa": "shorts"
+    },
+    {
+      "textPt": "meias",
+      "textDa": "sokker"
+    },
+    {
+      "textPt": "sapatilhas",
+      "textDa": "sneakers"
+    }
+  ],
   "dialogues": [
     {
       "id": 1,
-      "titleDa": "Størrelse otte",
-      "objectiveDa": "Træn en realistisk mini-dialog om størrelse otte.",
+      "titleDa": "T-shirt de criança",
+      "objectiveDa": "Brug børne-T-shirt i en konkret scene om Roupa para crianças.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de tamanho oito; pode orientar-me?",
-          "textDa": "Undskyld, jeg har et spørgsmål om størrelse otte; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
+          "textPt": "Entro na loja de roupa e começo por t-shirt de criança, porque isso faz parte da história de hoje.",
+          "textDa": "Jeg går ind i børnetøjsbutikken og begynder med børne-T-shirt, fordi det hører til dagens historie.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
         },
         {
           "speaker": "B",
-          "textPt": "O funcionário pergunta se tamanho oito é para hoje ou para mais tarde.",
-          "textDa": "Medarbejderen spørger, om størrelse otte er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
+          "textPt": "A pessoa responsável mostra t-shirt de criança e explica o passo seguinte.",
+          "textDa": "Den ansvarlige viser børne-T-shirt og forklarer næste trin.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
         },
         {
           "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver tamanho oito.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at få svar om størrelse otte.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
+          "textPt": "Onde posso encontrar t-shirt de criança?",
+          "textDa": "Hvor kan jeg finde børne-T-shirt?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
         },
         {
           "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de tamanho oito.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om størrelse otte.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+          "textPt": "O detalhe importante sobre t-shirt de criança está escrito no aviso pequeno.",
+          "textDa": "Den vigtige detalje om børne-T-shirt står på det lille skilt.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
         },
         {
           "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com tamanho oito?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med størrelse otte?",
-          "grammarDa": "Avançarmos er nós-form efter para."
+          "textPt": "Tenho a informação sobre t-shirt de criança guardada nas minhas notas.",
+          "textDa": "Jeg har informationen om børne-T-shirt gemt i mine noter.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
         },
         {
           "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre tamanho oito; depois o funcionário regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om størrelse otte; derefter registrerer medarbejderen det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
+          "textPt": "T-shirt de criança está disponível neste momento e pertence ao contexto da loja de roupa.",
+          "textDa": "Børne-T-shirt er tilgængelig lige nu og hører til børnetøjsbutikken.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
         },
         {
           "speaker": "A",
-          "textPt": "Se houver algum problema com tamanho oito, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med størrelse otte, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
+          "textPt": "De manhã escolhi t-shirt de criança e percebi melhor a situação.",
+          "textDa": "Om morgenen arbejdede jeg med børne-T-shirt og forstod situationen bedre.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
         },
         {
           "speaker": "B",
-          "textPt": "Pode, mas talvez tamanho oito fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver størrelse otte løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
+          "textPt": "A explicação sobre t-shirt de criança é útil porque a situação é concreta.",
+          "textDa": "Forklaringen om børne-T-shirt er nyttig, fordi situationen er konkret.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
         },
         {
           "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre tamanho oito.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om størrelse otte.",
-          "grammarDa": "Agradecia er høfligt."
+          "textPt": "Escolho t-shirt de criança na primeira mesa e sigo para a próxima cena.",
+          "textDa": "Jeg arbejder med børne-T-shirt ved det første bord og går videre til næste scene.",
+          "grammarDa": "Escolher viser handlingen i scenen."
         },
         {
           "speaker": "B",
-          "textPt": "Combinado; quando tamanho oito estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når størrelse otte er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
+          "textPt": "Depois de resolver t-shirt de criança, sigo para a próxima parte da história.",
+          "textDa": "Efter at have fået børne-T-shirt på plads går jeg videre til næste del af historien.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "tamanho oito",
-          "textDa": "størrelse otte"
+          "textPt": "t-shirt de criança",
+          "textDa": "børne-T-shirt"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "roupa",
+          "textDa": "Roupa para crianças"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "escolher",
+          "textDa": "at vælge"
         },
         {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
+          "textPt": "primeira mesa",
+          "textDa": "ved det første bord"
         },
         {
-          "textPt": "processo",
-          "textDa": "sag/proces"
+          "textPt": "cena de t-shirt de criança",
+          "textDa": "scene om børne-T-shirt"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Roupa para crianças",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "trocar",
+          "titleDa": "Escolher i scenen",
+          "explanationDa": "escolher betyder \"at vælge\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "escolher",
+          "verbDa": "at vælge",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "troco"
+              "form": "escolho"
             },
             {
               "subject": "tu (presente)",
-              "form": "trocas"
+              "form": "escolhes"
             },
             {
               "subject": "ele/ela/você (presente)",
-              "form": "troca"
+              "form": "escolhe"
             },
             {
               "subject": "nós (presente)",
-              "form": "trocamos"
+              "form": "escolhemos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "trocam"
+              "form": "escolhem"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "trocam"
+              "form": "escolhem"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "troquei"
+              "form": "escolhi"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "trocaste"
+              "form": "escolheste"
             },
             {
               "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "trocou"
+              "form": "escolheu"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "trocámos"
+              "form": "escolhemos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "trocaram"
+              "form": "escolheram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "trocaram"
+              "form": "escolheram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje nós trocamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Escolho t-shirt de criança na primeira mesa.",
+              "da": "Jeg arbejder med børne-T-shirt ved det første bord."
             },
             {
-              "pt": "Ontem a funcionária trocou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "De manhã escolhi t-shirt de criança.",
+              "da": "Om morgenen arbejdede jeg med børne-T-shirt."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "wrong": "Ontem eu escolho.",
+              "correct": "De manhã escolhi.",
+              "noteDa": "Efter de manhã bruges normalt datid, når handlingen er afsluttet."
             }
-          ],
-          "verbDa": "at bytte"
+          ]
         }
       ]
     },
     {
       "id": 2,
-      "titleDa": "Børnesko",
-      "objectiveDa": "Træn en realistisk mini-dialog om børnesko.",
+      "titleDa": "Calças para escola",
+      "objectiveDa": "Brug bukser i en konkret scene om Roupa para crianças.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de sapatos de criança; pode orientar-me?",
-          "textDa": "Undskyld, jeg har et spørgsmål om børnesko; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
+          "textPt": "Entro na loja de roupa e começo por calças, porque isso faz parte da história de hoje.",
+          "textDa": "Jeg går ind i børnetøjsbutikken og begynder med bukser, fordi det hører til dagens historie.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
         },
         {
           "speaker": "B",
-          "textPt": "A funcionária pergunta se sapatos de criança é para hoje ou para mais tarde.",
-          "textDa": "Medarbejderen spørger, om børnesko er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
+          "textPt": "A pessoa responsável mostra calças e explica o passo seguinte.",
+          "textDa": "Den ansvarlige viser bukser og forklarer næste trin.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
         },
         {
           "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver sapatos de criança.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at få svar om børnesko.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
+          "textPt": "Onde posso encontrar calças?",
+          "textDa": "Hvor kan jeg finde bukser?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
         },
         {
           "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de sapatos de criança.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om børnesko.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+          "textPt": "O detalhe importante sobre calças está escrito no aviso pequeno.",
+          "textDa": "Den vigtige detalje om bukser står på det lille skilt.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
         },
         {
           "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com sapatos de criança?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med børnesko?",
-          "grammarDa": "Avançarmos er nós-form efter para."
+          "textPt": "Tenho a informação sobre calças guardada nas minhas notas.",
+          "textDa": "Jeg har informationen om bukser gemt i mine noter.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
         },
         {
           "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre sapatos de criança; depois a funcionária regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om børnesko; derefter registrerer medarbejderen det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
+          "textPt": "Calças está disponível neste momento e pertence ao contexto da loja de roupa.",
+          "textDa": "Bukser er tilgængelig lige nu og hører til børnetøjsbutikken.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
         },
         {
           "speaker": "A",
-          "textPt": "Se houver algum problema com sapatos de criança, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med børnesko, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
+          "textPt": "Há pouco procurei calças e percebi melhor a situação.",
+          "textDa": "For lidt siden arbejdede jeg med bukser og forstod situationen bedre.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
         },
         {
           "speaker": "B",
-          "textPt": "Pode, mas talvez sapatos de criança fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver børnesko løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
+          "textPt": "A explicação sobre calças é útil porque a situação é concreta.",
+          "textDa": "Forklaringen om bukser er nyttig, fordi situationen er konkret.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
         },
         {
           "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre sapatos de criança.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om børnesko.",
-          "grammarDa": "Agradecia er høfligt."
+          "textPt": "Procuro calças na secção escolar e sigo para a próxima cena.",
+          "textDa": "Jeg arbejder med bukser i skoleafdelingen og går videre til næste scene.",
+          "grammarDa": "Procurar viser handlingen i scenen."
         },
         {
           "speaker": "B",
-          "textPt": "Combinado; quando sapatos de criança estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når børnesko er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
+          "textPt": "Depois de resolver calças, sigo para a próxima parte da história.",
+          "textDa": "Efter at have fået bukser på plads går jeg videre til næste del af historien.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "sapatos de criança",
-          "textDa": "børnesko"
+          "textPt": "calças",
+          "textDa": "bukser"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "roupa",
+          "textDa": "Roupa para crianças"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "procurar",
+          "textDa": "at søge efter"
         },
         {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
+          "textPt": "secção escolar",
+          "textDa": "i skoleafdelingen"
         },
         {
-          "textPt": "processo",
-          "textDa": "sag/proces"
+          "textPt": "cena de calças",
+          "textDa": "scene om bukser"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Roupa para crianças",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "trocar",
+          "titleDa": "Procurar i scenen",
+          "explanationDa": "procurar betyder \"at søge efter\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "procurar",
+          "verbDa": "at søge efter",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "troco"
+              "form": "procuro"
             },
             {
               "subject": "tu (presente)",
-              "form": "trocas"
+              "form": "procuras"
             },
             {
               "subject": "ele/ela/você (presente)",
-              "form": "troca"
+              "form": "procura"
             },
             {
               "subject": "nós (presente)",
-              "form": "trocamos"
+              "form": "procuramos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "trocam"
+              "form": "procuram"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "trocam"
+              "form": "procuram"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "troquei"
+              "form": "procurei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "trocaste"
+              "form": "procuraste"
             },
             {
               "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "trocou"
+              "form": "procurou"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "trocámos"
+              "form": "procuramos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "trocaram"
+              "form": "procuraram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "trocaram"
+              "form": "procuraram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje nós trocamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Procuro calças na secção escolar.",
+              "da": "Jeg arbejder med bukser i skoleafdelingen."
             },
             {
-              "pt": "Ontem a funcionária trocou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "Há pouco procurei calças.",
+              "da": "For lidt siden arbejdede jeg med bukser."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "wrong": "Ontem eu procuro.",
+              "correct": "Há pouco procurei.",
+              "noteDa": "Efter há pouco bruges normalt datid, når handlingen er afsluttet."
             }
-          ],
-          "verbDa": "at bytte"
+          ]
         }
       ]
     },
     {
       "id": 3,
-      "titleDa": "Vinterjakke",
-      "objectiveDa": "Træn en realistisk mini-dialog om vinterjakke.",
+      "titleDa": "Casaco de inverno",
+      "objectiveDa": "Brug vinterjakke i en konkret scene om Roupa para crianças.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de casaco de inverno; pode orientar-me?",
-          "textDa": "Undskyld, jeg har et spørgsmål om vinterjakke; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
+          "textPt": "Entro na loja de roupa e começo por casaco de inverno, porque isso faz parte da história de hoje.",
+          "textDa": "Jeg går ind i børnetøjsbutikken og begynder med vinterjakke, fordi det hører til dagens historie.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
         },
         {
           "speaker": "B",
-          "textPt": "O empregado pergunta se casaco de inverno é para hoje ou para mais tarde.",
-          "textDa": "Tjeneren spørger, om vinterjakke er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
+          "textPt": "A pessoa responsável mostra casaco de inverno e explica o passo seguinte.",
+          "textDa": "Den ansvarlige viser vinterjakke og forklarer næste trin.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
         },
         {
           "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver casaco de inverno.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at få svar om vinterjakke.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
+          "textPt": "Onde posso encontrar casaco de inverno?",
+          "textDa": "Hvor kan jeg finde vinterjakke?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
         },
         {
           "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de casaco de inverno.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om vinterjakke.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+          "textPt": "O detalhe importante sobre casaco de inverno está escrito no aviso pequeno.",
+          "textDa": "Den vigtige detalje om vinterjakke står på det lille skilt.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
         },
         {
           "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com casaco de inverno?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med vinterjakke?",
-          "grammarDa": "Avançarmos er nós-form efter para."
+          "textPt": "Tenho a informação sobre casaco de inverno guardada nas minhas notas.",
+          "textDa": "Jeg har informationen om vinterjakke gemt i mine noter.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
         },
         {
           "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre casaco de inverno; depois o empregado regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om vinterjakke; derefter registrerer tjeneren det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
+          "textPt": "Casaco de inverno está disponível neste momento e pertence ao contexto da loja de roupa.",
+          "textDa": "Vinterjakke er tilgængelig lige nu og hører til børnetøjsbutikken.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
         },
         {
           "speaker": "A",
-          "textPt": "Se houver algum problema com casaco de inverno, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med vinterjakke, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
+          "textPt": "Ontem experimentei casaco de inverno e percebi melhor a situação.",
+          "textDa": "I går arbejdede jeg med vinterjakke og forstod situationen bedre.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
         },
         {
           "speaker": "B",
-          "textPt": "Pode, mas talvez casaco de inverno fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver vinterjakke løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
+          "textPt": "A explicação sobre casaco de inverno é útil porque a situação é concreta.",
+          "textDa": "Forklaringen om vinterjakke er nyttig, fordi situationen er konkret.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
         },
         {
           "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre casaco de inverno.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om vinterjakke.",
-          "grammarDa": "Agradecia er høfligt."
+          "textPt": "Experimento casaco de inverno no provador e sigo para a próxima cena.",
+          "textDa": "Jeg arbejder med vinterjakke i prøverummet og går videre til næste scene.",
+          "grammarDa": "Experimentar viser handlingen i scenen."
         },
         {
           "speaker": "B",
-          "textPt": "Combinado; quando casaco de inverno estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når vinterjakke er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
+          "textPt": "Depois de resolver casaco de inverno, sigo para a próxima parte da história.",
+          "textDa": "Efter at have fået vinterjakke på plads går jeg videre til næste del af historien.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
         }
       ],
       "vocabulary": [
@@ -423,172 +507,493 @@
           "textDa": "vinterjakke"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "roupa",
+          "textDa": "Roupa para crianças"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "experimentar",
+          "textDa": "at prøve"
         },
         {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
+          "textPt": "provador",
+          "textDa": "i prøverummet"
         },
         {
-          "textPt": "processo",
-          "textDa": "sag/proces"
+          "textPt": "cena de casaco de inverno",
+          "textDa": "scene om vinterjakke"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Roupa para crianças",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "trocar",
+          "titleDa": "Experimentar i scenen",
+          "explanationDa": "experimentar betyder \"at prøve\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "experimentar",
+          "verbDa": "at prøve",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "troco"
+              "form": "experimento"
             },
             {
               "subject": "tu (presente)",
-              "form": "trocas"
+              "form": "experimentas"
             },
             {
               "subject": "ele/ela/você (presente)",
-              "form": "troca"
+              "form": "experimenta"
             },
             {
               "subject": "nós (presente)",
-              "form": "trocamos"
+              "form": "experimentamos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "trocam"
+              "form": "experimentam"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "trocam"
+              "form": "experimentam"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "troquei"
+              "form": "experimentei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "trocaste"
+              "form": "experimentaste"
             },
             {
               "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "trocou"
+              "form": "experimentou"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "trocámos"
+              "form": "experimentámos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "trocaram"
+              "form": "experimentaram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "trocaram"
+              "form": "experimentaram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje nós trocamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Experimento casaco de inverno no provador.",
+              "da": "Jeg arbejder med vinterjakke i prøverummet."
             },
             {
-              "pt": "Ontem a funcionária trocou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "Ontem experimentei casaco de inverno.",
+              "da": "I går arbejdede jeg med vinterjakke."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "wrong": "Ontem eu experimento.",
+              "correct": "Ontem experimentei.",
+              "noteDa": "Efter ontem bruges normalt datid, når handlingen er afsluttet."
             }
-          ],
-          "verbDa": "at bytte"
+          ]
         }
       ]
     },
     {
       "id": 4,
-      "titleDa": "Blå farve",
-      "objectiveDa": "Træn en realistisk mini-dialog om blå farve.",
+      "titleDa": "Sapatos de criança",
+      "objectiveDa": "Brug børnesko i en konkret scene om Roupa para crianças.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de cor azul; pode orientar-me?",
-          "textDa": "Undskyld, jeg har et spørgsmål om blå farve; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
+          "textPt": "Entro na loja de roupa e começo por sapatos de criança, porque isso faz parte da história de hoje.",
+          "textDa": "Jeg går ind i børnetøjsbutikken og begynder med børnesko, fordi det hører til dagens historie.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
         },
         {
           "speaker": "B",
-          "textPt": "A senhora pergunta se cor azul é para hoje ou para mais tarde.",
-          "textDa": "Damen spørger, om blå farve er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
+          "textPt": "A pessoa responsável mostra sapatos de criança e explica o passo seguinte.",
+          "textDa": "Den ansvarlige viser børnesko og forklarer næste trin.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
         },
         {
           "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver cor azul.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at få svar om blå farve.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
+          "textPt": "Onde posso encontrar sapatos de criança?",
+          "textDa": "Hvor kan jeg finde børnesko?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
         },
         {
           "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de cor azul.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om blå farve.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+          "textPt": "O detalhe importante sobre sapatos de criança está escrito no aviso pequeno.",
+          "textDa": "Den vigtige detalje om børnesko står på det lille skilt.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
         },
         {
           "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com cor azul?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med blå farve?",
-          "grammarDa": "Avançarmos er nós-form efter para."
+          "textPt": "Tenho a informação sobre sapatos de criança guardada nas minhas notas.",
+          "textDa": "Jeg har informationen om børnesko gemt i mine noter.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
         },
         {
           "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre cor azul; depois a senhora regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om blå farve; derefter registrerer damen det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
+          "textPt": "Sapatos de criança está disponível neste momento e pertence ao contexto da loja de roupa.",
+          "textDa": "Børnesko er tilgængelig lige nu og hører til børnetøjsbutikken.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
         },
         {
           "speaker": "A",
-          "textPt": "Se houver algum problema com cor azul, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med blå farve, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
+          "textPt": "Esta manhã comprei sapatos de criança e percebi melhor a situação.",
+          "textDa": "Esta manhã arbejdede jeg med børnesko og forstod situationen bedre.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
         },
         {
           "speaker": "B",
-          "textPt": "Pode, mas talvez cor azul fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver blå farve løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
+          "textPt": "A explicação sobre sapatos de criança é útil porque a situação é concreta.",
+          "textDa": "Forklaringen om børnesko er nyttig, fordi situationen er konkret.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
         },
         {
           "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre cor azul.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om blå farve.",
-          "grammarDa": "Agradecia er høfligt."
+          "textPt": "Compro sapatos de criança junto ao espelho e sigo para a próxima cena.",
+          "textDa": "Jeg arbejder med børnesko ved spejlet og går videre til næste scene.",
+          "grammarDa": "Comprar viser handlingen i scenen."
         },
         {
           "speaker": "B",
-          "textPt": "Combinado; quando cor azul estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når blå farve er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
+          "textPt": "Depois de resolver sapatos de criança, sigo para a próxima parte da história.",
+          "textDa": "Efter at have fået børnesko på plads går jeg videre til næste del af historien.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "sapatos de criança",
+          "textDa": "børnesko"
+        },
+        {
+          "textPt": "roupa",
+          "textDa": "Roupa para crianças"
+        },
+        {
+          "textPt": "comprar",
+          "textDa": "at købe"
+        },
+        {
+          "textPt": "junto ao espelho",
+          "textDa": "ved spejlet"
+        },
+        {
+          "textPt": "cena de sapatos de criança",
+          "textDa": "scene om børnesko"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Comprar i scenen",
+          "explanationDa": "comprar betyder \"at købe\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "comprar",
+          "verbDa": "at købe",
+          "conjugation": [
+            {
+              "subject": "eu (presente)",
+              "form": "compro"
+            },
+            {
+              "subject": "tu (presente)",
+              "form": "compras"
+            },
+            {
+              "subject": "ele/ela/você (presente)",
+              "form": "compra"
+            },
+            {
+              "subject": "nós (presente)",
+              "form": "compramos"
+            },
+            {
+              "subject": "vocês (presente)",
+              "form": "compram"
+            },
+            {
+              "subject": "eles/elas (presente)",
+              "form": "compram"
+            },
+            {
+              "subject": "eu (pretérito perfeito)",
+              "form": "comprei"
+            },
+            {
+              "subject": "tu (pretérito perfeito)",
+              "form": "compraste"
+            },
+            {
+              "subject": "ele/ela/você (pretérito perfeito)",
+              "form": "comprou"
+            },
+            {
+              "subject": "nós (pretérito perfeito)",
+              "form": "comprámos"
+            },
+            {
+              "subject": "vocês (pretérito perfeito)",
+              "form": "compraram"
+            },
+            {
+              "subject": "eles/elas (pretérito perfeito)",
+              "form": "compraram"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Compro sapatos de criança junto ao espelho.",
+              "da": "Jeg arbejder med børnesko ved spejlet."
+            },
+            {
+              "pt": "Esta manhã comprei sapatos de criança.",
+              "da": "Her til morgen arbejdede jeg med børnesko."
+            }
+          ],
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
+          "commonMistakes": [
+            {
+              "wrong": "Ontem eu compro.",
+              "correct": "Esta manhã comprei.",
+              "noteDa": "Efter esta manhã bruges normalt datid, når handlingen er afsluttet."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "titleDa": "Tamanho e idade",
+      "objectiveDa": "Brug størrelse til ni år i en konkret scene om Roupa para crianças.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Entro na loja de roupa e começo por tamanho para nove anos, porque isso faz parte da história de hoje.",
+          "textDa": "Jeg går ind i børnetøjsbutikken og begynder med størrelse til ni år, fordi det hører til dagens historie.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
+        },
+        {
+          "speaker": "B",
+          "textPt": "A pessoa responsável mostra tamanho para nove anos e explica o passo seguinte.",
+          "textDa": "Den ansvarlige viser størrelse til ni år og forklarer næste trin.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Onde posso encontrar tamanho para nove anos?",
+          "textDa": "Hvor kan jeg finde størrelse til ni år?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
+        },
+        {
+          "speaker": "B",
+          "textPt": "O detalhe importante sobre tamanho para nove anos está escrito no aviso pequeno.",
+          "textDa": "Den vigtige detalje om størrelse til ni år står på det lille skilt.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Tenho a informação sobre tamanho para nove anos guardada nas minhas notas.",
+          "textDa": "Jeg har informationen om størrelse til ni år gemt i mine noter.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Tamanho para nove anos está disponível neste momento e pertence ao contexto da loja de roupa.",
+          "textDa": "Størrelse til ni år er tilgængelig lige nu og hører til børnetøjsbutikken.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Há pouco comparei tamanho para nove anos e percebi melhor a situação.",
+          "textDa": "For lidt siden arbejdede jeg med størrelse til ni år og forstod situationen bedre.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
+        },
+        {
+          "speaker": "B",
+          "textPt": "A explicação sobre tamanho para nove anos é útil porque a situação é concreta.",
+          "textDa": "Forklaringen om størrelse til ni år er nyttig, fordi situationen er konkret.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Comparo tamanho para nove anos na etiqueta e sigo para a próxima cena.",
+          "textDa": "Jeg arbejder med størrelse til ni år på mærket og går videre til næste scene.",
+          "grammarDa": "Comparar viser handlingen i scenen."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Depois de resolver tamanho para nove anos, sigo para a próxima parte da história.",
+          "textDa": "Efter at have fået størrelse til ni år på plads går jeg videre til næste del af historien.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
+        }
+      ],
+      "vocabulary": [
+        {
+          "textPt": "tamanho para nove anos",
+          "textDa": "størrelse til ni år"
+        },
+        {
+          "textPt": "roupa",
+          "textDa": "Roupa para crianças"
+        },
+        {
+          "textPt": "comparar",
+          "textDa": "at sammenligne"
+        },
+        {
+          "textPt": "etiqueta",
+          "textDa": "på mærket"
+        },
+        {
+          "textPt": "cena de tamanho para nove anos",
+          "textDa": "scene om størrelse til ni år"
+        }
+      ],
+      "grammar": [
+        {
+          "titleDa": "Comparar i scenen",
+          "explanationDa": "comparar betyder \"at sammenligne\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "comparar",
+          "verbDa": "at sammenligne",
+          "conjugation": [
+            {
+              "subject": "eu (presente)",
+              "form": "comparo"
+            },
+            {
+              "subject": "tu (presente)",
+              "form": "comparas"
+            },
+            {
+              "subject": "ele/ela/você (presente)",
+              "form": "compara"
+            },
+            {
+              "subject": "nós (presente)",
+              "form": "comparamos"
+            },
+            {
+              "subject": "vocês (presente)",
+              "form": "comparam"
+            },
+            {
+              "subject": "eles/elas (presente)",
+              "form": "comparam"
+            },
+            {
+              "subject": "eu (pretérito perfeito)",
+              "form": "comparei"
+            },
+            {
+              "subject": "tu (pretérito perfeito)",
+              "form": "comparaste"
+            },
+            {
+              "subject": "ele/ela/você (pretérito perfeito)",
+              "form": "comparou"
+            },
+            {
+              "subject": "nós (pretérito perfeito)",
+              "form": "comparamos"
+            },
+            {
+              "subject": "vocês (pretérito perfeito)",
+              "form": "compararam"
+            },
+            {
+              "subject": "eles/elas (pretérito perfeito)",
+              "form": "compararam"
+            }
+          ],
+          "examples": [
+            {
+              "pt": "Comparo tamanho para nove anos na etiqueta.",
+              "da": "Jeg arbejder med størrelse til ni år på mærket."
+            },
+            {
+              "pt": "Agora comparei tamanho para nove anos.",
+              "da": "Nu arbejdede jeg med størrelse til ni år."
+            }
+          ],
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
+          "commonMistakes": [
+            {
+              "wrong": "Ontem eu comparo.",
+              "correct": "Agora comparei.",
+              "noteDa": "Efter agora bruges normalt datid, når handlingen er afsluttet."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "titleDa": "Escolher cor",
+      "objectiveDa": "Brug blå farve i en konkret scene om Roupa para crianças.",
+      "phrases": [
+        {
+          "speaker": "A",
+          "textPt": "Entro na loja de roupa e começo por cor azul, porque isso faz parte da história de hoje.",
+          "textDa": "Jeg går ind i børnetøjsbutikken og begynder med blå farve, fordi det hører til dagens historie.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
+        },
+        {
+          "speaker": "B",
+          "textPt": "A pessoa responsável mostra cor azul e explica o passo seguinte.",
+          "textDa": "Den ansvarlige viser blå farve og forklarer næste trin.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Onde posso encontrar cor azul?",
+          "textDa": "Hvor kan jeg finde blå farve?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
+        },
+        {
+          "speaker": "B",
+          "textPt": "O detalhe importante sobre cor azul está escrito no aviso pequeno.",
+          "textDa": "Den vigtige detalje om blå farve står på det lille skilt.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Tenho a informação sobre cor azul guardada nas minhas notas.",
+          "textDa": "Jeg har informationen om blå farve gemt i mine noter.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Cor azul está disponível neste momento e pertence ao contexto da loja de roupa.",
+          "textDa": "Blå farve er tilgængelig lige nu og hører til børnetøjsbutikken.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Há cinco minutos escolhi cor azul e percebi melhor a situação.",
+          "textDa": "Há cinco minutos arbejdede jeg med blå farve og forstod situationen bedre.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
+        },
+        {
+          "speaker": "B",
+          "textPt": "A explicação sobre cor azul é útil porque a situação é concreta.",
+          "textDa": "Forklaringen om blå farve er nyttig, fordi situationen er konkret.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
+        },
+        {
+          "speaker": "A",
+          "textPt": "Escolho cor azul na prateleira e sigo para a próxima cena.",
+          "textDa": "Jeg arbejder med blå farve på hylden og går videre til næste scene.",
+          "grammarDa": "Escolher viser handlingen i scenen."
+        },
+        {
+          "speaker": "B",
+          "textPt": "Depois de resolver cor azul, sigo para a próxima parte da história.",
+          "textDa": "Efter at have fået blå farve på plads går jeg videre til næste del af historien.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
         }
       ],
       "vocabulary": [
@@ -597,897 +1002,523 @@
           "textDa": "blå farve"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "roupa",
+          "textDa": "Roupa para crianças"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "escolher",
+          "textDa": "at vælge"
         },
         {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
+          "textPt": "prateleira",
+          "textDa": "på hylden"
         },
         {
-          "textPt": "processo",
-          "textDa": "sag/proces"
+          "textPt": "cena de cor azul",
+          "textDa": "scene om blå farve"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Roupa para crianças",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "trocar",
+          "titleDa": "Escolher i scenen",
+          "explanationDa": "escolher betyder \"at vælge\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "escolher",
+          "verbDa": "at vælge",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "troco"
+              "form": "escolho"
             },
             {
               "subject": "tu (presente)",
-              "form": "trocas"
+              "form": "escolhes"
             },
             {
               "subject": "ele/ela/você (presente)",
-              "form": "troca"
+              "form": "escolhe"
             },
             {
               "subject": "nós (presente)",
-              "form": "trocamos"
+              "form": "escolhemos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "trocam"
+              "form": "escolhem"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "trocam"
+              "form": "escolhem"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "troquei"
+              "form": "escolhi"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "trocaste"
+              "form": "escolheste"
             },
             {
               "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "trocou"
+              "form": "escolheu"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "trocámos"
+              "form": "escolhemos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "trocaram"
+              "form": "escolheram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "trocaram"
+              "form": "escolheram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje nós trocamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Escolho cor azul na prateleira.",
+              "da": "Jeg arbejder med blå farve på hylden."
             },
             {
-              "pt": "Ontem a funcionária trocou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "Há cinco minutos escolhi cor azul.",
+              "da": "Há cinco minutos arbejdede jeg med blå farve."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "wrong": "Ontem eu escolho.",
+              "correct": "Há cinco minutos escolhi.",
+              "noteDa": "Efter há cinco minutos bruges normalt datid, når handlingen er afsluttet."
             }
-          ],
-          "verbDa": "at bytte"
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "titleDa": "Prøve i prøverummet",
-      "objectiveDa": "Træn en realistisk mini-dialog om prøve i prøverummet.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de provar no provador; pode orientar-me?",
-          "textDa": "Undskyld, jeg har et spørgsmål om prøve i prøverummet; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
-        },
-        {
-          "speaker": "B",
-          "textPt": "O motorista pergunta se provar no provador é para hoje ou para mais tarde.",
-          "textDa": "Chaufføren spørger, om prøve i prøverummet er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
-        },
-        {
-          "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver provar no provador.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at få svar om prøve i prøverummet.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de provar no provador.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om prøve i prøverummet.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com provar no provador?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med prøve i prøverummet?",
-          "grammarDa": "Avançarmos er nós-form efter para."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre provar no provador; depois o motorista regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om prøve i prøverummet; derefter registrerer chaufføren det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Se houver algum problema com provar no provador, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med prøve i prøverummet, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Pode, mas talvez provar no provador fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver prøve i prøverummet løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre provar no provador.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om prøve i prøverummet.",
-          "grammarDa": "Agradecia er høfligt."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Combinado; quando provar no provador estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når prøve i prøverummet er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "provar no provador",
-          "textDa": "prøve i prøverummet"
-        },
-        {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
-        },
-        {
-          "textPt": "talvez",
-          "textDa": "måske"
-        },
-        {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
-        },
-        {
-          "textPt": "processo",
-          "textDa": "sag/proces"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "Regelmæssige verber i Roupa para crianças",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "trocar",
-          "conjugation": [
-            {
-              "subject": "eu (presente)",
-              "form": "troco"
-            },
-            {
-              "subject": "tu (presente)",
-              "form": "trocas"
-            },
-            {
-              "subject": "ele/ela/você (presente)",
-              "form": "troca"
-            },
-            {
-              "subject": "nós (presente)",
-              "form": "trocamos"
-            },
-            {
-              "subject": "vocês (presente)",
-              "form": "trocam"
-            },
-            {
-              "subject": "eles/elas (presente)",
-              "form": "trocam"
-            },
-            {
-              "subject": "eu (pretérito perfeito)",
-              "form": "troquei"
-            },
-            {
-              "subject": "tu (pretérito perfeito)",
-              "form": "trocaste"
-            },
-            {
-              "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "trocou"
-            },
-            {
-              "subject": "nós (pretérito perfeito)",
-              "form": "trocámos"
-            },
-            {
-              "subject": "vocês (pretérito perfeito)",
-              "form": "trocaram"
-            },
-            {
-              "subject": "eles/elas (pretérito perfeito)",
-              "form": "trocaram"
-            }
-          ],
-          "examples": [
-            {
-              "pt": "Hoje nós trocamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
-            },
-            {
-              "pt": "Ontem a funcionária trocou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
-            }
-          ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
-          "commonMistakes": [
-            {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
-            }
-          ],
-          "verbDa": "at bytte"
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "titleDa": "Bytte med kvittering",
-      "objectiveDa": "Træn en realistisk mini-dialog om bytte med kvittering.",
-      "phrases": [
-        {
-          "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de troca com talão; pode orientar-me?",
-          "textDa": "Undskyld, jeg har et spørgsmål om bytte med kvittering; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
-        },
-        {
-          "speaker": "B",
-          "textPt": "O técnico pergunta se troca com talão é para hoje ou para mais tarde.",
-          "textDa": "Teknikeren spørger, om bytte med kvittering er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
-        },
-        {
-          "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver troca com talão.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at få svar om bytte med kvittering.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de troca com talão.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om bytte med kvittering.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com troca com talão?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med bytte med kvittering?",
-          "grammarDa": "Avançarmos er nós-form efter para."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre troca com talão; depois o técnico regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om bytte med kvittering; derefter registrerer teknikeren det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Se houver algum problema com troca com talão, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med bytte med kvittering, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Pode, mas talvez troca com talão fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver bytte med kvittering løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
-        },
-        {
-          "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre troca com talão.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om bytte med kvittering.",
-          "grammarDa": "Agradecia er høfligt."
-        },
-        {
-          "speaker": "B",
-          "textPt": "Combinado; quando troca com talão estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når bytte med kvittering er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
-        }
-      ],
-      "vocabulary": [
-        {
-          "textPt": "troca com talão",
-          "textDa": "bytte med kvittering"
-        },
-        {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
-        },
-        {
-          "textPt": "talvez",
-          "textDa": "måske"
-        },
-        {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
-        },
-        {
-          "textPt": "processo",
-          "textDa": "sag/proces"
-        }
-      ],
-      "grammar": [
-        {
-          "titleDa": "Regelmæssige verber i Roupa para crianças",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "trocar",
-          "conjugation": [
-            {
-              "subject": "eu (presente)",
-              "form": "troco"
-            },
-            {
-              "subject": "tu (presente)",
-              "form": "trocas"
-            },
-            {
-              "subject": "ele/ela/você (presente)",
-              "form": "troca"
-            },
-            {
-              "subject": "nós (presente)",
-              "form": "trocamos"
-            },
-            {
-              "subject": "vocês (presente)",
-              "form": "trocam"
-            },
-            {
-              "subject": "eles/elas (presente)",
-              "form": "trocam"
-            },
-            {
-              "subject": "eu (pretérito perfeito)",
-              "form": "troquei"
-            },
-            {
-              "subject": "tu (pretérito perfeito)",
-              "form": "trocaste"
-            },
-            {
-              "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "trocou"
-            },
-            {
-              "subject": "nós (pretérito perfeito)",
-              "form": "trocámos"
-            },
-            {
-              "subject": "vocês (pretérito perfeito)",
-              "form": "trocaram"
-            },
-            {
-              "subject": "eles/elas (pretérito perfeito)",
-              "form": "trocaram"
-            }
-          ],
-          "examples": [
-            {
-              "pt": "Hoje nós trocamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
-            },
-            {
-              "pt": "Ontem a funcionária trocou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
-            }
-          ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
-          "commonMistakes": [
-            {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
-            }
-          ],
-          "verbDa": "at bytte"
+          ]
         }
       ]
     },
     {
       "id": 7,
-      "titleDa": "Maskinvaskbar",
-      "objectiveDa": "Træn en realistisk mini-dialog om maskinvaskbar.",
+      "titleDa": "Roupa de verão",
+      "objectiveDa": "Brug sommershorts i en konkret scene om Roupa para crianças.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de lavável à máquina; pode orientar-me?",
-          "textDa": "Undskyld, jeg har et spørgsmål om maskinvaskbar; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
+          "textPt": "Entro na loja de roupa e começo por calções de verão, porque isso faz parte da história de hoje.",
+          "textDa": "Jeg går ind i børnetøjsbutikken og begynder med sommershorts, fordi det hører til dagens historie.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
         },
         {
           "speaker": "B",
-          "textPt": "A cliente pergunta se lavável à máquina é para hoje ou para mais tarde.",
-          "textDa": "Kunden spørger, om maskinvaskbar er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
+          "textPt": "A pessoa responsável mostra calções de verão e explica o passo seguinte.",
+          "textDa": "Den ansvarlige viser sommershorts og forklarer næste trin.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
         },
         {
           "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver lavável à máquina.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at få svar om maskinvaskbar.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
+          "textPt": "Onde posso encontrar calções de verão?",
+          "textDa": "Hvor kan jeg finde sommershorts?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
         },
         {
           "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de lavável à máquina.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om maskinvaskbar.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+          "textPt": "O detalhe importante sobre calções de verão está escrito no aviso pequeno.",
+          "textDa": "Den vigtige detalje om sommershorts står på det lille skilt.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
         },
         {
           "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com lavável à máquina?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med maskinvaskbar?",
-          "grammarDa": "Avançarmos er nós-form efter para."
+          "textPt": "Tenho a informação sobre calções de verão guardada nas minhas notas.",
+          "textDa": "Jeg har informationen om sommershorts gemt i mine noter.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
         },
         {
           "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre lavável à máquina; depois a cliente regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om maskinvaskbar; derefter registrerer kunden det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
+          "textPt": "Calções de verão está disponível neste momento e pertence ao contexto da loja de roupa.",
+          "textDa": "Sommershorts er tilgængelig lige nu og hører til børnetøjsbutikken.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
         },
         {
           "speaker": "A",
-          "textPt": "Se houver algum problema com lavável à máquina, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med maskinvaskbar, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
+          "textPt": "No sábado procurei calções de verão e percebi melhor a situação.",
+          "textDa": "I lørdags arbejdede jeg med sommershorts og forstod situationen bedre.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
         },
         {
           "speaker": "B",
-          "textPt": "Pode, mas talvez lavável à máquina fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver maskinvaskbar løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
+          "textPt": "A explicação sobre calções de verão é útil porque a situação é concreta.",
+          "textDa": "Forklaringen om sommershorts er nyttig, fordi situationen er konkret.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
         },
         {
           "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre lavável à máquina.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om maskinvaskbar.",
-          "grammarDa": "Agradecia er høfligt."
+          "textPt": "Procuro calções de verão na arara e sigo para a próxima cena.",
+          "textDa": "Jeg arbejder med sommershorts på tøjstativet og går videre til næste scene.",
+          "grammarDa": "Procurar viser handlingen i scenen."
         },
         {
           "speaker": "B",
-          "textPt": "Combinado; quando lavável à máquina estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når maskinvaskbar er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
+          "textPt": "Depois de resolver calções de verão, sigo para a próxima parte da história.",
+          "textDa": "Efter at have fået sommershorts på plads går jeg videre til næste del af historien.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "lavável à máquina",
-          "textDa": "maskinvaskbar"
+          "textPt": "calções de verão",
+          "textDa": "sommershorts"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "roupa",
+          "textDa": "Roupa para crianças"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "procurar",
+          "textDa": "at søge efter"
         },
         {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
+          "textPt": "arara",
+          "textDa": "på tøjstativet"
         },
         {
-          "textPt": "processo",
-          "textDa": "sag/proces"
+          "textPt": "cena de calções de verão",
+          "textDa": "scene om sommershorts"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Roupa para crianças",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "trocar",
+          "titleDa": "Procurar i scenen",
+          "explanationDa": "procurar betyder \"at søge efter\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "procurar",
+          "verbDa": "at søge efter",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "troco"
+              "form": "procuro"
             },
             {
               "subject": "tu (presente)",
-              "form": "trocas"
+              "form": "procuras"
             },
             {
               "subject": "ele/ela/você (presente)",
-              "form": "troca"
+              "form": "procura"
             },
             {
               "subject": "nós (presente)",
-              "form": "trocamos"
+              "form": "procuramos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "trocam"
+              "form": "procuram"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "trocam"
+              "form": "procuram"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "troquei"
+              "form": "procurei"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "trocaste"
+              "form": "procuraste"
             },
             {
               "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "trocou"
+              "form": "procurou"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "trocámos"
+              "form": "procuramos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "trocaram"
+              "form": "procuraram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "trocaram"
+              "form": "procuraram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje nós trocamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Procuro calções de verão na arara.",
+              "da": "Jeg arbejder med sommershorts på tøjstativet."
             },
             {
-              "pt": "Ontem a funcionária trocou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "No sábado procurei calções de verão.",
+              "da": "No sábado arbejdede jeg med sommershorts."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "wrong": "Ontem eu procuro.",
+              "correct": "No sábado procurei.",
+              "noteDa": "Efter no sábado bruges normalt datid, når handlingen er afsluttet."
             }
-          ],
-          "verbDa": "at bytte"
+          ]
         }
       ]
     },
     {
       "id": 8,
-      "titleDa": "Gave til nevø",
-      "objectiveDa": "Træn en realistisk mini-dialog om gave til nevø.",
+      "titleDa": "Instruções de lavagem",
+      "objectiveDa": "Brug vaskeanvisning i en konkret scene om Roupa para crianças.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de presente para sobrinho; pode orientar-me?",
-          "textDa": "Undskyld, jeg har et spørgsmål om gave til nevø; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
+          "textPt": "Entro na loja de roupa e começo por instruções de lavagem, porque isso faz parte da história de hoje.",
+          "textDa": "Jeg går ind i børnetøjsbutikken og begynder med vaskeanvisning, fordi det hører til dagens historie.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
         },
         {
           "speaker": "B",
-          "textPt": "O cliente pergunta se presente para sobrinho é para hoje ou para mais tarde.",
-          "textDa": "Kunden spørger, om gave til nevø er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
+          "textPt": "A pessoa responsável mostra instruções de lavagem e explica o passo seguinte.",
+          "textDa": "Den ansvarlige viser vaskeanvisning og forklarer næste trin.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
         },
         {
           "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver presente para sobrinho.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at få svar om gave til nevø.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
+          "textPt": "Onde posso encontrar instruções de lavagem?",
+          "textDa": "Hvor kan jeg finde vaskeanvisning?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
         },
         {
           "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de presente para sobrinho.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om gave til nevø.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+          "textPt": "O detalhe importante sobre instruções de lavagem está escrito no aviso pequeno.",
+          "textDa": "Den vigtige detalje om vaskeanvisning står på det lille skilt.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
         },
         {
           "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com presente para sobrinho?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med gave til nevø?",
-          "grammarDa": "Avançarmos er nós-form efter para."
+          "textPt": "Tenho a informação sobre instruções de lavagem guardada nas minhas notas.",
+          "textDa": "Jeg har informationen om vaskeanvisning gemt i mine noter.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
         },
         {
           "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre presente para sobrinho; depois o cliente regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om gave til nevø; derefter registrerer kunden det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
+          "textPt": "Instruções de lavagem está disponível neste momento e pertence ao contexto da loja de roupa.",
+          "textDa": "Vaskeanvisning er tilgængelig lige nu og hører til børnetøjsbutikken.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
         },
         {
           "speaker": "A",
-          "textPt": "Se houver algum problema com presente para sobrinho, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med gave til nevø, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
+          "textPt": "Há pouco li instruções de lavagem e percebi melhor a situação.",
+          "textDa": "For lidt siden arbejdede jeg med vaskeanvisning og forstod situationen bedre.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
         },
         {
           "speaker": "B",
-          "textPt": "Pode, mas talvez presente para sobrinho fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver gave til nevø løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
+          "textPt": "A explicação sobre instruções de lavagem é útil porque a situação é concreta.",
+          "textDa": "Forklaringen om vaskeanvisning er nyttig, fordi situationen er konkret.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
         },
         {
           "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre presente para sobrinho.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om gave til nevø.",
-          "grammarDa": "Agradecia er høfligt."
+          "textPt": "Leio instruções de lavagem na etiqueta e sigo para a próxima cena.",
+          "textDa": "Jeg arbejder med vaskeanvisning på mærket og går videre til næste scene.",
+          "grammarDa": "Ler viser handlingen i scenen."
         },
         {
           "speaker": "B",
-          "textPt": "Combinado; quando presente para sobrinho estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når gave til nevø er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
+          "textPt": "Depois de resolver instruções de lavagem, sigo para a próxima parte da história.",
+          "textDa": "Efter at have fået vaskeanvisning på plads går jeg videre til næste del af historien.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "presente para sobrinho",
-          "textDa": "gave til nevø"
+          "textPt": "instruções de lavagem",
+          "textDa": "vaskeanvisning"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "roupa",
+          "textDa": "Roupa para crianças"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "ler",
+          "textDa": "at læse"
         },
         {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
+          "textPt": "etiqueta",
+          "textDa": "på mærket"
         },
         {
-          "textPt": "processo",
-          "textDa": "sag/proces"
+          "textPt": "cena de instruções de lavagem",
+          "textDa": "scene om vaskeanvisning"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Roupa para crianças",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "trocar",
+          "titleDa": "Ler i scenen",
+          "explanationDa": "ler betyder \"at læse\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "ler",
+          "verbDa": "at læse",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "troco"
+              "form": "leio"
             },
             {
               "subject": "tu (presente)",
-              "form": "trocas"
+              "form": "lês"
             },
             {
               "subject": "ele/ela/você (presente)",
-              "form": "troca"
+              "form": "lê"
             },
             {
               "subject": "nós (presente)",
-              "form": "trocamos"
+              "form": "lemos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "trocam"
+              "form": "leem"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "trocam"
+              "form": "leem"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "troquei"
+              "form": "li"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "trocaste"
+              "form": "leste"
             },
             {
               "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "trocou"
+              "form": "leu"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "trocámos"
+              "form": "lemos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "trocaram"
+              "form": "leram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "trocaram"
+              "form": "leram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje nós trocamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Leio instruções de lavagem na etiqueta.",
+              "da": "Jeg arbejder med vaskeanvisning på mærket."
             },
             {
-              "pt": "Ontem a funcionária trocou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "Há pouco li instruções de lavagem.",
+              "da": "For lidt siden arbejdede jeg med vaskeanvisning."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "wrong": "Ontem eu leio.",
+              "correct": "Há pouco li.",
+              "noteDa": "Efter há pouco bruges normalt datid, når handlingen er afsluttet."
             }
-          ],
-          "verbDa": "at bytte"
+          ]
         }
       ]
     },
     {
       "id": 9,
-      "titleDa": "To størrelser",
-      "objectiveDa": "Træn en realistisk mini-dialog om to størrelser.",
+      "titleDa": "Trocar presente",
+      "objectiveDa": "Brug gave der skal byttes i en konkret scene om Roupa para crianças.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de dois tamanhos; pode orientar-me?",
-          "textDa": "Undskyld, jeg har et spørgsmål om to størrelser; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
+          "textPt": "Entro na loja de roupa e começo por presente para trocar, porque isso faz parte da história de hoje.",
+          "textDa": "Jeg går ind i børnetøjsbutikken og begynder med gave der skal byttes, fordi det hører til dagens historie.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
         },
         {
           "speaker": "B",
-          "textPt": "As crianças pergunta se dois tamanhos é para hoje ou para mais tarde.",
-          "textDa": "Børnene spørger, om to størrelser er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
+          "textPt": "A pessoa responsável mostra presente para trocar e explica o passo seguinte.",
+          "textDa": "Den ansvarlige viser gave der skal byttes og forklarer næste trin.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
         },
         {
           "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver dois tamanhos.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at få svar om to størrelser.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
+          "textPt": "Onde posso encontrar presente para trocar?",
+          "textDa": "Hvor kan jeg finde gave der skal byttes?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
         },
         {
           "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de dois tamanhos.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om to størrelser.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+          "textPt": "O detalhe importante sobre presente para trocar está escrito no aviso pequeno.",
+          "textDa": "Den vigtige detalje om gave der skal byttes står på det lille skilt.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
         },
         {
           "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com dois tamanhos?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med to størrelser?",
-          "grammarDa": "Avançarmos er nós-form efter para."
+          "textPt": "Tenho a informação sobre presente para trocar guardada nas minhas notas.",
+          "textDa": "Jeg har informationen om gave der skal byttes gemt i mine noter.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
         },
         {
           "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre dois tamanhos; depois as crianças regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om to størrelser; derefter registrerer børnene det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
+          "textPt": "Presente para trocar está disponível neste momento e pertence ao contexto da loja de roupa.",
+          "textDa": "Gave der skal byttes er tilgængelig lige nu og hører til børnetøjsbutikken.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
         },
         {
           "speaker": "A",
-          "textPt": "Se houver algum problema com dois tamanhos, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med to størrelser, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
+          "textPt": "Ontem troquei presente para trocar e percebi melhor a situação.",
+          "textDa": "I går arbejdede jeg med gave der skal byttes og forstod situationen bedre.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
         },
         {
           "speaker": "B",
-          "textPt": "Pode, mas talvez dois tamanhos fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver to størrelser løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
+          "textPt": "A explicação sobre presente para trocar é útil porque a situação é concreta.",
+          "textDa": "Forklaringen om gave der skal byttes er nyttig, fordi situationen er konkret.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
         },
         {
           "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre dois tamanhos.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om to størrelser.",
-          "grammarDa": "Agradecia er høfligt."
+          "textPt": "Troco presente para trocar na caixa e sigo para a próxima cena.",
+          "textDa": "Jeg arbejder med gave der skal byttes ved kassen og går videre til næste scene.",
+          "grammarDa": "Trocar viser handlingen i scenen."
         },
         {
           "speaker": "B",
-          "textPt": "Combinado; quando dois tamanhos estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når to størrelser er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
+          "textPt": "Depois de resolver presente para trocar, sigo para a próxima parte da história.",
+          "textDa": "Efter at have fået gave der skal byttes på plads går jeg videre til næste del af historien.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "dois tamanhos",
-          "textDa": "to størrelser"
+          "textPt": "presente para trocar",
+          "textDa": "gave der skal byttes"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "roupa",
+          "textDa": "Roupa para crianças"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "trocar",
+          "textDa": "at bytte"
         },
         {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
+          "textPt": "caixa",
+          "textDa": "ved kassen"
         },
         {
-          "textPt": "processo",
-          "textDa": "sag/proces"
+          "textPt": "cena de presente para trocar",
+          "textDa": "scene om gave der skal byttes"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Roupa para crianças",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
+          "titleDa": "Trocar i scenen",
+          "explanationDa": "trocar betyder \"at bytte\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
           "verb": "trocar",
+          "verbDa": "at bytte",
           "conjugation": [
             {
               "subject": "eu (presente)",
@@ -1527,7 +1558,7 @@
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "trocámos"
+              "form": "trocamos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
@@ -1540,472 +1571,428 @@
           ],
           "examples": [
             {
-              "pt": "Hoje nós trocamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Troco presente para trocar na caixa.",
+              "da": "Jeg arbejder med gave der skal byttes ved kassen."
             },
             {
-              "pt": "Ontem a funcionária trocou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "Ontem troquei presente para trocar.",
+              "da": "I går arbejdede jeg med gave der skal byttes."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "wrong": "Ontem eu troco.",
+              "correct": "Ontem troquei.",
+              "noteDa": "Efter ontem bruges normalt datid, når handlingen er afsluttet."
             }
-          ],
-          "verbDa": "at bytte"
+          ]
         }
       ]
     },
     {
       "id": 10,
-      "titleDa": "Betaling ved disken",
-      "objectiveDa": "Træn en realistisk mini-dialog om betaling ved disken.",
+      "titleDa": "Embrulho",
+      "objectiveDa": "Brug gaveindpakning i en konkret scene om Roupa para crianças.",
       "phrases": [
         {
           "speaker": "A",
-          "textPt": "Desculpe, estou a tratar de pagamento no balcão; pode orientar-me?",
-          "textDa": "Undskyld, jeg har et spørgsmål om betaling ved disken; kan De hjælpe mig videre?",
-          "grammarDa": "Estou a tratar de beskriver en igangværende handling."
+          "textPt": "Entro na loja de roupa e começo por embrulho de presente, porque isso faz parte da história de hoje.",
+          "textDa": "Jeg går ind i børnetøjsbutikken og begynder med gaveindpakning, fordi det hører til dagens historie.",
+          "grammarDa": "Åbningssætningen sætter scenen konkret."
         },
         {
           "speaker": "B",
-          "textPt": "O responsável pergunta se pagamento no balcão é para hoje ou para mais tarde.",
-          "textDa": "Den ansvarlige spørger, om betaling ved disken er til i dag eller senere.",
-          "grammarDa": "Pergunta se indleder indirekte spørgsmål."
+          "textPt": "A pessoa responsável mostra embrulho de presente e explica o passo seguinte.",
+          "textDa": "Den ansvarlige viser gaveindpakning og forklarer næste trin.",
+          "grammarDa": "Svaret bruger stedets normale arbejdsgang."
         },
         {
           "speaker": "A",
-          "textPt": "É para hoje, porque ontem já tentei resolver pagamento no balcão.",
-          "textDa": "Det er til i dag, fordi jeg allerede i går prøvede at få svar om betaling ved disken.",
-          "grammarDa": "Tentei resolver er datid + infinitiv."
+          "textPt": "Onde posso encontrar embrulho de presente?",
+          "textDa": "Hvor kan jeg finde gaveindpakning?",
+          "grammarDa": "Spørgsmålet stilles direkte uden omskrivning."
         },
         {
           "speaker": "B",
-          "textPt": "Então convém confirmar primeiro os detalhes de pagamento no balcão.",
-          "textDa": "Så er det bedst først at bekræfte detaljerne om betaling ved disken.",
-          "grammarDa": "Convém confirmar er en forsigtig anbefaling."
+          "textPt": "O detalhe importante sobre embrulho de presente está escrito no aviso pequeno.",
+          "textDa": "Den vigtige detalje om gaveindpakning står på det lille skilt.",
+          "grammarDa": "Detaljen forklarer næste trin i situationen."
         },
         {
           "speaker": "A",
-          "textPt": "Que informação falta para avançarmos com pagamento no balcão?",
-          "textDa": "Hvilken information mangler der, for at vi kan komme videre med betaling ved disken?",
-          "grammarDa": "Avançarmos er nós-form efter para."
+          "textPt": "Tenho a informação sobre embrulho de presente guardada nas minhas notas.",
+          "textDa": "Jeg har informationen om gaveindpakning gemt i mine noter.",
+          "grammarDa": "Ter bruges naturligt om noget personen har."
         },
         {
           "speaker": "B",
-          "textPt": "Falta só um dado pequeno sobre pagamento no balcão; depois o responsável regista tudo no sistema.",
-          "textDa": "Der mangler kun én lille oplysning om betaling ved disken; derefter registrerer den ansvarlige det hele i systemet.",
-          "grammarDa": "Regista er nutid med varieret subjekt."
+          "textPt": "Embrulho de presente está disponível neste momento e pertence ao contexto da loja de roupa.",
+          "textDa": "Gaveindpakning er tilgængelig lige nu og hører til børnetøjsbutikken.",
+          "grammarDa": "Estar beskriver placering eller aktuel tilstand."
         },
         {
           "speaker": "A",
-          "textPt": "Se houver algum problema com pagamento no balcão, posso voltar amanhã?",
-          "textDa": "Hvis der er et problem med betaling ved disken, kan jeg komme tilbage i morgen?",
-          "grammarDa": "Se houver bruges om mulighed."
+          "textPt": "No fim pedi embrulho de presente e percebi melhor a situação.",
+          "textDa": "No fim arbejdede jeg med gaveindpakning og forstod situationen bedre.",
+          "grammarDa": "Pretérito perfeito bruges om noget afsluttet."
         },
         {
           "speaker": "B",
-          "textPt": "Pode, mas talvez pagamento no balcão fique resolvido antes do fim da manhã.",
-          "textDa": "Det kan De, men måske bliver betaling ved disken løst før formiddagen er slut.",
-          "grammarDa": "Fique resolvido udtrykker resultat."
+          "textPt": "A explicação sobre embrulho de presente é útil porque a situação é concreta.",
+          "textDa": "Forklaringen om gaveindpakning er nyttig, fordi situationen er konkret.",
+          "grammarDa": "Ser beskriver en fast oplysning eller egenskab."
         },
         {
           "speaker": "A",
-          "textPt": "Nesse caso, agradecia uma confirmação por email sobre pagamento no balcão.",
-          "textDa": "I så fald vil jeg gerne have en bekræftelse på mail om betaling ved disken.",
-          "grammarDa": "Agradecia er høfligt."
+          "textPt": "Peço embrulho de presente ao balcão e sigo para a próxima cena.",
+          "textDa": "Jeg arbejder med gaveindpakning ved disken og går videre til næste scene.",
+          "grammarDa": "Pedir viser handlingen i scenen."
         },
         {
           "speaker": "B",
-          "textPt": "Combinado; quando pagamento no balcão estiver pronto, enviamos a mensagem e explicamos o próximo passo.",
-          "textDa": "Aftale; når betaling ved disken er klar, sender vi beskeden og forklarer næste trin.",
-          "grammarDa": "Enviamos og explicamos er nós-former."
+          "textPt": "Depois de resolver embrulho de presente, sigo para a próxima parte da história.",
+          "textDa": "Efter at have fået gaveindpakning på plads går jeg videre til næste del af historien.",
+          "grammarDa": "Afslutningen peger videre i fortællingen."
         }
       ],
       "vocabulary": [
         {
-          "textPt": "pagamento no balcão",
-          "textDa": "betaling ved disken"
+          "textPt": "embrulho de presente",
+          "textDa": "gaveindpakning"
         },
         {
-          "textPt": "confirmar",
-          "textDa": "at bekræfte"
+          "textPt": "roupa",
+          "textDa": "Roupa para crianças"
         },
         {
-          "textPt": "talvez",
-          "textDa": "måske"
+          "textPt": "pedir",
+          "textDa": "at bede om/bestille"
         },
         {
-          "textPt": "disponível",
-          "textDa": "tilgængelig"
+          "textPt": "balcão",
+          "textDa": "ved disken"
         },
         {
-          "textPt": "processo",
-          "textDa": "sag/proces"
+          "textPt": "cena de embrulho de presente",
+          "textDa": "scene om gaveindpakning"
         }
       ],
       "grammar": [
         {
-          "titleDa": "Regelmæssige verber i Roupa para crianças",
-          "explanationDa": "Lektionens dialoger bruger regelmæssige verber i nutid og en forsigtig introduktion til pretérito perfeito. Datid bruges især ved ontem, já og na semana passada.",
-          "verb": "trocar",
+          "titleDa": "Pedir i scenen",
+          "explanationDa": "pedir betyder \"at bede om/bestille\". Dialogen bruger nutid til den aktuelle situation og lidt pretérito perfeito til det, der allerede er sket.",
+          "verb": "pedir",
+          "verbDa": "at bede om/bestille",
           "conjugation": [
             {
               "subject": "eu (presente)",
-              "form": "troco"
+              "form": "peço"
             },
             {
               "subject": "tu (presente)",
-              "form": "trocas"
+              "form": "pedes"
             },
             {
               "subject": "ele/ela/você (presente)",
-              "form": "troca"
+              "form": "pede"
             },
             {
               "subject": "nós (presente)",
-              "form": "trocamos"
+              "form": "pedimos"
             },
             {
               "subject": "vocês (presente)",
-              "form": "trocam"
+              "form": "pedem"
             },
             {
               "subject": "eles/elas (presente)",
-              "form": "trocam"
+              "form": "pedem"
             },
             {
               "subject": "eu (pretérito perfeito)",
-              "form": "troquei"
+              "form": "pedi"
             },
             {
               "subject": "tu (pretérito perfeito)",
-              "form": "trocaste"
+              "form": "pediste"
             },
             {
               "subject": "ele/ela/você (pretérito perfeito)",
-              "form": "trocou"
+              "form": "pediu"
             },
             {
               "subject": "nós (pretérito perfeito)",
-              "form": "trocámos"
+              "form": "pedimos"
             },
             {
               "subject": "vocês (pretérito perfeito)",
-              "form": "trocaram"
+              "form": "pediram"
             },
             {
               "subject": "eles/elas (pretérito perfeito)",
-              "form": "trocaram"
+              "form": "pediram"
             }
           ],
           "examples": [
             {
-              "pt": "Hoje nós trocamos vocabulário útil.",
-              "da": "I dag øver vi nyttigt ordforråd."
+              "pt": "Peço embrulho de presente ao balcão.",
+              "da": "Jeg arbejder med gaveindpakning ved disken."
             },
             {
-              "pt": "Ontem a funcionária trocou a situação.",
-              "da": "I går forklarede medarbejderen situationen."
-            },
-            {
-              "pt": "Talvez seja melhor confirmar antes de sair.",
-              "da": "Måske er det bedre at bekræfte, før man går."
+              "pt": "No fim pedi embrulho de presente.",
+              "da": "Til sidst arbejdede jeg med gaveindpakning."
             }
           ],
-          "notesDa": "Hold øje med subjektet. Niveau 3 varierer mellem você, ele/ela, nós, o funcionário, a cliente og upersonlige udtryk.",
+          "notesDa": "Ser, estar og ter dukker naturligt op i dialogen: noget er fast, noget er lige nu, og nogen har en oplysning eller en genstand.",
           "commonMistakes": [
             {
-              "wrong": "Ontem nós procura o livro.",
-              "correct": "Ontem nós procurámos o livro.",
-              "noteDa": "Brug nós-form og datid, når handlingen er afsluttet."
-            },
-            {
-              "wrong": "Você aluguei a bicicleta?",
-              "correct": "Você alugou a bicicleta?",
-              "noteDa": "Você bruger tredje person ental."
+              "wrong": "Ontem eu peço.",
+              "correct": "No fim pedi.",
+              "noteDa": "Efter no fim bruges normalt datid, når handlingen er afsluttet."
             }
-          ],
-          "verbDa": "at bytte"
+          ]
         }
       ]
+    }
+  ],
+  "story": [
+    {
+      "speaker": "Fortæller",
+      "textPt": "Na cena 1, entro em contacto com t-shirt de criança na primeira mesa.",
+      "textDa": "I scene 1 møder jeg børne-T-shirt ved det første bord.",
+      "grammarDa": "Læselinje 1 hænger sammen med dialogen \"T-shirt de criança\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Escolho t-shirt de criança, uso ser, estar e ter naturalmente, e avanço na história.",
+      "textDa": "Jeg arbejder med børne-T-shirt, bruger ser, estar og ter naturligt, og går videre i historien.",
+      "grammarDa": "Læselinje 2 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Na cena 2, entro em contacto com calças na secção escolar.",
+      "textDa": "I scene 2 møder jeg bukser i skoleafdelingen.",
+      "grammarDa": "Læselinje 3 hænger sammen med dialogen \"Calças para escola\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Procuro calças, uso ser, estar e ter naturalmente, e avanço na história.",
+      "textDa": "Jeg arbejder med bukser, bruger ser, estar og ter naturligt, og går videre i historien.",
+      "grammarDa": "Læselinje 4 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Na cena 3, entro em contacto com casaco de inverno no provador.",
+      "textDa": "I scene 3 møder jeg vinterjakke i prøverummet.",
+      "grammarDa": "Læselinje 5 hænger sammen med dialogen \"Casaco de inverno\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Experimento casaco de inverno, uso ser, estar e ter naturalmente, e avanço na história.",
+      "textDa": "Jeg arbejder med vinterjakke, bruger ser, estar og ter naturligt, og går videre i historien.",
+      "grammarDa": "Læselinje 6 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Na cena 4, entro em contacto com sapatos de criança junto ao espelho.",
+      "textDa": "I scene 4 møder jeg børnesko ved spejlet.",
+      "grammarDa": "Læselinje 7 hænger sammen med dialogen \"Sapatos de criança\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Compro sapatos de criança, uso ser, estar e ter naturalmente, e avanço na história.",
+      "textDa": "Jeg arbejder med børnesko, bruger ser, estar og ter naturligt, og går videre i historien.",
+      "grammarDa": "Læselinje 8 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Na cena 5, entro em contacto com tamanho para nove anos na etiqueta.",
+      "textDa": "I scene 5 møder jeg størrelse til ni år på mærket.",
+      "grammarDa": "Læselinje 9 hænger sammen med dialogen \"Tamanho e idade\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Comparo tamanho para nove anos, uso ser, estar e ter naturalmente, e avanço na história.",
+      "textDa": "Jeg arbejder med størrelse til ni år, bruger ser, estar og ter naturligt, og går videre i historien.",
+      "grammarDa": "Læselinje 10 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Na cena 6, entro em contacto com cor azul na prateleira.",
+      "textDa": "I scene 6 møder jeg blå farve på hylden.",
+      "grammarDa": "Læselinje 11 hænger sammen med dialogen \"Escolher cor\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Escolho cor azul, uso ser, estar e ter naturalmente, e avanço na história.",
+      "textDa": "Jeg arbejder med blå farve, bruger ser, estar og ter naturligt, og går videre i historien.",
+      "grammarDa": "Læselinje 12 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Na cena 7, entro em contacto com calções de verão na arara.",
+      "textDa": "I scene 7 møder jeg sommershorts på tøjstativet.",
+      "grammarDa": "Læselinje 13 hænger sammen med dialogen \"Roupa de verão\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Procuro calções de verão, uso ser, estar e ter naturalmente, e avanço na história.",
+      "textDa": "Jeg arbejder med sommershorts, bruger ser, estar og ter naturligt, og går videre i historien.",
+      "grammarDa": "Læselinje 14 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Na cena 8, entro em contacto com instruções de lavagem na etiqueta.",
+      "textDa": "I scene 8 møder jeg vaskeanvisning på mærket.",
+      "grammarDa": "Læselinje 15 hænger sammen med dialogen \"Instruções de lavagem\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Leio instruções de lavagem, uso ser, estar e ter naturalmente, e avanço na história.",
+      "textDa": "Jeg arbejder med vaskeanvisning, bruger ser, estar og ter naturligt, og går videre i historien.",
+      "grammarDa": "Læselinje 16 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Na cena 9, entro em contacto com presente para trocar na caixa.",
+      "textDa": "I scene 9 møder jeg gave der skal byttes ved kassen.",
+      "grammarDa": "Læselinje 17 hænger sammen med dialogen \"Trocar presente\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Troco presente para trocar, uso ser, estar e ter naturalmente, e avanço na história.",
+      "textDa": "Jeg arbejder med gave der skal byttes, bruger ser, estar og ter naturligt, og går videre i historien.",
+      "grammarDa": "Læselinje 18 viser scenens resultat."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Na cena 10, entro em contacto com embrulho de presente ao balcão.",
+      "textDa": "I scene 10 møder jeg gaveindpakning ved disken.",
+      "grammarDa": "Læselinje 19 hænger sammen med dialogen \"Embrulho\"."
+    },
+    {
+      "speaker": "Fortæller",
+      "textPt": "Peço embrulho de presente, uso ser, estar e ter naturalmente, e avanço na história.",
+      "textDa": "Jeg arbejder med gaveindpakning, bruger ser, estar og ter naturligt, og går videre i historien.",
+      "grammarDa": "Læselinje 20 viser scenens resultat."
     }
   ],
   "quiz": [
     {
       "id": 1,
-      "questionDa": "Hvilken sætning passer bedst til temaet \"Roupa para crianças\"?",
+      "questionDa": "Hvad betyder \"roupa para crianças\"?",
       "answers": [
         {
-          "text": "Parece que tamanho oito ainda está disponível.",
+          "text": "børnetøj",
           "correct": true
         },
         {
-          "text": "O gato dorme na janela.",
+          "text": "bukser",
           "correct": false
         },
         {
-          "text": "A camisola é azul.",
+          "text": "vinterjakke",
           "correct": false
         },
         {
-          "text": "Há três maçãs na mesa.",
+          "text": "endestation",
           "correct": false
         }
       ],
-      "explanationDa": "Sætningen hører til lektionen Roupa para crianças."
+      "explanationDa": "Svarmuligheden kommer fra lektionens JSON-ordforråd."
     },
     {
       "id": 2,
-      "questionDa": "Hvilken form er nós i nutid?",
+      "questionDa": "Hvilken form er eu i nutid af escolher?",
       "answers": [
         {
-          "text": "trocamos",
+          "text": "escolho",
           "correct": true
         },
         {
-          "text": "trocámos",
+          "text": "escolhi",
           "correct": false
         },
         {
-          "text": "falam",
+          "text": "escolhes",
           "correct": false
         },
         {
-          "text": "partiste",
+          "text": "escolhem",
           "correct": false
         }
       ],
-      "explanationDa": "Nós-formen følger verbets regelmæssige mønster."
+      "explanationDa": "Nutidsformen er escolho."
     },
     {
       "id": 3,
-      "questionDa": "Hvilken form er nós i pretérito perfeito?",
+      "questionDa": "Hvilken form er eu i pretérito perfeito af procurar?",
       "answers": [
         {
-          "text": "trocámos",
+          "text": "procurei",
           "correct": true
         },
         {
-          "text": "trocamos",
+          "text": "procuro",
           "correct": false
         },
         {
-          "text": "procuram",
+          "text": "procurou",
           "correct": false
         },
         {
-          "text": "beberam",
+          "text": "tenho",
           "correct": false
         }
       ],
-      "explanationDa": "Pretérito perfeito bruges om en afsluttet handling."
+      "explanationDa": "Datidsformen er procurei."
     },
     {
       "id": 4,
-      "questionDa": "Hvad betyder: Parece que tamanho oito ainda está disponível.",
+      "questionDa": "Vælg den bedste oversættelse: Quanto custa ou onde fica casaco de inverno?",
       "answers": [
         {
-          "text": "Det ser ud til, at størrelse otte stadig er tilgængelig.",
+          "text": "Hvad koster vinterjakke, eller hvor finder jeg det?",
           "correct": true
         },
         {
-          "text": "Jeg har travlt i morgen.",
+          "text": "På den måde er børne-T-shirt på plads før historiens næste trin.",
           "correct": false
         },
         {
-          "text": "Vi bestilte to kaffe.",
+          "text": "Her har bukser sin egen regel, og betjeningen er direkte.",
           "correct": false
         },
         {
-          "text": "Børnene leger udenfor.",
+          "text": "Jeg kommer tilbage i morgen.",
           "correct": false
         }
       ],
-      "explanationDa": "Oversættelsen kommer fra dialogernes ordforråd."
+      "explanationDa": "Spørgsmålene træner direkte hverdagssprog."
     },
     {
       "id": 5,
-      "questionDa": "Vælg den mest naturlige høflige formulering.",
+      "questionDa": "Hvilket ord hører til lektionen \"Roupa para crianças\"?",
       "answers": [
         {
-          "text": "Pode ajudar-me, por favor?",
+          "text": "casaco",
           "correct": true
         },
         {
-          "text": "Ajuda mim agora.",
+          "text": "receita médica",
           "correct": false
         },
         {
-          "text": "Você ajuda eu?",
+          "text": "quarto de hotel",
           "correct": false
         },
         {
-          "text": "Dar ajuda rápido.",
+          "text": "garagem privada",
           "correct": false
         }
       ],
-      "explanationDa": "Pode ajudar-me, por favor? er en naturlig høflig formulering."
-    },
-    {
-      "id": 6,
-      "questionDa": "Hvilken portugisisk form er tallet 73?",
-      "answers": [
-        {
-          "text": "setenta e três",
-          "correct": true
-        },
-        {
-          "text": "vinte",
-          "correct": false
-        },
-        {
-          "text": "sessenta",
-          "correct": false
-        },
-        {
-          "text": "noventa",
-          "correct": false
-        }
-      ],
-      "explanationDa": "Talquizzen kommer fra JSON og kan genbruges i fremtidige niveauer."
-    }
-  ],
-  "storyTitleDa": "En jakke der var for lille",
-  "storyObjectiveDa": "Læs en kort tekst med en konkret situation, varierede subjekter, regelmæssige verber og lidt pretérito perfeito.",
-  "story": [
-    {
-      "speaker": "A",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre tamanho oito.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om størrelse otte.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "A pessoa responsável verificou tamanho oito com calma antes de responder.",
-      "textDa": "Den ansvarlige person gennemgik informationen om størrelse otte, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre sapatos de criança.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om børnesko.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "A pessoa responsável verificou sapatos de criança com calma antes de responder.",
-      "textDa": "Den ansvarlige person gennemgik informationen om børnesko, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre casaco de inverno.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om vinterjakke.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "A pessoa responsável verificou casaco de inverno com calma antes de responder.",
-      "textDa": "Den ansvarlige person gennemgik informationen om vinterjakke, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre cor azul.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om blå farve.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "A pessoa responsável verificou cor azul com calma antes de responder.",
-      "textDa": "Den ansvarlige person gennemgik informationen om blå farve, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre provar no provador.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om prøve i prøverummet.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "A pessoa responsável verificou provar no provador com calma antes de responder.",
-      "textDa": "Den ansvarlige person gennemgik informationen om prøve i prøverummet, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre troca com talão.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om bytte med kvittering.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "A pessoa responsável verificou troca com talão com calma antes de responder.",
-      "textDa": "Den ansvarlige person gennemgik informationen om bytte med kvittering, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre lavável à máquina.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om maskinvaskbar.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "A pessoa responsável verificou lavável à máquina com calma antes de responder.",
-      "textDa": "Den ansvarlige person gennemgik informationen om maskinvaskbar, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre presente para sobrinho.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om gave til nevø.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "A pessoa responsável verificou presente para sobrinho com calma antes de responder.",
-      "textDa": "Den ansvarlige person gennemgik informationen om gave til nevø, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre dois tamanhos.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om to størrelser.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "A",
-      "textPt": "A pessoa responsável verificou dois tamanhos com calma antes de responder.",
-      "textDa": "Den ansvarlige person gennemgik informationen om to størrelser, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "Na terça-feira, surgiu uma dúvida sobre pagamento no balcão.",
-      "textDa": "Om tirsdagen opstod der et spørgsmål om betaling ved disken.",
-      "grammarDa": "Surgiu er datid."
-    },
-    {
-      "speaker": "B",
-      "textPt": "A pessoa responsável verificou pagamento no balcão com calma antes de responder.",
-      "textDa": "Den ansvarlige person gennemgik informationen om betaling ved disken, før der kom et svar.",
-      "grammarDa": "Verificou er datid."
+      "explanationDa": "Quizzen bruger ord fra den aktuelle lektion."
     }
   ]
 }
